@@ -1,0 +1,502 @@
+# Energy flow in an ecosystem Lecture Notes
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W S 
+ENERGY FLOW IN AN ECOSYSTEM 
+1. Definition 
+An ecosystem is a structural and functional unit of ecology consisting of living organisms 
+(biotic components) interacting with each other and with their physical environment 
+(abiotic components), with a flow of energy and cycling of matter between them. 
+1.1 Biotic Components 
+All living organisms in an ecosystem are classified by their nutritional relationship: 
+i. Producers (Autotrophs): Organisms that manufacture their own food using an external 
+energy source. Primary producers use sunlight (photoautotrophs) — examples: grasses, 
+trees, algae, phytoplankton, cyanobacteria. Some use chemical energy 
+(chemoautotrophs) — examples: deep-sea hydrothermal vent bacteria. 
+ii. Consumers (Heterotrophs): Organisms that cannot make their own food and must 
+consume others. 
+ Primary Consumers (Herbivores): Feed directly on producers. Examples: deer, 
+rabbit, grasshopper, zooplankton, cattle. 
+ Secondary Consumers (Carnivores): Feed on herbivores. Examples: frogs, foxes, 
+small fish, spiders. 
+ Tertiary Consumers (Top Carnivores): Feed on secondary consumers. Examples: 
+eagles, tigers, sharks, orcas. 
+ Omnivores: Feed on both plants and animals. Examples: humans, bears, crows, pigs. 
+iii. Decomposers (Saprotrophs): Break down dead organic matter into inorganic nutrients. 
+Examples: bacteria (Bacillus, Pseudomonas) and fungi (Aspergillus, Rhizopus). 
+Essential for nutrient recycling. 
+iv. Detritivores: Ingest fragments of dead o rganic matter. Examples: earthworms, 
+millipedes, woodlice, dung beetles. Differ from decomposers which secrete 
+extracellular enzymes. 
+ 
+ 
+ 
+ 
+
+=== page 2 ===
+2 
+ 
+1.2 Abiotic Components 
+i. Solar radiation: Primary energy input. ~1.7 × 10¹⁷ W received by Earth; only ~0.023% 
+captured by photosynthesis. 
+ii. Temperature: Controls metabolic rates (Q10 rule: rate doubles per 10°C rise). 
+iii. Water: Universal solvent; required for photosynthesis and all biochemical reactions. 
+iv. Soil: Provides anchorage, water, and nutrients (N, P, K, micronutrients). 
+v. Atmospheric gases: O₂ for respiration; CO₂ for photosynthesis; N₂ for nitrogen fixation. 
+vi. pH, wind, topography: Influence organism distribution and species composition. 
+ 
+1.3 Types of Ecosystems 
+ 
+Category Type Example 
+Terrestrial Forest Amazon rainforest, Sundarbans mangroves 
+Terrestrial Grassland African savanna, Indian Deccan plateau 
+Terrestrial Desert Sahara, Thar Desert 
+Aquatic (Fresh) Lake/Pond Dal Lake, Chilika Lake 
+Aquatic (Fresh) River Ganga, Brahmaputra 
+Aquatic 
+(Marine) 
+Ocean Coral reefs, deep-sea ecosystems 
+Artificial Crop field Paddy fields, orchards 
+ 
+2. Producers & Photosynthesis- The Energy Gateway 
+Key Principle: All energy in an ecosystem originates from the Sun and enters through 
+PRODUCERS via photosynthesis. Without producers, no other life can exist. 
+ 
+2.1 The Photosynthesis Reaction 
+Photosynthesis is the process by which producers convert light energy into chemical energy 
+stored in glucose: 
+
+=== page 3 ===
+3 
+ 
+6CO₂ + 6H₂O + Light Energy → C₆H₁₂O₆ + 6O₂ 
+i. CO₂ is absorbed from the atmosphere through stomata in leaves. 
+ii. H₂O is absorbed from soil through roots via xylem. 
+iii. Light energy (photons) is absorbed by chlorophyll pigments in chloroplasts. 
+iv. Glucose (C₆H₁₂O₆) stores the captured energy as chemical bond energy. 
+v. O₂ is released as a by-product — essential for aerobic respiration of all consumers. 
+ 
+2.2 Gross Primary Productivity (GPP) vs Net Primary Productivity (NPP) 
+ 
+Term Meaning Global Value 
+Gross Primary 
+Productivity (GPP) 
+Total rate of photosynthesis; all 
+energy fixed from sunlight per 
+unit area per unit time. 
+~120 Petagram 
+C/year globally 
+Respiration (R) Energy used by the producer 
+itself for its own metabolism, 
+growth, and maintenance. 
+~60 Pg C/year 
+globally 
+Net Primary 
+Productivity (NPP) 
+Energy available to the rest of the 
+food chain.  NPP = GPP − R 
+~60 Pg C/year 
+globally 
+ 
+NPP is the actual energy available to consumers and determines the carrying capacity of 
+the ecosystem. Tropical rainforests have the highest NPP (~2,000 g/m²/yr); deserts have 
+the lowest (~100 g/m²/yr). 
+ 
+2.3 Chemosynthesis — Energy Without Sunlight 
+In deep-sea ecosystems (hydrothermal vents, cold seeps), producers use chemical energy 
+instead of light energy. Chemoautotrophs oxidize inorganic compounds (H₂S, NH₄, Fe²⁺) 
+to fix CO₂. These unique ecosystems support life independ ently of solar energy, 
+demonstrating that photosynthesis is not the only route for energy entry into ecosystems. 
+
+=== page 4 ===
+4 
+ 
+ 
+3. Food Chains & Food Webs 
+3.1 Food Chain — Linear Energy Pathway 
+A food chain is a simple, linear sequence showing the feeding relationships and energy 
+transfer between organisms in an ecosystem. 
+ 
+A. Grazing Food Chain (starts from living green plants) 
+Sun → Grass (T1) → Grasshopper (T2) → Frog (T3) → Snake (T4) → Eagle (T5) 
+Characteristics: 
+i. Begins with living producers (green plants, algae). 
+ii. Most common type in terrestrial and marine ecosystems. 
+iii. Energy flows from lower to higher trophic levels. 
+iv. Maximum 4–5 links due to 10% energy transfer rule. 
+ 
+B. Detritus Food Chain (starts from dead organic matter) 
+Dead organic matter → Detritivores (earthw orms, millipedes) → Decomposers 
+(fungi, bacteria) → Inorganic nutrients → Soil → Producers 
+Characteristics: 
+i. Begins with dead plant/animal material (detritus). 
+ii. Dominant pathway in forest and wetland ecosystems (80–90% of energy flows through 
+here). 
+iii. Powered by decomposers — releases nutrients back to soil. 
+iv. Does NOT require sunlight directly — operates in dark soil layers. 
+ 
+3.2 Food Web — Complex Reality 
+A food web is an interconnected network of multiple food chains in an ecosystem, showing 
+all possible feeding relationships simultaneously. 
+
+=== page 5 ===
+5 
+ 
+i. More realistic than a food chain — most organisms eat multiple prey species. 
+ii. Provides ecosystem stability: if one prey species declines, predators can shift to 
+alternatives. 
+iii. Redundancy in pathways: energy can flow through multiple routes. 
+iv. Loss of a keystone species (e.g., sea otter, wolf) can collapse the entire web. 
+ 
+Classic Example — Yellowstone Trophic Cascade: When wolves were reintroduced in 
+1995, they preyed on deer → deer moved away from riverbanks → vegetation recovered 
+→ rivers changed course (less erosion). This cascade effect through the food web altered 
+the entire ecosystem, including its physical geography. 
+ 
+ 
+4. Ecological Pyramids 
+An ecological pyramid is a graphical representation of the relationship between  different 
+trophic levels in terms of numbers, biomass, or energy. Proposed by Charles Elton (1927) 
+also called the Eltonian Pyramid. 
+4.1 Pyramid of Numbers 
+Represents the number of individual organisms at each trophic level. 
+Shape Ecosystem Explanation 
+Upright Grassland / 
+Pond 
+Millions of grasses → thousands of insects → 
+hundreds of frogs → tens of birds 
+Upright Aquatic (pond) Phytoplankton → zooplankton → small fish → 
+large fish 
+Inverted Tree ecosystem 1 large tree supports many caterpillars → even 
+more parasites (wasps, mites) 
+Spindle-
+shaped 
+Forest Few producers (large trees), many herbivores 
+(insects), fewer carnivores 
+ 
+i. Disadvantage: Does not account for size of organisms. One large tree vs. millions of 
+bacteria cannot be fairly compared by number alone. 
+
+=== page 6 ===
+6 
+ 
+ 
+4.2 Pyramid of Biomass 
+Represents the total dry weight (biomass) of organisms at each trophic level, measured in 
+g/m² or kg/m². 
+Shape Ecosystem Reason 
+Upright Terrestrial (forest) Large plant biomass → less herbivore 
+biomass → even less carnivore biomass 
+Inverted Marine/Ocean Low phytoplankton biomass (rapid 
+turnover) → higher zooplankton biomass 
+ 
+ii. The inverted marine pyramid occurs because phytoplankton reproduce so rapidly 
+(hours) that their standing crop at any moment appears low, even though their 
+productivity over time is high. 
+iii. Disadvantage: Does not account for the rate of energy production (productivity), only 
+the standing stock. 
+ 
+4.3 Pyramid of Energy 
+Represents the total amount of energy present at each trophic level, measured  in kJ/m²/yr 
+or kcal/m²/yr. 
+i. ALWAYS UPRIGHT — energy always decreases at higher trophic levels. There are 
+NO exceptions. 
+ii. Most accurate and informative ecological pyramid — accounts for energy flow over 
+time. 
+iii. Based on Lindemann's 10% Law (see Section 5). 
+ 
+ 
+ 
+ 
+
+=== page 7 ===
+7 
+ 
+Trophic Level Energy 
+Content 
+% of 
+Original 
+Implication 
+Producers (T1) 10,000 kJ 100% All energy enters here 
+from photosynthesis 
+Primary Consumers 
+(T2) 
+1,000 kJ 10% Only 10% of T1 energy 
+transferred 
+Secondary Consumers 
+(T3) 
+100 kJ 1% Only 10% of T2 energy 
+transferred 
+Tertiary Consumers 
+(T4) 
+10 kJ 0.1% Only 10% of T3 energy 
+transferred 
+ 
+Disadvantage of Pyramids: Pyramids represent a snapshot in time and do not account for 
+seasonal variation. Decomposers and detritivores are usually not represented — yet they 
+process the majority of ecosystem energy. 
+ 
+5. Laws of Thermodynamics & Energy Transfer 
+5.1 First Law of Thermodynamics: Conservation of Energy 
+"Energy can neither be created nor destroyed; it can only be transformed from one form 
+to another." 
+Application to Ecosystems: 
+i. Solar energy (radiant) → Chemical energy (glucose via photosynthesis) 
+ii. Chemical energy (food) → Kinetic energy (movement) + Thermal energy (body heat) 
++ Chemical energy (growth) 
+iii. The TOTAL energy at each step is conserved — none is created or destroyed, only 
+transformed. 
+ 
+5.2 Second Law of Thermodynamics — Entropy 
+"In any energy transformation, some energy is inevitably lost as heat, increasing the 
+total entropy of the universe." 
+ 
+
+=== page 8 ===
+8 
+ 
+Application to Ecosystems: 
+i. Every energy transformati on (photosynthesis, eating, respiration) produces heat that 
+cannot be recovered. 
+ii. This is WHY energy flows in only ONE direction (sun → producers → consumers) and 
+cannot be recycled. 
+iii. This is WHY matter MUST be recycled through biogeochemical cycles — but energy 
+cannot be. 
+iv. This is WHY ecosystems require a constant, continuous input of solar energy to 
+function. 
+ 
+5.3 Lindemann's 10% Law (1942) 
+R.L. Lindemann proposed that on average, only about 10% of the energy at one trophic 
+level is transferred to the next trophic level. The remaining 90% is lost. 
+5.4 Why is 90% of Energy Lost? 
+ 
+Factor Approximate Loss Explanation 
+Respiration 
+(largest loss) 
+~60% of energy 
+consumed 
+Organism burns energy for locomotion, 
+growth, reproduction, and maintenance. Lost 
+as metabolic heat. 
+Heat from 
+metabolic 
+reactions 
+~15–20% of energy 
+consumed 
+Heat produced in biochemical reactions — 
+unusable for the next trophic level (2nd Law). 
+Undigested 
+matter 
+~10% of energy 
+consumed 
+Bones, cellulose, chitinous shells — cannot be 
+digested; passed as faeces to decomposers. 
+Inefficient 
+assimilation 
+~5–10% of energy 
+consumed 
+Not all food energy is absorbed into the 
+bloodstream during digestion. 
+Available to 
+next level 
+~10% of energy 
+consumed 
+The fraction stored in body tissues; consumed 
+by the next trophic level. 
+ 
+ 
+
+=== page 9 ===
+9 
+ 
+ 
+Implication for Food Chain Length 
+i. Short food chains are more energy-efficient than long ones. 
+ii. A food chain of T1 → T2 → T3 transfers 10 × 10 = 1% of original energy to T3. 
+iii. Very few ecosystems sustain more than 4–5 trophic levels due to energy constraints. 
+iv. Human implication: Eating plant foods (T1) provides 10× more energy than eating 
+herbivores (T2), and 100× more than eating carnivores (T3). 
+ 
+6. Biogeochemical Cycles: Matter Recycling 
+ 
+Key Principle: Unlike energy (which flows in one direction and is lost), MATTER is 
+continuously recycled between organisms and the environment through biogeochemical 
+cycles. These cycles are driven partly by energy flow and partly by geological and 
+biological processes. 
+ 
+6.1 The Carbon Cycle 
+Carbon i s the backbone of all organic molecules. It cycles between the atmosphere, 
+organisms, oceans, and lithosphere. 
+ 
+Step 1 — Fixation: Plants absorb CO₂ from the atmosphere during photosynthesis, 
+converting it to organic carbon (glucose, cellulose, starch). 
+Step 2 — Consumption: Carbon passes through the food chain as organisms consume 
+one another. Organic compounds are ingested and assimilated. 
+Step 3 — Respiration: All organisms (producers and consumers) release CO₂ back to 
+the atmosphere through cellular respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP. 
+Step 4 — Decomposition: Decomposers (bacteria, fungi) break down dead organisms 
+and organic waste, releasing CO₂ and inorganic nutrients to the soil and atmosphere. 
+Step 5 — Combustion: Burning of fossil fuels (coal, oil, natural gas) and forests releases 
+geologically stored carbon as CO₂, enhancing the greenhouse effect. 
+Step 6 — Ocean absorption: Oceans dissolve atmospheric CO₂, acting as a major carbon 
+sink (~30% of anthropogenic CO₂ absorbed). 
+ 
+
+=== page 10 ===
+10 
+ 
+Human Impact on Carbon Cycle: Pre-industrial atmospheric CO₂ was ~280 ppm. Current 
+levels (2024) exceed 422 ppm — highest in 3 million years. Burning fossil fuels releases 
+36 billion tonnes of CO₂ annually, far exceeding natural recycling capacity. 
+ 
+6.2 The Nitrogen Cycle 
+Nitrogen (N₂) makes up 78% of the atmosphere but is unavailable to most organisms in 
+this form. It must be converted to reactive forms through a complex cycle. 
+ 
+Process Transformation Organisms/Mechanism 
+Nitrogen 
+Fixation 
+N₂ → NH₃ 
+(ammonia) 
+Rhizobium (in root nodules of 
+legumes), Azotobacter (free -living), 
+lightning, industrial Haber -Bosch 
+process 
+Nitrification (1) NH₃ → NO₂⁻ Nitrosomonas bacteria (aerobic) — 
+oxidize ammonia to nitrite 
+Nitrification (2) NO₂⁻ → NO₃⁻ 
+(nitrate) 
+Nitrobacter bacteria — oxidize nitrite to 
+nitrate 
+Assimilation NO₃⁻ → Organic N Plant roots absorb nitrate, incorporate 
+into amino acids, proteins, DNA 
+Ammonification Organic N → NH₄⁺ Decomposers break down dead organic 
+matter, releasing ammonium 
+Denitrification NO₃⁻ → N₂ Pseudomonas bacteria (anaerobic) — 
+return N₂ to atmosphere; completes the 
+cycle 
+ 
+Importance of Nitrogen Cycle: 
+i. Nitrogen is essential for amino acids (proteins), nucleic acids (DNA, RNA), 
+chlorophyll, and ATP. 
+ii. N-fixation by Rhizobium in legumes (peas, beans, lentils) is the basis of natural soil 
+fertility. 
+iii. Excess nitrogen from synthetic fertilizers causes eutrophication of water bodies. 
+
+=== page 11 ===
+11 
+ 
+iv. Industrial nitrogen fixation (Haber-Bosch process) produces ~120 million tonnes of N 
+fertilizer annually — feeds ~50% of the world's population. 
+ 
+6.3 The Phosphorus Cycle 
+Phosphorus has no atmospheric phase — it cycles between rocks, soil, water, and 
+organisms. It is often the limiting nutrient in freshwater ecosystems. 
+i. Weathering of phosphate rocks releases H₂PO₄⁻ into soil. 
+ii. Plants absorb phosphate → incorporated into ATP, DNA, RNA, cell membranes 
+(phospholipids). 
+iii. Consumers obtain P by eating producers. Decomposers return P to soil. 
+iv. Excess P from agricultural runoff causes algal blooms in lakes (eutrophication). 
+ 
+7. Real-World Applications of Energy Flow  
+7.1 Dietary Efficiency & Vegetarianism 
+The 10% law has profound implications for food production: 
+i. Eating at T1 (plants) directly: 10,000 kJ of plant energy → 10,000 kJ available to 
+human. 
+ii. Eating at T2 (herbivores/livestock): 10,000 kJ of plant energy → 1,000 kJ available via 
+animal → ~100 kJ to human. 
+iii. Producing 1 kg of beef requires ~8 kg of grain, 15,000 litres of water, and 20× more 
+land than 1 kg of plant food. 
+iv. Shifting diets toward plant-based foods is one of the most powerful individual actions 
+to reduce environmental impact. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== page 12 ===
+12 
+ 
+7.2 Biomagnification — Energy Flow Gone Wrong 
+Persistent organic pollutants (DDT, PCBs) and heavy metals (mercury, lead) that do not 
+break down accumulate in body fat and concentrate at each trophic level: 
+Trophic Level Concentration Factor 
+Water / Soil DDT concentration: 
+0.000003 ppm 
+Baseline environment 
+Phytoplankton (T1) 0.04 ppm ~13,000× concentration 
+Small fish (T2) 0.5 ppm ~167,000× concentration 
+Large fish (T3) 2.0 ppm ~667,000× concentration 
+Fish-eating birds (T4) 25 ppm ~8 million× concentration 
+ 
+Biomagnification caused eggshell thinning in bald eagles, peregrine falcons, and brown 
+pelicans, leading to near-extinction before DDT was banned in the USA (1972) under the 
+Clean Water Act. 
+7.3 Conservation of Top Predators 
+Energy flow understanding explains why top predators are critical ecosystem regulators 
+despite their small numbers: 
+i. Wolves in Yellowstone: Reintroduction (1995) reduced deer grazing → vegetation 
+recovered → riverbank stabilized → biodiversity increased. 
+ii. Sharks in marine ecosystems: Remove sick/weak fish → maintain fish population 
+health → support reef ecosystems. 
+iii. Loss of top predators causes trophic cascade — changes at all levels propagate 
+downward. 
+ 
+ 
+ 
+ 
+
+=== page 13 ===
+13 
+ 
+7.4 Sustainable Agriculture & Aquaculture 
+i. Polyculture farming (multiple crops together) mimics natural food webs — more 
+efficient and resilient. 
+ii. Harvesting lower trophic levels (sardines, anchovies, mussels) is more sustainable than 
+top predators. 
+iii. Integrated farming (fish + rice paddies) uses waste from one species as resource for 
+another — mimics ecosystem cycling. 
+ 
+8. Summary & Key Takeaways 
+ 
+"Energy flows through ecosystems in one direction — from the Sun to producers to 
+consumers — decreasing at each step. Matter, however, cycles continuously and is never 
+lost." 
+ 
+i. An ecosystem consists of biotic (producers, consumers, decomposers) and abiotic 
+(light, water, temperature, soil) components interacting through energy flow and matter 
+cycling. 
+ii. Producers are the only entry point for energy into any ecosystem — via photosynthesis 
+(or chemosynthesis). NPP = GPP − Respiration. 
+iii. Food chains (linear) and food webs (complex networks) describe energy transfer 
+pathways. Detritus chains handle 80–90% of ecosystem energy in forests. 
+iv. Ecological pyramids (numbers, biomass, energy) represent trophic structure. Pyramid 
+of energy is ALWAYS upright. 
+v. Lindemann's 10% Law: Only ~10% of energy at one trophic level is transferred to the 
+next. The rest (90%) is lost as heat, respiration, and undigested matter. 
+vi. 1st Law: Energy is conserved (transformed). 2nd Law: Energy degrades to heat — this 
+drives the one-directional flow and limits food chain length. 
+vii. Carbon cycle (photosynthesis, respiration, decomposition) and Nitrogen cycle (fixation, 
+nitrification, denitrification) recycle matter continuously. 
+viii. Applications: Shorter food chains = more efficient. Biomagnification concentrates 
+toxins. Keystone predators regulate trophic cascades. 
+ 
+ 
+ 
+
+=== page 14 ===
+14 
+ 
+1. E.P. Odum — 'Fundamentals of Ecology'  
+2. R.L. Lindemann (1942) : 'The Trophic -Dynamic Aspect of Ecology' (Ecology 
+journal) 
+3. NCERT Class XII Biology, Chapter 14: Ecosystem  
+4. Khan Academy: Energy flow in ecosystems 
+5. Reference Video: youtu.be/lnAKICtJIA4  
+6. Reference Video: https://www.youtube.com/watch?v=LnPRHcp5_vo 
+ 

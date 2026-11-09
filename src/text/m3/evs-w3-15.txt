@@ -1,0 +1,266 @@
+# Water Pollution Notes
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W3S2 
+WATER POLLUTION 
+1. Definition 
+Water pollution is the contamination of water bodies (rivers, lakes, oceans, groundwater) 
+by harmful physical, chemical, or biological substances that degrade water quality and 
+make it unfit for its intended use. 
+1.1 Key Statistics 
+i. 2.2 billion people worldwide lack access to safe drinking water (WHO, 2023) 
+ii. 1.8 million children die annually from preventable diarrheal diseases caused by 
+contaminated water 
+iii. 80% of wastewater globally is discharged into waterways without adequate treatment 
+iv. Water-related diseases account for 80% of illnesses in developing countries 
+ 
+1.2 WHO Water Quality Standards 
+Safe drinking water must meet the following criteria: 
+i. pH range: 6.5 to 8.5 
+ii. Turbidity: < 1 NTU (Nephelometric Turbidity Unit) 
+iii. Total dissolved solids (TDS): < 500 mg/L 
+iv. Free from pathogens (E. coli: 0 CFU/100 mL) 
+v. Heavy metals below permissible limits (e.g., As < 0.01 mg/L, Pb < 0.01 mg/L) 
+ 
+2. Types of Water Pollution 
+2.1 Based on Source 
+2.1.1. Surface Water Pollution 
+Contamination of rivers, lakes, streams, and oceans — the most visible form of water 
+pollution. Examples include foam on the Yamuna River and oil slicks in the ocean. 
+ 
+
+=== page 2 ===
+2 
+ 
+2.1.2. Groundwater Pollution 
+Pesticides, industrial chemicals, and heavy metals seep through soil and contaminate 
+aquifers. Particularly dangerous as it affects wells and bore water used for drinking. 
+2.1.3. Ocean/Marine Pollution 
+Includes oil spills, plastic debris, industrial discharge, and agricultural runoff that reaches 
+the sea. The Great Pacific Garbage Patch (twice the size of Texas) is a global example. 
+2.1.4. Thermal Pollution 
+Hot water discharged from power plants and factories raises the temperature of water 
+bodies, reducing dissolved oxygen and harming aquatic life. 
+2.2 Based on Pollution Type 
+i. Point Source Pollution: Identifiable single source (factory pipe, sewage outlet) 
+ii. Non-Point Source Pollution: Diffuse sources like agricultural runoff, urban stormwater 
+iii. Transboundary Pollution: Crosses national/state boundaries via river systems 
+ 
+Key Concept: Point sources are easier to regulate because they have a specific, identifiable 
+location. Non-point source pollution is harder to control and contributes ~50% of all water 
+pollution in many countries. 
+ 
+3. Major Causes of Water Pollution 
+3.1 Industrial Sources 
+Industries are among the largest contributors to water pollution: 
+i. Heavy metals from electroplating, mining (mercury, lead, cadmium, chromium) 
+ii. Chemical industries discharge acids, solvents, dyes, and organic compounds 
+iii. Textile dyeing effluents contain azo dyes and high BOD (Biochemical Oxygen 
+Demand) 
+iv. Pharmaceutical industry waste contains active drug compounds resistant to 
+biodegradation 
+v. Acid Mine Drainage (AMD) — sulfuric acid formed when pyrite in mines oxidizes 
+
+=== page 3 ===
+3 
+ 
+3.2 Agricultural Sources 
+i. Synthetic fertilizers (nitrates, phosphates) leach into groundwater causing 
+eutrophication 
+ii. Pesticides and herbicides (DDT, Endosulfan) — persistent organic pollutants (POPs) 
+iii. Animal feedlot waste contains pathogens, hormones, antibiotics 
+iv. Irrigation return flows carry dissolved salts back to water bodies 
+v. Soil erosion from deforested land carries sediment and absorbed chemicals 
+ 
+3.3 Domestic/Municipal Sources 
+i. Untreated sewage from urban areas — India generates ~72,368 MLD of sewage; 
+treatment capacity: ~31,841 MLD 
+ii. Household chemicals — detergents, cleaning agents, medicines flushed down drains 
+iii. Solid waste dumping near riverbanks and open drains 
+iv. Leachate from unlined landfills contaminating groundwater 
+ 
+3.4 Oil Spills & Marine Pollution 
+i. Tanker accidents: Exxon Valdez (1989), 41 million litres; Deepwater Horizon (2010), 
+780 million litres 
+ii. Routine ship operations: bilge water pumping, illegal discharge at sea 
+iii. Offshore drilling platforms — chronic low-level contamination 
+ 
+3.5 Radioactive Waste 
+i. Nuclear power plant cooling water may contain trace radioactive isotopes 
+ii. Medical and research institution waste — improper disposal 
+iii. Uranium and thorium mining — radioactive tailings 
+ 
+India Fact: The Ganga receives about 1.4 billion litres of sewage daily along its course. 
+Only about 861 MLD of treatment capacity exists for this volume. NMCG (National 
+Mission for Clean Ganga) was launched in 2014 to address this. 
+ 
+
+=== page 4 ===
+4 
+ 
+4. Effects of Water Pollution 
+4.1 Effects on Human Health 
+4.1.1. Waterborne Diseases 
+Disease Causative Agent Transmission Symptoms 
+Cholera Vibrio cholerae Contaminated 
+water/food 
+Severe diarrhea, 
+dehydration 
+Typhoid Salmonella typhi Fecal-oral route High fever, 
+abdominal pain 
+Dysentery E. histolytica Contaminated water Bloody diarrhea, 
+cramps 
+Hepatitis A Hepatitis A virus Fecal-oral route Jaundice, liver 
+inflammation 
+Arsenicosis Arsenic 
+(chemical) 
+Drinking arsenic -
+rich water 
+Skin lesions, cancer 
+ 
+4.1.2. Chemical Pollutant Effects 
+i. Mercury poisoning (Minamata disease): tremors, neurological damage, birth defects 
+ii. Lead (Pb): Cognitive impairment, especially in children under 5 
+iii. Nitrates: Methemoglobinemia (Blue Baby Syndrome) — blocks oxygen in infant blood 
+iv. Fluoride excess: Dental fluorosis (mottling of teeth) and skeletal fluorosis 
+v. Arsenic: Hyperkeratosis, skin cancer, liver and bladder cancer 
+ 
+4.2 Effects on Aquatic Ecosystems 
+4.2.1. Eutrophication 
+Excess nitrogen and phosphorus from fertilizers trigger explosive algal blooms. When 
+algae die, decomposing bacteria consume oxygen, creating hypoxic 'dead zones' where fish 
+and aquatic life cannot survive. The Gulf of Mexico dead zone (~22,720 km²) is a m ajor 
+example. 
+
+=== page 5 ===
+5 
+ 
+4.2.2. Biomagnification 
+Persistent pollutants like DDT and mercury accumulate in organisms and become 
+increasingly concentrated as they move up the food chain. A fish may contain 10× the 
+mercury of its prey; a bird eating that fish may contain 100× the baseline level. 
+4.2.3. Biodiversity Loss 
+i. Sensitive species (mayflies, trout, salmon) disappear first, indicating pollution levels 
+ii. Loss of keystone species disrupts entire food webs 
+iii. Coral bleaching occurs when ocean temperatures rise or pollutants are absorbed 
+iv. Oil spills smother invertebrates, fish eggs, and shore birds 
+4.2.4. Habitat Destruction 
+i. Sedimentation from runoff smothers fish spawning grounds 
+ii. Plastic debris entangles and kills marine mammals and seabirds 
+iii. Wetlands degraded by agricultural chemicals lose their filtration and biodiversity 
+functions 
+ 
+5. Control & Prevention of Water Pollution 
+5.1 Sewage Treatment: Three-Stage Process 
+Wastewater treatment is the most important engineering intervention: 
+Stage 1: Primary Treatment (Physical) 
+ 
+i. Screening: Bars and screens remove large debris (rags, sticks, plastics) 
+ii. Grit Chamber: Removes sand, grit, and heavy particles 
+iii. Sedimentation Tank (Primary Clarifier):  Allows suspended solids to settle as 
+'primary sludge' 
+iv. Outcome: Removes ~60% of suspended solids, ~30% of BOD 
+ 
+ 
+ 
+
+=== page 6 ===
+6 
+ 
+Stage 2: Secondary Treatment (Biological) 
+i. Activated Sludge Process: Microorganisms consume dissolved organic matter 
+ii. Trickling Filters: Wastewater trickles over a bed of rocks/media coated with biofilm 
+iii. Rotating Biological Contactors (RBCs): Spinning discs with microbial biofilm 
+iv. Outcome: Removes 85–95% of BOD and most suspended solids 
+ 
+Stage 3: Tertiary Treatment (Advanced) 
+i. Nutrient Removal: Biological/chemical removal of nitrogen and phosphorus 
+ii. UV Disinfection / Chlorination: Kills remaining pathogens 
+iii. Reverse Osmosis / Membrane filtration: Removes dissolved chemicals 
+iv. Outcome: Produces near-drinking quality effluent 
+ 
+In India, the Sewage Treatment Plant (STP) capacity needs to be tripled to treat all 
+generated sewage. As of 2022, only 28% of sewage generated in Class -I cities and Class-
+II towns is treated. 
+ 
+5.2 Industrial Pollution Control 
+i. Zero Liquid Discharge (ZLD): Industries recycle all wastewater — no discharge to 
+environment 
+ii. Effluent Treatment Plants (ETPs): Mandatory before discharge 
+iii. Common Effluent Treatment Plants (CETPs): Shared infrastructure for small industries 
+iv. Ion Exchange / Activated Carbon: Remove heavy metals and organic compounds 
+v. Regular monitoring by Central Pollution Control Board (CPCB) 
+ 
+5.3 Agricultural Practices 
+i. Integrated Pest Management (IPM): Minimize chemical pesticide use 
+ii. Precision farming: Apply fertilizers only where and when needed 
+iii. Buffer strips: Vegetation strips along waterways to filter runoff 
+iv. Constructed wetlands: Engineered systems using plants to treat agricultural runoff 
+v. Organic farming: Eliminates synthetic pesticide and fertilizer contamination 
+ 
+
+=== page 7 ===
+7 
+ 
+5.4 Nature-Based Solutions 
+i. Phytoremediation: Plants like water hyacinth and vetiver grass absorb pollutants 
+ii. Bioremediation: Microorganisms break down organic pollutants 
+iii. Riparian buffers and wetland restoration reduce non-point source pollution 
+iv. Rainwater harvesting reduces storm runoff and groundwater depletion 
+ 
+5.5 Legislation & Policy (India) 
+i. Water (Prevention and Control of Pollution) Act, 1974 — established PCBs 
+ii. Environment Protection Act, 1986 — umbrella legislation 
+iii. National Mission for Clean Ganga (NMCG) / Namami Gange Programme (2015) 
+iv. Coastal Regulation Zone (CRZ) Notification — protects coastal waters 
+v. Bureau of Indian Standards IS 10500: 2012 — Drinking water quality standards 
+ 
+6. Case Studies 
+6.1 Minamata Disease, Japan (1956) 
+Chisso Chemical Company discharged methylmercury into Minamata Bay. The mercury 
+bioaccumulated in fish and shellfish, the local staple food. Over 2,000 people died and 
+thousands more suffered neurological damage. This tragedy led to the Minamata 
+Convention on Mercury (2013), a global treaty. 
+ 
+6.2 Yamuna River, India 
+The Yamuna receives 58% of Delhi's total waste. Near Okhla, a thick white foam forms 
+due to phosphate-laden detergents. Over 22 drains discharge directly into the river. Despite 
+multiple Yamuna Action Plans, the river remains critically polluted with BOD l evels 
+exceeding standards by 50× in some stretches. 
+ 
+
+=== page 8 ===
+8 
+ 
+6.3 Deepwater Horizon Oil Spill (2010) 
+An explosion on the Deepwater Horizon rig released approximately 4.9 million barrels 
+(780 million litres) of crude oil into the Gulf of Mexico over 87 days. Over 400 species 
+were affected, including sea turtles, dolphins, and brown pelicans. Cleanup costs exceeded 
+$65 billion. 
+ 
+7. Summary & Key Takeaways 
+ 
+Water is the most essential resource for life. Protecting it from pollution is both an 
+environmental and humanitarian imperative. 
+ 
+i. Water pollution affects 2.2 billion people and kills millions annually through 
+waterborne diseases 
+ii. Industrial, agricultural, and domestic waste are the three primary pollutants 
+iii. Effects range from diarrheal diseases to ecosystem collapse through eutrophication 
+iv. Sewage treatment (primary, secondary, tertiary) is the most effective control technology 
+v. Legislation (Water Act 1974, NMCG) + citizen awareness are essential for sustainable 
+solutions 
+ 
+Discussion Questions for Students 
+i. What is eutrophication and how does it create 'dead zones' in water bodies? 
+ii. Why is the Yamuna River so polluted despite multiple clean-up plans? 
+iii. What is Zero Liquid Discharge (ZLD) and which industries must adopt it? 
+iv. How does biomagnification affect top predators more than primary producers? 
+ 
+References 
+1. WHO GLASS Report  
+2. CPCB Annual Report on Water Quality 
+3. National Water Policy 2012 
+4. Namami Gange Programme Progress Reports 

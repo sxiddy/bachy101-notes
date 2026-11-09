@@ -1,0 +1,14 @@
+node_modules/
+tmp/
+publish/
+.env
+.env.*
+.claude/WORKPLAN.md
+.claude/LOCK
+__pycache__/
+# course PDFs and page renders stay local; extracted text + meta are tracked
+src/notes/
+src/pdfs/
+src/pages/
+# temporary PDF library, replaced by the app
+site/

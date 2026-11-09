@@ -1,0 +1,332 @@
+# 1.2.Global Warming
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W5S2 
+Global Warming 
+1. Introduction 
+Of all the environmental challenges facing humanity in the twenty -first century, 
+global warming stands out as the most far -reaching and consequential. It is not a 
+distant or hypothetical threat — it is a measurable, ongoing transformation of the 
+Earth's climate system, driven overwhelmingly by human activity and already 
+reshaping ecosystems, weather patterns, sea levels, and human societies across every 
+continent. 
+Global warming refers to the long-term rise in the average surface temperature of 
+the Earth, primarily due to the accumulation of greenhouse gases in the atmosphere 
+as a result of industrial, agricultural, and land-use activities. The Intergovernmental 
+Panel on Climate Change (IPCC) — the foremost scientific body assessing climate 
+science — has confirmed that the Earth's average surface temperature has risen by 
+approximately 1.1 degrees Celsius above pre -industrial levels (the period before 
+1850) and is on course to exceed 1.5 degrees Celsius within the coming decades if 
+current emission trends continue. 
+For engineering students, this topic is not merely academic. Every major engineering 
+domain — civil, mechanical, chemical, electrical, and environmental — is 
+implicated both in causing global warming and in the solutions required to address 
+it. Understanding the science, causes, and consequences of global warming is a 
+foundational professional competency for the engineers who will design the 
+infrastructure and technologies of the future. 
+2. The Greenhouse Effect 
+2.1 The Natural Greenhouse Effect  
+To understand global warming, one must first understand the greenhouse effect — 
+a natural and essential atmospheric process without which life on Earth as we know 
+it would not exist. The Sun emits energy primarily as short -wave radiation, which 
+passes relatively easily through the Earth's atmosphere and warms the planet's 
+surface. The warmed surface then re -emits this energy as long -wave infrared 
+radiation (heat) back towards space. 
+Certain gases in the atmosph ere — known as greenhouse gases — absorb this 
+outgoing infrared radiation and re-emit it in all directions, including back towards 
+the Earth's surface. This trapping of heat keeps the planet at an average temperature 
+of approximately 15 degrees Celsius. Wi thout the natural greenhouse effect, the 
+
+=== page 2 ===
+2 
+ 
+Earth's average temperature would be around minus 18 degrees Celsius — far too 
+cold to support most life. In this sense, the greenhouse effect is not inherently 
+harmful; it is a life-sustaining mechanism. 
+2.2 The Enhanced Greenhouse Effect 
+The problem arises when human activities significantly increase the concentration 
+of greenhouse gases in the atmosphere beyond natural levels. This enhanced 
+greenhouse effect traps additional heat, raising global temperatures beyon d what 
+natural variability can account for. It is this human -amplified version of the 
+greenhouse effect that drives contemporary global warming. 
+The primary greenhouse gases and their sources are as follows: 
+Carbon Dioxide (CO2): The most significant contributor to anthropogenic (human-
+caused) warming. It is released through the burning of fossil fuels such as coal, oil, 
+and natural gas for energy and transportation, as well as through deforestation and 
+cement production. CO2 persists in the atmosphere for hundreds to thousands of 
+years, making it an extremely long-term driver of warming. 
+Methane (CH4): A potent greenhouse gas approximately 80 times more powerful 
+than CO2 over a 20 -year period. It is emitted from livestock digestion (enteric 
+fermentation), rice paddies, landfills, and the extraction and transport of fossil fuels, 
+particularly natural gas. 
+Nitrous Oxide (N2O): Released primarily from agricultural activities, especially 
+the use of synthetic nitrogen fertilisers and the management of animal manure. It is 
+approximately 265 times more potent than CO2 over a 100-year period. 
+Water Vapour: The most abundant greenhouse gas by volume, but it acts primarily 
+as a feedback amplifier rather than a direct driver of warming. As temperatures rise, 
+more water evaporates, which traps more heat, which causes further warming — a 
+positive feedback loop. 
+Fluorinated Gases: Synthetic gases used in refrigeration, air conditioning, and 
+manufacturing processes. Though present in smaller quantities, they are thousands 
+of times more potent than CO2 and can persist in the atmosphere for centuries. 
+The concentration of CO2 in the atmosphere has risen from approximately 280 parts 
+per million (ppm) during pre-industrial times to over 420 ppm today — the highest 
+level in at least the past 800,000 years as determined by ice core records. 
+ 
+
+=== page 3 ===
+3 
+ 
+3. Causes of Global Warming  
+3.1 Combustion of Fossil Fuels  
+The single largest source of greenhouse gas emissions globally is the burning of 
+fossil fuels for energy — electricity generation, heating, and transportation. Coal-
+fired power plants, gasoline and diesel vehicles, and industrial furnaces collectively 
+release billions of tonnes of CO2 into the atmosphere every year. The Industrial 
+Revolution, which began in the late eighteenth century in Britain and spread globally 
+through the nineteenth and twentieth centuries, marked the beginning of large-scale 
+fossil fuel combustion. Since then, cumulative emissions have altered the 
+composition of the atmosphere in a geologically unprecedented manner. 
+3.2 Deforestation and Land Use Change  
+Forests are among the Earth's most important carbon sinks — they absorb CO2 from 
+the atmosphere through photosynthesis and store it in biomass and soil. When forests 
+are cleared for agriculture, urban development, or t imber, this stored carbon is 
+released back into the atmosphere, either immediately through burning or gradually 
+through decomposition. Tropical deforestation, particularly in the Amazon basin, the 
+Congo rainforest, and Southeast Asian forests, contributes significantly to annual 
+global greenhouse gas emissions. Additionally, the conversion of forests to 
+agricultural land reduces the planet's capacity to absorb future emissions. 
+3.3 Industrial Processes and Manufacturing 
+Beyond energy combustion, various industrial processes directly emit greenhouse 
+gases as by -products of chemical reactions. Cement production, for example, 
+releases CO2 as limestone is heated to produce lime. Steel manufacturing, 
+aluminium smelting, and chemical production all contribute substantial emissions. 
+The global construction and manufacturing boom driven by urbanisation and 
+population growth — especially in developing economies — has significantly 
+expanded this category of emissions in recent decades. 
+3.4 Agriculture and Livestock 
+The agricultural sector contributes to global warming through multiple pathways. 
+Livestock — particularly cattle — produce methane through enteric fermentation, 
+the digestive process in their stomachs. Rice paddies emit methane as organic matter 
+decomposes in flooded, anaerobic conditions. The application of nitrogen fertilisers 
+releases nitrous oxide. Together, agriculture accounts for approximately 10 to 12 
+percent of global greenhouse gas emissions, a share that is growing as global food 
+demand increases with population growth. 
+
+=== page 4 ===
+4 
+ 
+ 
+ 
+3.5 Waste Management  
+Landfills are a significant and often underappreciated source of methane emissions. 
+When organic waste — food scraps, paper, garden waste — decomposes in the 
+absence of oxygen in a landfill, it produces metha ne, which escapes into the 
+atmosphere. Wastewater treatment processes also release both methane and nitrous 
+oxide. As urbanisation increases and waste generation grows, this sector's 
+contribution to total emissions is rising. 
+4. Consequences of Global Warm ing 
+4.1 Rising Temperatures and Heatwaves  
+The most direct consequence of global warming is the increase in average surface 
+temperatures. This manifests not just as gradual background warming but as a 
+dramatic increase in the frequency, intensity, and durat ion of heatwaves. Extreme 
+heat events that once occurred once every fifty years are now occurring multiple 
+times per decade in many regions. In India, deadly heat waves have intensified 
+significantly, with temperatures exceeding 45 to 48 degrees Celsius in  parts of 
+Rajasthan, Odisha, and Andhra Pradesh with increasing regularity, posing acute 
+risks to outdoor workers, the elderly, and urban populations. 
+4.2 Melting Ice and Rising Sea Levels  
+Warmer temperatures are accelerating the melting of glaciers, ice caps, and the polar 
+ice sheets of Greenland and Antarctica. This melting, combined with the thermal 
+expansion of seawater as it warms, is causing global sea levels to rise. Sea levels 
+have risen by approximately 20 centimetres since 1900, and the rate of ri se is 
+accelerating. The IPCC projects that sea levels could rise by between 0.3 and 1 metre 
+by the end of this century, with higher scenarios possible if the West Antarctic Ice 
+Sheet destabilises. Low-lying coastal cities — including Mumbai, Kolkata, Chennai, 
+and Kochi in India — face increasing risks of flooding and permanent inundation. 
+Small island nations such as the Maldives and Tuvalu face existential threats to their 
+very existence. 
+4.3 Altered Precipitation Patterns and Extreme Weather 
+Global warming disrupts the hydrological cycle — the movement of water through 
+evaporation, condensation, and precipitation. Warmer air holds more moisture, 
+which intensifies rainfall events when precipitation does occur, leading to more 
+
+=== page 5 ===
+5 
+ 
+severe floods. At the same time, increased evaporation from soil and vegetation dries 
+out regions that are already prone to drought, making droughts longer and more 
+severe. The Indian monsoon system is increasingly erratic — periods of intense 
+flooding in some years are followed by defi cient monsoons in others — with 
+significant implications for agricultural productivity, water security, and disaster 
+management. 
+4.4 Ocean Acidification and Marine Ecosystem Disruption 
+The oceans absorb approximately one -quarter of all CO2 emitted by human  
+activities. While this moderates the pace of atmospheric warming, it has a severe 
+side effect: when CO2 dissolves in seawater, it forms carbonic acid, lowering the pH 
+of the ocean — a process known as ocean acidification. Since the industrial era 
+began, the ocean's pH has dropped by approximately 0.1 units, representing a 26 
+percent increase in acidity. This affects the ability of shellfish, corals, and other 
+marine organisms to build calcium carbonate shells and skeletons. Coral reefs — 
+which support roughly 25 percent of all marine species — are experiencing mass 
+bleaching events with increasing frequency as ocean temperatures rise above critical 
+thresholds. 
+4.5 Impacts on Biodiversity and Ecosystems 
+Climate zones are shifting poleward and to higher altit udes as temperatures rise, 
+forcing species to migrate to stay within their thermal comfort zones. Species that 
+cannot migrate quickly enough face local extinction. The timing of seasonal 
+biological events — such as flowering, migration, and breeding — is s hifting, 
+disrupting the ecological relationships between species that have co -evolved over 
+millennia. The IPCC has projected that at 1.5 degrees Celsius of warming, a 
+significant fraction of species face increased extinction risk; at 2 degrees Celsius, 
+those risks grow substantially. The Himalayan and Western Ghats ecosystems, both 
+biodiversity hotspots of global significance, are considered highly vulnerable. 
+4.6 Human Health and Food Security 
+Global warming poses direct and indirect threats to human healt h. Direct threats 
+include increased mortality from heatwaves, greater exposure to vector -borne 
+diseases such as malaria and dengue fever as disease -carrying mosquitoes expand 
+their geographic range, and respiratory diseases worsened by air pollution and 
+wildfire smoke. Indirect threats operate through disruptions to food and water 
+security. Rising temperatures, changing rainfall patterns, and more frequent extreme 
+events reduce agricultural yields and increase crop failures, threatening food security 
+for vulnerable populations. The World Health Organisation projects that global 
+
+=== page 6 ===
+6 
+ 
+warming will cause approximately 250,000 additional deaths per year between 2030 
+and 2050 from malnutrition, malaria, diarrhoea, and heat stress alone. 
+5. Mitigation Strategies  
+Mitigation refers to actions that reduce or prevent the emission of greenhouse gases, 
+thereby limiting the extent of future warming. Effective mitigation requires 
+coordinated action across energy, transport, industry, land use, and consumption 
+patterns. 
+5.1 Transition to Renewable Energy 
+Replacing coal, oil, and gas with solar, wind, hydroelectric, and geothermal energy 
+sources is the most impactful single mitigation action available. The cost of solar 
+photovoltaic and wind power has fallen by over 80 percent in the past decade, 
+making renewables economically competitive with fossil fuels in most parts of the 
+world. India, with its exceptional solar resource, has made significant strides through 
+the National Solar Mission and aims to achieve 500 GW of non -fossil fuel energy 
+capacity by 2030. 
+5.2 Energy Efficiency 
+Reducing the amount of energy required to deliver the same level of service — 
+through better insulation in buildings, more efficient appliances and industrial 
+processes, and improved vehicle fuel economy — is a cost-effective complement to 
+the clean energy transition. Energy efficiency improvements can reduce global 
+energy demand substantially, easing the scale and pace of the renewable energy 
+build-out required. 
+5.3 Reforestation and Carbon Sequestration  
+Restoring degraded forests and planting new trees enhances the natural carbon sink 
+capacity of the land. India's National Action Plan on Climate Change includes the 
+Green India Mission, which aims to increase forest and tree cover and improve the 
+quality of existing forests. Carbon capture and storage (CCS) technologies, which 
+capture CO2 from industrial sources and store it underground, represent an emerging 
+technological approach to reducing atmospheric concentrations. 
+5.4 Sustainable Agriculture and Waste Management 
+Reducing methane and nitrous oxide emissions from agriculture through improved 
+livestock management, the use of precision fertilisation techniques, and the adoption 
+of sustainable rice cultivation methods can significantly reduce the agricultur al 
+sector's climate footprint. Improving waste management through composting, waste-
+
+=== page 7 ===
+7 
+ 
+to-energy conversion, and landfill gas capture reduces methane emissions from the 
+waste sector. 
+5.5 International Climate Agreements 
+The Paris Agreement of 2015 is the central international framework for coordinating 
+global climate action. Under the Agreement, countries submitted nationally 
+determined contributions — pledges to reduce emissions and transition to cleaner 
+economies. The Agreement's central goal is to limit global warming to well below 2 
+degrees Celsius above pre-industrial levels and to pursue efforts to limit it to 1.5 
+degrees Celsius. India's nationally determined contribution includes achieving net 
+zero emissions by 2070 and having 50 percent of its installe d electricity capacity 
+from non-fossil fuel sources by 2030. 
+6. Adaptation Strategies 
+While mitigation aims to prevent further warming, adaptation refers to adjustments 
+in human systems and natural processes in response to actual or anticipated warming 
+and its effects. Even if all emissions were stopped today, the warming already locked 
+into the climate system due to accumulated greenhouse gases would continue for 
+decades. Adaptation is therefore not a substitute for mitigation but an essential 
+complement to it. 
+Adaptation strategies include developing drought -resistant and heat-tolerant crop 
+varieties to maintain agricultural productivity under changed conditions. Building 
+flood defences, sea walls, and storm surge barriers protects coastal and low -lying 
+communities. Urban planning that incorporates green spaces, reflective surfaces, and 
+efficient cooling reduces the urban heat island effect and protects city populations 
+during heatwaves. Integrated water resource management — including rainwater 
+harvesting, groundwater recharge, and efficient irrigation — builds resilience to 
+variable precipitation patterns. 
+For India, adaptation is particularly urgent. The country is home to over 1.4 billion 
+people, a large proportion of whom are directly dependent on rain -fed agriculture 
+and are highly exposed to climate -related hazards including floods, droughts, 
+cyclones, and heatwaves. The National Action Plan on Climate Change, launched in 
+2008, laid out eight national missions covering solar energy, energy efficiency, 
+water, the Himalayan ecosystem, the Green India initiative, sustainable agriculture, 
+strategic knowledge for climate change, and sustainable habitats. 
+ 
+
+=== page 8 ===
+8 
+ 
+7. The Role of Engineers in Addressing Global Warming 
+Engineers occupy a uniquely powerful position in t he global response to climate 
+change. The technologies and infrastructure that currently drive emissions — coal 
+power plants, internal combustion engines, energy-intensive industrial processes — 
+were designed and built by engineers. The solutions that will  replace them — 
+renewable energy systems, electric vehicles, green buildings, carbon-neutral cement, 
+smart grids, and climate-resilient infrastructure — will also be designed and built by 
+engineers. 
+As a first -year engineering student, you may feel distant  from these large-scale 
+challenges. But the choices you make in your professional career — about materials, 
+energy sources, design standards, operational efficiency, and the systems you help 
+build — will collectively determine the trajectory of humanity's response to global 
+warming. The engineering profession has a responsibility not just to clients and 
+employers, but to the broader public and to future generations who will inherit the 
+consequences of the decisions made today. 
+Integrating environmental thinking into engineering practice is no longer optional. 
+It is a core professional competency demanded by employers, regulators, and 
+society. Whether you work in construction, manufacturing, energy, water, 
+transportation, or information technology, the impera tive to design and operate 
+systems that are compatible with a stable climate will shape your career from 
+beginning to end. 
+8. Conclusion 
+Global warming is the defining environmental challenge of our era. It is rooted in 
+the enhanced greenhouse effect drive n by the accumulation of carbon dioxide, 
+methane, nitrous oxide, and other gases released through fossil fuel combustion, 
+deforestation, agriculture, and industrial processes. Its consequences — rising 
+temperatures, melting ice, sea level rise, extreme wea ther, ocean acidification, 
+biodiversity loss, and threats to human health and food security — are already being 
+felt and will intensify unless aggressive action is taken. 
+Addressing global warming requires both mitigation — reducing greenhouse gas 
+emissions through clean energy, efficiency, forest protection, and sustainable land 
+use — and adaptation — adjusting infrastructure, agriculture, and communities to 
+the warming that has already been set in motion. International agreements like the 
+Paris Agreement provide a framework, but the actual work of transformation will be 
+carried out through technology, policy, investment, and individual and collective 
+behaviour change at every level of society. 
+
+=== page 9 ===
+9 
+ 
+As engineers, you are not passive observers of this challenge. You are among its 
+most important potential solvers. The knowledge and skills you develop during your 
+engineering education, grounded in a clear understanding of environmental science, 
+will equip you to contribute meaningfully to one of the most consequenti al 
+transitions in human history. 
+Key Takeaways  
+• Global warming is the long-term rise in Earth's average surface temperature 
+due to the enhanced greenhouse effect caused by human activities. 
+• The major greenhouse gases are CO2, methane, nitrous oxide, and fluorinated 
+gases, with fossil fuel combustion being the largest source. 
+• Consequences include heatwaves, sea level rise, extreme weather, ocean 
+acidification, biodiversity loss, and threats to food and human health. 
+• Mitigation involves reducing emissions through renewable energy, efficiency, 
+reforestation, and sustainable practices. 
+• Adaptation involves adjusting systems to cope with unavoidable warming 
+through climate-resilient infrastructure, agriculture, and water management. 
+• Engineers have a central role in both causing and solving the climate crisis; 
+environmental competence is a core professional responsibility. 

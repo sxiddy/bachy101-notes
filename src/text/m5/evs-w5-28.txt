@@ -1,0 +1,179 @@
+# 1.Global Climate Change
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W5S1 
+Climate Change Science 
+1. Introduction 
+Climate change science is arguably the most consequential topic in environmental 
+science, with direct implications for the careers of every future engineer. This lecture 
+examines what climate change is scientifically, what is causing it, what evidence 
+supports it, what its consequences are, and what students and engineers can do to 
+address it. 
+2. The Greenhouse Effect 
+The greenhouse effect is a natural and essential process — without it, Earth would 
+be frozen. Sunlight passes through the atmosphere and warms the surface. The 
+surface then radiates heat back upward, and greenhouse gases in the atmosphere 
+absorb this outgoing heat and redirect some of it back down. This is why Earth is 
+warm enough to support life. Without the greenhouse effect, Earth's average 
+temperature would be approximately minus 18 degrees Celsius — a frozen 
+wasteland. 
+2.1 Natural versus Enhanced Greenhouse Effect 
+● Natural greenhouse effect = beneficial and necessary for life. 
+● Enhanced greenhouse effect (caused by human emissions) = the actual problem. 
+An analogy: a thin blanket keeps a person warm, but piling five blankets on top of 
+one another causes overheating. The same principle applies to the atmosphere , the 
+natural blanket of greenhouse gases is necessary, but human emissions are adding 
+extra layers that trap excess heat. 
+2.2 Key Greenhouse Gases 
+The greenhouse gases of greatest concern are carbon dioxide (CO₂), methane, nitrous 
+oxide, and water vapour. CO₂ is the headline gas, the primary gas being added to the 
+atmosphere through the burning of coal, oil, and gas. Methane is shorter-lived in the 
+atmosphere but has a far greater warming power, roughly 84 times that of CO₂ over 
+a 20-year period. 
+
+=== page 2 ===
+2 
+ 
+3. Evidence for Climate Change 
+The case for human -induced climate change rests on four independent pillars of 
+evidence, all pointing to the same conclusion. 
+3.1 Rising Temperatures 
+Global average surface temperatures have increased by approximately 1.1°C above 
+pre-industrial levels. Nineteen of the twenty hottest years on record have occurred 
+since the year 2000. This trend is independently confirmed by NASA, NOAA, the 
+UK Met Office, and the Japan Meteorological Agency, each maintaining separate 
+datasets that show the same pattern. 
+3.2 Rising CO₂ Concentration 
+Before industrialisation, atmospheric CO₂ concentration was approximately 280 
+parts per million (ppm). Today it exceeds 420 ppm, a level not seen on Earth for at 
+least 3 million years. This is confirmed through ice cores drilled in Antarctica, which 
+trap ancient air bubbles going back 800,000 years, providing a direct measurement 
+of past atmospheric composition. 
+3.3 Melting Ice and Sea Level Rise 
+Arctic sea ice area has declined by roughly 13% per decade since satellite records 
+began in 1979. The Greenland and Antarctic ice sheets are losing mass, and global 
+mean sea level has risen approximately 20 centimetres since 1900, with the rate of 
+rise accelerating in recent decades. 
+3.4 Ocean Warming and Acidification 
+The oceans have absorb ed approximately 90% of the excess heat trapped by the 
+enhanced greenhouse effect and about 25 –30% of human CO₂ emissions. This 
+absorbed CO₂ reacts with seawater to form carbonic acid, measurably lowering 
+ocean pH and threatening shellfish, corals, and the wider marine food web. 
+These four independent lines of evidence , from completely separate measurement 
+systems, converge on the same conclusion, which is what gives scientists such high 
+confidence in human-induced climate change. 
+
+=== page 3 ===
+3 
+ 
+4. Causes of Climate Change 
+The primary driver of current climate change is human activity. 
+4.1 Human (Anthropogenic) Causes 
+● Fossil fuel combustion, the single biggest source, from burning coal, oil, and gas 
+for electricity, industry, and transport, accounting for about 75% of global 
+greenhouse gas emissions. 
+● Deforestation, forests are carbon sinks that absorb CO₂; cutting or burning them 
+releases stored carbon and reduces sink capacity, accounting for roughly 10–15% 
+of global emissions. 
+● Agriculture, livestock produce methane through digestion, flooded rice paddies 
+emit methane, and nitrogen fertilisers release nitrous oxide. 
+● Industrial processes , cement and steel manufacturing add significant CO₂; 
+cement production alone accounts for about 8% of global emissions. 
+4.2 Natural Factors and Why They Do Not Explain Current Warming 
+Volcanic eruptions, changes in solar output, and Earth's orbital cycles (the 
+Milankovitch cycles) have all shaped climate over geological timescales. However, 
+solar output has actually slightly decreased since the 1980s while temperatures have 
+continued to rise, and volcanic eruptions cause only short -term cooling, not long -
+term wa rming. Natural factors alone cannot explain the rate and pattern of the 
+warming currently being observed, the signal is unambiguously human in origin. 
+5. Consequences of Climate Change 
+Climate change is not a future problem, many of its consequences are already visible 
+today, and they compound over time. 
+ 
+5.1 Weather Extremes 
+A warmer atmosphere holds more moisture, about 7% more per degree of warming, 
+which intensifies the water cycle, producing heavier rainfall and flooding in some 
+
+=== page 4 ===
+4 
+ 
+regions and longer, more severe droughts in others. Heatwaves are becoming more 
+frequent and more deadly, and tropical cyclones are expected to become more 
+intense with higher rainfall rates. For India, a key concern is disruption to the 
+monsoon system, on which over a billion p eople depend for agriculture and 
+freshwater. 
+5.2 Sea Level Rise 
+Sea level rise is a slow-moving but massive risk. Coastal cities such as Mumbai and 
+Chennai, and the entire Bengal delta region, face increasing threats from storm 
+surges and inundation. Small island nations in the Pacific are already experiencing 
+existential threats from this phenomenon. 
+5.3 Ecosystem Stress 
+Ecosystems are under significant stress. Coral reefs, which support roughly 25% of 
+all marine species, begin bleaching at just 1°C above normal summer temperatures. 
+At 2°C of warming, over 99% of tropical reefs are projected to be severely degraded. 
+5.4 Food Security 
+Climate change is already reducing yields of key crops such as wheat, rice, and 
+maize in tropical regions. Combined with popu lation growth, this creates serious 
+risks of food insecurity, particularly in Sub-Saharan Africa and South Asia. 
+5.5 Health Impacts 
+Direct health impacts include increased heat-related illness, the expansion of vector-
+borne diseases such as malaria and den gue into new regions, and worsening air 
+quality. 
+5.6 Regional Risks for India and South Asia 
+The Indian subcontinent faces serious region -specific threats from heatwaves, 
+monsoon disruption, glacial melt in the Himalayas, and sea level rise in coastal cities. 
+6. Mitigation, Adaptation, and Policy 
+
+=== page 5 ===
+5 
+ 
+Responding to climate change requires two complementary strategies: mitigation, 
+which reduces the emissions causing the problem, and adaptation, which involves 
+designing systems that can cope with changes already underway. 
+6.1 Mitigation 
+The energy transition is the centrepiece of mitigation , replacing fossil fuel power 
+with solar, wind, hydro, and other renewables. India is already pursuing this at scale, 
+with some of the world's largest solar installations and an ambitious renewable 
+energy target. Energy efficiency also matters enormously: well-designed buildings, 
+efficient motors, and optimised transport systems all reduce demand and emissions. 
+Carbon capture technologies, which physically remove CO₂ from the atmosphere or 
+capture it at industrial sources, form a growing field that may be essential for hard-
+to-decarbonise industries such as cement and steel. 
+6.2 Adaptation 
+Adaptation is fundamentally an engineering exercise: flood defences, climate -
+resilient road and bridge design, drought -resistant water supply systems, and heat -
+resilient urban planning, including green roofs, urban trees, and cool pavements. 
+Every infrastructure project going forward needs to be designed with climate risk in 
+mind, and building co des, drainage standards, and coastal zone planning are being 
+revised globally to account for a changing climate. 
+6.3 Policy Frameworks 
+Internationally, the Paris Agreement commits nations to limiting warming to well 
+below 2°C, ideally 1.5°C. India has comm itted to achieving net -zero emissions by 
+2070 and is aggressively ramping up renewable energy deployment. The IPCC 
+synthesises the underlying science and informs global climate policy. 
+ 
+7. Summary and Key Takeaways 
+i. The greenhouse effect is natural and necessary; the problem is its enhancement 
+by human emissions. 
+
+=== page 6 ===
+6 
+ 
+ii. The evidence for human-caused climate change is overwhelming and comes from 
+multiple independent sources: temperature records, CO₂ data, ice cores, and 
+ocean measurements. 
+iii. Fossil fuels, deforestatio n, and agriculture are the primary human drivers of 
+climate change. 
+iv. The consequences are already unfolding, including extreme weather, sea level 
+rise, ecosystem stress, and food and health risks. 
+v. Solutions exist , renewable energy, efficiency, and adaptatio n design , and 
+engineers are central to delivering them. 
+vi. International frameworks such as the Paris Agreement provide policy 
+scaffolding, but the technical solutions must come from engineering and related 
+fields. 
+Climate change is not a distant threat; it is a scientific reality shaping the world 
+today. Understanding the underlying science empowers informed decision -making 
+and the development of sustainable solutions. As future engineers and professionals, 
+this knowledge forms the foundation for building a more resilient tomorrow. 

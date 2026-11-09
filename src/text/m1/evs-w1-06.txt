@@ -1,0 +1,153 @@
+# Ecological Succession Lecture Lotes
+
+=== page 1 ===
+ 
+1 
+ 
+Lecture Notes W1S7 
+ECOLOGICAL SUCCESSION 
+Gradual changes happening in species composition and processes of communities over time  is 
+known as ecological succession or community development. It is important to learn the process, rates, 
+and pattern of ecological succession for the management of ecosystems.  
+Ecological succession can be divided into two major categories 
+(i) Changes occurri ng over geological timescale (millions of years); also called paleo-
+ecological changes and 
+(ii) Changes occurring over medium timescale (1 – 1000 years) 
+In another way, succession can also be classified into two types such as Primary and Secondary 
+successions. Primary successions begin at a bare land where there is no life, whereas the secondary 
+succession occurs at a place where the pre-existed ecosystem was either partially or fully destroyed by 
+natural or unnatural means.  
+Primary Ecological Succession: 
+ 
+In primary succession, the slow process of soil formation begins with pioneer or early successional 
+species, which arrive and attach themselves to inhospitable patches of the weathered rock. Lichens 
+and mosses are examples of pioneer species. These species  secrete mild chemicals and acids that 
+penetrate the rocks and eventually make the soil fertile. Over time, the soil may be fertile and moist 
+enough to support other plant species. Midsuccessional species such as herbs, grasses and low shrubs 
+grow in the e nvironment after lichens and mosses. Next, trees replace these shrubs over the next 
+hundred to thousand years.  
+Secondary Ecological Succession: 
+
+
+=== page 2 ===
+ 
+2 
+ 
+In the secondary succession process, plant species grow in an area that has earlier been destroyed by 
+natural wildfires, floods, or human intervention. Even though the surface species are destroyed, life 
+remains under the soil, which eventually take foothold after the area is abandoned. We can consider 
+the example of mature oak and pine forests of North Carolina, U SA, which were destroyed by 
+European settlers. They used the cleared forest for farming. As the nutrients of the land started to 
+dwindle, the settlers moved on. The abandoned farmland underwent secondary succession as shown in 
+the figure below.  
+ 
+Secondary succession can take place 5 -10 times faster than primary successions are most of the 
+nutrients in the soil is still present, albeit at a much lower level than what is found at a live forest. The 
+species that take hold as the leader at the end of the succession is called climax species.  
+The process of succession takes place via two steps: 
+1. Nudation: In this, the bare area is formed by one of several factors: volcanic eruption, 
+landslide, flooding, fire, or other catastrophic event 
+2. Invasion: In this process , the arrival of an organism or many to the bare land takes place. 
+These immigrant species are called “pioneers” 
+3. Competition: When the number of living organisms increases, the space, nutrients, etc. in the 
+area are shared. The competition or struggle for existence can be intraspecific or 
+interspecific. Because of the competition, the environment is modified unsuitably for existing 
+community, which is eventually replaced by the immigrant species.  
+4. Climax: The end process is called “climax” or “stabilization ”. When the climax community 
+takes hold, the environment does not undergo further change unless by natural catastrophes or 
+human intervention.  
+There are several other types of succession as well:  
+a. Hydrosere – succession starting in a water environment 
+b. Xerosere – succession starting in a dry, waterless environment 
+c. Lithosere – succession starting in rocks 
+d. Halosere – succession starting in a saline environment 
+ 
+
+
+=== page 3 ===
+ 
+3 
+ 
+CLIMAX THEORY 
+1. MONOCLIMAX THEORY 
+ This Theory was given by F.E. Clemens. 
+ According to this theory,  within a given region all land surface is eventually covered by a 
+single type of community. This type of climax is determined by climate. 
+2. POLYCLIMAX THEORY 
+ This theory was given by Tansley. 
+ In this type, the climax vegetation does not consist of numerous type vegetation controlled by 
+many factors . 
+FEATURES OF PIONEER SPECIES 
+The pioneer species should: 
+• have the habit of exploring new habitat. 
+• should be agile in nature. 
+• have greater ability to adapt to new environment.  
+• Have a wide choice of food. 
+• be a good breeder. 
+• be a tolerant species.  
+Differences between Primary and Secondary Successions 
+Properties  Primary Succession  Secondary Succession 
+Meaning It is a type of succession that 
+starts from barren or 
+uninhabited land 
+It is the type of succession 
+which occurs in a habitat 
+where life existed previously 
+Occurs It occurs in lifeless or barren 
+areas 
+It occurs in recently denuded 
+or previously inhabited areas. 
+Time to compete Takes around 1000 years, 
+which may be more. 
+It takes place in 50 to 200 
+years. 
+Physical conditions  Conditions are least suitable 
+for the survival of life. Soil is 
+devoid of nutrients or there is 
+no soil at all. 
+As life once existed. There is 
+the presence of soil and may 
+also even some nutrients in the 
+soil. 
+Humus  Humus is absent Humus is present due to the 
+presence of previous 
+inhabitants 
+Seral community  There are several intermediary 
+seral communities 
+Few intermediary seral 
+communities are present, 
+compared to primary 
+succession. 
+Environment It begins with an unfavourable 
+environment 
+The environment is more or 
+less favourable right from the 
+beginning. 
+Reproduction  No previous community, so 
+reproductive structure starts 
+from the first inhibiting 
+species. 
+Reproductive structure varies 
+from primary succession due 
+to the presence of previous 
+communities in that habitat. 
+Examples  Bare rock, ponds, desert, lava-
+filled lands, etc 
+The areas that are affected by 
+natural calamities, covered 
+under deforestation 
+ 
+
+=== page 4 ===
+ 
+4 
+ 
+ 
+CONCLUSION 
+The process of succession shows how a new community is established. 
+By the process of succession and by of the species of that area the factors responsible for succession 
+can be determined. 
+The process of succession helps us in the conservation of the climax community. 
+REFERENCES 
+1. Living in the environment (16th Ed.) by Tyler Miller Jr. and Scott Spoolman 
+2. https://egyankosh.ac.in/handle/123456789/27060  

@@ -1,0 +1,685 @@
+# Environmental hazard definition; Types, causes and solutions, biological hazards (COVID-19) Notes
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W2S5 
+ENVIRONMENTAL HAZARDS 
+Introduction 
+As we progress through rapid industrialization, urbanization, and technological 
+advancement, the interaction between human activities and the natural environment has 
+intensified.  
+While development has  improved livin g standards, it has also led to significant 
+environmental challenges that threaten ecosystems, human health, and global 
+sustainability. 
+Environmental hazards are not a new phenomena.  
+However, their frequency, intensity, and impact have increased dramatically over the past 
+centuries. 
+From air pollution in urban cities , to climate-induced disasters such as floods, droughts, 
+and wildfires, environmental hazards affect all living beings and ecosystems across the 
+planet. 
+Understanding environmental hazards is essential for several reasons.  
+i. It helps us identify the risks associated with natural and human-induced activities. 
+ii. It allows policymakers, scientists, and communities to develop strategies to mitigate 
+and manage these risks.  
+iii. It empowers individuals to adopt sustainable practices that reduce environmental 
+degradation. 
+Environmental hazards are often interconnected. For example, deforestation can lead to 
+soil erosion, which in turn increases the risk of floods. Simila rly, industrial emissions 
+contribute to air pollution, which can cause respiratory diseases and contribute to climate 
+change. 
+Another important concept is risk, which refers to the probability of a hazard causing harm. 
+Risk depends on both the magnitude of  the hazard  and the vulnerability of the 
+population or ecosystem exposed to it. 
+ 
+
+=== page 2 ===
+2 
+ 
+ 
+1. Definition & Classification of Environmental Hazards 
+1.1 Definition of Environmental Hazards  
+Environmental hazards refer to natural or human-made events or conditions that pose 
+a threat to the environment, human health, or ecological systems . These hazards can 
+disrupt ecosystems, damage infrastructure, and lead to loss of life and property. 
+i.e. Environmental hazards are physical, chemical, biological, or social conditions or events 
+in the environment that have the potential to harm human health, cause injury, damage 
+property, or degrade natural ecosystems. 
+Environmental hazards can be broadly categorized into two groups: 
+1. Natural hazards  
+2. Anthropogenic (human-induced) hazards  
+Natural hazards occur due to natural processes of the Earth, such as earthquakes, volcanic 
+eruptions, floods, and hurricanes. While these events are inevitable, their impact can be 
+amplified by human activities. 
+Anthropogenic hazards, on the other  hand, arise from human actions such as industrial 
+pollution, deforestation, improper waste disposal, and excessive use of natural resources. 
+A key feature of environmental hazards is their potential to cause harm. This harm can 
+manifest in various forms, including: 
+ Physical damage to ecosystems  
+ Health problems in humans and animals  
+ Economic losses  
+ Long-term environmental degradation  
+ Environmental hazards can be classified into several types based on their origin and 
+nature.  
+ 
+ 
+ 
+
+=== page 3 ===
+3 
+ 
+ 
+1.2 Four Major Types of Environmental Hazards 
+Type Nature Examples 
+Physical Natural energy 
+forces & radiation 
+Earthquakes, floods, hurricanes, 
+landslides, volcanic eruptions, wildfires, 
+UV radiation, extreme temperature, noise 
+pollution 
+Chemical Toxic substances in 
+environment 
+Industrial pollutants, pesticides, heavy 
+metals, BPA, phthalates, synthetic dyes, 
+pharmaceutical waste, solvents 
+Biological Living organisms & 
+biological agents 
+Bacteria (TB, cholera), viruses (COVID -
+19, dengue), parasites (malaria, filariasis), 
+fungi, prions, biological toxins 
+Sociological Social, economic & 
+behavioural factors 
+Poverty, malnutrition, armed conflict, 
+unsafe work conditions, lack of 
+healthcare, substance abuse, social 
+inequality 
+ 
+1.3 Physical Hazards 
+Physical hazards are natural processes or events that can cause physical damage. While 
+often classified as natural disasters, climate change is increasing their frequency and 
+intensity. 
+These include: 
+a) Geological: Earthquakes, tsunamis, volcanic eruptions, landslides 
+b) Meteorological: Hurricanes/cyclones, tornadoes, blizzards, extreme heat/cold 
+c) Hydrological: Floods, storm surges, droughts 
+d) Radiation: UV radiation (skin cancer), ionising radiation (nuclear accidents), radon gas 
+e) Noise: Occupational hearing loss, cardiovascular disease from chronic noise exposure 
+
+=== page 4 ===
+4 
+ 
+These hazards are often unpredictable and can cause widespread destruction. For example, 
+floods can submerge large areas, destroying crops, homes, and infrastructure. 
+2. Chemical Hazards 
+2.1 Overview 
+Chemical hazards arise from exposure to harmful chemicals in the environment. These 
+include: 
+i. Air pollutants such as carbon monoxide, sulfur dioxide, and nitrogen oxides  
+ii. Water contaminants like heavy metals (lead, mercury, arsenic)  
+iii. Soil contamination from pesticides and industrial waste  
+2.2 Sources 
+i. Industrial: Factory effluents, mining runoff, manufacturing waste containing solvents, 
+acids, heavy metals 
+ii. Agricultural: Pesticides (organochlorines, organophosp hates), herbicides, synthetic 
+fertilizers 
+iii. Consumer products: Plastics (BPA), personal care products (phthalates, parabens), 
+cosmetics 
+iv. Food industry:  Synthetic food dyes (tartrazine, sunset yellow), preservatives, food 
+contact materials 
+v. Pharmaceuticals: Active drug compounds in wastewater: 'emerging contaminants' 
+vi. Fossil fuels: PAHs, benzene, toluene, lead from combustion 
+ 
+2.3 Routes of Human Exposure 
+Chemical hazards can enter the human body through inhalation, ingestion, or skin contact, 
+leading to serious health issues such as cancer, neurological disorders, and organ damage. 
+ 
+ 
+ 
+ 
+
+=== page 5 ===
+5 
+ 
+ 
+Route Mechanism Examples 
+Inhalation Breathing 
+contaminated air 
+Occupational exposure (factory workers), 
+air pollution, indoor combustion 
+Ingestion Eating/drinking 
+contaminated items 
+Food/water contamination, accidental 
+swallowing (children) 
+Dermal Skin contact with 
+chemicals 
+Pesticide spraying, industrial solvents, 
+cosmetics 
+Transplacental Mother to 
+developing foetus 
+EDCs cross placental barrier — critical 
+developmental window 
+Ocular Eye contact Acid splashes, chemical aerosols 
+ 
+2.4 Mechanisms of Chemical Harm 
+i. Endocrine disruption: Chemicals mimic or block hormones → reproductive, 
+developmental effects 
+ii. Carcinogenesis: DNA damage, adduct formation, epigenetic changes → cancer 
+iii. Neurotoxicity: Impair neural development and function — lead, methylmercury, 
+organophosphates 
+iv. Organ toxicity: Direct damage to liver (hepatotoxins), kidneys (nephrotoxins), lungs 
+v. Reproductive toxicity: Impair gamete production, fertility, foetal development 
+vi. Immunotoxicity: Suppress or dysregulate immune system (e.g., dioxins, PCBs) 
+ 
+2.5 Chemical Hazard Case Study 1: BPA (Bisphenol A) 
+BPA (Bisphenol A) is a synthetic oestrogen and endocrine-disrupting chemical (EDC) used 
+in polycarbonate plastics and epoxy resin since the 1960s. Global production exceeds 8 
+million tonnes per year. It is one of the most studied and controversial chemicals in modern 
+toxicology. 
+ 
+ 
+
+=== page 6 ===
+6 
+ 
+ 
+2.5.1 Where We Are Exposed 
+i. Polycarbonate water bottles (plastic #7) — BPA leaches when heated 
+ii. Food and beverage can linings — epoxy resin coatings containing BPA 
+iii. Thermal paper (ATM receipts, boarding passes) — BPA on surface, absorbed through 
+skin 
+iv. Baby feeding bottles — now banned in EU, US, Canada, and India 
+v. Dental sealants, CDs, DVDs, medical devices, food storage containers 
+ 
+2.5.2 Health Effects 
+i. Oestrogenic activity:  BPA binds oestrogen receptors (ERα, ERβ) at very low 
+concentrations (picomolar range) 
+ii. Hormonal disruption: Causes early puberty in girls, reduced sperm count and quality 
+in males 
+iii. Cancer: Linked to increased risk of breast cancer (oestrogen -sensitive) and prostate 
+cancer 
+iv. Metabolic disease: Associated with obesity, insulin resistance, and Type 2 diabetes 
+v. Cardiovascular: Associated with hypertension and coronary artery disease 
+vi. Neurodevelopmental: Affects brain development — anxiety, aggression, impaired 
+memory in animal models 
+vii. Reproductive: Linked to polycystic ovary syndrome (PCOS) and endometriosis 
+ 
+Key concern: The 'low dose' hypothesis: BPA shows effects at concentrations fa r below 
+what was traditionally considered 'safe'. Even nanomolar concentrations can activate 
+hormonal pathways in sensitive developmental windows. 
+ 
+ 
+ 
+ 
+ 
+
+=== page 7 ===
+7 
+ 
+ 
+2.6 Regulations & Alternatives 
+Jurisdiction/Option Action 
+EU BPA banned in baby bottles (2011); banned  in all food 
+contact materials (2022) under revised BPA Restriction 
+USA (FDA) BPA banned in baby bottles & sippy cups (2012); under 
+review for food contact materials 
+Canada BPA declared 'toxic' under CEPA 1999; banned in baby 
+bottles (2010) 
+India BIS restricted BPA in infant feeding bottles; 
+comprehensive regulation still under development 
+Alternatives BPA-Free options: Tritan plastic (Eastman), glass, 
+stainless steel, BPA -free epoxy linings (BPS/BPF — but 
+safety debated) 
+ 
+2.7 Chemical Hazards Case Study 3: Phthalates 
+Phthalates (phthalic acid esters) are plasticisers - chemicals added to PVC (polyvinyl 
+chloride) to make it soft and flexible. They constitute 25–50% of flexible PVC by weight. 
+Global production exceeds 8 million tonnes per year. As they  are not chemically bonded 
+to the plastic, they leach out continuously. 
+2.7.1 Sources of Exposure 
+i. Flexible PVC products: Vinyl flooring, shower curtains, garden hoses, artificial leather 
+ii. Medical devices: IV bags, blood transfusion tubing, catheters (DEHP — most studied 
+phthalate) 
+iii. Personal care products: Perfumes, hairsprays, nail polishes (DBP — dibutyl phthalate) 
+iv. Children's toys: Soft vinyl toys, bath toys, teething rings 
+v. Food packaging: Phthalate contamination from plastic wraps, food processing 
+equipment 
+vi. Building materials: Wall coverings, flooring — inhaled as dust and absorbed dermally 
+ 
+2.7.2 Health Effects 
+
+=== page 8 ===
+8 
+ 
+i. Anti-androgenic activity: Block androgen (testosterone) receptors — distinct from 
+oestrogenic effects of BPA 
+ii. Male reproductive harm: Reduced testosterone levels, decreased sperm count, motility, 
+and morphology. 'Phthalate syndrome' in animal models — undescended testes, 
+hypospadias, reduced anogenital distance 
+iii. Female reproductive: Premature birth, endometriosis, reduced fertility 
+iv. Thyroid disruption: Some phthalates interfere with thyroid hormone production and 
+transport 
+v. Childhood development: Associated with ADHD, autism spectrum disorder, reduced 
+IQ in children born to highly exposed mothers 
+vi. Asthma and allergy: Phthalate metabolites associated with childhood asthma and 
+allergic rhinitis 
+2.7.3 Regulations 
+Jurisdiction Regulation 
+EU DEHP, DBP, BBP, DIBP banned (>0.1%) in all articles. 
+DINP, DIDP, DNOP restricted in childcare articles 
+USA (CPSIA) 8 phthalates banned (>0.1%) in children's toys and  
+childcare articles 
+India Incomplete regulation; draft notification for phthalates in 
+toys under consideration 
+Alternatives Non-phthalate plasticisers: DINCH (Hexamoll), citrates 
+(tributyl citrate), adipates, bio -based plasticisers from 
+soybean, sunflower oil 
+3. Chemical Substitution & Green Chemistry 
+i. Green chemistry (12 principles): Design chemicals and processes to reduce or eliminate 
+hazardous substances from the start 
+ii. BPA-free alternatives: Glass, stainless steel, Tritan plastic; BPA -free epo xy linings 
+(caution: BPS/BPF may also be EDCs) 
+iii. Phthalate-free plasticisers: Hexamoll DINCH, citrate esters, soy-based and sunflower-
+based options 
+iv. Natural dyes: Indigo, henna, turmeric, madder, woad — low environmental impact if 
+properly processed 
+
+=== page 9 ===
+9 
+ 
+v. Safer food dyes: Spirulina (blue), annatto (orange), turmeric (yellow), beetroot (red) — 
+FSSAI and EU approved natural colours 
+ 
+4. Biological Hazards 
+Biological hazards (biohazards) result from biological agents — including 
+microorganisms, toxins, and allergens — that can infect, poison, or sensitise living 
+organisms. 
+4.1 Classification 
+Type Examples Transmission 
+Viral COVID-19, Dengue, Ebola, HIV, 
+Influenza, Hepatitis 
+Airborne, droplets, 
+bloodborne, vector-borne 
+Bacterial Tuberculosis, Cholera, Typhoid, 
+Plague 
+Airborne, waterborne, 
+foodborne, direct contact 
+Parasitic Malaria, Filariasis, 
+Toxoplasmosis, Leishmaniasis 
+Vector-borne, waterborne, 
+foodborne 
+Fungal Candidiasis, Aspergillosis, 
+Dermatophytosis 
+Airborne spores, direct 
+contact, 
+immunocompromised 
+Prion Creutzfeldt-Jakob disease (CJD), 
+BSE (Mad Cow) 
+Contaminated food, medical 
+procedures 
+Biological 
+Toxins 
+Aflatoxin, Botulinum, 
+Mycotoxins 
+Contaminated food, 
+environmental 
+ 
+4.2 Biological Hazard Case Study 1: Malaria 
+Malaria is a life-threatening parasitic disease caused by Plasmodium protozoa, transmitted 
+through the bites of infected female Anopheles mosquitoes. WHO 2022: 249 million cases; 
+608,000 deaths: 76% in children under 5 in sub-Saharan Africa. 
+4.2.1 Causative Agent 
+i. Plasmodium falciparum: Most lethal species, causes cerebral malaria, severe anaemia, 
+multi-organ failure. Responsible for >90% of malaria deaths. 
+
+=== page 10 ===
+10 
+ 
+ii. Plasmodium vivax:  Most widespread; can relapse years later due to dormant liver 
+stages (hypnozoites). Common in South Asia and Latin America. 
+iii. Plasmodium malariae: Chronic infection; rare but causes kidney damage 
+iv. Plasmodium ovale: West Africa; similar to P. vivax with relapses 
+v. Plasmodium knowlesi: Zoonotic, from macaque monkeys in Southeast Asia; can be 
+fatal 
+4.2.2 Life Cycle & Transmission 
+The malaria life cycle alternates between the human host and the female Anopheles 
+mosquito vector: 
+Phase 1: Exo-erythrocytic (liver stage): Sporozoites injected by mosquito → travel to liver 
+→ infect hepatocytes → multiply asexually → release merozoites into bloodstream (7–10 
+days) 
+Phase 2: Erythrocytic (blood stage): Merozoites infect red blood cells (RBCs) → ring form 
+→ trophozoite → schizont → rupture RBCs → repeat cycle every 48 –72 hours (fever 
+spikes coincide with this) 
+Phase 3 : Gametocytes: Some merozoites develop into gametocytes → ingested by 
+mosquito → fertilization in mosquito gut → oocyte → sporozoites → salivary glands → 
+transmitted to next human host 
+ 
+4.2.3 Clinical Features 
+i. Classic fever: High temperature (39–41°C) with chills and rigors, occurring in 48 -hr 
+cycles 
+ii. Anaemia: Destruction of RBCs (haemolytic anaemia) — weakness, pallor, fatigue 
+iii. Splenomegaly: Enlarged spleen from increased RBC destruction and immune 
+activation 
+iv. Severe malaria (P. falciparum):  Cerebral malaria ( coma, seizures), severe anaemia 
+(Hb <7 g/dL), acute respiratory distress, hypoglycaemia, multi -organ failure — fatal 
+within 24 hours if untreated 
+v. Pregnancy: Placental malaria — maternal death, low birth weight, stillbirth 
+ 
+ 
+ 
+
+=== page 11 ===
+11 
+ 
+4.2.4 Prevention & Control 
+Intervention Details Category 
+ITNs (Insecticide -
+Treated Nets) 
+Reduces malaria transmission by 50%; LLIN 
+(Long-Lasting Insecticidal Nets) effective for 
+3–5 years 
+Vector control 
+IRS (Indoor Residual 
+Spraying) 
+Spray residual insecticide (DDT, pyrethroids) 
+on indoor walls 
+Vector control 
+Larval Source 
+Management 
+Drain stagnant water, biological control 
+(Bacillus thuringiensis israelensis) 
+Vector control 
+Artemisinin 
+Combination Therapies 
+(ACTs) 
+First-line WHO -recommended treatment — 
+artesunate + amodiaquine/lumefantrine 
+Treatment 
+Chemoprophylaxis Chloroquine, Doxycycline, Malarone 
+(atovaquone-proguanil) for travellers 
+Prevention 
+RTS,S/AS01 
+(Mosquirix) 
+First WHO-approved malaria vaccine (2021); 
+30–40% efficacy against severe malaria in 
+children 
+Vaccine 
+R21/Matrix-M Second WHO -approved vaccine (2023, 
+Oxford-Serum Institute); 75%+ efficacy in 
+trials 
+Vaccine 
+ 
+4.3 Biological Hazard Case Study 2: COVID-19 
+COVID-19 (Coronavirus Disease 2019) is caused by SARS -CoV-2, a novel 
+betacoronavirus first identified in Wuhan, China in December 2019. The WHO declared it 
+a pandemic on 11 March 2020. As of 2024: 700+ million confirmed cases; ~7 million 
+official deaths (true death toll estimated at 15–20 million by excess mortality analysis). 
+4.3.1 The Pathogen 
+i. SARS-CoV-2: Single-stranded, positive-sense RNA virus (genome ~30 kb). Enveloped 
+with a characteristic crown of spike (S) proteins. 
+ii. Spike protein: Binds ACE2 (angiotensin-converting enzyme 2) receptors on host cells, 
+highly expressed in lung, heart, kidney, intestinal lining cells 
+
+=== page 12 ===
+12 
+ 
+iii. Entry: Spike S1 binds ACE2; S2 mediates membrane fusion; TMPRSS2 primes entry 
+into lung cells 
+iv. Replication: Viral RNA-dependent RNA polymerase (RdRp) replicates viral genome; 
+inhibited by Remdesivir 
+ 
+4.3.2 Transmission 
+i. Airborne/aerosol: Primary route — virus-laden aerosols remain suspended for hours 
+in poorly ventilated indoor spaces 
+ii. Large respiratory droplets:  Short-range (<1m) transmission during coughing, 
+sneezing, talking 
+iii. Fomite: Indirect contact with contaminated su rfaces — less significant than initially 
+thought 
+iv. Incubation: 2–14 days (original strain); Omicron: 1–3 days 
+v. Basic reproduction number (R₀): Original Wuhan strain ~2–3; Delta ~5–6; Omicron 
+~9–12 
+ 
+4.3.3 Clinical Spectrum 
+Severity Proportion Features 
+Asymptomatic ~35–45% of cases No symptoms; can transmit to others 
+Mild/Moderate ~50–55% of cases Fever, cough, fatigue, anosmia (loss of 
+smell), myalgia 
+Severe ~5% of cases Pneumonia, O₂ saturation <94%, requires 
+hospitalisation 
+Critical ~1–2% of cases ARDS, septic shock, multi-organ failure, 
+mechanical ventilation 
+Long COVID 10–35% of 
+recovered 
+Fatigue, brain fog, breathlessness, 
+tachycardia months after infection 
+ 
+ 
+ 
+
+=== page 13 ===
+13 
+ 
+4.3.4 Variants of Concern (VOCs) 
+Variant Origin/Date Key Feature 
+Alpha (B.1.1.7) UK, Dec 2020 ~70% more transmissible than original 
+strain 
+Beta (B.1.351) South Africa, Dec 
+2020 
+Reduced vaccine effectiveness; not 
+dominant globally 
+Delta 
+(B.1.617.2) 
+India, Oct 2020 Most severe wave globally; 50%+ 
+hospitalisation increase 
+Omicron 
+(B.1.1.529) 
+South Africa, Nov 
+2021 
+~10× more transmissible; immune 
+evasion; milder disease; multiple 
+subvariants (BA.4, BA.5, XBB) 
+ 
+4.3.5 Prevention & Control 
+i. Vaccines: mRNA (Pfizer -BioNTech, Moderna — 90%+ efficacy against original 
+strain), Viral vector (AstraZeneca, J&J), Inactivated (Covaxin, Sinovac), Protein 
+subunit (Novavax) 
+ii. Non-pharmaceutical interventions (NPIs): Masking (N95 reduces aerosol inhalation 
+>90%), physical distancing, HEPA air filtration, improved ventilation 
+iii. Antivirals: Paxlovid (nirmatrelvir/ritonavir) — 89% reduction in hospitalisation; 
+Remdesivir for hospitalised patients; Molnupiravir 
+iv. Monoclonal antibodies: Neutralising antibodies (largely ineffective against Omicron 
+subvariants) 
+v. Public health: Contact tracing (Aarogya Setu app in India), quarantine, border control, 
+laboratory surveillance 
+4.4 Biological Hazard Control 
+i. Vector control:  Integrated Vector Management (IVM) combining ITNs, IRS, and 
+biological control 
+ii. Vaccination: Universal immunisation programmes — Expanded Programme on 
+Immunisation (EPI) 
+iii. WASH: Water, Sanitation and Hygiene — single most effective intervention for 
+reducing waterborne and some vector-borne disease burden 
+
+=== page 14 ===
+14 
+ 
+iv. Surveillance: Real-time disease surveillance (IDSP, IHIP in India), genomic 
+sequencing, GOARN (WHO Global Outbreak Alert and Response Network) 
+v. Climate-smart health systems: Anticipate shifts in disease geography due to warming 
+and plan vector control accordingly. 
+ 
+5. Climatic Hazards 
+Climatic hazards are associated with long-term changes in climate patterns, including: 
+ Global warming  
+ Heatwaves  
+5.1 Control Strategies & Solutions 
+5.1.1 Regulatory & Policy Approaches 
+i. REACH Regulation (EU): Registration, Evaluation, Authorisation and Restriction of 
+Chemicals — world's most comprehensive chemical law 
+ii. Precautionary Principle: Restrict chemicals before definitive proof of harm — burden 
+of proof on industry 
+iii. WHO International Health Regulations (IHR, 2005): Binding obligat ions for member 
+states to detect, report, and respond to public health emergencies 
+iv. India: Environment Protection Act 1986, Drugs and Cosmetics Act, BIS standards for 
+plastics in food contact, FSSAI for food additives 
+6 Radiological Hazards 
+Radiological hazards involve exposure to harmful radiation, which can come from: 
+ Nuclear accidents  
+ Improper disposal of radioactive waste  
+ Medical and industrial radiation sources  
+Radiation exposure can cause severe health effects, including cancer and genetic mutations. 
+7. Climatic Hazards 
+Climatic hazards are associated with long-term changes in climate patterns, including: 
+ Global warming  
+
+=== page 15 ===
+15 
+ 
+ Heatwaves  
+ Sea-level rise  
+ Extreme weather events  
+These hazards are primarily driven by climate change and have far -reaching impacts on 
+ecosystems and human societies. 
+8. Technological Hazards 
+Technological hazards result from industrial and technological activities, such as: 
+ Oil spills  
+ Industrial accidents  
+ Chemical leaks  
+ Nuclear disasters  
+These hazards often have immediate and long-term environmental consequences. 
+9. Causes of Environmental Hazards  
+Environmental hazards arise due to a combination of natural processes and human 
+activities. The major causes include: 
+9.1 Natural Causes 
+Natural processes such as tectonic mo vements, volcanic activity, and climatic variations 
+can lead to environmental hazards. While these are beyond human control, their impact can 
+be reduced through preparedness and planning. 
+9.2 Industrialization 
+Rapid industrial growth has led to increased emissions of pollutants into the air, water, and 
+soil. Industries release toxic chemicals, heavy metals, and greenhouse gases, contributing 
+to environmental degradation. 
+9.3 Urbanization 
+Unplanned urban growth leads to: 
+ Overcrowding  
+ Poor waste management  
+ Increased pollution  
+
+=== page 16 ===
+16 
+ 
+Urban areas often experience higher levels of air and water pollution due to vehicular 
+emissions and industrial activities. 
+9.4 Deforestation 
+Deforestation disrupts ecosystems, reduces biodiversity, and contributes to climate change. 
+It also increases the risk of soil erosion, floods, and landslides. 
+9.5 Agricultural Practices 
+Excessive use of fertilizers and pesticides contaminates soil and water. Irrigation practices 
+can lead to salinization and waterlogging. 
+9.6 Climate Change 
+Climate change is a major driver of environmental hazards. It leads to: 
+ Rising temperatures  
+ Changing precipitation patterns  
+ Increased frequency of extreme weather events  
+9.7 Population Growth 
+Increasing population puts pressure on natural resources, leading t o overexploitation and 
+environmental degradation. 
+ 
+10 Effects of Environmental Hazards (Approx. 600 words) 
+Environmental hazards have wide -ranging impacts on human health, ecosystems, and 
+economies. 
+10.1 Impact on Human Health 
+Environmental hazards can cause: 
+ Respiratory diseases (due to air pollution)  
+ Waterborne diseases (due to contaminated water)  
+ Cancer and neurological disorders (due to chemical exposure)  
+10.2 Impact on Ecosystems 
+
+=== page 17 ===
+17 
+ 
+Hazards can disrupt ecosystems by: 
+ Destroying habitats  
+ Reducing biodiversity  
+ Altering food chains  
+10.3 Economic Impacts 
+Environmental hazards can lead to: 
+ Loss of property and infrastructure  
+ Reduced agricultural productivity  
+ Increased healthcare costs  
+10.4 Social Impacts 
+Hazards can cause: 
+ Displacement of populations  
+ Loss of livelihoods  
+ Increased poverty and inequality  
+10.5 Global Impacts 
+Issues such as climate change and ozone depletion have global consequences, affecting all 
+countries regardless of their level of development. 
+11. Solutions and Mitigation Strategies  
+Addressing environmental hazards requires a combination of technological, policy, and 
+behavioural approaches. 
+11.1 Sustainable Development 
+Promoting sustainable development ensures that economic growth does not compro mise 
+environmental health. This includes: 
+ Efficient use of resources  
+ Adoption of renewable energy  
+ Sustainable agriculture  
+ 
+
+=== page 18 ===
+18 
+ 
+11.2 Pollution Control 
+Measures to reduce pollution include: 
+ Installing emission control devices  
+ Treating industrial waste  
+ Promoting clean technologies  
+11.3 Environmental Regulations 
+Governments play a crucial role by: 
+ Enforcing environmental laws  
+ Setting emission standards  
+ Monitoring industrial activities  
+11.4 Disaster Management 
+Effective disaster management includes: 
+ Early warning systems  
+ Emergency preparedness  
+ Rehabilitation and recovery plans  
+11.5 Public Awareness 
+Educating people about environmental issues encourages responsible behavior, such as: 
+ Reducing waste  
+ Conserving water and energy  
+ Supporting eco-friendly products 
+11.6 Individual & Community Actions 
+i. Avoid heating food in plastic containers; use glass or stainless steel 
+ii. Choose certified products: Oeko-Tex for textiles, BPA-free labels, EU Ecolabel 
+iii. Regular handwashing — reduces infection transmission by up to 50% 
+iv. Community education on safe disposal of pharmaceuticals, paints, solvents 
+v. Support open burning bans; never burn plastic or treated wood 
+  
+
+=== page 19 ===
+19 
+ 
+11.7 Technological Innovations 
+Advanced technologies can help mitigate environmental hazards, including: 
+ AI for environmental monitoring  
+ Remote sensing and GIS  
+ Green chemistry  
+12 Summary & Key Takeaways 
+Environmental hazards — chemical and biological — represent two of the most pressing 
+public health and environmental challenges of the 21st century. Unders tanding their 
+mechanisms enables effective prevention, regulation, and individual action. 
+ 
+i. 4 types of environmental hazards: Physical, Chemical, Biological, Sociological — each 
+requires distinct approaches 
+ii. BPA is an endocrine disruptor linked to hormonal c ancers, metabolic disease, and 
+neurodevelopment — regulated but still widespread 
+iii. Synthetic dyes (azo group) can release carcinogenic aromatic amines; phthalates are 
+anti-androgenic plasticisers — both subject to increasing regulation 
+iv. Malaria: 249M cases, 608K deaths — Plasmodium falciparum via Anopheles mosquito; 
+ACTs and Mosquirix vaccine are current tools 
+v. COVID-19: SARS-CoV-2 pandemic revealed the speed of biological hazard spread and 
+the critical need for global health equity and preparedness 
+vi. Solutions: Precautionary regulation + green chemistry substitution + international 
+treaties + WASH + vaccination + individual choices 
+ 
+ 
+ 
+ 

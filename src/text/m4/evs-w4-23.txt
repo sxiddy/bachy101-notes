@@ -1,0 +1,346 @@
+# 2. Environmental Laws - EPA and Water act - Part II
+
+=== page 1 ===
+LECTURE NOTES  
+Water (Prevention and Control of Pollution) Act, 1974 
+Key National Environmental Policies 
+Week 4 · Session 2 (Part 2) 
+Dr. Srinivasan Latha  |  Vellore Institute of Technology, Vellore 
+1. Instructional Goals and Learning Outcomes 
+Goals 
+• Goal 1: Explain the background, need, and key provisions of the Water Act, 1974 — 
+including the institutional framework (CPCB and SPCBs), consent requirements for 
+effluent discharge (Sections 24–26), and the purposes of the legislation. 
+• Goal 2: Analyze and apply the penalty provisions (Sections 41–47) to real industrial 
+scenarios, including imprisonment terms, fines, continuing violation penalties, and 
+corporate liability for engineers in charge. 
+Learning Outcomes 
+• LO1: Identify and describe at least five key provisions of the Act (Sections 24, 25, 26, 
+21, and 23) and explain how each applies to industrial wastewater management and 
+engineering practice. 
+• LO2: Calculate and differentiate penalty structures — Section 43 (discharge without 
+consent), Section 44 (new di scharge without permission), Section 45 (continuing 
+violation fines of ₹5,000/day), and Section 46 (corporate liability) — and explain 
+imprisonment ranges (1.5–6 years). 
+• LO3: Articulate the professional importance of Water Act awareness, listing at least 
+four reasons (legal compliance, personal liability, career opportunities, sustainable 
+design) with a real-world example of how this knowledge prevents costly mistakes. 
+2. Introduction 
+The Water (Prevention and Control of Pollution) Act, 1974 was the first c omprehensive 
+water pollution law in independent India. Enacted by Parliament on March 23, 1974, its 
+primary objective is preventing and controlling water pollution while maintaining or 
+restoring the wholesomeness of water. It also created the institutional architecture that still 
+governs environmental regulation across the country today. 
+Why was It Needed? 
+India's major rivers — the Ganga, Yamuna, Godavari, and Cauvery — are ecological, 
+cultural, and economic lifelines for hundreds of millions of people. Decades of industrial 
+discharge, untreated sewage, and agricultural runoff had severely degraded many of these 
+systems, creating the pressure for national legislation. 
+
+=== page 2 ===
+Constitutional Basis 
+The Act was enacted under Article 252 of the Constitution, which allo ws Parliament to 
+legislate on subjects normally reserved for states when state legislatures pass resolutions 
+requesting it. Several states requested a central law on water pollution, which is how the 
+Act achieved national application despite water being a state subject. 
+The 1988 amendment significantly strengthened the Act — penalties were enhanced and 
+Board powers were expanded, improving enforcement effectiveness. 
+Institutional Significance 
+The Water Act, 1974 is the legislation that established the Central Pollution Control Board 
+(CPCB) and the State Pollution Control Boards (SPCBs). These same bodies later took on 
+responsibilities under the Air Act as well — so studying the Water Act means studying the 
+origin point of India's entire environmental regulatory infrastructure. 
+• CPCB: sets national water quality standards and provides technical guidance. 
+• SPCB: grants consent, monitors rivers and wells, operates testing laboratories, and 
+prosecutes polluters. 
+The Need for the Law 
+1. Protection of Public Health 
+2. Preservation of Aquatic Life 
+3. Sustainable Water Resources for Future Generations 
+4. Economic Considerations 
+5. Need for Uniform National Standards 
+6. Scientific and Technical Expertise 
+7. International Obligations 
+3. Key Provisions 
+The Act contains 64 sections divided into 10 chapters. The provisions below are the ones 
+engineering students must understand. 
+3.1 Institutional Framework — Pollution Control Boards 
+Central Pollution Control Board (CPCB) — Section 3 
+Established at the national level. Main functions include: 
+• Promoting cleanliness of streams and wells in different areas 
+• Advising the Central Government on water pollution prevention and control 
+• Coordinating activities of State Boards 
+• Providing technical assistance and training 
+
+=== page 3 ===
+• Conducting and sponsoring research on water pollution 
+• Collecting and disseminating information on water pollution 
+State Pollution Control Boards (SPCB) — Section 4 
+Each state must establish a State Board responsible for: 
+• Advising the State Government on water pollution matters 
+• Planning and executing comprehensive programs for pollution prevention 
+• Inspecting sewage and trade effluent treatment plants 
+• Reviewing plans for wastewater treatment facilities 
+• Collecting and disseminating water quality information 
+• Training personnel for pollution control programs 
+Joint Boards — Section 13 
+Two or more states may form a Joint Board to handle pollution control jointly — useful 
+for rivers flowing through multiple states. 
+3.2 Prohibition on Discharge of Polluting Matter 
+Section 24 — Prohibition on Use of Stream or Well for Disposal of Polluting Matter 
+An absolute prohibition: no person may knowingly allow poisonous, noxious, or polluting 
+matter to enter any stream or well. Applies to factories, municipalities, farms, and every 
+other entity — there are no e xceptions except discharges permitted under State Board 
+consent. 
+• Discharging any poisonous, noxious, or polluting matter into a stream or well is 
+prohibited 
+• Discharging matter that would deteriorate water quality is prohibited 
+• Applies to both liquid and solid pollutants 
+• Exceptions exist only for discharges permitted under State Board consent 
+Engineering relevance: any industrial process generating wastewater must treat it before 
+discharge, and discharge may only occur with proper consent. 
+Section 25 — Restrictions on New Outlets and New Discharges  
+Establishes the consent mechanism for water — mirroring what Section 21 does for air. 
+Any industry likely to discharge trade effluent must obtain prior consent from the State 
+Board before beginning operations. The Board may specify conditions, such as requiring a 
+particular wastewater treatment plant to be in place before discharge begins. 
+• Prior consent from the State Board is required before creating a new discharge outlet 
+• New discharges of sewage or trade effluent are prohibited without consent 
+• The consent application must detail the nature and quantity of discharge 
+
+=== page 4 ===
+• The State Board can approve, reject, or impose conditions on consent 
+Engineering relevance: engineers designing new industrial facilities must seek consent 
+before establishing any discharge outlet. 
+Section 26 — Provision Regarding Existing Discharge of Sewage or Trade Effluent  
+• Persons already discharging sewage or effluent must apply for consent within a 
+specified time period 
+• Existing discharges without consent are prohibited after the deadline 
+• The State Board can grant consent with conditions, or refuse it 
+Ensures that even older industries must comply with pollution control requirements. 
+3.3 Powers of Inspection and Sample Collection  
+Section 21 — Power to Take Samples of Effluents  
+State Board officers can: 
+• Take samples of effluents from any outlet or discharge point 
+• Follow specific sampling procedures, including notifying the person concerned 
+• Send samples to recognized laboratories for analysis 
+• Use analysis results as evidence in legal proceedings 
+Section 23 — Power of Entry and Inspection 
+Board officers have the authority to: 
+• Enter any place for inspection purposes 
+• Inspect sewage or trade effluent treatment plants 
+• Examine records and documents 
+• Check compliance with consent conditions 
+3.4 Consent Mechanism and Effluent Standards 
+• Industries must obtain consent from the State Board before discharging effluents 
+• Consent is granted with specific conditions on effluent quality, quantity, and 
+monitoring 
+• The State Board can specify effluent standards based on the receiving water body's 
+capacity 
+• Consent can be refused if the discharge would cause unacceptable pollution 
+• Consent can be withdrawn if conditions are violated 
+3.5 Functions and Powers of Boards  
+• Section 16 — Functions of Central Board: advisory, coordinating, and research 
+functions at the national level 
+
+=== page 5 ===
+• Section 17 — Functions of State Board: inspection, monitoring, and enforcement 
+within the state 
+• Section 18 — Power to Give Directions: both Boards  can give legally binding 
+directions to governments, industries, and any person regarding compliance 
+3.6 Emergency Measures  
+• Section 32 — Emergency Measures: State Boards can remove pollutants causing 
+imminent danger, restore water quality after accidents, and prevent further pollution 
+during emergencies 
+• Section 33 — Power to Apply to Courts: Boards can seek court orders to stop 
+apprehended pollution, prevent discharge of pollutants, or restrict polluting activities 
+3.7 Appeals and Revision 
+• Section 28 — Appeals: persons aggrieved by State Board decisions (e.g. refusal of 
+consent) can appeal to the State Government 
+• Section 29 — Revision: the State Government can revise any order passed by the State 
+Board 
+• Section 33B — Appeal to National Green Tribunal (NGT): a fter the NGT's 
+establishment, Water Act appeals can be filed with it directly 
+4. Penalty and Punishment Provisions 
+Violations of the Water Act carry serious legal consequences for both industries and 
+individuals. The table below summarizes the key penalty sections. 
+ 
+Section Violation / Provision Penalty 
+41 Failure to comply with Section 20 
+(furnishing information) or Board 
+directions 
+Imprisonment 1.5–6 years + fine 
+41A Failure to comply with Section 32 
+(emergency measures) or Section 
+33/33A court orders 
+1.5–6 years + fine 
+42 Obstructing officers, failure to furnish 
+information, other procedural violations 
+Up to 3 months, or fine up to 
+₹10,000, or both 
+43 Contravention of Section 24 (discharge 
+into stream/well) 
+Imprisonment 1.5 –6 years + fine 
+(most severe) 
+
+=== page 6 ===
+44 Contravention of Section 25/26 
+(discharge without consent) 
+Imprisonment 1.5–6 years + fine 
+45 Continuing violation after first 
+conviction 
+Additional fine up to ₹5,000 per day 
+46 Offences by companies — person in 
+charge liable unless due diligence proven 
+Personal liability of 
+directors/managers/engineers 
+47 Offences by government departments — 
+Head of Department liable 
+Personal liability unless due 
+diligence proven 
+ 
+Important Points About Penalties 
+1. Non-compoundable offenses: most offenses under th e Water Act are non -
+compoundable — they cannot be settled by paying a fine alone; court proceedings are 
+mandatory. 
+2. Cognizable offenses: some offenses are cognizable, allowing police to arrest without 
+a warrant. 
+3. Environmental Protection Fund: penalty amounts are credited to the Environmental 
+Protection Fund for restoration projects. 
+4. Continuing liability: even after conviction, offenders remain liable for cleanup and 
+restoration costs. 
+5. Why Engineering Students Must Know the Water Act 
+1. Professional Responsibility and Ethical Practice 
+As future engineers, you will design systems, manage industrial processes, and make 
+decisions that directly impact water quality. Understanding the Act enables you to: 
+• Design wastewater treatment systems that meet legal standards 
+• Recommend processes that minimize pollution 
+• Ensure projects comply with environmental regulations 
+• Make ethical decisions that prioritize environmental protection over cost-cutting 
+2. Legal Compliance in Industrial Practice 
+Nearly all engineering industries — textiles, chemicals, pharmaceuticals, food processing, 
+power plants, steel mills — generate wastewater. Compliance is mandatory: 
+• Obtain consent before discharging effluents (Section 25) 
+• Treat wastewater to meet effluent standards 
+• Maintain records and furnish information to the State Board (Section 20) 
+
+=== page 7 ===
+• Allow inspections by Board officers (Section 23) 
+Non-compliance results in severe penalties, including imprisonment for engineers in 
+charge. 
+3. Risk Management and Corporate Liability 
+Under Section 46, engineers and managers can be personally liable for pollution offenses 
+committed by their companies. Awareness helps you: 
+• Identify potential violations before they occur 
+• Implement compliance systems in your workplace 
+• Protect yourself and your organization from legal liability 
+• Document due diligence to demonstrate compliance 
+4. Career Opportunities in Environmental Engineering 
+• Environmental consulting firms hire engineers who understand regulations 
+• Companies need compliance officers to ensure legal adherence 
+• Pollution Control Boards employ engineers for monitoring and enforcement 
+• Environmental audit firms require legal knowledge for assessments 
+5. Design and Innovation for Sustainability 
+• Design innovative treatment systems that exceed standards 
+• Develop zero-liquid-discharge processes  
+• Create water recycling and reuse systems 
+• Implement green engineering practices that prevent pollution at source 
+6. Communication with Regulatory Authorities 
+• Submitting consent applications 
+• Responding to inspection reports 
+• Appealing against unfavourable decisions 
+• Negotiating compliance timelines 
+7. Contribution to Environmental Protection 
+• Reduce pollution in your locality 
+• Protect water resources for communities 
+• Preserve aquatic ecosystems 
+• Contribute to national environmental goals 
+8. Preparation for Advanced Studies and Research 
+• Research projects must consider regulatory frameworks 
+• Thesis work on pollution control requires understanding of standards 
+
+=== page 8 ===
+• Academic publications often analyse legal aspects of environmental issues 
+• Professional certification programs include environmental law components 
+9. Understanding the Bigger Picture of Environmental Governance 
+• Connects with the Air Act (1981), Environment Protection Act (1986), and others 
+• Influences the National Environmental Policy 
+• Relates to international environmental agreements 
+• Interacts with coastal regulation zones and wetland protections 
+10. Avoiding Costly Mistakes  
+• Avoid costly consent application delays 
+• Prevent expensive penalty payments 
+• Avoid project shutdowns by regulators 
+• Save money on retrospective compliance measures 
+6. Practical Steps for First -Year Engineering Students 
+1. Study the Act thoroughly: read the Water Act, 1974, focusing on Sections 24, 25, 26, 
+27, and 41–45 
+2. Understand effluent standards: learn the effluent quality standards specified by CPCB 
+for different industries 
+3. Visit treatment facilities: observe wastewater treatment plants in your area to 
+understand practical compliance 
+4. Follow CPCB/SPCB websites: stay updated on regulatory changes and guidelines 
+5. Participate in environmental programs: join campus environmental initiatives to apply 
+your knowledge 
+6. Discuss with senior students: learn from those who have worked on projects involving 
+environmental compliance 
+7. Read case studies: study examples of industries tha t faced penalties for Water Act 
+violations 
+8. Keep records: document your understanding and compliance efforts for future 
+reference 
+7. Conclusion 
+The Water (Prevention and Control of Pollution) Act, 1974 is India's foundational law for 
+protecting water resour ces from pollution. Enacted in response to severe water 
+contamination caused by industrialization and urbanization, it established a comprehensive 
+legal framework with Central and State Pollution Control Boards, prohibited uncontrolled 
+
+=== page 9 ===
+discharge of polluting matter, mandated consent for all discharges, and provided strong 
+penalty provisions for violations. 
+For first-year engineering students, understanding this Act is not optional — it is essential 
+for your professional future. You will design systems, mana ge processes, and make 
+decisions that directly affect water quality. Compliance with the Water Act protects public 
+health, preserves ecosystems, ensures sustainable water resources, and avoids severe legal 
+consequences including imprisonment and fines. 
+Key provisions to remember: Section 24 (prohibition on discharge), Section 25 (restrictions 
+on new outlets), Section 26 (existing discharge provisions), and penalty Sections 41–45. 
+Penalties are severe — imprisonment from 1.5 to 6 years plus fines for serious violations, 
+with additional daily penalties for continuing violations. 
+Awareness of the Water Act enables you to practice ethically, manage legal risks, pursue 
+environmental career opportunities, design sustainable systems, communicate effectively 
+with regulators, and contribute to environmental protection. 
+8. Quick Reference — Key Facts at a Glance  
+Environment Protection Act (EPA), 1986 
+• Enacted: November 19, 1986 
+• Trigger: Bhopal Gas Tragedy (December 2–3, 1984) + Stockholm Conference (1972) 
+• Section 3: Powers of Central Govt  |  Section 6: Environmental Standards 
+• Section 7: Prohibition on excess discharge  |  Section 8: Hazardous substances 
+• Section 10: Power of entry and inspection 
+• Penalty: Up to 5 years + ₹1 lakh fine; up to 7 years for continued violation 
+Air (Prevention and Control of Pollution) Act, 1981 
+• Enacted: 1981  |  Amended: 1987 (noise added as air pollutant) 
+• Section 19: Air pollution control areas  |  Section 21: Consent mechanism 
+• Section 24: Power to take air samples  |  Section 31A: Emergency closure powers 
+• Penalty: Up to 3 months + ₹10,000 fine; daily fine for continued violation 
+Water (Prevention and Control of Pollution) Act, 1974 
+• Enacted: 1974  |  Amended: 1988 (strengthened penalties and Board powers) 
+• Established: CPCB (Section 3) and SPCBs (Section 4) 
+• Section 24: Absolute prohibition on stream/well pollution 
+• Section 25: Consent mechanism for effluent discharge 
+• Section 27: Revocation of consent  |  Section 32: Emergency powers 
+
+=== page 10 ===
+• MINAS: Minimum National Standards for effluent (CPCB prescribed; states may be 
+stricter) 
+• Penalty: Minimum 1.5 years, up to 6 years imprisonment + fine 
+Institutions & Constitutional Reference 
+• CPCB — Central Pollution Control Board: national level; established by the Water 
+Act, 1974 
+• SPCB — State Pollution Control Board: state level; administers both the Air Act and 
+Water Act 
+• NGT — National Green Tribunal: established 2010; specialized fast -track 
+environmental court 
+• Article 21 (Constitution of India): Right to life — interpreted to include right to a clean 
+environment 
+• Article 252 (Constitution of India): Enables Parliament to legislate on state subjects at 
+states' request 

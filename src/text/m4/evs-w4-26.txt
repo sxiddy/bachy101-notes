@@ -1,0 +1,216 @@
+# 4.Paris Agreement
+
+=== page 1 ===
+LECTURE NOTES 
+The Paris Agreement 
+Key International Environmental Law 
+Environmental Science | First Year B.Tech (Engineering) 
+Week 4  •  Session 5 
+  
+
+=== page 2 ===
+1. Introduction 
+Climate change is caused by greenhouse gas emissions from human activity, primarily 
+the burning of fossil fuels and deforestation. The atmosphere is a global challenge: 
+emissions released anywhere affect the climate everywhere, and no single country can 
+solve this problem alone. That fundamental reality is why international law is necessary, 
+and why the Paris Agreement exists. 
+Think of the atmosphere as a shared resource that belongs to all of humanity. When one 
+country pollutes it, every country suffers the consequences. That is the reason nearly 
+two hundred nations sat down together in Paris in 2015 and negotiated a common plan. 
+The Paris Agreement represents a global commitment by nations to work together to 
+combat climate change and create a more sustainable future. 
+2. Learning Objectives 
+2.1  Instructional Goals 
+1. Develop an understanding of the need, objectives, and significance of the Paris 
+Agreement in addressing global climate change. 
+2. Appreciate the role of international cooperation, technology, and sustainable 
+practices in achieving climate action goals. 
+2.2  Learning Outcomes 
+After completing this session, students will be able to: 
+1. Explain the background and purpose of the Paris Agreement. 
+2. Describe the major goals and key features of the Paris Agreement. 
+3. Discuss the importance of Nationally Determined Contributions (NDCs) and 
+global cooperation in climate action. 
+4. Recognise the role of students and future professionals in supporting sustainable 
+development and climate change mitigation. 
+3. The Historical Road to Paris 
+To understand the Paris Agreement, it helps to know the thirty -year backstory of 
+international climate negotiations that led up to it. Three milestones are especially 
+important. 
+
+=== page 3 ===
+3.1  The UNFCCC, 1992 — The Foundation 
+The United Nations Framework Convention on  Climate Change (UNFCCC) was born 
+at the Rio Earth Summit in 1992. It set the ultimate objective of stabilising greenhouse 
+gas concentrations in the atmosphere to prevent dangerous interference with the climate 
+system. It also introduced the principle of Common But Differentiated Responsibilities: 
+all nations share the obligation to act, but industrialised countries, which caused most 
+historic emissions, must lead. The UNFCCC is the parent treaty, and the Paris 
+Agreement is one of its children. 
+3.2  The Kyoto Protocol, 1997 — The First Binding Targets 
+The Kyoto Protocol was the first legally binding agreement with specific emission 
+reduction targets, but only for developed countries. The United States signed it but never 
+ratified it, and Canada later withdre w. Major emerging economies such as China and 
+India had no binding commitments under it. Global emissions continued to rise, and it 
+became clear that a new, more inclusive framework was needed. 
+3.3  Copenhagen to Paris, 2009-2015 — Building the New Architecture 
+The 2009 Copenhagen conference failed to produce a binding treaty, but it introduced 
+the idea of voluntary national pledges, which later evolved into NDCs. Six years of 
+subsequent negotiations built the trust and consensus that eventually made Paris 
+possible. At COP21 in Paris in December 2015, 196 parties adopted the Agreement to 
+a standing ovation, and it entered into force on 4 November 2016. From a diplomatic 
+standpoint, Paris was remarkable: getting nearly two hundred countries, with vastly 
+different economies, histories, and interests, to agree on a common climate framework 
+was an achievement many thought impossible after the Copenhagen failure. 
+4. The Temperature Goal and Nationally Determined Contributions 
+The Paris Agreement has several interconnected elements. The two most central are the 
+temperature goal and the NDC system. 
+4.1  The Temperature Goal — Article 2 
+Article 2 outlines the treaty's central objective: to hold the increase in global average 
+temperature to well below 2 degrees Celsius above pre-industrial levels, while pursuing 
+efforts to limit the increase to 1.5 degrees Celsius. This more ambitious 1.5-degree target 
+was included at the insistence of Small Island Developing States (SIDS), which face 
+existential threats from sea-level rise. 
+
+=== page 4 ===
+Why does half a degree matter? The IPCC's 2018 Special Report gave the answer. At 
+1.5 degrees Celsius, coral reefs face severe stress; at 2 degrees Celsius, they are almost 
+entirely lost. At 1.5 degrees Celsius, hundreds of millions fewer people face  climate-
+related water scarcity compared with 2 degrees Celsius. Half a degree is the difference 
+between a difficult future and a catastrophic one for hundreds of millions of people. 
+4.2  Nationally Determined Contributions (NDCs) — The Engine of the 
+Agreement 
+Every country sets its own climate targets, action plans, and emission reduction 
+strategies — these together form its Nationally Determined Contribution (NDC). Unlike 
+Kyoto's top-down assigned targets, Paris uses a bottom-up approach in which countries 
+determine their own level of ambition. 
+NDCs must be submitted  every five years, and each new submission must be more 
+ambitious than the last. This is called the ratchet mechanism — a mechanism that moves 
+in one direction and cannot go back. NDCs typically cover three areas: mitigation targets 
+(cutting emissions), adaptation plans (coping with climate impacts), and finance needs. 
+In short, the Paris Agreement does not tell a country what its target must be; it says that 
+the country decides its own target, but every five years it must return with a higher one. 
+The direction is prescribed; the pace is national. 
+4.3  India's NDC 
+India's Nationally Determined Contribution includes several concrete, measurable 
+commitments: 
+• 50 percent of installed power capacity from non-fossil fuel sources by 2030. 
+• 45 percent reduction in the emissions intensity of GDP from 2005 levels by 2030. 
+• An additional carbon sink of 2.5 to 3 billion tonnes of CO2-equivalent through 
+forest and tree cover. 
+5. Net-Zero, Adaptation, and Finance 
+Beyond the temperature goal and NDCs, the Paris Agreement res ts on three further 
+pillars: the net-zero goal, adaptation, and finance. 
+5.1  Net-Zero Emissions — Article 4 
+Article 4 sets a long-term goal: to reach global peaking of emissions as soon as possible, 
+and then rapidly reduce emissions to net -zero in the sec ond half of this century. Net -
+
+=== page 5 ===
+zero means that the emissions entering the atmosphere are equal to the emissions being 
+removed by forests, oceans, or technology. This implies a complete transformation of 
+energy, transport, industry, and buildings — all of them engineering domains. 
+Net-zero does not mean zero emissions; it means balance. Think of it like a bank 
+account: you can spend, but you must deposit an equal amount. The world must reach a 
+point where every tonne of CO2 emitted is offset by a tonne removed. 
+5.2  Adaptation — Article 7 
+Adaptation is placed on equal footing with mitigation in the Paris Agreement — it is 
+not an afterthought. The global goal is to enhance adaptive capacity, strengthen 
+resilience, and reduce vulnerability to climate impacts. Countries must prepare 
+adaptation plans and report on  their adaptation actions and needs. For India, this 
+includes flood-resistant infrastructure, drought-tolerant agriculture, coastal protection, 
+and urban heat management — all of which are engineering tasks. 
+5.3  Climate Finance — Article 9 
+Developed count ries committed to mobilise USD 100 billion per year to support 
+developing nations' climate action, with the Green Climate Fund serving as the primary 
+channel for this finance. This USD 100 billion target was repeatedly missed and is 
+widely considered inade quate, since the actual need runs into trillions of dollars 
+annually. A new, higher finance goal was to be agreed before 2025, and this remains a 
+live and contested negotiation. 
+Finance is where international climate negotiations most often break down. Developing 
+countries cannot afford a low-carbon transition using their own resources alone — they 
+need support. Whether developed nations deliver on their finance commitments remains 
+one of the most contested questions in climate diplomacy today, and India ha s 
+consistently taken a strong position on equity and climate finance in these debates. 
+6. Transparency, the Global Stocktake, and Legal Character 
+Two further features of the Agreement are worth understanding: how it checks whether 
+countries are delivering on their promises, and the question of whether it is actually 
+legally binding. 
+6.1  Transparency Framework and Global Stocktake 
+
+=== page 6 ===
+The Enhanced Transparency Framework requires all parties to regularly report their 
+greenhouse gas emissions, their progress on NDCs, and their climate finance flows. The 
+Global Stocktake is a collective review conducted every five years that assesses whether 
+the world is on track to meet the Agreement's goals. The first Global Stocktake was 
+completed at COP28 in Dubai in 2023, and its conclusion was that while progress has 
+been made, current NDCs are far insufficient to meet the 1.5 -degree goal, and 
+accelerated action is urgently needed. 
+The Global Stocktake functions as the Agreement's reality check. Every five years, the 
+world holds up a mirror to itself and asks whether it is doing enough. In 2023, the answer 
+was clearly no, and that finding is now expected to push countries to set more ambitious 
+NDCs in the next round. 
+6.2  Legal Character of the Agreement 
+The legal character of the Paris Agreement requires a nuanced answer. The Agreement 
+itself is legally binding as a treaty — it is registered with the United Nations and entered 
+into force in November 2016. However, individual NDC targets are not legally binding 
+under international law, since countries determine their own targets. What is legally 
+binding is the obligation to submit NDCs, report transparently, and raise ambition over 
+time; no enforcement mechanism exists to penalise a country for missing its stated 
+targets. The United States' withdrawal from the Agreement in 2020 and its re -entry in 
+2021 illustrated the Agreement's vulnerability to domestic politics. 
+Critics call this arrangement toothless, while proponents argue that transparency and 
+reputational pressure act as th e real enforcement mechanism, since no government 
+wants to be named as a climate laggard on the world stage. The honest answer is that it 
+is a legally binding process with nationally determined substance — whether that is 
+enough remains one of the central debates in international environmental law. 
+7. Challenges and Engineering Relevance 
+7.1  The Ambition Gap 
+If all current NDCs were fully implemented, the world would still be heading for 2.5 to 
+3 degrees Celsius of warming — far above the 1.5-degree target. The gap between what 
+countries have promised and what the science requires is the central challenge of climate 
+governance today. 
+7.2  The Finance Gap 
+
+=== page 7 ===
+The USD 100 billion per year target was only, and controversially, declared met for the 
+year 2022 — several years late. Actual needs for developing nations run into trillions of 
+dollars, and the gap between promise and delivery continues to erode trust between 
+developed and developing nations. 
+7.3  Loss and Damage 
+A fund to compensate nations for irreversibl e climate harms was established formally 
+at COP27 in 2022 and operationalised at COP28. Funding levels for this Loss and 
+Damage Fund remain far below what vulnerable nations need, and climate justice 
+remains an unresolved issue in international negotiations. 
+7.4  Engineering Relevance 
+Every sector targeted for decarbonisation in NDCs is an engineering sector: energy, 
+buildings, transport, industry, and agriculture. Renewable energy scale -up, net -zero 
+buildings, electric transport, and low -carbon industrial processes all require engineers 
+to design, build, and operate them. Major infrastructure projects must now demonstrate 
+climate risk analysis and NDC alignment to access international finance. 
+Understanding the Paris Agreement is not optional for engineers working in these 
+sectors — it defines the regulatory and financial landscape of their careers. The Paris 
+Agreement is not just a diplomat's document; it is a blueprint for rebuilding how the 
+world produces energy, moves people, constructs buildings, and runs industries. Every 
+one of those tasks is an engineering task, and today's engineering students are training 
+at exactly the moment when this transformation is accelerating. 
+8. Summary 
+Climate change is a global challenge, but solutions begin with informed  minds and 
+responsible actions. The Paris Agreement reminds us that sustainability is a shared 
+responsibility, not a choice. Its success depends not only on governments but also on 
+the next generation of engineers, scientists, and leaders — the ideas of today's students 
+can become the climate solutions of tomorrow. 
+
+=== page 8 ===
+Quick Recap — Five Things to Remember 
+– The Paris Agreement (2015) is the world's primary international legal 
+framework for climate action, adopted under the UNFCCC by 196 parties. 
+– Its core goal is to limit global warming to well below 2 degrees Celsius, with 
+efforts towards 1.5 degrees Celsius above pre-industrial levels. 
+– Each country sets its own NDC — a climate action plan that must be updated 
+every five years with progressively higher ambition. 
+– The Agreement is legally binding as a treaty, but individual NDC targets are 
+nationally determined, not internationally prescribed. 
+– For engineers, it defines the transformation of energy, buildings, transport, and 
+industry that their professional careers will be spent delivering. 
+ 

@@ -1,0 +1,383 @@
+# Air pollution Notes
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W3S1 
+AIR POLLUTION 
+1. Introduction  
+Air is essential for life, yet its quality is rapidly declining due to increasing human 
+activities. Air pollution is often invisible, but its effects are widespread —from 
+respiratory diseases to global warming.  
+It is one of the most critical environmental challenges affecting both human 
+health and the planet. 
+2. Definition of Air Pollution  
+“The presence of one or more harmful substances in the atmosphere in 
+concentrations high enough to cause damage to living organisms and the 
+environment.” 
+These harmful substances are called pollutants, which may be gases, particles, 
+or biological materials. Eg., dust, smoke. etc. 
+Key idea: 
+• Clean air has a balanced composition  78% nitrogen, 21% oxygen, argon 
+less than 1%, carbon di-oxide, water vapour and trace amounts of ozone, 
+helium, ammonia. 
+• Pollution occurs when this balance is disturbed  
+• World Health organization ( WHO) defines air pollution as the 
+contamination of indoor or outdoor environments by any chemical, 
+physical, or biological agent that modifies the natural characteristics of the 
+atmosphere and poses risks to human health and the environment. 
+3. Key Statistics tell us that: 
+i. 7 million premature deaths annually attributed to air pollution (WHO, 2023) 
+ii. 99% of the world population breathes air that exceeds WHO quality guideline 
+limits 
+iii. Air pollution costs the global economy over 5 trillion annually in welfare 
+losses 
+iv. Delhi, Lahore, and Dhaka consistently rank among world's most polluted 
+cities (AQI > 300 in winters) 
+ 
+
+=== page 2 ===
+2 
+ 
+The Air quality index  is a standardized tool used by government agencies to 
+measure and report daily air pollution levels, usually on a scale from 0 to 500. It 
+transforms complex measurements of 5 -8 key pollutants into a simple number, 
+colour code and health descriptor, indicating how clean or polluted the air is. 
+i. If the AQI range is 0 -50, it is categorized as good with a colour code of 
+green and the health advisory tells that the air quality is satisfactory. 
+ii. 51-100, the colour code is yellow, the air quality is acceptable; however, 
+some sensitive groups are affected. 
+iii. 101-200, unhealthy, orange is the colour code and sensitive groups should 
+limit outdoor activity. 
+iv. 201-300, unhealthy, red is the colour code, everyone in the vicinity gets 
+affected. 
+v. 301-400, very unhealthy, purple is the colour code, health alert, and to 
+avoid outdoor activity. 
+vi. If the AQI is between 401 and 500, it is categorized as hazardous, the 
+colour code is maroon and heath advisory calls it as emergency conditions 
+for the whole population. 
+4. Different types of air pollution 
+4.1 Based on origin 
+4.1.1 Primary Pollutants 
+i. Primary air pollutants are those that are directly emitted into the atmosphere 
+in harmful form from identifiable sources.  
+Some examples of primary air pollutants. 
+ii. Carbon Monoxide (CO): Colourless, odourless gas from incomplete 
+combustion. Binds haemoglobin 200× stronger than O₂, causing hypoxia.  
+iii. Sulphur Dioxide (SO₂): From coal combustion in power plants, volcanic 
+eruptions. Causes acid rain and respiratory damage. 
+iv. Nitrogen Oxides (NOₓ): From high-temperature combustion (vehicles, power 
+plants). Precursor to smog and acid rain. 
+v. Particulate Matter (PM 2.5 / PM 10): Fine particles from dust, combustion, 
+construction. PM2.5 penetrates deep into lungs and bloodstream. 
+vi. Volatile Organic Compounds (VOCs): From paints, solvents, vehicle exhaust. 
+Precursors to ground-level ozone. 
+vii. Ammonia (NH₃): Primarily from agriculture (fertilizers, livestock). 
+Contributes to PM2.5 formation. 
+viii. Lead (Pb): From leaded fuels (now largely phased out), industrial processes. 
+Neurotoxin. 
+
+=== page 3 ===
+3 
+ 
+4.1.1 Secondary Pollutants 
+• Secondary pollutants  are NOT directly emitted, but  form through 
+atmospheric reactions.  
+• Ground-level ozone (O₃):  
+NOₓ + VOCs + sunlight → O₃. Major component of photochemical smog. 
+Damages respiratory tissue. 
+• Peroxyacetyl nitrates (PAN):  
+VOCs + NOₓ + sunlight. Causes eye irritation. Found in photochemical 
+smog. 
+Sulphuric acid (H₂SO₄) / Nitric acid (HNO₃):  
+• SO₂/NOₓ + water vapour → acid rain. 
+• Secondary Particulate Matter: Sulphates, nitrates, and organic carbon formed 
+from gas-phase precursors. 
+• Important: Secondary pollutants often result from chemical reactions and can 
+be more harmful. 
+4.2 Based on Physical Form 
+4.2.1. Particulate Matter (PM) 
+i. Includes dust, smoke, soot  
+ii. PM2.5 is especially dangerous as it enters deep into lungs  
+4.2.2. Gaseous Pollutants 
+i. Carbon dioxide (CO₂)  
+ii. Nitrogen dioxide (NO₂)  
+iii. Sulphur dioxide (SO₂)  
+ 
+4.3. Indoor vs Outdoor Pollution 
+• Outdoor: vehicles, industries, construction  
+• Indoor: cooking fuels, poor ventilation –they are primary air pollutants. 
+WHO Fact:  Indoor air pollution causes approximately 3.8 million deaths 
+annually more than outdoor pollution in many developing nations. Women 
+cooking on biomass stoves are disproportionately affected. 
+
+=== page 4 ===
+4 
+ 
+i. Radon (Rn): Radioactive gas from soil/rock; seeps into buildings. Second 
+leading cause of lung cancer after smoking. 
+ii. Formaldehyde: From pressed wood, insulation, tobacco smoke. IARC Group 
+1 carcinogen. 
+iii. Tobacco smoke: Contains 7 0+carcinogens including benzene, arsenic, 
+formaldehyde. 
+iv. Cooking smoke: From biomass, kerosene — CO, PM 2.5, black carbon in 
+poorly ventilated kitchens. 
+v. Asbestos: From old building insulation — causes mesothelioma (incurable 
+lung cancer). 
+vi. Mould and allergens: Poor ventilation promotes mould growth, releasing 
+spores causing asthma. 
+ 
+Note: Indoor pollution is often underestimated but highly harmful. 
+ 
+5. Causes of Air Pollution  
+5.1. Natural Causes  
+i. Volcanic eruptions: Massive SO₂ and particulate emissions (e.g., Mount 
+Pinatubo, 1991) 
+ii. Forest fires: CO, PM2.5, black carbon, ozone precursors 
+iii. Dust storms:  PM10 from deserts (Sahara, Thar Desert contribute to 
+regional haze) 
+iv. Biogenic VOCs : Isoprene from forests contributes to natural ozone 
+formation 
+5.2. Human-Made Causes  
+5.2.1. Industrial Emissions 
+i. Coal-fired thermal power plants: Largest emitters of SO₂, NOₓ, and mercury 
+ii. Cement industry: Dust emissions, CO₂ (produces ~8% of global CO₂) 
+iii. Steel industry: Coke ovens emit SO₂, PAHs, benzene 
+iv. Brick kilns: Major source of PM and black carbon in South Asia 
+v. Chemical & petroleum refineries: SO₂, H₂S, VOCs, benzene 
+• Release toxic gases and chemicals  
+
+=== page 5 ===
+5 
+ 
+5.2.2. Vehicular Emissions 
+i. Major urban contributor  
+ii. Internal combustion engines emit CO, NOₓ, hydrocarbons (HC), and PM2.5 
+iii. Diesel vehicles : highest PM 2.5 emitter; black carbon (soot) major 
+contributor 
+iv. Two-wheelers in India run on older, inefficient engines significant VOC 
+emitters 
+v. Aviation: Jet fuel combustion emits NOₓ and black carbon at high altitudes 
+vi. India: Transport sector contributes ~30% of urban air pollution 
+ 
+5.2.3. Burning of Fossil Fuels 
+• Coal and petroleum release CO₂ and SO₂  
+5.2.4. Agricultural Activities 
+• Stubble/crop residue burning (Punjab, Haryana): Major contributor to 
+Delhi winter smog 
+• NH₃ from fertilizer application and livestock manure 
+• Paddy field methane (CH₄) — potent greenhouse gas 
+• Pesticide spraying releases fine chemical aerosols 
+5.2.5. Construction and Dust 
+• Urban dust pollution  
+5.2.6. Waste Burning 
+• Releases toxic substances  
+Key takeaway: Human activities are the dominant cause of modern air pollution. 
+ 
+6. Effects of Air Pollution  
+6.1. Effects on Human Health 
+6.1.1. Respiratory System 
+
+=== page 6 ===
+6 
+ 
+i. Asthma: PM 2.5 and O₃ trigger bronchoconstriction; prevalence increasing 
+globally 
+ii. COPD (Chronic Obstructive Pulmonary Disease): Long -term exposure to 
+smoke and PM 
+iii. Lung cancer: PM 2.5 and carcinogens (PAHs, benzene) are IARC Group 1 
+carcinogens 
+iv. Reduced lung function in children exposed to pollution during development 
+v. Pneumonia: Leading infectious killer, exacerbated by weakened 
+immune/respiratory systems 
+ 
+6.1.2. Cardiovascular System 
+i. Ischemic heart disease: PM 2.5 enters bloodstream, causes inflammation and 
+atherosclerosis 
+ii. Stroke: NO₂ and fine particle exposure associated with increased stroke risk 
+iii. Hypertension: Long-term exposure causes systemic inflammation and blood 
+pressure rise 
+iv. Cardiac arrhythmias: Short-term PM spikes trigger irregular heart rhythms 
+ 
+6.1.3. Neurological & Other Effects 
+i. Emerging evidence: PM2.5 linked to cognitive decline and Alzheimer's disease 
+ii. Lead and mercury: Neurotoxins causing developmental problems in children 
+iii. Pre-term birth and low birth weight from maternal air pollution exposure 
+iv. Diabetes: Chronic PM2.5 exposure associated with insulin resistance 
+v. Eye and skin irritation from O₃, SO₂, and particulates 
+• Lung cancer  
+    Fine particles (PM2.5) are especially dangerous. 
+ 
+6.2. Environmental Effects 
+6.2.1. Global Warming and Climate Change 
+
+=== page 7 ===
+7 
+ 
+Greenhouse gases (CO₂, CH₄, N₂O) trap infrared radiation in the atmosphere and 
+increases the earth’s temperature. The IPCC Sixth Assessment Report (2021) 
+confirms 1.1°C warming since the pre -industrial era. Projected impacts include 
+sea level rise of 0.28 –1.01 m by 2100, more frequent extreme weather, and 
+ecosystem disruption. 
+6.2.2. Acid Rain 
+• Damages crops, soil, and buildings. 
+SO₂ and NOₓ react with water vapour and oxygen to form sulphuric and nitric 
+acids. Acid rain (pH < 5.6) damages forests, corrodes limestone buildings and 
+monuments (e.g., Taj Mahal yellowing), and acidifies lakes — killing fish and 
+aquatic life. The 'Black Forest' (Schwarzwald) damage in Germany in the 1970s–
+80s is a historical example. 
+6.2.3. Ozone Layer Depletion 
+• Increases harmful UV radiation  
+Chlorofluorocarbons (CFCs) from refrigerants and aerosols release Cl radicals in 
+the stratosphere that catalytically destroy O₃. The Antarctic ozone hole was 
+discovered in 1985. The Montreal Protocol (1987) successfully phased out CFCs 
+considered the most successful international environmental agreement. 
+6.2.4 Photochemical Smog 
+• Reduces visibility and affects health  
+VOCs + NOₓ + sunlight → O₃ + PAN + secondary aerosols.  
+First observed in Los Angeles in the 1940s. Delhi's winter smog is worsened by 
+temperature inversion trapping pollutants near ground level. Visibility drops 
+below 500 m; flights are cancelled; respiratory emergencies surge. 
+6.3. Economic Impact (brief) 
+
+=== page 8 ===
+8 
+ 
+• Healthcare costs  
+• Reduced productivity  
+• Damage to agriculture  
+7. Control Measures  
+7.1. Technological Solutions 
+Particulate matter (PM) removal from exhaust gases is achieved through 
+technologies like baghouses (fabric filters), electrostatic precipitators (ESPs), 
+scrubbers, and cyclones. These systems utilize filtration, electrical charging, 
+centrifugal force, or s crubbing liquid to capture dust and ash, with ESPs and 
+fabric filters capable of over 99% efficiency in industrial settings 
+7.1.1 Particulate Control Technologies 
+ 
+i. Fabric filters or baghouses:  Dust-laden gases are passed through dense 
+fabric bags, cake like formation filters the dust off the gases efficiently. Used 
+specifically for fine, sub-micron particles. 
+ 
+They  are industrial air pollution control devices designed to remove particulate 
+matter and dust from commercial exhaust gas streams. 
+ 
+ 
+ 
+ 
+
+
+=== page 9 ===
+9 
+ 
+How Baghouses Work 
+1. Air Intake: Dust-laden gas enters through the dirty-air inlet into the dirty air 
+chamber. 
+2. Filtration: The gas passes through long, cylindrical filter bags made of woven 
+or felted fabric. Dust particles are trapped on the outer surface of the bags, 
+forming a "dust cake" that aids in fine filtration. 
+3. Clean Air Discharge: Filtered air continues into the clean air chamber at the 
+top and exits via the clean-air outlet. 
+4. Cleaning Cycle: Over time, accumulated dust causes pressure drop. A pulse-jet 
+cleaning system sends short blasts of compressed air down into the bags, 
+expanding them rapidly and shaking the dust cake loose. 
+5. Dust Collection: Shaken-off particles drop into the bottom hopper and exit 
+through a rotary airlock valve for disposal or recycling. 
+ 
+ii. Electrostatic precipitators: Use an electrostatic charge to attract particulate 
+matter onto the collector electrodes, removing the fine ash and soot from 
+industrial exhaust. 
+iii. Wet scrubbers:  Use a scrubbing liquid (usually water) to trap particles, 
+making them suitable for high-temperature or moisture-laden gases, as well as 
+handling both solid particles and gaseous pollutants. 
+iv. Cyclonic separators: Use a centrifugal force, often in a vortex (cyclone) to 
+separate heavy particulates from gas streams, commonly used for larger 
+particles. 
+v. Gravity settling chambers: Use gravity to allow larger particles to settle out 
+of the gas stream, often used as pre-cleaners for other devices. 
+vi. Cleaner fuels (LPG, CNG, renewables)  
+vii. Electric vehicles  
+ 
+7.1.2. Gaseous Pollutant Control 
+i. Flue Gas Desulphurization (FGD): Limestone scrubbers remove SO₂ from 
+power plant exhaust. Now mandatory for Indian thermal plants. 
+ii. Selective Catalytic Reduction (SCR): Ammonia injection + catalyst converts 
+NOₓ to N₂ and H₂O. 
+iii. Catalytic Converters (in vehicles): Oxidize CO and HC; reduce NOₓ. Essential 
+for BS-VI compliance. 
+iv. Activated Carbon Adsorption: Captures VOCs and organic air pollutants. 
+ 
+
+=== page 10 ===
+10 
+ 
+7.2. Government Measures 
+7.2.1 Policy & Regulatory Controls 
+i. Bharat Stage (BS) Emission Standards: India adopted BS -VI in 2020 — 
+equivalent to Euro 6. Cuts NOₓ by 70% from BS-IV. 
+ii. Electric Vehicle (EV) Policy: FAME II Scheme promotes EV adoption. PLI 
+scheme for battery manufacturing. 
+iii. Graded Response Action Plan (GRAP): Delhi — emergency controls at AQI 
+> 200 (ban construction, brick kilns, diesel trucks) 
+iv. National Clean Air Programme (NCAP, 2019): Target 20 –30% reduction in 
+PM2.5 and PM10 by 2024 in 122 non-attainment cities 
+7.2.2 Renewable Energy & Transition 
+i. Solar energy: India targets 500 GW renewable capacity by 2030 
+ii. Wind energy: Offshore and onshore wind replacing coal capacity 
+iii. Energy efficiency: BEE Star Labels, LED lighting, green building codes 
+iv. International Solar Alliance (ISA) — India-led global initiative 
+7.2.3 Green Infrastructure 
+i. Urban tree planting — trees absorb CO₂, PM; provide cooling 
+ii. Green roofs and walls reduce urban heat island effect 
+iii. Constructed wetlands for industrial emission zone buffers 
+iv. Industrial zones located downwind from residential areas (zoning laws) 
+7.2.4 India's Legal Framework 
+i. Air (Prevention and Control of Pollution) Act, 1981: Establishes State 
+Pollution Control Boards (SPCBs) and emission standards 
+ii. Environment Protection Act, 1986: Umbrella legislation allowing the central 
+government to take measures to protect the environment 
+iii. Central Pollution Control Board (CPCB): Sets National Ambient Air Quality 
+Standards (NAAQS); monitors compliance 
+iv. NAAQS Standards: PM2.5 — 40 µg/m³ (annual); PM 10 — 60 µg/m³ (annual) 
+[note: WHO guidelines are stricter: 5 and 15 µg/m³] 
+v. SAFAR System: Real -time air quality monitoring and forecasting across 
+major cities 
+ 
+
+=== page 11 ===
+11 
+ 
+7.3. Individual Actions 
+i. Use public transport  
+ii. Avoid burning waste  
+iii. Save energy  
+iv. Plant trees  
+Small actions collectively make a big impact. 
+8: Case study 
+8.1 London Great Smog (1952) 
+A combination of fog, coal smoke, and temperature inversion created a lethal 
+smog blanket over London for 5 days in December 1952. An estimated 4,000 
+people died immediately; long-term deaths reached 12,000. This disaster directly 
+led to the UK's Clean Air  Act of 1956 — one of the world's first air pollution 
+control laws. 
+8.2 Delhi Winter Smog 
+Every winter, Delhi experiences severe smog episodes driven by stubble burning 
+from Punjab and Haryana, vehicle emissions, construction dust, and cold 
+temperatures causing temperature inversion. AQI regularly exceeds 400. GRAP 
+measures including odd-even vehicle rationing, school closures, and ban on diesel 
+generators are triggered as emergency responses. 
+9. Conclusion  
+Air pollution is a serious but manageable problem. While industrialization and 
+urbanization have increased pollution levels, solutions are available at every 
+level—from governments to individuals. 
+As students and future professionals, your role is crucial in: 
+• Promoting sustainable practices  
+• Developing cleaner technologies  
+• Creating awareness  
+Remember: Clean air is essential for life, not a privilege. 
+
+=== page 12 ===
+12 
+ 
+ 
+ 

@@ -1,0 +1,192 @@
+# Chemical Hazards Bisphenol-A, Mercury Notes
+
+=== page 1 ===
+1  
+Chemical Hazards: Bisphenol-A, Mercury 
+Chemical hazard 
+A chemical hazard is any non -biological substance that has  the 
+potential to cause harm to life or health. It can include any single or 
+combination of toxic chemical, biological, or physical agents in the 
+environment, resulting from human activities or natural processes, 
+that may impact the health of exposed subje cts. This can include 
+pollutants such as heavy metals, pesticides, biological contaminants, 
+toxic waste, industrial and home chemicals. Chemical hazards and 
+toxic substances pose a wide range of health hazards (such as 
+irritation, sensitization, and carcin ogenicity) and physical hazards 
+(such as flammability and corrosion). 
+In this section, we will look at bisphenol A and problems associated with its poisoning in the 
+human body. We will also look at contamination due to heavy metals, specifically mercury. 
+Bisphenol A 
+Bisphenol A (BPA) is a chemical compound primarily used in the 
+manufacturing of various plastics. It is a colourless solid which is 
+soluble in most common organic solvents but has very poor 
+solubility in water. BPA's largest single application  is as a co - 
+monomer in the production of polycarbonates, which accounts 
+for 65-70% of all BPA production. The manufacturing of epoxy resins and vinyl ester resins 
+account for 25-30% of BPA use. 
+Products containing Bisphenol A 
+BPA is found in polycarbonate plastics and epoxy resins. Polycarbonate plastics are often used 
+in containers that store food and beverages, such as water bottles. Epoxy resins are used to coat 
+the inside of metal products, such as food cans, bottle tops and water supply l ines. Common 
+products that may contain BPA include: 
+ Items packaged in plastic containers 
+ Baby bottles 
+ Canned foods 
+ Toiletries 
+ Menstrual products 
+ Thermal printer receipts 
+ CDs and DVDs 
+ Household electronics 
+ Eyeglass lenses 
+ Sports equipment 
+ Dental filling sealants 
+ 
+Mechanism of action of BPA in the human body 
+
+
+=== page 2 ===
+2  
+BPA binds to both nuclear estrogen receptors (ERs), ERα and ERβ, activating them. It can mimic 
+as well as antagonize estrogen, indicating that it is a selective estrogen receptor modulator 
+(SERM) or partial agonist. It also acts as an antagonist of the androgen receptor (AR) at high 
+concentrations. 
+ 
+Schematic representation of the mechanism of action of BPA in the human body 
+ 
+Health problems associated with BPA 
+BPA has been linked to causing reproductive, immunity, and neurological problems, as well as 
+an increased likelihood of Alzheimer’s, childhood asthma, metabolic disease, type 2 diabete s, 
+and cardiovascular disease. 
+ Several neurological health issues have been observed during pregnancy and 
+development, like reduced lung capacity, wheezing and asthma after birth, leading to 
+ban in the use of BPA in baby bottles. 
+ Studies have linked BPA an d obesity; BPA exposure modifies insulin sensitivity and 
+insulin release without affecting weight. 
+ Other endocrine-related disorders include infertility, polycystic ovarian syndrome (PCOS) 
+and precocious puberty. 
+ BPA also disrupts thyroid function, binding  to thyroid hormone receptor, and studies 
+have linked BPA with increased TSH (Thyroid stimulating hormone). 
+ BPA exposure can lead to prostate cancer in men. 
+
+=== page 3 ===
+3  
+ 
+Summary of some health problems associated with BPA poisoning in the human body 
+ 
+Sources of BPA contamination 
+BPA can get in our body through eating or drinking foods heated in plastics; eating or drinking 
+foods stored in metal cans (canned foods) or plastics (take-out containers); and touching cash 
+register receipts. The major points of entry of bisphenol A into our body are summarized below. 
+ Major human exposure to BPA is diet, via ingestion of contaminated food and water. 
+ Plastics leach BPA when cleaned with harsh detergents, or when they contain acidic or 
+high-temperature liquids. 
+ BPA-based resin coatings in older water pipes can leach BPA. 
+ Several uses of BPA in digital media, electrical and electronic equipment, sports  safety 
+equipment, electrical laminates in printed circuit boards, composites, paints and 
+adhesives can also lead to exposure. 
+ Bioaccumulation in water bodies, aquatic plants and organisms can result in toxicity. 
+ BPA is also found in high concentrations in thermal and carbonless copy paper, used for 
+printing receipts, airline tickets etc., and can be absorbed into body through skin. 
+Environmental effects of BPA 
+Even though BPA has a short half -life (4.5 days in soil and water, < 1 day in air), its ubiquity  
+makes it an important pollutant. It has a low rate of evaporation from water and soil, which 
+creates problems despite its biodegradability. It interferes with nitrogen fixation at the roots of 
+certain leguminous plants. BPA affects growth, reproduction an d development in aquatic 
+organisms, especially fish, with endocrine-related effects observed in fish and other aquatic 
+
+
+=== page 4 ===
+4  
+invertebrates, amphibians and reptiles. It also impacts reproduction in terrestrial animals and 
+insects, impairing development and inducing genetic aberrations. 
+Steps to limit BPA contamination 
+Heavy metal poisoning 
+ 
+Heavy metal poisoning refers to when excessive exposure to a heavy metal affects the normal 
+function of the body. Examples of heavy metals that can cause toxicity include lead, mercury, 
+arsenic, cadmium, and chromium. Exposure may occur through the diet, from medications, from 
+the environment, or in the course of work or play. Heavy metals can enter the body through the 
+skin, or by inhalation or ingestion. Toxicity can result from sudden, severe exposure, or from 
+chronic exposure over time. 
+Mercury 
+Mercury is a heavy metal belonging to the transition element series in the periodic table. It exists 
+in nature in three forms: elemental, organic and inorganic, each with its own profile of toxicity. It 
+is a liquid at room temperature; it has high vapour pressure and is released into the 
+environment as mercury vapour. Its most commonly occurring oxidation states are +1 +2. 
+Methylmercury is the most frequently encountered organic compound found in the 
+environment, formed as a result of methylation of inorganic mercuric forms of mercury by 
+microorganisms found in soil and water. 
+Mercury in the Environment 
+Mercury is a widespread environmental toxicant and pollutant, inducing severe alterations in the 
+body and a wide range of adverse health effects. It is ubiquitous in the environment, therefore, 
+making it difficult for plants, animals and humans alike to avoid exposure. 
+
+=== page 5 ===
+5  
+ 
+Schematic representation of the different forms of mercury in the environment. [Source: 
+https://webcam.srs.fs.fed.us/impacts/mercury/index.shtml] 
+Uses of Mercury 
+ Electrical industry (switches, thermostats, batteries) 
+ Dental fillings 
+ Industrial processes (production of caustic soda) 
+ Nuclear reactors 
+ Anti-fungal agents for wood processing 
+ Solvent for reactive and precious metals 
+ 
+ 
+ 
+ 
+Sources of Mercury Poisoning 
+ Major sources of exposure to mercury are through accidents, environmental pollution, 
+food contamination, dental care, preventive medical practices, industrial and agricultural 
+operations such as non-ferrous metal production, cement production etc. 
+ Major sources of chronic low level mercury exposure are through dental amalgams (50% 
+elemental mercury) and fish consumption. 
+ Mercury exposure can also occur by inhaling contaminated air, and improper 
+use/disposal of mercury-containing objects after spills or disposal of fluorescent lamps. 
+ Human activities that can result in Mercury release into environment: burning of coal (half 
+of atm. mercury) and gold mining. 
+
+
+=== page 6 ===
+6  
+ Mercury enters water either through Earth’s crust or through industrial pollution, which 
+are methylated by algae and bacteria in the water, which then bioaccumulates in fish, 
+and eventually into humans. 
+ Two most highly absorbed species: Hg(0) and methyl mercury. 
+ 
+Mechanism of Mercury in the Human Body 
+• Elemental mercury vapour is highly lipophilic and effectively absorbed through lungs 
+and tissues lining the mouth. 
+• After mercury enters the blood, it rapidly passes through cell membranes, including both 
+the blood-brain-barrier (BBB) and placental barrier (PB). 
+• Within the cell, it is oxidized to its highly reactive +2 state. 
+• Methyl mercury, from fish, is readily absorbed in the gastrointestinal tract because of its 
+lipid solubility, and can cross the BBB and PB. 
+• Once absorbed, mercury has a very low excretion rate, accumulating in kidneys, 
+neurological tissues and liver, resulting in gastrointestinal toxic ity, neuro and 
+nephrotoxicity. 
+Adverse Health Effects of Mercury 
+• Brain is the target organ for mercury, but it can also impair any organ leading to 
+malfunctioning of nerves, kidney and muscles. 
+• Mechanism: mercury binds to free thiol groups (cysteine residues). 
+• Symptoms depend on the type, dose and duration of exposure, including peripheral 
+neuropathy, skin discolouration (pink), swelling and desquamation (shedding or peeling 
+of skin). 
+• Mercury is neurotoxic, responsible for microtubule destruction, mit ochondrial damage, 
+lipid peroxidation etc. 
+• High-levels of exposure to mercury: Minamata disease. 
+• Symptoms: acrodynia (pink disease) skin becomes pink and peels, kidney problems, 
+decreased intelligence. 
+Treatment and Prevention 
+• Mercury poisoning can be reduced by eliminating/reducing exposure to mercury and 
+related compounds. 
+• Powdered sulfur may be applied in case of a spill, resulting in a solid compound that can 
+be easily disposed off of. 
+Treatment 
+• First step is decontamination, disposal of clothes, washing skin with soap and water, 
+flushing eyes with saline as needed. 
+• Chelation therapy with DMSA and other sulfur-based compounds are effective for 
+inorganic mercury poisoning. 
+• DMSA can be used against severe mercury poisoning. 

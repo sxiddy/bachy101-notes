@@ -1,0 +1,348 @@
+# Earth as a Life Support System-Lecture notes
+
+=== page 1 ===
+1 
+ 
+Lecture Notes W1S3 
+Earth as a Life Support System 
+Earth functions as a life support system by providing the essential resources and 
+conditions needed by all living organisms. These include: 
+Essential Resources: 
+ Air to breathe → Atmosphere 
+ Water to drink → Hydrosphere 
+ Food sources → Biosphere 
+ Solid ground and nutrients → Lithosphere 
+These four components interact to maintain a stable and liveable environment. 
+What is a “Sphere”? 
+The word sphere means “to surround or encompass.” Earth is made  up of four 
+major spheres that support life: 
+           Sphere             Root Word→Meaning 
+ Lithosphere  litho→refers to rocks and minerals 
+ Hydrosphere hydro→refers to water 
+ Biosphere           bio→refers to life 
+ Atmosphere atmo→refers to steam and vapor 
+All four spheres work together to sustain life: The lithosphere provides land and 
+minerals. The hydrosphere supplies water.  The atmosphere provides air and 
+weather. The biosphere includes all living organisms, which depend on the 
+other three spheres to survive. 
+1. Atmosphere: Atmosphere, it is the gaseous layer that surrounds Earth’s 
+surface and is crucial for life. It is made up of gases and tiny water particles that 
+form a thin protective envelope. The atmosphere plays a vital role in providing 
+oxygen for breathing, protecti ng living organisms from harmful solar radiation, 
+and helping regulate the planet’s temperature. It also supports weather systems 
+and the water cycle. The air in the atmosphere is composed mainly of nitrogen 
+and oxygen. Nitrogen makes up 78% of the total v olume, while oxygen 
+accounts for 21%. The remaining 1% includes other gases such as water vapor, 
+
+=== page 2 ===
+2 
+ 
+carbon dioxide, and methane. Although they are present in small amounts, these 
+gases are important for processes like climate regulation and energy balance. 
+ 
+The atmosphere forms a protective shell over the earth. The atmosphere can be 
+separated and identified in several of its own layers, of 
+ Troposphere 
+ Stratosphere 
+ Mesosphere 
+ Thermosphere  
+ Exosphere 
+ 
+ 
+
+
+=== page 3 ===
+3 
+ 
+1.1 Troposphere:  The troposphere is the lowest layer  of Earth's atmosphere , 
+directly above the surface. It is the layer where all life exists, including humans, 
+animals, and plants. It is also where birds fly and where airplanes operate. The 
+troposphere plays a critical role in sustaining life by holding mo st of the 
+atmosphere's mass and almost all the  weather phenomena, such as rain, snow, 
+storms, clouds, and wind. This layer is warmest near the Earth's surface  due to 
+heat radiating from the ground. However, as altitude increases, the temperature 
+decreases steadily, making higher elevations colder. The troposphere extends 
+from 0 to about 15 kilometres (km) above the Earth's surface, although this can 
+vary slightly with latitude and weather conditions. At  the very top of the 
+troposphere is a boundary called t he tropopause. This acts like a lid, preventing 
+weather systems from rising into the layers above, such as the stratosphere. The 
+temperature in the tropopause becomes stable before starting to rise again in the 
+higher atmospheric layers. The presence of th e tropopause helps to contain 
+weather within the troposphere and contributes to the climate regulation  on 
+Earth. 
+1.2 Stratosphere: The stratosphere is the second layer of Earth’s atmosphere, 
+positioned directly above the troposphere. It begins around 15 kilometres above 
+the Earth's surface and extends up to approximately 50 kilometres in altitude. 
+One of the most important features of the stratosphere is the presence of  a high 
+concentration of ozone gas, forming the ozone layer. The ozone layer plays a 
+crucial role in protecting life on Earth by absorbing the majority of the Sun’s 
+harmful ultraviolet (UV) radiation. Without this protective shield, life as we 
+know it coul d not exist. Unlike the troposphere, the temperature in the 
+stratosphere increases with altitude, due to the absorption of solar energy by 
+
+
+=== page 4 ===
+4 
+ 
+ozone molecules. Because the air in the stratosphere is very stable and dry, it is 
+ideal for high-altitude aircraft a nd weather balloons , which often operate in 
+this layer. The boundary between the stratosphere and the mesosphere above it 
+is known as the stratopause. 
+ 
+1.3 Mesosphere:  The mesosphere is the third layer  of Earth’s atmosphere, 
+located above the stratosphere  and below the thermosphere. It begins at an 
+altitude of around 50 kilometres and extends up to about 85 kilometres above 
+the Earth’s surface. This layer is known as the coldest layer of the atmosphere, 
+with temperatures that can drop as low as –90°C. In the mesosphere, water 
+vapor often freezes, forming ice clouds. These clouds, sometimes called 
+noctilucent clouds , are visible in the twilight sky and are among the highest 
+clouds in Earth's atmosphere. The air pressure is extremely low, and the density 
+of air molecules is very thin, making this layer difficult to study.  The 
+mesopause marks the boundary between the mesosphere and the thermosphere 
+above it. This region is also where meteors burn up  upon entering Earth’s 
+atmosphere due to friction with the air, creating what we see as shooting stars. 
+1.4 Thermosphere: Thermosphere lies above the mesosphere , and this is a 
+region where the temperature increases as you go higher up. The temperature 
+increase is caused due to the absorption of energetic ultraviol et and X -ray 
+radiation from the sun. Satellites orbit Earth within the thermosphere. 
+Temperatures in the upper thermosphere can range from about 500° to 2,000° C 
+
+
+=== page 5 ===
+5 
+ 
+or higher. The aurora, the Northern Lights and Southern Lights, occur in the 
+thermosphere. 
+ 
+1.5 Exosphere: Exosphere is the final frontier of the Earth’s gaseous envelope. 
+The air in the exosphere is constantly but gradually leaking out of the Earth’s 
+atmosphere into outer space. There is no clear-cut upper boundary where the 
+exosphere finally fades away into space. 
+Points to remember:  
+Troposphere :  
+ Closest to Earth's surface 
+ Weather phenomena and clouds occur here 
+ Aircraft typically fly in this layer 
+Stratosphere: 
+ Contains the ozone layer that protects us from harmful UV radiation 
+ Weather balloons and some jet aircraft reach this altitude 
+Mesosphere:  
+ Coldest atmospheric layer 
+ Meteors burn up upon entering this layer 
+
+
+=== page 6 ===
+6 
+ 
+Thermosphere: 
+ Auroras are visible here 
+ Spacecraft and International Space 
+ Station orbit in this layer 
+Exosphere:  
+ Outermost layer, gradually fades into space 
+ Contains extremely thin air; satellites orbit in this region 
+ 
+
+
+=== page 7 ===
+7 
+ 
+ 
+ 
+2. Hydrosphere: The hydrosphere refers to the total amount of water  found 
+on Earth’s surface, underground, and in the atmosphere. This includes liquid 
+water, ice, and water vapor. On Earth, most of the water (around 97%) exists in 
+the oceans, while about 2% is found in lakes and rivers. However, only 1% of 
+Earth’s water i s available as freshwater for human use, found in rivers, lakes, 
+streams, and underground sources.  The hydrosphere plays a critical role in 
+sustaining life , as water is essential for the survival of all organisms. It also 
+helps regulate the atmosphere and climate by distributing heat around the 
+planet. Water moves through the hydrosphere in a continuous cycle, beginning 
+with evaporation into the air, followed by condensation into clouds, and finally 
+returning to the surface as rain or snow. This precipitati on collects in rivers, 
+lakes, and oceans, completing the cycle.  The hydrosphere includes not just 
+saltwater and freshwater, but also frozen water (such as glaciers and ice caps), 
+groundwater, and water in the lower layers of the atmosphere. Its interaction  
+with other spheres, like the atmosphere and biosphere, is vital for maintaining 
+ecosystem balance and supporting life on Earth. 
+ 
+The Water Cycle (Hydrologic Cycle) 
+The water cycle is the continuous movement of water through the Earth’s 
+hydrosphere. It starts with evaporation, where water from oceans, lakes, and 
+rivers turns into vapor due to the Sun’s heat. This vapor cools and changes into 
+droplets through condensation, forming clouds.  When the droplets grow heavy, 
+they fall as precipitation (rain, snow, etc.). The water then flows as runoff into 
+
+
+=== page 8 ===
+8 
+ 
+rivers and streams or gets absorbed into the ground. It finally gathers in oceans 
+or lakes through collection, and the cycle repeats.  This process is essential for 
+distributing water, supporting life, and shaping weather. 
+ 
+3. Geosphere 
+The geosphere refers to the solid portions  of the Earth, extending from the 
+inner core to the crust. It includes rocks, minerals, soil, mountains, volcanoes, 
+and all landforms that shape the Earth's surface and interior. The geosphere 
+plays a vital role in Earth's overall system by providing the foundation for 
+terrestrial life and supporting natural processes such as plate tectonics, mountain 
+formation, and erosion . It interacts closely with other spheres: with the 
+atmosphere, volcanic eruptions release gases and ash that influence weather and 
+climate; with the hydrosphere, water shapes the landscape through erosion and 
+sediment deposition; and with the biosphere, s oil formed from rock and organic 
+matter supports plant life, which in turn stabilizes land  and affects rock 
+breakdown. These continuous interactions help regulate Earth's systems and 
+drive the natural cycles essential for life. 
+
+
+=== page 9 ===
+9 
+ 
+ 
+3.1. Major Components of the Geosphere: 
+3.1.1. Earth’s Interior layers: 
+a. Core: 
+Inner Core: It refers to a solid part mainly composed of iron and nickel. 
+Outer Core: It is a liquid, responsible for Earth’s magnetic field. 
+b. Mantle:  
+Semi-solid rock layer beneath the crust. It is  involved in convection currents 
+that drive plate tectonics. 
+c. Crust: 
+The crust is known as the Earth’s outermost layer. It contains continental and 
+oceanic plates. 
+3.1.2. Rocks and Minerals: 
+Rocks: Rocks are naturally occurring solid aggregates of one or  more minerals 
+or mineraloids. They are classified into three major types based on their origin 
+and formation processes, including igneous rocks, sedimentary rocks, and 
+metamorphic rocks. 
+
+
+=== page 10 ===
+10 
+ 
+Minerals: Minerals are naturally occurring, inorganic solids that have a definite 
+chemical composition and a crystalline structure. 
+3.1.3. Soil: 
+Soil is the thin layer of material covering the Earth’s surface, formed through 
+the weathering of rocks and the decay of organic matter (like dead plants and 
+animals). It contains minerals, organic matter, water, and air. Supports plant life 
+and plays a role in nutrient cycling. 
+3.1.4. Landforms and Tectonic Structures: 
+Landforms and tectonic structures encompass features such as mountains, 
+valleys, plateaus, volcanoes, and faults.  Their formation is primarily influenced 
+by tectonic processes, including earthquakes, volcanic eruptions, and plate 
+movements, in conjunction with erosion and weathering over extended periods. 
+The Earth's surface is continuously reshaped by these processes. 
+3.2. Geological Processes: 
+Geological processes shape the Earth's surface through the following processes. 
+a. Plate Tectonics : Movement of Earth's crustal plates leads to earthquakes, 
+volcanic eruptions, and mountain building. 
+b. Weathering and Erosion : Rocks are broken down and transported by wind, 
+water, or ice. 
+c. Sedimentation: Sediments accumulate in layers and, over time, harden into 
+sedimentary rock. 
+3.3. Importance of Geosphere: 
+Supports ecosystems : The geosphere provides soil for plants to grow and 
+shapes habitats for animals and other organisms. 
+Source of natural resources : It contains valuable minerals, metals, and fossil 
+fuels used for energy, construction, and manufacturing. 
+Affects climate: Events like volcanic eruptions release gases and ash that can 
+cool or warm the atmosphere. 
+Determines physical geography : The geosphere shapes landforms (like 
+mountains and valleys), influencing elevation, terrain, and human settlement 
+patterns. 
+
+=== page 11 ===
+11 
+ 
+3.3. Interaction of the Geosphere with other Earth Spheres: 
+The geosphere refers to the solid part of the Earth, including rocks, minerals, 
+landforms, and the processes that shape them. It interacts continuously with the 
+other Earth spheres — atmosphere, hydrosphere, biosphere, and cryosphere — 
+creating a dynamic Earth system. 
+Geosphere and Atmosphere : Volcanic eruptions release gases like carbon 
+dioxide and ash into the atmosphere, affecting air quality and climate. 
+Conversely, atmospheric weathering (like wind and rain) breaks down rocks in 
+the geosphere. 
+Geosphere and Hydrosphere: Rivers erode landforms and transport sediments, 
+shaping valleys and coastlines. Groundwater moves through soil and rocks, 
+influencing erosion and mineral distribution. 
+Geosphere and Biosphere : Plants and animals influence soil formation  and 
+stability. For example, plant roots break rocks and contribute organic matter to 
+soil, while burrowing animals affect soil structure. 
+ 
+ 
+Sphere Interaction example 
+Atmosphere (Air) Volcanic eruptions release gases into the air. 
+
+
+=== page 12 ===
+12 
+ 
+Hydrosphere (Water) Water erodes rock and transports sediment. 
+Biosphere (Life) Roots break rocks; animals affect soil 
+formation. 
+ 
+4. Biosphere: 
+The biosphere is the global sum of all ecosystems where life exists on Earth. It 
+encompasses all living organisms and the environ ments with which they 
+interact, ranging from microscopic bacteria in the soil to the largest whales in 
+the oceans. The biosphere includes land, water, and atmospheric layers that 
+support life. 
+ 
+4.1. Major Components of the Biosphere: 
+4.1.1. Living Organisms 
+a.Plants: Function as primary producers by converting sunlight into energy 
+through photosynthesis. They form the base of food chains. 
+b.Animals: Rely on plants (herbivores) or on other animals 
+(carnivores/omnivores) for food, acting as consumers. 
+
+
+=== page 13 ===
+13 
+ 
+c. Microorganisms: Bacteria, fungi, algae, and other microbes decompose dead 
+organic matter, recycle nutrients, and contribute to soil fertility. 
+ 
+4.2. Ecosystems 
+An ecosystem is a community of living organisms (biotic factors) interacting 
+with non -living components (abiotic factors) such as sunlight, soil, air, and 
+water. Examples of ecosystems found within the biosphere include: 
+ Forests 
+ Grasslands 
+ Deserts 
+ Freshwater ecosystems (rivers, lakes) 
+ Marine ecosystems (oceans, coral reefs) 
+Each ecosystem supports different forms and levels of biodiversity. 
+4.3. Functions and Importance of the Biosphere: 
+Supports Life : Provides essentials like food, water, oxygen, and habitats for 
+organisms. 
+Maintains Biodiversity : Supports a wide variety of species, increasing 
+ecosystem resilience to changes and disruptions. 
+Regulates Biogeochemical Cycles: 
+
+
+=== page 14 ===
+14 
+ 
+The biosphere, which includes all living organisms on Earth , plants, animals, 
+fungi, and microorganisms actively regulates biogeochemical cycles by driving 
+the flow and transformation of essential elements like carbon, nitrogen, oxygen, 
+and phosphorus. 
+ 
+Carbon Cycle : Plants in the biosphere absorb carbon dioxide from the 
+atmosphere during photosynthesis, storing carbon in their tissues. Animals 
+consume these plants, and carbon moves through the food chain. When 
+organisms breathe, decompose, or burn (in the case of fossil fuels), carbon is 
+released back into the atmosphere or soil. 
+Nitrogen Cycle: Certain bacteria in the biosphere (especially in soil and plant 
+roots) convert atmospheric nitrogen into forms that plants can use. Plants absorb 
+this nitrogen, and it moves through the food chain. Other microbes return 
+nitrogen to the atmosphere through processes like denitrification. 
+Oxygen Cycle: Plants produce oxygen through p hotosynthesis, which animals 
+use for respiration. In turn, animals release carbon dioxide, which plants use 
+again, maintaining a balanced oxygen-carbon relationship. 
+Phosphorus Cycle : Living organisms help move phosphorus by absorbing it 
+from the soil, usi ng it in DNA and energy transfer. When plants and animals 
+die, decomposers break them down, returning phosphorus to the soil for reuse. 
