@@ -75,14 +75,20 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Sector</th><th>Share</th><th>Notes</th></tr></thead>
             <tbody>
-              <tr><td><b>Electricity and heat</b></td><td>About <b>34%</b> of CO₂</td><td>Coal gives about <b>twice</b> the CO₂ per unit of gas. Cleaning the grid is the highest-leverage step</td></tr>
+              <tr><td><b>Electricity and heat</b></td><td>About <b>34%</b> of CO₂</td><td>Coal gives about <b>twice</b> the CO₂ per unit of gas. Cleaning the grid gives the biggest cut</td></tr>
               <tr><td><b>Industry</b></td><td>About <b>24%</b></td><td>Steel, cement, chemicals, aluminium. 1 t cement → about <b>0.8 t CO₂</b>, half from <b>calcination</b> of limestone</td></tr>
               <tr><td><b>Agriculture, land use</b></td><td>About <b>22%</b></td><td>Livestock methane, fertiliser N₂O, deforestation, <b>peatland drainage</b></td></tr>
               <tr><td><b>Transport</b></td><td>About <b>16%</b></td><td>Road is largest. Aviation and shipping hard to cut (energy density): sustainable fuels, green hydrogen</td></tr>
               <tr><td><b>Buildings</b></td><td>About <b>6%</b> direct; <b>17–19%</b> with Scope 2</td><td>Heating, cooking; insulation and appliances matter</td></tr>
             </tbody>
           </table>
-          <div class="note exam"><b>Process emissions</b> (from the chemistry itself, not fuel) make industry hard to decarbonise.</div>
+        ` },
+        { title: 'Hard and easy cuts', html: `
+          <div class="vs">
+            <div class="side"><h4>Easier</h4><ul><li><b>Power</b>: swap coal for solar and wind</li><li><b>Road transport</b>: electrify on a clean grid</li><li><b>Buildings</b>: insulation, efficient appliances</li></ul></div>
+            <div class="side"><h4>Harder</h4><ul><li><b>Cement, steel</b>: process emissions</li><li><b>Aviation, shipping</b>: need dense energy</li><li><b>Agriculture</b>: methane and N₂O from many small sources</li></ul></div>
+          </div>
+          <div class="note exam"><b>Process emissions</b> (from the chemistry itself, not fuel) make industry hard to decarbonise. Example: CaCO₃ → CaO + CO₂ in cement kilns.</div>
         ` }
       ],
       flashcards: [
