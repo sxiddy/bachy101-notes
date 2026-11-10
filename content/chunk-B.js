@@ -364,6 +364,7 @@ CHUNK({
             <tr><td>Inefficient assimilation</td><td>~5–10%</td><td>Not all food energy is absorbed in digestion</td></tr>
             <tr><td><b>Available to next level</b></td><td><b>~10%</b></td><td>Stored in body tissue, eaten by the next level</td></tr>
           </tbody></table>
+          <div data-viz="energy-10pct"></div>
           <div class="note heads-up"><p>The notes spell the name "Lindemann". The 1942 paper (The Trophic-Dynamic Aspect of Ecology) is usually credited to Raymond Lindeman. Either spelling identifies the 10% law.</p></div>
         ` },
         { title: 'Why chains are short', html: `
@@ -634,6 +635,7 @@ CHUNK({
             <tr><td>Large fish (T3)</td><td>2.0 ppm</td><td>~667,000×</td></tr>
             <tr><td>Fish-eating birds (T4)</td><td><b>25 ppm</b></td><td><b>~8 million×</b></td></tr>
           </tbody></table>
+          <div data-viz="ddt-biomagnification"></div>
           <p>It caused <b>eggshell thinning</b> in bald eagles, peregrine falcons and brown pelicans, pushing them close to extinction until DDT was banned in the USA in <b>1972</b>.</p>
           <div class="note heads-up"><p>The notes say the 1972 ban was under the Clean Water Act. The US ban was actually an EPA order under the federal pesticide law. Quote 1972 and the USA; the act name is a slip.</p></div>
           <div class="note why"><p>Each predator eats many prey and keeps the fat-soluble toxin from all of them, so the dose multiplies up the chain. That is why the top birds were hit hardest.</p></div>

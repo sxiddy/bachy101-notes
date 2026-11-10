@@ -237,3 +237,15 @@ update **State** before stopping.
   footprint scopes (W5 L30) only if the notes have the numbers to drive them. Skip anything decorative.
 - 10-11-2026 fix: all single-model routes return 429 / cooldown (141 of ~140 ids); only the router's 'fusion' model answers. freellm.call now waits for retryAtMs (max 3 min); mcq-check takes MCQ_MODELS (run-free.sh defaults to fusion), 10 s between calls. Old stuck python job (glm) killed. Fusion run started 19:28 IST and is answering (5+ saved). Next: read tmp/mcq-check-flags.txt when it ends.
 - 10-11-2026 free-LLM result: fusion checked 152/269 MCQs, 0 disagreements with the key (tmp/mcq-check-flags.txt). 117 unchecked (skipped topics): rerun with MCQ_MODELS=fusion (resumes). Fact lists FAILED: freellm.py facts sent whole lectures to 'auto' -> 413 Payload Too Large / 429; next: FREELLM_MODELS=fusion and split each lecture into ~8 pages per call. EVS ADMIN_KEY: owner's key refused on bachy101/admin (code same as bachy105, so the stored value differs); Vercel CLI not on PATH in this session; fix by copying bachy105's value by script (never print) + redeploy, or owner edits it on Vercel.
+
+## State (10-11-2026, night, figures + models session, limit ~12% at the end)
+- DONE: all 33 figures redrawn as SVG (figs-svg/, generators tools/figs/batch1.js..batch3.js, list check: `node tools/figs/todo.js` prints 0).
+  Phone previews checked in dark and light; build wires them (protected/img/*.svg = 33). Commits a08b6ad, eec05f8, 91a4bcf, 3208f01.
+- DONE: 3 Pro interactive models, only where they help understanding and the notes hold the numbers: `energy-10pct` (W1, 10% law,
+  viz-paid/viz-m1.js), `ddt-biomagnification` (W1, DDT table, same file), `aqi-bands` (W3, AQI table, viz-paid/viz-m3.js). Each is
+  placed in its note tab with `<div data-viz="...">`. Carbon footprint skipped on purpose: its notes are qualitative, no numbers to drive a model.
+- CHECKED: Pro files exist for every week (pro-A..U, q-M1..5, qa-M1..5, summary-m1..5, viz-m1, viz-m3). validate --all: 0 errors, 8 warnings
+  (thin tabs that mirror short source slides; "landscape" is the source's own term). qa.js: no runtime errors, 3/3 viz mounted, 0 figures missing.
+- NOT DONE / owner's call: (1) MCQ free-model check left at 152/269 (owner said skip). (2) Fact lists from the free model failed (413/429), not retried.
+  (3) EVS ADMIN_KEY on bachy101 is refused (stored value differs from bachy105): copy it by script (never print) or owner edits it on Vercel.
+  (4) The 3 models were not looked at in a browser (pane refuses localhost); only qa.js mount check. (5) Nothing pushed: local commits wait for "push".

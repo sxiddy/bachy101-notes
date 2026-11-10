@@ -42,6 +42,7 @@ CHUNK({
               <tr><td>401–500</td><td>Hazardous</td><td>Maroon</td><td>Emergency for the whole population</td></tr>
             </tbody>
           </table>
+          <div data-viz="aqi-bands"></div>
           <div class="note heads-up">The notes call both 101–200 and 201–300 "unhealthy". Tell them apart by colour and advice: orange affects sensitive groups, red affects everyone.</div>
         ` }
       ],
