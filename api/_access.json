@@ -29,7 +29,9 @@
   "chunk-R.js",
   "chunk-S.js",
   "chunk-T.js",
-  "chunk-U.js"
+  "chunk-U.js",
+  "q-M5.js",
+  "summary-m5.js"
  ],
  "proFiles": [
   "pro-A.js",
@@ -56,7 +58,8 @@
   "pro-R.js",
   "pro-S.js",
   "pro-T.js",
-  "pro-U.js"
+  "pro-U.js",
+  "qa-M5.js"
  ],
  "freeModules": [
   "m1",
@@ -146,6 +149,9 @@
   "chunk-T.js": "m5",
   "pro-T.js": "m5",
   "chunk-U.js": "m5",
-  "pro-U.js": "m5"
+  "pro-U.js": "m5",
+  "q-M5.js": "m5",
+  "qa-M5.js": "m5",
+  "summary-m5.js": "m5"
  }
 }
