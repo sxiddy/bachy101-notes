@@ -171,8 +171,8 @@ update **State** before stopping.
 - Cache warmer (owner asked 10-11-2026): not set up. It re-reads the whole session on every ping (counts toward the limit, extra usage is ON so overage costs money) and a new session can't use an old session's cache. Revisit only at the start of a long session, if the owner asks.
 
 ### Launch state (10-11-2026, owner said "push")
-- Store (vit-notes-store) pushed f3e47f5 to main + redesign: ₹20 MRP, 25% sale = ₹15 until 30 Nov 23:59 IST (live, checked
-  /api/session price 1500 list 2000). EVS held OFF the store (owner choice) until its site + Pro exist: revert f3e47f5 to list it.
+- Store pushed b25632f (owner 10-11 later): MRP ₹30, 33% sale = ₹20 until 30 Nov 23:59 IST; codes, referrals, gifts unchanged (live, checked
+  /api/session price 2000 list 3000). EVS held OFF the store (owner choice) until its site + Pro exist: revert f3e47f5 to list it.
 - EVS repo: github.com/sxiddy/bachy101-notes (private, branch master). Vercel project bachy101 connected to it.
   Env set: STORE_URL, STORE_SECRET, GOOGLE_CLIENT_ID, ADMIN_KEY, REVIEW_CODE (copied from bachy105), SESSION_SECRET (new).
 - Redis: shared upstash-kv-carmine-jacket connected, keys prefixed bachy101: (commit 17fd8ec). Live, redeployed.
