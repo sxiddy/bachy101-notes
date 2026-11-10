@@ -215,3 +215,10 @@ update **State** before stopping.
   api/img.js / app.js wiring from bachy105), phone-preview them; then write 3-5 viz models (e.g. 10% energy pyramid,
   AQI calculator, carbon-footprint calculator, food web) following baeee101 viz-paid/viz-m*.js + viz-core.js.
   Then check Pro files per week (validate shows 0 questions in summaries: warnings only).
+- FREE-LLM JOBS started 10-11-2026 in the background (tmp/run-free.sh; FreeLLMAPI must stay running on :3001):
+  (1) MCQ check: tools/mcq-dump.js -> tmp/mcq.json (269 MCQs + topic notes); tools/mcq-check.py has glm-5.3 and
+  qwen3.8-max answer each MCQ from the notes alone. Results tmp/mcq-check.json (resumable: rerun skips done ones),
+  flagged list tmp/mcq-check-flags.txt (only key disagreements). NEXT: read the flags file and check each flagged
+  question against src/text by hand; fix only real key errors. (2) Fact lists: tools/freellm.py facts for all 31
+  lectures -> tmp/facts/<lecture>.json (verbatim-verified quotes); log tmp/facts.log ends with ALL-DONE. NEXT: script
+  that lists facts whose numbers/terms are missing from the notes (coverage gaps), then review by hand.
