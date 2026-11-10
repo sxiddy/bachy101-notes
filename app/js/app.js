@@ -239,7 +239,7 @@ window.__startApp = function () {
     bar.querySelector('button').addEventListener('click', () => { bar.remove(); try { localStorage.setItem('bn_offer_x', String(FO.until)); } catch (e) { /* ignore */ } });
     main.insertBefore(bar, host);
   }
-  const PRICE_RS = window.PRICE_RS || 50;
+  const PRICE_RS = window.PRICE_RS || 20;
   app.append(sidebar, scrim, main);
   const toasts = h('div', { class: 'toasts', 'aria-live': 'polite' });
   const mountPoint = document.getElementById('app') || document.body;
@@ -823,7 +823,7 @@ window.__startApp = function () {
       <div class="eyebrow"><span class="code">Pro</span><span>${esc(title)}</span></div>
       <h1 class="h-display">${esc(title)}</h1>
       <p class="blurb">${esc(text)}</p>
-      ${proCard('Get Pro for ₹' + (window.PRICE_RS || 50), 'One payment for the whole semester. The notes stay free.', key)}
+      ${proCard('Get Pro for ₹' + (window.PRICE_RS || 20), 'One payment for the whole semester. The notes stay free.', key)}
       <p class="muted" style="margin-top:14px"><a href="#pro" style="color:inherit">See everything in Pro →</a></p>`;
     return { el };
   }
@@ -832,7 +832,7 @@ window.__startApp = function () {
   function viewGoPro() {
     setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Go Pro' }]); setActive('pro'); document.title = 'Go Pro · BACHY101 Notes';
     try { if (!sessionStorage.getItem('bn_gopro')) { sessionStorage.setItem('bn_gopro', '1'); beacon({ funnel: 'gopro' }); } } catch (e) { /* ignore */ }
-    const rs = window.PRICE_RS || 50, days = 120, perDay = (rs / days).toFixed(2).replace(/\.?0+$/, '');
+    const rs = window.PRICE_RS || 20, days = 120, perDay = (rs / days).toFixed(2).replace(/\.?0+$/, '');
     const was = window.PRICE_WAS;
     const free = !!window.FREE_SITE;
     const sampleQ = QS.find((q) => q.answer || q.q);

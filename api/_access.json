@@ -4,12 +4,16 @@
   "chunk-A.js",
   "chunk-B.js",
   "q-M1.js",
-  "summary-m1.js"
+  "summary-m1.js",
+  "chunk-C.js",
+  "chunk-D.js"
  ],
  "proFiles": [
   "pro-A.js",
   "pro-B.js",
-  "qa-M1.js"
+  "qa-M1.js",
+  "pro-C.js",
+  "pro-D.js"
  ],
  "freeModules": [
   "m1",
@@ -52,6 +56,10 @@
   "pro-B.js": "m1",
   "q-M1.js": "m1",
   "qa-M1.js": "m1",
-  "summary-m1.js": "m1"
+  "summary-m1.js": "m1",
+  "chunk-C.js": "m2",
+  "pro-C.js": "m2",
+  "chunk-D.js": "m2",
+  "pro-D.js": "m2"
  }
 }
