@@ -138,7 +138,7 @@ window.__startApp = function () {
 
   // reading order: m2 topics, m2 summary, m3 topics, ...
   const ORDER = [];
-  MODULES.forEach((m) => { m.topics.forEach((t) => ORDER.push({ key: t.id, title: t.title, kind: 'topic' })); if (m.topics.length) ORDER.push({ key: m.id + '-summary', title: `Module ${+m.num} summary`, kind: 'summary' }); });
+  MODULES.forEach((m) => { m.topics.forEach((t) => ORDER.push({ key: t.id, title: t.title, kind: 'topic' })); if (m.topics.length) ORDER.push({ key: m.id + '-summary', title: `Week ${+m.num} summary`, kind: 'summary' }); });
   const orderIdx = (key) => ORDER.findIndex((o) => o.key === key);
 
   // questions
@@ -204,11 +204,11 @@ window.__startApp = function () {
   document.addEventListener('click', (e) => {
     const b = e.target.closest && e.target.closest('[data-reset-mod]'); const m = b && MOD[b.getAttribute('data-reset-mod')];
     if (!m) return;
-    if (!confirm(`Reset your progress in Module ${+m.num}?\n\nThis clears its topic ticks, question and quiz results, known flashcards and "confusing" flags, so you can start the module again. Your notes, highlights, tags and study time stay.`)) return;
+    if (!confirm(`Reset your progress in Week ${+m.num}?\n\nThis clears its topic ticks, question and quiz results, known flashcards and "confusing" flags, so you can start the module again. Your notes, highlights, tags and study time stay.`)) return;
     resetModule(m.id);
     if (window.SIGNED_IN_AS && syncOn) { syncDirty = true; syncPush(); }
     refreshAll();
-    toast(`Module ${+m.num} progress reset`, 'trash');
+    toast(`Week ${+m.num} progress reset`, 'trash');
   });
 
   // ================================================================ shell
@@ -366,7 +366,7 @@ window.__startApp = function () {
             </button>
             <div class="sb-items"><div>
               ${m.topics.map((t) => `<a class="sb-topic" href="#${t.id}" data-key="${t.id}"><span class="tick" data-tick="${t.id}"></span><span class="lbl">${rt(t.short || t.title)}</span><button class="tag-dot" data-act="tag" data-t="${t.id}" title="Colour tag" aria-label="Colour tag for ${rt(t.short || t.title)}"></button></a>`).join('')}
-              <a class="sb-topic summary" href="#${m.id}-summary" data-key="${m.id}-summary">${icon('book')}<span class="lbl">Module summary</span></a>
+              <a class="sb-topic summary" href="#${m.id}-summary" data-key="${m.id}-summary">${icon('book')}<span class="lbl">Week summary</span></a>
             </div></div>
           </div>`).join('')}
         ${MODULES.filter((m) => m.locked).map((m) => `
@@ -382,7 +382,7 @@ window.__startApp = function () {
             <a class="sb-topic" href="#questions" data-key="questions"><span class="lbl">All questions & answers</span><span class="count">${nQ}</span></a>
             ${MODULES.filter((m) => m.topics.length).map((m) => {
               const mq = QS.filter((q) => q.module === m.id && q.topic !== 'mixed');
-              return `<a class="sb-topic" href="#questions.${m.id}" data-key="questions.${m.id}"><span class="lbl">Module ${+m.num} · ${esc(m.title)}</span><span class="count">${mq.length}</span></a>` +
+              return `<a class="sb-topic" href="#questions.${m.id}" data-key="questions.${m.id}"><span class="lbl">Week ${+m.num} · ${esc(m.title)}</span><span class="count">${mq.length}</span></a>` +
                 m.topics.map((t) => `<a class="sb-topic sub" href="#questions.${t.id}" data-key="questions.${t.id}"><span class="lbl">${rt(t.short || t.title)}</span><span class="count">${(QBY[t.id] || []).length}</span></a>`).join('') +
                 ((QBY.summary || []).some((q) => q.module === m.id) ? `<a class="sb-topic sub" href="#questions.${m.id}-summary" data-key="questions.${m.id}-summary"><span class="lbl">Across the module</span><span class="count">${QS.filter((q) => q.topic === 'summary' && q.module === m.id).length}</span></a>` : '');
             }).join('')}
@@ -884,7 +884,7 @@ window.__startApp = function () {
         const s = SUM[m.id] || {};
         const forms = [].concat(...m.topics.map((t) => t.formulas));
         const lines = [].concat(...m.topics.map((t) => t.oneLiners));
-        return `<section class="rv-mod"><h2 class="h-sec">Module ${+m.num} · ${esc(m.title)}</h2>
+        return `<section class="rv-mod"><h2 class="h-sec">Week ${+m.num} · ${esc(m.title)}</h2>
           ${forms.length ? `<h3>Formulas</h3><div class="forms">${forms.map((f) => `<div class="form"><div class="fname">${rt(f.name)}</div><div class="eq">${f.html}</div>${f.note ? `<div class="fnote">${f.note}</div>` : ''}</div>`).join('')}</div>` : ''}
           ${lines.length ? `<h3>One-liners</h3><ul class="prose">${lines.map((x) => `<li>${x}</li>`).join('')}</ul>` : ''}
           ${s.traps && s.traps.length ? `<h3>Traps</h3><ul class="prose">${s.traps.map((x) => `<li>${typeof x === 'string' ? x : (x.html || x.text || '')}</li>`).join('')}</ul>` : ''}
@@ -925,7 +925,7 @@ window.__startApp = function () {
   }
 
   function lockedNames() {
-    const l = MODULES.filter((m) => m.locked).map((m) => 'Module ' + (+m.num));
+    const l = MODULES.filter((m) => m.locked).map((m) => 'Week ' + (+m.num));
     return l.length > 1 ? l.slice(0, -1).join(', ') + ' and ' + l[l.length - 1] : l[0] || 'everything';
   }
   function topicRow(t) {
@@ -939,7 +939,7 @@ window.__startApp = function () {
   function summaryRow(m) {
     return `<a class="trow summary" href="#${m.id}-summary">
       <span class="tick" style="--p:0%;box-shadow:none;background:none">${icon('book')}</span>
-      <div><h3>Module ${+m.num} summary</h3><p>Big ideas, comparison tables, every equation, the numbers to remember and the classic traps, on one page.</p></div>
+      <div><h3>Week ${+m.num} summary</h3><p>Big ideas, comparison tables, every equation, the numbers to remember and the classic traps, on one page.</p></div>
       <span class="meta">final recap <span class="arrow">→</span></span>
     </a>`;
   }
@@ -973,7 +973,7 @@ window.__startApp = function () {
       <section class="hero">
         <div class="eyebrow"><span class="code">BACHY101</span><span>Environmental Sciences</span><span class="dot">·</span><span>Fall semester 2026–27</span></div>
         <h1 class="h-display">${words.map((w, i) => `<span class="w" style="--i:${i}">${w}</span>`).join(' ')}</h1>
-        <p class="blurb">Modules 2, 3 and 4, rebuilt as short tabbed notes with every diagram from the course material${nViz ? `, ${nViz} interactive models` : ''} and ${QS.length} questions that make you use what you read. White text is what you must remember. Everything else is there so it makes sense. The notes are free.</p>
+        <p class="blurb">All five weeks of the syllabus as short tabbed notes with every diagram from the course material${nViz ? `, ${nViz} interactive models` : ''} and ${QS.length} questions that make you use what you read. White text is what you must remember. Everything else is there so it makes sense. The notes are free.</p>
         <p class="credit">Based on the BACHY101 Environmental Sciences course material taught at VIT. Diagrams are reproduced from the course material and credited to their authors; the notes, questions and interactive models are written for this site. <a href="privacy.html">Privacy</a></p>
         <div class="stat-line"><span class="stat-big">${d}/${n}</span><span class="muted">topics done</span><div class="bar"><i style="width:${n ? (d / n) * 100 : 0}%"></i></div><button class="btn small" data-act="share">${icon('share')}Share progress</button></div>
         <div class="study-line">${icon('fire')}<span><b>${streakDays()}</b> day${streakDays() === 1 ? '' : 's'} in a row</span><span class="dot">·</span><span><b data-today>${fmtDur(todaySecs())}</b> today</span><span class="dot">·</span><span><b data-total>${fmtDur(totalSecs())}</b> in total</span></div>
@@ -992,13 +992,13 @@ window.__startApp = function () {
       </div>
       ${MODULES.filter((m) => m.topics.length).map((m) => `
         <section class="mod-sec">
-          <div class="mod-head"><span class="mod-num">Module ${m.num}</span><h2 class="h-sec"><a href="#${m.id}" style="text-decoration:none">${esc(m.title)}</a></h2><span class="count">${doneIn(m.topics)}/${m.topics.length} done</span><button class="btn small ghost mod-reset" type="button" data-reset-mod="${m.id}" title="Start this module again from zero">${icon('trash')}Reset progress</button></div>
+          <div class="mod-head"><span class="mod-num">Week ${m.num}</span><h2 class="h-sec"><a href="#${m.id}" style="text-decoration:none">${esc(m.title)}</a></h2><span class="count">${doneIn(m.topics)}/${m.topics.length} done</span><button class="btn small ghost mod-reset" type="button" data-reset-mod="${m.id}" title="Start this module again from zero">${icon('trash')}Reset progress</button></div>
           <p class="mod-syl">${esc(m.syllabus)}</p>
           <div>${m.topics.map(topicRow).join('')}${summaryRow(m)}</div>
         </section>`).join('')}
       ${MODULES.filter((m) => m.locked).map((m) => `
         <section class="mod-sec">
-          <div class="mod-head"><span class="mod-num">Module ${m.num}</span><h2 class="h-sec">${esc(m.title)}</h2><span class="count">${icon('lock')} locked</span></div>
+          <div class="mod-head"><span class="mod-num">Week ${m.num}</span><h2 class="h-sec">${esc(m.title)}</h2><span class="count">${icon('lock')} locked</span></div>
           <p class="mod-syl">${esc(m.syllabus)}</p>
           <a class="lock-card" href="#unlock"><span class="lock-ico">${icon('lock')}</span><div><strong>Unlock ${lockedNames()} for ₹${PRICE_RS}</strong><p>Notes, diagrams, interactive models, questions, quiz, flashcards and summary. One-time UPI payment.</p></div><span class="arrow">${icon('right')}</span></a>
         </section>`).join('')}
@@ -1036,7 +1036,7 @@ window.__startApp = function () {
   // ---------------------------------------------------------------- module
   function viewModule(r) {
     const m = MOD[r.mod];
-    setCrumbs([{ t: 'Home', href: '#home' }, { t: `Module ${+m.num}` }]); setActive(null); document.title = `${m.title} · BACHY101 Notes`;
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: `Week ${+m.num}` }]); setActive(null); document.title = `${m.title} · BACHY101 Notes`;
     const d = doneIn(m.topics), n = m.topics.length;
     const nq = QS.filter((q) => q.module === m.id && q.topic !== 'mixed').length;
     const nc = CARDS.filter((c) => c.module === m.id).length;
@@ -1045,7 +1045,7 @@ window.__startApp = function () {
     const el = h('div', { class: 'view' });
     el.innerHTML = `
       <div class="mod-hero"><div class="mod-big">${m.num}</div>
-        <div><div class="eyebrow"><span class="code">Module ${m.num}</span><span>${n} topics · ${tabs} tabs</span></div>
+        <div><div class="eyebrow"><span class="code">Week ${m.num}</span><span>${n} topics · ${tabs} tabs</span></div>
         <h1 class="h-display" style="margin-bottom:6px">${esc(m.title)}</h1></div></div>
       <p class="blurb">${esc(m.syllabus)}</p>
       <div class="mod-stats">
@@ -1178,7 +1178,7 @@ window.__startApp = function () {
       if (completed) { toast('Topic complete. Every tab read.', 'check'); if (autoTick([t.id])) updateSidebar(); }
       replaceHash(`#${t.id}.${i}`);
       S.last = { hash: `#${t.id}.${i}`, title: t.title }; save();
-      setCrumbs([{ t: 'Home', href: '#home' }, { t: `Module ${+m.num}`, href: '#' + m.id, hideSm: true }, { t: t.short || t.title, href: `#${t.id}.0`, hideSm: true }, { t: t.tabs[i].title }]);
+      setCrumbs([{ t: 'Home', href: '#home' }, { t: `Week ${+m.num}`, href: '#' + m.id, hideSm: true }, { t: t.short || t.title, href: `#${t.id}.0`, hideSm: true }, { t: t.tabs[i].title }]);
       if (changed && !reduced && opts.animate !== false) {
         panel.classList.add('leave');
         setTimeout(() => { panel.classList.remove('leave'); fill(true); }, 110);
@@ -1243,16 +1243,16 @@ window.__startApp = function () {
   // ---------------------------------------------------------------- summary
   function viewSummary(r) {
     const m = MOD[r.mod], s = SUM[m.id];
-    setCrumbs([{ t: 'Home', href: '#home' }, { t: `Module ${+m.num}`, href: '#' + m.id }, { t: 'Summary' }]);
-    setActive(m.id + '-summary'); document.title = `Module ${+m.num} summary · BACHY101 Notes`;
-    S.last = { hash: `#${m.id}-summary`, title: `Module ${+m.num} summary` }; save();
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: `Week ${+m.num}`, href: '#' + m.id }, { t: 'Summary' }]);
+    setActive(m.id + '-summary'); document.title = `Week ${+m.num} summary · BACHY101 Notes`;
+    S.last = { hash: `#${m.id}-summary`, title: `Week ${+m.num} summary` }; save();
     const el = h('div', { class: 'view sumpage' });
     const mqs = QS.filter((q) => q.module === m.id && q.topic === 'summary');
     const figs = m.topics.flatMap((t) => t.tabs.flatMap((tb, k) => Array.from((tb.html || '').matchAll(/data-fig="([a-z0-9-]+)"/g), (x) => ({ id: x[1], t, k })))).filter((f, i, a) => FIGS[f.id] && a.findIndex((y) => y.id === f.id) === i);
     const forms = s && s.formulas && s.formulas.length ? s.formulas : [].concat(...m.topics.map((t) => t.formulas || []));
     const nx = ORDER[orderIdx(m.id + '-summary') + 1];
     el.innerHTML = `
-      <div class="eyebrow"><span class="code">Module ${m.num}</span><span>${esc(m.title)}</span><span class="dot">·</span><span>Final summary</span></div>
+      <div class="eyebrow"><span class="code">Week ${m.num}</span><span>${esc(m.title)}</span><span class="dot">·</span><span>Final summary</span></div>
       <h1 class="h-display">${esc(m.title)}, on one page</h1>
       ${s && s.tldr ? `<div class="sum-tldr recallable">${s.tldr}</div>` : `<p class="blurb">${esc(m.syllabus)}</p>`}
       <div class="btn-row" style="margin-top:22px">
@@ -1284,7 +1284,7 @@ window.__startApp = function () {
   function qState(id) { return S.q[id] || (S.q[id] = { seen: 0, right: 0, wrong: 0 }); }
   function levelDots(l) { return `<span class="qlevel" title="Level ${l} of 3">${[1, 2, 3].map((k) => `<i class="${k <= l ? 'on' : ''}"></i>`).join('')}</span>`; }
   function statusTag(id) { const st = S.q[id] && S.q[id].status; return st === 'got' ? '<span class="qstatus got">Got it</span>' : st === 'revisit' ? '<span class="qstatus revisit">Revisit</span>' : ''; }
-  function topicName(q) { if (q.topic === 'mixed') return 'Across modules'; if (q.topic === 'summary') return `Module ${+MOD[q.module].num} · across topics`; const t = TOPIC[q.topic]; return t ? (t.short || t.title) : ''; }
+  function topicName(q) { if (q.topic === 'mixed') return 'Across modules'; if (q.topic === 'summary') return `Week ${+MOD[q.module].num} · across topics`; const t = TOPIC[q.topic]; return t ? (t.short || t.title) : ''; }
   function answerHTML(q) {
     return `<div class="qans-inner">
       <div class="verdict prose">${q.answer || ''}</div>
@@ -1349,7 +1349,7 @@ window.__startApp = function () {
       <h1 class="h-display">Question bank</h1>
       <p class="blurb">Each one puts you in a situation and asks you to reason it out. Answer it in your head or on paper first, then open the answer. Mark each as <b style="color:var(--white)">got it</b> or <b style="color:var(--white)">revisit</b>.</p>
       <div class="filters">
-        <div class="frow"><span class="flabel">Module</span>${[['all', 'All'], ...MODULES.filter((m) => m.topics.length).map((m) => [m.id, `Module ${+m.num}`]), ...((QBY.mixed || []).length ? [['mixed', 'Mixed']] : [])].map(([v, l]) => `<button class="fchip" data-f="mod" data-v="${v}">${l}</button>`).join('')}</div>
+        <div class="frow"><span class="flabel">Week</span>${[['all', 'All'], ...MODULES.filter((m) => m.topics.length).map((m) => [m.id, `Week ${+m.num}`]), ...((QBY.mixed || []).length ? [['mixed', 'Mixed']] : [])].map(([v, l]) => `<button class="fchip" data-f="mod" data-v="${v}">${l}</button>`).join('')}</div>
         <div class="frow"><span class="flabel">Topic</span><select class="fselect" data-f="topic" aria-label="Topic"></select></div>
         <div class="frow"><span class="flabel">Type</span>${[['all', 'All'], ...types.map((t) => [t, TYPE_LABEL[t] || t])].map(([v, l]) => `<button class="fchip" data-f="type" data-v="${v}">${l}</button>`).join('')}</div>
         <div class="frow"><span class="flabel">Level</span>${[[0, 'Any'], [1, 'Warm-up'], [2, 'Solid'], [3, 'Stretch']].map(([v, l]) => `<button class="fchip" data-f="level" data-v="${v}">${l}</button>`).join('')}</div>
@@ -1360,7 +1360,7 @@ window.__startApp = function () {
     const list = $('[data-list]', el), sel = $('[data-f="topic"]', el);
     function fillTopics() {
       const mods = bankUI.mod === 'all' ? MODULES : bankUI.mod === 'mixed' ? [] : [MOD[bankUI.mod]];
-      sel.innerHTML = `<option value="all">All topics</option>` + mods.map((m) => m.topics.map((t) => `<option value="${t.id}">${rt(t.short || t.title)} (${(QBY[t.id] || []).length})</option>`).join('') + (QS.some((q) => q.topic === 'summary' && q.module === m.id) ? `<option value="summary">Module ${+m.num}: across topics</option>` : '')).join('');
+      sel.innerHTML = `<option value="all">All topics</option>` + mods.map((m) => m.topics.map((t) => `<option value="${t.id}">${rt(t.short || t.title)} (${(QBY[t.id] || []).length})</option>`).join('') + (QS.some((q) => q.topic === 'summary' && q.module === m.id) ? `<option value="summary">Week ${+m.num}: across topics</option>` : '')).join('');
       sel.value = bankUI.topic; if (sel.value !== bankUI.topic) { bankUI.topic = 'all'; sel.value = 'all'; }
       sel.disabled = bankUI.mod === 'mixed';
     }
@@ -1390,7 +1390,7 @@ window.__startApp = function () {
         const g = qGroupKey(q);
         if (g !== lastG) {
           grp = h('section', { class: 'qgroup' });
-          grp.appendChild(h('h2', { text: g === 'mixed' ? 'Mixed: across modules' : `Module ${+MOD[g].num} · ${MOD[g].title}` }));
+          grp.appendChild(h('h2', { text: g === 'mixed' ? 'Mixed: across modules' : `Week ${+MOD[g].num} · ${MOD[g].title}` }));
           list.appendChild(grp); lastG = g; lastT = null;
         }
         if (q.topic !== lastT && q.topic !== 'mixed') {
@@ -1445,8 +1445,8 @@ window.__startApp = function () {
     function quizLabel(list) {
       const tops = [...new Set(list.map((q) => q.topic))], mods = [...new Set(list.map((q) => q.module))];
       if (tops.length === 1 && TOPIC[tops[0]]) return TOPIC[tops[0]].title;
-      if (mods.length === 1 && MOD[mods[0]]) return `Module ${+MOD[mods[0]].num}: ${MOD[mods[0]].title}`;
-      return 'Modules ' + mods.filter((x) => MOD[x]).map((x) => +MOD[x].num).join(', ');
+      if (mods.length === 1 && MOD[mods[0]]) return `Week ${+MOD[mods[0]].num}: ${MOD[mods[0]].title}`;
+      return 'Weeks ' + mods.filter((x) => MOD[x]).map((x) => +MOD[x].num).join(', ');
     }
     function setup() {
       el.innerHTML = `
@@ -1454,7 +1454,7 @@ window.__startApp = function () {
         <h1 class="h-display">Quiz</h1>
         <p class="blurb">Pick what to cover. Multiple-choice questions are marked for you; open ones you mark yourself after reading the model answer.</p>
         <div class="filters quiz-setup">
-          <div class="frow"><span class="flabel">Modules</span>${MODULES.filter((m) => m.topics.length).map((m) => `<button class="fchip" data-m="${m.id}">Module ${+m.num} · ${esc(m.title)}</button>`).join('')}</div>
+          <div class="frow"><span class="flabel">Weeks</span>${MODULES.filter((m) => m.topics.length).map((m) => `<button class="fchip" data-m="${m.id}">Week ${+m.num} · ${esc(m.title)}</button>`).join('')}</div>
           <div class="frow"><span class="flabel">Format</span>${[['mcq', 'Multiple choice'], ['open', 'Open (self-marked)'], ['mixed', 'Both']].map(([v, l]) => `<button class="fchip" data-fmt="${v}">${l}</button>`).join('')}</div>
           <div class="frow"><span class="flabel">Length</span>${[[10, '10'], [20, '20'], [30, '30'], [0, 'All']].map(([v, l]) => `<button class="fchip" data-n="${v}">${l}</button>`).join('')}</div>
           <div class="frow"><span class="flabel">Order</span><button class="pill" data-smart><span>Weak spots, unseen and missed first</span><span class="switch"></span></button></div>
@@ -1582,7 +1582,7 @@ window.__startApp = function () {
       ${PRO ? '' : proCard(`3 sample cards per topic · ${TOPICS.reduce((n, t) => n + (t.cardCount || 0), 0)} cards in all`, 'Pro opens every card, with the still-learning pile kept between visits.', 'cards')}
       <p class="blurb">Say the answer out loud, then flip. Sort each card with the arrow keys: <kbd>←</kbd> still learning, <kbd>→</kbd> know it, <kbd>Space</kbd> to flip.</p>
       <div class="deck-bar">
-        ${[['all', 'All'], ...MODULES.filter((m) => m.topics.length).map((m) => [m.id, `Module ${+m.num}`])].map(([v, l]) => `<button class="fchip" data-cm="${v}">${l}</button>`).join('')}
+        ${[['all', 'All'], ...MODULES.filter((m) => m.topics.length).map((m) => [m.id, `Week ${+m.num}`])].map(([v, l]) => `<button class="fchip" data-cm="${v}">${l}</button>`).join('')}
         <select class="fselect" data-ct aria-label="Topic"></select>
         <button class="pill" data-learn><span>Still learning only</span><span class="switch"></span></button>
         <button class="btn small" data-shuf>${icon('shuffle')}Shuffle</button>
@@ -1672,7 +1672,7 @@ window.__startApp = function () {
         } else {
           inner = s.traps && s.traps.length ? `<ul class="traps prose">${s.traps.map((x) => `<li>${x}</li>`).join('')}</ul>` : '<p class="muted">No traps listed yet.</p>';
         }
-        return `<section class="sum-sec" style="margin-top:44px"><h2 class="h-sec">Module ${+m.num} <small>${esc(m.title)}</small></h2>${inner || '<p class="muted">Nothing here yet.</p>'}</section>`;
+        return `<section class="sum-sec" style="margin-top:44px"><h2 class="h-sec">Week ${+m.num} <small>${esc(m.title)}</small></h2>${inner || '<p class="muted">Nothing here yet.</p>'}</section>`;
       }).join('');
       stagger(body);
     }
@@ -1694,7 +1694,7 @@ window.__startApp = function () {
       ${MODULES.map((m) => {
         const mine = allViz().filter((id) => vizModule(id) === m.id);
         if (!mine.length) return '';
-        return `<section class="sum-sec" style="margin-top:40px"><h2 class="h-sec">Module ${+m.num} <small>${esc(m.title)}</small></h2><div class="lab-grid">${mine.map((id) => {
+        return `<section class="sum-sec" style="margin-top:40px"><h2 class="h-sec">Week ${+m.num} <small>${esc(m.title)}</small></h2><div class="lab-grid">${mine.map((id) => {
           const d = window.VIZ.def(id) || {};
           return `<div class="lab-item" data-id="${id}"><button class="lab-head" aria-expanded="false"><span class="k">${esc(d.kind || 'Interactive')}</span><span class="t">${esc(d.title || id)}</span>${icon('chev', 'sb-chev')}</button><div class="lab-body" hidden></div></div>`;
         }).join('')}</div></section>`;
@@ -1781,7 +1781,7 @@ window.__startApp = function () {
     });
     MODULES.forEach((m) => {
       const s = SUM[m.id]; if (!s) return;
-      INDEX.push({ k: 'Summary', title: `Module ${+m.num} summary`, text: plain([s.tldr].concat((s.bigIdeas || []).map((b) => b.html), (s.traps || [])).join(' ')), href: `#${m.id}-summary`, w: 2 });
+      INDEX.push({ k: 'Summary', title: `Week ${+m.num} summary`, text: plain([s.tldr].concat((s.bigIdeas || []).map((b) => b.html), (s.traps || [])).join(' ')), href: `#${m.id}-summary`, w: 2 });
       (s.formulas || []).forEach((f) => INDEX.push({ k: 'Formula', title: f.name, text: plain(f.html + ' ' + (f.note || '')), href: '#formulas', w: 2 }));
     });
     QS.forEach((q) => INDEX.push({ k: 'Question', title: plain(q.q).slice(0, 110), text: plain(q.q + ' ' + q.answer + ' ' + (q.explain || '')), href: '#questions' + (TOPIC[q.topic] ? '.' + q.topic : q.topic === 'mixed' ? '.mixed' : '.' + q.module), qid: q.id, w: 1 }));
@@ -2335,7 +2335,7 @@ window.__startApp = function () {
         <p class="blurb">Every line of the ${label} syllabus, linked to the notes that cover it. A topic ticks itself when you finish reading every tab of it. You can also tick or untick one yourself.</p>
         <div class="syl-top"><div class="ring" style="--p:${pct}"><span>${pct}%</span></div><div><b>${ticked} of ${items.length}</b> ticked<br><span class="muted" style="font-size:14px">Saved in this browser.</span></div>${ticked ? `<button class="btn small ghost" data-clear>${icon('rotate')}Clear ticks</button>` : ''}</div>
         ${groups.map((g) => { const M = MOD[g.mod] || { num: g.mod.slice(1) }; const locked = !!M.locked; const gi = sylItems(cat).filter((x) => x.mod === g.mod);
-          return `<section class="syl-mod"><div class="mod-head"><span class="mod-num">Module ${+M.num}</span><h2 class="h-sec">${esc(g.title)}</h2><span class="count">${gi.filter((x) => S.syl[cat + ':' + x.id]).length}/${gi.length}${locked ? ` · ${icon('lock')} locked` : ''}</span></div>
+          return `<section class="syl-mod"><div class="mod-head"><span class="mod-num">Week ${+M.num}</span><h2 class="h-sec">${esc(g.title)}</h2><span class="count">${gi.filter((x) => S.syl[cat + ':' + x.id]).length}/${gi.length}${locked ? ` · ${icon('lock')} locked` : ''}</span></div>
             ${g.lines.map(([line, tl]) => `<div class="syl-line"><div class="syl-lt">${esc(line)}</div>${tl.length ? '' : '<div class="syl-item"><span class="syl-name muted">Notes coming</span></div>'}${tl.map(([id, name]) => { const on = !!S.syl[cat + ':' + id], t = TOPIC[id];
               return locked || !t ? `<a class="syl-item locked" href="#unlock"><span class="syl-box">${icon('lock')}</span><span class="syl-name">${esc(name)}</span><span class="syl-tag">Unlock</span></a>`
                 : `<div class="syl-item${on ? ' on' : ''}"><button class="syl-box" role="checkbox" aria-checked="${on}" aria-label="Tick ${esc(name)}" data-tick="${id}">${on ? icon('check') : ''}</button><a class="syl-name" href="#${id}">${rt(t.title)}</a>${on || !PRO ? '' : `<span class="syl-tag">${Math.round(frac(t) * 100)}% read</span>`}</div>`; }).join('')}</div>`).join('')}
@@ -2422,7 +2422,7 @@ window.__startApp = function () {
       const id = fg.getAttribute('data-fig');
       if (FIGS[id]) return;
       const m = MODULES.find((x) => id.startsWith(x.id + '-'));
-      fg.outerHTML = `<a class="lock-card" href="#unlock"><span class="lock-ico">${icon('lock')}</span><div><strong>Diagram from ${esc(m ? 'Module ' + (+m.num) + ' notes' : 'the notes')}</strong><p>Unlock with full access for ₹${PRICE_RS} to see it here</p></div><span class="arrow">${icon('right')}</span></a>`;
+      fg.outerHTML = `<a class="lock-card" href="#unlock"><span class="lock-ico">${icon('lock')}</span><div><strong>Diagram from ${esc(m ? 'Week ' + (+m.num) + ' notes' : 'the notes')}</strong><p>Unlock with full access for ₹${PRICE_RS} to see it here</p></div><span class="arrow">${icon('right')}</span></a>`;
     });
     hydrate(el);
     return { el };
@@ -2443,12 +2443,12 @@ window.__startApp = function () {
       ${sec('pen', 'Highlights, notes and colour tags', `<p><b>Select any line</b> in a topic and pick a colour to highlight it. Each topic has a <b>My notes</b> box at the bottom, saved as you type. The dot next to each topic in the sidebar sets a colour tag (tap again to change it). Everything you mark is collected in ${'<a href="#mine">Highlights &amp; notes</a>'}.</p>`)}
       ${sec('flag', '"Confusing?" and your weak spots', `<p>At the bottom of every tab there is a <b>Confusing?</b> button. Tap it on anything that didn't click. Those tabs are listed under <b>My weak spots</b> in ${'<a href="#mine">Highlights &amp; notes</a>'}, and the quiz asks about them first.</p>`)}
       ${sec('search', 'Search everything', `<p>Tap <b>Search</b> (or press <kbd>Ctrl</kbd> <kbd>K</kbd>). It looks through every tab, question, flashcard, formula and summary.</p><p class="g-ex">Try searching <b>Nafion</b>, <b>zone refining</b> or <b>Bragg</b>.</p>`)}
-      ${sec('q', 'Question bank', `<p>Scenario questions with full model answers and the points an examiner looks for. Filter by module, topic, type and level. Mark each one <b>Got it</b> or <b>Revisit</b>.</p><p class="g-ex">Try it: <a href="#questions.m2">Module 2 questions</a>.</p>`)}
-      ${sec('quiz', 'Quiz, then focus on your weak spots', `<p>Pick modules and a length and go. At the end, tap <b>Focus on weak spots</b> for a quick round of only the questions you missed. Keep going until you get every one right: you'll see how long it took you to master it, and you can share that as a picture.</p><p class="g-ex">Try it: <a href="#quiz.m2">a Module 2 quiz</a>.</p>`)}
-      ${sec('swords', '1v1 Quiz battle', `<p>Pick one or more topics and tap <b>Create battle link</b>. Send the link to one friend: when they join, you both see the rules and tap <b>Understood</b> (tick <b>Never ask again</b> to skip them next time), then you get the same 10 questions at the same time, 10 seconds each. Faster right answers score more. Switching tabs or apps during a question counts as wrong. Full access gets unlimited battles; free accounts get one preview battle on one Module 2 topic.</p><p class="g-ex">Try it: <a href="#battle">start a battle</a>.</p>`)}
+      ${sec('q', 'Question bank', `<p>Scenario questions with full model answers and the points an examiner looks for. Filter by module, topic, type and level. Mark each one <b>Got it</b> or <b>Revisit</b>.</p><p class="g-ex">Try it: <a href="#questions.m2">Week 2 questions</a>.</p>`)}
+      ${sec('quiz', 'Quiz, then focus on your weak spots', `<p>Pick modules and a length and go. At the end, tap <b>Focus on weak spots</b> for a quick round of only the questions you missed. Keep going until you get every one right: you'll see how long it took you to master it, and you can share that as a picture.</p><p class="g-ex">Try it: <a href="#quiz.m2">a Week 2 quiz</a>.</p>`)}
+      ${sec('swords', '1v1 Quiz battle', `<p>Pick one or more topics and tap <b>Create battle link</b>. Send the link to one friend: when they join, you both see the rules and tap <b>Understood</b> (tick <b>Never ask again</b> to skip them next time), then you get the same 10 questions at the same time, 10 seconds each. Faster right answers score more. Switching tabs or apps during a question counts as wrong. Full access gets unlimited battles; free accounts get one preview battle on one Week 2 topic.</p><p class="g-ex">Try it: <a href="#battle">start a battle</a>.</p>`)}
       ${sec('cards', 'Flashcards', `<p>Say the answer out loud, then flip. Sort each card into <b>Know it</b> or <b>Still learning</b>; the deck remembers, and "Still learning only" gives you just the hard ones.</p><p class="g-ex">Try it: ${TOPIC['m2-li-ion'] ? '<a href="#cards.m2-li-ion">Lithium-ion flashcards</a>' : '<a href="#cards">flashcards</a>'}.</p>`)}
       ${sec('sigma', 'Formula sheet and Lab bench', `<p>The <a href="#formulas">Formula sheet</a> has every equation, the numbers worth memorising and the classic traps, per module. The <a href="#lab">Lab bench</a> collects every interactive model and calculator (Nernst, Beer–Lambert, Bragg, Scherrer and more), each linked to the tab that explains it.</p>`)}
-      ${sec('book', 'Module summaries', `<p>Every module ends with a one-page summary: how it fits together, the key points of every topic, all its diagrams, side-by-side comparisons, equations, numbers and traps. Best the night before an exam.</p><p class="g-ex">Try it: <a href="#m2-summary">Module 2 summary</a>.</p>`)}
+      ${sec('book', 'Week summaries', `<p>Every week ends with a one-page summary: how it fits together, the key points of every topic, all its diagrams, side-by-side comparisons, equations, numbers and traps. Best the night before an exam.</p><p class="g-ex">Try it: <a href="#m2-summary">Week 2 summary</a>.</p>`)}
       ${sec('list', 'CAT syllabus checklists', `<p>The <a href="#syllabus.cat2">CAT-2 syllabus</a> lists every syllabus line with links to the topics that cover it. Tick a topic when you can explain it without looking, and watch the percentage climb.</p>`)}
       ${sec('timer', 'Focus mode', `<p>Tap <b>Focus</b> in the top bar (or press <kbd>F</kbd>) for a focus timer with fewer distractions. Pick <b>30 minutes, 1, 2 or 3 hours</b> in the bar at the bottom, which also lets you <b>Pause</b> or <b>Exit focus</b> at any time (on a computer, <kbd>Esc</kbd> works too).</p>`)}
       ${sec('fire', 'Study time, streaks and share cards', `<p>The site counts the time you actually study here each day (it pauses after 3 minutes without a tap or scroll, except while the Focus timer is running). Study at least a minute a day to keep your streak going (the flame in the top bar). Tap <b>Share progress</b> on the home page for a picture with today's time, your total, your streak and the modules you've finished.</p>`)}
@@ -2491,8 +2491,8 @@ window.__startApp = function () {
       const preview = acc.access !== 'full';
       const mods = MODULES.filter((m) => m.topics.length && (!preview || m.free));
       const chosen = new Set();
-      pick.innerHTML = `${preview ? `<div class="bt-note">${icon('info')}<p><b>Free preview:</b> one battle on a single Module 2 topic. <a href="#unlock">Unlock full access</a> for unlimited battles on every topic.</p></div>` : ''}
-        ${mods.map((m) => `<div class="bt-mod"><div class="bt-mhead"><b>Module ${+m.num} · ${esc(m.title)}</b>${preview ? '' : `<button class="btn small ghost" data-all="${m.id}">Select all</button>`}</div>
+      pick.innerHTML = `${preview ? `<div class="bt-note">${icon('info')}<p><b>Free preview:</b> one battle on a single Week 2 topic. <a href="#unlock">Unlock full access</a> for unlimited battles on every topic.</p></div>` : ''}
+        ${mods.map((m) => `<div class="bt-mod"><div class="bt-mhead"><b>Week ${+m.num} · ${esc(m.title)}</b>${preview ? '' : `<button class="btn small ghost" data-all="${m.id}">Select all</button>`}</div>
           <div class="bt-topics">${m.topics.filter((t) => (t.flashcards || []).length >= 4).map((t) => `<button class="fchip" data-t="${t.id}" aria-pressed="false">${rt(t.short || t.title)}</button>`).join('')}</div></div>`).join('')}
         <div class="bt-go"><button class="btn primary" data-create disabled>${icon('swords')}Create battle link</button><span class="muted" data-info>Pick ${preview ? 'one topic' : 'one or more topics'}</span></div><p class="gate-msg" data-msg role="alert"></p>`;
       const paint = () => {

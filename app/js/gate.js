@@ -17,8 +17,8 @@
   const CFG = window.MODULES_CONFIG || [];
   const list = (arr) => (arr.length > 1 ? arr.slice(0, -1).join(', ') + ' and ' + arr[arr.length - 1] : arr[0] || '');
   const freeCount = () => CFG.filter((m) => m.free).length;
-  const freeNames = () => list(CFG.filter((m) => m.free).map((m) => 'Module ' + (+m.num)));
-  const paidNames = () => list(CFG.filter((m) => !m.free).map((m) => `<b>Module ${+m.num} (${esc(m.title)})</b>`));
+  const freeNames = () => list(CFG.filter((m) => m.free).map((m) => 'Week ' + (+m.num)));
+  const paidNames = () => list(CFG.filter((m) => !m.free).map((m) => `<b>Week ${+m.num} (${esc(m.title)})</b>`));
 
   function loadScript(src) {
     return new Promise((ok, bad) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = () => bad(new Error('Could not load ' + src)); document.body.appendChild(s); });
