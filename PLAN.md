@@ -190,7 +190,8 @@ update **State** before stopping.
 
 ## State (10-11-2026, evening)
 - Module 2 DONE: chunks C, D, E, F (hazards, BPA, phthalates, mercury, malaria, COVID), G (disaster management), summary-m2.js, q-M2.js (54 Qs; options rotated in code so answers spread A-D). Coverage: all w2-07..w2-13 lectures.
-- Module 3 in progress: chunk H (w3-14 air, w3-15 water), chunk I (w3-16 soil, w3-17 noise, w3-18 thermal) committed.
-- NEXT: chunk J (w3-19, w3-20), summary-m3.js, q-M3.js; then Module 4 (w4-21..27), Module 5 (w5-28..31).
+- Module 3 DONE: chunks H (air, water), I (soil, noise, thermal), J (water management, circular economy, solid waste), summary-m3.js, q-M3.js (54 Qs).
+- NEXT EVS: Module 4 (w4-21..27), Module 5 (w5-28..31).
 - Figure crop format is [x, y, width, height] (fractions), not x2/y2.
 - Not pushed: local commits after 3ac4d35 wait for the owner's "push".
+- BAEEE audit (other repo): M1 fixes 3ba88a0, M2 fixes 04003af committed (not pushed). M3 audit running (Sonnet); then apply its fixes, then M4 audit, then questions for 3c,3d,4e,4f,4g, then 40 paper answers.
