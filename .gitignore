@@ -12,3 +12,6 @@ src/pdfs/
 src/pages/
 # temporary PDF library, replaced by the app
 site/
+
+# FreeLLMAPI key, pasted by the owner; never commit or print
+.freellm-key

@@ -17,6 +17,16 @@ API = os.environ.get("FREELLM_URL", "http://localhost:3001/v1/chat/completions")
 # Order from PLAN.md rule 7. Model ids are filled in once the owner's keys are added
 # (read them from the FreeLLMAPI Models page); "auto" lets the router use its Fallback Chain.
 MODELS = os.environ.get("FREELLM_MODELS", "auto").split(",")
+KEY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".freellm-key")
+
+def KEY():
+    # the owner pastes the key into evs-notes/.freellm-key (gitignored) or sets FREELLM_KEY; never print it
+    k = os.environ.get("FREELLM_KEY", "").strip()
+    if not k and os.path.exists(KEY_FILE):
+        k = open(KEY_FILE, encoding="utf-8").read().strip()
+    if not k:
+        sys.exit("No FreeLLMAPI key: paste it into evs-notes/.freellm-key or set FREELLM_KEY.")
+    return k
 
 
 def norm(s):
@@ -31,7 +41,7 @@ def call(prompt, model, tries=3):
     for i in range(tries):
         try:
             req = urllib.request.Request(API, body, {"Content-Type": "application/json",
-                                                     "Authorization": "Bearer " + os.environ["FREELLM_KEY"]})
+                                                     "Authorization": "Bearer " + KEY()})
             with urllib.request.urlopen(req, timeout=300) as r:
                 return json.load(r)["choices"][0]["message"]["content"]
         except Exception as e:  # rate limit / provider down: back off, then next model
