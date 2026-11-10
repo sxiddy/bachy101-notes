@@ -195,3 +195,8 @@ update **State** before stopping.
 - Figure crop format is [x, y, width, height] (fractions), not x2/y2.
 - Not pushed: local commits after 3ac4d35 wait for the owner's "push".
 - BAEEE audit (other repo): M1 3ba88a0, M2 04003af committed (not pushed). M3 audit done; Sonnet agent applying M3 fixes (dimension rules, Ø10, quadrants, section view, worked problems). After it: verify its commit, then M4 audit (src/m4/m4a.txt, m4b.txt, heads.txt + pages), then questions for 3c,3d,4e,4f,4g, then 40 paper answers.
+
+## Owner request 2026-11-10 (do after EVS Module 5 content)
+- EVS: show "Week 1..5" instead of "Module 1..5" everywhere in the UI (modules map 1:1 to weeks w1..w5; exams cover weeks, e.g. first 3 weeks).
+- Invite friends: make it very visible (not hidden behind the profile icon), e.g. a top-bar button and a card on home.
+- Replace the 50% discount referral reward with cash: Rs 3 per successful referral, withdrawable at Rs 15 (5 referrals). Needs: wallet balance, claim/withdraw request (owner pays out manually, e.g. UPI ID collected on request), anti-abuse (count only paid referrals?). Confirm rules with owner before building payout.
