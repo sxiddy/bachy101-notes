@@ -223,3 +223,4 @@ update **State** before stopping.
   lectures -> tmp/facts/<lecture>.json (verbatim-verified quotes); log tmp/facts.log ends with ALL-DONE. NEXT: script
   that lists facts whose numbers/terms are missing from the notes (coverage gaps), then review by hand.
 - 10-11-2026: owner said push. Pushed 775157d to origin/master (40 commits incl. all Weeks 1-5 content and the week/lecture layout); live bachy101.vercel.app serves the lectures config. PLAN edit below is local only.
+- 10-11-2026 later: free-LLM jobs running but every call to glm-5.3 and qwen3.8-max returns 429 (rate limited); nothing saved yet. Rerun tmp/run-free.sh when FreeLLMAPI quotas recover (it resumes). Store: EVS listed live on notix-notes.vercel.app (store commit 54ad479, MRP Rs 30 / sale Rs 20, its page says Weeks); referral cash + invite button pushed with it.
