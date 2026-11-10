@@ -135,4 +135,19 @@ update **State** before stopping.
   show "healthy" in the dashboard database. Unified key still to be placed in FREELLM_KEY by the owner (not in chat).
 - 10-11-2026: bachy101.vercel.app claimed with a 'coming soon' page (Vercel project bachy101, from evs-notes/placeholder). Real site replaces it at launch.
 - TODO next session (owner, 10-11-2026): group every notes-related session (EVS, BACHY105, BAEEE101, BAENG101, Notix store) into one sidebar group named 'Notes sites'.
+- 10-11-2026 session 1 (after reset):
+  - Sidebar group "Notes sites" created; 19 notes/Notix sessions moved in (done).
+  - FreeLLMAPI chain set via the dashboard API: strategy "priority" (manual), explore off. Enabled, in order:
+    1 GLM 5.3 (unorouter, id 292), 2 Qwen3.8 Max (xkiro, 437), 3 Gemini 3.8 Flash (google, 299),
+    4 Gemini 3.7 Flash (google, 264), 5 Qwen3.8 27B (groq, 294). Every other model disabled.
+  - FREELLM_KEY not set yet (checked User env). freellm.py test on evs-w1-01 still to do once it is.
+  - app-src moved to the repo root (evs-notes/ is now the app; app-src deleted). Renamed BACHY105 -> BACHY101,
+    Applied Chemistry -> Environmental Sciences everywhere in api/app/tools/docs. Chem figs-svg, viz, fig batch
+    scripts and generated api/_*.json removed. content/modules.json written (m1–m5, chunks empty).
+    .gitignore keeps src/notes, src/pdfs, src/pages, site/ out of git. git init + first commit 83d7383 (no remote).
+    Note: the move overwrote the old evs-notes/README.md (PDF-library readme) with the app README.
+  - Still chemistry-specific in app/js/app.js: home search words, syllabus map (~line 2250–2320), formula sheet,
+    lab bench, papers, meta description in index.html, SPEC.md module table/source paths. Fix when wiring m1.
+  - Module 1: all 6 lecture texts read, page renders checked. Figure crops planned (22 diagrams; stock photos
+    skipped). Writing content/chunk-A.js (lectures 1–2) and chunk-B.js (3–6) next.
 - Cache warmer (owner asked 10-11-2026): not set up. It re-reads the whole session on every ping (counts toward the limit, extra usage is ON so overage costs money) and a new session can't use an old session's cache. Revisit only at the start of a long session, if the owner asks.

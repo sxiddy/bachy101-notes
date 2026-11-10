@@ -1,7 +1,7 @@
 [
   {
     "id": "m1", "num": "01", "title": "Fundamentals of Environment and Ecosystems", "free": true,
-    "chunks": [], "questions": "q-M1.js",
+    "chunks": ["A", "B"], "questions": "q-M1.js",
     "syllabus": "Definition, scope, importance and multidisciplinary approach; Earth as a life support system; ecosystems; structure and functions of an ecosystem; energy flow in an ecosystem; ecological succession."
   },
   {
