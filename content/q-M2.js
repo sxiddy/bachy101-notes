@@ -1,0 +1,73 @@
+// Module 2 MCQ bank (online-quiz style). Each row: [topic, level, question, [4 options], correct index, one-line reason, note tab]
+// Options are rotated per question below so answers spread across A–D.
+// The first 10 are the planned free sample; the rest are Pro.
+const T = 'decide';
+const ROWS = [
+  ['m2-biodiversity-intro', 1, 'Different breeds of dog are an example of which level of biodiversity?', ['Species diversity', 'Genetic diversity', 'Ecosystem diversity', 'Functional diversity'], 1, 'All dog breeds are one species, so the variation is genetic.', 'Genetic diversity'],
+  ['m2-hotspots', 1, 'How many biodiversity hotspots are there in the world, and how many in India?', ['25 and 2', '34 and 3', '36 and 4', '40 and 5'], 2, 'There are 36 hotspots worldwide; India has 4.', "India's hotspots"],
+  ['m2-species-interactions', 1, 'Barnacles living on a whale is an example of', ['Mutualism', 'Parasitism', 'Commensalism', 'Competition'], 2, 'Barnacles gain, the whale is unaffected: +/0.', 'Five types'],
+  ['m2-in-situ', 1, "India's first national park, set up in 1936, is", ['Kaziranga', 'Jim Corbett', 'Gir', 'Periyar'], 1, 'Jim Corbett National Park (Uttarakhand) was set up in 1936.', 'Park vs sanctuary'],
+  ['m2-ex-situ', 1, 'Cryopreservation stores material in liquid nitrogen at about', ['−20°C', '−80°C', '−150°C', '−196°C'], 3, 'Liquid nitrogen keeps samples at −196°C.', 'Cryo and tissue culture'],
+  ['m2-gm-india', 1, 'Which is the only GM crop approved for cultivation in India?', ['Bt brinjal', 'GM mustard', 'Bt cotton', 'Golden rice'], 2, 'Bt cotton was approved in 2002; Bt brinjal is under a moratorium.', 'Status of crops'],
+  ['m2-chemical-hazards', 1, 'Phthalates harm male reproduction mainly because they are', ['Oestrogenic', 'Anti-androgenic', 'Carcinogenic only', 'Radioactive'], 1, 'Phthalates block testosterone action; BPA is the oestrogenic one.', 'Phthalates'],
+  ['m2-mercury', 1, 'Which form of mercury is made by microbes and bioaccumulates in fish?', ['Elemental mercury', 'Mercuric chloride', 'Methylmercury', 'Mercury vapour'], 2, 'Microbes methylate inorganic mercury to methylmercury.', 'Mercury basics'],
+  ['m2-earthquakes', 1, 'The point on the surface directly above where an earthquake starts is the', ['Focus', 'Epicentre', 'Fault', 'Hypocentre'], 1, 'The focus is underground; the epicentre is directly above it.', 'Basics'],
+  ['m2-cyclones', 1, 'In the Northern Hemisphere, cyclones spin', ['Clockwise', 'Anticlockwise', 'Either way at random', 'They do not spin'], 1, 'The Coriolis effect makes them anticlockwise in the north, clockwise in the south.', 'Causes and impact'],
+
+  ['m2-biodiversity-intro', 2, 'Species diversity takes into account', ['Only the number of species', 'Richness and evenness', 'Only genetic variation', 'Only ecosystem types'], 1, 'Species diversity = richness (count) + evenness (spread of individuals).', 'Species and ecosystem diversity'],
+  ['m2-biodiversity-value', 1, 'Which marine organisms are named as important for oxygen production?', ['Corals', 'Phytoplankton', 'Sea grasses', 'Jellyfish'], 1, 'Phytoplankton produce much of the oxygen.', 'Climate regulation'],
+  ['m2-hotspots', 1, 'Which hotspot has the highest marine biodiversity?', ['Amazon', 'Congo Basin', 'Coral Triangle', 'Western Ghats'], 2, 'The Coral Triangle leads in marine biodiversity.', 'Criteria and global'],
+  ['m2-hotspots', 2, 'Which Indian hotspot includes the Nicobar Islands?', ['Himalayas', 'Indo-Burma', 'Western Ghats', 'Sundaland'], 3, 'The Nicobar Islands fall in Sundaland.', "India's hotspots"],
+  ['m2-biodiversity-threats', 1, 'The Silent Valley hydroelectric project was halted in', ['1973', '1983', '1992', '2002'], 1, 'Public protest stopped it in 1983, saving the lion-tailed macaque habitat.', 'Case studies'],
+  ['m2-biodiversity-threats', 1, 'During coral bleaching, corals expel', ['Zooxanthellae', 'Plankton', 'Calcium carbonate', 'Sponges'], 0, 'Stressed corals expel their algae, the zooxanthellae.', 'Case studies'],
+  ['m2-species-status', 1, 'Indian vulture numbers crashed because of', ['DDT', 'Diclofenac in livestock carcasses', 'Habitat flooding', 'Avian flu'], 1, 'Vultures were poisoned by the drug diclofenac.', 'Endangered'],
+  ['m2-species-status', 2, 'A species found in small numbers but not at high risk right now is', ['Endangered', 'Extinct', 'Rare', 'Endemic'], 2, 'Rare = few but not at high risk now; endangered = very high risk.', 'Rare'],
+  ['m2-species-status', 1, 'The Nilgiri tahr is endemic to the', ['Himalayas', 'Western Ghats', 'Andaman Islands', 'Thar desert'], 1, 'Nilgiri tahr is a Western Ghats endemic.', 'Endemic'],
+  ['m2-in-situ', 2, 'In a biosphere reserve, which zone allows sustainable use and settlements?', ['Core', 'Buffer', 'Transition', 'Corridor'], 2, 'Core is strict, buffer is research and ecotourism, transition allows settlements.', 'Biosphere reserves'],
+  ['m2-in-situ', 1, 'Sacred groves in Kerala are called', ['Devrais', 'Kavus', 'Orans', 'Sarnas'], 1, 'Kerala sacred groves are Kavus.', 'Community and sacred'],
+  ['m2-ex-situ', 1, "India's main plant gene bank institute is", ['ICAR Pusa', 'NBPGR, New Delhi', 'BSI Kolkata', 'IARI Hyderabad'], 1, 'NBPGR in New Delhi runs the national gene bank.', 'Gene and seed banks'],
+  ['m2-conservation-levels', 2, 'Tiger and Asian elephant are examples of', ['Flagship and keystone species', 'Keystone and flagship species', 'Both endemic', 'Both invasive'], 0, 'Tiger is a flagship (symbol); Asian elephant is a keystone (large role).', 'Species level'],
+  ['m2-conservation-support', 1, 'The Wildlife Protection Act was passed in', ['1962', '1972', '1986', '2002'], 1, 'Wildlife Protection Act: 1972. Biological Diversity Act: 2002.', 'Laws'],
+  ['m2-conservation-support', 1, 'The Ramsar Convention protects', ['Coral reefs', 'Wetlands', 'Mountains', 'Deserts'], 1, 'Ramsar covers wetlands of international importance.', 'Laws'],
+  ['m2-gm-basics', 1, 'The Bt gene comes from', ['A virus', 'Bacillus thuringiensis', 'A fungus', 'Wild cotton'], 1, 'Bt = Bacillus thuringiensis, a soil bacterium.', 'The science'],
+  ['m2-gm-india', 1, 'Which body appraises GM crop safety in India?', ['ICMR', 'FSSAI', 'GEAC', 'CPCB'], 2, 'The Genetic Engineering Appraisal Committee under MoEFCC.', 'Regulation'],
+  ['m2-bt-maharashtra', 2, 'In which rainfed region of Maharashtra did Bt cotton struggle?', ['Konkan', 'Vidarbha', 'Khandesh', 'Western Maharashtra'], 1, 'Rainfed Vidarbha saw poor results and debt.', 'Problems'],
+  ['m2-gm-flowers', 1, 'Which countries have commercialised GM flowers?', ['India, China, USA', 'Japan, Australia, Colombia', 'UK, France, Germany', 'Brazil, Argentina, Chile'], 1, 'Japan, Australia and Colombia sell GM flowers.', 'GM ornamentals'],
+  ['m2-gm-debate', 2, 'Overuse of herbicide-tolerant crops leads to', ['Better soil', 'Resistant weeds', 'More pollinators', 'Lower yields only'], 1, 'Heavy herbicide use selects for resistant weeds.', 'Risks'],
+  ['m2-hazards-intro', 1, 'Poverty and malnutrition are which type of environmental hazard?', ['Physical', 'Chemical', 'Biological', 'Sociological'], 3, 'Social, economic and behavioural factors are sociological hazards.', 'Four major types'],
+  ['m2-hazards-intro', 1, 'Radon gas is classed as which kind of physical hazard?', ['Geological', 'Radiation', 'Hydrological', 'Noise'], 1, 'Radon is listed under radiation hazards.', 'Physical hazards'],
+  ['m2-chemical-hazards', 2, 'Endocrine disruptors passing from mother to foetus is which exposure route?', ['Dermal', 'Ocular', 'Transplacental', 'Inhalation'], 2, 'Transplacental exposure crosses the placenta.', 'Routes and harm'],
+  ['m2-chemical-hazards', 2, 'Under the Precautionary Principle, the burden of proof lies with', ['Consumers', 'Industry', 'Doctors', 'Courts'], 1, 'Chemicals can be restricted before proof of harm; industry must show safety.', 'Green chemistry and laws'],
+  ['m2-bpa', 1, 'About what share of BPA goes into polycarbonate plastics?', ['10–15%', '25–30%', '45–50%', '65–70%'], 3, 'Polycarbonates take 65–70%; epoxy and vinyl ester resins 25–30%.', 'What it is'],
+  ['m2-bpa', 2, 'The main route of human BPA exposure is', ['Skin contact', 'Diet', 'Breathing', 'Eye contact'], 1, 'Most BPA comes through contaminated food and drink.', 'Where we meet it'],
+  ['m2-bpa', 2, 'The EU banned BPA in baby bottles in', ['2008', '2010', '2011', '2022'], 2, 'EU: baby bottles 2011, all food-contact materials 2022.', 'Rules and limiting it'],
+  ['m2-mercury', 2, 'About half of atmospheric mercury comes from', ['Dental amalgam', 'Burning coal', 'Fluorescent lamps', 'Volcanoes'], 1, 'Burning coal releases half of atmospheric mercury.', 'Uses and sources'],
+  ['m2-mercury', 2, 'Which agent is used in chelation therapy for mercury poisoning?', ['EDTA only', 'DMSA', 'Activated charcoal', 'Atropine'], 1, 'DMSA and other sulfur compounds chelate mercury.', 'Effects and treatment'],
+  ['m2-biological-hazards', 1, 'Which malaria parasite causes over 90% of malaria deaths?', ['P. vivax', 'P. malariae', 'P. falciparum', 'P. ovale'], 2, 'P. falciparum is the most lethal species.', 'Malaria'],
+  ['m2-biological-hazards', 2, 'The first WHO-approved malaria vaccine (2021) is', ['R21/Matrix-M', 'RTS,S/AS01', 'Covaxin', 'BCG'], 1, 'RTS,S/AS01 (Mosquirix) in 2021; R21/Matrix-M followed in 2023.', 'Malaria control'],
+  ['m2-biological-hazards', 2, 'SARS-CoV-2 enters human cells by binding its spike protein to', ['CD4', 'ACE2', 'Insulin receptor', 'Haemoglobin'], 1, 'The spike binds ACE2, primed by TMPRSS2.', 'COVID-19'],
+  ['m2-hazard-solutions', 1, 'Regular handwashing can cut infection spread by up to', ['10%', '25%', '50%', '90%'], 2, 'The notes give up to 50%.', 'Solutions'],
+  ['m2-dm-basics', 1, 'Droughts, heatwaves and wildfires are which type of natural disaster?', ['Meteorological', 'Climatological', 'Hydrological', 'Geological'], 1, 'Long-term climate variation gives climatological disasters.', 'Types of natural disaster'],
+  ['m2-floods', 1, 'Which type of flood occurs suddenly and is the most dangerous?', ['Riverine', 'Coastal', 'Flash', 'Urban'], 2, 'Flash floods come suddenly from heavy local rain or dam breaks.', 'Types'],
+  ['m2-floods', 2, 'The 2010 Pakistan floods were caused mainly by', ['A tsunami', 'Excessive monsoon rain', 'A dam burst', 'Glacier collapse'], 1, 'Excessive monsoon rain in July 2010.', 'Case: Pakistan 2010'],
+  ['m2-earthquakes', 2, 'The 1967 Koynanagar earthquake is an example of', ['Subduction', 'Volcanic quake', 'Reservoir-induced seismicity', 'Fracking'], 2, 'It was linked to the Koyna Dam reservoir.', 'Causes and impact'],
+  ['m2-earthquakes', 2, 'Earthquake early warning works by detecting', ['S-waves before P-waves', 'P-waves before S-waves', 'Surface waves only', 'Tsunami height'], 1, 'Fast P-waves arrive before damaging S-waves.', 'Mitigation and response'],
+  ['m2-cyclones', 1, 'A tropical cyclone over the Pacific Ocean is called a', ['Hurricane', 'Typhoon', 'Tornado', 'Willy-willy'], 1, 'Hurricane (Atlantic), typhoon (Pacific), cyclone (Indian Ocean).', 'Types'],
+  ['m2-cyclones', 2, 'Hurricane Katrina flooded New Orleans mainly because of', ['Levee failures', 'A tsunami', 'Snowmelt', 'Dam release'], 0, 'Levee failures caused the flooding; over 1,800 died.', 'Case: Fani and Katrina'],
+  ['m2-landslides', 1, 'The slowest type of landslide is', ['Rockfall', 'Debris flow', 'Slump', 'Creep'], 3, 'Creep is noticed only when trees and structures tilt.', 'Types'],
+  ['m2-landslides', 2, 'Retaining walls, gabions and rock bolts are used for', ['Drainage control', 'Slope stabilisation', 'Early warning', 'Afforestation'], 1, 'They strengthen unstable slopes.', 'Mitigation and response'],
+  ['m2-dm-strategies', 1, "The UN's global framework for disaster risk reduction is the", ['Kyoto Protocol', 'Sendai Framework', 'Paris Agreement', 'Ramsar Convention'], 1, 'The Sendai Framework guides disaster risk reduction.', 'Government'],
+  ['m2-dm-strategies', 2, 'Which UN agency coordinates emergency responses?', ['UNDRR', 'UNOCHA', 'UNEP', 'UNESCO'], 1, 'UNOCHA coordinates response; UNDRR focuses on risk reduction.', 'Recovery and global']
+];
+QUESTIONS({
+  chunk: 'M2',
+  questions: ROWS.map(([topic, level, q, opts, c0, why, tab], i) => { const k = (i * 3 + 2 - c0 + 8) % 4; const options = opts.map((_, j) => opts[(j - k + 4) % 4]); const correct = (c0 + k) % 4; return {
+    id: 'm2-q-' + String(i + 1).padStart(2, '0'),
+    module: 'm2', topic, type: T, level,
+    q: '<p>' + q + '</p>',
+    options, correct,
+    answer: '<p><b>' + options[correct] + '</b></p>',
+    explain: '<p>' + why + ' See the "' + tab + '" tab.</p>',
+    points: [why, 'Note tab: ' + tab]
+  }; })
+});

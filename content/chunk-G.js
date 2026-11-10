@@ -279,7 +279,7 @@ CHUNK({
             </ul></div>
             <div class="side"><h4>Preparedness and response</h4><ul>
               <li>Evacuation routes and points set in advance</li>
-              <li>Elevated, robust shelters</li>
+              <li>Strong shelters built on raised ground</li>
               <li>Emergency communication: weather apps, public alerts</li>
               <li>Relief by the <b>Red Cross</b> and government agencies</li>
               <li>Search and rescue by military and disaster forces</li>
