@@ -11,7 +11,7 @@
   },
   {
     "id": "m3", "num": "03", "title": "Pollution and Its Management Techniques", "free": true,
-    "chunks": ["H"], "questions": "q-M3.js",
+    "chunks": ["H", "I"], "questions": "q-M3.js",
     "syllabus": "Air, water, soil, noise and thermal pollution; water management and its conservation; circular economy and solid waste management."
   },
   {
