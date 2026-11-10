@@ -235,3 +235,4 @@ update **State** before stopping.
 - Owner 10-11-2026: interactive models ONLY where they really help understanding (not for fun). Shortlist to judge
   next session: energy flow / 10% law pyramid (W1 L5), maybe AQI from pollutant levels (W3 L14) and carbon
   footprint scopes (W5 L30) only if the notes have the numbers to drive them. Skip anything decorative.
+- 10-11-2026 fix: all single-model routes return 429 / cooldown (141 of ~140 ids); only the router's 'fusion' model answers. freellm.call now waits for retryAtMs (max 3 min); mcq-check takes MCQ_MODELS (run-free.sh defaults to fusion), 10 s between calls. Old stuck python job (glm) killed. Fusion run started 19:28 IST and is answering (5+ saved). Next: read tmp/mcq-check-flags.txt when it ends.

@@ -20,6 +20,8 @@ QUESTIONS:
 
 
 def models():
+    if os.environ.get("MCQ_MODELS"):  # e.g. MCQ_MODELS=fusion while the single-model routes are rate-limited
+        return os.environ["MCQ_MODELS"].split(",")
     req = urllib.request.Request(fl.API.replace("/chat/completions", "/models"), headers={"Authorization": "Bearer " + fl.KEY()})
     ids = [m["id"] for m in json.load(urllib.request.urlopen(req, timeout=60)).get("data", [])]
     pick = lambda w: next((i for i in ids if w in i.lower()), None)
@@ -50,7 +52,7 @@ def main():
                 if isinstance(r, dict) and r.get("id") in {q["id"] for q in todo} and str(r.get("answer", "")).strip()[:1].upper() in "ABCD":
                     done.setdefault(r["id"], {})[model] = {"a": "ABCD".index(str(r["answer"]).strip()[:1].upper()), "unsure": bool(r.get("unsure"))}
             json.dump(done, open(out_path, "w", encoding="utf-8"), indent=0)
-            time.sleep(2)
+            time.sleep(10)
         print(f"  {topic}: done", flush=True)
     flags = []
     for q in data:

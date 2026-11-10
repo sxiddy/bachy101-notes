@@ -45,8 +45,14 @@ def call(prompt, model, tries=3):
             with urllib.request.urlopen(req, timeout=300) as r:
                 return json.load(r)["choices"][0]["message"]["content"]
         except Exception as e:  # rate limit / provider down: back off, then next model
-            print(f"  {model} try {i + 1} failed: {e}", file=sys.stderr)
-            time.sleep(5 * (i + 1))
+            # wait as long as the router says (max 3 min) instead of hammering a route on cooldown
+            wait = 20 * (i + 1)
+            try:
+                wait = min(180, max(5, json.loads(e.read()).get("error", {}).get("retryAtMs", 0) / 1000 - time.time()))
+            except Exception:
+                pass
+            print(f"  {model} try {i + 1} failed: {e}; waiting {int(wait)} s", file=sys.stderr)
+            time.sleep(wait)
     return None
 
 
