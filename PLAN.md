@@ -161,7 +161,7 @@ update **State** before stopping.
   - Module 2 in progress, one lecture per chunk, commit after each (see Projects/NOTES-SITES-LESSONS.md, read it first):
     - chunk-C DONE (W2 lectures 07 biodiversity + 08 species interaction/status; 6 topics, 2 figures; commit 970a4b3).
       modules.json m2 chunks = ["C"]; add each new chunk letter there.
-    - DONE chunk-D (w2-09, 5 topics, no figures: all stock photos; commit f845153). Price default now ₹20; set the ₹10 sale on /admin after deploy. NEXT: chunk-E = w2-10 GM crops (46 KB, 9),
+    - DONE chunk-E (w2-10 GM crops, 5 topics, commit 90c2425, NOT pushed). DONE chunk-D (w2-09, 5 topics, no figures: all stock photos; commit f845153). Price default now ₹20; set the ₹10 sale on /admin after deploy. NEXT:
       chunk-F = w2-11 hazards/COVID (28 KB, no renders) + w2-12 BPA/mercury (10 KB, 5), chunk-G = w2-13 disaster
       management (37 KB, 12). Then summary-m2.js, q-M2.js (~50 MCQs, same compact row format as q-M1.js),
       coverage script, validate/build/qa, commit.
@@ -176,6 +176,7 @@ update **State** before stopping.
 - EVS repo: github.com/sxiddy/bachy101-notes (private, branch master). Vercel project bachy101 connected to it.
   Env set: STORE_URL, STORE_SECRET, GOOGLE_CLIENT_ID, ADMIN_KEY, REVIEW_CODE (copied from bachy105), SESSION_SECRET (new).
 - Redis: shared upstash-kv-carmine-jacket connected, keys prefixed bachy101: (commit 17fd8ec). Live, redeployed.
+- Google OAuth: owner account (authuser=3, project BACHY105 Notes) is blocked by Google until 2-step verification is on; owner must enable it, then Claude adds origin + redirect.
 - WAITING ON OWNER:
   (2) add https://bachy101.vercel.app origin + /api/login redirect on the Google OAuth client. Then deploy prod, check live,
   delete the placeholder deployment.
