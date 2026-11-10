@@ -222,3 +222,4 @@ update **State** before stopping.
   question against src/text by hand; fix only real key errors. (2) Fact lists: tools/freellm.py facts for all 31
   lectures -> tmp/facts/<lecture>.json (verbatim-verified quotes); log tmp/facts.log ends with ALL-DONE. NEXT: script
   that lists facts whose numbers/terms are missing from the notes (coverage gaps), then review by hand.
+- 10-11-2026: owner said push. Pushed 775157d to origin/master (40 commits incl. all Weeks 1-5 content and the week/lecture layout); live bachy101.vercel.app serves the lectures config. PLAN edit below is local only.
