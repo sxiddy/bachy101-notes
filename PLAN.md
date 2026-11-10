@@ -191,7 +191,7 @@ update **State** before stopping.
 ## State (10-11-2026, evening)
 - Module 2 DONE: chunks C, D, E, F (hazards, BPA, phthalates, mercury, malaria, COVID), G (disaster management), summary-m2.js, q-M2.js (54 Qs; options rotated in code so answers spread A-D). Coverage: all w2-07..w2-13 lectures.
 - Module 3 DONE: chunks H (air, water), I (soil, noise, thermal), J (water management, circular economy, solid waste), summary-m3.js, q-M3.js (54 Qs).
-- Module 4 DONE: chunks K (EIA), L (EPA, Air Act), M (Water Act), N (Forest, Wildlife), O (Kyoto), P (Paris), Q (SDGs), summary-m4, q-M4 (55 qs, rotated). NEXT EVS: Module 5 (w5-28..31) as chunks R onward, then summary-m5, q-M5 (rotate options like q-M3).
+- Modules 4 and 5 DONE (K-Q, R-U, summaries, q-M4 55, q-M5 54). EVS CONTENT COMPLETE. NEXT EVS: weeks label + visible cash referral (see Owner request below).
 - Figure crop format is [x, y, width, height] (fractions), not x2/y2.
 - Not pushed: local commits after 3ac4d35 wait for the owner's "push".
 - BAEEE audit (other repo): M1 3ba88a0, M2 04003af committed (not pushed). M3 audit done; Sonnet agent applying M3 fixes (dimension rules, Ø10, quadrants, section view, worked problems). After it: verify its commit, then M4 audit (src/m4/m4a.txt, m4b.txt, heads.txt + pages), then questions for 3c,3d,4e,4f,4g, then 40 paper answers.
