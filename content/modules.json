@@ -21,7 +21,7 @@
   },
   {
     "id": "m5", "num": "05", "title": "Climate Change and Emerging Issues", "free": true,
-    "chunks": [], "questions": "q-M5.js",
+    "chunks": ["R"], "questions": "q-M5.js",
     "syllabus": "Global climate change; global warming; carbon footprint and mitigation strategies; role of AI and IoT in environmental monitoring."
   }
 ]
