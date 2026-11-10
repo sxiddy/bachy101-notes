@@ -161,7 +161,7 @@ update **State** before stopping.
   - Module 2 in progress, one lecture per chunk, commit after each (see Projects/NOTES-SITES-LESSONS.md, read it first):
     - chunk-C DONE (W2 lectures 07 biodiversity + 08 species interaction/status; 6 topics, 2 figures; commit 970a4b3).
       modules.json m2 chunks = ["C"]; add each new chunk letter there.
-    - NEXT: chunk-D = evs-w2-09 Conservation strategies (56 KB text, 13 renders), chunk-E = w2-10 GM crops (46 KB, 9),
+    - DONE chunk-D (w2-09, 5 topics, no figures: all stock photos; commit f845153). Price default now ₹20; set the ₹10 sale on /admin after deploy. NEXT: chunk-E = w2-10 GM crops (46 KB, 9),
       chunk-F = w2-11 hazards/COVID (28 KB, no renders) + w2-12 BPA/mercury (10 KB, 5), chunk-G = w2-13 disaster
       management (37 KB, 12). Then summary-m2.js, q-M2.js (~50 MCQs, same compact row format as q-M1.js),
       coverage script, validate/build/qa, commit.
