@@ -224,3 +224,14 @@ update **State** before stopping.
   that lists facts whose numbers/terms are missing from the notes (coverage gaps), then review by hand.
 - 10-11-2026: owner said push. Pushed 775157d to origin/master (40 commits incl. all Weeks 1-5 content and the week/lecture layout); live bachy101.vercel.app serves the lectures config. PLAN edit below is local only.
 - 10-11-2026 later: free-LLM jobs running but every call to glm-5.3 and qwen3.8-max returns 429 (rate limited); nothing saved yet. Rerun tmp/run-free.sh when FreeLLMAPI quotas recover (it resumes). Store: EVS listed live on notix-notes.vercel.app (store commit 54ad479, MRP Rs 30 / sale Rs 20, its page says Weeks); referral cash + invite button pushed with it.
+- 10-11-2026 free-LLM 429 diagnosis: FreeLLMAPI says "All models exhausted: 1 route checked (1 rate-limited or on
+  cooldown)". So only ONE model route is live in the Fallback Chain (the other 4 enabled ones are not being tried:
+  check their keys/health on the dashboard Models + Fallback pages), and tools/freellm.py's short retries (5/10/15 s)
+  plus mcq-check.py hammering every topic kept that one route on cooldown. Background job stopped.
+  FIX NEXT SESSION (cheap): (1) on the dashboard, see why only 1 route is live and re-enable Gemini 3.8/3.7 Flash
+  (Google) and Qwen3.8 27B (Groq); (2) in freellm.call honour the error's retryAtMs (sleep until then, max 3 min)
+  instead of 3 fast retries, and pace 1 request every ~10 s; (3) rerun tmp/run-free.sh, then read
+  tmp/mcq-check-flags.txt. If still mostly 429, drop the free models.
+- Owner 10-11-2026: interactive models ONLY where they really help understanding (not for fun). Shortlist to judge
+  next session: energy flow / 10% law pyramid (W1 L5), maybe AQI from pollutant levels (W3 L14) and carbon
+  footprint scopes (W5 L30) only if the notes have the numbers to drive them. Skip anything decorative.
