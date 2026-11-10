@@ -180,3 +180,10 @@ update **State** before stopping.
 - WAITING ON OWNER:
   (2) add https://bachy101.vercel.app origin + /api/login redirect on the Google OAuth client. Then deploy prod, check live,
   delete the placeholder deployment.
+
+### State (10-11-2026, later)
+- Owner: "finish the EVS website fully" + audit Basic Engineering (BAEEE plan in baeee101-notes/.claude/WORKPLAN.md "Audit").
+- Live: OAuth origin + /api/login redirect for bachy101 saved in Google (sign-in button renders). All 4 subject sites now show the
+  store price (₹20, MRP ₹30); EVS shows its own ₹20 (not on store). Pushed: chunk-E and earlier (origin/master = 3ac4d35).
+- NEXT EVS: chunk-F (w2-11 hazards/COVID + w2-12 BPA/mercury), chunk-G (w2-13 disaster mgmt), summary-m2.js, q-M2.js,
+  coverage check; then Modules 3-5 (src/text/m3..m5), each: chunks, summary, q-Mn, validate/build/qa, commit (push only on "push").
