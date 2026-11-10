@@ -59,7 +59,9 @@
   "pro-S.js",
   "pro-T.js",
   "pro-U.js",
-  "qa-M5.js"
+  "qa-M5.js",
+  "viz-m1.js",
+  "viz-m3.js"
  ],
  "freeModules": [
   "m1",
@@ -152,6 +154,8 @@
   "pro-U.js": "m5",
   "q-M5.js": "m5",
   "qa-M5.js": "m5",
-  "summary-m5.js": "m5"
+  "summary-m5.js": "m5",
+  "viz-m1.js": "m1",
+  "viz-m3.js": "m3"
  }
 }
