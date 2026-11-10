@@ -1,0 +1,52 @@
+SUMMARY({
+  module: 'm1',
+  tldr: `<p>EVS is <b>multidisciplinary</b>: science, society and engineering on the same problems. Earth supports life through four spheres. In an <b>ecosystem</b>, biotic and abiotic parts interact so that <b>energy flows one way</b> (sun → producers → consumers, about <b>10%</b> passing each step) while <b>matter cycles</b> (carbon, nitrogen, phosphorus, water). Over time, communities replace each other by <b>succession</b> until a climax community holds.</p>`,
+  storyline: [
+    { title: 'EVS', html: `<p>Definitions, ten scope areas, seven reasons it matters, and why it needs many subjects.</p>` },
+    { title: 'Issues', html: `<p>Climate change to e-waste, each with a cause, effects and an Indian example.</p>` },
+    { title: 'Spheres', html: `<p>Atmosphere layers, hydrosphere, geosphere, biosphere.</p>` },
+    { title: 'Ecosystems', html: `<p>Types, components, trophic levels, chains, webs, pyramids.</p>` },
+    { title: 'Energy and matter', html: `<p>Photosynthesis, NPP = GPP − R, the 10% law, the nutrient cycles.</p>` },
+    { title: 'Change', html: `<p>Regulation, resilience, human impact and succession.</p>` }
+  ],
+  bigIdeas: [
+    { title: 'Three fields', topic: 'm1-evs-intro', html: `<p>Science studies how nature works, studies adds <b>ethics, society, politics, economics</b>, engineering builds solutions. EVS is an <b>applied science</b>.</p>` },
+    { title: 'Issues by example', topic: 'm1-env-issues', html: `<p>Amazon (deforestation), Delhi (vehicles, crackers), Punjab (Endosulfan, DDT), <b>Ranipet</b> (chromium), India 3rd in e-waste. Paris Agreement 2015: below 2 °C.</p>` },
+    { title: 'Atmosphere', topic: 'm1-earth-spheres', html: `<p>N<sub>2</sub> 78%, O<sub>2</sub> 21%. Troposphere <b>0–15 km</b> (weather), stratosphere <b>15–50</b> (ozone), mesosphere <b>50–85</b> (coldest, meteors), thermosphere (auroras, ISS), exosphere.</p>` },
+    { title: 'Geosphere and biosphere', topic: 'm1-geosphere', html: `<p>Solid Fe–Ni inner core, liquid outer core (magnetic field), semi-solid mantle (convection), crust. Biosphere = <b>sum of all ecosystems</b>.</p>` },
+    { title: 'Components', topic: 'm1-ecosystem-components', html: `<p>Producers (photo- or chemoautotrophs), consumers, <b>decomposers</b> (enzymes) vs <b>detritivores</b> (ingest). Sun gives 1.7 × 10<sup>17</sup> W; 0.023% captured.</p>` },
+    { title: 'Chains and webs', topic: 'm1-food-chains', html: `<p>Grazing chain from living plants, <b>detritus chain</b> from dead matter (80–90% of forest energy). Webs give stability; keystone loss causes <b>trophic cascades</b> (Yellowstone, 1995).</p>` },
+    { title: 'Pyramids', topic: 'm1-ecological-pyramids', html: `<p>Elton 1927. Numbers inverted for a tree, spindle for a forest. Biomass inverted in the ocean. <b>Energy always upright</b>.</p>` },
+    { title: 'Energy flow', topic: 'm1-energy-flow', html: `<p><b>NPP = GPP − R</b>. Second law makes flow one-way. Lindemann 1942: <b>10%</b> passes on; respiration takes ~60%.</p>` },
+    { title: 'Cycles', topic: 'm1-nutrient-cycles', html: `<p>CO<sub>2</sub> 280 → 422 ppm. N<sub>2</sub> → NH<sub>3</sub> (Rhizobium) → NO<sub>2</sub><sup>−</sup> (<b>Nitrosomonas</b>) → NO<sub>3</sub><sup>−</sup> (<b>Nitrobacter</b>) → N<sub>2</sub> (<b>Pseudomonas</b>). Phosphorus has <b>no gas phase</b>.</p>` },
+    { title: 'Ecosystem health', topic: 'm1-ecosystem-functions', html: `<p>Negative feedback stabilises, positive amplifies. Stability resists; <b>resilience</b> recovers. Biodiversity gives redundancy.</p>` },
+    { title: 'Applications', topic: 'm1-energy-applications', html: `<p>Plants give 10× the energy of meat. <b>Biomagnification</b>: DDT 0.000003 ppm in water → 25 ppm in birds.</p>` },
+    { title: 'Succession', topic: 'm1-succession', html: `<p>Primary on bare rock (lichens, mosses, ~1000 yr); secondary on old soil (50–200 yr, <b>5–10× faster</b>). Nudation → invasion → competition → climax.</p>` }
+  ],
+  compare: [
+    { title: 'Primary vs secondary succession', html: `<table class="tbl"><thead><tr><th></th><th>Primary</th><th>Secondary</th></tr></thead><tbody><tr><td>Start</td><td>Bare rock, lava</td><td>After fire, flood, clearing</td></tr><tr><td>Soil, humus</td><td>Absent</td><td>Present</td></tr><tr><td>Time</td><td>~1000 years</td><td>50–200 years</td></tr><tr><td>Pioneers</td><td>Lichens, mosses</td><td>Life left in the soil</td></tr></tbody></table>` },
+    { title: 'Three pyramids', html: `<table class="tbl"><thead><tr><th>Pyramid</th><th>Can be inverted?</th><th>Drawback</th></tr></thead><tbody><tr><td>Numbers</td><td>Yes (tree); spindle (forest)</td><td>Ignores size</td></tr><tr><td>Biomass</td><td>Yes (ocean)</td><td>Standing stock, not rate</td></tr><tr><td>Energy</td><td>Never</td><td>Snapshot; leaves out decomposers</td></tr></tbody></table>` },
+    { title: 'Decomposers vs detritivores', html: `<table class="tbl"><thead><tr><th></th><th>Decomposers</th><th>Detritivores</th></tr></thead><tbody><tr><td>How</td><td>Secrete extracellular enzymes</td><td>Ingest fragments</td></tr><tr><td>Examples</td><td>Bacillus, Pseudomonas, Aspergillus, Rhizopus</td><td>Earthworms, millipedes, woodlice, dung beetles</td></tr></tbody></table>` }
+  ],
+  formulas: [
+    { name: 'Photosynthesis', html: `6CO<sub>2</sub> + 6H<sub>2</sub>O + light → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>` },
+    { name: 'Respiration', html: `C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6CO<sub>2</sub> + 6H<sub>2</sub>O + ATP` },
+    { name: 'Net primary productivity', html: `NPP = GPP − R` }
+  ],
+  numbers: [
+    { value: '78% / 21% / 1%', what: 'N₂ / O₂ / others in air' }, { value: '0–15 km', what: 'Troposphere' },
+    { value: '−90 °C', what: 'Mesosphere minimum' }, { value: '97% / 1%', what: 'Water in oceans / usable freshwater' },
+    { value: '1.1 °C', what: 'Warming since pre-industrial (IPCC)' }, { value: '14 of 20', what: 'Most polluted cities in India' },
+    { value: '1.7 × 10¹⁷ W, 0.023%', what: 'Solar input, share captured' }, { value: '~120 / ~60 Pg C/yr', what: 'Global GPP / NPP' },
+    { value: '10,000 → 10 kJ', what: 'T1 to T4 by the 10% law' }, { value: '~60%', what: 'Energy lost in respiration' },
+    { value: '280 → 422 ppm', what: 'CO₂ pre-industrial vs 2024' }, { value: '~30%', what: 'Human CO₂ absorbed by oceans' },
+    { value: '1927 / 1942 / 1995', what: 'Elton pyramids / Lindemann 10% law / Yellowstone wolves' }, { value: '5–10×', what: 'Secondary succession faster than primary' }
+  ],
+  traps: [
+    `<p>Population = one species; community = many species.</p>`,
+    `<p>Temperature <b>rises</b> with height in the stratosphere and thermosphere.</p>`,
+    `<p>Nitro<b>so</b>monas: ammonia → nitrite. Nitro<b>b</b>acter: nitrite → nitrate.</p>`,
+    `<p>Earthworms are detritivores, not decomposers.</p>`,
+    `<p>The notes say succession has "two steps" but list four.</p>`
+  ]
+});

@@ -148,6 +148,14 @@ update **State** before stopping.
     Note: the move overwrote the old evs-notes/README.md (PDF-library readme) with the app README.
   - Still chemistry-specific in app/js/app.js: home search words, syllabus map (~line 2250–2320), formula sheet,
     lab bench, papers, meta description in index.html, SPEC.md module table/source paths. Fix when wiring m1.
-  - Module 1: all 6 lecture texts read, page renders checked. Figure crops planned (22 diagrams; stock photos
-    skipped). Writing content/chunk-A.js (lectures 1–2) and chunk-B.js (3–6) next.
+  - Module 1 DONE: content/chunk-A.js (lectures 1–2, 5 topics) and chunk-B.js (3–6, 9 topics), 61 tabs, 25 figure
+    crops (all checked, stock photos skipped), 131 flashcards, summary-m1.js, q-M1.js (52 MCQs, compact row format,
+    first 10 = planned free sample). Source slips flagged in heads-up notes (thermosphere temps, layer heights,
+    "two steps" of succession, polyclimax wording, Lindemann/Clemens spelling, DDT ban act, 150k vs 160k t waste).
+    Coverage script: every number in the 6 lecture texts appears in the notes.
+    validate --all 0 errors; build ok; qa.js and qa.js --free clean (35 routes, no runtime errors).
+    Added viz-paid/.gitkeep (build needs the folder) and Projects/.claude/launch.json entry "evs-notes-app".
+    Not done: phone-width visual check (browser pane refused localhost), freellm.py test (key not set),
+    Pro gating of MCQs, mock tests, app.js chemistry leftovers.
+  - Usage measured: Module 1 (66 pages) cost about 7% of the 5-hour limit. Next: Module 2 (129 pages).
 - Cache warmer (owner asked 10-11-2026): not set up. It re-reads the whole session on every ping (counts toward the limit, extra usage is ON so overage costs money) and a new session can't use an old session's cache. Revisit only at the start of a long session, if the owner asks.

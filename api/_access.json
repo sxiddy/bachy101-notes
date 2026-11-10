@@ -1,0 +1,57 @@
+{
+ "freeFiles": [
+  "figs.js",
+  "chunk-A.js",
+  "chunk-B.js",
+  "q-M1.js",
+  "summary-m1.js"
+ ],
+ "proFiles": [
+  "pro-A.js",
+  "pro-B.js",
+  "qa-M1.js"
+ ],
+ "freeModules": [
+  "m1",
+  "m2",
+  "m3",
+  "m4",
+  "m5"
+ ],
+ "paidModules": [
+  {
+   "id": "m1",
+   "num": "01",
+   "title": "Fundamentals of Environment and Ecosystems"
+  },
+  {
+   "id": "m2",
+   "num": "02",
+   "title": "Biodiversity and Environmental Quality"
+  },
+  {
+   "id": "m3",
+   "num": "03",
+   "title": "Pollution and Its Management Techniques"
+  },
+  {
+   "id": "m4",
+   "num": "04",
+   "title": "Environmental Laws and SDGs"
+  },
+  {
+   "id": "m5",
+   "num": "05",
+   "title": "Climate Change and Emerging Issues"
+  }
+ ],
+ "fileModule": {
+  "chunk-A.js": "m1",
+  "pro-A.js": "m1",
+  "chunk-B.js": "m1",
+  "pro-B.js": "m1",
+  "q-M1.js": "m1",
+  "qa-M1.js": "m1",
+  "summary-m1.js": "m1"
+ }
+}

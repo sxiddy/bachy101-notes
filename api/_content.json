@@ -1,0 +1,45 @@
+{
+ "modules": [
+  {
+   "id": "m1",
+   "num": "01",
+   "title": "Fundamentals of Environment and Ecosystems",
+   "free": true,
+   "topics": 14,
+   "questions": 52
+  },
+  {
+   "id": "m2",
+   "num": "02",
+   "title": "Biodiversity and Environmental Quality",
+   "free": true,
+   "topics": 0,
+   "questions": 0
+  },
+  {
+   "id": "m3",
+   "num": "03",
+   "title": "Pollution and Its Management Techniques",
+   "free": true,
+   "topics": 0,
+   "questions": 0
+  },
+  {
+   "id": "m4",
+   "num": "04",
+   "title": "Environmental Laws and SDGs",
+   "free": true,
+   "topics": 0,
+   "questions": 0
+  },
+  {
+   "id": "m5",
+   "num": "05",
+   "title": "Climate Change and Emerging Issues",
+   "free": true,
+   "topics": 0,
+   "questions": 0
+  }
+ ],
+ "papers": []
+}
