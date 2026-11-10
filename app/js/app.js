@@ -123,6 +123,13 @@ window.__startApp = function () {
     });
     (ch.figures || []).forEach((f) => { FIGS[f.id] = f; });
   });
+  // EVS (owner, 10-11-2026): each week lists its lectures (numbered 1 to 31) with their topics under them.
+  // Topics follow the lecture order; LEC maps a topic id to its lecture.
+  const LEC = {};
+  MODULES.forEach((m) => (m.lectures || []).forEach((l) => l.topics.forEach((id) => { LEC[id] = l; })));
+  MODULES.forEach((m) => { if (!(m.lectures || []).length) return; const pos = {}; m.lectures.forEach((l, i) => l.topics.forEach((id, j) => { pos[id] = i * 100 + j; })); m.topics.sort((a, b) => (pos[a.id] ?? 1e6) - (pos[b.id] ?? 1e6)); });
+  TOPICS.length = 0; MODULES.forEach((m) => m.topics.forEach((t) => { t.idx = TOPICS.length; TOPICS.push(t); }));
+  const lecHead = (m, t, i, cls) => { const l = LEC[t.id]; return l && (i === 0 || LEC[m.topics[i - 1].id] !== l) ? `<div class="${cls}"><span class="lec-n">${l.n}</span>${esc(l.title)}</div>` : ''; };
   // Free/Pro (owner, 30-09-2026): the notes are free; Pro users also get the Pro companions (every flashcard, the
   // formulas and one-liners of each topic, the answers to every question, the interactive widgets).
   const PRO = !!window.PRO;
@@ -204,7 +211,7 @@ window.__startApp = function () {
   document.addEventListener('click', (e) => {
     const b = e.target.closest && e.target.closest('[data-reset-mod]'); const m = b && MOD[b.getAttribute('data-reset-mod')];
     if (!m) return;
-    if (!confirm(`Reset your progress in Week ${+m.num}?\n\nThis clears its topic ticks, question and quiz results, known flashcards and "confusing" flags, so you can start the module again. Your notes, highlights, tags and study time stay.`)) return;
+    if (!confirm(`Reset your progress in Week ${+m.num}?\n\nThis clears its topic ticks, question and quiz results, known flashcards and "confusing" flags, so you can start the week again. Your notes, highlights, tags and study time stay.`)) return;
     resetModule(m.id);
     if (window.SIGNED_IN_AS && syncOn) { syncDirty = true; syncPush(); }
     refreshAll();
@@ -365,7 +372,7 @@ window.__startApp = function () {
               <span class="sb-gcount" data-count="${m.id}"></span>${icon('chev', 'sb-chev')}
             </button>
             <div class="sb-items"><div>
-              ${m.topics.map((t) => `<a class="sb-topic" href="#${t.id}" data-key="${t.id}"><span class="tick" data-tick="${t.id}"></span><span class="lbl">${rt(t.short || t.title)}</span><button class="tag-dot" data-act="tag" data-t="${t.id}" title="Colour tag" aria-label="Colour tag for ${rt(t.short || t.title)}"></button></a>`).join('')}
+              ${m.topics.map((t, i) => lecHead(m, t, i, 'sb-lec') + `<a class="sb-topic" href="#${t.id}" data-key="${t.id}"><span class="tick" data-tick="${t.id}"></span><span class="lbl">${rt(t.short || t.title)}</span><button class="tag-dot" data-act="tag" data-t="${t.id}" title="Colour tag" aria-label="Colour tag for ${rt(t.short || t.title)}"></button></a>`).join('')}
               <a class="sb-topic summary" href="#${m.id}-summary" data-key="${m.id}-summary">${icon('book')}<span class="lbl">Week summary</span></a>
             </div></div>
           </div>`).join('')}
@@ -799,11 +806,11 @@ window.__startApp = function () {
     return `<a class="pro-lock" href="#pro" data-from="${esc(from || '')}"><span class="lock-ico">${icon('lock')}</span><span class="pro-lock-txt"><strong>${esc(title)}</strong><span>${esc(text)}</span></span><span class="pro-tag">Pro</span></a>`;
   }
   const PRO_FEATURES = {
-    quiz: ['Quiz', 'A quiz from every module, a weak-spot quiz that goes after what you got wrong, and mastery per topic.'],
-    formulas: ['Formula sheet', 'Every formula, the numbers worth remembering and the classic traps, on one page per module.'],
+    quiz: ['Quiz', 'A quiz from every week, a weak-spot quiz that goes after what you got wrong, and mastery per topic.'],
+    formulas: ['Formula sheet', 'The numbers and years worth remembering and the classic traps, on one page per week.'],
     lab: ['Interactive models', 'Every "Try it" model from the notes in one place: Nernst, Beer–Lambert, Bragg, Scherrer and more.'],
     mine: ['Bookmarks and My notes', 'Your highlights and notes in one place, synced between your phone and laptop.'],
-    revise: ['Night-before revision pack', 'The formulas, one-liners and traps of every module, ready to read in 20 minutes or save as a PDF.'],
+    revise: ['Night-before revision pack', 'The key numbers, one-liners and traps of every week, ready to read in 20 minutes or save as a PDF.'],
     mock: ['Timed mock CAT', 'A real CAT paper with a 90-minute timer. When time is up you get the model answers.'],
   };
   function viewProTeaser(key) {
@@ -868,7 +875,7 @@ window.__startApp = function () {
     el.innerHTML = `
       <div class="eyebrow"><span class="code">Pro</span><span>Night-before revision pack</span></div>
       <h1 class="h-display">Revision pack</h1>
-      <p class="blurb">Everything to read the night before, one module after another. <button class="btn small ghost no-print" data-act="print">${icon('download')}Save as PDF</button></p>
+      <p class="blurb">Everything to read the night before, one week after another. <button class="btn small ghost no-print" data-act="print">${icon('download')}Save as PDF</button></p>
       ${MODULES.filter((m) => m.topics.length).map((m) => {
         const s = SUM[m.id] || {};
         const forms = [].concat(...m.topics.map((t) => t.formulas));
@@ -937,7 +944,7 @@ window.__startApp = function () {
   // Subjects (owner, 30-09-2026): one card per subject site, searchable; this subject opens here, the others link out.
   // Thumbnails are small line drawings in the theme colours, so they work in dark and light mode.
   const SUBJECTS = [
-    { code: 'BACHY101', name: 'Environmental Sciences', href: '#home', here: true, words: 'chemistry batteries fuel cells solar semiconductors nanomaterials quantum dots coolants spectroscopy uv vis xrd',
+    { code: 'BACHY101', name: 'Environmental Sciences', href: '#home', here: true, words: 'evs environment ecosystem biodiversity pollution waste climate change sdg laws disaster',
       art: '<path d="M44 14v18L28 62h48L60 32V14" class="dsg"/><path d="M40 14h24" class="dsg"/><path d="M34 50h36" class="dsb"/><circle cx="48" cy="56" r="3" class="dsb"/><circle cx="58" cy="54" r="2" class="dsb"/>' },
     { code: 'BAEEE101', name: 'Basic Engineering', href: 'https://baeee101.vercel.app', words: 'electrical circuits machines electronics communication graphics cad manufacturing energy mechanical',
       art: '<path d="M10 40h14l5-10 8 20 8-20 8 20 5-10h12" class="dsb"/><circle cx="96" cy="40" r="14" class="dso"/><path d="M88 40h16M96 32v16" class="dso"/>' },
@@ -981,9 +988,9 @@ window.__startApp = function () {
       </div>
       ${MODULES.filter((m) => m.topics.length).map((m) => `
         <section class="mod-sec">
-          <div class="mod-head"><span class="mod-num">Week ${m.num}</span><h2 class="h-sec"><a href="#${m.id}" style="text-decoration:none">${esc(m.title)}</a></h2><span class="count">${doneIn(m.topics)}/${m.topics.length} done</span><button class="btn small ghost mod-reset" type="button" data-reset-mod="${m.id}" title="Start this module again from zero">${icon('trash')}Reset progress</button></div>
+          <div class="mod-head"><span class="mod-num">Week ${m.num}</span><h2 class="h-sec"><a href="#${m.id}" style="text-decoration:none">${esc(m.title)}</a></h2><span class="count">${doneIn(m.topics)}/${m.topics.length} done</span><button class="btn small ghost mod-reset" type="button" data-reset-mod="${m.id}" title="Start this week again from zero">${icon('trash')}Reset progress</button></div>
           <p class="mod-syl">${esc(m.syllabus)}</p>
-          <div>${m.topics.map(topicRow).join('')}${summaryRow(m)}</div>
+          <div>${m.topics.map((t, i) => lecHead(m, t, i, 'lec-head') + topicRow(t)).join('')}${summaryRow(m)}</div>
         </section>`).join('')}
       ${MODULES.filter((m) => m.locked).map((m) => `
         <section class="mod-sec">
@@ -993,16 +1000,16 @@ window.__startApp = function () {
         </section>`).join('')}
       <section class="mod-sec">
         <div class="mod-head"><h2 class="h-sec">Practice</h2></div>
-        <p class="mod-syl">Once you've read a module, test it. Everything below draws from the same notes.</p>
+        <p class="mod-syl">Once you've read a week, test it. Everything below draws from the same notes.</p>
         <div class="tiles">
           <a class="tile" href="#questions"><span class="tt">${icon('q')}Question bank</span><span class="big">${QS.length}</span><p>Scenario questions with full answers and the points an examiner looks for, sorted by module and topic.</p></a>
           <a class="tile" href="#quiz"><span class="tt">${icon('quiz')}Quiz</span><span class="big">${QS.filter((q) => q.options).length}</span><p>Multiple choice or open, 10 to 30 at a time, weighted toward what you haven't seen or got wrong.</p></a>
           <a class="tile" href="#cards"><span class="tt">${icon('cards')}Flashcards</span><span class="big">${CARDS.length}</span><p>Flip, then sort into "know it" and "still learning". The deck remembers.</p></a>
-          <a class="tile" href="#formulas"><span class="tt">${icon('sigma')}Formula sheet</span><p>Every equation, the numbers worth memorising and the classic traps, per module.</p></a>
-          <a class="tile" href="#lab"><span class="tt">${icon('flask')}Lab bench</span>${nViz ? `<span class="big">${nViz}</span>` : ''}<p>All the interactive models and calculators in one place: Nernst, Beer–Lambert, Bragg, Scherrer and more.</p></a>
+          <a class="tile" href="#formulas"><span class="tt">${icon('sigma')}Formula sheet</span><p>The numbers and years worth memorising and the classic traps, per week.</p></a>
+          <a class="tile" href="#lab"><span class="tt">${icon('flask')}Lab bench</span>${nViz ? `<span class="big">${nViz}</span>` : ''}<p>All the interactive models in one place, each linked to the tab that explains it.</p></a>
           <a class="tile" href="#mine"><span class="tt">${icon('pen')}Highlights & notes</span><p>Your highlighted lines, personal notes, tagged topics and questions to revisit.</p></a>
           <a class="tile" href="#battle"><span class="tt">${icon('swords')}1v1 Quiz battle</span><p>Challenge a friend with a link: 10 questions, 10 seconds each, live scores.</p></a>
-          <a class="tile" href="#revise"><span class="tt">${icon('fire')}Revision pack</span><p>Formulas, one-liners and traps of every module for the night before. Save it as a PDF.</p></a>
+          <a class="tile" href="#revise"><span class="tt">${icon('fire')}Revision pack</span><p>Key numbers, one-liners and traps of every week for the night before. Save it as a PDF.</p></a>
         </div>
       </section>
       <section class="data-box">
@@ -1042,10 +1049,10 @@ window.__startApp = function () {
           <a class="btn" href="#questions.${m.id}">${icon('q')}Questions <span class="n">${nq}</span></a>
           <a class="btn" href="#cards.${m.id}">${icon('cards')}Flashcards <span class="n">${nc}</span></a>
           <a class="btn" href="#quiz.${m.id}">${icon('quiz')}Quiz</a>
-          <button class="btn ghost" type="button" data-reset-mod="${m.id}" title="Start this module again from zero">${icon('trash')}Reset progress</button>
+          <button class="btn ghost" type="button" data-reset-mod="${m.id}" title="Start this week again from zero">${icon('trash')}Reset progress</button>
         </div>
       </div>
-      <div>${m.topics.map(topicRow).join('')}${summaryRow(m)}</div>`;
+      <div>${m.topics.map((t, i) => lecHead(m, t, i, 'lec-head') + topicRow(t)).join('')}${summaryRow(m)}</div>`;
     return { el };
   }
 
@@ -1639,7 +1646,7 @@ window.__startApp = function () {
     el.innerHTML = `
       <div class="eyebrow"><span class="code">Practice</span><span>Formula sheet</span></div>
       <h1 class="h-display">Formula sheet</h1>
-      <p class="blurb">Everything you should be able to write from memory, grouped by module. Turn on Recall to test the key values.</p>
+      <p class="blurb">Everything you should be able to write from memory, grouped by week. Turn on Recall to test the key values.</p>
       <div class="vseg" style="margin-bottom:10px"><button class="vseg-btn" data-t="f">Equations</button><button class="vseg-btn" data-t="n">Numbers</button><button class="vseg-btn" data-t="x">Traps</button></div>
       <div data-body></div>`;
     const body = $('[data-body]', el);
@@ -2190,7 +2197,7 @@ window.__startApp = function () {
     } else {
       const week = Array.from({ length: 7 }, (_, i) => { const t = Date.now() - (6 - i) * DAYMS; return { v: Math.round((+S.study[dayKey(t)] || 0) / 60), l: 'SMTWTFS'[new Date(t + ISTMS).getUTCDay()] }; });
       spec = { name: name || 'My study day', date, subtitle: `${doneIn(TOPICS)} of ${TOPICS.length} topics done`, week,
-        stats: [['Today', fmtDur(todaySecs())], ['Total study', fmtDur(totalSecs())], ['Streak', `${streak} day${streak === 1 ? '' : 's'}`], ['Modules done', `${modsDone()}/${MODULES.length}`]] };
+        stats: [['Today', fmtDur(todaySecs())], ['Total study', fmtDur(totalSecs())], ['Streak', `${streak} day${streak === 1 ? '' : 's'}`], ['Weeks done', `${modsDone()}/${MODULES.length}`]] };
       text = `${fmtDur(todaySecs())} of Environmental Sciences today on BACHY101 Notes. ${streak} day${streak === 1 ? '' : 's'} in a row, ${fmtDur(totalSecs())} in total, ${modsDone()}/${MODULES.length} modules done. ${SITE_URL}`;
     }
     const canvas = await drawCard(spec);
@@ -2221,77 +2228,8 @@ window.__startApp = function () {
 
   // ================================================================ CAT syllabus checklists
   // Each syllabus line links to the topics that cover it. Titles are kept here too, so locked modules still list them.
-  const SYL = {
-    cat1: [
-      { mod: 'm1', title: 'Thermodynamics and kinetics', lines: [
-        ['Basic terminologies: system, surroundings, state and path functions', [['m1-thermo-basics', 'Thermodynamics: basic terminologies']]],
-        ['Zeroth and first law of thermodynamics', [['m1-zeroth-first-law', 'Zeroth and first law']]],
-        ['Enthalpy and heat capacity', [['m1-enthalpy-heat-capacity', 'Enthalpy and heat capacity']]],
-        ['Work in isothermal and adiabatic expansion', [['m1-expansion-work', 'First law applied to expansion work']]],
-        ['Second law and entropy', [['m1-second-law-entropy', 'Second law and entropy']]],
-        ['Carnot cycle and efficiency of heat engines', [['m1-carnot-cycle', 'Carnot cycle and heat engines']]],
-        ['Free energy and spontaneity', [['m1-free-energy', 'Free energy and spontaneity']]],
-        ['Gibbs–Helmholtz equation and third law', [['m1-gibbs-helmholtz-third-law', 'Gibbs–Helmholtz equation and third law']]],
-        ['Numerical problems on thermodynamics', [['m1-thermo-numericals', 'Thermodynamics numericals']]],
-        ['Rate of reaction, rate law, order and molecularity', [['m1-rate-law', 'Reaction rate and rate law']]],
-        ['Integrated rate equations and half-life', [['m1-integrated-rate', 'Integrated rate equations and half-life']]],
-        ['Collision theory, activation energy and the Arrhenius equation', [['m1-collision-arrhenius', 'Collision theory and Arrhenius equation']]],
-        ['Catalysis', [['m1-catalysis', 'Catalysis']]],
-      ] },
-    ],
-    cat2: [
-      { mod: 'm2', title: 'Energy devices', lines: [
-        ['Electrochemical and electrolytic cells', [['m2-electrochemical-cells', 'Electrochemical cells']]],
-        ['Electrode materials, including semiconductors', [['m2-semiconductors', 'Semiconductors as electrode materials'], ['m2-semiconductor-purification', 'Making ultra-pure Si & Ge']]],
-        ['Classification of batteries', [['m2-batteries', 'Batteries: parts & classification']]],
-        ['Lithium-ion battery chemistry', [['m2-li-ion', 'Lithium-ion batteries']]],
-        ['H₂–O₂ fuel cell and solid oxide fuel cell', [['m2-fuel-cells', 'Fuel cells: principle & types'], ['m2-pemfc', 'PEM fuel cell'], ['m2-sofc', 'Solid oxide fuel cell']]],
-        ['Silicon photovoltaic cells', [['m2-solar-energy', 'Solar energy & conversion routes'], ['m2-photovoltaics', 'Photovoltaic cells']]],
-        ['Photoelectrochemical cells', [['m2-pec-cells', 'Photoelectrochemical cells']]],
-        ['Dye-sensitized solar cells', [['m2-dssc', 'Dye-sensitized solar cells']]],
-      ] },
-      { mod: 'm3', title: 'Nanomaterials', lines: [
-        ['Introduction to nanomaterials', [['m3-nanomaterials', 'What nanomaterials are'], ['m3-nano-classes', 'Classifying nanomaterials'], ['m3-why-nano', 'Why nano is different']]],
-        ['Top-down and bottom-up approaches for synthesis', [['m3-synthesis', 'Top-down vs bottom-up'], ['m3-milling', 'Mechanical milling'], ['m3-sol-gel', 'Sol–gel method']]],
-        ['Bulk vs nano: gold', [['m3-nano-gold', 'Bulk gold vs nano gold']]],
-        ['Quantum dots', [['m3-quantum-dots', 'Quantum dots'], ['m3-qd-uses', 'QD synthesis & applications']]],
-      ] },
-      { mod: 'm4', title: 'Spectroscopic and diffraction techniques', lines: [
-        ['Fundamental concepts of spectroscopy', [['m4-spectroscopy', 'Spectroscopy & EMR'], ['m4-emr-regions', 'EMR regions & energy']]],
-        ['UV-Visible: principle, instrumentation and applications', [['m4-uv-vis', 'UV-Vis: absorption & transitions'], ['m4-beer-lambert', 'Beer–Lambert law'], ['m4-uv-vis-instrument', 'UV-Vis instruments & uses']]],
-        ['Powder XRD: principle, instrumentation and applications', [['m4-xrays', 'X-rays: nature & production'], ['m4-bragg', "Diffraction & Bragg's law"], ['m4-xrd-patterns', 'Diffractometer & patterns']]],
-        ['Powder XRD: determination of crystallite size', [['m4-scherrer', 'Crystallite size & Scherrer']]],
-      ] },
-    ],
-  };
-  // FAT is the whole course: Module 1 (CAT-1), Modules 2-4 (CAT-2) plus every topic the CAT lists leave out, then Module 5
-  SYL.fat = (() => {
-    const g = (m) => SYL.cat2.find((x) => x.mod === m);
-    return [
-      SYL.cat1[0],
-      { mod: 'm2', title: g('m2').title, lines: g('m2').lines.concat([['Electrolysis of molten NaCl and water', [['m2-electrolysis', 'Electrolysis: molten NaCl and water']]]]) },
-      { mod: 'm3', title: 'Electrical and magnetic materials, nanomaterials, coolants', lines: [
-        ['Energy bands: conductors, semiconductors, insulators', [['m3-band-theory', 'Energy bands']]],
-        ['Conducting materials: copper and aluminium', [['m3-conducting-materials', 'Conducting materials']]],
-        ['n-type and p-type semiconductors and their uses', [['m3-semiconductor-types-uses', 'n-type vs p-type and uses']]],
-        ['Insulators', [['m3-insulators', 'Insulators']]],
-        ['Superconductors and the Meissner effect', [['m3-superconductors', 'Superconductors and the Meissner effect']]],
-        ['Magnetic dipoles, moments and quantities', [['m3-magnetic-basics', 'Magnetic dipoles and quantities']]],
-        ['Dia-, para-, ferro-, antiferro- and ferrimagnetism', [['m3-magnetic-classes', 'Types of magnetism']]],
-        ['Superexchange, hysteresis and magnetic storage', [['m3-hysteresis-storage', 'Hysteresis and magnetic storage']]],
-      ].concat(g('m3').lines, [['Liquid coolants and their types', [['m3-coolants', 'Liquid coolants and requirements'], ['m3-coolant-types', 'Types of coolants']]]]) },
-      g('m4'),
-      { mod: 'm5', title: 'Computational chemistry', lines: [
-        ['What computational chemistry is and its methods', [['m5-comp-intro', 'What computational chemistry is'], ['m5-comp-methods', 'Computational methods']]],
-        ['Atomic orbitals', [['m5-atomic-orbitals', 'Atomic orbitals']]],
-        ['Molecular orbital theory and LCAO', [['m5-molecular-orbitals', 'Molecular orbital theory and LCAO'], ['m5-orbital-overlap', 'Orbital interaction and bonding']]],
-        ['Potential energy curves and surfaces', [['m5-potential-energy-surface', 'PES and electrostatic potential']]],
-        ['Geometry optimisation and frequency calculations', [['m5-geometry-frequency', 'Geometry optimisation and frequencies']]],
-        ['Reaction mechanisms and SN2 reactions', [['m5-reaction-mechanisms', 'Reaction mechanisms and SN2']]],
-        ['AI and machine learning for semiconductor screening', [['m5-ai-ml-screening', 'AI and ML screening']]],
-      ] },
-    ];
-  })();
+  // EVS: no syllabus checklist (exams are online quizzes)
+  const SYL = { cat1: [], cat2: [], fat: [] };
 
   const sylItems = (cat) => { const seen = new Set(); return (SYL[cat] || []).flatMap((g) => g.lines.flatMap(([, tl]) => tl.map(([id]) => ({ id, mod: g.mod })))).filter((x) => !seen.has(x.id) && seen.add(x.id)); };
   // a topic read to the end ticks itself on every syllabus that lists it; a tick the student removed by hand (0) stays off
@@ -2429,11 +2367,11 @@ window.__startApp = function () {
       ${sec('pen', 'Highlights, notes and colour tags', `<p><b>Select any line</b> in a topic and pick a colour to highlight it. Each topic has a <b>My notes</b> box at the bottom, saved as you type. The dot next to each topic in the sidebar sets a colour tag (tap again to change it). Everything you mark is collected in ${'<a href="#mine">Highlights &amp; notes</a>'}.</p>`)}
       ${sec('flag', '"Confusing?" and your weak spots', `<p>At the bottom of every tab there is a <b>Confusing?</b> button. Tap it on anything that didn't click. Those tabs are listed under <b>My weak spots</b> in ${'<a href="#mine">Highlights &amp; notes</a>'}, and the quiz asks about them first.</p>`)}
       ${sec('search', 'Search everything', `<p>Tap <b>Search</b> (or press <kbd>Ctrl</kbd> <kbd>K</kbd>). It looks through every tab, question, flashcard, formula and summary.</p><p class="g-ex">Try searching <b>Nafion</b>, <b>zone refining</b> or <b>Bragg</b>.</p>`)}
-      ${sec('q', 'Question bank', `<p>Scenario questions with full model answers and the points an examiner looks for. Filter by module, topic, type and level. Mark each one <b>Got it</b> or <b>Revisit</b>.</p><p class="g-ex">Try it: <a href="#questions.m2">Week 2 questions</a>.</p>`)}
-      ${sec('quiz', 'Quiz, then focus on your weak spots', `<p>Pick modules and a length and go. At the end, tap <b>Focus on weak spots</b> for a quick round of only the questions you missed. Keep going until you get every one right: you'll see how long it took you to master it, and you can share that as a picture.</p><p class="g-ex">Try it: <a href="#quiz.m2">a Week 2 quiz</a>.</p>`)}
+      ${sec('q', 'Question bank', `<p>Scenario questions with full model answers and the points an examiner looks for. Filter by week, topic, type and level. Mark each one <b>Got it</b> or <b>Revisit</b>.</p><p class="g-ex">Try it: <a href="#questions.m2">Week 2 questions</a>.</p>`)}
+      ${sec('quiz', 'Quiz, then focus on your weak spots', `<p>Pick weeks and a length and go. At the end, tap <b>Focus on weak spots</b> for a quick round of only the questions you missed. Keep going until you get every one right: you'll see how long it took you to master it, and you can share that as a picture.</p><p class="g-ex">Try it: <a href="#quiz.m2">a Week 2 quiz</a>.</p>`)}
       ${sec('swords', '1v1 Quiz battle', `<p>Pick one or more topics and tap <b>Create battle link</b>. Send the link to one friend: when they join, you both see the rules and tap <b>Understood</b> (tick <b>Never ask again</b> to skip them next time), then you get the same 10 questions at the same time, 10 seconds each. Faster right answers score more. Switching tabs or apps during a question counts as wrong. Full access gets unlimited battles; free accounts get one preview battle on one Week 2 topic.</p><p class="g-ex">Try it: <a href="#battle">start a battle</a>.</p>`)}
       ${sec('cards', 'Flashcards', `<p>Say the answer out loud, then flip. Sort each card into <b>Know it</b> or <b>Still learning</b>; the deck remembers, and "Still learning only" gives you just the hard ones.</p><p class="g-ex">Try it: ${TOPIC['m2-li-ion'] ? '<a href="#cards.m2-li-ion">Lithium-ion flashcards</a>' : '<a href="#cards">flashcards</a>'}.</p>`)}
-      ${sec('sigma', 'Formula sheet and Lab bench', `<p>The <a href="#formulas">Formula sheet</a> has every equation, the numbers worth memorising and the classic traps, per module. The <a href="#lab">Lab bench</a> collects every interactive model and calculator (Nernst, Beer–Lambert, Bragg, Scherrer and more), each linked to the tab that explains it.</p>`)}
+      ${sec('sigma', 'Formula sheet and Lab bench', `<p>The <a href="#formulas">Formula sheet</a> has the numbers and years worth memorising and the classic traps, per week. The <a href="#lab">Lab bench</a> collects every interactive model, each linked to the tab that explains it.</p>`)}
       ${sec('book', 'Week summaries', `<p>Every week ends with a one-page summary: how it fits together, the key points of every topic, all its diagrams, side-by-side comparisons, equations, numbers and traps. Best the night before an exam.</p><p class="g-ex">Try it: <a href="#m2-summary">Week 2 summary</a>.</p>`)}
       ${sec('timer', 'Focus mode', `<p>Tap <b>Focus</b> in the top bar (or press <kbd>F</kbd>) for a focus timer with fewer distractions. Pick <b>30 minutes, 1, 2 or 3 hours</b> in the bar at the bottom, which also lets you <b>Pause</b> or <b>Exit focus</b> at any time (on a computer, <kbd>Esc</kbd> works too).</p>`)}
       ${sec('fire', 'Study time, streaks and share cards', `<p>The site counts the time you actually study here each day (it pauses after 3 minutes without a tap or scroll, except while the Focus timer is running). Study at least a minute a day to keep your streak going (the flame in the top bar). Tap <b>Share progress</b> on the home page for a picture with today's time, your total, your streak and the modules you've finished.</p>`)}
