@@ -86,8 +86,8 @@ function isOwner(req) {
 // Two site-wide switches the owner flips on /admin (hash "config"):
 //   signin = "off": nobody new can sign in, and anyone can open the site without signing in (a guest). Students who
 //                   are already signed in stay signed in and keep what they paid for.
-//   mode = "free" (also the default while unset): every Pro feature is open to everyone who can open the site (no
-//                   paywall); "paid" = Pro is locked: the notes stay free, Pro needs a payment or free access.
+//   mode = "paid" (also the default while unset): Pro is locked: the notes stay free, Pro needs a payment or free access;
+//          "free" = every Pro feature is open to everyone who can open the site (no paywall).
 //   A temporary offer at ₹0 (config "sale", price 0) does the same as "free" until the offer ends, then the site is paid again.
 //   .free = free right now for either reason; .freeMode = the switch; .freeOffer = the ₹0 offer's end time (ms) or null.
 // Cached for a few seconds per server instance, so a switch reaches every page within about 5 s.
@@ -98,7 +98,7 @@ async function siteMode(fresh) {
   const out = { signin: true, free: false, freeMode: false, freeOffer: null };
   if (store.configured()) {
     const [[s, m, sl]] = await store.pipeline([['HMGET', 'config', 'signin', 'mode', 'sale']]);
-    out.signin = s !== 'off'; out.freeMode = m !== 'paid'; // Pro is free for everyone until the owner locks it (mode 'paid')
+    out.signin = s !== 'off'; out.freeMode = m === 'free'; // Pro is paid unless the owner opens it (mode 'free'; owner, 10-11-2026)
     try { const x = JSON.parse(sl || 'null'); if (x && x.price === 0 && x.until > Date.now()) out.freeOffer = x.until; } catch (e) {}
     out.free = out.freeMode || !!out.freeOffer;
   }

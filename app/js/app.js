@@ -395,13 +395,6 @@ window.__startApp = function () {
         <a class="sb-link" href="#lab" data-key="lab">${icon('flask')}<span>Lab bench</span>${PRO ? '<span class="count" data-labcount></span>' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#mine" data-key="mine">${icon('pen')}<span>Highlights & notes</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#battle" data-key="battle">${icon('swords')}<span>1v1 Quiz battle</span></a>
-        <div class="sb-label">Exams</div>
-        <a class="sb-link" href="#syllabus.cat1" data-key="syllabus.cat1">${icon('list')}<span>CAT-1 syllabus</span></a>
-        <a class="sb-link" href="#syllabus.cat2" data-key="syllabus.cat2">${icon('list')}<span>CAT-2 syllabus</span><span class="count" data-sylcount></span></a>
-        <a class="sb-link" href="#syllabus.fat" data-key="syllabus.fat">${icon('list')}<span>FAT syllabus</span></a>
-        ${(() => { const L = D.paperIndex || D.papers || []; const n = (k) => L.filter((x) => (/^fat/.test(x.id) ? 'fat' : /^cat1/.test(x.id) ? 'cat1' : 'cat2') === k).length; return [['cat1', 'CAT-1 papers'], ['cat2', 'CAT-2 papers'], ['fat', 'FAT papers']].filter(([k]) => n(k)).map(([k, l]) => `<a class="sb-link" href="#papers.${k}" data-key="papers.${k}">${icon('exam')}<span>${l}</span><span class="count">${n(k)}</span></a>`).join(''); })()}
-        <a class="sb-link" href="#mock" data-key="mock">${icon('timer')}<span>Timed mock CAT</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
-        <a class="sb-link" href="#mock.fat" data-key="mock.fat">${icon('timer')}<span>Timed mock FAT</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#revise" data-key="revise">${icon('fire')}<span>Revision pack</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         ${PRO && !window.FREE_SITE ? '' : `<a class="sb-link sb-pro" href="#pro" data-key="pro">${icon('trophy')}<span>${window.FREE_SITE ? 'Pro (free right now)' : 'Why go Pro'}</span></a>`}
         <div class="sb-label">Talk to us</div>
@@ -610,11 +603,9 @@ window.__startApp = function () {
         case 'lab': view = PRO ? viewLab(r) : viewProTeaser('lab'); break;
         case 'mine': view = PRO ? viewMine(r) : viewProTeaser('mine'); break;
         case 'revise': view = PRO ? viewRevise(r) : viewProTeaser('revise'); break;
-        case 'mock': view = PRO ? viewMock(r) : viewProTeaser('mock'); break;
+        case 'mock': case 'syllabus': case 'papers': view = viewHome(); break; // EVS has no CAT/FAT: all exams are online (owner, 10-11-2026)
         case 'pro': view = viewGoPro(r); break;
         case 'guide': view = viewGuide(r); break;
-        case 'syllabus': view = viewSyllabus(r); break;
-        case 'papers': view = viewPapers(r); break;
         case 'battle': view = viewBattle(r); break;
         default: view = viewHome(r);
       }
@@ -837,17 +828,16 @@ window.__startApp = function () {
     const free = !!window.FREE_SITE;
     const sampleQ = QS.find((q) => q.answer || q.q);
     const groups = [
-      ['exam', 'Practise like the exam', 'Sit a real CAT paper against a 90-minute timer, then check yourself against model answers written from these notes.', ['Timed mock CAT', 'Model papers', 'Model answers for every paper']],
       ['brain', 'Remember it', 'Short daily recall beats rereading. The quiz keeps coming back to what you got wrong until it sticks.', ['All flashcards', 'Quiz and weak-spot quiz', 'Mastery per topic']],
-      ['bolt', 'Revise fast', 'The night before, read one page per module instead of the whole module.', ['Night-before revision pack', 'Formula sheet', 'PDF summaries to keep']],
+      ['bolt', 'Revise fast', 'The night before, read one page per week instead of the whole week.', ['Night-before revision pack', 'Formula sheet', 'PDF summaries to keep']],
       ['sync', 'Never lose progress', 'Start on your laptop, finish on your phone in the bus. Your ticks, highlights and notes follow you.', ['Sync across phone and laptop', 'Bookmarks and My notes']],
-      ['target', 'Study smarter', 'Know what was actually asked and where you stand.', ['Focus timer up to 3 h with stats', 'Study music', '"N% read" progress', 'Full "asked in CAT" detail', 'Answers to every practice question', 'Every interactive model', 'Unlimited quiz battles']],
+      ['target', 'Study smarter', 'Know what was actually asked and where you stand.', ['Focus timer up to 3 h with stats', 'Study music', '"N% read" progress', 'Answers to every practice question', 'Every interactive model', 'Unlimited quiz battles']],
     ];
     const el = h('div', { class: 'view gopro' });
     el.innerHTML = `
       <div class="eyebrow"><span class="code">BACHY101</span><span>Pro</span></div>
-      <h1 class="h-display">Score more in your CAT with less time</h1>
-      <p class="blurb">The notes, diagrams and summaries are free and stay free. Pro adds the tools that turn reading into marks: practice under exam conditions, answers you can check yourself against, and a fast way to revise.</p>
+      <h1 class="h-display">Score more in your EVS quizzes with less time</h1>
+      <p class="blurb">The notes, diagrams and summaries are free and stay free. Pro adds the tools that turn reading into marks: answers you can check yourself against, recall that sticks, and a fast way to revise.</p>
       ${free ? '<div class="note example"><p>Pro is <b>free for everyone right now</b>. Everything below is already open for you.</p></div>' : ''}
       <div class="gopro-price">
         <div><span class="gp-big">${was ? `<s>₹${was}</s> ` : ''}₹${rs}</span><span class="gp-sub">one payment · whole semester · no subscription</span></div>
@@ -862,7 +852,6 @@ window.__startApp = function () {
       <ul class="prose gp-taste">
         <li>Every topic shows <b>3 sample flashcards</b> for free. Open <a href="#cards">Flashcards</a>.</li>
         <li>You get <b>one preview quiz battle</b> on a topic. Open <a href="#battle">1v1 battle</a>.</li>
-        <li>Topics asked in a CAT carry an <b>"asked in CAT"</b> badge. Pro shows which slot and what was asked.</li>
       </ul>
       ${sampleQ && !PRO ? `<div class="gp-blur"><div class="gp-blur-in prose">${sampleQ.q}<p><b>Answer.</b> The verdict comes first, then the reasoning tied to the notes, then the points an examiner looks for…</p></div>${proCard('Model answers for every question', 'This is what a Pro answer looks like, blurred.', 'preview')}</div>` : ''}
       <h2 class="h-sec" style="margin-top:26px">Who makes this</h2>
@@ -959,7 +948,7 @@ window.__startApp = function () {
     const mods = MODULES.filter((m) => m.topics.length).length;
     return `<a class="subj" href="${x.href}"${x.here ? '' : ' rel="noopener"'} data-words="${esc((x.code + ' ' + x.name + ' ' + x.words).toLowerCase())}">
       <svg viewBox="0 0 116 76" class="subj-art" aria-hidden="true" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">${x.art}</svg>
-      <span class="subj-txt"><small>${x.code}</small><strong>${esc(x.name)}</strong><span>${x.here ? `${mods} module${mods === 1 ? '' : 's'} · you are here` : 'Opens its own site'}</span></span>
+      <span class="subj-txt"><small>${x.code}</small><strong>${esc(x.name)}</strong><span>${x.here ? `${mods} week${mods === 1 ? "" : "s"} · you are here` : 'Opens its own site'}</span></span>
       <span class="subj-tags"><span class="tag-free">Free notes</span><span class="pro-tag">Pro</span></span></a>`;
   }
   function viewHome() {
@@ -968,7 +957,7 @@ window.__startApp = function () {
     const nViz = allViz().length;
     const el = h('div', { class: 'view' });
     const last = S.last && S.last.hash ? S.last : null;
-    const words = ['Applied', 'Chemistry'];
+    const words = ['Environmental', 'Sciences'];
     el.innerHTML = `
       <section class="hero">
         <div class="eyebrow"><span class="code">BACHY101</span><span>Environmental Sciences</span><span class="dot">·</span><span>Fall semester 2026–27</span></div>
@@ -1013,9 +1002,6 @@ window.__startApp = function () {
           <a class="tile" href="#lab"><span class="tt">${icon('flask')}Lab bench</span>${nViz ? `<span class="big">${nViz}</span>` : ''}<p>All the interactive models and calculators in one place: Nernst, Beer–Lambert, Bragg, Scherrer and more.</p></a>
           <a class="tile" href="#mine"><span class="tt">${icon('pen')}Highlights & notes</span><p>Your highlighted lines, personal notes, tagged topics and questions to revisit.</p></a>
           <a class="tile" href="#battle"><span class="tt">${icon('swords')}1v1 Quiz battle</span><p>Challenge a friend with a link: 10 questions, 10 seconds each, live scores.</p></a>
-          ${PINDEX.length ? `<a class="tile" href="#papers"><span class="tt">${icon('exam')}Question papers</span><p>Real CAT papers and model papers in the same pattern, with model answers.</p></a>` : ''}
-          <a class="tile" href="#syllabus.cat2"><span class="tt">${icon('list')}CAT syllabus</span><p>The CAT-2 syllabus as a checklist, each line linked to its notes.</p></a>
-          <a class="tile" href="#mock"><span class="tt">${icon('timer')}Timed mock CAT</span><p>A real CAT paper against a 90-minute timer, then the model answers.</p></a>
           <a class="tile" href="#revise"><span class="tt">${icon('fire')}Revision pack</span><p>Formulas, one-liners and traps of every module for the night before. Save it as a PDF.</p></a>
         </div>
       </section>
@@ -2449,7 +2435,6 @@ window.__startApp = function () {
       ${sec('cards', 'Flashcards', `<p>Say the answer out loud, then flip. Sort each card into <b>Know it</b> or <b>Still learning</b>; the deck remembers, and "Still learning only" gives you just the hard ones.</p><p class="g-ex">Try it: ${TOPIC['m2-li-ion'] ? '<a href="#cards.m2-li-ion">Lithium-ion flashcards</a>' : '<a href="#cards">flashcards</a>'}.</p>`)}
       ${sec('sigma', 'Formula sheet and Lab bench', `<p>The <a href="#formulas">Formula sheet</a> has every equation, the numbers worth memorising and the classic traps, per module. The <a href="#lab">Lab bench</a> collects every interactive model and calculator (Nernst, Beer–Lambert, Bragg, Scherrer and more), each linked to the tab that explains it.</p>`)}
       ${sec('book', 'Week summaries', `<p>Every week ends with a one-page summary: how it fits together, the key points of every topic, all its diagrams, side-by-side comparisons, equations, numbers and traps. Best the night before an exam.</p><p class="g-ex">Try it: <a href="#m2-summary">Week 2 summary</a>.</p>`)}
-      ${sec('list', 'CAT syllabus checklists', `<p>The <a href="#syllabus.cat2">CAT-2 syllabus</a> lists every syllabus line with links to the topics that cover it. Tick a topic when you can explain it without looking, and watch the percentage climb.</p>`)}
       ${sec('timer', 'Focus mode', `<p>Tap <b>Focus</b> in the top bar (or press <kbd>F</kbd>) for a focus timer with fewer distractions. Pick <b>30 minutes, 1, 2 or 3 hours</b> in the bar at the bottom, which also lets you <b>Pause</b> or <b>Exit focus</b> at any time (on a computer, <kbd>Esc</kbd> works too).</p>`)}
       ${sec('fire', 'Study time, streaks and share cards', `<p>The site counts the time you actually study here each day (it pauses after 3 minutes without a tap or scroll, except while the Focus timer is running). Study at least a minute a day to keep your streak going (the flame in the top bar). Tap <b>Share progress</b> on the home page for a picture with today's time, your total, your streak and the modules you've finished.</p>`)}
       ${sec('help', 'Help? and Any ideas?', `<p>Found a mistake, have a suggestion, or something isn't working? Tap <b>Help?</b> (at the bottom of any tab, or in the sidebar). Want a new feature? Tap <b>Any ideas?</b> in the sidebar. Both go straight to the owner. When the owner replies, you get a note when you open the site and the reply appears under <b>Messages</b> in the sidebar.</p>`)}
