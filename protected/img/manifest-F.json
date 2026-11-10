@@ -1,0 +1,18 @@
+{
+ "m2-bpa-mechanism": {
+  "w": 519,
+  "h": 351
+ },
+ "m2-bpa-health": {
+  "w": 681,
+  "h": 490
+ },
+ "m2-bpa-steps": {
+  "w": 695,
+  "h": 445
+ },
+ "m2-mercury-cycle": {
+  "w": 643,
+  "h": 521
+ }
+}
