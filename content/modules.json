@@ -6,7 +6,7 @@
   },
   {
     "id": "m2", "num": "02", "title": "Biodiversity and Environmental Quality", "free": true,
-    "chunks": ["C", "D", "E", "F"], "questions": "q-M2.js",
+    "chunks": ["C", "D", "E", "F", "G"], "questions": "q-M2.js",
     "syllabus": "Biodiversity: definition, levels, significance and threats; species interaction; extinct, endangered, endemic and rare species; conservation strategies; genetically modified crops; environmental hazards (types, causes, solutions; biological hazards, COVID-19); chemical hazards (Bisphenol-A, mercury); disaster management."
   },
   {
