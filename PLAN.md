@@ -175,6 +175,7 @@ update **State** before stopping.
   /api/session price 1500 list 2000). EVS held OFF the store (owner choice) until its site + Pro exist: revert f3e47f5 to list it.
 - EVS repo: github.com/sxiddy/bachy101-notes (private, branch master). Vercel project bachy101 connected to it.
   Env set: STORE_URL, STORE_SECRET, GOOGLE_CLIENT_ID, ADMIN_KEY, REVIEW_CODE (copied from bachy105), SESSION_SECRET (new).
-- WAITING ON OWNER: (1) finish the Upstash checkout for bachy101-kv (free, no auto-upgrade) in the browser;
+- Redis: shared upstash-kv-carmine-jacket connected, keys prefixed bachy101: (commit 17fd8ec). Live, redeployed.
+- WAITING ON OWNER:
   (2) add https://bachy101.vercel.app origin + /api/login redirect on the Google OAuth client. Then deploy prod, check live,
   delete the placeholder deployment.
