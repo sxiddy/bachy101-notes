@@ -169,3 +169,12 @@ update **State** before stopping.
   - Owner was told how to set FREELLM_KEY (Keys page → "Unified API key" tab → setx). When they say "key done",
     run tools/freellm.py on src/text/m1/evs-w1-01.txt and show kept vs dropped.
 - Cache warmer (owner asked 10-11-2026): not set up. It re-reads the whole session on every ping (counts toward the limit, extra usage is ON so overage costs money) and a new session can't use an old session's cache. Revisit only at the start of a long session, if the owner asks.
+
+### Launch state (10-11-2026, owner said "push")
+- Store (vit-notes-store) pushed f3e47f5 to main + redesign: ₹20 MRP, 25% sale = ₹15 until 30 Nov 23:59 IST (live, checked
+  /api/session price 1500 list 2000). EVS held OFF the store (owner choice) until its site + Pro exist: revert f3e47f5 to list it.
+- EVS repo: github.com/sxiddy/bachy101-notes (private, branch master). Vercel project bachy101 connected to it.
+  Env set: STORE_URL, STORE_SECRET, GOOGLE_CLIENT_ID, ADMIN_KEY, REVIEW_CODE (copied from bachy105), SESSION_SECRET (new).
+- WAITING ON OWNER: (1) finish the Upstash checkout for bachy101-kv (free, no auto-upgrade) in the browser;
+  (2) add https://bachy101.vercel.app origin + /api/login redirect on the Google OAuth client. Then deploy prod, check live,
+  delete the placeholder deployment.
