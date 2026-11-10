@@ -368,7 +368,7 @@ window.__startApp = function () {
         ${MODULES.filter((m) => m.topics.length).map((m) => `
           <div class="sb-group${S.ui.closed[m.id] ? ' closed' : ''}" data-group="${m.id}">
             <button class="sb-group-head" data-act="group" data-g="${m.id}" aria-expanded="${!S.ui.closed[m.id]}">
-              <span class="sb-num">${m.num}</span><span class="sb-gtitle">${esc(m.title)}</span>
+              <span class="sb-num">W${+m.num}</span><span class="sb-gtitle">${esc(m.title)}</span>
               <span class="sb-gcount" data-count="${m.id}"></span>${icon('chev', 'sb-chev')}
             </button>
             <div class="sb-items"><div>
@@ -378,7 +378,7 @@ window.__startApp = function () {
           </div>`).join('')}
         ${MODULES.filter((m) => m.locked).map((m) => `
           <div class="sb-group locked"><a class="sb-group-head" href="#unlock" title="Unlock for ₹${PRICE_RS}">
-            <span class="sb-num">${m.num}</span><span class="sb-gtitle">${esc(m.title)}</span><span class="sb-gcount">${icon('lock')}</span>
+            <span class="sb-num">W${+m.num}</span><span class="sb-gtitle">${esc(m.title)}</span><span class="sb-gcount">${icon('lock')}</span>
           </a></div>`).join('')}
         <div class="sb-label">Practice</div>
         <div class="sb-group${S.ui.closed.qbank !== false ? ' closed' : ''}" data-group="qbank">
@@ -391,9 +391,9 @@ window.__startApp = function () {
               const mq = QS.filter((q) => q.module === m.id && q.topic !== 'mixed');
               return `<a class="sb-topic" href="#questions.${m.id}" data-key="questions.${m.id}"><span class="lbl">Week ${+m.num} · ${esc(m.title)}</span><span class="count">${mq.length}</span></a>` +
                 m.topics.map((t) => `<a class="sb-topic sub" href="#questions.${t.id}" data-key="questions.${t.id}"><span class="lbl">${rt(t.short || t.title)}</span><span class="count">${(QBY[t.id] || []).length}</span></a>`).join('') +
-                ((QBY.summary || []).some((q) => q.module === m.id) ? `<a class="sb-topic sub" href="#questions.${m.id}-summary" data-key="questions.${m.id}-summary"><span class="lbl">Across the module</span><span class="count">${QS.filter((q) => q.topic === 'summary' && q.module === m.id).length}</span></a>` : '');
+                ((QBY.summary || []).some((q) => q.module === m.id) ? `<a class="sb-topic sub" href="#questions.${m.id}-summary" data-key="questions.${m.id}-summary"><span class="lbl">Across the week</span><span class="count">${QS.filter((q) => q.topic === 'summary' && q.module === m.id).length}</span></a>` : '');
             }).join('')}
-            ${(QBY.mixed || []).length ? `<a class="sb-topic" href="#questions.mixed" data-key="questions.mixed"><span class="lbl">Mixed: across modules</span><span class="count">${QBY.mixed.length}</span></a>` : ''}
+            ${(QBY.mixed || []).length ? `<a class="sb-topic" href="#questions.mixed" data-key="questions.mixed"><span class="lbl">Mixed: across weeks</span><span class="count">${QBY.mixed.length}</span></a>` : ''}
           </div></div>
         </div>
         <a class="sb-link" href="#quiz" data-key="quiz">${icon('quiz')}<span>Quiz</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
@@ -1277,7 +1277,7 @@ window.__startApp = function () {
   function qState(id) { return S.q[id] || (S.q[id] = { seen: 0, right: 0, wrong: 0 }); }
   function levelDots(l) { return `<span class="qlevel" title="Level ${l} of 3">${[1, 2, 3].map((k) => `<i class="${k <= l ? 'on' : ''}"></i>`).join('')}</span>`; }
   function statusTag(id) { const st = S.q[id] && S.q[id].status; return st === 'got' ? '<span class="qstatus got">Got it</span>' : st === 'revisit' ? '<span class="qstatus revisit">Revisit</span>' : ''; }
-  function topicName(q) { if (q.topic === 'mixed') return 'Across modules'; if (q.topic === 'summary') return `Week ${+MOD[q.module].num} · across topics`; const t = TOPIC[q.topic]; return t ? (t.short || t.title) : ''; }
+  function topicName(q) { if (q.topic === 'mixed') return 'Across weeks'; if (q.topic === 'summary') return `Week ${+MOD[q.module].num} · across topics`; const t = TOPIC[q.topic]; return t ? (t.short || t.title) : ''; }
   function answerHTML(q) {
     return `<div class="qans-inner">
       <div class="verdict prose">${q.answer || ''}</div>
@@ -1383,7 +1383,7 @@ window.__startApp = function () {
         const g = qGroupKey(q);
         if (g !== lastG) {
           grp = h('section', { class: 'qgroup' });
-          grp.appendChild(h('h2', { text: g === 'mixed' ? 'Mixed: across modules' : `Week ${+MOD[g].num} · ${MOD[g].title}` }));
+          grp.appendChild(h('h2', { text: g === 'mixed' ? 'Mixed: across weeks' : `Week ${+MOD[g].num} · ${MOD[g].title}` }));
           list.appendChild(grp); lastG = g; lastT = null;
         }
         if (q.topic !== lastT && q.topic !== 'mixed') {
@@ -1918,7 +1918,7 @@ window.__startApp = function () {
           ${idea ? `<p class="muted" style="margin-top:0;font-size:14.5px">A feature you want, a topic that needs more, a better way to explain something: anything that would make this site better for you. The owner reads every one.</p>`
             : `<div class="kind-row" role="radiogroup" aria-label="What is it about?">${kinds.map(([k, l]) => `<button type="button" class="fchip${k === kind ? ' on' : ''}" data-kind="${k}" role="radio" aria-checked="${k === kind}">${l}</button>`).join('')}</div>
           ${t ? `<p class="muted" style="margin:0;font-size:14px">About: <b style="color:var(--white)">${rt(t.title)}${tabTitle ? ' › ' + rt(tabTitle) : ''}</b></p>` : ''}`}
-          <label>${idea ? 'Your idea' : 'Tell us more'}<textarea id="rep-text" required minlength="5" maxlength="1500" placeholder="${idea ? 'e.g. A timer that shows how long I spend on each module' : 'e.g. The SOFC temperature says 80 °C but the slide says 800–1000 °C'}"></textarea></label>
+          <label>${idea ? 'Your idea' : 'Tell us more'}<textarea id="rep-text" required minlength="5" maxlength="1500" placeholder="${idea ? 'e.g. A timer that shows how long I spend on each week' : 'e.g. The SOFC temperature says 80 °C but the slide says 800–1000 °C'}"></textarea></label>
           <input id="rep-web" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
           <p class="muted" style="margin:0;font-size:13px">Sent with your student email${window.SIGNED_IN_AS ? ` (${esc(window.SIGNED_IN_AS)})` : ''} so the owner can reply.</p>
           <div class="btn-row"><button class="btn primary" type="submit">${idea ? 'Send idea' : 'Send'}</button></div>
