@@ -23,6 +23,7 @@ CHUNK({
         { title: 'Types', html: `
           <p class="lead">First split: <b>natural</b> vs <b>artificial</b>. Natural ones split into <b>terrestrial</b> (land) and <b>aquatic</b> (water).</p>
           <figure data-fig="m1-ecosystem-types-tree"></figure>
+          <p><b>Terrestrial ecosystems</b> are exclusively land-based, and different types are distributed around various geological zones: forest, grassland, tundra and desert. <b>Aquatic ecosystems</b> are present in a body of water and are further divided into two types, freshwater and marine.</p>
           <table class="tbl"><thead><tr><th>Type</th><th>Key points</th></tr></thead><tbody>
             <tr><td>Forest</td><td>Plants, animals and microbes living in coordination with abiotic factors. Forests help <b>maintain Earth's temperature</b> and are the <b>major carbon sink</b>.</td></tr>
             <tr><td>Grassland</td><td>Dominated by <b>grasses and herbs</b>. Examples: temperate grasslands, <b>savanna</b>.</td></tr>
@@ -146,6 +147,7 @@ CHUNK({
           <p>Decomposers release nutrients back into the soil and complete the nutrient cycle. They keep the ecosystem <b>clean and fertile</b> and matter for soil formation and plant productivity.</p>
           <p>All biotic groups are needed for energy flow and nutrient balance. Each has a unique role, and losing one can destabilise the ecosystem.</p>
           <div class="note trap"><p>Earthworms eat dead matter, so they are detritivores. Bacteria and fungi digest it outside their bodies with enzymes, so they are decomposers.</p></div>
+          <div class="note exam"><p>Long answer on "components of an ecosystem": (1) biotic and abiotic components are interdependent, with the plant example; (2) each abiotic factor (light, temperature, water, soil, air, minerals, pH and salinity) with what it does; (3) producers (photo- and chemoautotrophs), consumers by level with examples, decomposers and detritivores with examples; (4) why each group matters: energy flow, population control, nutrient recycling; (5) uses of this knowledge: restoration, agriculture, conservation, urban planning.</p></div>
         ` }
       ],
       flashcards: [
@@ -292,6 +294,7 @@ CHUNK({
             <tr><td>Tertiary consumers (T4)</td><td><b>10 kJ</b></td><td>0.1%</td></tr>
           </tbody></table>
           <div class="note trap"><p>Drawbacks of all pyramids: each is a <b>snapshot in time</b> that ignores seasonal change, and <b>decomposers and detritivores</b> are usually left out even though they process most of the ecosystem's energy.</p></div>
+          <div class="note exam"><p>Long answer on "ecological pyramids": (1) definition and Elton (1927); (2) pyramid of numbers with upright (grassland, pond), inverted (tree) and spindle (forest) examples and its drawback; (3) pyramid of biomass with units, upright (forest) vs inverted (ocean) and why; (4) pyramid of energy with units, why it is always upright (10% law, energy degradation) and the 10,000 → 10 kJ example; (5) uses and the drawbacks common to all pyramids.</p></div>
         ` }
       ],
       flashcards: [
@@ -380,6 +383,21 @@ CHUNK({
             <div class="result"><p><b>10 kJ</b>, which is 0.1% of the original.</p></div>
           </div>
           <div class="note exam"><p>Key line from the notes: energy flows in one direction, decreasing at each step; matter cycles continuously and is never lost.</p></div>
+        ` },
+        { title: 'Key takeaways', html: `
+          <p class="lead">"Energy flows through ecosystems in <b>one direction</b>, from the Sun to producers to consumers, <b>decreasing at each step</b>. Matter, however, <b>cycles continuously</b> and is never lost."</p>
+          <p>The energy-flow lecture defines an <b>ecosystem</b> as a structural and functional unit of ecology consisting of living organisms (biotic components) interacting with each other and with their physical environment (abiotic components), with a <b>flow of energy and cycling of matter</b> between them. Its eight takeaways are the skeleton of any long answer on energy flow:</p>
+          <ol>
+            <li><b>Components.</b> An ecosystem consists of biotic (producers, consumers, decomposers) and abiotic (light, water, temperature, soil) components interacting through energy flow and matter cycling. Details are in the Components of an ecosystem topic.</li>
+            <li><b>Entry point.</b> Producers are the <b>only entry point</b> for energy into any ecosystem, through photosynthesis (or chemosynthesis), and <b>NPP = GPP − respiration</b>.</li>
+            <li><b>Pathways.</b> Food chains (linear) and food webs (complex networks) describe the energy transfer pathways. <b>Detritus chains</b> handle <b>80–90%</b> of ecosystem energy in forests. Details are in the Food chains and webs topic.</li>
+            <li><b>Pyramids.</b> Ecological pyramids of numbers, biomass and energy represent trophic structure, and the <b>pyramid of energy is always upright</b>. Details are in the Ecological pyramids topic.</li>
+            <li><b>10% law.</b> Only about 10% of the energy at one trophic level is transferred to the next; the other <b>90%</b> is lost as heat, respiration and undigested matter.</li>
+            <li><b>Thermodynamics.</b> The first law says energy is conserved (only transformed). The second law says energy degrades to heat, which drives the <b>one-directional flow</b> and <b>limits food chain length</b>.</li>
+            <li><b>Cycles.</b> The carbon cycle (photosynthesis, respiration, decomposition) and the nitrogen cycle (fixation, nitrification, denitrification) recycle matter continuously. Details are in the Nutrient cycles topic.</li>
+            <li><b>Applications.</b> Shorter food chains are more efficient, biomagnification concentrates toxins, and keystone predators regulate trophic cascades. Details are in the Energy applications topic.</li>
+          </ol>
+          <div class="note exam"><p>Long answer on "energy flow in an ecosystem": (1) definition of an ecosystem with energy flow and matter cycling; (2) photosynthesis as the energy gateway, with the equation and the five points on how each input enters the plant; (3) GPP, R and NPP with global values and NPP = GPP − R, plus chemosynthesis; (4) grazing and detritus food chains and food webs; (5) the energy pyramid with the 10,000 → 10 kJ table; (6) first and second laws applied to ecosystems; (7) Lindemann's 10% law and the table of where the 90% goes; (8) why chains are short, with the 1% worked example; (9) energy flows, matter cycles.</p></div>
         ` }
       ],
       flashcards: [
@@ -435,7 +453,9 @@ CHUNK({
           <p>It regulates climate, supports plants and keeps soil moist. Deforestation, urbanisation and pollution disrupt it (water scarcity, habitat loss); climate change alters rainfall patterns.</p>
         ` },
         { title: 'Carbon cycle', html: `
-          <p class="lead">Carbon is the <b>backbone of all organic molecules</b>. It moves between atmosphere, organisms, oceans and the lithosphere.</p>
+          <p class="lead">Carbon is the <b>backbone of all organic molecules</b>, a fundamental element for all life. It moves between atmosphere, organisms, oceans and the lithosphere.</p>
+          <p>Step through the carbon, nitrogen and phosphorus cycles below; each arrow lights up with the name of its process.</p>
+          <div data-viz="nutrient-cycles"></div>
           <ol class="steps">
             <li><b>Fixation</b> Plants take CO<sub>2</sub> in photosynthesis and make organic carbon (glucose, cellulose, starch).</li>
             <li><b>Consumption</b> Carbon passes along the food chain.</li>
@@ -494,6 +514,7 @@ CHUNK({
             <li>Speed depends on <b>temperature, moisture, pH and oxygen</b>.</li>
             <li>Without it, dead matter would pile up and nutrients would run out.</li>
           </ul>
+          <div class="note exam"><p>Long answer on "biogeochemical cycles": (1) define nutrient cycling and say why matter must cycle while energy flows one way; (2) role of producers, consumers and decomposers; (3) each cycle (water, carbon, nitrogen, phosphorus) as numbered steps with the organisms and numbers, plus how humans disturb it (fossil fuels, fertilizers, detergents → global warming, eutrophication); (4) decomposition steps and the factors that control its speed; (5) why cycles matter for agriculture, waste management and restoration.</p></div>
         ` }
       ],
       flashcards: [
@@ -571,18 +592,32 @@ CHUNK({
           </ul>
         ` },
         { title: 'Human impact and balance', html: `
-          <table class="tbl"><thead><tr><th>Activity</th><th>Effect</th></tr></thead><tbody>
-            <tr><td>Deforestation</td><td>Habitat loss, soil erosion, climate change, extinction of forest species</td></tr>
-            <tr><td>Pollution</td><td>Toxins harm organisms and <b>accumulate in food chains</b></td></tr>
-            <tr><td>Climate change</td><td>Changes temperature, rainfall, sea level; shifts species and productivity</td></tr>
-            <tr><td>Urbanisation</td><td><b>Habitat fragmentation</b>, loss of green space, more pollution and resource use</td></tr>
-            <tr><td>Overexploitation</td><td>Overfishing and mining cut resilience and can collapse networks</td></tr>
+          <p class="lead">Human activities have significantly altered ecosystems, often degrading their structure and function. These changes <b>reduce biodiversity</b> and disrupt ecological processes.</p>
+          <table class="tbl"><thead><tr><th>Activity</th><th>What it does to the ecosystem</th></tr></thead><tbody>
+            <tr><td><b>Deforestation</b></td><td>Causes habitat loss, soil erosion and changes in local and global climate, because trees hold soil, store carbon and return moisture to the air. It also leads to the <b>extinction</b> of many forest-dwelling species.</td></tr>
+            <tr><td><b>Pollution</b></td><td>Pollution of air, water and soil introduces toxic substances. These contaminants harm organisms and <b>accumulate in food chains</b>, so top consumers get the highest dose.</td></tr>
+            <tr><td><b>Climate change</b></td><td>Driven by greenhouse gas emissions, it alters temperature, rainfall and sea levels. This shifts where species can live and changes ecosystem productivity.</td></tr>
+            <tr><td><b>Urbanisation</b></td><td>Leads to <b>habitat fragmentation</b> and loss of green spaces, cutting habitats into small isolated patches. It also increases pollution and resource consumption.</td></tr>
+            <tr><td><b>Overexploitation</b></td><td>Taking resources faster than they recover, such as <b>overfishing and mining</b>, reduces ecosystem resilience and may lead to the collapse of ecological networks.</td></tr>
           </tbody></table>
-          <p>Fixes: sustainable practices, conservation, environmental education and policy enforcement.</p>
+          <p>To reduce human impact, <b>sustainable practices and conservation strategies</b> are needed, and <b>environmental education and policy enforcement</b> play a key role.</p>
           <h3>Ecosystem balance</h3>
           <p>Balance is the stable functioning of all biological and physical parts. It keeps food webs and resource cycles stable, preserves biodiversity, and runs carbon storage, nutrient cycling and <b>water filtration</b>. Losing it brings <b>invasive species outbreaks, collapse or loss of ecosystem services</b>. Balance supports agriculture, fisheries, climate regulation and disaster resilience.</p>
           <figure data-fig="m1-ecology-importance"></figure>
-          <p>Key functions of ecosystems: <b>energy flow, nutrient cycling, biodiversity maintenance, environmental regulation</b>. Their services range from food and water to climate control and recreation. The health of ecosystems reflects the health of the planet.</p>
+          <p>Key functions of ecosystems: <b>energy flow, nutrient cycling, biodiversity maintenance, environmental regulation</b>. Their services range from food and water to climate control and recreation, and these benefits support economic development and quality of life. Pollution, deforestation and climate change threaten ecosystem stability, and left unchecked they may cause <b>irreversible damage</b>. Understanding ecosystem structure and function enables informed decisions for conservation and sustainability and helps bridge science and policy. Protecting and restoring ecosystems keeps the planet liveable for future generations and is a <b>shared responsibility</b> of individuals, communities and governments. The health of ecosystems reflects the health of the planet.</p>
+        ` },
+        { title: 'Dynamics and succession', html: `
+          <p class="lead"><b>Ecosystem dynamics</b> refer to the natural changes that occur in ecosystems over time. These include species turnover, nutrient cycling and energy flow alterations.</p>
+          <ul>
+            <li><b>Ecological succession</b> is one major dynamic process: the gradual replacement of one biological community by another. It occurs after <b>disturbances</b> or on <b>newly formed habitats</b>.</li>
+            <li><b>Primary succession</b> happens in areas where no life previously existed, like <b>lava flows or glacial retreats</b>. It starts from bare rock or barren land, so soil has to form first.</li>
+            <li><b>Secondary succession</b> occurs in previously inhabited areas that experienced a disturbance, like <b>forest fires or floods</b>. Soil is already present, so it proceeds <b>faster</b>.</li>
+            <li>Over time, succession leads to a <b>climax community</b>, a stable and mature ecosystem. This is the end-point of succession under the given conditions.</li>
+            <li>Succession <b>increases biodiversity</b>, enhances nutrient availability and restores ecological function, which helps ecosystems recover from natural or human-induced damage.</li>
+            <li>Studying ecosystem dynamics informs <b>habitat restoration, land-use planning and climate resilience</b> strategies, and shows nature's capacity to heal and regenerate.</li>
+          </ul>
+          <p>The full details of succession (stages, seres, climax theories) are in the Ecological succession topic.</p>
+          <div class="note exam"><p>Long answer on "functions of an ecosystem": (1) productivity: primary (GPP, NPP), secondary, high vs low productivity ecosystems; (2) regulation: homeostasis, negative and positive feedback with their examples, what happens under severe disturbance; (3) dynamics and succession: primary vs secondary, climax community; (4) stability vs resilience with the pollinator, coral reef and grassland examples; (5) interdependence: biotic interactions and biotic–abiotic links; (6) human impact, activity by activity; (7) ecosystem balance and why it matters, ending with the four key functions: energy flow, nutrient cycling, biodiversity maintenance, environmental regulation.</p></div>
         ` }
       ],
       flashcards: [
@@ -593,7 +628,8 @@ CHUNK({
         { front: 'Overgrazing → erosion → less vegetation is which feedback?', back: '<b>Positive</b> (amplifying).' },
         { front: 'Stability vs resilience?', back: 'Stability = <b>resist change</b>; resilience = <b>recover</b> after disturbance.' },
         { front: 'Highly productive but less resilient ecosystem?', back: '<b>Coral reefs</b>.' },
-        { front: 'Pollinators and flowering plants show which interaction?', back: '<b>Mutualism</b>.' }
+        { front: 'Pollinators and flowering plants show which interaction?', back: '<b>Mutualism</b>.' },
+        { front: 'Why does secondary succession proceed faster than primary?', back: '<b>Soil is already present</b>; primary starts from bare rock (lava flows, glacial retreats).' }
       ],
       oneLiners: [
         'Rainforests and coral reefs: high productivity, high biodiversity.',
@@ -612,7 +648,7 @@ CHUNK({
       source: 'Energy flow lecture, pages 11–13',
       tabs: [
         { title: 'Diet efficiency', html: `
-          <p class="lead">The 10% law makes eating lower on the food chain far more efficient.</p>
+          <p class="lead">The 10% law has big implications for food production: eating lower on the food chain is far more efficient, because every extra trophic level throws away about 90% of the energy.</p>
           <ul>
             <li>Eating plants (T1): 10,000 kJ of plant energy → <b>10,000 kJ</b> to the human.</li>
             <li>Eating livestock (T2): 10,000 kJ → 1,000 kJ in the animal → <b>~100 kJ</b> to the human.</li>
@@ -689,7 +725,7 @@ CHUNK({
         { title: 'Primary succession', html: `
           <p class="lead">Starts on <b>bare rock or barren land</b> where no life existed, like <b>lava flows or glacial retreats</b>.</p>
           <ol class="steps">
-            <li><b>Pioneers arrive</b> <b>Lichens and mosses</b> attach to weathered rock.</li>
+            <li><b>Pioneers arrive</b> The slow process of soil formation begins with <b>pioneer or early successional species</b>, such as <b>lichens and mosses</b>, which arrive and attach themselves to inhospitable patches of weathered rock.</li>
             <li><b>Soil forms</b> They secrete mild chemicals and acids that penetrate rock and slowly make fertile soil.</li>
             <li><b>Mid-successional plants</b> Herbs, grasses and low shrubs grow once the soil is moist and fertile enough.</li>
             <li><b>Trees</b> Trees replace the shrubs over the next hundred to thousand years.</li>
@@ -711,11 +747,12 @@ CHUNK({
             <li><b>Climax</b> "Climax" or <b>stabilization</b>. Once the climax community holds, nothing changes further except by natural catastrophe or human intervention.</li>
           </ol>
           <div class="note heads-up"><p>The notes say succession "takes place via two steps" and then list four. Learn all four: nudation, invasion, competition, climax.</p></div>
-          <table class="tbl"><thead><tr><th>Sere</th><th>Starts in</th></tr></thead><tbody>
-            <tr><td><b>Hydrosere</b></td><td>Water</td></tr>
-            <tr><td><b>Xerosere</b></td><td>Dry, waterless environment</td></tr>
-            <tr><td><b>Lithosere</b></td><td>Rocks</td></tr>
-            <tr><td><b>Halosere</b></td><td>Saline environment</td></tr>
+          <p>There are several other types of succession as well, named after the environment the succession starts in:</p>
+          <table class="tbl"><thead><tr><th>Type (sere)</th><th>Where it starts</th></tr></thead><tbody>
+            <tr><td><b>Hydrosere</b></td><td>Succession starting in a <b>water</b> environment, such as a pond or lake.</td></tr>
+            <tr><td><b>Xerosere</b></td><td>Succession starting in a <b>dry, waterless</b> environment.</td></tr>
+            <tr><td><b>Lithosere</b></td><td>Succession starting on <b>rocks</b>.</td></tr>
+            <tr><td><b>Halosere</b></td><td>Succession starting in a <b>saline</b> (salty) environment.</td></tr>
           </tbody></table>
         ` },
         { title: 'Climax theories and pioneers', html: `
@@ -725,21 +762,34 @@ CHUNK({
           </div>
           <div class="note heads-up"><p>The notes' sentence on polyclimax is garbled ("does not consist of numerous type vegetation controlled by many factors"). The standard idea is that a region can hold several climax communities controlled by many factors (soil, moisture, fire and so on). The ecologist's name is usually spelled Clements.</p></div>
           <h3>Features of pioneer species</h3>
-          <div class="chips"><span class="chip">Explore new habitats</span><span class="chip">Agile</span><span class="chip">Adapt easily</span><span class="chip">Wide choice of food</span><span class="chip">Good breeders</span><span class="chip">Tolerant</span></div>
-          <p>Succession shows how a new community is established, reveals the factors behind it, and helps <b>conserve the climax community</b>.</p>
+          <p>Pioneers are the first to settle bare land, so they must survive where nothing else can. A pioneer species should:</p>
+          <ul>
+            <li>have the habit of <b>exploring new habitats</b>, so it reaches bare areas first;</li>
+            <li>be <b>agile</b> in nature, able to move into and spread over the new area;</li>
+            <li>have a greater <b>ability to adapt</b> to a new environment, since bare land is harsh and unfamiliar;</li>
+            <li>have a <b>wide choice of food</b>, because little food is available at the start;</li>
+            <li>be a <b>good breeder</b>, so its numbers build up fast;</li>
+            <li>be a <b>tolerant</b> species, able to bear extreme heat, cold, drought and poor soil.</li>
+          </ul>
+          <h3>Conclusion from the notes</h3>
+          <p>The process of succession shows <b>how a new community is established</b>. By studying succession and the species of an area, the <b>factors responsible for succession</b> can be determined. Succession also helps us in the <b>conservation of the climax community</b>.</p>
         ` },
         { title: 'Primary vs secondary', html: `
+          <p class="lead">Drag through time below to watch bare rock and cleared land each reach a climax community, then use the table for the exam comparison.</p>
+          <div data-viz="succession"></div>
           <table class="tbl"><thead><tr><th></th><th>Primary</th><th>Secondary</th></tr></thead><tbody>
-            <tr><td>Starts on</td><td>Barren, uninhabited land</td><td>Recently denuded, previously inhabited land</td></tr>
-            <tr><td>Time</td><td><b>~1000 years</b> or more</td><td><b>50–200 years</b></td></tr>
-            <tr><td>Conditions</td><td>Least suitable; no soil or soil without nutrients</td><td>Soil present, maybe some nutrients</td></tr>
-            <tr><td>Humus</td><td><b>Absent</b></td><td><b>Present</b> (from earlier inhabitants)</td></tr>
-            <tr><td>Seral communities</td><td>Several intermediate stages</td><td>Fewer</td></tr>
-            <tr><td>Environment at start</td><td>Unfavourable</td><td>More or less favourable</td></tr>
-            <tr><td>Reproductive structures</td><td>Start from the first species to arrive</td><td>Shaped by the previous community</td></tr>
-            <tr><td>Examples</td><td>Bare rock, ponds, desert, lava-filled land</td><td>Land hit by natural calamities or deforestation</td></tr>
+            <tr><td>Meaning</td><td>Succession that starts from <b>barren or uninhabited land</b>.</td><td>Succession that occurs in a habitat <b>where life existed previously</b>.</td></tr>
+            <tr><td>Occurs in</td><td>Lifeless or barren areas.</td><td>Recently denuded or previously inhabited areas.</td></tr>
+            <tr><td>Time to complete</td><td>Takes around <b>1000 years</b>, which may be more, because soil must first be built from rock.</td><td>Takes place in <b>50 to 200 years</b>, because soil is already there.</td></tr>
+            <tr><td>Physical conditions</td><td>Least suitable for the survival of life; the soil is devoid of nutrients or there is no soil at all.</td><td>Since life once existed, soil is present and may even hold some nutrients.</td></tr>
+            <tr><td>Humus</td><td><b>Absent</b>, as nothing has lived and died there yet.</td><td><b>Present</b>, due to the previous inhabitants.</td></tr>
+            <tr><td>Seral communities</td><td>There are <b>several</b> intermediary seral communities.</td><td><b>Fewer</b> intermediary seral communities than in primary succession.</td></tr>
+            <tr><td>Environment</td><td>Begins with an <b>unfavourable</b> environment.</td><td>The environment is more or less <b>favourable</b> right from the beginning.</td></tr>
+            <tr><td>Reproduction</td><td>There is no previous community, so the reproductive structure starts from the first inhabiting species.</td><td>The reproductive structure differs because previous communities were present in the habitat (seeds and roots survive in the soil).</td></tr>
+            <tr><td>Examples</td><td>Bare rock, ponds, desert, lava-filled lands.</td><td>Areas affected by natural calamities or cleared by deforestation.</td></tr>
           </tbody></table>
           <div class="note why"><p>Every row comes back to soil. Primary succession has to build soil from rock first; secondary starts with soil, humus and buried seeds already in place, so it is faster.</p></div>
+          <div class="note exam"><p>Long answer on "ecological succession": (1) definition (community development) and why it matters for managing ecosystems; (2) the two classifications: by timescale (geological/paleo-ecological vs medium, 1–1000 years) and primary vs secondary; (3) primary succession on rock with lichens and mosses, mid-successional plants and trees; (4) secondary succession with the North Carolina farmland example and why it is 5–10 times faster; (5) the four stages: nudation, invasion, competition, climax; (6) hydrosere, xerosere, lithosere, halosere; (7) monoclimax (Clemens) and polyclimax (Tansley); (8) features of pioneer species; (9) the primary vs secondary table; (10) the three-line conclusion.</p></div>
         ` }
       ],
       flashcards: [

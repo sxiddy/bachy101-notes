@@ -31,7 +31,8 @@ const rows = [];
 const all = {};
 for (const m of mods) for (const L of m.lectures) {
   const src = fs.readFileSync(lectureFile(L.n), 'utf8').replace(/=== page \d+ ===/g, '\n');
-  const noteText = L.topics.map((id) => {
+  // a lecture may repeat material that lives in another lecture's topics, so match against the whole week's notes
+  const noteText = m.lectures.flatMap((x) => x.topics).map((id) => {
     const t = topics[id]; if (!t) return '';
     return [t.title, t.blurb, ...t.tabs.map((x) => plain(x.html)), ...(t.flashcards || []).map((c) => plain(c.front + ' ' + c.back)), ...(t.oneLiners || []).map(plain)].join(' ');
   }).join(' ');

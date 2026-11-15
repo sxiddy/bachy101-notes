@@ -52,19 +52,21 @@ CHUNK({
           </ol>
         ` },
         { title: 'Multidisciplinary approach', html: `
-          <p class="lead">Environmental problems are complex and interconnected, so no single subject can understand or solve them. A <b>multidisciplinary approach</b> integrates knowledge and methods from many disciplines.</p>
-          <p>EVS deals with every issue that affects an organism. It builds an appreciation of the natural world and of human impacts on it. It is an <b>applied science</b> because it looks for practical ways to make human civilisation sustainable on the Earth's <b>finite resources</b>.</p>
-          <table class="tbl"><thead><tr><th>Discipline</th><th>Contribution</th></tr></thead><tbody>
-            <tr><td>Biology</td><td>Ecosystems, biodiversity, species interactions</td></tr>
-            <tr><td>Chemistry</td><td>Pollution, chemical cycles (carbon, nitrogen), toxicity</td></tr>
-            <tr><td>Physics</td><td>Energy flow, climate modelling, solar radiation</td></tr>
-            <tr><td>Geology</td><td>Soil, minerals, natural disasters, landforms</td></tr>
-            <tr><td>Geography</td><td>Mapping, spatial relationships, environmental planning</td></tr>
-            <tr><td>Economics</td><td>Cost-benefit analysis, resource management, sustainable development</td></tr>
-            <tr><td>Political science</td><td>Environmental laws, international treaties, policy-making</td></tr>
-            <tr><td>Sociology</td><td>Human behaviour, cultural impact, public awareness</td></tr>
-            <tr><td>Engineering</td><td>Pollution control technologies, renewable energy systems</td></tr>
-            <tr><td>Ethics / philosophy</td><td>Moral responsibility, environmental justice</td></tr>
+          <p class="lead">A <b>multidisciplinary approach</b> involves integrating knowledge and methods from different academic disciplines to understand and address environmental problems.</p>
+          <p>Environmental studies deals with the interaction between humans and the environment. Environmental issues are <b>complex and interconnected</b>, so they cannot be fully understood or solved using knowledge from just one discipline. That is why a multidisciplinary approach becomes essential.</p>
+          <p>Environmental studies deals with <b>every issue that affects an organism</b>. It is essentially a multidisciplinary approach that brings about an appreciation of our natural world and of human impacts on its integrity. It is an <b>applied science</b> because it seeks practical answers to making human civilisation sustainable on the Earth's <b>finite resources</b>.</p>
+          <h3>Disciplines involved</h3>
+          <table class="tbl"><thead><tr><th>Discipline</th><th>What it contributes</th></tr></thead><tbody>
+            <tr><td><b>Biology</b></td><td>Understanding ecosystems, biodiversity and species interactions, the living side of every problem.</td></tr>
+            <tr><td><b>Chemistry</b></td><td>Studying pollution, chemical cycles (carbon, nitrogen) and toxicity, since pollutants are chemicals.</td></tr>
+            <tr><td><b>Physics</b></td><td>Energy flow, climate modelling and solar radiation.</td></tr>
+            <tr><td><b>Geology</b></td><td>Understanding soil, minerals, natural disasters and landforms.</td></tr>
+            <tr><td><b>Geography</b></td><td>Mapping, spatial relationships and environmental planning, so we know where problems are.</td></tr>
+            <tr><td><b>Economics</b></td><td>Cost-benefit analysis, resource management and sustainable development.</td></tr>
+            <tr><td><b>Political science</b></td><td>Environmental laws, international treaties and policy-making.</td></tr>
+            <tr><td><b>Sociology</b></td><td>Human behaviour, cultural impact on the environment and public awareness.</td></tr>
+            <tr><td><b>Engineering</b></td><td>Designing pollution control technologies and renewable energy systems.</td></tr>
+            <tr><td><b>Ethics / philosophy</b></td><td>Moral responsibility and environmental justice.</td></tr>
           </tbody></table>
         ` },
         { title: 'Why many subjects', html: `
@@ -110,75 +112,83 @@ CHUNK({
       blurb: 'Eight issues with their causes, effects and Indian examples, the global picture with its numbers, India\'s situation, and loss of biodiversity.',
       source: 'Lecture W1S1, pages 5–11',
       tabs: [
-        { title: 'Climate change, deforestation', html: `
-          <p class="lead">Each issue is taught as <b>cause → effects → example</b>. Learn the example, it is the easiest mark.</p>
+        { title: 'Climate change', html: `
+          <p class="lead">Each issue is taught as <b>cause → effects → example</b>. Write it in that order in the exam, and always finish with the example.</p>
           <h3>1. Climate change</h3>
-          <div class="kv">
-            <div><span>Cause</span><b>Greenhouse gases</b> (CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O) from fossil fuel burning, deforestation, industrial processes</div>
-            <div><span>Example</span>IPCC: average global temperature up by about <b>1.1 °C</b> since pre-industrial times</div>
-          </div>
+          <p><b>Cause.</b> Emission of <b>greenhouse gases</b> (CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O) from <b>fossil fuel burning, deforestation and industrial processes</b>. These gases trap heat in the atmosphere, so more of them means a warmer planet.</p>
+          <p><b>Effects.</b></p>
           <ul>
-            <li>Rising global temperatures (<b>global warming</b>)</li>
-            <li>Melting ice caps and <b>rising sea levels</b></li>
-            <li>Severe weather: droughts, floods, hurricanes</li>
-            <li>Effects on biodiversity and farming</li>
+            <li><b>Increasing global temperatures</b>, which is what we call global warming.</li>
+            <li><b>Melting ice caps and rising sea levels</b>, because the extra heat melts ice and the melt water adds to the oceans.</li>
+            <li><b>Severe weather occurrences</b> such as droughts, floods and hurricanes become more common.</li>
+            <li><b>Influence on biodiversity and farming</b>, since species and crops are adapted to a certain climate and suffer when it shifts.</li>
           </ul>
+          <div class="note example"><p>IPCC reports suggest that the average global temperature has risen by approximately <b>1.1 °C</b> since pre-industrial times.</p></div>
+        ` },
+        { title: 'Deforestation', html: `
           <h3>2. Deforestation</h3>
-          <div class="kv">
-            <div><span>Cause</span>Logging, agriculture, urban expansion, mining</div>
-            <div><span>Example</span><b>Amazon rainforest</b> deforestation adds significantly to global carbon emissions</div>
-          </div>
+          <p><b>Cause.</b> Forests are cleared for <b>logging, agriculture, urban expansion and mining</b>.</p>
+          <p><b>Effects.</b></p>
           <ul>
-            <li>Loss of biodiversity and habitats</li>
-            <li>Disruption of the <b>water cycle</b></li>
-            <li>More CO<sub>2</sub> because <b>carbon sinks</b> are lost</li>
-            <li>Soil erosion and <b>desertification</b></li>
+            <li><b>Loss of biodiversity and habitats</b>: animals and plants that live in the forest lose their home.</li>
+            <li><b>Disruption of the water cycle</b>: trees return water to the air, so fewer trees means less moisture and changed rainfall.</li>
+            <li><b>Increased CO<sub>2</sub> levels</b> due to the <b>loss of carbon sinks</b>: forests absorb CO<sub>2</sub>, and cutting or burning them releases the stored carbon.</li>
+            <li><b>Soil erosion and desertification</b>: without roots holding it, the soil washes or blows away and land can turn to desert.</li>
           </ul>
+          <div class="note example"><p><b>Amazon rainforest</b> deforestation contributes significantly to global carbon emissions.</p></div>
         ` },
         { title: 'Waste, air and water', html: `
           <h3>3. Waste management</h3>
-          <div class="kv">
-            <div><span>Types</span>Municipal solid waste, plastic waste, organic waste, landfill overflow</div>
-            <div><span>Example</span>CPCB (2021): India produces over <b>150,000 tonnes</b> of municipal solid waste each day</div>
-          </div>
-          <div class="vs">
-            <div class="side"><h4>Issues</h4><ul><li>Landfills overflowing</li><li><b>Methane</b> from decomposing organic material</li><li>Poor segregation and recycling</li></ul></div>
-            <div class="side"><h4>Remedies</h4><ul><li><b>Reduce-Reuse-Recycle</b> (3Rs)</li><li>Composting and <b>waste-to-energy</b></li></ul></div>
-          </div>
+          <p><b>Types of waste:</b> municipal solid waste, plastic waste, organic waste, and landfill overflow.</p>
+          <p><b>Issues.</b></p>
+          <ul>
+            <li><b>Landfills overflowing</b>, because waste is produced faster than it is dealt with.</li>
+            <li><b>Methane</b> released from decomposing organic materials, a greenhouse gas that adds to climate change.</li>
+            <li><b>Inadequate segregation and recycling</b>, so mixed waste ends up dumped instead of reused.</li>
+          </ul>
+          <p><b>Remedies.</b> Follow the <b>Reduce-Reuse-Recycle (3Rs)</b> to cut the amount of waste, and use <b>composting and waste-to-energy</b> methods to turn organic waste into manure or energy.</p>
+          <div class="note example"><p>According to the <b>CPCB (2021)</b>, India produces over <b>150,000 tonnes</b> of municipal solid waste each day.</p></div>
           <h3>4. Industrial and vehicular pollution</h3>
-          <div class="kv">
-            <div><span>Industrial</span>Emissions, effluents, particulate matter (<b>PM2.5, PM10</b>)</div>
-            <div><span>Vehicular</span><b>CO, NOx, hydrocarbons</b> from combustion engines</div>
-            <div><span>Effects</span>Respiratory disease, smog, <b>acid rain</b>; contaminated air, water and soil</div>
-            <div><span>Example</span><b>Delhi</b> often ranks among the world's most polluted cities (vehicles + industry)</div>
-          </div>
+          <p><b>Causes.</b> Industries release <b>emissions, effluents and particulate matter (PM2.5, PM10)</b>. Vehicles release <b>CO, NOx and hydrocarbons</b> from their combustion engines.</p>
+          <p><b>Effects.</b> These pollutants cause <b>respiratory diseases, smog formation and acid rain</b>, and they contaminate <b>air, water and soil</b>.</p>
+          <div class="note example"><p><b>Delhi</b> often ranks among the world's most polluted cities due to vehicular emissions and industrial activity.</p></div>
           <h3>5. Water pollution</h3>
-          <div class="kv">
-            <div><span>Cause</span>Agricultural runoff with pesticides and fertilizers (<b>nitrates, phosphates</b>); industrial effluents and sewage</div>
-            <div><span>Effects</span><b>Eutrophication</b>, contaminated drinking water; cancer, reproductive issues, endocrine disruption</div>
-            <div><span>Example</span><b>Punjab</b> groundwater with pesticide residues like <b>Endosulfan and DDT</b></div>
-          </div>
+          <p><b>Causes.</b></p>
+          <ul>
+            <li><b>Agricultural runoff</b> containing pesticides and fertilizers (<b>nitrates, phosphates</b>), washed from fields into rivers and lakes.</li>
+            <li><b>Dumping of industrial effluents and sewage</b> straight into water bodies.</li>
+          </ul>
+          <p><b>Effects.</b></p>
+          <ul>
+            <li><b>Eutrophication</b> of water bodies: the extra nitrates and phosphates feed heavy algal growth.</li>
+            <li><b>Contamination of drinking water</b> sources.</li>
+            <li><b>Health impacts</b>: cancer, reproductive issues and endocrine disruption.</li>
+          </ul>
+          <div class="note example"><p>Pollution of <b>Punjab's groundwater</b> with pesticide residues like <b>Endosulfan and DDT</b>.</p></div>
         ` },
         { title: 'Hazardous, crackers, e-waste', html: `
           <h3>6. Hazardous waste</h3>
-          <div class="vs">
-            <div class="side"><h4>a. Tannery sludge</h4><p>Cause: improper disposal of <b>chromium</b>-laden sludge from leather tanneries.</p><p>Effects: heavy metals in soil and groundwater; toxic to agriculture and health.</p><p>Example: <b>Ranipet (Tamil Nadu)</b>, severe chromium pollution in groundwater from old tannery dumps.</p></div>
-            <div class="side"><h4>b. Biomedical waste</h4><p>Sources: hospitals, clinics, labs.</p><p>Hazards: infections (<b>HIV, hepatitis</b>), toxic chemicals, radioactive material.</p><p>Management: <b>segregation, incineration, autoclaving</b>.</p><p>Example: <b>COVID-19</b> caused a surge that strained disposal systems.</p></div>
-          </div>
+          <p><b>a. Tannery sludge dumping.</b> The cause is improper disposal of <b>chromium</b>-laden sludge from leather tanneries. Its effects are soil and groundwater contamination with <b>heavy metals</b>, and toxic effects on agriculture and human health.</p>
+          <div class="note example"><p><b>Ranipet (Tamil Nadu)</b>: severe chromium pollution in groundwater from old tannery waste dumps.</p></div>
+          <p><b>b. Biomedical waste.</b> It comes from <b>hospitals, clinics and laboratories</b>. Its hazards are <b>infections (HIV, hepatitis)</b> and toxic chemicals and radioactive material. It is managed by <b>segregation, incineration and autoclaving</b>.</p>
+          <div class="note example"><p><b>COVID-19</b> led to a surge in biomedical waste, straining disposal systems.</p></div>
           <h3>7. Cracking down on crackers</h3>
+          <p><b>Issue.</b> Firecrackers emit heavy smoke, particulate matter and toxic gases (<b>SO<sub>2</sub>, NO, Pb</b>).</p>
           <ul>
-            <li>Issue: heavy smoke, particulate matter and toxic gases (<b>SO<sub>2</sub>, NO, Pb</b>).</li>
-            <li>Effects: air pollution spikes during festivals (Diwali), respiratory distress in vulnerable people, <b>noise</b> that affects animals and the elderly.</li>
-            <li>Response: <b>Supreme Court</b> bans or limits crackers; <b>green crackers</b> promoted.</li>
-            <li>Example: Delhi's AQI reaches <b>"Severe"</b> after Diwali night every year.</li>
+            <li><b>Air pollution spikes</b> during festivals such as Diwali.</li>
+            <li><b>Respiratory distress</b> in vulnerable populations.</li>
+            <li><b>Noise pollution</b> that affects animals and the elderly.</li>
           </ul>
+          <p><b>Response.</b> The <b>Supreme Court</b> bans or limits crackers, and <b>green crackers</b> are promoted.</p>
+          <div class="note example"><p>AQI levels in Delhi reach <b>"Severe"</b> after Diwali night every year.</p></div>
           <h3>8. E-waste</h3>
+          <p><b>Sources.</b> Discarded electronic devices such as mobiles, computers and TVs.</p>
           <ul>
-            <li>Sources: discarded mobiles, computers, TVs.</li>
-            <li>Hazards: <b>lead, mercury, cadmium</b> leach into soil and water; informal recycling harms workers.</li>
-            <li>Solutions: formal recycling centres, <b>extended producer responsibility (EPR)</b>.</li>
-            <li>Example: India is the <b>third-largest</b> e-waste generator, over <b>1 million tonnes/year</b> (CPCB, 2020).</li>
+            <li><b>Toxic metals</b> (lead, mercury, cadmium) leach into soil and water when the devices are dumped.</li>
+            <li><b>Informal recycling</b> causes health hazards to workers, who handle these metals without protection.</li>
           </ul>
+          <p><b>Solutions.</b> <b>Formal recycling centres</b> and <b>extended producer responsibility (EPR)</b>, which makes the producer responsible for its products once they are thrown away.</p>
+          <div class="note example"><p>India is the <b>third-largest</b> generator of e-waste, producing over <b>1 million tonnes/year</b> (CPCB, 2020).</p></div>
         ` },
         { title: 'Global scenario', html: `
           <p class="lead">The international picture is five problems, each with one number to remember.</p>
@@ -204,6 +214,7 @@ CHUNK({
           <h3>Loss of biodiversity</h3>
           <p>The decline or disappearance of plant, animal and microorganism species from Earth. Main causes: <b>habitat destruction, pollution, climate change, overexploitation, invasive species</b>. It weakens ecosystems, disturbs food chains and reduces nature's ability to support life, including ours.</p>
           <p>The lecture closes on the same point: these problems are woven from many threads, so a multidisciplinary approach gives integrated, sustainable solutions that balance ecological health with human needs.</p>
+          <div class="note exam"><p>Long answer on "major environmental issues": take each issue as a heading (climate change, deforestation, waste management, industrial and vehicular pollution, water pollution, hazardous waste, crackers, e-waste) and write cause → effects → remedy (if given) → example. Then add the global scenario with its five numbers, India's situation with its numbers, and end with loss of biodiversity (definition, causes, effects) and why the problems need a multidisciplinary approach.</p></div>
         ` }
       ],
       flashcards: [
@@ -341,6 +352,7 @@ CHUNK({
           </ol>
           <p>The cycle distributes water, supports life and shapes weather.</p>
           <figure data-fig="m1-water-cycle-spheres"></figure>
+          <div class="note exam"><p>Long answer on "Earth as a life support system" (atmosphere and hydrosphere part): (1) the four resources and their spheres with root words, and how the biosphere depends on the other three; (2) define the atmosphere, its functions and the 78/21/1 composition; (3) each layer in order with height, temperature trend and its reason, key feature and boundary (tropopause, stratopause, mesopause); (4) define the hydrosphere with the 97/2/1 split and its roles; (5) the five steps of the water cycle. Then continue with the geosphere and biosphere.</p></div>
         ` }
       ],
       flashcards: [
@@ -415,6 +427,7 @@ CHUNK({
             <tr><td>Hydrosphere</td><td>Rivers <b>erode landforms</b> and carry sediment, shaping valleys and coasts; groundwater moving through rock affects erosion and mineral distribution.</td></tr>
             <tr><td>Biosphere</td><td><b>Roots break rocks</b> and add organic matter to soil; burrowing animals change soil structure.</td></tr>
           </tbody></table>
+          <div class="note exam"><p>Long answer on the geosphere: (1) definition (solid Earth from inner core to crust) and its role in plate tectonics, mountain formation and erosion; (2) interior layers: inner core, outer core, mantle, crust, one line each; (3) rocks (three types), minerals (three properties), soil (how it forms, what it contains), landforms; (4) the three geological processes; (5) four points of importance; (6) interactions with atmosphere, hydrosphere and biosphere, one example each.</p></div>
         ` }
       ],
       flashcards: [
@@ -468,6 +481,7 @@ CHUNK({
             <tr><td>Oxygen</td><td>Plants make O<sub>2</sub> in photosynthesis; animals use it and release CO<sub>2</sub>, which plants reuse. A balanced oxygen–carbon loop.</td></tr>
             <tr><td>Phosphorus</td><td>Organisms take phosphorus from soil and use it in <b>DNA and energy transfer</b>; decomposers return it to the soil.</td></tr>
           </tbody></table>
+          <div class="note exam"><p>Long answer on the biosphere: (1) definition (global sum of all ecosystems, bacteria to whales, across land, water and air); (2) living components: plants as producers, animals as consumers, microorganisms as decomposers; (3) define an ecosystem and give the five examples; (4) the three functions; (5) how living things run the carbon, nitrogen, oxygen and phosphorus cycles, two lines each.</p></div>
         ` }
       ],
       flashcards: [
