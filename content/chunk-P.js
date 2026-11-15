@@ -81,7 +81,7 @@ CHUNK({
         { title: 'Checking delivery', html: `
           <ul>
             <li><b>Enhanced Transparency Framework</b>: all parties report emissions, NDC progress and finance flows.</li>
-            <li><b>Global Stocktake</b>: collective review <b>every five years</b>. The first, at <b>COP28 Dubai, 2023</b>, found current NDCs far from enough for 1.5°C.</li>
+            <li><b>Global Stocktake</b>: collective review <b>every five years</b>. The first, at <b>COP28 Dubai, 2023</b>, found current NDCs far from enough for 1.5°C. That finding is expected to push countries to set <b>more ambitious NDCs</b> in the next round.</li>
           </ul>
           <h4>Is it binding?</h4>
           <ul>

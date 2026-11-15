@@ -12,11 +12,12 @@ CHUNK({
         { title: 'Greenhouse effect', html: `
           <p class="lead">The greenhouse effect is <b>natural and essential</b>. Sunlight warms the surface, the surface radiates heat upward, and greenhouse gases absorb it and send some back down. Without it Earth would average about <b>−18°C</b>.</p>
           <div class="vs">
-            <div class="side"><h4>Natural</h4><p>Beneficial and needed for life.</p></div>
-            <div class="side"><h4>Enhanced</h4><p>Extra gases from <b>human emissions</b>: the real problem.</p></div>
+            <div class="side"><h4>Natural</h4><p>The natural greenhouse effect is <b>beneficial and necessary for life</b>. The normal blanket of gases keeps Earth warm enough to live on instead of frozen at −18°C.</p></div>
+            <div class="side"><h4>Enhanced</h4><p>The enhanced greenhouse effect is caused by <b>human emissions</b> and is the actual problem. The extra gases trap more outgoing heat than before, so the surface keeps warming.</p></div>
           </div>
+          <div data-viz="greenhouse-effect"></div>
           <div class="mnemonic">One blanket keeps you warm; five blankets make you overheat. Human emissions are the extra blankets.</div>
-          <p><b>Key gases</b>: CO₂, methane, nitrous oxide, water vapour. CO₂ is the headline gas (coal, oil, gas). Methane is shorter-lived but about <b>84 times</b> CO₂'s warming power over <b>20 years</b>.</p>
+          <p><b>Key gases</b>: CO₂, methane, nitrous oxide, water vapour. CO₂ is the headline gas, the main one being added by burning coal, oil and gas. Methane is shorter-lived in the air but far stronger, about <b>84 times</b> CO₂'s warming power over <b>20 years</b>.</p>
           <div class="note heads-up">The Kyoto lecture gives methane as 28–36 times CO₂ over <b>100</b> years. Both are right; the time horizon differs.</div>
         ` },
         { title: 'Four pillars of evidence', html: `
@@ -60,17 +61,19 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Human cause</th><th>Detail</th><th>Share</th></tr></thead>
             <tbody>
-              <tr><td><b>Fossil fuels</b></td><td>Coal, oil, gas for power, industry, transport. Biggest source</td><td>About <b>75%</b></td></tr>
-              <tr><td><b>Deforestation</b></td><td>Releases stored carbon and cuts sink capacity</td><td><b>10–15%</b></td></tr>
-              <tr><td><b>Agriculture</b></td><td>Livestock and rice paddies give methane; fertilisers give nitrous oxide</td><td></td></tr>
-              <tr><td><b>Industry</b></td><td>Cement and steel; cement alone</td><td>About <b>8%</b></td></tr>
+              <tr><td><b>Fossil fuels</b></td><td>Burning coal, oil and gas for electricity, industry and transport. It is the single biggest source of greenhouse gases.</td><td>About <b>75%</b></td></tr>
+              <tr><td><b>Deforestation</b></td><td>Forests are carbon sinks that absorb CO₂. Cutting or burning them releases the stored carbon and also reduces how much CO₂ can be soaked up later.</td><td><b>10–15%</b></td></tr>
+              <tr><td><b>Agriculture</b></td><td>Livestock give off methane during digestion, flooded rice paddies emit methane, and nitrogen fertilisers release nitrous oxide.</td><td>Not given</td></tr>
+              <tr><td><b>Industry</b></td><td>Cement and steel making add a lot of CO₂. Cement production alone is about 8% of global emissions.</td><td>About <b>8%</b> (cement)</td></tr>
             </tbody>
           </table>
+          <p>The main driver of today's climate change is <b>human activity</b>.</p>
           <h4>Natural factors can't explain it</h4>
           <ul>
             <li>Volcanoes, solar output and <b>Milankovitch</b> orbital cycles shaped climate over geological time.</li>
             <li>But <b>solar output has slightly fallen since the 1980s</b> while temperatures rose.</li>
-            <li>Volcanoes cause only <b>short-term cooling</b>.</li>
+            <li>Volcanoes cause only <b>short-term cooling</b>, not long-term warming.</li>
+            <li>So natural factors alone cannot explain the <b>rate and pattern</b> of the warming we see now. The signal is clearly human in origin.</li>
           </ul>
         ` },
         { title: 'Consequences', html: `
@@ -80,8 +83,10 @@ CHUNK({
             <li><b>Ecosystems</b>: coral reefs hold about <b>25% of marine species</b>, bleach at <b>1°C</b> above normal summer temperatures; at <b>2°C</b> over <b>99%</b> of tropical reefs are badly degraded.</li>
             <li><b>Food</b>: lower wheat, rice and maize yields in the tropics; risk in Sub-Saharan Africa and South Asia.</li>
             <li><b>Health</b>: heat illness, malaria and dengue spreading, worse air.</li>
-            <li><b>India</b>: heatwaves, <b>monsoon disruption</b> (a billion people depend on it), <b>Himalayan glacier melt</b>, coastal sea level rise.</li>
+            <li><b>India</b>: heatwaves, <b>monsoon disruption</b> (over a billion people depend on it for farming and fresh water), <b>Himalayan glacier melt</b>, coastal sea level rise.</li>
           </ul>
+          <p>These effects are not a future problem. Many are <b>already visible</b> and they add up over time.</p>
+          <div class="note exam">For a long answer on causes and consequences: (1) one line that the main driver is human activity; (2) human causes with shares: fossil fuels about 75%, deforestation 10–15%, agriculture (methane, nitrous oxide), cement about 8%; (3) why natural factors (sun, volcanoes, Milankovitch cycles) can't explain it; (4) consequences under headings: weather extremes, sea level, ecosystems (corals), food security, health; (5) end with India's regional risks.</div>
         ` }
       ],
       flashcards: [
@@ -108,17 +113,18 @@ CHUNK({
       tabs: [
         { title: 'Two strategies', html: `
           <div class="vs">
-            <div class="side"><h4>Mitigation</h4><p>Cut the emissions causing the problem.</p><ul><li><b>Energy transition</b> to solar, wind, hydro</li><li>Efficiency: buildings, motors, transport</li><li><b>Carbon capture</b> for cement and steel</li></ul></div>
-            <div class="side"><h4>Adaptation</h4><p>Cope with changes already under way.</p><ul><li>Flood defences</li><li>Climate-resilient roads and bridges</li><li>Drought-resistant water supply</li><li>Heat-resilient cities: green roofs, trees, cool pavements</li></ul></div>
+            <div class="side"><h4>Mitigation</h4><p>Mitigation <b>reduces the emissions</b> causing the problem.</p><ul><li>The <b>energy transition</b> is the centrepiece: replacing fossil fuel power with solar, wind, hydro and other renewables. India is doing this at scale, with some of the world's largest solar installations and an ambitious renewable target.</li><li><b>Energy efficiency</b> matters a lot: well-designed buildings, efficient motors and optimised transport all cut demand, and so cut emissions.</li><li><b>Carbon capture</b> removes CO₂ from the air or catches it at industrial sources. It is a growing field and may be essential for hard-to-decarbonise industries like cement and steel.</li></ul></div>
+            <div class="side"><h4>Adaptation</h4><p>Adaptation means <b>designing systems that cope</b> with changes already under way. It is basically an engineering job.</p><ul><li><b>Flood defences</b> protect towns from heavier rain and storm surges.</li><li><b>Climate-resilient roads and bridges</b> are designed for the floods and heat they will now face.</li><li><b>Drought-resistant water supply</b> keeps water flowing through longer dry spells.</li><li><b>Heat-resilient cities</b> use green roofs, urban trees and cool pavements to keep streets cooler.</li></ul></div>
           </div>
-          <p>Building codes, drainage standards and coastal zone planning are being revised for a changing climate.</p>
+          <p>The two are <b>complementary</b>: you need both. Every new infrastructure project must be designed with climate risk in mind, and building codes, drainage standards and coastal zone planning are being revised worldwide for a changing climate.</p>
         ` },
         { title: 'Policy and takeaways', html: `
           <ul>
             <li><b>Paris Agreement</b>: well below 2°C, ideally 1.5°C.</li>
             <li><b>India: net zero by 2070</b>, with fast renewable growth and some of the world's largest solar parks.</li>
-            <li><b>IPCC</b> synthesises the science for policy.</li>
+            <li><b>IPCC</b> synthesises the underlying science and informs global climate policy.</li>
           </ul>
+          <p>Key takeaways:</p>
           <ol>
             <li>The natural greenhouse effect is needed; its enhancement is the problem.</li>
             <li>Evidence comes from temperature, CO₂, ice cores and oceans.</li>
@@ -127,6 +133,7 @@ CHUNK({
             <li>Solutions exist and engineers deliver them.</li>
             <li>Treaties give the policy frame; engineering gives the technical fixes.</li>
           </ol>
+          <div class="note exam">For a long answer on responding to climate change: (1) define mitigation and adaptation and say they are complementary; (2) mitigation: energy transition (India's solar), efficiency, carbon capture for cement and steel; (3) adaptation with engineering examples: flood defences, resilient roads and bridges, drought-proof water supply, heat-resilient cities; (4) revised codes and planning; (5) policy: Paris (well below 2°C, ideally 1.5°C), India net zero by 2070, IPCC.</div>
         ` }
       ],
       flashcards: [

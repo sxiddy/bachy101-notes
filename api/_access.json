@@ -60,8 +60,13 @@
   "pro-T.js",
   "pro-U.js",
   "qa-M5.js",
+  "viz-m1-cycles.js",
   "viz-m1.js",
-  "viz-m3.js"
+  "viz-m2.js",
+  "viz-m3-water.js",
+  "viz-m3.js",
+  "viz-m4.js",
+  "viz-m5.js"
  ],
  "freeModules": [
   "m1",
@@ -155,7 +160,12 @@
   "q-M5.js": "m5",
   "qa-M5.js": "m5",
   "summary-m5.js": "m5",
+  "viz-m1-cycles.js": "m1",
   "viz-m1.js": "m1",
-  "viz-m3.js": "m3"
+  "viz-m2.js": "m2",
+  "viz-m3-water.js": "m3",
+  "viz-m3.js": "m3",
+  "viz-m4.js": "m4",
+  "viz-m5.js": "m5"
  }
 }

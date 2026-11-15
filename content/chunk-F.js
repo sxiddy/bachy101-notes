@@ -148,6 +148,7 @@ CHUNK({
               <tr><td>India</td><td>Environment Protection Act 1986, Drugs and Cosmetics Act, BIS standards for food-contact plastics, FSSAI for food additives</td></tr>
             </tbody>
           </table>
+          <div class="note exam">Long answer on chemical hazards: (1) definition with examples in air, water and soil; (2) sources, one line each (industrial, agricultural, consumer, food, pharmaceutical, fossil fuel); (3) the five routes of exposure; (4) mechanisms of harm; (5) a case study (phthalates: uses, anti-androgenic action, health effects, EU/USA/India rules, alternatives); (6) solutions: green chemistry, safer substitutes, REACH, the Precautionary Principle and Indian laws.</div>
         ` }
       ],
       flashcards: [
@@ -395,7 +396,7 @@ CHUNK({
           </div>
           <h4>Symptoms</h4>
           <ul>
-            <li>Fever <b>39–41°C</b> with chills in <b>48-h cycles</b>; haemolytic <b>anaemia</b>; <b>splenomegaly</b>.</li>
+            <li>Fever <b>39–41°C</b> with chills in <b>48-h cycles</b>; haemolytic <b>anaemia</b> (RBCs destroyed, so weakness, pallor, fatigue); <b>splenomegaly</b>, an enlarged spleen from the extra RBC destruction and immune activation.</li>
             <li>Severe (falciparum): cerebral malaria (coma, seizures), Hb &lt;7 g/dL, respiratory distress, hypoglycaemia, organ failure; fatal within <b>24 h</b> untreated.</li>
             <li>Pregnancy: placental malaria, maternal death, low birth weight, stillbirth.</li>
           </ul>
@@ -447,7 +448,7 @@ CHUNK({
           <ul>
             <li><b>Vaccines</b>: mRNA (Pfizer-BioNTech, Moderna: 90%+ vs original), viral vector (AstraZeneca, J&amp;J), inactivated (Covaxin, Sinovac), protein subunit (Novavax).</li>
             <li><b>NPIs</b>: masks (N95 cuts aerosol inhalation &gt;90%), distancing, HEPA filters, ventilation.</li>
-            <li><b>Antivirals</b>: Paxlovid (89% fewer hospitalisations), Remdesivir, Molnupiravir. Monoclonal antibodies largely failed against Omicron.</li>
+            <li><b>Antivirals</b>: Paxlovid (89% fewer hospitalisations), Remdesivir, Molnupiravir. <b>Monoclonal antibodies</b> (neutralising antibodies) were largely ineffective against Omicron subvariants.</li>
             <li>Public health: contact tracing (<b>Aarogya Setu</b>), quarantine, border control, lab surveillance.</li>
           </ul>
           <h4>Controlling biological hazards</h4>
@@ -458,6 +459,7 @@ CHUNK({
             <li>Surveillance: <b>IDSP, IHIP</b> (India), genomic sequencing, WHO <b>GOARN</b>.</li>
             <li>Climate-smart health systems that plan for shifting disease geography.</li>
           </ul>
+          <div class="note exam">Long answer on biological hazards: (1) definition and the six types with examples and mode of spread; (2) malaria: cause and vector, WHO 2022 numbers, the five <em>Plasmodium</em> species, life cycle, symptoms, control (ITNs, IRS, larval control, ACTs, vaccines); (3) COVID-19: virus and how it enters cells, spread, R₀, severity table, variants, vaccines, NPIs, antivirals, public health steps; (4) close with general control: IVM, EPI, WASH, surveillance.</div>
         ` }
       ],
       flashcards: [

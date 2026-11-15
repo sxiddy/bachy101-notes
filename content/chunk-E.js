@@ -109,6 +109,7 @@ CHUNK({
             <li>Later problems: <b>secondary pests</b> (whiteflies, aphids), <b>bollworm resistance</b> to the Bt toxin, regional yield stagnation.</li>
             <li>Sustaining it needs monitoring, <b>integrated pest management</b>, crop rotation and <b>refuge planting</b>.</li>
           </ul>
+          <div class="note exam">Long answer on GM crops in India: (1) regulation by MoEFCC through GEAC; (2) status: Bt cotton approved 2002, Bt brinjal cleared 2009 then put under moratorium, GM mustard under review; (3) how Bt crops work (<em>Bacillus thuringiensis</em> gene, toxin against bollworms and corn borers); (4) Bt cotton impact with numbers (over 90% of area, 50–60% less insecticide, largest producer); (5) later problems and how to sustain it.</div>
         ` }
       ],
       flashcards: [
@@ -171,6 +172,7 @@ CHUNK({
             <li>Needs <b>government support, crop insurance and fair seed pricing</b>.</li>
             <li>Policy should be <b>balanced, science-based and farmer-centric</b>.</li>
           </ul>
+          <div class="note exam">Long answer on the Maharashtra case study: (1) adoption: early adopter after 2002, over 90% of cotton area by 2010, how it spread; (2) income effects: 25–50% pesticide savings, shift to market farming; (3) problems: resistance, secondary pests, Vidarbha droughts, seed costs, debt; (4) lessons: GM alone is not enough, needs irrigation, pest management, farmer education, insurance and fair seed prices.</div>
         ` }
       ],
       flashcards: [
@@ -214,11 +216,12 @@ CHUNK({
           <ul>
             <li><b>Longer shelf life</b>: less waste in storage and transport, less restocking.</li>
             <li>Novel colours and longer blooms attract buyers; exotic flowers sell at a <b>premium</b>.</li>
-            <li>Better fragrance and looks for high-value arrangements.</li>
+            <li>Better fragrance and looks for standout, high-value arrangements that customers pay more for, especially at <b>weddings and events</b>.</li>
             <li>Resistance to wilting and bruising: fewer losses, fewer replacements and complaints.</li>
             <li><b>Year-round supply</b> helps meet seasonal, bulk and export orders.</li>
             <li>Result: <b>better profit margins</b> and business sustainability.</li>
           </ul>
+          <div class="note exam">Long answer on GM flowers: (1) GM is used in ornamentals as well as food crops, and the traits it adds; (2) examples: blue rose and GM carnations, and the countries selling them (Japan, Australia, Colombia); (3) India's research on roses, marigolds and chrysanthemums, flexible rules and export potential; (4) the benefits to florists, one line each.</div>
         ` }
       ],
       flashcards: [
@@ -297,6 +300,7 @@ CHUNK({
             <li>Possible upcoming approval: <b>GM mustard</b>.</li>
             <li>Balance needs <b>strong regulation, transparent communication and education</b> to protect health, biodiversity and farmer welfare.</li>
           </ul>
+          <div class="note exam">Long answer on GM crops, benefits vs risks: (1) economic benefits; (2) environmental benefits; (3) ecological and health risks; (4) social and ethical issues, including public perception; (5) the global picture (USA, Brazil, Argentina vs EU, India at a crossroads); (6) the future (CRISPR, new traits, GM mustard) and a balanced conclusion.</div>
         ` }
       ],
       flashcards: [

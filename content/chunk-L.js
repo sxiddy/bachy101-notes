@@ -133,6 +133,7 @@ CHUNK({
             <div><b>Post monitoring</b>: after commissioning, check impacts stay within limits and mitigation is done.</div>
           </div>
           <div class="note heads-up">The EIA lecture lists <b>eight</b> steps (with EMP); this lecture's Indian process lists <b>nine</b> (adds reporting, splits review and decision, no separate EMP). Learn the list that matches the question.</div>
+          <div class="note exam"><p>For "EIA under Indian law": start with the EPA as the parent Act and the EIA Notification 2006 (MoEFCC) with its 2016, 2020 and 2021 amendments. Explain Category A (IAA and EAC, national) vs Category B (SEIAA and SEAC, state). Then write the nine stages in order with one line each, and end with the list of projects that need EIA.</p></div>
         ` }
       ],
       flashcards: [
@@ -167,19 +168,19 @@ CHUNK({
         { title: 'Boards', html: `
           <div class="vs">
             <div class="side"><h4>CPCB (national, apex)</h4><ul>
-              <li>Advises the Central Government</li>
-              <li>Sets national standards</li>
-              <li>Coordinates State Boards</li>
-              <li>Research and technical help</li>
+              <li><b>Advises</b> the Central Government on air pollution matters.</li>
+              <li><b>Sets national standards</b> for air quality and emissions, so every state works to the same limits.</li>
+              <li><b>Coordinates</b> the activities of the State Boards.</li>
+              <li><b>Conducts research</b> and gives technical assistance.</li>
             </ul></div>
             <div class="side"><h4>SPCBs (state)</h4><ul>
-              <li>Grant or refuse <b>consent</b></li>
-              <li>Monitor pollution</li>
-              <li>Inspect, sample</li>
-              <li>Prosecute violators</li>
+              <li>Grant or refuse <b>consent</b> (approval) to industries before they operate.</li>
+              <li><b>Monitor</b> pollution within the state.</li>
+              <li><b>Inspect</b> factories and take air samples.</li>
+              <li>Take <b>enforcement action</b> and prosecute violators.</li>
             </ul></div>
           </div>
-          <p>A <b>two-tier</b>, decentralised structure, because pollution sources differ widely between states.</p>
+          <p>The CPCB is the apex pollution-control authority; the SPCBs implement the law in their own territories. This <b>two-tier</b>, decentralised structure exists because pollution sources and environmental conditions vary enormously across India's states.</p>
         ` },
         { title: 'Key sections', html: `
           <table class="tbl">
@@ -197,10 +198,11 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Aspect</th><th>EPA 1986</th><th>Air Act 1981</th></tr></thead>
             <tbody>
-              <tr><td>Scope</td><td>Broad protection</td><td>Air pollution only</td></tr>
-              <tr><td>Coverage</td><td>Air, water, land</td><td>Air and its pollutants</td></tr>
-              <tr><td>Nature</td><td>Umbrella</td><td>Sector-specific</td></tr>
-              <tr><td>Powers</td><td>Central Government</td><td>CPCB and SPCBs</td></tr>
+              <tr><td>Scope</td><td>Broad environmental protection</td><td>Air pollution control only</td></tr>
+              <tr><td>Coverage</td><td>Covers air, water and land</td><td>Covers air and its pollutants only</td></tr>
+              <tr><td>Nature</td><td><b>Umbrella</b> legislation: one comprehensive framework for the whole environment</td><td><b>Sector-specific</b> law for one medium</td></tr>
+              <tr><td>Focus</td><td>Overall environmental management</td><td>Air quality management and pollution control</td></tr>
+              <tr><td>Regulatory powers</td><td>Broad powers given to the <b>Central Government</b></td><td>Vested in both the <b>CPCB and SPCBs</b></td></tr>
             </tbody>
           </table>
           <p>Engineers: cleaner technology, lower emissions, efficiency, audits, control systems, renewables (solar, green buildings, EVs, waste-to-energy).</p>

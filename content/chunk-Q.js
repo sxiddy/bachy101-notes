@@ -29,7 +29,7 @@ CHUNK({
         ` },
         { title: 'Environment and awareness', html: `
           <p>Economic development and sound environmental management are <b>two sides of one agenda</b>: without environmental protection, development is undermined; without development, protection fails.</p>
-          <p><b>Awareness</b>: conservation is everyone's job. India needs nationwide awareness and planned action.</p>
+          <p><b>Awareness</b>: conservation and regeneration should not be seen as someone else's responsibility, because the results reach all of us across all age groups and social strata. India needs nationwide awareness and planned action.</p>
           <ul>
             <li>Causes of ignorance in India: large-scale <b>illiteracy</b>, poor orientation and training of officials and leaders, no organised effort by the education system.</li>
             <li>Key areas: <b>agriculture, industry and health</b>.</li>
@@ -100,6 +100,7 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">Goal <b>6</b> is water and sanitation for people; Goal <b>14</b> is life in oceans and seas. Goal <b>13</b> is climate; Goal <b>15</b> covers forests and desertification.</div>
+          <div class="note exam"><p>For "Write about the SDGs": open with the definition of sustainable development, then the genesis (Johannesburg and the JPOI, "The Future We Want" in 2012, agreement at the UN in New York in September 2015). List all 17 goals with their number and full aim, using the people, prosperity, planet, peace and partnership grouping to recall them. Close with why environment and development are complementary and the role of awareness.</p></div>
         ` }
       ],
       flashcards: [

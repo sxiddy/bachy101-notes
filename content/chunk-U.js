@@ -44,6 +44,7 @@ CHUNK({
             </li>
           </ul>
           <div class="note heads-up">The course text says ENVIS works in "25 countries all over the country". It means about 25 centres within India.</div>
+          <div class="note exam">For a long answer on environmental health monitoring: (1) the full definition; (2) what it does (current state, trends, informs authorities, supports policy, checks management tools); (3) the five key aspects, one line each; (4) factors monitored: air, water, soil and waste, biodiversity; (5) methods: ground sampling, satellites, modelling; (6) remote sensing and databases (MoEF, NMIS, ENVIS).</div>
         ` }
       ],
       flashcards: [
@@ -72,7 +73,7 @@ CHUNK({
           <p class="lead">AI analyses huge sensor and satellite datasets to <b>predict, detect and track</b> pollution, deforestation and other change in real time.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Monitoring and prediction</b></td><td>Air: forecast pollution and find sources from low-cost sensors and satellites. Water: real-time contaminant alerts, can trigger filtration. Climate: predict CO₂, glacier mass, sea level. <b>Flood early warnings</b></td></tr>
+              <tr><td><b>Monitoring and prediction</b></td><td>Air: forecast pollution and find sources from low-cost sensors and satellites. Water: real-time contaminant alerts, can trigger filtration. Climate: predict CO₂, glacier mass, sea level. <b>Flood prediction</b> gives communities early warnings, so they can prepare and evacuate in time</td></tr>
               <tr><td><b>Conservation</b></td><td><b>Habitat mapping</b> with deep learning on satellite and aerial images. <b>Wildlife monitoring</b> from camera traps, GPS, acoustic recordings. Spotting <b>anomalies</b> such as poaching, illegal logging, unusual boat movements</td></tr>
               <tr><td><b>Hazards</b></td><td>Sensors and <b>edge AI</b> detect hazardous substances; early warning systems</td></tr>
             </tbody>
@@ -85,15 +86,17 @@ CHUNK({
               <tr><td><b>Predictive analytics</b></td><td>ML on past and live data to forecast floods, weather, pollution. An <b>LSTM</b> (Long Short-Term Memory) model can predict air quality from past data</td></tr>
               <tr><td><b>Robotics</b></td><td>Autonomous robots monitor hazardous air or clean polluted water surfaces</td></tr>
               <tr><td><b>Digital twin</b></td><td>A <b>virtual replica</b> of a real system (e.g. a water treatment plant) for simulation and optimisation</td></tr>
-              <tr><td><b>E-nose</b></td><td>Electronic nose: AI identifies hazardous gases by chemical signature; industrial leak detection</td></tr>
+              <tr><td><b>E-nose</b></td><td>Electronic nose: AI identifies hazardous gases by their unique chemical signature. Used in industrial settings to watch for leaks</td></tr>
             </tbody>
           </table>
+          <p>AI is joined to <b>IoT devices and sensors</b> for real-time data and alerts, and machine learning turns huge datasets from satellites, sensors and drones into actionable insights.</p>
         ` },
         { title: 'Case studies', html: `
           <div class="vs">
             <div class="side"><h4>IIT Kharagpur: arsenic</h4><p><b>Problem</b>: arsenic in groundwater in Eastern India. <b>Solution</b>: AI model on geoscience data maps high and low arsenic zones in the <b>Ganga delta</b> and quantifies exposure. <b>Impact</b>: finds safe drinking water sources.</p></div>
             <div class="side"><h4>The Ocean Cleanup: plastic</h4><p><b>Problem</b>: ocean plastic harms marine life. <b>Solution</b>: AI detects debris and maps litter in remote ocean areas. <b>Impact</b>: targeted, more efficient clean-up.</p></div>
           </div>
+          <div class="note exam">For a long answer on AI in environmental monitoring: (1) one line on what AI does (analyses sensor and satellite data to predict, detect, track); (2) uses under three headings: monitoring and prediction (air, water, climate, floods), conservation (habitat mapping, wildlife, illegal activity), hazards (edge AI, early warning); (3) tools: geospatial analysis, LSTM forecasting, robots, digital twins, e-noses; (4) both case studies in problem, solution, mechanism, impact form.</div>
         ` }
       ],
       flashcards: [
@@ -137,7 +140,7 @@ CHUNK({
             <tbody>
               <tr><td><b>Air quality</b></td><td>PM2.5, PM10, CO, SO₂, NOₓ; finds hotspots, health warnings</td></tr>
               <tr><td><b>Water quality</b></td><td>pH, <b>dissolved oxygen</b>, turbidity, chemical contaminants; early effluent detection</td></tr>
-              <tr><td><b>Soil</b></td><td>Moisture, temperature, pH, nutrients (<b>NPK</b>); food safety, sustainable farming</td></tr>
+              <tr><td><b>Soil</b></td><td>Moisture, temperature, pH, nutrients (<b>NPK</b>) on farmland, and detect contamination. Critical for food safety and sustainable farming</td></tr>
               <tr><td><b>Acoustic</b></td><td>Forest soundscapes: wildlife, <b>illegal logging, poaching</b></td></tr>
               <tr><td><b>Wearable</b></td><td>A person's own exposure to pollutants in real time</td></tr>
             </tbody>
@@ -146,7 +149,7 @@ CHUNK({
         { title: 'Platforms', html: `
           <ul>
             <li><b>Cloud EHS platforms</b> (e.g. EHS Insight, Envirosuite): collect environmental, health and safety data, analytics and compliance.</li>
-            <li><b>Real-time dashboards</b>: live visuals, trend tracking, instant anomaly alerts, map views.</li>
+            <li><b>Real-time dashboards</b>: user-friendly live visuals of sensor data that present complex information simply; users track trends, get instant anomaly alerts and see data on maps.</li>
             <li><b>Environmental Management Systems</b> following <b>ISO 14001</b>: use IoT data and AI to cut a company's impact.</li>
             <li><b>Smart waste management</b>: bin fill-level sensors and optimised collection routes; less overflow and fewer truck emissions.</li>
           </ul>

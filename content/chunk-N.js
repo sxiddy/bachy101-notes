@@ -17,6 +17,7 @@ CHUNK({
             <li><b>Himalayan deforestation</b> caused severe floods in Uttar Pradesh and Bihar.</li>
             <li>Scientific outcry and public pressure pushed the Centre to act.</li>
           </ul>
+          <div class="note example">The lecture's thought exercise: you are a state Chief Minister in 1975, and a mining company promises tax revenue and thousands of jobs if you clear a stretch of forest. No national law stopped you. That was the reality before 1980, and it is exactly the power the Act took away from the states.</div>
           <div class="note exam">Central objective: the Act <b>took away the states' unilateral power</b> to divert forests and gave that authority to the <b>Central Government</b>.</div>
           <p>Objectives: stop indiscriminate diversion; require prior Central approval; require compensatory plantation and a deposit when diversion is allowed; keep biodiversity, water catchments and forests as <b>carbon sinks</b>.</p>
         ` },
@@ -34,7 +35,7 @@ CHUNK({
         { title: 'Judgment and amendments', html: `
           <ul>
             <li><b>Godavarman judgment, 1996</b>: the Supreme Court held the Act covers <b>all land that is forest in the dictionary sense</b>, including land never officially classified as forest. This blocked escape through technical classification.</li>
-            <li><b>1992 amendment</b>: allowed some activities (transmission lines, seismic surveys, exploration and drilling, hydroelectric projects) with <b>no or minimal tree felling</b>, still only with prior Central approval. States still could not approve on their own.</li>
+            <li><b>1992 amendment</b>: allowed some activities (transmission lines, seismic surveys, exploration and drilling, hydroelectric projects) with <b>no or minimal tree felling</b>, still only with prior Central approval. It aimed to <b>balance development and conservation</b> by allowing only carefully scrutinised projects. States still could not approve on their own, and forest conservation stayed the primary objective.</li>
             <li><b>2023 amendment</b>: renamed the Act; coverage starts from <b>October 1980</b>; faster approvals for <b>border infrastructure and linear projects</b>. Welcomed by developers, criticised by environmentalists.</li>
           </ul>
         ` }
@@ -75,11 +76,11 @@ CHUNK({
         { title: 'Key provisions', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Schedules</b></td><td>The backbone. Higher schedule, stronger protection. <b>Four schedules after the 2022 amendment</b>. <b>Schedule I</b>: tiger, elephant, rhinoceros, snow leopard, great Indian bustard</td></tr>
+              <tr><td><b>Schedules</b></td><td>The backbone. Higher schedule, stronger protection. <b>Four schedules after the 2022 amendment</b>. <b>Schedule I</b>: tiger, elephant, rhinoceros, snow leopard, great Indian bustard. Hunting, trading or even disturbing a Schedule I animal is a <b>serious criminal offence</b></td></tr>
               <tr><td><b>Hunting ban</b></td><td>Near-total. Hunting includes capturing, trapping, snaring, poisoning, even disturbing habitat. Exception: an animal that is an immediate danger to human life, with official permission. Shift from <b>regulate</b> to <b>prohibit</b></td></tr>
               <tr><td><b>Trade</b></td><td>Trade in scheduled animals, parts, trophies, derivatives banned without an ownership certificate. The Act is India's tool for <b>CITES</b></td></tr>
               <tr><td><b>Enforcement</b></td><td><b>Wildlife Crime Control Bureau</b>: anti-poaching, anti-trafficking</td></tr>
-              <tr><td><b>Penalties</b></td><td>Schedule I offences: <b>3 to 7 years</b> plus fine; repeat offenders get mandatory minimum sentences</td></tr>
+              <tr><td><b>Penalties</b></td><td>Schedule I offences: <b>3 to 7 years</b> plus fine; repeat offenders get mandatory minimum sentences, with no judicial discretion to go lower</td></tr>
             </tbody>
           </table>
         ` },
@@ -97,6 +98,7 @@ CHUNK({
             <li>Secretariat in <b>Geneva</b>.</li>
             <li>India became a Party in <b>1976</b>.</li>
           </ul>
+          <div class="note exam"><p>For "Explain the Wildlife (Protection) Act, 1972": (1) the crisis (tigers, lions, rhinos near extinction, open hunting and trade, tigers below 2,000 by 1972); (2) the five aims, including Project Tiger 1973; (3) the key provisions: schedules (four after 2022, Schedule I animals), the hunting ban and what "hunting" includes, protected areas (national park vs sanctuary, 2002 reserves, 900+ areas, about 5% of land), trade control and CITES, enforcement by the Wildlife Crime Control Bureau, penalties of 3 to 7 years; (4) how it works with the Forest Act (10 km rule).</p></div>
         ` }
       ],
       flashcards: [

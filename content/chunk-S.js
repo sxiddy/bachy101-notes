@@ -17,7 +17,9 @@ CHUNK({
             <li>Greenhouse gases absorb it and re-emit it in all directions, some back down.</li>
             <li>Result: Earth averages about <b>15°C</b> instead of <b>−18°C</b>.</li>
           </ol>
-          <p>The <b>enhanced</b> greenhouse effect, from human emissions, traps extra heat beyond natural variability.</p>
+          <p>So the natural greenhouse effect is not harmful in itself: it is a <b>life-sustaining mechanism</b>, since −18°C is far too cold for most life.</p>
+          <p>The <b>enhanced</b> greenhouse effect is the problem. Human activities push greenhouse gas levels beyond natural levels, the extra gas traps extra heat, and temperatures rise beyond what natural variability can explain. This human-amplified version drives today's global warming.</p>
+          <p>Every major engineering branch (<b>civil, mechanical, chemical, electrical, environmental</b>) helps cause global warming and is needed for the solutions, which is why engineers study it.</p>
         ` },
         { title: 'The gases', html: `
           <table class="tbl">
@@ -59,23 +61,24 @@ CHUNK({
         { title: 'Five causes', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Fossil fuels</b></td><td>Largest source: power, heating, transport. Began with the <b>Industrial Revolution</b> (late 18th century, Britain)</td></tr>
-              <tr><td><b>Deforestation</b></td><td>Releases stored carbon by burning or decay; cuts future sink. Amazon, Congo, Southeast Asia</td></tr>
-              <tr><td><b>Industry</b></td><td>Cement (heating limestone to lime releases CO₂), steel, aluminium, chemicals</td></tr>
-              <tr><td><b>Agriculture</b></td><td>Livestock and rice methane; fertiliser N₂O. About <b>10–12%</b> of emissions, growing</td></tr>
-              <tr><td><b>Waste</b></td><td>Landfill organic waste decays without oxygen → methane; wastewater gives methane and N₂O</td></tr>
+              <tr><td><b>Fossil fuels</b></td><td>The largest source: burning fuel for electricity, heating and transport. Coal power plants, petrol and diesel vehicles and industrial furnaces release <b>billions of tonnes</b> of CO₂ a year. Large-scale burning began with the <b>Industrial Revolution</b> (late 18th century, Britain), and since then cumulative emissions have changed the atmosphere in a geologically unprecedented way.</td></tr>
+              <tr><td><b>Deforestation</b></td><td>Forests absorb CO₂ by photosynthesis and store it in biomass and soil. Clearing them for farms, cities or timber releases that carbon, at once by burning or slowly by decay, and also cuts the land's ability to absorb future emissions. Tropical clearing in the Amazon, Congo and Southeast Asia matters most.</td></tr>
+              <tr><td><b>Industry</b></td><td>Some processes emit gases as by-products of the chemistry itself. Cement releases CO₂ when limestone is heated to make lime; steel, aluminium smelting and chemicals add more. The building boom from urbanisation and population growth, especially in developing economies, has grown this share.</td></tr>
+              <tr><td><b>Agriculture</b></td><td>Cattle make methane by <b>enteric fermentation</b> in their stomachs, flooded rice paddies emit methane as organic matter decays without oxygen, and nitrogen fertilisers release N₂O. Together about <b>10–12%</b> of emissions, and growing with food demand.</td></tr>
+              <tr><td><b>Waste</b></td><td>An often overlooked methane source. Organic waste (food scraps, paper, garden waste) decays without oxygen in landfills and gives off methane; wastewater treatment releases methane and N₂O. Rising with urbanisation.</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Consequences', html: `
           <ul>
-            <li><b>Heatwaves</b>: 1-in-50-year events now happen several times a decade. India: 45–48°C in Rajasthan, Odisha, Andhra Pradesh.</li>
+            <li><b>Heatwaves</b>: 1-in-50-year events now happen several times a decade. Warming shows up as more frequent, more intense and longer heatwaves, not just a slow background rise. India: over 45–48°C in Rajasthan, Odisha, Andhra Pradesh more and more often, a direct risk to <b>outdoor workers, the elderly and city dwellers</b>.</li>
             <li><b>Sea level</b>: glacier and ice sheet melt plus <b>thermal expansion</b>. Up about 20 cm since 1900; IPCC projects <b>0.3–1 m</b> by 2100, more if the <b>West Antarctic Ice Sheet</b> destabilises. At risk: Mumbai, Kolkata, Chennai, Kochi; Maldives, Tuvalu.</li>
-            <li><b>Rainfall</b>: heavier floods and longer droughts; an erratic Indian monsoon.</li>
+            <li><b>Rainfall</b>: warming disrupts the <b>hydrological cycle</b>. Warmer air holds more moisture, so rain comes in heavier bursts and floods are worse, while extra evaporation dries drought-prone soils so droughts last longer. The Indian monsoon swings between floods and deficient years, hurting farming, water security and disaster planning.</li>
             <li><b>Ocean acidification</b>: oceans take about <b>a quarter</b> of human CO₂; pH down about <b>0.1</b>, which is <b>26% more acidic</b>. Shells and corals can't build calcium carbonate; mass coral bleaching.</li>
-            <li><b>Biodiversity</b>: climate zones shift <b>poleward and uphill</b>; timing of flowering, migration and breeding shifts. Himalayas and Western Ghats highly vulnerable.</li>
-            <li><b>Health and food</b>: heat deaths, malaria and dengue spreading, smoke and air pollution, crop failures. WHO: about <b>250,000 extra deaths a year</b> in 2030–2050.</li>
+            <li><b>Biodiversity</b>: climate zones shift <b>poleward and uphill</b>, so species must migrate to stay in their comfort zone; those too slow face local extinction. The timing of flowering, migration and breeding shifts, breaking links between species that evolved together. IPCC: at <b>1.5°C</b> a significant fraction of species face higher extinction risk, and at <b>2°C</b> the risk grows a lot. The Himalayas and Western Ghats (both hotspots) are highly vulnerable.</li>
+            <li><b>Health and food</b>: direct threats are heatwave deaths, malaria and dengue spreading as mosquitoes widen their range, and respiratory disease from air pollution and wildfire smoke. Indirect threats come through food and water: lower yields and more crop failures. WHO: about <b>250,000 extra deaths a year</b> in 2030–2050 from malnutrition, malaria, diarrhoea and heat stress alone.</li>
           </ul>
+          <div class="note exam">For a long answer on global warming: (1) definition and the 1.1°C figure; (2) natural vs enhanced greenhouse effect (15°C vs −18°C); (3) the gases with sources and potency; (4) five causes: fossil fuels, deforestation, industry, agriculture, waste; (5) consequences under headings: heatwaves, sea level, rainfall, acidification, biodiversity, health and food, each with an India example.</div>
           <div class="note exam">A pH drop of only 0.1 means a <b>26%</b> rise in acidity because pH is logarithmic.</div>
         ` }
       ],
@@ -102,29 +105,31 @@ CHUNK({
       source: 'Lecture W5 (Global Warming), pages 6–9',
       tabs: [
         { title: 'Mitigation', html: `
+          <p class="lead"><b>Mitigation</b> means actions that reduce or prevent greenhouse gas emissions, so limiting future warming. It needs coordinated action across energy, transport, industry, land use and consumption.</p>
           <ul>
-            <li><b>Renewables</b>: the most impactful single action. Solar PV and wind costs fell <b>over 80%</b> in a decade. India: <b>National Solar Mission</b>, target <b>500 GW non-fossil capacity by 2030</b>.</li>
-            <li><b>Energy efficiency</b>: insulation, efficient appliances, fuel economy.</li>
-            <li><b>Reforestation and sequestration</b>: <b>Green India Mission</b>; <b>carbon capture and storage</b> stores CO₂ underground.</li>
-            <li><b>Sustainable agriculture and waste</b>: better livestock management, precision fertilising, sustainable rice; composting, waste-to-energy, landfill gas capture.</li>
+            <li><b>Renewables</b>: replacing coal, oil and gas with solar, wind, hydro and geothermal is the most impactful single action. Solar PV and wind costs fell <b>over 80%</b> in a decade, so they now compete with fossil fuels in most places. India: <b>National Solar Mission</b>, target <b>500 GW non-fossil capacity by 2030</b>.</li>
+            <li><b>Energy efficiency</b>: using less energy for the same service, through better building insulation, efficient appliances and industrial processes, and better vehicle fuel economy. It is cheap and shrinks how much renewable capacity has to be built.</li>
+            <li><b>Reforestation and sequestration</b>: restoring and planting forests boosts the land's carbon sink. The <b>Green India Mission</b> (under the NAPCC) aims to raise forest and tree cover and improve existing forests. <b>Carbon capture and storage</b> catches CO₂ from industrial sources and stores it underground.</li>
+            <li><b>Sustainable agriculture and waste</b>: better livestock management, precision fertilising and sustainable rice methods cut methane and N₂O; composting, waste-to-energy and landfill gas capture cut methane from waste.</li>
             <li><b>International agreements</b>: Paris 2015; India's NDC: <b>net zero by 2070</b>, <b>50%</b> non-fossil capacity by 2030.</li>
           </ul>
         ` },
         { title: 'Adaptation', html: `
-          <p>Warming already locked in will continue for decades, so adaptation is a <b>complement, not a substitute</b> for mitigation.</p>
+          <p class="lead"><b>Adaptation</b> means adjusting human systems and natural processes in response to actual or expected warming and its effects. Even if all emissions stopped today, warming already locked in would continue for decades, so adaptation is a <b>complement, not a substitute</b> for mitigation.</p>
           <ul>
-            <li>Drought-resistant, heat-tolerant crops.</li>
-            <li>Flood defences, sea walls, storm surge barriers.</li>
-            <li>Green spaces, reflective surfaces and efficient cooling against the <b>urban heat island</b>.</li>
-            <li>Integrated water management: rainwater harvesting, groundwater recharge, efficient irrigation.</li>
+            <li><b>Drought-resistant, heat-tolerant crops</b> keep farm output up under the new conditions.</li>
+            <li><b>Flood defences, sea walls and storm surge barriers</b> protect coastal and low-lying communities.</li>
+            <li><b>Urban planning</b> with green spaces, reflective surfaces and efficient cooling reduces the <b>urban heat island</b> and protects city people in heatwaves.</li>
+            <li><b>Integrated water management</b> (rainwater harvesting, groundwater recharge, efficient irrigation) builds resilience to unreliable rainfall.</li>
           </ul>
           <h4>NAPCC (2008): eight missions</h4>
           <div class="mnemonic">Solar, Energy efficiency, Water, Himalayan ecosystem, Green India, Sustainable agriculture, Strategic knowledge, Sustainable habitat.</div>
-          <p>India has over <b>1.4 billion</b> people, many on rain-fed farming, so adaptation is urgent.</p>
+          <p>India has over <b>1.4 billion</b> people, many on rain-fed farming and highly exposed to floods, droughts, cyclones and heatwaves, so adaptation is urgent.</p>
         ` },
         { title: 'Engineers', html: `
           <p>Engineers built today's emitting systems (coal plants, combustion engines, energy-heavy industry) and will build the replacements: renewables, EVs, green buildings, carbon-neutral cement, smart grids, climate-resilient infrastructure.</p>
-          <p>Choices on materials, energy sources, design standards and efficiency add up. Environmental thinking is now a <b>core professional competency</b>, owed to the public and future generations.</p>
+          <p>Choices on materials, energy sources, design standards and efficiency add up. Environmental thinking is now a <b>core professional competency</b> demanded by employers, regulators and society, and engineers owe it to the public and future generations, not just to clients and employers. It applies in construction, manufacturing, energy, water, transport and IT alike.</p>
+          <div class="note exam">For a long answer on responding to global warming: (1) define mitigation; (2) five mitigation routes with one fact each (80% cost fall, 500 GW by 2030, Green India Mission, CCS, landfill gas capture, Paris and India's NDC); (3) define adaptation and say why it complements mitigation; (4) four adaptation measures; (5) India's NAPCC 2008 and its eight missions; (6) close with the engineer's role.</div>
         ` }
       ],
       flashcards: [

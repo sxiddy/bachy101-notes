@@ -40,6 +40,8 @@ CHUNK({
               <tr><td><b>IWRM</b></td><td><b>Integrated Water Resources Management</b>: coordinated development of <b>water, land and related resources</b>; balances social, economic and environmental needs; whole water cycle</td></tr>
             </tbody>
           </table>
+          <p>Efficiency in practice: <b>fixing leaks and upgrading infrastructure</b> prevents unnecessary loss, and efficient practices lower costs and leave water for other needs.</p>
+          <div class="note exam">Long answer on water management: (1) the 2.5% freshwater fact and the definitions of water management and conservation; (2) the four roles of water (ecological balance, agriculture, climate regulation, economy); (3) the five challenges with their cause; (4) the four principles (sustainability, equity, efficiency, IWRM) with what each means in practice; (5) close with the need for integrated strategies and public participation.</div>
         ` }
       ],
       flashcards: [
@@ -88,18 +90,19 @@ CHUNK({
         { title: 'Farms and cities', html: `
           <div class="vs">
             <div class="side"><h4>Agriculture (70% of freshwater)</h4><ul>
-              <li><b>Precision irrigation</b> with sensors</li>
-              <li>Drought-resistant or low-water crops</li>
-              <li><b>Mulching</b> and organic farming</li>
-              <li><b>Watershed management</b>: afforestation, check dams, contour ploughing</li>
-            </ul></div>
+              <li><b>Precision irrigation</b> uses sensors to apply water only as needed.</li>
+              <li><b>Crop selection</b>: grow drought-resistant or less water-intensive crops.</li>
+              <li><b>Mulching and organic farming</b> retain soil moisture and reduce runoff.</li>
+              <li><b>Watershed management</b> conserves water across a whole catchment through afforestation, check dams and contour ploughing.</li>
+            </ul><p>Government support, subsidies and farmer training are key to putting these in place.</p></div>
             <div class="side"><h4>Urban</h4><ul>
-              <li><b>Stormwater</b>: bio-swales, rain gardens</li>
-              <li><b>Decentralised wastewater treatment</b> near the source</li>
-              <li><b>Smart water grids</b>: real-time monitoring</li>
-              <li><b>Greywater reuse</b>: bath and kitchen water for gardens</li>
-            </ul></div>
+              <li><b>Stormwater management</b>: green infrastructure such as <b>bio-swales and rain gardens</b> absorbs and filters runoff, which prevents flooding and pollution, eases drainage and recharges groundwater. Urban green spaces also build climate resilience.</li>
+              <li><b>Decentralised wastewater treatment</b> treats sewage close to its source (homes, communities). It reduces the load on central plants, reaches remote areas, is cheap, energy-efficient and quick to set up, and the treated water can go to gardening, flushing or irrigation.</li>
+              <li><b>Smart water grids</b> use sensors, meters and data analytics to monitor distribution in real time: they detect leaks, track use and match supply to demand, which allows faster response and better planning.</li>
+              <li><b>Greywater reuse</b> recycles relatively clean water from baths, sinks and kitchens for gardening and landscaping. It is not drinkable, but it cuts freshwater demand and the volume entering sewers.</li>
+            </ul><p>Urban planning must include water-sensitive design and community-based solutions.</p></div>
           </div>
+          <div class="note exam">Long answer on water conservation: (1) definition and why it matters (2.5–3% fresh, under 1% available, 2 billion in water-stressed regions, Cape Town Day Zero); (2) the main methods (rainwater harvesting, drip irrigation, leak detection, efficient appliances, recycling) with how each saves water; (3) agricultural practices, since farming uses 70%; (4) urban practices; (5) measured savings as evidence; (6) household habits.</div>
         ` },
         { title: 'Measured savings', html: `
           <table class="tbl">
@@ -108,7 +111,7 @@ CHUNK({
               <tr><td>Drip and micro-irrigation</td><td><b>28–80%</b></td><td>Cotton 28–35%; Israel smart drip up to 80% less water, yields up 100%</td></tr>
               <tr><td>Rainwater harvesting</td><td><b>10–30%+</b></td><td>UK rooftop systems cut household use 10–30%</td></tr>
               <tr><td>Wastewater reuse</td><td>~82% potable displacement</td><td>~32% of reclaimed water to farming, 20% landscaping</td></tr>
-              <tr><td>Industrial recycling</td><td>26% (2006–15)</td><td>PepsiCo; market US$17.5 B in 2024, ~10% CAGR</td></tr>
+              <tr><td>Industrial recycling</td><td>26% (2006–15)</td><td>PepsiCo; market US$17.5 B in 2024, ~9.9% CAGR</td></tr>
             </tbody>
           </table>
           <h4>At home</h4>
@@ -164,13 +167,13 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>State</th><th>Method</th><th>Impact</th></tr></thead>
             <tbody>
-              <tr><td>Rajasthan</td><td>Drip and sprinkler</td><td>Vegetables with ~50% less water</td></tr>
-              <tr><td>Maharashtra</td><td>Farm ponds, micro-irrigation</td><td>Store rain for rabi crops</td></tr>
-              <tr><td>Tamil Nadu</td><td>Field rainwater harvesting</td><td>Recharge pits and contour bunds for paddy</td></tr>
-              <tr><td>Andhra Pradesh</td><td><b>Zero Budget Natural Farming</b></td><td>Mulching cuts irrigation needs</td></tr>
-              <tr><td>Karnataka</td><td>Borewell recharge, drip</td><td>Sugarcane and horticulture</td></tr>
-              <tr><td>Gujarat</td><td>Watershed, check dams</td><td>Water for cotton and pulses</td></tr>
-              <tr><td>Kerala</td><td><b>System of Rice Intensification</b></td><td>Alternate wetting and drying saves ~30%</td></tr>
+              <tr><td>Rajasthan</td><td>Drip irrigation and sprinkler systems</td><td>Farmers in arid regions grow vegetables with <b>~50% less water</b>.</td></tr>
+              <tr><td>Maharashtra</td><td>Farm ponds and micro-irrigation</td><td>Thousands of farm ponds store rainwater for <b>rabi crops</b>.</td></tr>
+              <tr><td>Tamil Nadu</td><td>Rainwater harvesting in fields</td><td>Recharge pits and contour bunds raise groundwater for paddy.</td></tr>
+              <tr><td>Andhra Pradesh</td><td><b>Zero Budget Natural Farming</b> (ZBNF)</td><td>Mulching and moisture retention reduce irrigation needs.</td></tr>
+              <tr><td>Karnataka</td><td>Borewell recharge and drip systems</td><td>Sustain sugarcane and horticulture with less groundwater stress.</td></tr>
+              <tr><td>Gujarat</td><td>Watershed development and check dams</td><td>Improve irrigation water for cotton and pulses.</td></tr>
+              <tr><td>Kerala</td><td><b>System of Rice Intensification</b> (SRI)</td><td>Alternate wetting and drying saves <b>~30%</b> water in paddy.</td></tr>
             </tbody>
           </table>
         ` },
@@ -179,6 +182,7 @@ CHUNK({
             <li><b>Community</b>: awareness programmes, school curricula, NGOs, community-led change such as <b>Ralegan Siddhi</b> (Maharashtra).</li>
             <li><b>Needed changes</b>: adopt sustainable practices; strict rules on groundwater and effluents; water user groups and village committees; school and media campaigns; smart irrigation, pipelines, leak networks, STPs; lifestyle shifts away from water-intensive products.</li>
           </ul>
+          <p>Collaboration between <b>government, NGOs, scientists and the public</b> is needed for long-term success; people-centric approaches create a sense of ownership.</p>
           <div class="note exam">Conservation must move from <b>reactive to proactive</b>, joining science, policy and community action.</div>
         ` }
       ],
@@ -303,6 +307,7 @@ CHUNK({
               <tr><td>Natural resources return to the soil</td><td><b>Fire hazard</b> from methane in wet weather</td></tr>
             </tbody>
           </table>
+          <div class="note exam">Long answer on waste treatment: (1) the 3Rs in priority order with why recycling comes last (EPR, steel tiffin, contamination and source segregation); (2) composting and anaerobic digestion: how each works, products, pros and cons; (3) incineration: 800–1000°C, 90% volume cut, 300 t/day gives 3 MW, dioxins, pros and cons; (4) sanitary landfill: liner, gas capture, pros and cons, and why it is the least-value option.</div>
         ` }
       ],
       flashcards: [

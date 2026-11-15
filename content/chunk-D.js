@@ -36,6 +36,7 @@ CHUNK({
           </div>
           <p>A <b>complementary approach</b> uses both together, often needed for critically endangered species: in-situ keeps natural ecosystems, ex-situ is the <b>backup</b> and a tool for education, research and breeding.</p>
           <div class="note heads-up">The slide says strategies are "broadly classified into in-situ and ex-situ", while the speaker notes list three categories (adding the complementary approach). Two main types; complementary combines them.</div>
+          <div class="note exam">Long answer on conservation strategies (overview): (1) what biodiversity is and why conservation is needed (ecosystem services, resilience, food security, health, livelihoods); (2) the goals of conservation; (3) in-situ: meaning and examples; (4) ex-situ: meaning and examples; (5) the complementary approach and why critically endangered species need both.</div>
         ` }
       ],
       flashcards: [
@@ -124,6 +125,7 @@ CHUNK({
               <li>Climate change, pollution and invasive species still reach protected areas.</li>
             </ul></div>
           </div>
+          <div class="note exam">Long answer on in-situ conservation: (1) definition and why it is the most effective strategy; (2) protected areas; (3) national park vs wildlife sanctuary with Jim Corbett, Kaziranga and Periyar; (4) biosphere reserves: MAB, the three zones, Nilgiri example; (5) community reserves and sacred groves (Mawphlang, Kavus); (6) advantages, then limitations.</div>
         ` }
       ],
       flashcards: [
@@ -270,6 +272,7 @@ CHUNK({
             <li><b>Landscape-level planning</b> spreads conservation over a wide area, combining protected zones with human land use.</li>
             <li>Promotes <b>connectivity</b> so species can move and adapt, which matters under climate change.</li>
           </ul>
+          <div class="note exam">Long answer on levels of conservation: (1) the combined in-situ plus ex-situ approach, with technology and traditional knowledge; (2) species level: flagship (tiger) vs keystone (Asian elephant); (3) genetic level: crop wild relatives, wild rice, gene banks and seed vaults; (4) ecosystem level: key ecosystems, their services, landscape-level planning and connectivity.</div>
         ` }
       ],
       flashcards: [
@@ -357,6 +360,7 @@ CHUNK({
             <li><b>Pollution, overexploitation, illegal trade</b>.</li>
           </ol>
           <p>The fix needs integrated, science-based, community-supported action. The best results come from <b>combining in-situ and ex-situ</b>, with engineers, communities, policymakers and scientists sharing the work.</p>
+          <div class="note exam">Long answer on support for conservation: (1) Indian laws with years (WPA 1972, Forest Conservation Act, Biological Diversity Act 2002); (2) programmes (CBD 1992, Ramsar, Project Tiger 1973, Project Elephant 1992); (3) technology (GIS, drones, DNA barcoding, AI); (4) the engineer's role with examples like wildlife overpasses and fish ladders; (5) communities (ecotourism, JFM, Mawphlang, Mendha Lekha); (6) challenges and the integrated way forward.</div>
         ` }
       ],
       flashcards: [

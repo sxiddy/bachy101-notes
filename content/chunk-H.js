@@ -44,6 +44,7 @@ CHUNK({
           </table>
           <div data-viz="aqi-bands"></div>
           <div class="note heads-up">The notes call both 101–200 and 201–300 "unhealthy". Tell them apart by colour and advice: orange affects sensitive groups, red affects everyone.</div>
+          <div class="note exam">Long answer on what air pollution is: (1) the definition in the source's words, then the WHO definition (indoor and outdoor); (2) clean air's balance (78% N₂, 21% O₂) and how pollution disturbs it; (3) the key numbers (7 million deaths, 99% above WHO limits, 3.8 million indoor deaths); (4) the AQI: 0–500 scale, 5–8 pollutants, and the six bands with colour and advice.</div>
         ` }
       ],
       flashcards: [
@@ -177,7 +178,7 @@ CHUNK({
         { title: 'Environment', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Global warming</b></td><td>CO₂, CH₄, N₂O trap infrared. IPCC AR6 (2021): <b>1.1°C</b> warming; sea level rise <b>0.28–1.01 m by 2100</b></td></tr>
+              <tr><td><b>Global warming</b></td><td>CO₂, CH₄, N₂O trap infrared. IPCC AR6 (2021): <b>1.1°C</b> warming since the pre-industrial era; sea level rise <b>0.28–1.01 m by 2100</b></td></tr>
               <tr><td><b>Acid rain</b></td><td>SO₂ and NOₓ → sulphuric and nitric acid; <b>pH &lt; 5.6</b>. Damages crops, soil, forests, limestone (<b>Taj Mahal yellowing</b>), kills fish. Example: <b>Black Forest</b>, Germany, 1970s–80s</td></tr>
               <tr><td><b>Ozone depletion</b></td><td>CFCs release Cl radicals that destroy O₃; Antarctic hole found <b>1985</b>; <b>Montreal Protocol 1987</b> phased out CFCs, the most successful environmental treaty</td></tr>
               <tr><td><b>Photochemical smog</b></td><td>First seen in <b>Los Angeles, 1940s</b>. Delhi's winter smog worsened by <b>temperature inversion</b>; visibility &lt; 500 m</td></tr>
@@ -249,7 +250,7 @@ CHUNK({
             <li><b>FAME II</b> for EVs; PLI scheme for batteries.</li>
             <li><b>GRAP</b> (Delhi): emergency controls at <b>AQI &gt; 200</b> (ban construction, brick kilns, diesel trucks).</li>
             <li><b>NCAP (2019)</b>: cut PM2.5 and PM10 by <b>20–30% by 2024</b> in <b>122</b> non-attainment cities.</li>
-            <li>Renewables: <b>500 GW by 2030</b>; wind; BEE star labels, LEDs, green building codes; <b>International Solar Alliance</b> (India-led).</li>
+            <li>Renewables: <b>500 GW by 2030</b>; offshore and onshore wind replacing coal capacity; BEE star labels, LEDs, green building codes; <b>International Solar Alliance</b> (India-led).</li>
             <li>Green infrastructure: urban trees, green roofs and walls (urban heat island), constructed wetlands as buffers, industry zoned <b>downwind</b> of homes.</li>
           </ul>
           <table class="tbl">
@@ -268,6 +269,9 @@ CHUNK({
             <div class="side"><h4>London Great Smog, 1952</h4><p>Fog + coal smoke + <b>temperature inversion</b> for <b>5 days</b> in December. About <b>4,000</b> died at once, <b>12,000</b> in the long run. Led to the UK <b>Clean Air Act, 1956</b>, one of the first such laws.</p></div>
             <div class="side"><h4>Delhi winter smog</h4><p>Stubble burning, vehicles, construction dust and inversion. AQI often <b>above 400</b>. GRAP measures: <b>odd-even</b> rationing, school closures, diesel generator bans.</p></div>
           </div>
+          <p>Both cases share a <b>temperature inversion</b>. Normally air gets cooler with height, so warm polluted air near the ground rises and spreads out. In an inversion a <b>warmer layer sits over cold ground air</b> like a lid, so the polluted air cannot rise and stays trapped near the ground. Cold winter nights (London in December, Delhi in winter) set this up.</p>
+          <div data-viz="temp-inversion"></div>
+          <div class="note exam">Long answer on controlling air pollution: (1) particulate control devices (baghouse, ESP, wet scrubber, cyclone, settling chamber) with what each suits, and the baghouse steps; (2) gas control (FGD, SCR, catalytic converter, activated carbon); (3) government action (BS-VI, FAME II, GRAP, NCAP, renewables, green infrastructure) and laws (Air Act 1981, EPA 1986, CPCB and NAAQS, SAFAR); (4) individual action; (5) the London 1952 and Delhi smog cases, explaining the inversion.</div>
         ` }
       ],
       flashcards: [
@@ -309,7 +313,7 @@ CHUNK({
           <table class="tbl">
             <tbody>
               <tr><td>pH</td><td><b>6.5–8.5</b></td></tr>
-              <tr><td>Turbidity</td><td><b>&lt; 1 NTU</b></td></tr>
+              <tr><td>Turbidity</td><td><b>&lt; 1 NTU</b> (Nephelometric Turbidity Unit)</td></tr>
               <tr><td>TDS</td><td><b>&lt; 500 mg/L</b></td></tr>
               <tr><td>Pathogens</td><td>E. coli <b>0 CFU/100 mL</b></td></tr>
               <tr><td>Heavy metals</td><td>As &lt; 0.01 mg/L, Pb &lt; 0.01 mg/L</td></tr>
@@ -330,6 +334,7 @@ CHUNK({
             <div class="side"><h4>Non-point source</h4><p>Diffuse (farm runoff, stormwater); harder; <b>~50%</b> of water pollution in many countries.</p></div>
           </div>
           <p><b>Transboundary</b> pollution crosses national or state borders through rivers.</p>
+          <div class="note exam">Long answer on water pollution basics: (1) the definition (unfit for its intended use); (2) the key numbers (2.2 billion without safe water, 1.8 million child deaths, 80% untreated wastewater); (3) the WHO drinking-water standards (pH, turbidity, TDS, E. coli, arsenic and lead); (4) types by water body (surface, groundwater, marine, thermal) with an example each; (5) point vs non-point source, and transboundary pollution.</div>
         ` }
       ],
       flashcards: [
@@ -389,7 +394,7 @@ CHUNK({
             <li><b>Eutrophication</b>: excess N and P → algal blooms → algae die → bacteria use up oxygen → hypoxic <b>dead zones</b>. Gulf of Mexico dead zone <b>~22,720 km²</b>.</li>
             <li><b>Biomagnification</b>: DDT and mercury concentrate up the food chain; a fish may hold <b>10×</b> its prey's mercury, a bird eating it <b>100×</b> the baseline.</li>
             <li><b>Biodiversity loss</b>: sensitive species (mayflies, trout, salmon) vanish first and act as indicators; keystone loss; coral bleaching; oil smothers eggs and birds.</li>
-            <li><b>Habitat destruction</b>: sediment smothers spawning grounds; plastic entangles animals; wetlands lose filtering.</li>
+            <li><b>Habitat destruction</b>: sediment smothers spawning grounds; plastic debris entangles and kills <b>marine mammals and seabirds</b>; wetlands lose filtering.</li>
           </ul>
         ` }
       ],
@@ -423,29 +428,36 @@ CHUNK({
             <tbody>
               <tr><td><b>Primary</b> (physical)</td><td>Screening (rags, sticks, plastic), grit chamber (sand), primary clarifier (primary sludge)</td><td>~60% suspended solids, ~30% BOD removed</td></tr>
               <tr><td><b>Secondary</b> (biological)</td><td>Activated sludge, trickling filters (biofilm on rocks), rotating biological contactors (spinning discs)</td><td><b>85–95% BOD</b> and most solids removed</td></tr>
-              <tr><td><b>Tertiary</b> (advanced)</td><td>N and P removal, UV or chlorination, reverse osmosis or membranes</td><td>Near-drinking-quality effluent</td></tr>
+              <tr><td><b>Tertiary</b> (advanced)</td><td>Nutrient removal (N and P, biological or chemical); UV or chlorination kills remaining pathogens; reverse osmosis or membranes remove dissolved chemicals</td><td>Near-drinking-quality effluent</td></tr>
             </tbody>
           </table>
+          <div data-viz="sewage-treatment"></div>
           <div class="note exam">India's STP capacity must <b>triple</b>; in 2022 only <b>28%</b> of sewage from Class-I cities and Class-II towns was treated.</div>
         ` },
         { title: 'Industry and farms', html: `
           <div class="vs">
             <div class="side"><h4>Industry</h4><ul>
-              <li><b>Zero Liquid Discharge</b>: recycle all wastewater</li>
-              <li><b>ETPs</b> mandatory before discharge</li>
-              <li><b>CETPs</b>: shared plants for small industries</li>
-              <li>Ion exchange, activated carbon for metals and organics</li>
-              <li>CPCB monitoring</li>
+              <li><b>Zero Liquid Discharge (ZLD)</b>: industries recycle all their wastewater, so nothing is discharged to the environment.</li>
+              <li><b>Effluent Treatment Plants (ETPs)</b> are mandatory before any discharge.</li>
+              <li><b>Common ETPs (CETPs)</b> are shared plants, so small industries that cannot afford their own ETP still treat their effluent.</li>
+              <li><b>Ion exchange and activated carbon</b> remove heavy metals and organic compounds.</li>
+              <li>Regular monitoring by the <b>CPCB</b> checks that industries comply.</li>
             </ul></div>
             <div class="side"><h4>Agriculture</h4><ul>
-              <li><b>IPM</b>: minimise pesticides</li>
-              <li><b>Precision farming</b></li>
-              <li><b>Buffer strips</b> along waterways</li>
-              <li><b>Constructed wetlands</b> treat runoff</li>
-              <li>Organic farming</li>
+              <li><b>Integrated Pest Management (IPM)</b> minimises chemical pesticide use, so less pesticide washes into water.</li>
+              <li><b>Precision farming</b> applies fertiliser only where and when it is needed, so less excess nutrient runs off.</li>
+              <li><b>Buffer strips</b> are strips of vegetation along waterways that filter runoff before it reaches the water.</li>
+              <li><b>Constructed wetlands</b> are engineered systems that use plants to treat agricultural runoff.</li>
+              <li><b>Organic farming</b> removes synthetic pesticide and fertiliser contamination altogether.</li>
             </ul></div>
           </div>
-          <p><b>Nature-based</b>: <b>phytoremediation</b> (water hyacinth, vetiver), <b>bioremediation</b> (microbes), riparian buffers and wetland restoration, rainwater harvesting.</p>
+          <h3>Nature-based solutions</h3>
+          <ul>
+            <li><b>Phytoremediation</b>: plants such as <b>water hyacinth</b> and <b>vetiver grass</b> absorb pollutants.</li>
+            <li><b>Bioremediation</b>: microorganisms break down organic pollutants.</li>
+            <li><b>Riparian buffers and wetland restoration</b> reduce non-point source pollution.</li>
+            <li><b>Rainwater harvesting</b> reduces storm runoff and groundwater depletion.</li>
+          </ul>
         ` },
         { title: 'Laws', html: `
           <table class="tbl">
@@ -467,6 +479,7 @@ CHUNK({
               <tr><td><b>Deepwater Horizon (2010)</b></td><td>~<b>4.9 million barrels</b> (780 million L) over <b>87 days</b> in the Gulf of Mexico; 400+ species hit; cleanup over <b>$65 billion</b></td></tr>
             </tbody>
           </table>
+          <div class="note exam">Long answer on water pollution control: (1) sewage treatment in three stages, each with its steps and what it removes (60% solids and 30% BOD, then 85–95% BOD, then near-drinking quality); (2) India's gap (STP capacity must triple, 28% treated in 2022); (3) industrial controls (ZLD, ETP, CETP); (4) farm practices and nature-based fixes; (5) laws (Water Act 1974, EPA 1986, NMCG); (6) one case study, such as Minamata or the Yamuna.</div>
         ` }
       ],
       flashcards: [

@@ -145,6 +145,7 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">The Air Act penalty here is the course's figure for basic violations. Learn the numbers exactly as given in this table.</div>
+          <div class="note exam"><p>For "Penalties under the Water Act": go section by section (41, 41A, 42, 43, 44, 45, 46, 47), giving the violation and the penalty for each, and point out that Section 43 is the most severe. Then write the key features (non-compoundable, some cognizable, Environmental Protection Fund, liability for cleanup). If asked why engineers must know the Act, add personal liability under Section 46 and a few of the ten reasons. For a comparison question, reproduce this three-column table.</p></div>
         ` }
       ],
       flashcards: [

@@ -58,6 +58,7 @@ CHUNK({
             <tr><td>Ecosystem</td><td>Range of habitats</td><td>Coral reefs, rainforests</td></tr>
           </tbody></table>
           <p>The levels are <b>interconnected</b>: loss at one weakens the others, so conservation must cover all three.</p>
+          <div class="note exam">Long answer on biodiversity and its levels: (1) definition (biological diversity, from microbes to large mammals, at gene, species and ecosystem level); (2) why it matters (balance, pollination, nutrient cycling, climate regulation) and why engineers study it; (3) genetic diversity with dog breeds, rice and wheat, and why it matters; (4) species diversity: richness and evenness, rainforest vs monoculture; (5) ecosystem diversity and its services; (6) the comparison table and the point that the three levels are interconnected.</div>
         ` }
       ],
       flashcards: [
@@ -95,8 +96,13 @@ CHUNK({
             <li><b>Natural water purification</b> by wetlands and microbes.</li>
           </ul>
           <h3>Economic value</h3>
-          <div class="chips"><span class="chip">Agriculture and livestock</span><span class="chip">Pharmaceuticals</span><span class="chip">Natural dyes, oils, enzymes</span><span class="chip">Biodegradable materials</span><span class="chip">Ecotourism</span></div>
-          <p>Crops, breeds and genetic resources are the base of farming. Many <b>life-saving drugs</b> come from plants, fungi and marine organisms. Protecting biodiversity protects livelihoods and national economies.</p>
+          <ul>
+            <li><b>Agriculture and livestock</b>: biodiversity is their foundation, giving the variety of crops, breeds and genetic resources used for food and farming.</li>
+            <li><b>Pharmaceuticals</b>: many <b>life-saving drugs</b> come from plants, fungi and marine organisms in diverse ecosystems.</li>
+            <li><b>Bioproducts</b>: natural dyes, oils, enzymes and biodegradable materials are developed from living things.</li>
+            <li><b>Ecotourism</b>: a growing industry that depends on rich natural environments and wildlife to attract visitors.</li>
+          </ul>
+          <p>Protecting biodiversity keeps these benefits flowing to livelihoods, local communities and national economies.</p>
         ` },
         { title: 'Science, culture, ethics', html: `
           <h3>Scientific and educational</h3>
@@ -121,6 +127,7 @@ CHUNK({
             <tr><td>Phytoplankton</td><td>Large share of <b>oxygen production</b> and carbon cycling</td></tr>
           </tbody></table>
           <p>Protecting biodiversity keeps the natural systems that buffer us against climate extremes.</p>
+          <div class="note exam">Long answer on the significance of biodiversity: take the five values as headings in this order: (1) ecological balance (food webs, pollination, decomposition, water purification); (2) economic value (agriculture, medicines, bioproducts, ecotourism); (3) scientific and educational value (biotechnology, genetic engineering, living laboratory); (4) cultural and ethical value (sacred species, indigenous knowledge, moral duty); (5) climate regulation (forests, wetlands, oceans, phytoplankton). Give one example under each.</div>
         ` }
       ],
       flashcards: [
@@ -172,6 +179,7 @@ CHUNK({
           </tbody></table>
           <p>Threats: deforestation, infrastructure development, climate change.</p>
           <div class="mnemonic"><p>"<b>H</b>ot <b>W</b>ater <b>I</b>n <b>S</b>ummer": Himalayas, Western Ghats, Indo-Burma, Sundaland.</p></div>
+          <div class="note exam">Long answer on hotspots: (1) definition; (2) the criteria: high species richness, high endemism and serious threat; (3) why conservation focuses on them; (4) three global examples with one fact each; (5) India's four of 36 hotspots with what each is known for; (6) threats and their services (carbon storage, water regulation, food security).</div>
         ` }
       ],
       flashcards: [
@@ -268,6 +276,7 @@ CHUNK({
           </ul>
         ` },
         { title: 'Five types', html: `
+          <div data-viz="species-interactions"></div>
           <table class="tbl"><thead><tr><th>Type</th><th>Effect</th><th>Examples</th></tr></thead><tbody>
             <tr><td><b>Mutualism</b></td><td>Both <b>benefit</b> (+/+), neither harmed</td><td>Bees and flowers (nectar / pollination); <b>mycorrhizal fungi</b> and roots (nutrients / carbohydrates)</td></tr>
             <tr><td><b>Commensalism</b></td><td>One benefits, other <b>unaffected</b> (+/0)</td><td><b>Barnacles on whales</b>; <b>cattle egrets</b> eating insects stirred up by cattle</td></tr>
@@ -291,6 +300,7 @@ CHUNK({
             <li>Ecosystems run on <b>feedback loops</b>: one decline can unbalance others.</li>
           </ul>
           <p>Conservation is a societal responsibility: engineers, scientists, policymakers and communities working together.</p>
+          <div class="note exam">Long answer on species interactions: (1) definition (direct or indirect, short- or long-term effects of organisms on each other); (2) why they matter for ecosystems and for engineers (EIA, conservation engineering); (3) the five types, each with its +/− effect and the source's examples; (4) sub-types: ecto- and endoparasites, intra- and interspecific competition; (5) how broken interactions lead to endangerment and extinction, with the pollinator example.</div>
         ` }
       ],
       flashcards: [
@@ -374,6 +384,7 @@ CHUNK({
           <div class="note heads-up"><p>The notes list the Malabar civet as a rare species but also call it critically endangered, which does not fit their own definition of rare. Learn it under both: rare example, critically endangered status.</p></div>
           <h3>Engineers' role</h3>
           <p>Sustainable infrastructure planning, <b>EIAs</b> before construction, eco-friendly design, and solutions like <b>wildlife corridors</b>, green buildings and water-efficient systems.</p>
+          <div class="note exam">Long answer on species status: open with what conservation status measures, then take the four categories in order. For each give (1) the definition, (2) causes, (3) examples from India and the world, (4) impact or conservation steps. Finish with the rare vs endangered difference and the engineer's role (EIA, wildlife corridors).</div>
         ` }
       ],
       flashcards: [

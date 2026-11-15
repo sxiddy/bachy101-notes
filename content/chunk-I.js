@@ -77,7 +77,7 @@ CHUNK({
       source: 'Lecture W3S3 (Soil pollution), pages 3–5',
       tabs: [
         { title: 'Human health', html: `
-          <p>Crops absorb soil pollutants and pass them on. Long exposure can alter genetic make-up, causing <b>congenital and chronic illness</b>; it sickens livestock, causes food poisoning, and can lead to <b>famine</b> if plants cannot grow.</p>
+          <p>Crops absorb soil pollutants and pass them on, which can cause a <b>sudden surge of certain illnesses</b>. Long exposure can alter genetic make-up, causing <b>congenital and chronic illness</b>; it sickens livestock, causes food poisoning, and can lead to <b>famine</b> if plants cannot grow.</p>
           <table class="tbl">
             <thead><tr><th>Route</th><th>Who and how</th></tr></thead>
             <tbody>
@@ -89,24 +89,27 @@ CHUNK({
         ` },
         { title: 'Other effects', html: `
           <ol>
-            <li><b>Plant growth</b>: plants cannot adapt to sudden chemistry change; soil-binding fungi and bacteria decline, causing <b>erosion</b>.</li>
-            <li><b>Lower fertility</b>: poorer yields; produce lacks nutrients and may be poisonous.</li>
-            <li><b>Toxic dust</b>: foul gases and smell from landfills.</li>
-            <li><b>Soil structure changes</b>: soil organisms (earthworms) die; animals migrate for food.</li>
-            <li><b>Groundwater poisoning</b>: toxins percolate into the water table used by wells and tube wells; <b>arsenic poisoning</b>, food poisoning, sometimes fatal.</li>
+            <li><b>Plant growth</b>: most plants cannot adapt when soil chemistry changes so radically in a short time, so the ecological balance is upset. The soil-binding fungi and bacteria decline, which causes <b>erosion</b>; fertility slowly falls until the land is <b>unsuitable for agriculture</b> or any local vegetation, and large tracts become hazardous to health.</li>
+            <li><b>Lower fertility</b>: toxic chemicals cut soil fertility and so the yield. Fruit and vegetables grown on it lack quality nutrients and may carry poisons that cause serious illness.</li>
+            <li><b>Toxic dust</b>: toxic and foul gases from landfills pollute the surroundings and cause health problems, and the bad smell troubles people living nearby.</li>
+            <li><b>Soil structure changes</b>: soil organisms such as <b>earthworms</b> die, which alters the soil structure, and animals may be forced to migrate in search of food.</li>
+            <li><b>Groundwater poisoning</b>: toxins percolate slowly into the water table that wells and tube wells draw on. Drinking it for long causes <b>arsenic poisoning</b>, food poisoning and other diseases, which can be fatal.</li>
           </ol>
+          <div class="note why">Soil pollution touches all forms of life: the toxins harm health and affect <b>food, water and air quality</b> directly and indirectly, which is why it has so many separate effects.</div>
         ` },
         { title: 'Solutions', html: `
           <p>World population is expected to pass <b>9 billion by 2050</b>, so food security depends on the soils we already have. Individuals help by sustainable food choices, <b>recycling batteries</b>, <b>home composting</b> and managing antibiotic waste.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Less chemical fertiliser</b></td><td>Excess upsets pH, kills good microbes and its runoff pollutes water: a double-edged sword</td></tr>
-              <tr><td><b>Reforestation and afforestation</b></td><td>Roots bind soil, hold microbes and maintain the water table</td></tr>
-              <tr><td><b>Recycle and reuse</b></td><td>Less plastic in landfills, which leach toxins as they slowly decompose</td></tr>
-              <tr><td><b>Involve locals</b></td><td>Awareness programmes</td></tr>
-              <tr><td><b>Natural manure</b></td><td>Organic, harmless, restores soil health with no harmful by-products</td></tr>
+              <tr><td><b>Less chemical fertiliser</b></td><td>Proper amounts improve fertility, but excess poisons the soil: it upsets pH, kills good microbes and its runoff pollutes water, so it is a double-edged sword.</td></tr>
+              <tr><td><b>Reforestation and afforestation</b></td><td>Erosion after deforestation is a major cause of soil pollution. Reforest cleared land and afforest barren land: roots bind soil, hold good microbes and maintain the water table.</td></tr>
+              <tr><td><b>Recycle and reuse</b></td><td>Plastic is a big share of waste and is buried in landfills, where it decomposes slowly and leaches toxins; reusing and recycling means less waste is dumped there.</td></tr>
+              <tr><td><b>Involve locals</b></td><td>Every individual must take part; awareness programmes help people understand soil pollution so they help even without thinking about it.</td></tr>
+              <tr><td><b>Natural manure</b></td><td>One of the best nutrient sources: organic and harmless, it restores soil health with no harmful by-products.</td></tr>
             </tbody>
           </table>
+          <p>Soil pollution is one of the main threats to soil functions worldwide. It is a complex problem that needs everyone, from the individual to the <b>government</b>, working together, and sustainable farming practices promoted in communities.</p>
+          <div class="note exam">Long answer on soil pollution: (1) definition (land degradation, xenobiotic chemicals) and when natural compounds become pollution; (2) man-made and natural sources, with construction sites as the main urban trigger; (3) effects on human health with the three routes (inhalation, eating, skin), then plants, fertility, toxic dust, soil structure and groundwater; (4) the five solutions with a reason each; (5) close on the 9 billion by 2050 food-security point.</div>
         ` }
       ],
       flashcards: [
@@ -133,6 +136,7 @@ CHUNK({
       tabs: [
         { title: 'Definition and dB', html: `
           <p class="lead"><b>Noise pollution</b> is any <b>undesired or unpleasant sound</b> that interferes with daily life. WHO: exposure to sound levels <b>harmful to health and well-being</b>.</p>
+          <p>Noise pollution is a significant environmental problem that is <b>frequently disregarded</b>: people know the harm of air, water and soil pollution but rarely think about unwanted sound. With fast urbanisation and industrialisation it is one of the biggest risks to human health. Noise is abrupt, harsh and disturbing, unlike music or ambient sound, and it becomes pollution when it reaches <b>intrusion, disturbance and harm</b>. The primary cause is <b>human activity</b>, especially in urban and industrial regions. Sound is measured in <b>decibels (dB)</b>.</p>
           <table class="tbl">
             <thead><tr><th>Sound</th><th>Level</th></tr></thead>
             <tbody>
@@ -147,12 +151,12 @@ CHUNK({
         { title: 'Six groups of sources', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Industrial</b></td><td>Compressors, drills, generators; cutting, grinding, welding; construction and transport inside plants; worn-out machinery; industry next to homes</td></tr>
-              <tr><td><b>Transport</b></td><td>Road traffic, honking and sirens, poor engines and modified exhausts, trains, aircraft take-off and landing</td></tr>
-              <tr><td><b>Urbanisation and construction</b></td><td>Mixers, bulldozers, blasting, near-constant city building, late-night work</td></tr>
-              <tr><td><b>Social and community</b></td><td>Loudspeakers, firecrackers, religious events, rallies and protests, stadiums and concerts</td></tr>
-              <tr><td><b>Household</b></td><td>Pressure cookers, mixers, washing machines, TVs, ACs and coolers, fridges and chimneys (low-frequency), barking dogs and livestock</td></tr>
-              <tr><td><b>Occupational</b></td><td>Mines, textile mills, steel plants, printing presses, drivers, airport ground staff, farm machinery, military</td></tr>
+              <tr><td><b>Industrial</b></td><td>Heavy machinery (compressors, drills, generators) runs continuously and makes constant high-intensity noise, worst where regulation is weak. Cutting, grinding and welding add repetitive noise; construction and transport inside plants add background noise; worn-out, badly maintained machinery is louder; industries next to homes carry it into residential areas.</td></tr>
+              <tr><td><b>Transport</b></td><td>Cars, horns, highways, railways and aircraft cause long-term exposure that harms nearby residents. Road traffic is continuous; honking and sirens add intense bursts; poorly maintained engines and modified exhausts are louder; trains (engines, whistles, track vibration) are worst near stations; aircraft are extremely loud at take-off, landing and taxiing.</td></tr>
+              <tr><td><b>Urbanisation and construction</b></td><td>Rapid urbanisation means construction all day: concrete mixers and bulldozers, blasting in road building, mining and demolition, and apartments, malls and offices going up. <b>Late-night work</b> raises stress and disrupts sleep.</td></tr>
+              <tr><td><b>Social and community</b></td><td>Loudspeakers, firecrackers and music systems at weddings, festivals and political rallies cause sudden rises, especially in holiday seasons. Public address systems, firecracker bursts, chanting, bells, drums and amplified devotional songs, shouting at rallies and protests, and stadiums, fairs and concerts all add.</td></tr>
+              <tr><td><b>Household</b></td><td>Everyday equipment adds noise without people noticing: pressure cookers, mixers, washing machines, vacuum cleaners and grinders; TVs and radios played loud; ACs, coolers, exhaust fans and generators; fridges, dishwashers and chimneys (constant <b>low-frequency</b> noise); barking dogs, poultry and cattle.</td></tr>
+              <tr><td><b>Occupational</b></td><td>Workers in construction, mining, driving and manufacturing face constant noise that can cause hearing loss: blasting in mines; textile mills, steel plants, power stations and printing presses; bus, truck and train drivers (stress, fatigue); airport ground staff near jet engines; farm workers with tractors, threshers, harvesters and pumps; soldiers exposed to gunfire, explosions and aircraft.</td></tr>
             </tbody>
           </table>
           <div class="note exam">Long occupational exposure leads to <b>Noise-Induced Hearing Loss (NIHL)</b>, stress, lower productivity and accidents.</div>
@@ -180,31 +184,48 @@ CHUNK({
       source: 'Lecture W3S4 (Noise pollution), pages 4–7',
       tabs: [
         { title: 'Effects', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Health</b></td><td>Hearing loss and <b>tinnitus</b>; stress, anxiety, sleeplessness; <b>hypertension and heart attacks</b>; children's learning, memory and concentration suffer</td></tr>
-              <tr><td><b>Social</b></td><td>Lower productivity and more mistakes; aggression and irritability; impatience and conflict; harder communication</td></tr>
-              <tr><td><b>Environmental</b></td><td>Disrupts wildlife communication, navigation and breeding; animals leave homes or change <b>migration routes</b>; underwater noise harms <b>whales and dolphins</b></td></tr>
-            </tbody>
-          </table>
+          <p class="lead">The source sorts the consequences of noise into three groups: <b>health</b>, <b>social</b> and <b>environmental</b> impacts.</p>
+          <h3>Health impacts</h3>
+          <ul>
+            <li><b>Hearing loss</b> and persistent ringing in the ears (<b>tinnitus</b>) can leave a person with a deep sense of isolation.</li>
+            <li>Higher <b>stress</b> can grow into anxiety and <b>sleepless nights</b>, so the person never fully rests.</li>
+            <li>Serious <b>cardiovascular problems</b> such as <b>hypertension and heart attacks</b> become more likely, which puts lives at risk.</li>
+            <li>In <b>children</b>, noise harms learning, memory and concentration, which affects their education and future.</li>
+          </ul>
+          <h3>Social impacts</h3>
+          <ul>
+            <li>Noise at work <b>lowers productivity</b> and increases mistakes.</li>
+            <li>Loud sound makes people more <b>aggressive and irritable</b>, so tempers are short and relationships strain.</li>
+            <li>People become <b>impatient and less tolerant</b>, which leads to conflicts and misunderstandings.</li>
+            <li><b>Communication</b> gets harder when people cannot hear or be heard, which damages personal and professional connections.</li>
+          </ul>
+          <h3>Environmental impacts</h3>
+          <ul>
+            <li>Noise disrupts how <b>wildlife communicates</b>, which affects how animals navigate and breed.</li>
+            <li>Stressed animals may leave their homes or change <b>migration routes</b>, leading to confusion and population decline.</li>
+            <li>Underwater noise is dangerous for <b>whales and dolphins</b>, because they rely on sound to communicate and find food.</li>
+          </ul>
         ` },
         { title: 'Remedies', html: `
-          <div class="vs">
-            <div class="side"><h4>Technology</h4><ul>
-              <li>Silencers and regular machine maintenance</li>
-              <li>Sound enclosures and <b>vibration dampers</b></li>
-              <li><b>Sound barriers</b> along highways</li>
-              <li>Soundproofing in buildings</li>
-            </ul></div>
-            <div class="side"><h4>Behaviour</h4><ul>
-              <li>Less honking and loud music</li>
-              <li><b>Earplugs</b> in noisy workplaces</li>
-              <li><b>Trees</b> to absorb sound</li>
-              <li>Awareness of quieter technologies</li>
-            </ul></div>
-          </div>
-          <p><b>Regulation</b>: India's <b>Noise Pollution (Regulation and Control) Rules, 2000</b> set permissible limits and restrict noisy activities to set times; plus rules on loudspeakers, construction hours and fireworks.</p>
-          <div class="note exam">Noise needs a multi-dimensional answer: <b>laws, technology and awareness</b>.</div>
+          <p class="lead">Remedies fall into three groups: <b>technological solutions</b>, a <b>regulatory framework</b> and <b>behavioural changes</b>.</p>
+          <h3>Technological solutions</h3>
+          <ul>
+            <li><b>Silencers and regular machine maintenance</b>: silencer technology plus routine upkeep of machinery cuts operational noise at the source.</li>
+            <li><b>Sound enclosures and vibration dampers</b>: these muffle disruptive sounds, so industrial spaces become quieter.</li>
+            <li><b>Sound barriers along highways</b>: they reduce and redirect traffic noise away from nearby communities.</li>
+            <li><b>Soundproofing in buildings</b>: special soundproofing materials keep outside noise out, so indoor spaces stay quiet.</li>
+          </ul>
+          <h3>Regulatory framework</h3>
+          <p>Strict enforcement of noise rules reduces disturbance in communities. Example: India's <b>Noise Pollution (Regulation and Control) Rules, 2000</b> set clear limits on <b>permissible noise levels</b> and restrict noisy activities to specific times. Rules on <b>loudspeakers</b>, <b>construction hours</b> and <b>fireworks</b> displays keep urban areas calmer.</p>
+          <h3>Behavioural changes</h3>
+          <ul>
+            <li><b>Quiet practices</b>: encourage people to honk less and play music softer.</li>
+            <li><b>Earplugs in noisy workplaces</b>: they protect workers' hearing and help them focus.</li>
+            <li><b>Planting trees</b>: trees absorb sound, so neighbourhoods become calmer as well as greener.</li>
+            <li><b>Awareness campaigns</b>: teach the public the benefits of quieter technologies and build support for noise reduction.</li>
+          </ul>
+          <div class="note why">Noise pollution threatens <b>health, society and ecosystems</b>, so no single fix works: it needs a multi-dimensional approach of <b>laws, technology and awareness</b>. As the source puts it, silence is a foundation for health and harmony.</div>
+          <div class="note exam">Long answer on noise pollution: (1) definition (WHO) and dB scale with the 85 dB and 120 dB limits; (2) the six groups of sources with an example each; (3) effects under health, social and environmental headings; (4) remedies under technology, regulation (Rules, 2000) and behaviour; (5) close with the laws, technology and awareness line.</div>
         ` }
       ],
       flashcards: [
@@ -276,6 +297,7 @@ CHUNK({
               <tr><td>Awareness and research</td><td>Educate; invest in new cooling technology</td></tr>
             </tbody>
           </table>
+          <div class="note exam">Long answer on thermal pollution: (1) definition with the power-plant example (40–50°C into a 20–25°C river) and the 1–1.5°C point; (2) why it is energy pollution, not chemical; (3) causes, industrial and power plants first, then hydro, deforestation, sewage, global warming and natural; (4) the nine consequences, leading with dissolved oxygen and thermal shock; (5) remedies from cooling ponds and towers to regulation, afforestation and zoning.</div>
         ` }
       ],
       flashcards: [

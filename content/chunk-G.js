@@ -45,6 +45,7 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">In the notes the water-related paragraph has no heading, and the numbering starts at "1. Meteorological". It is the <b>hydrological</b> type, so there are six types in all. Landslides appear under both hydrological and geological.</div>
+          <div class="note exam">Long answer on disaster management: (1) definition, covering natural and man-made disasters; (2) why it matters (lives, economic loss, faster recovery); (3) the four phases in order: prevention and mitigation, preparedness, response, recovery and rehabilitation, each with one example; (4) objectives, including sustainability and collaboration; (5) the six types of natural disaster with cause and examples for each.</div>
         ` }
       ],
       flashcards: [
@@ -103,20 +104,20 @@ CHUNK({
         { title: 'Prevention and response', html: `
           <div class="vs">
             <div class="side"><h4>Prevention and mitigation</h4><ul>
-              <li>Stormwater <b>drainage planning</b></li>
-              <li><b>Embankments and levees</b> along rivers and coasts</li>
-              <li><b>Afforestation</b> to absorb rain and cut runoff</li>
-              <li><b>Dams and reservoirs</b> store and slowly release water</li>
-              <li><b>Early warning</b>: flood sensors, satellites</li>
-              <li><b>Sustainable urban planning</b>: rain gardens, porous pavements, retention ponds</li>
+              <li>Stormwater <b>drainage planning</b>: well-kept drains and flood channels carry water away fast, which prevents urban flooding.</li>
+              <li><b>Embankments and levees</b>: man-made or natural barriers along rivers and coasts that control water levels.</li>
+              <li><b>Afforestation</b>: trees absorb rainwater and cut runoff, and also stop landslides and soil erosion.</li>
+              <li><b>Dams and reservoirs</b> store excess rain and release it slowly, so no sudden surge floods the land downstream.</li>
+              <li><b>Early warning</b>: weather technology, flood sensors and satellites predict floods in advance, giving time to evacuate.</li>
+              <li><b>Sustainable urban planning</b>: green infrastructure such as rain gardens, porous pavements and retention ponds soaks up extra water naturally.</li>
             </ul></div>
             <div class="side"><h4>Preparedness and response</h4><ul>
-              <li>Early warning alerts via TV, radio, apps, sirens</li>
-              <li>Evacuation routes, assembly points, shelters</li>
-              <li>Community awareness and regular drills</li>
-              <li>Emergency supplies: water, food, torch, batteries, medical kit, documents</li>
-              <li>Search and rescue with boats, drones, helicopters</li>
-              <li>Relief and rehabilitation: food, water, care, rebuilding</li>
+              <li><b>Early warning alerts</b> go out through TV, radio, mobile apps and sirens so people can evacuate and prepare.</li>
+              <li><b>Evacuation plans</b>: set routes, assembly points and emergency shelters, with strategies planned in advance for quick relocation.</li>
+              <li><b>Community awareness</b>: teach people flood risks, safe evacuation and emergency numbers; regular drills keep this fresh.</li>
+              <li><b>Emergency supplies</b>: clean drinking water, non-perishable food, torch, batteries, medical kit and important documents kept safe.</li>
+              <li><b>Search and rescue</b>: special teams with boats, drones and helicopters rescue stranded people and give first aid.</li>
+              <li><b>Relief and rehabilitation</b>: after the flood, food, clean water, medical care, then rebuilding homes, roads and utilities.</li>
             </ul></div>
           </div>
         ` },
@@ -131,6 +132,7 @@ CHUNK({
               <tr><td>Lessons</td><td>Better flood forecasting, drainage, sustainable environmental policy</td></tr>
             </tbody>
           </table>
+          <div class="note exam">Long answer on floods: (1) definition; (2) four types (riverine, flash, coastal, urban) with what drives each; (3) causes, each with its mechanism; (4) impacts on people, economy, health and environment; (5) prevention and mitigation measures; (6) preparedness and response; (7) close with the Pakistan 2010 case: date, provinces, deaths and people affected, causes, lessons.</div>
         ` }
       ],
       flashcards: [
@@ -188,20 +190,20 @@ CHUNK({
         { title: 'Mitigation and response', html: `
           <div class="vs">
             <div class="side"><h4>Mitigation</h4><ul>
-              <li><b>Seismic zoning</b> by risk level</li>
-              <li><b>Building codes</b>: structures that sway, not collapse (reinforced concrete, steel frames)</li>
-              <li><b>Retrofitting</b>: beams, flexible joints, shock absorbers</li>
-              <li><b>Base isolators</b>: rubber or metal bearings under skyscrapers</li>
-              <li>Public awareness and drills</li>
-              <li><b>Early warning</b>: detect <b>P-waves</b> before damaging <b>S-waves</b> arrive</li>
+              <li><b>Seismic zoning</b>: regions are divided by earthquake risk, which guides safe planning and restricts building in high-risk zones.</li>
+              <li><b>Strict building codes</b>: buildings designed to sway instead of collapse, using reinforced concrete and steel frames.</li>
+              <li><b>Retrofitting</b>: older buildings get extra support beams, flexible joints and shock absorbers to withstand seismic waves.</li>
+              <li><b>Shock-absorbing foundations</b>: modern skyscrapers sit on <b>base isolators</b>, large rubber or metal bearings that absorb ground movement.</li>
+              <li><b>Public awareness and drills</b>: quake-prone countries run regular drills and safety programmes so people know what to do.</li>
+              <li><b>Early warning</b>: seismic networks detect the first <b>P-waves</b> before the damaging <b>S-waves</b> arrive, so people can take cover.</li>
             </ul></div>
             <div class="side"><h4>Preparedness and response</h4><ul>
-              <li>P-wave early warning gives seconds to take cover</li>
-              <li><b>"Drop, Cover, and Hold"</b> drills</li>
-              <li>Evacuation routes and safe zones</li>
-              <li>Search and rescue with trained teams and <b>rescue dogs</b></li>
-              <li>Relief: shelter, food, water, medical aid</li>
-              <li>Recovery: restore services, reinforce structures</li>
+              <li><b>Early warning</b>: picking up P-waves gives a few seconds before strong shaking, enough to take cover.</li>
+              <li><b>Emergency drills</b>: schools, offices and communities practise <b>"Drop, Cover, and Hold"</b>.</li>
+              <li><b>Evacuation plans</b>: clear escape routes and safe zones cut panic and keep evacuation orderly.</li>
+              <li><b>Search and rescue</b>: trained teams and <b>rescue dogs</b> with special equipment find people trapped in collapsed buildings.</li>
+              <li><b>Relief and medical aid</b>: humanitarian groups give temporary shelter, food, water and medical help.</li>
+              <li><b>Recovery</b>: restore essential services, reinforce structures and improve preparedness for the next quake.</li>
             </ul></div>
           </div>
         ` },
@@ -217,6 +219,7 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">The case-study heading says "Date &amp; Magnitude" but gives neither. The year <b>2011</b> comes from the causes section ("the 2011 Japan earthquake").</div>
+          <div class="note exam">Long answer on earthquakes: (1) basics: plates, fault lines, focus vs epicentre, measuring scales; (2) causes, natural then human-made (mining, fracking, Koyna Dam 1967); (3) impacts including tsunami and soil liquefaction; (4) mitigation (zoning, codes, retrofitting, base isolators, P-wave warning); (5) preparedness and response; (6) Tohoku 2011 and Fukushima as the case, with its lessons.</div>
         ` }
       ],
       flashcards: [
@@ -265,25 +268,32 @@ CHUNK({
             <li><b>Climate change</b>: warmer oceans give more intense, longer-lasting cyclones.</li>
           </ol>
           <h4>Impact</h4>
-          <p>Strong winds (up to category 5), storm surges, heavy rain with flash floods and landslides, long waterlogging, economic loss, displacement and casualties.</p>
+          <ul>
+            <li><b>Strong winds</b>: as strong as category 5 hurricanes; they flatten buildings, snap power lines and stop transport.</li>
+            <li><b>Storm surges</b>: wind pressure plus high tide pushes seawater inland and submerges coastal communities.</li>
+            <li><b>Heavy rainfall</b>: cyclones carry huge moisture, so long intense rain sets off flash floods and landslides.</li>
+            <li><b>Floods and waterlogging</b>: city drains fail, leaving long waterlogging that hits transport and health.</li>
+            <li><b>Economic loss</b>: industries shut, farm fields go under water and rebuilding needs massive funds.</li>
+            <li><b>Human casualties</b>: thousands displaced without shelter, food or medical care, so relief is urgent.</li>
+          </ul>
         ` },
         { title: 'Mitigation and response', html: `
           <div class="vs">
             <div class="side"><h4>Mitigation</h4><ul>
-              <li><b>Coastal embankments</b>: first line of defence against surges</li>
-              <li><b>Mangroves</b>: absorb storm energy, cut erosion, act as windbreaks</li>
-              <li>Early warning: satellites, <b>Doppler radar</b>, models</li>
-              <li>Multi-purpose <b>cyclone shelters</b></li>
-              <li>Improved drainage</li>
-              <li>Resilient buildings, roads, power lines</li>
+              <li><b>Coastal embankments</b>: physical barriers that are the first line of defence against storm surges, protecting low-lying areas from flooding.</li>
+              <li><b>Mangrove plantations</b>: mangroves absorb storm energy, reduce erosion and act as windbreaks, so coasts recover better.</li>
+              <li><b>Early warning</b>: satellites, <b>Doppler radar</b> and weather models predict the cyclone's path, giving people and authorities time to prepare.</li>
+              <li><b>Cyclone shelters</b>: specially designed multi-purpose shelters give safe space during the storm.</li>
+              <li><b>Improved drainage</b>: planned urban drains stop long waterlogging and reduce floods after the cyclone.</li>
+              <li><b>Resilient infrastructure</b>: stronger buildings, roads and power lines mean less damage and faster recovery.</li>
             </ul></div>
             <div class="side"><h4>Preparedness and response</h4><ul>
-              <li>Evacuation routes and points set in advance</li>
-              <li>Strong shelters built on raised ground</li>
-              <li>Emergency communication: weather apps, public alerts</li>
-              <li>Relief by the <b>Red Cross</b> and government agencies</li>
-              <li>Search and rescue by military and disaster forces</li>
-              <li>Community awareness: kits, first aid</li>
+              <li><b>Evacuation plans</b>: safe routes, transport and evacuation points are fixed well in advance.</li>
+              <li><b>Cyclone shelters</b>: strong, raised buildings that protect people from wind, flooding and debris.</li>
+              <li><b>Emergency communication</b>: weather apps and public alert systems spread warnings fast.</li>
+              <li><b>Relief</b>: the <b>Red Cross</b> and government agencies hand out food, medicine and supplies.</li>
+              <li><b>Search and rescue</b>: military and disaster response forces find and save trapped people.</li>
+              <li><b>Community awareness</b>: training on preparedness, emergency kits and first aid cuts panic and saves lives.</li>
             </ul></div>
           </div>
         ` },
@@ -297,6 +307,7 @@ CHUNK({
             </tbody>
           </table>
           <p><b>Similarities</b>: mass evacuations, large rebuilding, showed the value of preparedness. <b>Lessons</b>: early warning, better evacuation plans, resilient infrastructure.</p>
+          <div class="note exam">Long answer on cyclones: (1) definition; (2) three types with regional names of tropical cyclones; (3) causes: warm ocean, low pressure, Coriolis effect, wind and moisture, latitude, climate change; (4) impacts; (5) mitigation (embankments, mangroves, warning, shelters, drainage, resilient infrastructure); (6) preparedness and response; (7) Fani 2019 vs Katrina 2005 as cases, with similarities and lessons.</div>
         ` }
       ],
       flashcards: [
@@ -336,32 +347,32 @@ CHUNK({
         { title: 'Causes and impact', html: `
           <div class="vs">
             <div class="side"><h4>Causes</h4><ul>
-              <li><b>Heavy rainfall</b> (most common trigger)</li>
-              <li><b>Earthquakes</b></li>
-              <li><b>Deforestation</b>: roots no longer bind soil</li>
-              <li><b>Mining and excavation</b>: quarrying, road building</li>
-              <li><b>Volcanic eruptions</b>: ash, pyroclastic flows, lava</li>
-              <li><b>Construction</b>: cutting slopes badly</li>
+              <li><b>Heavy rainfall</b>: the most common trigger; water seeps into the soil and makes it unstable.</li>
+              <li><b>Earthquakes</b>: sudden shaking breaks rock formations apart and can set off huge slides.</li>
+              <li><b>Deforestation</b>: tree roots bind soil, so once trees go the soil loses strength and collapses.</li>
+              <li><b>Mining and excavation</b>: quarrying and road building upset the natural balance of slopes.</li>
+              <li><b>Volcanic eruptions</b>: ash fall, pyroclastic flows and lava together cause large slides.</li>
+              <li><b>Construction</b>: poor engineering, such as cutting slopes for buildings and roads, triggers slides on unstable ground.</li>
             </ul></div>
             <div class="side"><h4>Impact</h4><ul>
-              <li>Roads, power lines, buildings destroyed</li>
-              <li>Loss of life: among the <b>deadliest</b> disasters</li>
-              <li>Forests, habitats, water sources destroyed</li>
-              <li>Economic burden of recovery</li>
-              <li>Displacement and lost livelihoods</li>
-              <li>Soil erosion and <b>sedimentation</b> of rivers and lakes</li>
+              <li><b>Infrastructure damage</b>: roads, power lines and buildings destroyed, cutting transport and communication.</li>
+              <li><b>Loss of life</b>: fast slides bury homes and people, making them among the <b>deadliest</b> natural disasters.</li>
+              <li><b>Environment</b>: forests, wildlife habitats and water sources destroyed, disrupting ecosystems.</li>
+              <li><b>Economic loss</b>: governments and communities bear heavy recovery and rehabilitation costs.</li>
+              <li><b>Displacement</b>: people forced to relocate, often losing homes and livelihoods.</li>
+              <li><b>Soil erosion and sedimentation</b>: land becomes unfit for farming and silt fills nearby rivers and lakes.</li>
             </ul></div>
           </div>
         ` },
         { title: 'Mitigation and response', html: `
           <h4>Mitigation</h4>
           <ul>
-            <li><b>Slope stabilisation</b>: retaining walls, <b>gabions</b>, rock bolts.</li>
-            <li><b>Afforestation</b> and vegetation cover.</li>
-            <li><b>Drainage control</b>: channels and pipes divert water.</li>
-            <li><b>Land-use planning</b>: no building on steep, unstable slopes.</li>
-            <li>Early warning: sensors, satellites, local alerts.</li>
-            <li>Engineering: <b>rock netting, check dams</b>, slope barriers.</li>
+            <li><b>Slope stabilisation</b>: retaining walls, <b>gabions</b> and rock bolts strengthen unstable slopes.</li>
+            <li><b>Afforestation</b> and vegetation cover: tree roots bind soil and reduce erosion and slides.</li>
+            <li><b>Drainage control</b>: poor drainage weakens slopes, so channels and pipes divert excess water safely.</li>
+            <li><b>Land-use planning</b>: authorities stop construction on steep, unstable slopes.</li>
+            <li><b>Early warning</b>: sensors, satellite monitoring and local alerts let people evacuate before the slide.</li>
+            <li><b>Engineering</b>: <b>rock netting, check dams</b> and slope barriers limit the damage.</li>
           </ul>
           <h4>Preparedness and response</h4>
           <ul>
@@ -381,6 +392,7 @@ CHUNK({
             </tbody>
           </table>
           <p><b>Lessons</b>: better land-use planning, early warning and preparedness.</p>
+          <div class="note exam">Long answer on landslides: (1) definition (gravity overcomes the strength of soil and rock); (2) five types from rockfall to creep; (3) causes, natural then human; (4) impacts; (5) mitigation (slope stabilisation, afforestation, drainage, land-use planning, warning, engineering); (6) preparedness and response; (7) Kedarnath 2013 and Oso 2014 as cases, with lessons.</div>
         ` }
       ],
       flashcards: [

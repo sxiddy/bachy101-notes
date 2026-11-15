@@ -58,7 +58,7 @@ CHUNK({
         { title: 'Key dates', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Adopted</td><td><b>11 December 1997</b>, <b>COP3</b>, Kyoto, Japan</td></tr>
+              <tr><td>Adopted</td><td><b>11 December 1997</b>, <b>COP3</b>, Kyoto, Japan, after very difficult negotiations that ran through several all-night sessions</td></tr>
               <tr><td>In force</td><td><b>16 February 2005</b>, once countries with at least <b>55%</b> of global emissions ratified</td></tr>
               <tr><td>First period</td><td><b>2008–2012</b></td></tr>
               <tr><td>Second period</td><td>To <b>2020</b>, set at <b>COP18, Doha, 2012</b> (Doha Amendment, in force only <b>December 2020</b>)</td></tr>
@@ -85,6 +85,7 @@ CHUNK({
             <li>Canada withdrew too. Japan, Russia and New Zealand stayed out of the second period.</li>
             <li>The second period covered only about <b>12%</b> of global emissions, mainly the EU.</li>
           </ul>
+          <div class="note exam"><p>For "Explain the Kyoto Protocol": (1) background: UNFCCC 1992 had no binding targets, CBDR-RC; (2) adoption at COP3 on 11 December 1997 and entry into force on 16 February 2005 under the 55% rule; (3) Annex I vs Non-Annex I and the targets (group 5% below 1990 in 2008–2012; EU 8%, US 7%, Japan 6%); (4) the six gases and GWP; (5) the three flexible mechanisms; (6) weak points (US exit, Canada, second period only 12%) and the Doha Amendment; (7) legacy and the shift to Paris.</p></div>
         ` }
       ],
       flashcards: [
@@ -122,6 +123,7 @@ CHUNK({
               <tr><td><b>Clean Development Mechanism (CDM)</b></td><td>Annex I → <b>developing</b></td><td>Invest in a clean project in a developing country and earn <b>Certified Emission Reductions</b> (carbon credits)</td></tr>
             </tbody>
           </table>
+          <div data-viz="kyoto-mechanisms"></div>
           <div class="note heads-up">JI is between two <b>developed</b> countries; CDM is a developed country investing in a <b>developing</b> one. Students often swap these.</div>
           <p>CDM projects: wind farms, solar plants, landfill methane capture, efficient cookstoves.</p>
         ` },
@@ -148,6 +150,7 @@ CHUNK({
             <li><b>Life Cycle Assessment (LCA)</b>: total carbon footprint from raw material to disposal; became standard.</li>
             <li>Building energy efficiency standards tightened.</li>
           </ul>
+          <div class="note exam"><p>For "Explain the flexible mechanisms of the Kyoto Protocol": define each of the three (Emissions Trading, JI, CDM), say who deals with whom and what is earned (surplus units, credits, CERs), and give an example (Eastern Europe for JI; wind, solar, landfill methane, cookstoves for CDM). Then add India as a major CDM host and what it gained, and finish with the legacy (MRV, carbon markets, the lesson that led to Paris).</p></div>
         ` }
       ],
       flashcards: [
