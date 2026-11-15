@@ -249,3 +249,18 @@ update **State** before stopping.
 - NOT DONE / owner's call: (1) MCQ free-model check left at 152/269 (owner said skip). (2) Fact lists from the free model failed (413/429), not retried.
   (3) EVS ADMIN_KEY on bachy101 is refused (stored value differs from bachy105): copy it by script (never print) or owner edits it on Vercel.
   (4) The 3 models were not looked at in a browser (pane refuses localhost); only qa.js mount check. (5) Nothing pushed: local commits wait for "push".
+
+## State (16-11-2026, audit + models session, stopped at ~80% of the 5-hour limit)
+- Owner: notes must be exam-complete (enough to write a full answer), but rewrite only what needs it. Rule is in
+  SPEC.md ("Exam-complete") and notes-roadmap PIPELINE.md "Content standard" (applies to every site).
+- DONE: AUDIT.md; tools/coverage.js (missing source sentences, matched week-wide) and tools/terse.js (keyword-only
+  tabs). Weeks 1-5: keyword-only tabs explained, missing source facts added, exam outline in every topic.
+  validate --all 0 errors (6 old warnings); every lecture >= 94% coverage.
+- DONE: 8 new Pro models for hard topics (viz-paid/viz-m1-cycles.js, viz-m2.js, viz-m3-water.js, viz-m4.js,
+  viz-m5.js): nutrient-cycles, succession, species-interactions, temp-inversion, sewage-treatment,
+  kyoto-mechanisms, greenhouse-effect, carbon-scopes. Snapshots checked with viz-snap; qa.js mounts all 11 viz,
+  no runtime errors. Built and committed (3497016, 41c5821, d0a36f6). Not pushed: waits for "push".
+- NOT DONE: models not seen in a real browser; MCQs/flashcards not re-checked against the added facts; summaries
+  unchanged.
+- NEXT: BACHY105 upgrade (notes-roadmap/content-review/BACHY105-UPGRADE.md); EVS past-paper check if any EVS papers
+  exist on papers.codechefvit.com / examcooker.

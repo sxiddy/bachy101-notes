@@ -42,7 +42,7 @@ stress..."). That is fine for revision, not for writing an answer. Several lectu
 | **30 Carbon footprint** | **60%** | 720 / 2156 |
 | 31 AI and IoT | 87% | 763 / 1210 |
 
-Fix: every lecture rewritten to the "Exam-complete" rule in SPEC.md (full-sentence definitions, every list item
+Fix: only tabs that failed the "Exam-complete" rule were rewritten in SPEC.md (full-sentence definitions, every list item
 explained with its reason and the source's example, an exam-answer outline per topic).
 
 ## Hard topics that get an interactive model (only where it helps understanding)
