@@ -106,12 +106,20 @@ Notes (`.note`) take a `<p>` or plain text inside; the app adds the label. Do no
 
 ### Writing style (important: the user explicitly does not want AI-sounding text)
 
-Write like the sharpest student in the class explaining it to a friend the night before the exam: plain words, short sentences, concrete, confident, a little warm. Concise, but **nothing from the source is dropped**.
+Write like the sharpest student in the class explaining it to a friend the night before the exam: plain words, short sentences, concrete, confident, a little warm. **nothing from the source is dropped**.
+
+**Exam-complete, not keyword-short (owner, 16-11-2026).** A student must be able to write a full exam answer from the notes alone. So:
+- Every definition is a full sentence, worded the way the source words it (that is the line examiners look for).
+- Every list item (cause, effect, type, method, remedy, provision, advantage) gets 1–2 full sentences: what it is, how/why it happens, and the source's example. Never leave an item as a bare keyword or a comma list of keywords.
+- Keep tables, but table cells are sentences or clauses with the reason, not single words.
+- Each topic ends with a `.note exam` that says how to structure a long answer on it (the headings/points in order).
+- Tabs may run 2–4 minutes now. Split a tab rather than cutting content.
+- Fix only what fails this rule (missing source facts, or bare keyword lists). Tabs that already explain things in sentences stay as they are: no rewording for its own sake.
 
 - Every source fact must survive: every definition, list item, example, material, number, unit, equation, advantage, disadvantage, application, named person/year. Compress wording, not content. Merge repeated slides.
 - Order inside a topic: what it is → how it works → why it behaves that way → where it's used / pros & cons → how it's examined.
 - Explain the *why* when the source only states the *what*, briefly and correctly (e.g. why electrons can't cross the electrolyte, why a smaller quantum dot emits bluer light). Keep added explanation accurate to standard chemistry; do not invent facts, numbers or examples that contradict the source.
-- Use tables, `.kv`, `.vs`, `.steps`, `.chips` to replace walls of text. A tab should be readable in 1–3 minutes.
+- Use tables, `.kv`, `.vs`, `.steps`, `.chips` to replace walls of text, but each entry still carries its explanation (see "Exam-complete" above).
 - Chemistry formatting: H<sub>2</sub>O, Zn<sup>2+</sup>, e<sup>−</sup>, 10<sup>−9</sup> m, °C, Å, λ, θ, ε, ΔG < 0. Use the real minus sign − in charges/exponents. Use en dash for ranges (3–7).
 - Banned: "delve", "crucial", "pivotal", "vital role", "landscape", "realm", "harness", "leverage", "seamless", "robust", "unlock", "game-changer", "In summary", "In conclusion", "In essence", "It's worth noting", "It is important to note", "Let's dive", "Moreover", "Furthermore", "Additionally", "not only … but also", "isn't just … it's", rhetorical questions as openers, em-dash (—) asides, emoji, exclamation marks, "Imagine…" openers. Headings/tab titles are plain nouns ("Why lithium", "Charge & discharge"), not clever.
 - Voice: second person is fine ("you'll see", "notice that"). No hedging filler.
