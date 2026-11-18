@@ -1180,3 +1180,13 @@ a.syl-name:hover { text-decoration: underline; }
 .lec-head { font-size: 13px; font-weight: 600; color: var(--text-dim); margin: 18px 0 6px; display: flex; gap: 8px; align-items: baseline; }
 .lec-n { font-variant-numeric: tabular-nums; opacity: .8; min-width: 1.6em; }
 .lec-n::before { content: "L"; }
+
+/* Laws page: guess-the-year drill */
+.law-drill { margin-top: 20px; padding: 16px 18px; border: 1px solid var(--line-2); border-radius: 14px; background: var(--surface); }
+.law-drill .h-sec { margin-top: 0; }
+.law-q { font-size: 17px; margin: 6px 0 12px; }
+.law-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.law-opts .btn { min-width: 72px; justify-content: center; font-variant-numeric: tabular-nums; }
+.law-opts .law-ok { border-color: var(--good); color: var(--good); }
+.law-opts .law-bad { border-color: var(--warn); color: var(--warn); }
+.law-score { font-size: 13px; color: var(--text-dim); margin: 12px 0 0; }

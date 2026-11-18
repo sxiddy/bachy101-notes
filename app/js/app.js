@@ -881,11 +881,32 @@ window.__startApp = function () {
       <h1 class="h-display">Laws, Acts &amp; key dates</h1>
       <p class="blurb">${esc(LAWS.syllabus || '')} <button class="btn small ghost no-print" data-act="print">${icon('download')}Save as PDF</button></p>
       <p class="no-print">${LAWS.topics.map((t) => `<a class="btn small ghost" href="#laws" data-jump="${t.id}">${esc(t.short || t.title)}</a>`).join(' ')}</p>
+      <section class="law-drill no-print" data-drill><h2 class="h-sec">Date drill</h2><p class="blurb">Pick the year. Wrong answers come back sooner.</p><div data-dq></div></section>
       ${LAWS.topics.map((t) => `<section class="rv-mod" id="law-${t.id}"><h2 class="h-sec">${esc(t.title)}</h2>
         ${t.tabs.map((tb) => `<h3>${esc(tb.title)}</h3><div class="prose">${tb.html}</div>`).join('')}
       </section>`).join('')}`;
     $('[data-act="print"]', el).addEventListener('click', () => window.print());
     $$('[data-jump]', el).forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); const x = document.getElementById('law-' + a.dataset.jump); if (x) x.scrollIntoView({ behavior: 'smooth' }); }));
+    const DATES = [].concat(...LAWS.topics.map((t) => t.dates || []));
+    const box = $('[data-dq]', el), dr = { streak: 0, best: 0, right: 0, seen: 0, again: [] };
+    function ask() {
+      if (!DATES.length) { box.closest('[data-drill]').hidden = true; return; }
+      const it = dr.again.length && Math.random() < 0.5 ? dr.again.shift() : DATES[Math.floor(Math.random() * DATES.length)];
+      const yrs = new Set([it[1]]);
+      const near = [-1, 1, -2, 2, -5, 5, -10, 10].map((d) => it[1] + d).concat(DATES.map((d) => d[1])).filter((y) => y !== it[1]);
+      while (yrs.size < 4 && near.length) yrs.add(near.splice(Math.floor(Math.random() * Math.min(near.length, yrs.size < 3 ? 8 : near.length)), 1)[0]);
+      const opts = [...yrs].sort((x, y) => x - y);
+      box.innerHTML = `<p class="law-q"><b>${esc(it[0])}</b>?</p><div class="law-opts">${opts.map((y) => `<button class="btn small ghost" data-y="${y}">${y}</button>`).join('')}</div>
+        <p class="law-score">Streak ${dr.streak} · best ${dr.best} · ${dr.right}/${dr.seen} right</p>`;
+      $$('[data-y]', box).forEach((btn) => btn.addEventListener('click', () => {
+        const ok = +btn.dataset.y === it[1]; dr.seen++;
+        if (ok) { dr.right++; dr.streak++; dr.best = Math.max(dr.best, dr.streak); } else { dr.streak = 0; dr.again.push(it); }
+        $$('[data-y]', box).forEach((x) => { x.disabled = true; if (+x.dataset.y === it[1]) x.classList.add('law-ok'); else if (x === btn) x.classList.add('law-bad'); });
+        $('.law-score', box).textContent = `${ok ? 'Right' : 'It was ' + it[1]} · streak ${dr.streak} · best ${dr.best} · ${dr.right}/${dr.seen} right`;
+        setTimeout(ask, ok ? 700 : 1800);
+      }));
+    }
+    ask();
     return { el };
   }
 
