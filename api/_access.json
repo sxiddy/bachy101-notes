@@ -31,7 +31,8 @@
   "chunk-T.js",
   "chunk-U.js",
   "q-M5.js",
-  "summary-m5.js"
+  "summary-m5.js",
+  "chunk-V.js"
  ],
  "proFiles": [
   "pro-A.js",
@@ -60,6 +61,7 @@
   "pro-T.js",
   "pro-U.js",
   "qa-M5.js",
+  "pro-V.js",
   "viz-m1-cycles.js",
   "viz-m1.js",
   "viz-m2.js",
@@ -73,7 +75,8 @@
   "m2",
   "m3",
   "m4",
-  "m5"
+  "m5",
+  "m6"
  ],
  "paidModules": [
   {
@@ -100,6 +103,11 @@
    "id": "m5",
    "num": "05",
    "title": "Climate Change and Emerging Environmental Issues"
+  },
+  {
+   "id": "m6",
+   "num": "06",
+   "title": "Laws, Acts & Key Dates (exam revision)"
   }
  ],
  "fileModule": {
@@ -160,6 +168,8 @@
   "q-M5.js": "m5",
   "qa-M5.js": "m5",
   "summary-m5.js": "m5",
+  "chunk-V.js": "m6",
+  "pro-V.js": "m6",
   "viz-m1-cycles.js": "m1",
   "viz-m1.js": "m1",
   "viz-m2.js": "m2",

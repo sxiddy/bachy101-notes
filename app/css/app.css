@@ -1159,6 +1159,10 @@ a.syl-name:hover { text-decoration: underline; }
 /* phones: an open music player must not squash the menu (the footer buttons were drawn over the player on iOS).
    The menu keeps a usable height, the music strip scrolls inside its own box, and the footer never shrinks. */
 .sb-foot { flex: none; }
+/* every width: an open player scrolls inside its own capped box so the topic list and footer stay usable */
+.sb-inner { min-height: min(220px, 35dvh); }
+.music-dock { max-height: 45dvh; overflow-y: auto; overscroll-behavior: contain; }
+.music-dock:not(.open) { max-height: none; overflow: visible; }
 @media (max-width: 960px) {
   .sidebar { height: auto; max-height: 100dvh; }
   .sb-inner { min-height: min(260px, 40dvh); }
