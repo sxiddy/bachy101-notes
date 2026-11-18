@@ -128,6 +128,8 @@ window.__startApp = function () {
   const LEC = {};
   MODULES.forEach((m) => (m.lectures || []).forEach((l) => l.topics.forEach((id) => { LEC[id] = l; })));
   MODULES.forEach((m) => { if (!(m.lectures || []).length) return; const pos = {}; m.lectures.forEach((l, i) => l.topics.forEach((id, j) => { pos[id] = i * 100 + j; })); m.topics.sort((a, b) => (pos[a.id] ?? 1e6) - (pos[b.id] ?? 1e6)); });
+  // Laws, Acts & Key Dates (owner, 18-11-2026): its own sidebar page (#laws) above the Revision pack, not a week.
+  const LAWS = MOD.m6; if (LAWS) MODULES.splice(MODULES.indexOf(LAWS), 1);
   TOPICS.length = 0; MODULES.forEach((m) => m.topics.forEach((t) => { t.idx = TOPICS.length; TOPICS.push(t); }));
   const lecHead = (m, t, i, cls) => { const l = LEC[t.id]; return l && (i === 0 || LEC[m.topics[i - 1].id] !== l) ? `<div class="${cls}"><span class="lec-n">${l.n}</span>${esc(l.title)}</div>` : ''; };
   // Free/Pro (owner, 30-09-2026): the notes are free; Pro users also get the Pro companions (every flashcard, the
@@ -402,6 +404,7 @@ window.__startApp = function () {
         <a class="sb-link" href="#lab" data-key="lab">${icon('flask')}<span>Lab bench</span>${PRO ? '<span class="count" data-labcount></span>' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#mine" data-key="mine">${icon('pen')}<span>Highlights & notes</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#battle" data-key="battle">${icon('swords')}<span>1v1 Quiz battle</span></a>
+        ${LAWS ? `<a class="sb-link" href="#laws" data-key="laws">${icon('quiz')}<span>Laws, Acts & dates</span></a>` : ''}
         <a class="sb-link" href="#revise" data-key="revise">${icon('fire')}<span>Revision pack</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         ${PRO && !window.FREE_SITE ? '' : `<a class="sb-link sb-pro" href="#pro" data-key="pro">${icon('trophy')}<span>${window.FREE_SITE ? 'Pro (free right now)' : 'Why go Pro'}</span></a>`}
         <div class="sb-label">Talk to us</div>
@@ -555,7 +558,7 @@ window.__startApp = function () {
     let m = raw.match(/^(m[0-9]+)-summary$/);
     if (m && MOD[m[1]] && MOD[m[1]].locked) return { view: 'unlock' };
     if (m && MOD[m[1]]) return { view: 'summary', mod: m[1] };
-    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock)(?:\.([a-z0-9-]+))?$/);
+    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock|laws)(?:\.([a-z0-9-]+))?$/);
     if (m) return { view: m[1], arg: m[2] || null };
     m = raw.match(/^([a-z0-9-]+?)(?:\.(\d+))?$/);
     if (m && TOPIC[m[1]]) return { view: 'topic', id: m[1], tab: m[2] != null ? +m[2] : null };
@@ -610,6 +613,7 @@ window.__startApp = function () {
         case 'lab': view = PRO ? viewLab(r) : viewProTeaser('lab'); break;
         case 'mine': view = PRO ? viewMine(r) : viewProTeaser('mine'); break;
         case 'revise': view = PRO ? viewRevise(r) : viewProTeaser('revise'); break;
+        case 'laws': view = LAWS ? viewLaws() : viewHome(); break;
         case 'mock': case 'syllabus': case 'papers': view = viewHome(); break; // EVS has no CAT/FAT: all exams are online (owner, 10-11-2026)
         case 'pro': view = viewGoPro(r); break;
         case 'guide': view = viewGuide(r); break;
@@ -868,6 +872,23 @@ window.__startApp = function () {
     return { el };
   }
 
+  // Laws, Acts & Key Dates: every tab of the m6 topics on one page, with jump links; Print saves a PDF.
+  function viewLaws() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Laws, Acts & dates' }]); setActive('laws'); document.title = 'Laws, Acts & dates · BACHY101 Notes';
+    const el = h('div', { class: 'view revise laws' });
+    el.innerHTML = `
+      <div class="eyebrow"><span>Exam revision</span></div>
+      <h1 class="h-display">Laws, Acts &amp; key dates</h1>
+      <p class="blurb">${esc(LAWS.syllabus || '')} <button class="btn small ghost no-print" data-act="print">${icon('download')}Save as PDF</button></p>
+      <p class="no-print">${LAWS.topics.map((t) => `<a class="btn small ghost" href="#laws" data-jump="${t.id}">${esc(t.short || t.title)}</a>`).join(' ')}</p>
+      ${LAWS.topics.map((t) => `<section class="rv-mod" id="law-${t.id}"><h2 class="h-sec">${esc(t.title)}</h2>
+        ${t.tabs.map((tb) => `<h3>${esc(tb.title)}</h3><div class="prose">${tb.html}</div>`).join('')}
+      </section>`).join('')}`;
+    $('[data-act="print"]', el).addEventListener('click', () => window.print());
+    $$('[data-jump]', el).forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); const x = document.getElementById('law-' + a.dataset.jump); if (x) x.scrollIntoView({ behavior: 'smooth' }); }));
+    return { el };
+  }
+
   // Night-before revision pack (Pro): the formulas, one-liners, numbers and traps of every module on one page; Print saves a PDF.
   function viewRevise() {
     setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Revision pack' }]); setActive('revise'); document.title = 'Revision pack · BACHY101 Notes';
@@ -1009,6 +1030,7 @@ window.__startApp = function () {
           <a class="tile" href="#lab"><span class="tt">${icon('flask')}Lab bench</span>${nViz ? `<span class="big">${nViz}</span>` : ''}<p>All the interactive models in one place, each linked to the tab that explains it.</p></a>
           <a class="tile" href="#mine"><span class="tt">${icon('pen')}Highlights & notes</span><p>Your highlighted lines, personal notes, tagged topics and questions to revisit.</p></a>
           <a class="tile" href="#battle"><span class="tt">${icon('swords')}1v1 Quiz battle</span><p>Challenge a friend with a link: 10 questions, 10 seconds each, live scores.</p></a>
+          ${LAWS ? `<a class="tile" href="#laws"><span class="tt">${icon('quiz')}Laws, Acts & dates</span><p>Every Act, treaty, summit, disaster and programme with its year and why it matters, plus one master timeline.</p></a>` : ''}
           <a class="tile" href="#revise"><span class="tt">${icon('fire')}Revision pack</span><p>Key numbers, one-liners and traps of every week for the night before. Save it as a PDF.</p></a>
         </div>
       </section>
