@@ -97,7 +97,8 @@ async function siteMode(fresh) {
   const store = require('./_store');
   const out = { signin: true, free: false, freeMode: false, freeOffer: null };
   if (store.configured()) {
-    const [[s, m, sl]] = await store.pipeline([['HMGET', 'config', 'signin', 'mode', 'sale']]);
+    const modeRow = await store.pipeline([['HMGET', 'config', 'signin', 'mode', 'sale']]).catch((e) => { console.error('siteMode store error:', e.message); return null; });
+    const [s, m, sl] = modeRow && Array.isArray(modeRow[0]) ? modeRow[0] : [];
     out.signin = s !== 'off'; out.freeMode = m === 'free'; // Pro is paid unless the owner opens it (mode 'free'; owner, 10-11-2026)
     try { const x = JSON.parse(sl || 'null'); if (x && x.price === 0 && x.until > Date.now()) out.freeOffer = x.until; } catch (e) {}
     out.free = out.freeMode || !!out.freeOffer;
@@ -248,7 +249,8 @@ async function siteSettings() {
   const store = require('./_store');
   const out = { price: PRICE, normalPrice: PRICE, sale: null, banner: null, paused: null, business: '' };
   if (!store.configured()) return out;
-  const [[p, b, sl, pz, bz]] = await store.pipeline([['HMGET', 'config', 'price', 'banner', 'sale', 'paused', 'business']]);
+  const cfgRow = await store.pipeline([['HMGET', 'config', 'price', 'banner', 'sale', 'paused', 'business']]).catch((e) => { console.error('settings store error:', e.message); return null; });
+  const [p, b, sl, pz, bz] = cfgRow && Array.isArray(cfgRow[0]) ? cfgRow[0] : [];
   try { const x = JSON.parse(pz || 'null'); if (x && x.on) out.paused = { text: typeof x.text === 'string' ? x.text.slice(0, 240) : '' }; } catch (e) {}
   if (typeof bz === 'string') out.business = bz.slice(0, 120);
   const n = parseInt(p, 10); if (Number.isInteger(n) && n >= 100) out.price = out.normalPrice = n;
