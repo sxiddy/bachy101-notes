@@ -14,7 +14,7 @@ services:
       # STORE_URL left out on purpose while Notix is paused: the site then sells Pro itself through Razorpay
       # (its own checkout). Buyers from Notix still unlock through the direct Turso lookup. Add it back once Notix is up.
       - key: RAZORPAY_KEY_ID
-        value: rzp_live_Tkc4FSrsMRbOFN
+        value: rzp_live_U22jVeWOAsknIG
       - key: RAZORPAY_KEY_SECRET
         sync: false
       - key: SESSION_SECRET
