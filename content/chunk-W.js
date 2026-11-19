@@ -415,6 +415,7 @@ CHUNK({
               <tr><td><b>Micro and pico</b></td><td>Very small systems <b>below 100 kW</b> on small streams or canals, for remote off-grid communities.</td><td>Rural electrification in Himalayan villages</td></tr>
             </tbody>
           </table>
+          <div data-viz="pumped-storage"></div>
           <div class="note trap">Pumped storage <b>uses</b> more electricity than it gives back; its value is shifting power from low-demand to peak-demand times, not making extra energy.</div>
         ` },
         { title: 'Advantages', html: `
@@ -524,6 +525,7 @@ CHUNK({
               <tr><td><b>Binary cycle</b></td><td>Water at <b>100–180 °C</b> heats a <b>secondary fluid</b> with a lower boiling point (<b>isobutane or pentane</b>) through a heat exchanger. That fluid vaporises and drives the turbine; the geothermal water never touches the turbine and is fully re-injected.</td><td><b>Most flexible</b>: uses lower-temperature reservoirs; <b>almost zero emissions</b>.</td></tr>
             </tbody>
           </table>
+          <div data-viz="geothermal-picker"></div>
           <div class="mnemonic">Temperature ladder: binary 100–180 °C, flash above 180 °C, dry steam needs natural steam.</div>
           <div class="note trap">"Most common" is <b>flash steam</b>; "oldest and simplest" is <b>dry steam</b>; "lowest temperature, near-zero emissions" is <b>binary</b>.</div>
         ` }
