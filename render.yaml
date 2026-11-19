@@ -11,8 +11,12 @@ services:
     envVars:
       - key: GOOGLE_CLIENT_ID
         value: 1031135588562-kg77aahgjjbccieu0kahgkcpl3nnlj0i.apps.googleusercontent.com
-      - key: STORE_URL
-        value: https://notix-notes.vercel.app
+      # STORE_URL left out on purpose while Notix is paused: the site then sells Pro itself through Razorpay
+      # (its own checkout). Buyers from Notix still unlock through the direct Turso lookup. Add it back once Notix is up.
+      - key: RAZORPAY_KEY_ID
+        value: rzp_live_Tkc4FSrsMRbOFN
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
       - key: SESSION_SECRET
         generateValue: true
       - key: TURSO_DATABASE_URL
