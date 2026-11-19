@@ -1,0 +1,25 @@
+# Render blueprint (free web service). Secrets marked sync:false are typed in on Render when the blueprint is created.
+services:
+  - type: web
+    name: bachy101
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: "true"
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: GOOGLE_CLIENT_ID
+        value: 1031135588562-kg77aahgjjbccieu0kahgkcpl3nnlj0i.apps.googleusercontent.com
+      - key: STORE_URL
+        value: https://notix-notes.vercel.app
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: TURSO_DATABASE_URL
+        value: libsql://notes-sxiddy.aws-us-east-1.turso.io
+      - key: TURSO_AUTH_TOKEN
+        sync: false
+      - key: ADMIN_KEY
+        sync: false
+      - key: STORE_SECRET
+        sync: false

@@ -129,6 +129,21 @@ async function storePaid(email) {
   return paid;
 }
 
+// The Notix store keeps its purchases in the same Turso database, without a key prefix ("paid:BACHY101" hash).
+// Read it directly, so Pro still unlocks when the store website itself is down (e.g. Vercel paused it, 19-11-2026).
+// Same rule as the store's isLive: a grant with an "until" time in the past no longer counts.
+async function storePaidDirect(email) {
+  const url = process.env.TURSO_DATABASE_URL, token = process.env.TURSO_AUTH_TOKEN;
+  if (!url || !token || !email) return false;
+  try {
+    const out = await require('./_turso').pipeline([['HGET', 'paid:' + STORE_CODE, email]], { url, token });
+    const raw = out && out[0] && 'result' in out[0] ? out[0].result : Array.isArray(out) ? out[0] : null;
+    if (raw == null) return false;
+    let x = {}; try { x = JSON.parse(raw) || {}; } catch (e) { return true; }
+    return !(x.until && x.until <= Date.now());
+  } catch (e) { console.error('storePaidDirect:', e.message); return false; }
+}
+
 // Who can see the paid modules: the owner, a student whose email paid (hash "paid"), or one on the owner's free
 // list (hash "free"; removing them locks them out straight away, and a temporary grant has an "until" time). A free grant can be limited to some modules;
 // then .modules lists them (null = everything). While the whole site is free, everyone who can open it.
@@ -143,7 +158,7 @@ async function hasAccess(req) {
   if (!(await deviceActive(u, req))) return null;
   const [paid, free] = await store.pipeline([['HGET', 'paid', u.e], ['HGET', 'free', u.e]]);
   if (paid != null) return { email: u.e, paid: true, modules: null };
-  if (await storePaid(u.e)) return { email: u.e, paid: true, modules: null, store: true };
+  if (await storePaid(u.e) || await storePaidDirect(u.e)) return { email: u.e, paid: true, modules: null, store: true };
   if (free == null) return null;
   let x = {}; try { x = JSON.parse(free) || {}; } catch (e) {}
   if (x.until && x.until <= Date.now()) { await store.pipeline([['HDEL', 'free', u.e]]); return null; } // temporary grant ended
