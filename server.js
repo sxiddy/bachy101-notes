@@ -5,6 +5,8 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
+const GZ = new Map(); // file -> { tag, buf } gzipped once per deploy
 
 const ROOT = __dirname, APP = path.join(ROOT, 'app'), API = path.join(ROOT, 'api');
 const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 'utf8'));
@@ -48,6 +50,14 @@ function serveFile(req, res, p) {
     const tag = '"' + st0.size.toString(36) + '-' + Math.floor(st0.mtimeMs).toString(36) + '"';
     res.setHeader('ETag', tag);
     if (req.headers['if-none-match'] === tag) { res.statusCode = 304; return res.end(); }
+    // text files go out gzipped from memory (app.js 218 KB -> ~50 KB), so a rush of students doesn't choke the link
+    if (/\.(html|js|css|json|svg|txt)$/.test(f) && /\bgzip\b/.test(req.headers['accept-encoding'] || '')) {
+      let z = GZ.get(f);
+      if (!z || z.tag !== tag) { z = { tag, buf: zlib.gzipSync(fs.readFileSync(f), { level: 9 }) }; GZ.set(f, z); }
+      res.setHeader('Content-Encoding', 'gzip'); res.setHeader('Vary', 'Accept-Encoding');
+      res.setHeader('Content-Length', z.buf.length);
+      return res.end(req.method === 'HEAD' ? undefined : z.buf);
+    }
     if (req.method === 'HEAD') return res.end();
     fs.createReadStream(f).pipe(res);
   });
