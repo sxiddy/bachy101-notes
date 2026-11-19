@@ -80,5 +80,9 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
+// Every 30 s: grant Pro for paid Razorpay Payment Links (only when PAY_VIA_LINK=1; see api/_paylink.js)
+const paylink = require('./api/_paylink');
+setInterval(() => { paylink.pollOnce().catch((e) => console.error('[paylink] poll failed:', e.message)); }, 30e3);
+
 const PORT = parseInt(process.env.PORT || '3000', 10);
 server.listen(PORT, () => console.log('bachy101 listening on ' + PORT));
