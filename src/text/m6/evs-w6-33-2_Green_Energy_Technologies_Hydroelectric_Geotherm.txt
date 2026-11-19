@@ -1,0 +1,323 @@
+                              Lecture Notes W6S1 (Part 2)
+     Green Energy Technologies: Hydroelectric and Geothermal Energy
+
+1. Introduction
+
+Unlike solar and wind energy, hydroelectric and geothermal energy sources are
+available under different geographical conditions and are capable of offering
+continuous electricity generation. Hydropower is currently the world's largest source
+of renewable electricity, accounting for approximately 15-16% of global electricity
+generation. Geothermal energy, while less widely deployed, provides remarkable
+reliability, countries such as Iceland and Kenya generate over 20% and 47% of their
+electricity from geothermal sources respectively. Understanding these technologies
+is critical for any engineer working on sustainable energy systems and helps
+appreciate how engineering innovation contributes to sustainable development and
+energy security.
+
+1.1 Instructional Goals
+ To explain the working principles, advantages, limitations, and environmental
+
+   impacts of hydroelectric and geothermal energy technologies.
+ To evaluate the role of hydroelectric and geothermal energy in achieving
+
+   sustainable development and global clean energy transitions, and to enable
+   comparison with solar and wind energy.
+
+1.2 Learning Outcomes
+At the end of this session, students should be able to:
+
+ Describe the principles behind hydroelectric and geothermal power generation.
+ Identify the energy conversion sequence from potential energy to kinetic energy
+
+   to mechanical energy to electrical energy.
+ Differentiate between hydroelectric and geothermal energy technologies based
+
+   on their operation and applications.
+ Examine the environmental, economic, and social implications of these
+
+   renewable energy sources.
+
+                                                                        1
+ Discuss the future potential of hydroelectric and geothermal energy in sustainable
+   engineering.
+
+2. Hydroelectric Energy
+
+Hydropower exploits the energy of water stored at height (potential energy) or
+moving at speed (kinetic energy) to generate electricity. Ancient civilisations used
+flowing rivers to operate water wheels for grinding grain; modern hydroelectric
+plants use the same principle at a much larger scale.
+
+2.1 Principle of Hydropower Energy Conversion
+The energy conversion sequence in a conventional hydropower plant follows four
+stages:
+
+ The potential energy of water stored in a reservoir at elevation h is released by
+   opening the sluice gates.
+
+ This potential energy converts to kinetic energy as water flows downward
+   through penstocks (large steel pipes or tunnels).
+
+ The kinetic energy of the high-speed water jet strikes the blades of a hydraulic
+   turbine, causing it to rotate and converting fluid energy into mechanical energy.
+
+ The rotating turbine shaft drives an electrical generator, converting mechanical
+   energy into electrical energy.
+
+Thus, the overall energy transformation sequence is:
+
+Potential Energy  Kinetic Energy  Mechanical Energy  Electrical Energy.
+
+2.2 Major Components of a Hydroelectric Power Plant
+  Reservoir -- stores large quantities of water and acts as an energy storage
+
+     system.
+  Dam -- blocks river flow, creates the reservoir, and maintains water pressure.
+  Penstock -- large pipe carrying water to the turbines.
+  Turbine -- rotated by flowing water, converting water energy into mechanical
+
+     energy.
+
+                                                                        2
+  Generator -- produces electricity.
+  Transformer -- raises voltage for long-distance transmission.
+  Transmission lines -- carry electricity to homes and industries.
+
+2.3 Types of Hydroelectric Power Plants
+2.3.1 Storage Hydropower
+Uses dams and reservoirs; the most common type worldwide, providing reliable
+electricity. Example: Tehri Dam, Uttarakhand (1,000 MW).
+
+2.3.2 Run-of-the-River Plants
+Uses natural river flow without a large reservoir, resulting in a smaller
+environmental impact, though electricity output varies with river discharge.
+Example: Srinagar Hydro, Alaknanda River (330 MW).
+
+2.3.3 Pumped Storage Hydropower
+Functions like a giant rechargeable battery: during periods of low electricity demand,
+water is pumped uphill; during peak demand, it flows downward to generate
+electricity. This technology supports modern renewable energy systems by storing
+excess electricity. Example: Kadamparai Pumped Storage, Tamil Nadu (400 MW).
+
+2.3.4 Micro and Pico Hydro
+Very small systems (below 100 kW) designed for remote, off-grid communities,
+using small streams or canals. Example applications include rural electrification in
+Himalayan villages.
+
+2.4 Advantages of Hydroelectric Energy
+    Renewable: the water cycle continuously replenishes rivers.
+    Very long asset life: large hydro dams operate for 50-100+ years, giving
+       extremely low long-term cost per kWh.
+    Zero direct emissions during operation, though reservoir decomposition can
+       emit methane in tropical regions.
+    High efficiency, often exceeding 90%.
+
+                                                                        3
+    Dispatchable baseload power, unlike solar and wind, hydropower can
+       generate electricity on demand at any time of day, supporting grid stability.
+
+    Multiple co-benefits, reservoirs provide irrigation water, municipal water
+       supply, flood control, navigation, fisheries, and recreation alongside power
+       generation.
+
+    Pumped storage hydro is currently the world's dominant form of grid-scale
+       energy storage, essential for integrating variable renewables.
+
+2.5 Environmental Challenges of Hydropower
+    Construction of large dams floods forests and agricultural land, altering river
+       ecosystems and reducing downstream fertility.
+    Displacement of communities, large reservoirs flood inhabited areas; India's
+       Sardar Sarovar Dam displaced an estimated 320,000 people.
+    Ecosystem disruption, dams block fish migration, alter water temperature and
+       sediment flow, and destroy riparian habitats.
+    Sedimentation, reservoirs fill with silt over decades, reducing storage capacity
+       and operational life.
+    Seismic risk, very large reservoirs can induce local seismicity through
+       increased water pressure on fault lines.
+    Hydrology dependence, drought and changing rainfall patterns due to climate
+       change can significantly reduce hydropower generation.
+
+Engineers therefore increasingly focus on environmentally sustainable dam designs
+to mitigate these concerns.
+
+2.6 Hydropower in India
+India possesses enormous hydroelectric potential due to the Himalayan rivers and
+the Western Ghats. Major hydroelectric projects include the Bhakra Nangal Project,
+Hirakud Dam, Tehri Dam, and Sardar Sarovar Project, which provide electricity
+while also supporting irrigation and water management. Small hydropower projects
+
+                                                                        4
+are also expanding in mountainous regions because they cause less environmental
+disturbance.
+
+3. Geothermal Energy
+
+The word "geothermal" comes from two Greek words, geo (Earth) and therme (heat).
+Geothermal energy is the heat stored beneath the Earth's surface, originating from
+the planet's formation and the natural decay of radioactive elements inside it. Unlike
+solar and wind energy, geothermal energy is available continuously, operating day
+and night throughout the year, which makes it an excellent source of base-load
+electricity.
+
+3.1 Sources of Geothermal Heat
+Earth's interior contains extremely high temperatures, and this temperature increases
+with depth, a phenomenon known as the geothermal gradient. This heat reaches
+underground water reservoirs, producing hot water or steam. Engineers drill wells
+to access these geothermal reservoirs, and the resulting steam drives turbines
+connected to electrical generators.
+
+3.2 How Geothermal Power Plants Work
+Production wells bring hot water or steam to the surface. This steam rotates turbines,
+which drive generators to produce electricity. After cooling, the water is injected
+back underground through injection wells, a recycling process that helps maintain
+reservoir pressure and long-term sustainability.
+
+3.3 Types of Geothermal Power Plants
+3.3.1 Dry Steam Plants
+The simplest and oldest type, in which natural dry steam from underground
+reservoirs is piped directly to turbines. The Geysers in California, the world's largest
+geothermal complex, operates on dry steam. This type is comparatively rare, as few
+reservoirs naturally produce dry steam rather than hot water.
+
+3.3.2 Flash Steam Plants
+
+                                                                        5
+The most common geothermal technology globally. Hot, pressurised water above
+180°C from deep wells is rapidly depressurised ("flashed") in surface flash tanks,
+causing part of it to instantly vaporise into steam. This steam drives the turbines,
+while the remaining liquid water is re-injected into the reservoir.
+
+3.3.3 Binary Cycle Plants
+Used for lower-temperature resources (100-180°C). Moderately hot geothermal
+water heats a secondary working fluid with a lower boiling point (such as isobutane
+or pentane) through a heat exchanger. The secondary fluid vaporises and drives the
+turbine, while the geothermal water never contacts the turbine and is fully re-
+injected. This is the most flexible plant type, as it can exploit lower-temperature
+reservoirs unusable by flash or dry steam plants, and produces almost zero
+atmospheric emissions.
+
+3.4 Applications of Geothermal Energy
+    Electricity generation
+    District heating
+    Greenhouse heating
+    Industrial drying
+    Aquaculture
+    Hot water supply
+    Spa tourism
+    Heat pumps for buildings
+
+3.5 Advantages of Geothermal Energy
+    Baseload power, geothermal plants operate continuously with capacity factors
+       of 80-95%, far exceeding solar (20-25%) and wind (25-40%); Iceland's
+       geothermal plants run virtually year-round.
+    Tiny land footprint compared to other renewable technologies for the same
+       energy output.
+
+                                                                        6
+    Minimal emissions, binary cycle plants produce virtually zero direct
+       emissions; even flash steam plants emit only small amounts of naturally
+       occurring gases.
+
+    Stable, predictable output, unaffected by weather, season, or time of day.
+    Long resource life, properly managed reservoirs can sustain output for
+
+       decades if extraction rates balance natural recharge.
+    Available 24 hours a day, reduces fossil fuel dependence, and is well suited
+
+       for sustainable cities.
+
+3.6 Limitations of Geothermal Energy
+    Geographic specificity, economical resources are concentrated in geologically
+       active regions; India has limited high-temperature hydrothermal resources
+       compared to volcanic nations.
+    High upfront exploration costs, deep drilling is expensive and risky, as wells
+       may not encounter productive reservoirs after significant investment.
+    Enhanced Geothermal System (EGS) technical challenges, induced seismicity
+       from hydraulic fracturing is a concern; an EGS project in Basel, Switzerland
+       was abandoned after causing felt earthquakes.
+    Hydrogen sulphide emissions, some hydrothermal systems release hydrogen
+       sulphide gas, requiring treatment to prevent air pollution and health impacts.
+
+Modern technologies and management practices are steadily reducing these risks.
+
+3.7 Geothermal Energy Around the World
+Countries with significant geothermal development include Iceland, the United
+States, Indonesia, the Philippines, Kenya, and New Zealand. Iceland is particularly
+remarkable, with nearly all buildings receiving geothermal heating, substantially
+reducing dependence on fossil fuels.
+
+3.8 Geothermal Energy in India
+India possesses moderate geothermal potential. Important geothermal regions
+include Puga Valley (Ladakh), Tattapani (Chhattisgarh), Manikaran (Himachal
+
+                                                                        7
+Pradesh), and the Cambay Basin (Gujarat). Although commercial electricity
+generation from geothermal sources remains limited in India, research continues to
+explore future opportunities.
+
+4. Comparison Between Hydroelectric and Geothermal Energy
+
+        Parameter     Hydroelectric Energy Geothermal Energy
+Energy source
+Resource requirement  Flowing water        Earth's internal heat
+Land area
+Technology maturity   Rivers / reservoirs  Geothermal reservoirs
+Availability
+Electricity output    Large                Small
+Environmental impact
+                      Mature               Emerging
+
+                      Seasonal, water-dependentContinuous
+
+                      High                 Moderate
+
+                      Possible       ecologicalComparatively limited
+
+                      disruption
+
+5. Role of Engineers
+    Civil engineers design dams and reservoirs.
+    Mechanical engineers design turbines.
+    Electrical engineers optimise power transmission.
+    Environmental engineers assess ecological impacts.
+    Geological engineers identify geothermal reservoirs.
+    Chemical engineers improve corrosion-resistant materials used in geothermal
+       plants.
+    Computer engineers develop smart monitoring systems for renewable power
+       plants.
+
+Future engineers must integrate technological innovation with environmental
+responsibility.
+
+6. Sustainable Development Goals (SDG) Linkage
+
+                                  8
+Hydroelectric and geothermal energy contribute directly to several United Nations
+Sustainable Development Goals:
+
+    SDG 7 -- Affordable and Clean Energy
+    SDG 9 -- Industry, Innovation and Infrastructure
+    SDG 11 -- Sustainable Cities and Communities
+    SDG 13 -- Climate Action
+
+7. Future Trends
+    Small modular hydropower systems
+    Fish-friendly turbines
+    Floating hydropower
+    Enhanced geothermal systems
+    Artificial intelligence for power plant monitoring
+    Smart renewable energy grids
+    Hybrid renewable systems integrating hydro, solar, and wind
+
+8. Summary
+Hydroelectric energy converts the energy of flowing water into electricity through
+turbines and generators. It is reliable, efficient, and widely used, although careful
+environmental management is essential. Geothermal energy harnesses the Earth's
+internal heat to produce electricity and provide heating. It is available continuously
+with very low emissions but depends on suitable geological conditions. Together
+with solar and wind energy, these technologies form the backbone of the global
+transition toward sustainable energy systems. As engineers, the challenge is not only
+to generate energy, but to generate it responsibly, efficiently, and sustainably.
+
+                                                                        9
+

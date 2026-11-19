@@ -1,0 +1,382 @@
+                               Lecture Notes W6S1 (Part 1)
+                Green Energy Technologies: Solar and Wind Energy
+
+1. Introduction
+
+The world currently depends on fossil fuels, coal, oil, and natural gas; for over 80%
+of its total energy supply. These fuels have powered industrial growth for two
+centuries, but their environmental consequences, particularly greenhouse gas
+emissions, are now well documented. The Intergovernmental Panel on Climate
+Change (IPCC) has set a global target of net-zero emissions by 2050. India, the
+world's third-largest emitter of greenhouse gases, has committed under the Paris
+Agreement to achieving 50% of its cumulative electricity installed capacity from
+non-fossil fuel sources by 2030, backed by a national target of 500 GW of renewable
+energy capacity by 2030, with solar and wind identified as the two primary pillars
+of this transition.
+
+This lecture focuses on solar and wind energy, the two fastest-growing and most
+rapidly maturing segments of the renewable energy portfolio, and examines their
+working principles, technologies, applications, advantages, and limitations from an
+engineering perspective.
+
+1.1 Instructional Goals
+ To introduce students to the concept of green energy technologies and their
+
+   significance in addressing climate change, energy security, and sustainable
+   development.
+ To build students' capacity to evaluate the applications, advantages, limitations,
+   and future prospects of solar and wind technologies.
+
+1.2 Learning Outcomes
+By the end of this lecture, students will be able to:
+
+ Explain the concept of green energy and distinguish it from conventional energy
+   sources.
+
+                                                                      1
+ Describe the working principles and components of solar and wind energy
+   systems.
+
+ Evaluate the environmental, economic, and social benefits and challenges of
+   adopting renewable energy technologies.
+
+ Identify the role of engineers in promoting clean energy solutions for a
+   sustainable future.
+
+2. Green Energy: Concepts and Definitions
+
+Renewable energy refers to energy derived from natural processes that replenish
+faster than they are consumed; sunlight, wind, flowing water, geothermal heat, and
+biomass growth. Green energy is a broader, less technical term that generally refers
+to renewable sources with minimal environmental impact across their entire
+lifecycle, production, operation, and disposal.
+
+2.1 Characteristics of Green Energy
+    Renewable
+    Sustainable
+    Clean and low-carbon
+    Environmentally friendly
+    Locally available
+    Suitable for decentralised power generation
+
+Note: not all renewable energy is automatically "green" in every sense. For instance,
+large hydroelectric dams are renewable but can have significant ecological
+consequences, and biomass combustion, while renewable, still produces emissions.
+This lecture focuses on two genuinely green sources: solar energy (photovoltaic and
+thermal) and wind energy (onshore and offshore).
+
+3. Solar Energy
+
+Solar energy technology converts electromagnetic radiation from the sun into a
+usable form of energy, most commonly electricity. The sun delivers approximately
+1,000 watts per square metre of solar irradiance to the Earth's surface at solar noon
+
+                                                                      2
+on a clear day. This value is the baseline used in every solar system output
+calculation: electrical output is obtained by multiplying solar irradiance by the
+surface area of a solar panel and its efficiency.
+
+3.1 Components of a Solar Power System
+    Solar panels
+    Inverter
+    Charge controller
+    Battery (optional)
+    Mounting structures
+    Electrical wiring
+    Monitoring system
+
+3.2 Approaches to Harnessing Solar Energy
+3.2.1 Photovoltaic (PV) Systems
+Photovoltaic systems convert sunlight directly into electricity using the photovoltaic
+effect. When photons strike a semiconductor material, typically crystalline silicon,
+they excite electrons enough to knock them loose from their atomic bonds. The cell
+is engineered with a p-n junction, a boundary between two differently doped silicon
+layers, which creates an internal electric field. This field sweeps the freed electrons
+in one direction, generating a direct current. This is solid-state energy conversion,
+involving no moving parts, no combustion, and no working fluid.
+
+3.2.2 Solar Thermal Systems
+Solar thermal systems use mirrors or lenses to concentrate sunlight and generate
+heat, which can drive a conventional steam turbine or be used directly for heating
+water or buildings. Concentrated Solar Power (CSP) plants use this principle at
+utility scale, often paired with a thermal storage medium such as molten salt, which
+addresses solar's core weakness the fact that it does not generate power at night.
+
+3.3 Types of Solar PV Technology
+
+                                                                      3
+3.3.1 Monocrystalline Silicon Cells
+Cut from a single continuous crystal structure using the energy-intensive
+Czochralski process. They are the most efficient commercially available option,
+typically reaching 20-22% efficiency, with a uniform dark appearance, but are more
+expensive per watt.
+
+3.3.2 Polycrystalline Silicon Cells
+Made from multiple silicon fragments melted together. They are cheaper to produce
+but slightly less efficient (typically 15-17%), because grain boundaries between
+crystals impede electron flow.
+
+3.3.3 Thin-Film Technologies
+Includes cadmium telluride and amorphous silicon cells, which use much less
+semiconductor material deposited in very thin layers on a substrate. They are lighter,
+more flexible, and cheaper, but generally less efficient (10-13%). They suit
+applications where weight or flexibility matters more than maximising energy
+density, such as building-integrated photovoltaics.
+
+3.3.4 Perovskite Solar Cells (Emerging Technology)
+Perovskite cells have seen laboratory efficiencies climb rapidly over the past decade
+and can potentially be layered with silicon cells in a "tandem" configuration to push
+combined efficiencies above 30%. They are cheaper to manufacture but currently
+face durability and stability challenges, degrading faster than silicon when exposed
+to moisture and UV light: an example of a technology that is scientifically exciting
+but not yet engineering-ready at scale.
+
+3.4 Advantages of Solar Energy
+    Lowers electricity bills
+    Grid independence when paired with batteries
+    Low maintenance
+    Versatile deployment, scales from small rooftop arrays to massive desert
+       power plants
+
+                                                                      4
+3.5 Challenges of Solar Energy
+    High upfront cost for panels, inverters, and installation
+    Weather dependency and intermittency, output varies with cloud cover, time
+       of day, and season
+    Degradation over time, panels typically lose about 0.5% of output capacity
+       per year, retaining roughly 80-85% of original output after 25 years
+    Orientation and tracking requirements, fixed-tilt systems are cheaper but
+       sacrifice output; single- and dual-axis tracking systems can increase yield by
+       15-35% at the cost of added complexity and maintenance
+    Storage expense: costly battery systems are needed for 24/7 use
+    Space-intensive: requires large land or roof area for high output
+    Materials and end-of-life management: manufacturing silicon cells is energy-
+       intensive and produces hazardous by-products; recycling and disposal of
+       panels at scale is an emerging engineering and policy challenge
+
+3.6 Solar Energy in India
+India receives approximately 300 sunny days annually, making it highly suitable for
+solar energy generation. The Government of India has introduced several policies
+and financial incentives to achieve its target of 500 GW of renewable energy
+capacity by 2030.
+
+3.7 Key Government of India Solar Initiatives
+ PM Surya Ghar: Muft Bijli Yojana: provides free electricity to one crore
+
+   households through residential rooftop solar systems, with a central subsidy of
+   up to 78,000.
+ PM-KUSUM Scheme: promotes agricultural solarisation to reduce dependence
+   on diesel pumps, offering up to a 60% subsidy for solar irrigation pumps.
+ National Solar Mission (NSM): India's flagship initiative to scale up
+   commercial solar infrastructure and establish long-term domestic solar targets.
+
+                                                                      5
+ Production-Linked Incentive (PLI) Scheme: boosts domestic manufacturing
+   of high-efficiency solar PV modules and Gigawatt-scale wafer/cell factories.
+
+ Solar Park Scheme -- facilitates Ultra-Mega Solar Power Projects by providing
+   land and transmission infrastructure, exemplified by the Bhadla Solar Park, the
+   largest solar park in the world.
+
+ Green Energy Corridor (GEC) -- synchronises renewable electricity
+   generation with the national grid through dedicated high-capacity transmission
+   lines.
+
+ Suryamitra Skill Development Programme -- trains rural and urban youth in
+   the installation, maintenance, and repair of solar arrays.
+
+ International Solar Alliance (ISA) -- an inter-governmental organisation co-
+   founded by India and France to mobilise over $1 trillion in global solar
+   investment.
+
+ One Sun, One World, One Grid (OSOWOG) -- a global framework to
+   interconnect regional power grids, leveraging time-zone differences to transfer
+   solar power across borders.
+
+ 100% Foreign Direct Investment (FDI) -- permits international developers to
+   invest directly in Indian green energy projects through the automatic approval
+   route.
+
+4. Wind Energy
+
+Wind energy draws on fluid dynamics rather than semiconductor physics, but shares
+many of the same systems-engineering challenges as solar. Wind originates because
+the sun heats the Earth's surface unevenly, creating air pressure differences; this
+moving air, or wind, carries kinetic energy that wind turbines convert into electricity.
+
+4.1 Working Principle of a Wind Turbine
+Wind strikes the turbine blades, causing them to rotate. This rotates the rotor, and a
+gearbox increases the rotational speed delivered to the generator, which produces
+electricity. This electricity is then fed into the electrical grid.
+
+                                                                      6
+4.2 Major Components of a Wind Turbine
+    Rotor blades
+    Hub
+    Shaft
+    Gearbox
+    Generator
+    Nacelle
+    Tower
+    Controller
+    Brake system
+
+4.3 Types of Wind Turbines
+4.3.1 Horizontal Axis Wind Turbine (HAWT)
+The most common design worldwide, offering high efficiency.
+
+4.3.2 Vertical Axis Wind Turbine (VAWT)
+Suitable for urban areas and capable of receiving wind from different directions.
+
+4.4 Wind Farms: Onshore and Offshore
+A single turbine produces limited electricity, so large numbers of turbines are
+installed together to form a wind farm, which may be located onshore or offshore.
+Offshore wind farms access stronger, steadier winds and avoid many land-use
+conflicts and noise concerns, but involve dramatically higher installation and
+maintenance costs due to the marine environment, foundation engineering
+challenges, and undersea cabling logistics. Floating offshore turbine platforms are
+an active area of engineering development, enabling deployment in deeper waters
+than fixed-foundation designs allow.
+
+4.5 Applications of Wind Energy
+    Electricity generation
+
+                                                                      7
+    Water pumping
+    Agriculture
+    Rural electrification
+    Industrial use
+    Hybrid renewable systems
+
+4.6 Advantages of Wind Energy
+    Renewable resource with zero fuel cost
+    No greenhouse gas emissions during operation
+    Low operating expenses
+    Capable of large-scale electricity generation
+    Creates employment opportunities
+    Reduces dependence on fossil fuels
+
+4.7 Challenges of Wind Energy
+    Variable wind speeds
+    Noise and visual impact
+    Bird and bat collisions
+    Large land requirement
+    High installation cost
+    Grid integration challenges
+
+Wind turbines have a higher capacity factor than solar -- typically 35-50% onshore
+and up to 50-60% offshore, because turbines can generate around the clock
+whenever wind conditions allow. However, wind systems have more moving parts,
+higher maintenance requirements, and face more significant siting and permitting
+hurdles.
+
+4.8 Wind Energy Potential and Initiatives in India
+
+                                                                      8
+India's eastern coastline is prone to cyclones, making the western coast more
+attractive for wind energy development. India has a coastline of about 7,516.6 km
+and, together with its exclusive economic zones, has significant potential to harness
+wind energy. According to the National Institute for Wind Energy (based in
+Chennai), the western states -- Gujarat, Maharashtra, Karnataka, Tamil Nadu, and
+Andhra Pradesh -- have the greatest potential due to stable, steady, and speedy wind
+flow.
+
+Five major wind energy initiatives in India:
+
+ National Wind-Solar Hybrid Policy (2018) -- promotes combined use of wind
+   and solar energy, better land and transmission utilisation, and conversion of
+   existing plants into hybrid facilities.
+
+ National Offshore Wind Energy Policy (2015) -- harnesses offshore wind
+   potential along the coastline, with the Ministry of New and Renewable Energy
+   (MNRE) as the nodal ministry, focused on states such as Gujarat and Tamil Nadu.
+
+ Renewable Purchase Obligation (RPO) -- mandates distribution companies
+   and large consumers to procure a specified share of electricity from renewable
+   sources, including wind.
+
+ Green Energy Corridor Programme -- strengthens transmission infrastructure
+   to integrate wind and solar electricity into the national grid, reducing losses and
+   congestion.
+
+ Production Linked Incentive (PLI) Scheme for Renewable Energy
+   Manufacturing -- promotes domestic manufacturing of renewable energy
+   equipment under the "Make in India" initiative.
+
+5. Comparing Solar and Wind Energy
+
+Solar energy uses sunlight and works during daylight hours; it is silent, allows
+rooftop installation, requires lower maintenance, and is ideal in sunny regions. Wind
+energy uses moving air, works whenever wind speed is sufficient, produces
+moderate noise, requires higher maintenance and open windy areas, and is ideal in
+coastal and hilly regions. Wind systems generally achieve a higher capacity factor
+
+                                                                      9
+than solar because turbines can generate around the clock, but they involve more
+moving parts and greater siting and permitting complexity.
+
+Importantly, solar and wind resources are often complementary in time -- solar
+output peaks at midday, while wind is often stronger at night or during storm systems
+-- which is why grid planners increasingly favour developing both technologies
+together rather than relying on a single source. The global energy transition is
+fundamentally a systems-engineering challenge involving materials science, fluid
+dynamics, power electronics, structural engineering, and policy working together.
+
+6. Environmental Benefits of Renewable Energy
+    Reduces carbon dioxide emissions
+    Improves air quality
+    Conserves fossil fuel reserves
+    Mitigates climate change
+    Protects ecosystems
+    Promotes sustainable development
+    Supports energy security
+
+7. Role of Engineers
+
+Engineering students will play a crucial role in the clean energy transition. Future
+engineers can:
+
+    Design efficient solar panels
+    Develop advanced wind turbines
+    Improve energy storage systems
+    Create smart electrical grids
+    Build energy-efficient buildings
+    Integrate artificial intelligence into renewable energy systems
+    Innovate affordable clean technologies
+    Promote sustainable engineering practices
+
+                                                                     10
+8. Future Trends in Green Energy
+    Floating solar farms
+    Building-integrated photovoltaics
+    Perovskite solar cells
+    Offshore floating wind turbines
+    Green hydrogen production
+    Smart grids
+    Artificial intelligence for energy management
+    Advanced battery technologies
+    Microgrids
+    Vehicle-to-grid integration
+
+9. Key Takeaways
+    Fossil fuels are finite and polluting.
+    Green energy is renewable and sustainable.
+    Solar energy converts sunlight into electricity using photovoltaic cells.
+    Wind turbines convert the kinetic energy of moving air into electrical energy.
+    Solar and wind energy reduce greenhouse gas emissions.
+    Renewable energy strengthens energy security and supports sustainable
+       development.
+    Engineers are central to designing the clean energy systems of the future.
+
+10. Conclusion
+The future of energy is not merely about producing more electricity -- it is about
+producing it responsibly. Every solar panel installed and every wind turbine erected
+represents a step toward a healthier planet. As future engineers, decisions and
+
+                                                                     11
+technologies developed by this generation can reduce pollution, improve energy
+access, and help combat climate change. The transition to green energy is both a
+scientific and engineering challenge, and a responsibility to future generations.
+
+                                                                     12
+

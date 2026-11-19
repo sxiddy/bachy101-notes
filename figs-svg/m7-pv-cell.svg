@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470">
+<defs><marker id="w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfw"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfb"/></marker><marker id="y" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfy"/></marker><marker id="o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfo"/></marker><marker id="r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfr"/></marker></defs>
+<text x="300" y="34" font-size="28" font-weight="700" class="dt" text-anchor="middle">Photovoltaic (PV) cell</text>
+<text x="300" y="68" font-size="22" class="dty" text-anchor="middle">sunlight (photons)</text>
+<path d="M200 80 L230 150 M300 80 L300 150 M400 80 L370 150" class="dsy" stroke-width="4" marker-end="url(#y)"/>
+<rect x="90" y="160" width="300" height="12" class="dfw"/>
+<text x="400" y="172" font-size="22" class="dt2">top contact</text>
+<rect x="90" y="172" width="300" height="70" class="dfb" fill-opacity=".3"/>
+<text x="240" y="215" font-size="24" class="dtb" text-anchor="middle">n-type silicon</text>
+<rect x="90" y="242" width="300" height="24" class="dfy" fill-opacity=".35"/>
+<text x="400" y="252" font-size="22" class="dty">p-n junction:</text>
+<text x="400" y="278" font-size="22" class="dty">internal field</text>
+<rect x="90" y="266" width="300" height="90" class="dfr" fill-opacity=".25"/>
+<text x="240" y="318" font-size="24" class="dtr" text-anchor="middle">p-type silicon</text>
+<rect x="90" y="356" width="300" height="12" class="dfw"/>
+<text x="400" y="368" font-size="22" class="dt2">back contact</text>
+<circle cx="365" cy="254" r="7" class="dfb"/><path d="M365 246 L365 190" class="dsb" stroke-width="3" marker-end="url(#b)"/>
+<text x="350" y="210" font-size="22" class="dtb" text-anchor="end">e⁻</text>
+<path d="M90 166 L40 166 L40 236 M40 292 L40 362 L90 362" fill="none" class="ds" stroke-width="3"/>
+<rect x="20" y="236" width="40" height="56" class="df2 ds" stroke-width="2"/>
+<text x="40" y="271" font-size="22" class="dt" text-anchor="middle">R</text>
+<text x="300" y="412" font-size="22" class="dt" text-anchor="middle">freed electrons flow through the</text>
+<text x="300" y="446" font-size="22" class="dt" text-anchor="middle">external load (R) as direct current</text>
+</svg>

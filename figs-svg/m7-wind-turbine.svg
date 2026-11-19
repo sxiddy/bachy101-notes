@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620">
+<defs><marker id="w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfw"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfb"/></marker><marker id="y" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfy"/></marker><marker id="o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfo"/></marker><marker id="r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 10 5 0 10z" class="dfr"/></marker></defs>
+<text x="300" y="34" font-size="28" font-weight="700" class="dt" text-anchor="middle">Wind turbine (horizontal axis)</text>
+<text x="20" y="82" font-size="22" class="dtb">wind</text>
+<path d="M20 100 L85 100 M20 140 L85 140 M20 180 L85 180" class="dsb" stroke-width="3" marker-end="url(#b)"/>
+<path d="M130 140 L117 56 L137 56 Z M130 140 L117 224 L137 224 Z" class="dfw" fill-opacity=".8"/>
+<circle cx="130" cy="140" r="16" class="dfo"/>
+<rect x="146" y="108" width="270" height="64" rx="10" class="df2 ds" stroke-width="2"/>
+<line x1="146" y1="140" x2="226" y2="140" class="ds" stroke-width="5"/>
+<rect x="186" y="130" width="10" height="20" class="dfr"/>
+<rect x="226" y="122" width="60" height="36" class="dfy" fill-opacity=".7"/>
+<line x1="286" y1="140" x2="316" y2="140" class="ds" stroke-width="3"/>
+<rect x="316" y="120" width="70" height="40" class="dfb" fill-opacity=".6"/>
+<rect x="392" y="92" width="18" height="16" class="dfo" fill-opacity=".8"/>
+<rect x="270" y="172" width="26" height="416" class="df3 ds2" stroke-width="2"/>
+<line x1="190" y1="588" x2="380" y2="588" class="ds" stroke-width="3"/>
+<text x="130" y="256" font-size="22" class="dt" text-anchor="middle">rotor blades</text>
+<text x="40" y="300" font-size="22" class="dto">hub (orange)</text>
+<text x="330" y="228" font-size="22" class="dt">Inside the nacelle:</text>
+<text x="330" y="262" font-size="22" class="dt2">shaft with brake (red)</text>
+<text x="330" y="296" font-size="22" class="dty">gearbox: speeds up</text>
+<text x="330" y="330" font-size="22" class="dtb">generator: electricity</text>
+<text x="330" y="364" font-size="22" class="dto">controller (on top)</text>
+<text x="330" y="420" font-size="22" class="dt">→ power to the grid</text>
+<text x="310" y="520" font-size="22" class="dt2">tower</text>
+</svg>

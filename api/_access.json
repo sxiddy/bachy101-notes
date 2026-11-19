@@ -32,6 +32,9 @@
   "chunk-U.js",
   "q-M5.js",
   "summary-m5.js",
+  "chunk-W.js",
+  "q-M7.js",
+  "summary-m7.js",
   "chunk-V.js"
  ],
  "proFiles": [
@@ -61,6 +64,8 @@
   "pro-T.js",
   "pro-U.js",
   "qa-M5.js",
+  "pro-W.js",
+  "qa-M7.js",
   "pro-V.js",
   "viz-m1-cycles.js",
   "viz-m1.js",
@@ -76,6 +81,7 @@
   "m3",
   "m4",
   "m5",
+  "m7",
   "m6"
  ],
  "paidModules": [
@@ -103,6 +109,11 @@
    "id": "m5",
    "num": "05",
    "title": "Climate Change and Emerging Environmental Issues"
+  },
+  {
+   "id": "m7",
+   "num": "06",
+   "title": "Contemporary Issues: Green Energy Technologies"
   },
   {
    "id": "m6",
@@ -168,6 +179,11 @@
   "q-M5.js": "m5",
   "qa-M5.js": "m5",
   "summary-m5.js": "m5",
+  "chunk-W.js": "m7",
+  "pro-W.js": "m7",
+  "q-M7.js": "m7",
+  "qa-M7.js": "m7",
+  "summary-m7.js": "m7",
   "chunk-V.js": "m6",
   "pro-V.js": "m6",
   "viz-m1-cycles.js": "m1",
