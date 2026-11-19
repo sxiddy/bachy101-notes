@@ -93,7 +93,7 @@ function isOwner(req) {
 // Cached for a few seconds per server instance, so a switch reaches every page within about 5 s.
 let MODE = null, MODE_AT = 0;
 async function siteMode(fresh) {
-  if (!fresh && MODE && Date.now() - MODE_AT < 5000) return MODE;
+  if (!fresh && MODE && Date.now() - MODE_AT < 30000) return MODE; // 30 s: one long-running server (Render) shares it across students
   const store = require('./_store');
   const out = { signin: true, free: false, freeMode: false, freeOffer: null };
   if (store.configured()) {
@@ -259,7 +259,13 @@ async function withStorePrice(out) {
   } catch (e) {} // store unreachable: keep the site's own price
   return out;
 }
-async function settings() { return withStorePrice(await siteSettings()); }
+// Cached 30 s in memory, so a burst of students does not each wait on the database for the same owner settings.
+let SETTINGS = null, SETTINGS_AT = 0;
+async function settings() {
+  if (SETTINGS && Date.now() - SETTINGS_AT < 30000) return { ...SETTINGS };
+  SETTINGS = await withStorePrice(await siteSettings()); SETTINGS_AT = Date.now();
+  return { ...SETTINGS };
+}
 async function siteSettings() {
   const store = require('./_store');
   const out = { price: PRICE, normalPrice: PRICE, sale: null, banner: null, paused: null, business: '' };
