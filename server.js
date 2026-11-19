@@ -41,8 +41,13 @@ function serveFile(req, res, p) {
     }
     res.setHeader('Content-Type', TYPES[path.extname(f).toLowerCase()] || 'application/octet-stream');
     res.setHeader('Content-Length', st.size);
-    // pages always fresh (they change on every deploy), other files cached for an hour
-    res.setHeader('Cache-Control', /\.html$/.test(f) ? 'no-cache' : 'public, max-age=3600');
+    // pages, scripts and styles are re-checked every time (no version in their URLs, and an old cached gate.js
+    // against a new server broke payments on 19-11-2026); images and fonts are cached for an hour
+    const st0 = st;
+    res.setHeader('Cache-Control', /\.(html|js|css|json)$/.test(f) ? 'no-cache' : 'public, max-age=3600');
+    const tag = '"' + st0.size.toString(36) + '-' + Math.floor(st0.mtimeMs).toString(36) + '"';
+    res.setHeader('ETag', tag);
+    if (req.headers['if-none-match'] === tag) { res.statusCode = 304; return res.end(); }
     if (req.method === 'HEAD') return res.end();
     fs.createReadStream(f).pipe(res);
   });
