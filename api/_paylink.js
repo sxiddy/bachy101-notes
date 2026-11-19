@@ -22,14 +22,19 @@ async function createLink(email, amount, origin) {
 
 // A paid link of ours -> record Pro for the email in its notes. Returns { ok, email } or { ok:false, pending|why }.
 async function unlockLink(linkOrId, onlyEmail) {
-  const link = typeof linkOrId === 'string' ? await razorpay('GET', '/payment_links/' + linkOrId) : linkOrId;
+  // always fetch the link itself: the list endpoint leaves out its payments
+  const link = await razorpay('GET', '/payment_links/' + (typeof linkOrId === 'string' ? linkOrId : linkOrId.id));
   const n = link.notes || {};
   if (n.product !== PRODUCT) return { ok: false, why: 'That payment link is not for these notes.' };
   const email = normEmail(n.email);
   if (!email) return { ok: false, why: 'That payment link has no student email.' };
   if (onlyEmail && email !== onlyEmail) return { ok: false, why: 'That payment link belongs to a different account.' };
   if (link.status !== 'paid') return { ok: false, pending: true, why: 'No completed payment on this link yet.' };
-  const pid = ((link.payments || []).find((p) => p.status === 'captured') || {}).payment_id;
+  let pid = ((link.payments || []).find((p) => p.status === 'captured') || {}).payment_id;
+  if (!pid && link.order_id) { // fall back to the link's order: its captured payment
+    const items = (await razorpay('GET', '/orders/' + link.order_id + '/payments')).items || [];
+    pid = (items.find((p) => p.status === 'captured') || {}).id;
+  }
   if (!pid) return { ok: false, pending: true, why: 'Payment not captured yet.' };
   const p = await razorpay('GET', '/payments/' + pid);
   if (p.status !== 'captured' || p.currency !== 'INR' || !(p.amount >= 100)) return { ok: false, why: 'Payment is ' + p.status + '.' };
