@@ -108,13 +108,13 @@ Notes (`.note`) take a `<p>` or plain text inside; the app adds the label. Do no
 
 Write like the sharpest student in the class explaining it to a friend the night before the exam: plain words, short sentences, concrete, confident, a little warm. **nothing from the source is dropped**.
 
-**Short, but every fact kept (owner, 21-11-2026; replaces the 16-11-2026 "exam-complete" rule, which made the notes too long).** Notes run about half the length they did under the old rule. A student still writes an exam answer from them, but reads them fast:
-- Every definition is one tight sentence with the source's key words (the line examiners look for).
-- List items are short bullets, one line where possible: the item plus its reason or example as a clause. Not a bare keyword, not two sentences.
-- Table cells are short clauses.
-- Say each point once: no lead + paragraph + note repeating the same thing, no filler intros or restated summaries.
-- Exam and trap notes stay, one or two lines each. Drop "why" notes that only restate the text.
-- Topics, tab titles, figures and interactives stay as they are; only the text inside tabs gets shorter. `tools/shorten-check.js` checks this against the original.
+**Exam-complete, not keyword-short (owner, 16-11-2026).** A student must be able to write a full exam answer from the notes alone. So:
+- Every definition is a full sentence, worded the way the source words it (that is the line examiners look for).
+- Every list item (cause, effect, type, method, remedy, provision, advantage) gets 1–2 full sentences: what it is, how/why it happens, and the source's example. Never leave an item as a bare keyword or a comma list of keywords.
+- Keep tables, but table cells are sentences or clauses with the reason, not single words.
+- Each topic ends with a `.note exam` that says how to structure a long answer on it (the headings/points in order).
+- Tabs may run 2–4 minutes now. Split a tab rather than cutting content.
+- Fix only what fails this rule (missing source facts, or bare keyword lists). Tabs that already explain things in sentences stay as they are: no rewording for its own sake.
 
 - Every source fact must survive: every definition, list item, example, material, number, unit, equation, advantage, disadvantage, application, named person/year. Compress wording, not content. Merge repeated slides.
 - Order inside a topic: what it is → how it works → why it behaves that way → where it's used / pros & cons → how it's examined.

@@ -18,5 +18,3 @@ site/
 dist/
 .wrangler/
 .dev.vars
-
-orig-short/
