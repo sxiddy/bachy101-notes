@@ -602,6 +602,12 @@ body.recall .prose b.shown sub, body.recall .prose b.shown sup { color: inherit;
 .qans .verdict > :last-child { margin-bottom: 0; }
 .qans .why { margin-top: 12px; font-size: 15.5px; }
 .qans .pts-title { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--good); margin: 16px 0 4px; }
+.qans .whynot { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px; }
+.qans .whynot li { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line, rgba(255,255,255,.08)); font-size: 14.5px; line-height: 1.5; }
+.qans .whynot .k { flex: none; font-family: var(--mono); font-size: 12px; opacity: .7; padding-top: 2px; }
+.qans .whynot b { display: block; font-weight: 600; margin-bottom: 2px; }
+.qans .whynot li.picked { border-color: color-mix(in srgb, var(--bad) 55%, transparent); background: color-mix(in srgb, var(--bad) 9%, transparent); }
+.qans .whynot li.picked .k { color: var(--bad); opacity: 1; }
 .qans ul.pts { margin: 0; }
 .qans ul.pts > li { font-size: 15px; padding: 5px 0 5px 22px; }
 .qans ul.pts > li::before { background: var(--good); }
