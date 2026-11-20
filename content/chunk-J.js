@@ -10,13 +10,13 @@ CHUNK({
       source: 'Lecture W3 (Water management and conservation), pages 1–3',
       tabs: [
         { title: 'Meaning', html: `
-          <p class="lead">Only <b>2.5%</b> of Earth's water is fresh, and less is usable. <b>Water management</b> is planning, developing, distributing and managing the <b>optimum use</b> of water. <b>Conservation</b> protects sources and uses water efficiently to cut waste.</p>
+          <p class="lead">Only <b>2.5%</b> of water is fresh. <b>Water management</b>: planning, developing, distributing, managing <b>optimum use</b>. <b>Conservation</b>: protect sources, use efficiently.</p>
           <table class="tbl">
             <thead><tr><th>Role of water</th><th>How</th></tr></thead>
             <tbody>
-              <tr><td><b>Ecological balance</b></td><td>Wetlands filter water and control floods; rivers carry nutrients and give habitats</td></tr>
-              <tr><td><b>Agriculture</b></td><td>Irrigation allows farming in low rainfall and all year; poor irrigation causes <b>waterlogging</b> and soil degradation</td></tr>
-              <tr><td><b>Climate regulation</b></td><td>Water cycle spreads heat; oceans store solar energy; <b>water vapour is a natural greenhouse gas</b></td></tr>
+              <tr><td><b>Ecological balance</b></td><td>Wetlands filter, control floods; rivers carry nutrients, habitats</td></tr>
+              <tr><td><b>Agriculture</b></td><td>Irrigation in low rainfall, all year; poor irrigation → <b>waterlogging</b>, soil degradation</td></tr>
+              <tr><td><b>Climate regulation</b></td><td>Water cycle spreads heat; oceans store solar energy; <b>water vapour = natural greenhouse gas</b></td></tr>
               <tr><td><b>Economic activity</b></td><td>Industry (manufacturing, cooling), <b>hydropower</b>, sanitation, fisheries</td></tr>
             </tbody>
           </table>
@@ -34,14 +34,12 @@ CHUNK({
         { title: 'Principles', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Sustainability</b></td><td>Meet today's needs without depleting future supply: recycling, rainwater harvesting, less waste</td></tr>
-              <tr><td><b>Equity</b></td><td>Fair share for agriculture, industry, homes; access for marginalised and rural people; basic needs and ecosystems first</td></tr>
-              <tr><td><b>Efficiency</b></td><td>Cut losses in <b>storage, transmission and use</b>; drip irrigation, smart meters, leak repair</td></tr>
-              <tr><td><b>IWRM</b></td><td><b>Integrated Water Resources Management</b>: coordinated development of <b>water, land and related resources</b>; balances social, economic and environmental needs; whole water cycle</td></tr>
+              <tr><td><b>Sustainability</b></td><td>Today's needs without depleting future: recycling, rainwater harvesting</td></tr>
+              <tr><td><b>Equity</b></td><td>Fair share (farms, industry, homes); marginalised, rural access; basic needs, ecosystems first</td></tr>
+              <tr><td><b>Efficiency</b></td><td>Cut losses in <b>storage, transmission, use</b>; drip, smart meters, <b>leak repair, infrastructure upgrades</b></td></tr>
+              <tr><td><b>IWRM</b></td><td><b>Integrated Water Resources Management</b>: coordinates <b>water, land and related resources</b>; social, economic, environmental balance; whole water cycle</td></tr>
             </tbody>
           </table>
-          <p>Efficiency in practice: <b>fixing leaks and upgrading infrastructure</b> prevents unnecessary loss, and efficient practices lower costs and leave water for other needs.</p>
-          <div class="note exam">Long answer on water management: (1) the 2.5% freshwater fact and the definitions of water management and conservation; (2) the four roles of water (ecological balance, agriculture, climate regulation, economy); (3) the five challenges with their cause; (4) the four principles (sustainability, equity, efficiency, IWRM) with what each means in practice; (5) close with the need for integrated strategies and public participation.</div>
         ` }
       ],
       flashcards: [
@@ -66,21 +64,21 @@ CHUNK({
       source: 'Lecture W3 (Water management and conservation), pages 4–10',
       tabs: [
         { title: 'Why conserve', html: `
-          <p class="lead"><b>Water conservation</b> is the careful, efficient use of water to cut waste and save it for future needs.</p>
+          <p class="lead"><b>Water conservation</b>: efficient use to cut waste, save for future.</p>
           <ul>
-            <li>Only about <b>3%</b> of water is fresh; <b>less than 1%</b> is easily available.</li>
-            <li><b>2 billion</b> people live in water-stressed regions; by 2025 half the world may face shortages.</li>
+            <li>~<b>3%</b> fresh; <b>&lt; 1%</b> easily available.</li>
+            <li><b>2 billion</b> in water-stressed regions; by 2025 half the world may face shortages.</li>
             <li>WHO: <b>2 million deaths</b> a year from unsafe water and sanitation; <b>Somalia drought 2011</b>.</li>
             <li>Agriculture uses <b>70%</b> of freshwater; <b>Cape Town "Day Zero" (2018)</b>.</li>
           </ul>
-          <div class="note heads-up">The lecture gives freshwater as <b>2.5%</b> in its introduction and <b>about 3%</b> later. Both appear; 2.5% is the more exact figure.</div>
+          <div class="note heads-up">Lecture gives freshwater as <b>2.5%</b> and later <b>~3%</b>; 2.5% is more exact.</div>
         ` },
         { title: 'Main methods', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Rainwater harvesting</b></td><td>Collect from rooftops and catchments in tanks, filters, pits; for irrigation, homes, <b>recharge</b>; eases floods and droughts</td></tr>
-              <tr><td><b>Drip irrigation</b></td><td>Water straight to the root zone; less evaporation, runoff and weeds; ideal for arid areas</td></tr>
-              <tr><td><b>Leak detection</b></td><td>Sensors and smart meters find pipe leaks in city systems</td></tr>
+              <tr><td><b>Rainwater harvesting</b></td><td>Rooftops, catchments → tanks, filters, pits; irrigation, homes, <b>recharge</b>; eases floods, droughts</td></tr>
+              <tr><td><b>Drip irrigation</b></td><td>To root zone; less evaporation, runoff, weeds; arid areas</td></tr>
+              <tr><td><b>Leak detection</b></td><td>Sensors, smart meters in city pipes</td></tr>
               <tr><td><b>Efficient appliances</b></td><td>Low-flow showers, <b>aerated faucets</b>, <b>dual-flush toilets</b></td></tr>
               <tr><td><b>Recycling and reuse</b></td><td>Treated wastewater for non-potable uses: irrigation, industry, flushing</td></tr>
             </tbody>
@@ -90,19 +88,18 @@ CHUNK({
         { title: 'Farms and cities', html: `
           <div class="vs">
             <div class="side"><h4>Agriculture (70% of freshwater)</h4><ul>
-              <li><b>Precision irrigation</b> uses sensors to apply water only as needed.</li>
-              <li><b>Crop selection</b>: grow drought-resistant or less water-intensive crops.</li>
-              <li><b>Mulching and organic farming</b> retain soil moisture and reduce runoff.</li>
-              <li><b>Watershed management</b> conserves water across a whole catchment through afforestation, check dams and contour ploughing.</li>
-            </ul><p>Government support, subsidies and farmer training are key to putting these in place.</p></div>
+              <li><b>Precision irrigation</b>: sensors, water only as needed.</li>
+              <li><b>Crop selection</b>: drought-resistant, less water-intensive.</li>
+              <li><b>Mulching, organic farming</b>: retain moisture, less runoff.</li>
+              <li><b>Watershed management</b>: whole catchment; afforestation, check dams, contour ploughing.</li>
+            </ul><p>Needs government support, subsidies, farmer training.</p></div>
             <div class="side"><h4>Urban</h4><ul>
-              <li><b>Stormwater management</b>: green infrastructure such as <b>bio-swales and rain gardens</b> absorbs and filters runoff, which prevents flooding and pollution, eases drainage and recharges groundwater. Urban green spaces also build climate resilience.</li>
-              <li><b>Decentralised wastewater treatment</b> treats sewage close to its source (homes, communities). It reduces the load on central plants, reaches remote areas, is cheap, energy-efficient and quick to set up, and the treated water can go to gardening, flushing or irrigation.</li>
-              <li><b>Smart water grids</b> use sensors, meters and data analytics to monitor distribution in real time: they detect leaks, track use and match supply to demand, which allows faster response and better planning.</li>
-              <li><b>Greywater reuse</b> recycles relatively clean water from baths, sinks and kitchens for gardening and landscaping. It is not drinkable, but it cuts freshwater demand and the volume entering sewers.</li>
-            </ul><p>Urban planning must include water-sensitive design and community-based solutions.</p></div>
+              <li><b>Stormwater management</b>: <b>bio-swales, rain gardens</b> absorb/filter runoff; prevent flooding, recharge groundwater; climate resilience.</li>
+              <li><b>Decentralised wastewater treatment</b>: near source (homes, communities); less load on central plants, remote reach, cheap, energy-efficient, quick; reuse for gardening, flushing, irrigation.</li>
+              <li><b>Smart water grids</b>: sensors, meters, analytics; real-time leak detection, match supply to demand.</li>
+              <li><b>Greywater reuse</b>: baths, sinks, kitchens → gardening, landscaping; not drinkable; cuts freshwater demand and sewer volume.</li>
+            </ul><p>Water-sensitive design, community-based solutions.</p></div>
           </div>
-          <div class="note exam">Long answer on water conservation: (1) definition and why it matters (2.5–3% fresh, under 1% available, 2 billion in water-stressed regions, Cape Town Day Zero); (2) the main methods (rainwater harvesting, drip irrigation, leak detection, efficient appliances, recycling) with how each saves water; (3) agricultural practices, since farming uses 70%; (4) urban practices; (5) measured savings as evidence; (6) household habits.</div>
         ` },
         { title: 'Measured savings', html: `
           <table class="tbl">
@@ -115,7 +112,7 @@ CHUNK({
             </tbody>
           </table>
           <h4>At home</h4>
-          <p>Turn off taps while brushing; fix leaks; use buckets not showers or hoses; reuse RO waste water for cleaning; collect rainwater; dual-flush and low-flow fixtures; full loads in washing machines and dishwashers; water plants with safe used water.</p>
+          <p>Taps off while brushing; fix leaks; buckets not showers/hoses; reuse RO waste water; collect rainwater; dual-flush, low-flow fixtures; full loads; water plants with used water.</p>
         ` }
       ],
       flashcards: [
@@ -167,23 +164,23 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>State</th><th>Method</th><th>Impact</th></tr></thead>
             <tbody>
-              <tr><td>Rajasthan</td><td>Drip irrigation and sprinkler systems</td><td>Farmers in arid regions grow vegetables with <b>~50% less water</b>.</td></tr>
-              <tr><td>Maharashtra</td><td>Farm ponds and micro-irrigation</td><td>Thousands of farm ponds store rainwater for <b>rabi crops</b>.</td></tr>
-              <tr><td>Tamil Nadu</td><td>Rainwater harvesting in fields</td><td>Recharge pits and contour bunds raise groundwater for paddy.</td></tr>
-              <tr><td>Andhra Pradesh</td><td><b>Zero Budget Natural Farming</b> (ZBNF)</td><td>Mulching and moisture retention reduce irrigation needs.</td></tr>
-              <tr><td>Karnataka</td><td>Borewell recharge and drip systems</td><td>Sustain sugarcane and horticulture with less groundwater stress.</td></tr>
-              <tr><td>Gujarat</td><td>Watershed development and check dams</td><td>Improve irrigation water for cotton and pulses.</td></tr>
-              <tr><td>Kerala</td><td><b>System of Rice Intensification</b> (SRI)</td><td>Alternate wetting and drying saves <b>~30%</b> water in paddy.</td></tr>
+              <tr><td>Rajasthan</td><td>Drip, sprinklers</td><td>Arid vegetables, <b>~50% less water</b></td></tr>
+              <tr><td>Maharashtra</td><td>Farm ponds, micro-irrigation</td><td>Store rain for <b>rabi crops</b></td></tr>
+              <tr><td>Tamil Nadu</td><td>Rainwater harvesting in fields</td><td>Recharge pits, contour bunds; paddy</td></tr>
+              <tr><td>Andhra Pradesh</td><td><b>Zero Budget Natural Farming</b> (ZBNF)</td><td>Mulching, less irrigation</td></tr>
+              <tr><td>Karnataka</td><td>Borewell recharge, drip</td><td>Sugarcane, horticulture</td></tr>
+              <tr><td>Gujarat</td><td>Watershed development, check dams</td><td>Cotton, pulses</td></tr>
+              <tr><td>Kerala</td><td><b>System of Rice Intensification</b> (SRI)</td><td>Alternate wetting/drying, <b>~30%</b> saved in paddy</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'People and change', html: `
           <ul>
-            <li><b>Community</b>: awareness programmes, school curricula, NGOs, community-led change such as <b>Ralegan Siddhi</b> (Maharashtra).</li>
-            <li><b>Needed changes</b>: adopt sustainable practices; strict rules on groundwater and effluents; water user groups and village committees; school and media campaigns; smart irrigation, pipelines, leak networks, STPs; lifestyle shifts away from water-intensive products.</li>
+            <li><b>Community</b>: awareness, school curricula, NGOs; <b>Ralegan Siddhi</b> (Maharashtra).</li>
+            <li><b>Needed changes</b>: sustainable practices; strict groundwater/effluent rules; water user groups, village committees; school/media campaigns; smart irrigation, pipelines, leak networks, STPs; less water-intensive lifestyles.</li>
           </ul>
-          <p>Collaboration between <b>government, NGOs, scientists and the public</b> is needed for long-term success; people-centric approaches create a sense of ownership.</p>
-          <div class="note exam">Conservation must move from <b>reactive to proactive</b>, joining science, policy and community action.</div>
+          <p><b>Government, NGOs, scientists, public</b> together; people-centric = ownership.</p>
+          <div class="note exam">From <b>reactive to proactive</b>: science + policy + community.</div>
         ` }
       ],
       flashcards: [
@@ -209,7 +206,7 @@ CHUNK({
       source: 'Lecture W3S6 (Circular economy and solid waste), pages 1–4',
       tabs: [
         { title: 'Solid waste', html: `
-          <p class="lead"><b>Solid waste</b> is any discarded <b>solid or semi-solid</b> material. India makes over <b>62 million tonnes</b> of municipal solid waste a year, about the weight of <b>10,000 Eiffel Towers</b>.</p>
+          <p class="lead"><b>Solid waste</b>: discarded <b>solid or semi-solid</b> material. India: <b>62+ million tonnes</b> MSW/yr (~<b>10,000 Eiffel Towers</b>).</p>
           <table class="tbl">
             <tbody>
               <tr><td><b>Municipal (MSW)</b></td><td>Household garbage: food, paper, plastic, glass</td></tr>
@@ -224,13 +221,13 @@ CHUNK({
         ` },
         { title: 'Linear vs circular', html: `
           <div class="vs">
-            <div class="side"><h4>Linear economy</h4><p><b>Take, make, dispose</b>. Worked when population was small and resources seemed endless. Today about <b>100 billion tonnes</b> of materials are used yearly and <b>under 9%</b> return to use.</p></div>
-            <div class="side"><h4>Circular economy</h4><p><b>Reduce, reuse, recycle, regenerate</b>. A loop: waste from one process is raw material for another. Glass bottle: collected, cleaned, refilled hundreds of times, then recycled.</p></div>
+            <div class="side"><h4>Linear economy</h4><p><b>Take, make, dispose</b>; suited small populations. ~<b>100 billion tonnes</b> used yearly, <b>&lt; 9%</b> return.</p></div>
+            <div class="side"><h4>Circular economy</h4><p><b>Reduce, reuse, recycle, regenerate</b>. Waste of one process = raw material of another. Glass bottle refilled hundreds of times, then recycled.</p></div>
           </div>
           <div class="steps">
-            <div><b>Design out waste and pollution</b> at the design stage.</div>
+            <div><b>Design out waste and pollution</b>.</div>
             <div><b>Keep products and materials in use</b>: repair, remanufacture, refurbish.</div>
-            <div><b>Regenerate natural systems</b>, e.g. composting returns nutrients to soil.</div>
+            <div><b>Regenerate natural systems</b> (composting).</div>
           </div>
           <p>Ellen MacArthur Foundation: <b>USD 4.5 trillion</b> of global benefit by 2030.</p>
           <div class="note exam">"Circular thinking starts at the drawing board, not at the rubbish bin."</div>
@@ -259,44 +256,44 @@ CHUNK({
       source: 'Lecture W3S6 (Circular economy and solid waste), pages 4–6',
       tabs: [
         { title: 'The 3Rs', html: `
-          <p class="lead">The 3Rs are in <b>priority order</b>: Reduce solves the problem before it exists; Reuse extends life; Recycle still needs energy and leaves waste, so it is the <b>last resort</b> of the three.</p>
+          <p class="lead">3Rs in <b>priority order</b>: Reduce prevents; Reuse extends life; Recycle uses energy, leaves waste = <b>last resort</b>.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Reduce</b></td><td><b>Dematerialisation</b> (same function, less material); <b>Extended Producer Responsibility (EPR)</b> makes makers responsible at end of life</td></tr>
-              <tr><td><b>Reuse</b></td><td>Use again without major reprocessing: the <b>steel tiffin box</b></td></tr>
-              <tr><td><b>Recycle</b></td><td>Make something new. Main problem is <b>contamination</b> (curry-soaked carton), so <b>source segregation</b> of wet and dry waste is a technical necessity</td></tr>
+              <tr><td><b>Reduce</b></td><td><b>Dematerialisation</b> (same function, less material); <b>EPR</b> (Extended Producer Responsibility): makers responsible at end of life</td></tr>
+              <tr><td><b>Reuse</b></td><td>No major reprocessing: <b>steel tiffin box</b></td></tr>
+              <tr><td><b>Recycle</b></td><td>Make new. Problem: <b>contamination</b> (curry-soaked carton) → <b>source segregation</b> of wet/dry is necessary</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Composting and AD', html: `
           <div class="vs">
-            <div class="side"><h4>Composting</h4><p>Microbes break down food and garden waste under control into nutrient-rich <b>compost</b>. <b>Vermicomposting</b> uses earthworms and works at home.</p></div>
-            <div class="side"><h4>Anaerobic digestion</h4><p>Same idea <b>without oxygen</b> in a closed chamber. Produces <b>biogas</b> (mainly methane) for cooking or power, and <b>digestate</b> as fertiliser.</p></div>
+            <div class="side"><h4>Composting</h4><p>Microbes turn food/garden waste into <b>compost</b>. <b>Vermicomposting</b>: earthworms, at home.</p></div>
+            <div class="side"><h4>Anaerobic digestion</h4><p><b>No oxygen</b>, closed chamber → <b>biogas</b> (mainly methane) for cooking/power + <b>digestate</b> fertiliser.</p></div>
           </div>
           <table class="tbl">
             <thead><tr><th>Advantages</th><th>Disadvantages</th></tr></thead>
             <tbody>
-              <tr><td>Manure raises soil water retention and ion-exchange capacity</td><td>Non-consumables must be disposed of separately</td></tr>
-              <tr><td>Some industrial solid wastes can also be treated</td><td>Farmers have not taken up compost yet, so no assured market</td></tr>
-              <tr><td>Manure can be sold, cutting disposal cost; recycling is effective</td><td></td></tr>
+              <tr><td>Manure raises water retention, ion-exchange capacity</td><td>Non-consumables disposed separately</td></tr>
+              <tr><td>Some industrial wastes treatable</td><td>Farmers haven't adopted compost; no assured market</td></tr>
+              <tr><td>Manure sold, lower disposal cost; effective recycling</td><td></td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">The notes list these pros and cons under anaerobic digestion, but they talk about manure and compost, so they apply to both composting and digestion.</div>
+          <div class="note heads-up">Listed under anaerobic digestion, but apply to both.</div>
         ` },
         { title: 'Incineration', html: `
-          <p class="lead">Controlled burning at <b>800–1000°C</b>; cuts volume by up to <b>90%</b>. A <b>300 t/day</b> plant can give <b>3 MW</b>. Main worry: <b>dioxins</b>, so emission control is a must, and ash needs safe disposal.</p>
+          <p class="lead">Controlled burning, <b>800–1000°C</b>; volume <b>−90%</b>. <b>300 t/day</b> → <b>3 MW</b>. Worry: <b>dioxins</b> (emission control), ash disposal.</p>
           <table class="tbl">
             <thead><tr><th>Advantages</th><th>Disadvantages</th></tr></thead>
             <tbody>
-              <tr><td>Residue only <b>20–25%</b> of original weight; clinker usable after treatment</td><td>High capital and operating cost</td></tr>
-              <tr><td>Needs very little space</td><td>Needs skilled staff</td></tr>
-              <tr><td>Low transport cost (inside city limits)</td><td>Smoke, dust and ash need disposal; air pollution</td></tr>
+              <tr><td>Residue <b>20–25%</b> of weight; clinker usable</td><td>High capital, operating cost</td></tr>
+              <tr><td>Little space</td><td>Skilled staff</td></tr>
+              <tr><td>Low transport (in city)</td><td>Smoke, dust, ash; air pollution</td></tr>
               <tr><td>Safest for hygiene; 300 t/day → 3 MW</td><td></td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Sanitary landfill', html: `
-          <p class="lead">The <b>engineered</b> rubbish dump: an <b>impermeable liner</b> stops leachate reaching groundwater, and <b>landfill gas</b> (methane) is captured for energy. It is the <b>least-value</b> option.</p>
+          <p class="lead"><b>Engineered</b> dump: <b>impermeable liner</b> blocks leachate; <b>landfill gas</b> (methane) captured. <b>Least-value</b> option.</p>
           <table class="tbl">
             <thead><tr><th>Advantages</th><th>Disadvantages</th></tr></thead>
             <tbody>
@@ -306,9 +303,7 @@ CHUNK({
               <tr><td>Turns marshy waste land into useful land</td><td>Mosquitoes and flies</td></tr>
               <tr><td>Natural resources return to the soil</td><td><b>Fire hazard</b> from methane in wet weather</td></tr>
             </tbody>
-          </table>
-          <div class="note exam">Long answer on waste treatment: (1) the 3Rs in priority order with why recycling comes last (EPR, steel tiffin, contamination and source segregation); (2) composting and anaerobic digestion: how each works, products, pros and cons; (3) incineration: 800–1000°C, 90% volume cut, 300 t/day gives 3 MW, dioxins, pros and cons; (4) sanitary landfill: liner, gas capture, pros and cons, and why it is the least-value option.</div>
-        ` }
+          </table>        ` }
       ],
       flashcards: [
         { front: 'Order of the 3Rs and why?', back: '<b>Reduce, reuse, recycle</b>; recycling still uses energy and leaves waste, so it comes last.' },
@@ -344,7 +339,7 @@ CHUNK({
             <div>Recover energy (incineration)</div>
             <div><b>Landfill</b>, only as a last resort</div>
           </div>
-          <div class="note exam">India's <b>Solid Waste Management Rules, 2016</b> made <b>source segregation mandatory</b> and required <b>bulk generators</b> (hotels, hospitals, markets) to process their own waste. Implementation is uneven, but the intent is circular.</div>
+          <div class="note exam"><b>Solid Waste Management Rules, 2016</b>: <b>source segregation mandatory</b>; <b>bulk generators</b> (hotels, hospitals, markets) process own waste. Uneven implementation, circular intent.</div>
         ` },
         { title: 'Examples', html: `
           <table class="tbl">
@@ -357,12 +352,12 @@ CHUNK({
         ` },
         { title: 'Challenges', html: `
           <ol>
-            <li>Advanced recycling and <b>waste-to-energy</b> need capital many municipalities lack.</li>
-            <li>Recycling depends on commodity prices: cheap virgin plastic undercuts recycled plastic.</li>
-            <li>Public behaviour: segregation needs every household.</li>
-            <li>Fragmented governance across city departments.</li>
+            <li>Capital for recycling, <b>waste-to-energy</b>.</li>
+            <li>Commodity prices: cheap virgin plastic undercuts recycled.</li>
+            <li>Public behaviour: every household must segregate.</li>
+            <li>Fragmented governance.</li>
           </ol>
-          <p>These are engineering design problems: a segregation system people use, recycling viable without subsidy, siting plants without opposition.</p>
+          <p>Engineering design problems: usable segregation, unsubsidised recycling, siting without opposition.</p>
           <div class="note exam">Solid waste is <b>misplaced resources</b>: the circular economy captures what the linear economy throws away.</div>
         ` }
       ],

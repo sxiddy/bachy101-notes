@@ -10,10 +10,10 @@ CHUNK({
       source: 'Lecture W4 (Water Act, Part II), pages 1–3',
       tabs: [
         { title: 'Background', html: `
-          <p class="lead">The <b>Water (Prevention and Control of Pollution) Act, 1974</b> was independent India's <b>first comprehensive water pollution law</b>, enacted on <b>23 March 1974</b>. Aim: prevent and control water pollution and maintain or restore the <b>wholesomeness</b> of water.</p>
+          <p class="lead"><b>Water (Prevention and Control of Pollution) Act, 1974</b>: India's <b>first comprehensive water pollution law</b>, <b>23 March 1974</b>. Aim: maintain/restore <b>wholesomeness</b> of water.</p>
           <ul>
-            <li>Why: the Ganga, Yamuna, Godavari and Cauvery were degraded by industrial discharge, untreated sewage and farm runoff.</li>
-            <li><b>Article 252</b>: lets Parliament legislate on a <b>state subject</b> (water) when state legislatures request it. Several states did.</li>
+            <li>Why: Ganga, Yamuna, Godavari, Cauvery hit by industry, sewage, farm runoff.</li>
+            <li><b>Article 252</b>: Parliament legislates on a <b>state subject</b> (water) at states' request.</li>
             <li><b>1988 amendment</b>: higher penalties, wider Board powers.</li>
             <li>The Act has <b>64 sections in 10 chapters</b>.</li>
           </ul>
@@ -33,9 +33,9 @@ CHUNK({
         { title: 'Boards', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>CPCB, Section 3</b></td><td>National. Promotes clean streams and wells; advises Central Government; coordinates State Boards; technical help and training; research; collects and shares information; sets national water quality standards</td></tr>
-              <tr><td><b>SPCB, Section 4</b></td><td>Each state. Advises State Government; plans pollution programmes; inspects sewage and effluent plants; reviews treatment plans; shares data; trains staff; grants consent, monitors rivers and wells, runs labs, prosecutes</td></tr>
-              <tr><td><b>Joint Board, Section 13</b></td><td>Two or more states together, useful for rivers crossing states</td></tr>
+              <tr><td><b>CPCB, Section 3</b></td><td>National: clean streams/wells; advises Centre; coordinates SPCBs; training; research; information; national water standards</td></tr>
+              <tr><td><b>SPCB, Section 4</b></td><td>State: advises State Govt; programmes; inspects sewage/effluent plants; training; consent, monitoring, labs, prosecution</td></tr>
+              <tr><td><b>Joint Board, Section 13</b></td><td>Two or more states (inter-state rivers)</td></tr>
             </tbody>
           </table>
           <p>Functions: <b>Section 16</b> (Central Board: advisory, coordination, research), <b>Section 17</b> (State Board: inspection, monitoring, enforcement), <b>Section 18</b> (both Boards give <b>binding directions</b>).</p>
@@ -66,18 +66,18 @@ CHUNK({
         { title: 'Discharge', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Section 24</b></td><td><b>Absolute prohibition</b>: no one may knowingly let poisonous, noxious or polluting matter (liquid or solid) enter a <b>stream or well</b>, except as permitted by State Board consent</td></tr>
-              <tr><td><b>Section 25</b></td><td><b>Consent for new outlets and discharges</b> (water's version of Air Act Section 21). Apply with nature and quantity of discharge; Board can approve, reject or set conditions</td></tr>
-              <tr><td><b>Section 26</b></td><td><b>Existing discharges</b> must apply for consent within a set time; after the deadline, discharge without consent is banned</td></tr>
+              <tr><td><b>Section 24</b></td><td><b>Absolute prohibition</b>: no poisonous, noxious or polluting matter into a <b>stream or well</b> without consent</td></tr>
+              <tr><td><b>Section 25</b></td><td><b>Consent for new outlets</b> (like Air Act S21); approve, reject or conditions</td></tr>
+              <tr><td><b>Section 26</b></td><td><b>Existing discharges</b>: seek consent by deadline</td></tr>
               <tr><td><b>Section 27</b></td><td>Revocation of consent</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Consent sets conditions on effluent <b>quality, quantity and monitoring</b>; standards depend on the receiving water's capacity; consent can be refused or withdrawn. <b>MINAS</b> = Minimum National Standards for effluent, set by CPCB; states may be stricter.</div>
+          <div class="note exam">Consent conditions: effluent <b>quality, quantity, monitoring</b>; depend on receiving water's capacity. <b>MINAS</b> = Minimum National Standards for effluent, set by CPCB; states may be stricter.</div>
         ` },
         { title: 'Inspection and emergencies', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Section 21</b></td><td>Take <b>effluent samples</b> from any outlet, following procedure (notify the person), test in recognised labs, use as legal evidence</td></tr>
+              <tr><td><b>Section 21</b></td><td><b>Effluent samples</b> (notify, recognised labs, legal evidence)</td></tr>
               <tr><td><b>Section 23</b></td><td><b>Entry and inspection</b>: plants, records, consent compliance</td></tr>
               <tr><td><b>Section 32</b></td><td><b>Emergency measures</b>: remove pollutants, restore water after accidents</td></tr>
               <tr><td><b>Section 33</b></td><td>Boards may apply to <b>courts</b> to stop apprehended pollution</td></tr>
@@ -125,15 +125,15 @@ CHUNK({
             </tbody>
           </table>
           <ul>
-            <li><b>Non-compoundable</b>: most offences can't be settled by a fine; court is mandatory.</li>
-            <li>Some are <b>cognizable</b>: police can arrest without a warrant.</li>
+            <li><b>Non-compoundable</b>: no settling by fine; court mandatory.</li>
+            <li>Some <b>cognizable</b>: arrest without warrant.</li>
             <li>Penalties go to the <b>Environmental Protection Fund</b>.</li>
             <li>Offenders remain liable for <b>cleanup and restoration</b>.</li>
           </ul>
         ` },
         { title: 'Why engineers', html: `
-          <p>Ten reasons: professional and ethical practice; legal compliance (consent under S25, treatment, records under S20, inspections under S23); <b>personal liability under Section 46</b>; careers (consulting, compliance officers, Boards, audits); sustainable design (<b>zero liquid discharge</b>, reuse); dealing with regulators (applications, appeals); protecting local water; research; seeing the wider governance picture; avoiding costly delays, penalties and shutdowns.</p>
-          <p>First-year steps: study Sections 24–27 and 41–45; learn CPCB effluent standards; visit treatment plants; follow CPCB/SPCB websites; join campus programmes; talk to seniors; read case studies; keep records.</p>
+          <p>Ten reasons: ethics; compliance (S25 consent, S20 records, S23 inspections); <b>personal liability, Section 46</b>; careers (consulting, compliance, Boards, audits); sustainable design (<b>zero liquid discharge</b>, reuse); regulators; local water; research; governance; avoid delays, penalties, shutdowns.</p>
+          <p>First-year steps: Sections 24–27, 41–45; CPCB effluent standards; plant visits; CPCB/SPCB sites; case studies; records.</p>
         ` },
         { title: 'Three Acts compared', html: `
           <table class="tbl">
@@ -145,7 +145,6 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">The Air Act penalty here is the course's figure for basic violations. Learn the numbers exactly as given in this table.</div>
-          <div class="note exam"><p>For "Penalties under the Water Act": go section by section (41, 41A, 42, 43, 44, 45, 46, 47), giving the violation and the penalty for each, and point out that Section 43 is the most severe. Then write the key features (non-compoundable, some cognizable, Environmental Protection Fund, liability for cleanup). If asked why engineers must know the Act, add personal liability under Section 46 and a few of the ten reasons. For a comparison question, reproduce this three-column table.</p></div>
         ` }
       ],
       flashcards: [

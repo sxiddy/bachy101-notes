@@ -10,26 +10,26 @@ CHUNK({
       source: 'Lecture W4 (Kyoto Protocol), pages 2–4',
       tabs: [
         { title: 'The science', html: `
-          <p class="lead">Emissions cross borders: those who suffer most often emitted least. International law answers three questions: <b>who is responsible, who pays, and who can compel action</b>.</p>
+          <p class="lead">Those who suffer most emitted least. Law asks: <b>who is responsible, who pays, who can compel action</b>.</p>
           <ul>
-            <li><b>Greenhouse effect</b>: sunlight warms the surface; the surface radiates <b>infrared</b>; CO₂, methane and nitrous oxide trap part of it. Without it Earth would average about <b>−18°C</b>.</li>
-            <li>CO₂ rose from about <b>280 ppm</b> (pre-industrial) to over <b>420 ppm</b> today, a level not seen in at least <b>800,000 years</b> of ice-core records.</li>
-            <li>Effects: higher temperatures, more extreme weather, ice melt and sea-level rise, <b>ocean acidification</b>, disrupted farming and water supply.</li>
+            <li><b>Greenhouse effect</b>: surface radiates <b>infrared</b>; CO₂, methane, nitrous oxide trap it. Without it: about <b>−18°C</b>.</li>
+            <li>CO₂: <b>280 ppm</b> (pre-industrial) to over <b>420 ppm</b>, highest in <b>800,000 years</b> (ice cores).</li>
+            <li>Effects: heat, extreme weather, ice melt, sea-level rise, <b>ocean acidification</b>, farming and water disruption.</li>
           </ul>
         ` },
         { title: 'IPCC and why a treaty', html: `
           <ul>
-            <li><b>IPCC</b> (Intergovernmental Panel on Climate Change) does <b>no original research</b>. It reviews thousands of peer-reviewed studies and writes consensus reports.</li>
-            <li>Its <b>first Assessment Report (1990)</b> was the scientific trigger for government action.</li>
+            <li><b>IPCC</b> (Intergovernmental Panel on Climate Change) does <b>no original research</b>; reviews peer-reviewed studies, consensus reports.</li>
+            <li><b>First Assessment Report (1990)</b>: trigger for government action.</li>
           </ul>
-          <div class="note exam">Climate is a <b>collective action problem</b>: no single country gains by cutting alone if others don't. A <b>legally binding treaty</b> is the fix, like traffic laws instead of trusting every driver.</div>
+          <div class="note exam"><b>Collective action problem</b>: no gain cutting alone. Fix: <b>legally binding treaty</b> (like traffic laws).</div>
         ` },
         { title: 'UNFCCC and CBDR-RC', html: `
           <ul>
-            <li><b>UNFCCC</b> adopted at the <b>Earth Summit, Rio de Janeiro, 1992</b>: the first treaty to formally accept human-caused climate change.</li>
-            <li>Its flaw: <b>no binding targets</b>. A framework without enforcement.</li>
+            <li><b>UNFCCC</b> adopted at the <b>Earth Summit, Rio de Janeiro, 1992</b>: first treaty accepting human-caused climate change.</li>
+            <li>Flaw: <b>no binding targets</b>.</li>
           </ul>
-          <p><b>CBDR-RC</b> (Common But Differentiated Responsibilities and Respective Capabilities): every country shares responsibility for the climate, but historical responsibility and capacity differ. Developed countries grew rich over two centuries of fossil fuel use, so they should not be treated the same as a country still providing clean water.</p>
+          <p><b>CBDR-RC</b> (Common But Differentiated Responsibilities and Respective Capabilities): shared responsibility, but historical responsibility and capacity differ (developed nations: two centuries of fossil fuels).</p>
         ` }
       ],
       flashcards: [
@@ -58,8 +58,8 @@ CHUNK({
         { title: 'Key dates', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Adopted</td><td><b>11 December 1997</b>, <b>COP3</b>, Kyoto, Japan, after very difficult negotiations that ran through several all-night sessions</td></tr>
-              <tr><td>In force</td><td><b>16 February 2005</b>, once countries with at least <b>55%</b> of global emissions ratified</td></tr>
+              <tr><td>Adopted</td><td><b>11 December 1997</b>, <b>COP3</b>, Kyoto, Japan</td></tr>
+              <tr><td>In force</td><td><b>16 February 2005</b>, after <b>55%</b> of global emissions ratified</td></tr>
               <tr><td>First period</td><td><b>2008–2012</b></td></tr>
               <tr><td>Second period</td><td>To <b>2020</b>, set at <b>COP18, Doha, 2012</b> (Doha Amendment, in force only <b>December 2020</b>)</td></tr>
               <tr><td>India ratified</td><td><b>August 2002</b></td></tr>
@@ -71,21 +71,20 @@ CHUNK({
             <div class="side"><h4>Annex I</h4><p><b>37 industrialised nations</b> (EU, Japan, Russia, Canada, Australia). <b>Binding</b> targets.</p></div>
             <div class="side"><h4>Non-Annex I</h4><p>Developing nations (India, China, Brazil, most of Africa). <b>No binding</b> targets.</p></div>
           </div>
-          <p>This split is how Kyoto applied CBDR-RC, and its most argued-over feature.</p>
+          <p>Kyoto's CBDR-RC; most argued-over feature.</p>
           <ul>
             <li>Annex I as a group: at least <b>5% below 1990 levels</b> in 2008–2012.</li>
             <li>Individual targets: <b>EU 8%</b>, <b>US 7%</b>, <b>Japan 6%</b>.</li>
           </ul>
-          <p><b>Six gases</b>: CO₂, CH₄, N₂O, HFCs, PFCs, SF₆. Each has a <b>Global Warming Potential</b> relative to CO₂ so all can be counted as CO₂-equivalent. Methane is about <b>28–36 times</b> CO₂ over 100 years.</p>
+          <p><b>Six gases</b>: CO₂, CH₄, N₂O, HFCs, PFCs, SF₆. <b>Global Warming Potential</b> relative to CO₂ gives CO₂-equivalent. Methane ≈ <b>28–36 times</b> CO₂ over 100 years.</p>
           <div class="mnemonic">Six gases: <b>C M N H P S</b> (carbon dioxide, methane, nitrous oxide, HFCs, PFCs, SF₆).</div>
         ` },
         { title: 'Weak points', html: `
           <ul>
-            <li>The <b>US signed (1998) but never ratified</b>. Its Senate had resolved in 1997 to reject any treaty that did not bind developing countries. The Bush administration withdrew in <b>2001</b>. The US was then about <b>25%</b> of global emissions.</li>
-            <li>Canada withdrew too. Japan, Russia and New Zealand stayed out of the second period.</li>
-            <li>The second period covered only about <b>12%</b> of global emissions, mainly the EU.</li>
+            <li>The <b>US signed (1998) but never ratified</b>; Senate 1997: reject treaties not binding developing countries. Bush withdrew <b>2001</b>; US ≈ <b>25%</b> of emissions.</li>
+            <li>Canada withdrew; Japan, Russia, New Zealand skipped period two.</li>
+            <li>Second period: only <b>12%</b> of emissions, mainly EU.</li>
           </ul>
-          <div class="note exam"><p>For "Explain the Kyoto Protocol": (1) background: UNFCCC 1992 had no binding targets, CBDR-RC; (2) adoption at COP3 on 11 December 1997 and entry into force on 16 February 2005 under the 55% rule; (3) Annex I vs Non-Annex I and the targets (group 5% below 1990 in 2008–2012; EU 8%, US 7%, Japan 6%); (4) the six gases and GWP; (5) the three flexible mechanisms; (6) weak points (US exit, Canada, second period only 12%) and the Doha Amendment; (7) legacy and the shift to Paris.</p></div>
         ` }
       ],
       flashcards: [
@@ -118,9 +117,9 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Mechanism</th><th>Who with whom</th><th>How it works</th></tr></thead>
             <tbody>
-              <tr><td><b>Emissions Trading</b> (cap-and-trade)</td><td>Between countries</td><td>Countries below target <b>sell surplus units</b> to those above. The traded good is the right to emit one tonne of CO₂e</td></tr>
-              <tr><td><b>Joint Implementation (JI)</b></td><td>Annex I → <b>Annex I</b></td><td>Invest in a project in another Annex I country and earn credits. Common in <b>Eastern Europe</b> (old Soviet-era industry)</td></tr>
-              <tr><td><b>Clean Development Mechanism (CDM)</b></td><td>Annex I → <b>developing</b></td><td>Invest in a clean project in a developing country and earn <b>Certified Emission Reductions</b> (carbon credits)</td></tr>
+              <tr><td><b>Emissions Trading</b> (cap-and-trade)</td><td>Between countries</td><td>Below-target countries <b>sell surplus units</b>; unit = right to emit one tonne CO₂e</td></tr>
+              <tr><td><b>Joint Implementation (JI)</b></td><td>Annex I → <b>Annex I</b></td><td>Project in another Annex I country earns credits; <b>Eastern Europe</b> (Soviet-era industry)</td></tr>
+              <tr><td><b>Clean Development Mechanism (CDM)</b></td><td>Annex I → <b>developing</b></td><td>Clean project earns <b>Certified Emission Reductions</b> (carbon credits)</td></tr>
             </tbody>
           </table>
           <div data-viz="kyoto-mechanisms"></div>
@@ -130,8 +129,8 @@ CHUNK({
         { title: 'India and the CDM', html: `
           <ul>
             <li>India had <b>no binding targets</b>: low historical emissions, development needs, CBDR-RC.</li>
-            <li>It became one of the world's <b>largest CDM hosts</b>: wind, solar, biomass, small hydro, industrial efficiency.</li>
-            <li>Gains: foreign investment in clean energy when renewables were immature; skills in GHG measurement, verification and carbon accounting.</li>
+            <li>One of the <b>largest CDM hosts</b>: wind, solar, biomass, small hydro, industrial efficiency.</li>
+            <li>Gains: foreign clean-energy investment; GHG measurement, verification, carbon accounting skills.</li>
           </ul>
           <p>Lesson: a country can benefit from a treaty <b>without binding targets</b>.</p>
         ` },
@@ -140,17 +139,16 @@ CHUNK({
             <div class="side"><h4>Achievements</h4><ul><li>First <b>legally binding</b> climate treaty</li><li>Built carbon markets</li><li>Built <b>MRV</b> (Measuring, Reporting, Verifying) systems</li></ul></div>
             <div class="side"><h4>Lessons</h4><ul><li>Two-tier system exempting major emitters was unsustainable</li><li>Offsets need safeguards against low-quality credits</li></ul></div>
           </div>
-          <p><b>Paris Agreement (2015)</b>: universal, binding all countries, through <b>Nationally Determined Contributions (NDCs)</b> that each country sets and strengthens. Kyoto planted the seeds; Paris grew from them.</p>
+          <p><b>Paris Agreement (2015)</b>: universal, all countries, via <b>Nationally Determined Contributions (NDCs)</b> set and strengthened by each.</p>
         ` },
         { title: 'For engineers', html: `
           <ul>
-            <li>Carbon trading gave emissions a <b>price</b>; plant cost now includes every tonne of CO₂.</li>
-            <li>Engineers design MRV monitoring systems.</li>
-            <li>CDM sped up wind and solar in developing countries and cut costs.</li>
-            <li><b>Life Cycle Assessment (LCA)</b>: total carbon footprint from raw material to disposal; became standard.</li>
+            <li>Emissions got a <b>price</b> per tonne CO₂.</li>
+            <li>Engineers design MRV systems.</li>
+            <li>CDM sped up, cheapened wind/solar in developing countries.</li>
+            <li><b>Life Cycle Assessment (LCA)</b>: footprint raw material to disposal; standard.</li>
             <li>Building energy efficiency standards tightened.</li>
           </ul>
-          <div class="note exam"><p>For "Explain the flexible mechanisms of the Kyoto Protocol": define each of the three (Emissions Trading, JI, CDM), say who deals with whom and what is earned (surplus units, credits, CERs), and give an example (Eastern Europe for JI; wind, solar, landfill methane, cookstoves for CDM). Then add India as a major CDM host and what it gained, and finish with the legacy (MRV, carbon markets, the lesson that led to Paris).</p></div>
         ` }
       ],
       flashcards: [

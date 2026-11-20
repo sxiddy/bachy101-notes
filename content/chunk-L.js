@@ -10,8 +10,8 @@ CHUNK({
       source: 'Lecture W4 (EPA and Air Act), pages 1–5',
       tabs: [
         { title: 'What laws do', html: `
-          <p class="lead"><b>Environmental laws</b> are legal instruments that regulate human activities affecting the environment. International agreements (<b>Kyoto, Paris</b>) give a global frame, but they work only if each country makes and enforces its own laws.</p>
-          <p>They provide a framework for: preventing degradation of air and water; controlling pollution; conserving resources; protecting biodiversity; safeguarding public health; promoting sustainable development; stopping illegal dumping; controlling deforestation; ensuring safe industrial practice.</p>
+          <p class="lead"><b>Environmental laws</b> regulate human activities affecting the environment. Global agreements (<b>Kyoto, Paris</b>) work only through national laws.</p>
+          <p>Framework for: air/water degradation, pollution control, resources, biodiversity, public health, sustainable development, illegal dumping, deforestation, safe industry.</p>
           <div class="steps">
             <div><b>Define</b> what is legally acceptable.</div>
             <div><b>Create authorities</b> with power to enforce limits.</div>
@@ -23,7 +23,7 @@ CHUNK({
           <ul>
             <li>India's challenges: air and water pollution, deforestation, waste, climate change; heat waves, floods, droughts, cyclones.</li>
             <li><b>1972 Stockholm Conference</b> on the Human Environment: first major global summit; nations pledged domestic action.</li>
-            <li><b>Bhopal, 2–3 December 1984</b>: <b>methyl isocyanate (MIC)</b> leaked from the <b>Union Carbide</b> pesticide plant; thousands died within hours, hundreds of thousands injured (blindness, lung damage). The world's worst industrial disaster. It showed India had <b>no single comprehensive law</b>.</li>
+            <li><b>Bhopal, 2–3 December 1984</b>: <b>methyl isocyanate (MIC)</b> leak, <b>Union Carbide</b> pesticide plant; thousands dead, hundreds of thousands injured (blindness, lung damage). World's worst industrial disaster; showed <b>no single comprehensive law</b>.</li>
             <li>The <b>EPA</b> was enacted on <b>19 November 1986</b>, fourteen years after Stockholm.</li>
           </ul>
         ` },
@@ -38,7 +38,7 @@ CHUNK({
               <tr><td>Biological Diversity Act</td><td>2002</td></tr>
             </tbody>
           </table>
-          <p><b>Why engineers</b>: they design industrial systems, build infrastructure, develop energy systems, run manufacturing and handle chemicals. Environmental literacy lets them ensure compliance, cut risks, improve efficiency, build sustainable technology and protect health.</p>
+          <p><b>Why engineers</b>: design industry, infrastructure, energy, manufacturing, chemicals; need compliance, lower risk, efficiency, sustainable tech, health.</p>
         ` }
       ],
       flashcards: [
@@ -64,25 +64,25 @@ CHUNK({
       source: 'Lecture W4 (EPA and Air Act), pages 5–9',
       tabs: [
         { title: 'Overview', html: `
-          <p class="lead">The EPA is the <b>umbrella legislation</b> for environmental protection in India. Objective: <b>protect and improve</b> the quality of air, water and land and <b>prevent, control and abate</b> pollution. It empowers the <b>Central Government</b> to take any necessary measure.</p>
+          <p class="lead"><b>Umbrella legislation</b>. Objective: <b>protect and improve</b> air, water, land; <b>prevent, control and abate</b> pollution. Empowers the <b>Central Government</b>.</p>
           <p><b>Environment</b> under the Act = <b>air, water, land</b> and their interaction with <b>human beings, animals, plants, microorganisms and property</b>.</p>
         ` },
         { title: 'Key sections', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Section 3</b></td><td>Sweeping central powers: national programmes, standards, restricting industry in sensitive zones, research. The "master power switch"</td></tr>
-              <tr><td><b>Section 6</b></td><td>Prescribe numerical standards for environmental quality and emissions</td></tr>
-              <tr><td><b>Section 7</b></td><td>Core obligation: <b>no one may discharge pollutants beyond standards</b></td></tr>
-              <tr><td><b>Section 8</b></td><td>Handling, storage and transport of <b>hazardous substances</b>: the direct response to Bhopal</td></tr>
-              <tr><td><b>Section 10</b></td><td>Officers may <b>enter premises</b>, examine records, take samples</td></tr>
+              <tr><td><b>Section 3</b></td><td>Central powers: programmes, standards, restrict industry in sensitive zones, research ("master power switch")</td></tr>
+              <tr><td><b>Section 6</b></td><td>Numerical quality and emission standards</td></tr>
+              <tr><td><b>Section 7</b></td><td><b>No discharge beyond standards</b></td></tr>
+              <tr><td><b>Section 8</b></td><td><b>Hazardous substances</b> handling (response to Bhopal)</td></tr>
+              <tr><td><b>Section 10</b></td><td><b>Entry</b>, records, samples</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Powers and standards', html: `
           <ul>
-            <li>Central powers: set standards, regulate industry, restrict hazardous substances, inspect, issue directives, <b>order closure</b>, take samples of air, water, soil; set up or recognise <b>environmental laboratories</b> by Gazette notification.</li>
-            <li>Standards cover emissions, effluent, waste disposal, noise; e.g. limits on SO₂, NOₓ, PM, toxic chemicals.</li>
-            <li>Hazardous substances (industrial chemicals, toxic gases, hazardous waste) are regulated across production, storage, transport, handling, disposal.</li>
+            <li>Central powers: standards, regulate industry, restrict hazardous substances, inspect, directives, <b>order closure</b>, sample air/water/soil; <b>environmental laboratories</b> by Gazette notification.</li>
+            <li>Standards: emissions, effluent, waste, noise (SO₂, NOₓ, PM, toxics).</li>
+            <li>Hazardous substances (chemicals, toxic gases, waste): production to disposal.</li>
           </ul>
           <div class="note exam"><b>Penalties</b>: up to <b>5 years</b> prison and a fine of <b>₹1 lakh</b>; if it continues more than a year after first conviction, up to <b>7 years</b>. Company directors can be personally liable.</div>
         ` }
@@ -133,7 +133,6 @@ CHUNK({
             <div><b>Post monitoring</b>: after commissioning, check impacts stay within limits and mitigation is done.</div>
           </div>
           <div class="note heads-up">The EIA lecture lists <b>eight</b> steps (with EMP); this lecture's Indian process lists <b>nine</b> (adds reporting, splits review and decision, no separate EMP). Learn the list that matches the question.</div>
-          <div class="note exam"><p>For "EIA under Indian law": start with the EPA as the parent Act and the EIA Notification 2006 (MoEFCC) with its 2016, 2020 and 2021 amendments. Explain Category A (IAA and EAC, national) vs Category B (SEIAA and SEAC, state). Then write the nine stages in order with one line each, and end with the list of projects that need EIA.</p></div>
         ` }
       ],
       flashcards: [
@@ -157,38 +156,38 @@ CHUNK({
       source: 'Lecture W4 (EPA and Air Act), pages 9–13',
       tabs: [
         { title: 'Background and aims', html: `
-          <p class="lead">Industrial growth in the 1960s–70s worsened air with no legal check. The <b>Air Act, 1981</b> was India's air-specific response to the <b>Stockholm 1972</b> pledge.</p>
+          <p class="lead">1960s–70s industrial growth, no legal check. <b>Air Act, 1981</b>: response to <b>Stockholm 1972</b>.</p>
           <ul>
-            <li>Aims: <b>prevent, control and abate</b> air pollution, improve air quality, protect public health.</li>
-            <li><b>Preventive</b> model: industries need permission <b>before</b> they start polluting.</li>
-            <li><b>1987 amendment</b>: <b>noise</b> added as an air pollutant (blood pressure, hearing loss, sleep, stress).</li>
-            <li><b>Section 2(a)</b>: an air pollutant is any <b>solid, liquid or gaseous</b> substance in the atmosphere in a concentration that may be injurious to humans, other living creatures, plants, property or environment.</li>
+            <li>Aims: <b>prevent, control and abate</b> air pollution; public health.</li>
+            <li><b>Preventive</b>: permission <b>before</b> polluting.</li>
+            <li><b>1987 amendment</b>: <b>noise</b> added (blood pressure, hearing, sleep, stress).</li>
+            <li><b>Section 2(a)</b>: air pollutant = any <b>solid, liquid or gaseous</b> substance at a concentration injurious to humans, creatures, plants, property, environment.</li>
           </ul>
         ` },
         { title: 'Boards', html: `
           <div class="vs">
             <div class="side"><h4>CPCB (national, apex)</h4><ul>
-              <li><b>Advises</b> the Central Government on air pollution matters.</li>
-              <li><b>Sets national standards</b> for air quality and emissions, so every state works to the same limits.</li>
-              <li><b>Coordinates</b> the activities of the State Boards.</li>
-              <li><b>Conducts research</b> and gives technical assistance.</li>
+              <li><b>Advises</b> Central Government.</li>
+              <li><b>Sets national standards</b> (air quality, emissions).</li>
+              <li><b>Coordinates</b> State Boards.</li>
+              <li><b>Research</b>, technical assistance.</li>
             </ul></div>
             <div class="side"><h4>SPCBs (state)</h4><ul>
-              <li>Grant or refuse <b>consent</b> (approval) to industries before they operate.</li>
-              <li><b>Monitor</b> pollution within the state.</li>
-              <li><b>Inspect</b> factories and take air samples.</li>
-              <li>Take <b>enforcement action</b> and prosecute violators.</li>
+              <li>Grant/refuse <b>consent</b> before operation.</li>
+              <li><b>Monitor</b> pollution.</li>
+              <li><b>Inspect</b>, take air samples.</li>
+              <li><b>Enforcement</b>, prosecution.</li>
             </ul></div>
           </div>
-          <p>The CPCB is the apex pollution-control authority; the SPCBs implement the law in their own territories. This <b>two-tier</b>, decentralised structure exists because pollution sources and environmental conditions vary enormously across India's states.</p>
+          <p><b>Two-tier</b>, decentralised: conditions vary across states.</p>
         ` },
         { title: 'Key sections', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Section 19</b></td><td>State Government (with SPCB) declares <b>Air Pollution Control Areas</b>: mandatory standards, approval, more monitoring, fuel restrictions</td></tr>
-              <tr><td><b>Section 21</b></td><td><b>Consent mechanism</b>: no emissions in a control area without prior State Board approval</td></tr>
-              <tr><td><b>Section 24</b></td><td>Officers enter and <b>take samples</b> from chimneys and outlets</td></tr>
-              <tr><td><b>Section 31A</b></td><td><b>Emergency power</b>: Board can order closure without a long court process</td></tr>
+              <tr><td><b>Section 19</b></td><td>State Govt (with SPCB) declares <b>Air Pollution Control Areas</b>: standards, approval, monitoring, fuel limits</td></tr>
+              <tr><td><b>Section 21</b></td><td><b>Consent</b>: no emissions without prior State Board approval</td></tr>
+              <tr><td><b>Section 24</b></td><td>Entry; <b>samples</b> from chimneys, outlets</td></tr>
+              <tr><td><b>Section 31A</b></td><td><b>Emergency</b> closure without court process</td></tr>
             </tbody>
           </table>
           <div class="note exam"><b>Penalty</b>: up to <b>3 months</b> prison and <b>₹10,000</b> fine, plus daily fines for continuing violation; officers personally liable.</div>
@@ -198,14 +197,14 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Aspect</th><th>EPA 1986</th><th>Air Act 1981</th></tr></thead>
             <tbody>
-              <tr><td>Scope</td><td>Broad environmental protection</td><td>Air pollution control only</td></tr>
-              <tr><td>Coverage</td><td>Covers air, water and land</td><td>Covers air and its pollutants only</td></tr>
-              <tr><td>Nature</td><td><b>Umbrella</b> legislation: one comprehensive framework for the whole environment</td><td><b>Sector-specific</b> law for one medium</td></tr>
-              <tr><td>Focus</td><td>Overall environmental management</td><td>Air quality management and pollution control</td></tr>
-              <tr><td>Regulatory powers</td><td>Broad powers given to the <b>Central Government</b></td><td>Vested in both the <b>CPCB and SPCBs</b></td></tr>
+              <tr><td>Scope</td><td>Broad protection</td><td>Air only</td></tr>
+              <tr><td>Coverage</td><td>Air, water, land</td><td>Air pollutants</td></tr>
+              <tr><td>Nature</td><td><b>Umbrella</b></td><td><b>Sector-specific</b></td></tr>
+              <tr><td>Focus</td><td>Overall management</td><td>Air quality</td></tr>
+              <tr><td>Regulatory powers</td><td><b>Central Government</b></td><td><b>CPCB and SPCBs</b></td></tr>
             </tbody>
           </table>
-          <p>Engineers: cleaner technology, lower emissions, efficiency, audits, control systems, renewables (solar, green buildings, EVs, waste-to-energy).</p>
+          <p>Engineers: cleaner tech, audits, control systems, renewables (solar, green buildings, EVs, waste-to-energy).</p>
         ` }
       ],
       flashcards: [

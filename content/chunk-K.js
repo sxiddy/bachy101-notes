@@ -43,7 +43,6 @@ CHUNK({
             </tbody>
           </table>
           <div class="mnemonic">P-T-A-C-S-I: Participation, Transparency, Accountability, Credibility, Sustainability, Integration.</div>
-          <div class="note exam"><p>For "Explain EIA and its principles": (1) the full definition, including that it happens before the project and covers social, cultural and health factors; (2) why it matters (protection, public health, sustainable development, informed decisions); (3) the six objectives; (4) the six principles, one line each. Name the eight process steps at the end if marks allow.</p></div>
         ` }
       ],
       flashcards: [
@@ -99,7 +98,6 @@ CHUNK({
               <tr><td><b>Monitoring</b></td><td>Measurable indicators, regular reports, <b>adaptive management</b> (adjust mitigation from results)</td></tr>
             </tbody>
           </table>
-          <div class="note exam"><p>For "Describe the EIA process": write the eight steps in order as headings. Under each give its purpose, how it is done and its outcome (e.g. screening ends in "EIA required or not", scoping ends in the ToR, review ends in approve, modify or reject). Add the four types of impact and the mitigation hierarchy with one example each. A flowchart of the eight boxes earns easy marks.</p></div>
         ` }
       ],
       flashcards: [
@@ -146,21 +144,20 @@ CHUNK({
         ` },
         { title: 'Network and models', html: `
           <div class="vs">
-            <div class="side"><h4>Network analysis</h4><p>Maps the <b>cause-effect chain</b>: primary, secondary, tertiary impacts. Road → deforestation → erosion → river sedimentation → aquatic life hit. Good for <b>indirect and cumulative</b> impacts and can reveal links that checklists and matrices miss, so it suits scenario analysis. But it needs expertise and time, is not suitable for quick assessments, and can become highly complex and data-intensive.</p></div>
-            <div class="side"><h4>Modelling</h4><p><b>Quantitative</b> computer simulations. Air models predict pollutant dispersion (Gaussian plume, <b>AERMOD</b>); water models simulate contamination of surface or groundwater (<b>QUAL2K, SWAT</b>); noise models estimate noise levels around the site; ecological models predict habitat loss and species distribution; <b>risk models</b> estimate the probability and consequences of environmental hazards. Good for "what if" scenario planning backed by scientific evidence; needs accurate baseline data and expertise, is sensitive to assumptions and input errors, and is costly and slow.</p></div>
+            <div class="side"><h4>Network analysis</h4><p>Maps the <b>cause-effect chain</b>: primary, secondary, tertiary impacts. Road → deforestation → erosion → river sedimentation → aquatic life hit. Pros: <b>indirect and cumulative</b> impacts, links checklists/matrices miss, scenario analysis. Cons: expertise, time, not for quick assessments, complex, data-intensive.</p></div>
+            <div class="side"><h4>Modelling</h4><p><b>Quantitative</b> computer simulations. Air: pollutant dispersion (Gaussian plume, <b>AERMOD</b>); water: surface/groundwater contamination (<b>QUAL2K, SWAT</b>); noise levels; ecological: habitat loss, species distribution; <b>risk models</b>: probability and consequences of hazards. Pros: "what if" scenarios, scientific evidence. Cons: needs baseline data, expertise; sensitive to assumptions; costly, slow.</p></div>
           </div>
         ` },
         { title: 'Comparison', html: `
           <table class="tbl">
             <thead><tr><th>Method</th><th>Nature</th><th>Strength</th><th>Limit</th></tr></thead>
             <tbody>
-              <tr><td>Checklist</td><td>Qualitative: says whether a factor is hit (YES/NO, LOW/HIGH)</td><td>Simple and gives broad coverage with little expertise</td><td>No cause-effect shown, because each factor is ticked on its own</td></tr>
-              <tr><td>Matrix</td><td>Semi-quantitative: each cell scores magnitude and importance</td><td>Shows action-factor interactions with visual clarity</td><td>Cumbersome with many parameters and poor for cumulative effects</td></tr>
-              <tr><td>Network</td><td>Qualitative/descriptive: a flowchart of linked impacts</td><td>Identifies indirect and cumulative impacts down the chain</td><td>Complex and needs expert knowledge and time</td></tr>
-              <tr><td>Modelling</td><td>Quantitative: mathematical or computer simulation</td><td>Accurate predictions and "what if" scenario testing</td><td>Data-heavy and sensitive to assumptions and input errors</td></tr>
+              <tr><td>Checklist</td><td>Qualitative (YES/NO, LOW/HIGH)</td><td>Simple, broad coverage</td><td>No cause-effect</td></tr>
+              <tr><td>Matrix</td><td>Semi-quantitative (magnitude, importance)</td><td>Action-factor interactions, visual</td><td>Cumbersome; poor for cumulative</td></tr>
+              <tr><td>Network</td><td>Qualitative flowchart of linked impacts</td><td>Indirect and cumulative impacts</td><td>Complex; needs experts, time</td></tr>
+              <tr><td>Modelling</td><td>Quantitative simulation</td><td>Accurate; "what if" testing</td><td>Data-heavy; sensitive to assumptions</td></tr>
             </tbody>
           </table>
-          <div class="note exam"><p>For "Explain EIA methodologies": name the four methods, then for each give the definition, how it works (checklist types; Leopold matrix rows, columns and cell scores; the road example for network; the five model types), its advantages and its limitations. Finish with this comparison table.</p></div>
         ` }
       ],
       flashcards: [
@@ -205,22 +202,21 @@ CHUNK({
         { title: 'Benefits and challenges', html: `
           <div class="vs">
             <div class="side"><h4>Benefits</h4><ul>
-              <li><b>Improved project design</b> and environmental performance, because problems are found while the plan can still change.</li>
-              <li><b>Reduced impacts and risks</b>, since mitigation is built into the design.</li>
-              <li><b>Stakeholder engagement</b> and public acceptance, because people are heard before approval.</li>
-              <li><b>Transparency and accountability</b>: the report and decision are open to scrutiny.</li>
-              <li><b>Sustainable development</b>: growth is balanced with protection.</li>
-              <li><b>Cost savings</b> from early identification of problems, which is cheaper than fixing damage later.</li>
+              <li><b>Improved project design</b> and performance.</li>
+              <li><b>Reduced impacts and risks</b>.</li>
+              <li><b>Stakeholder engagement</b>, public acceptance.</li>
+              <li><b>Transparency and accountability</b>.</li>
+              <li><b>Sustainable development</b>.</li>
+              <li><b>Cost savings</b> from early problem identification.</li>
             </ul></div>
             <div class="side"><h4>Challenges</h4><ul>
-              <li><b>Lack of capacity</b>: many developing countries lack the technical and financial capacity for thorough EIAs.</li>
-              <li><b>Limited public participation</b>, so projects may not address community concerns.</li>
-              <li><b>Weak enforcement</b> of EIA rules, which undermines the whole process.</li>
-              <li><b>Cumulative impacts</b>: EIA looks at one project at a time and misses the combined effect of many projects in the same area.</li>
+              <li><b>Lack of capacity</b> (technical, financial) in developing countries.</li>
+              <li><b>Limited public participation</b>.</li>
+              <li><b>Weak enforcement</b>.</li>
+              <li><b>Cumulative impacts</b> missed (one project at a time).</li>
             </ul></div>
           </div>
-          <p><b>Future</b>: trends are more <b>Strategic Environmental Assessment (SEA)</b>, cumulative impact assessment and climate change considerations; innovation through GIS and remote sensing; and integration of EIA with other sustainability assessment tools.</p>
-          <div class="note exam"><p>For "Uses of EIA in different sectors" or "Benefits and challenges of EIA": go sector by sector (infrastructure, energy, mining, agriculture, tourism, forestry), giving the key impacts and one or two mitigation measures for each. Then list the six benefits and the four challenges with their reason, and close with the future trends (SEA, GIS, integration).</p></div>
+          <p><b>Future</b>: <b>Strategic Environmental Assessment (SEA)</b>, cumulative impact assessment, climate change; GIS and remote sensing; integration with other sustainability tools.</p>
         ` }
       ],
       flashcards: [

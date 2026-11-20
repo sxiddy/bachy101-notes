@@ -110,108 +110,106 @@ CHUNK({
       source: 'Lecture W1S1, pages 5–11',
       tabs: [
         { title: 'Climate change', html: `
-          <p class="lead">Each issue is taught as <b>cause → effects → example</b>. Write it in that order in the exam, and always finish with the example.</p>
+          <p class="lead">Each issue: <b>cause → effects → example</b>.</p>
           <h3>1. Climate change</h3>
-          <p><b>Cause.</b> Emission of <b>greenhouse gases</b> (CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O) from <b>fossil fuel burning, deforestation and industrial processes</b>. These gases trap heat in the atmosphere, so more of them means a warmer planet.</p>
+          <p><b>Cause.</b> <b>Greenhouse gases</b> (CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O) from <b>fossil fuel burning, deforestation, industrial processes</b>; they trap heat.</p>
           <p><b>Effects.</b></p>
           <ul>
-            <li><b>Increasing global temperatures</b>, which is what we call global warming.</li>
-            <li><b>Melting ice caps and rising sea levels</b>, because the extra heat melts ice and the melt water adds to the oceans.</li>
-            <li><b>Severe weather occurrences</b> such as droughts, floods and hurricanes become more common.</li>
-            <li><b>Influence on biodiversity and farming</b>, since species and crops are adapted to a certain climate and suffer when it shifts.</li>
+            <li><b>Increasing global temperatures</b> (global warming).</li>
+            <li><b>Melting ice caps, rising sea levels</b>.</li>
+            <li><b>Severe weather</b>: droughts, floods, hurricanes.</li>
+            <li><b>Influence on biodiversity and farming</b>.</li>
           </ul>
-          <div class="note example"><p>IPCC reports suggest that the average global temperature has risen by approximately <b>1.1 °C</b> since pre-industrial times.</p></div>
+          <div class="note example"><p>IPCC: average global temperature up approximately <b>1.1 °C</b> since pre-industrial times.</p></div>
         ` },
         { title: 'Deforestation', html: `
           <h3>2. Deforestation</h3>
-          <p><b>Cause.</b> Forests are cleared for <b>logging, agriculture, urban expansion and mining</b>.</p>
+          <p><b>Cause.</b> <b>Logging, agriculture, urban expansion, mining</b>.</p>
           <p><b>Effects.</b></p>
           <ul>
-            <li><b>Loss of biodiversity and habitats</b>: animals and plants that live in the forest lose their home.</li>
-            <li><b>Disruption of the water cycle</b>: trees return water to the air, so fewer trees means less moisture and changed rainfall.</li>
-            <li><b>Increased CO<sub>2</sub> levels</b> due to the <b>loss of carbon sinks</b>: forests absorb CO<sub>2</sub>, and cutting or burning them releases the stored carbon.</li>
-            <li><b>Soil erosion and desertification</b>: without roots holding it, the soil washes or blows away and land can turn to desert.</li>
+            <li><b>Loss of biodiversity and habitats</b>.</li>
+            <li><b>Disruption of the water cycle</b>: less moisture, changed rainfall.</li>
+            <li><b>Increased CO<sub>2</sub></b> from <b>loss of carbon sinks</b>.</li>
+            <li><b>Soil erosion and desertification</b>.</li>
           </ul>
           <div class="note example"><p><b>Amazon rainforest</b> deforestation contributes significantly to global carbon emissions.</p></div>
         ` },
         { title: 'Waste, air and water', html: `
           <h3>3. Waste management</h3>
-          <p><b>Types of waste:</b> municipal solid waste, plastic waste, organic waste, and landfill overflow.</p>
+          <p><b>Types:</b> municipal solid, plastic, organic waste, landfill overflow.</p>
           <p><b>Issues.</b></p>
           <ul>
-            <li><b>Landfills overflowing</b>, because waste is produced faster than it is dealt with.</li>
-            <li><b>Methane</b> released from decomposing organic materials, a greenhouse gas that adds to climate change.</li>
-            <li><b>Inadequate segregation and recycling</b>, so mixed waste ends up dumped instead of reused.</li>
+            <li><b>Landfills overflowing</b>.</li>
+            <li><b>Methane</b> from decomposing organic matter (greenhouse gas).</li>
+            <li><b>Inadequate segregation and recycling</b>.</li>
           </ul>
-          <p><b>Remedies.</b> Follow the <b>Reduce-Reuse-Recycle (3Rs)</b> to cut the amount of waste, and use <b>composting and waste-to-energy</b> methods to turn organic waste into manure or energy.</p>
-          <div class="note example"><p>According to the <b>CPCB (2021)</b>, India produces over <b>150,000 tonnes</b> of municipal solid waste each day.</p></div>
+          <p><b>Remedies.</b> <b>Reduce-Reuse-Recycle (3Rs)</b>; <b>composting and waste-to-energy</b>.</p>
+          <div class="note example"><p><b>CPCB (2021)</b>: India produces over <b>150,000 tonnes</b> of municipal solid waste per day.</p></div>
           <h3>4. Industrial and vehicular pollution</h3>
-          <p><b>Causes.</b> Industries release <b>emissions, effluents and particulate matter (PM2.5, PM10)</b>. Vehicles release <b>CO, NOx and hydrocarbons</b> from their combustion engines.</p>
-          <p><b>Effects.</b> These pollutants cause <b>respiratory diseases, smog formation and acid rain</b>, and they contaminate <b>air, water and soil</b>.</p>
-          <div class="note example"><p><b>Delhi</b> often ranks among the world's most polluted cities due to vehicular emissions and industrial activity.</p></div>
+          <p><b>Causes.</b> Industries: <b>emissions, effluents, particulate matter (PM2.5, PM10)</b>. Vehicles: <b>CO, NOx, hydrocarbons</b>.</p>
+          <p><b>Effects.</b> <b>Respiratory diseases, smog, acid rain</b>; contaminate <b>air, water, soil</b>.</p>
+          <div class="note example"><p><b>Delhi</b> often among the world's most polluted cities (vehicles, industry).</p></div>
           <h3>5. Water pollution</h3>
           <p><b>Causes.</b></p>
           <ul>
-            <li><b>Agricultural runoff</b> containing pesticides and fertilizers (<b>nitrates, phosphates</b>), washed from fields into rivers and lakes.</li>
-            <li><b>Dumping of industrial effluents and sewage</b> straight into water bodies.</li>
+            <li><b>Agricultural runoff</b>: pesticides, fertilizers (<b>nitrates, phosphates</b>).</li>
+            <li><b>Industrial effluents and sewage</b> dumped in water.</li>
           </ul>
           <p><b>Effects.</b></p>
           <ul>
-            <li><b>Eutrophication</b> of water bodies: the extra nitrates and phosphates feed heavy algal growth.</li>
-            <li><b>Contamination of drinking water</b> sources.</li>
-            <li><b>Health impacts</b>: cancer, reproductive issues and endocrine disruption.</li>
+            <li><b>Eutrophication</b> (algal growth).</li>
+            <li><b>Contaminated drinking water</b>.</li>
+            <li><b>Health</b>: cancer, reproductive issues, endocrine disruption.</li>
           </ul>
-          <div class="note example"><p>Pollution of <b>Punjab's groundwater</b> with pesticide residues like <b>Endosulfan and DDT</b>.</p></div>
+          <div class="note example"><p><b>Punjab's groundwater</b>: pesticide residues like <b>Endosulfan and DDT</b>.</p></div>
         ` },
         { title: 'Hazardous, crackers, e-waste', html: `
           <h3>6. Hazardous waste</h3>
-          <p><b>a. Tannery sludge dumping.</b> The cause is improper disposal of <b>chromium</b>-laden sludge from leather tanneries. Its effects are soil and groundwater contamination with <b>heavy metals</b>, and toxic effects on agriculture and human health.</p>
-          <div class="note example"><p><b>Ranipet (Tamil Nadu)</b>: severe chromium pollution in groundwater from old tannery waste dumps.</p></div>
-          <p><b>b. Biomedical waste.</b> It comes from <b>hospitals, clinics and laboratories</b>. Its hazards are <b>infections (HIV, hepatitis)</b> and toxic chemicals and radioactive material. It is managed by <b>segregation, incineration and autoclaving</b>.</p>
-          <div class="note example"><p><b>COVID-19</b> led to a surge in biomedical waste, straining disposal systems.</p></div>
+          <p><b>a. Tannery sludge dumping.</b> Improper disposal of <b>chromium</b>-laden sludge from leather tanneries → soil and groundwater contaminated with <b>heavy metals</b>; harms agriculture and health.</p>
+          <div class="note example"><p><b>Ranipet (Tamil Nadu)</b>: severe chromium pollution in groundwater from old tannery dumps.</p></div>
+          <p><b>b. Biomedical waste.</b> From <b>hospitals, clinics, laboratories</b>. Hazards: <b>infections (HIV, hepatitis)</b>, toxic chemicals, radioactive material. Managed by <b>segregation, incineration, autoclaving</b>.</p>
+          <div class="note example"><p><b>COVID-19</b>: surge in biomedical waste, straining disposal.</p></div>
           <h3>7. Cracking down on crackers</h3>
-          <p><b>Issue.</b> Firecrackers emit heavy smoke, particulate matter and toxic gases (<b>SO<sub>2</sub>, NO, Pb</b>).</p>
+          <p><b>Issue.</b> Smoke, particulate matter, toxic gases (<b>SO<sub>2</sub>, NO, Pb</b>).</p>
           <ul>
-            <li><b>Air pollution spikes</b> during festivals such as Diwali.</li>
-            <li><b>Respiratory distress</b> in vulnerable populations.</li>
-            <li><b>Noise pollution</b> that affects animals and the elderly.</li>
+            <li><b>Air pollution spikes</b> during festivals (Diwali).</li>
+            <li><b>Respiratory distress</b> in vulnerable people.</li>
+            <li><b>Noise pollution</b>: animals, elderly.</li>
           </ul>
-          <p><b>Response.</b> The <b>Supreme Court</b> bans or limits crackers, and <b>green crackers</b> are promoted.</p>
-          <div class="note example"><p>AQI levels in Delhi reach <b>"Severe"</b> after Diwali night every year.</p></div>
+          <p><b>Response.</b> <b>Supreme Court</b> bans/limits; <b>green crackers</b> promoted.</p>
+          <div class="note example"><p>Delhi AQI reaches <b>"Severe"</b> after Diwali every year.</p></div>
           <h3>8. E-waste</h3>
-          <p><b>Sources.</b> Discarded electronic devices such as mobiles, computers and TVs.</p>
+          <p><b>Sources.</b> Discarded mobiles, computers, TVs.</p>
           <ul>
-            <li><b>Toxic metals</b> (lead, mercury, cadmium) leach into soil and water when the devices are dumped.</li>
-            <li><b>Informal recycling</b> causes health hazards to workers, who handle these metals without protection.</li>
+            <li><b>Toxic metals</b> (lead, mercury, cadmium) leach into soil and water.</li>
+            <li><b>Informal recycling</b>: health hazards to workers.</li>
           </ul>
-          <p><b>Solutions.</b> <b>Formal recycling centres</b> and <b>extended producer responsibility (EPR)</b>, which makes the producer responsible for its products once they are thrown away.</p>
-          <div class="note example"><p>India is the <b>third-largest</b> generator of e-waste, producing over <b>1 million tonnes/year</b> (CPCB, 2020).</p></div>
+          <p><b>Solutions.</b> <b>Formal recycling centres</b>, <b>extended producer responsibility (EPR)</b>: producer responsible for discarded products.</p>
+          <div class="note example"><p>India: <b>third-largest</b> e-waste generator, over <b>1 million tonnes/year</b> (CPCB, 2020).</p></div>
         ` },
         { title: 'Global scenario', html: `
-          <p class="lead">The international picture is five problems, each with one number to remember.</p>
           <table class="tbl"><thead><tr><th>Problem</th><th>Key fact</th></tr></thead><tbody>
-            <tr><td>Climate change</td><td>From fossil fuel GHGs; glacier melt, sea-level rise, extreme weather. Global action: <b>UNFCCC</b> and the <b>Paris Agreement (2015)</b> to limit warming <b>below 2 °C</b>; IPCC reports call for urgent action.</td></tr>
-            <tr><td>Biodiversity loss</td><td><b>1 million species</b> at risk of extinction (deforestation, pollution, overfishing, habitat destruction)</td></tr>
-            <tr><td>Plastic and marine pollution</td><td>Over <b>8 million tons</b> of plastic enter oceans each year; microplastics found in marine life and <b>human blood</b></td></tr>
-            <tr><td>Air pollution</td><td><b>99%</b> of the global population breathes unsafe air; smog in Beijing and Cairo</td></tr>
-            <tr><td>E-waste and resource depletion</td><td><b>53 million metric tons</b> of e-waste in 2020; mineral demand drives overextraction and geopolitical tension</td></tr>
+            <tr><td>Climate change</td><td>Fossil fuel GHGs; glacier melt, sea-level rise, extreme weather. <b>UNFCCC</b>, <b>Paris Agreement (2015)</b>: limit warming <b>below 2 °C</b>; IPCC urges action.</td></tr>
+            <tr><td>Biodiversity loss</td><td><b>1 million species</b> at risk (deforestation, pollution, overfishing, habitat destruction)</td></tr>
+            <tr><td>Plastic and marine pollution</td><td>Over <b>8 million tons</b> plastic into oceans/year; microplastics in marine life and <b>human blood</b></td></tr>
+            <tr><td>Air pollution</td><td><b>99%</b> of people breathe unsafe air; smog in Beijing, Cairo</td></tr>
+            <tr><td>E-waste and resource depletion</td><td><b>53 million metric tons</b> e-waste in 2020; mineral overextraction, geopolitical tension</td></tr>
           </tbody></table>
         ` },
         { title: 'India and biodiversity loss', html: `
-          <p class="lead">India's problems come from <b>population density, industrial growth and urban expansion</b>.</p>
+          <p class="lead">Causes: <b>population density, industrial growth, urban expansion</b>.</p>
           <table class="tbl"><thead><tr><th>Problem</th><th>India's numbers</th></tr></thead><tbody>
-            <tr><td>Air pollution</td><td><b>14 of the world's 20</b> most polluted cities; Delhi often severe (vehicles, <b>crop burning</b>, industry)</td></tr>
-            <tr><td>Water pollution</td><td><b>70%</b> of surface water polluted, especially <b>Ganga and Yamuna</b>; pesticides in groundwater</td></tr>
-            <tr><td>Deforestation and biodiversity</td><td>Forests lost to mining, farming, infrastructure; <b>10%</b> of flora and fauna at risk</td></tr>
-            <tr><td>Waste management</td><td>Over <b>160,000 tonnes</b> of solid waste daily, about <b>60%</b> collected, under <b>30%</b> processed; e-waste over 1 million tonnes a year</td></tr>
-            <tr><td>Climate vulnerability</td><td>Ranks <b>7th</b> in climate risk: floods, droughts, cyclones hitting agriculture</td></tr>
-            <tr><td>Hazardous waste</td><td>Improper disposal of medical and industrial waste, e.g. chromium in <b>Ranipet</b></td></tr>
+            <tr><td>Air pollution</td><td><b>14 of the world's 20</b> most polluted cities; Delhi (vehicles, <b>crop burning</b>, industry)</td></tr>
+            <tr><td>Water pollution</td><td><b>70%</b> of surface water polluted, esp. <b>Ganga and Yamuna</b>; pesticides in groundwater</td></tr>
+            <tr><td>Deforestation and biodiversity</td><td>Mining, farming, infrastructure; <b>10%</b> of flora and fauna at risk</td></tr>
+            <tr><td>Waste management</td><td>Over <b>160,000 tonnes</b>/day, ~<b>60%</b> collected, under <b>30%</b> processed; e-waste over 1 million t/year</td></tr>
+            <tr><td>Climate vulnerability</td><td><b>7th</b> in climate risk: floods, droughts, cyclones</td></tr>
+            <tr><td>Hazardous waste</td><td>Medical, industrial waste, e.g. chromium in <b>Ranipet</b></td></tr>
           </tbody></table>
-          <div class="note heads-up"><p>The notes give India's daily solid waste as over 150,000 tonnes (CPCB 2021, waste management issue) and over 160,000 tonnes (India scenario). Quote each figure in its own context.</p></div>
+          <div class="note heads-up"><p>Daily solid waste: over 150,000 t (CPCB 2021, waste issue) vs over 160,000 t (India scenario). Quote each in context.</p></div>
           <h3>Loss of biodiversity</h3>
-          <p>The decline or disappearance of plant, animal and microorganism species from Earth. Main causes: <b>habitat destruction, pollution, climate change, overexploitation, invasive species</b>. It weakens ecosystems, disturbs food chains and reduces nature's ability to support life, including ours.</p>
-          <p>The lecture closes on the same point: these problems are woven from many threads, so a multidisciplinary approach gives integrated, sustainable solutions that balance ecological health with human needs.</p>
-          <div class="note exam"><p>Long answer on "major environmental issues": take each issue as a heading (climate change, deforestation, waste management, industrial and vehicular pollution, water pollution, hazardous waste, crackers, e-waste) and write cause → effects → remedy (if given) → example. Then add the global scenario with its five numbers, India's situation with its numbers, and end with loss of biodiversity (definition, causes, effects) and why the problems need a multidisciplinary approach.</p></div>
+          <p>Decline or disappearance of plant, animal and microorganism species. Causes: <b>habitat destruction, pollution, climate change, overexploitation, invasive species</b>. Weakens ecosystems, disturbs food chains.</p>
+          <p>Problems are interlinked → need a <b>multidisciplinary approach</b> for integrated, sustainable solutions.</p>
         ` }
       ],
       flashcards: [
@@ -247,26 +245,26 @@ CHUNK({
       source: 'Lecture W1S3, pages 1–8',
       tabs: [
         { title: 'Four spheres', html: `
-          <p class="lead">Earth supports life by supplying four things, each from one <b>sphere</b>. "Sphere" means <b>to surround or encompass</b>.</p>
+          <p class="lead">Earth supplies four needs, each from a <b>sphere</b> ("sphere" = <b>to surround or encompass</b>).</p>
           <table class="tbl"><thead><tr><th>Need</th><th>Sphere</th><th>Root word</th></tr></thead><tbody>
             <tr><td>Air to breathe</td><td><b>Atmosphere</b></td><td>atmo → steam and vapour</td></tr>
             <tr><td>Water to drink</td><td><b>Hydrosphere</b></td><td>hydro → water</td></tr>
             <tr><td>Food sources</td><td><b>Biosphere</b></td><td>bio → life</td></tr>
             <tr><td>Solid ground and nutrients</td><td><b>Lithosphere</b></td><td>litho → rocks and minerals</td></tr>
           </tbody></table>
-          <p>The lithosphere gives land and minerals, the hydrosphere water, the atmosphere air and weather. The <b>biosphere</b> holds every living thing and <b>depends on the other three</b>. Together they keep the environment stable and liveable.</p>
+          <p>The <b>biosphere</b> holds all living things and <b>depends on the other three</b>.</p>
           <figure data-fig="m1-four-spheres"></figure>
         ` },
         { title: 'Air and its layers', html: `
-          <p class="lead">The atmosphere is the <b>gaseous layer</b> around Earth: gases plus tiny water particles forming a thin protective envelope.</p>
-          <p>It provides oxygen, <b>shields life from harmful solar radiation</b>, regulates temperature, and drives weather and the water cycle.</p>
+          <p class="lead">Atmosphere = <b>gaseous layer</b> around Earth: gases + tiny water particles, a thin protective envelope.</p>
+          <p>Provides oxygen, <b>shields from harmful solar radiation</b>, regulates temperature, drives weather and water cycle.</p>
           <div class="kv">
             <div><span>Nitrogen</span><b>78%</b> by volume</div>
             <div><span>Oxygen</span><b>21%</b></div>
-            <div><span>Others</span><b>1%</b>: water vapour, CO<sub>2</sub>, methane (small amounts, but they matter for climate and energy balance)</div>
+            <div><span>Others</span><b>1%</b>: water vapour, CO<sub>2</sub>, methane (matter for climate, energy balance)</div>
           </div>
           <figure data-fig="m1-air-composition"></figure>
-          <p>Bottom to top, the layers are <b>troposphere → stratosphere → mesosphere → thermosphere → exosphere</b>.</p>
+          <p>Bottom to top: <b>troposphere → stratosphere → mesosphere → thermosphere → exosphere</b>.</p>
           <figure data-fig="m1-atmosphere-layers-photo"></figure>
           <div class="mnemonic"><p>"<b>T</b>he <b>S</b>trong <b>M</b>an <b>T</b>hrows <b>E</b>ggs": Tropo, Strato, Meso, Thermo, Exo.</p></div>
         ` },
@@ -274,53 +272,52 @@ CHUNK({
           <div class="vs">
             <div class="side"><h4>Troposphere (0–15 km)</h4>
               <ul>
-                <li><b>Lowest</b> layer, where all life exists; birds fly and airplanes operate here.</li>
-                <li>Holds <b>most of the atmosphere's mass</b> and almost all weather: rain, snow, storms, clouds, wind.</li>
-                <li>Warmest near the ground (heat radiates from the surface); temperature <b>falls with height</b>.</li>
-                <li>Height varies slightly with latitude and weather.</li>
-                <li>Top boundary: <b>tropopause</b>, a lid that keeps weather from rising into the stratosphere. Temperature levels off there before rising again.</li>
+                <li><b>Lowest</b>; all life, birds, airplanes.</li>
+                <li><b>Most of the atmosphere's mass</b>, almost all weather (rain, snow, storms, clouds, wind).</li>
+                <li>Warmest near ground; temperature <b>falls with height</b>.</li>
+                <li>Height varies with latitude and weather.</li>
+                <li>Top: <b>tropopause</b>, a lid keeping weather out of the stratosphere.</li>
               </ul></div>
             <div class="side"><h4>Stratosphere (15–50 km)</h4>
               <ul>
-                <li>Second layer, holds the <b>ozone layer</b> (high ozone concentration).</li>
-                <li>Ozone absorbs most of the Sun's harmful <b>UV radiation</b>.</li>
-                <li>Temperature <b>rises with height</b> because ozone absorbs solar energy.</li>
-                <li>Air is very <b>stable and dry</b>: suits high-altitude aircraft and <b>weather balloons</b>.</li>
-                <li>Top boundary: <b>stratopause</b>.</li>
+                <li>Holds the <b>ozone layer</b>.</li>
+                <li>Ozone absorbs most harmful <b>UV radiation</b>.</li>
+                <li>Temperature <b>rises with height</b> (ozone absorbs solar energy).</li>
+                <li><b>Stable and dry</b>: high-altitude aircraft, <b>weather balloons</b>.</li>
+                <li>Top: <b>stratopause</b>.</li>
               </ul></div>
           </div>
           <figure data-fig="m1-stratosphere-profile"></figure>
           <figure data-fig="m1-ozone-uv"></figure>
-          <div class="note why"><p>Temperature drops with height in the troposphere because the ground is the heater. In the stratosphere the heater is ozone absorbing UV, so it gets warmer the higher you go.</p></div>
+          <div class="note why"><p>Troposphere is heated by the ground (cooler upward); stratosphere by ozone absorbing UV (warmer upward).</p></div>
         ` },
         { title: 'Mesosphere and above', html: `
           <div class="vs">
             <div class="side"><h4>Mesosphere (50–85 km)</h4>
               <ul>
-                <li><b>Coldest</b> layer, down to about <b>−90 °C</b>.</li>
-                <li>Water vapour freezes into ice clouds called <b>noctilucent clouds</b>, seen at twilight, among the highest clouds.</li>
-                <li>Very low pressure and thin air, hard to study.</li>
-                <li><b>Meteors burn up</b> here from friction (shooting stars).</li>
-                <li>Top boundary: <b>mesopause</b>.</li>
+                <li><b>Coldest</b>, about <b>−90 °C</b>.</li>
+                <li>Ice clouds: <b>noctilucent clouds</b>, seen at twilight, among the highest clouds.</li>
+                <li>Very low pressure, thin air, hard to study.</li>
+                <li><b>Meteors burn up</b> (shooting stars).</li>
+                <li>Top: <b>mesopause</b>.</li>
               </ul></div>
             <div class="side"><h4>Thermosphere</h4>
               <ul>
-                <li>Above the mesosphere; temperature <b>rises with height</b> from absorbed energetic <b>UV and X-ray</b> radiation.</li>
-                <li>Upper part about <b>500 °C to 2,000 °C</b> or higher.</li>
-                <li><b>Auroras</b> (Northern and Southern Lights) occur here.</li>
-                <li>Satellites, spacecraft and the <b>International Space Station</b> orbit here.</li>
+                <li>Temperature <b>rises with height</b> (absorbs <b>UV and X-ray</b>).</li>
+                <li>Upper part <b>500 °C to 2,000 °C</b> or higher.</li>
+                <li><b>Auroras</b> (Northern and Southern Lights).</li>
+                <li>Satellites, spacecraft, <b>International Space Station</b> orbit here.</li>
               </ul></div>
             <div class="side"><h4>Exosphere</h4>
               <ul>
-                <li><b>Final frontier</b>, the outermost layer.</li>
-                <li>Air constantly but gradually <b>leaks into space</b>; no clear upper boundary.</li>
-                <li>Extremely thin air; satellites orbit here too.</li>
+                <li><b>Final frontier</b>, outermost.</li>
+                <li>Air gradually <b>leaks into space</b>; no clear upper boundary.</li>
+                <li>Extremely thin; satellites orbit here too.</li>
               </ul></div>
           </div>
           <figure data-fig="m1-mesosphere-diagram"></figure>
         ` },
         { title: 'Layers at a glance', html: `
-          <p class="lead">The summary table from the notes. Learn the boundaries and one feature per layer.</p>
           <table class="tbl"><thead><tr><th>Layer</th><th>Altitude (km)</th><th>Temperature (°C)</th><th>Feature</th></tr></thead><tbody>
             <tr><td>Troposphere</td><td><b>0–15</b></td><td>15 to −56</td><td>Weather occurs here</td></tr>
             <tr><td>Stratosphere</td><td><b>15–50</b></td><td>−56 to −2</td><td>Ozone layer</td></tr>
@@ -328,28 +325,26 @@ CHUNK({
             <tr><td>Thermosphere</td><td><b>85–800</b></td><td>−92 to 1200</td><td>Auroras</td></tr>
           </tbody></table>
           <figure data-fig="m1-atmosphere-poster"></figure>
-          <div class="note heads-up"><p>The numbers do not all agree. The text gives the upper thermosphere as 500–2,000 °C, the table tops out at 1200 °C, and the mesosphere is "about −90 °C" in the text but −92 °C in the table. The poster shows the troposphere as 0–12 km and the stratosphere as 12–50 km. For answers, use the text and table: troposphere <b>0–15 km</b>, stratosphere <b>15–50 km</b>, mesosphere <b>50–85 km</b>.</p></div>
+          <div class="note heads-up"><p>Numbers disagree: text says upper thermosphere 500–2,000 °C, table 1200 °C; mesosphere "about −90 °C" vs −92 °C; poster shows troposphere 0–12 km, stratosphere 12–50 km. Use: troposphere <b>0–15 km</b>, stratosphere <b>15–50 km</b>, mesosphere <b>50–85 km</b>.</p></div>
         ` },
         { title: 'Hydrosphere and water cycle', html: `
-          <p class="lead">The hydrosphere is <b>all the water</b> on Earth's surface, underground and in the air: liquid, ice and vapour.</p>
+          <p class="lead">Hydrosphere = <b>all the water</b> on the surface, underground and in the air: liquid, ice, vapour.</p>
           <div class="kv">
             <div><span>Oceans</span><b>~97%</b></div>
             <div><span>Lakes and rivers</span>~2%</div>
             <div><span>Freshwater usable by humans</span>only <b>1%</b> (rivers, lakes, streams, underground)</div>
           </div>
-          <p>It sustains all life, <b>distributes heat</b> around the planet to regulate climate, and includes saltwater, freshwater, glaciers and ice caps, groundwater and water in the lower atmosphere. Its links with the atmosphere and biosphere keep ecosystems balanced.</p>
-          <div class="note heads-up"><p>The notes say about 2% of water is in lakes and rivers. Standard figures put most of that 2–3% in glaciers and ice caps, with lakes and rivers far smaller. Write the notes' numbers in the exam.</p></div>
+          <p>Sustains life, <b>distributes heat</b> (regulates climate); includes saltwater, freshwater, glaciers, ice caps, groundwater, water in lower atmosphere.</p>
+          <div class="note heads-up"><p>Notes say ~2% in lakes and rivers; standard figures put most of that in glaciers and ice caps. Use the notes' numbers.</p></div>
           <h3>Water (hydrologic) cycle</h3>
           <ol class="steps">
-            <li><b>Evaporation</b> Sun's heat turns water from oceans, lakes and rivers into vapour.</li>
-            <li><b>Condensation</b> Vapour cools into droplets, forming clouds.</li>
-            <li><b>Precipitation</b> Heavy droplets fall as rain, snow, etc.</li>
-            <li><b>Runoff / infiltration</b> Water flows into rivers and streams or soaks into the ground.</li>
-            <li><b>Collection</b> It gathers in oceans or lakes and the cycle repeats.</li>
+            <li><b>Evaporation</b> Sun's heat turns water into vapour.</li>
+            <li><b>Condensation</b> Vapour cools into droplets: clouds.</li>
+            <li><b>Precipitation</b> Rain, snow, etc.</li>
+            <li><b>Runoff / infiltration</b> Into rivers and streams or into the ground.</li>
+            <li><b>Collection</b> Gathers in oceans or lakes; cycle repeats.</li>
           </ol>
-          <p>The cycle distributes water, supports life and shapes weather.</p>
           <figure data-fig="m1-water-cycle-spheres"></figure>
-          <div class="note exam"><p>Long answer on "Earth as a life support system" (atmosphere and hydrosphere part): (1) the four resources and their spheres with root words, and how the biosphere depends on the other three; (2) define the atmosphere, its functions and the 78/21/1 composition; (3) each layer in order with height, temperature trend and its reason, key feature and boundary (tropopause, stratopause, mesopause); (4) define the hydrosphere with the 97/2/1 split and its roles; (5) the five steps of the water cycle. Then continue with the geosphere and biosphere.</p></div>
         ` }
       ],
       flashcards: [
@@ -385,46 +380,45 @@ CHUNK({
       source: 'Lecture W1S3, pages 8–12',
       tabs: [
         { title: 'What it is and its layers', html: `
-          <p class="lead">The geosphere is the <b>solid part</b> of Earth, from the <b>inner core to the crust</b>: rocks, minerals, soil, mountains, volcanoes and all landforms.</p>
-          <p>It is the foundation for land life and drives <b>plate tectonics, mountain formation and erosion</b>.</p>
+          <p class="lead">Geosphere = <b>solid part</b> of Earth, <b>inner core to crust</b>: rocks, minerals, soil, mountains, volcanoes, landforms.</p>
+          <p>Foundation for land life; drives <b>plate tectonics, mountain formation, erosion</b>.</p>
           <table class="tbl"><thead><tr><th>Layer</th><th>What it is</th></tr></thead><tbody>
             <tr><td>Inner core</td><td><b>Solid</b>, mainly <b>iron and nickel</b></td></tr>
-            <tr><td>Outer core</td><td><b>Liquid</b>, responsible for Earth's <b>magnetic field</b></td></tr>
-            <tr><td>Mantle</td><td><b>Semi-solid</b> rock under the crust; its <b>convection currents</b> drive plate tectonics</td></tr>
-            <tr><td>Crust</td><td>Outermost layer, with <b>continental and oceanic plates</b></td></tr>
+            <tr><td>Outer core</td><td><b>Liquid</b>; Earth's <b>magnetic field</b></td></tr>
+            <tr><td>Mantle</td><td><b>Semi-solid</b> rock; <b>convection currents</b> drive plate tectonics</td></tr>
+            <tr><td>Crust</td><td>Outermost; <b>continental and oceanic plates</b></td></tr>
           </tbody></table>
           <figure data-fig="m1-earth-layers"></figure>
         ` },
         { title: 'Rocks, minerals, soil, landforms', html: `
           <div class="kv">
-            <div><span>Rocks</span>Naturally occurring solid aggregates of one or more minerals or mineraloids. Three types by origin: <b>igneous, sedimentary, metamorphic</b>.</div>
-            <div><span>Minerals</span>Naturally occurring, <b>inorganic</b> solids with a <b>definite chemical composition</b> and a <b>crystalline structure</b>.</div>
-            <div><span>Soil</span>Thin surface layer formed by <b>weathering of rocks</b> and <b>decay of organic matter</b>. Contains minerals, organic matter, water and air; supports plants and nutrient cycling.</div>
-            <div><span>Landforms</span>Mountains, valleys, plateaus, volcanoes, faults. Formed by <b>tectonic processes</b> (earthquakes, eruptions, plate movement) together with erosion and weathering over long periods.</div>
+            <div><span>Rocks</span>Natural solid aggregates of minerals or mineraloids. Three types: <b>igneous, sedimentary, metamorphic</b>.</div>
+            <div><span>Minerals</span>Natural, <b>inorganic</b> solids; <b>definite chemical composition</b>; <b>crystalline structure</b>.</div>
+            <div><span>Soil</span>Thin layer from <b>weathering of rocks</b> + <b>decay of organic matter</b>; has minerals, organic matter, water, air; supports plants, nutrient cycling.</div>
+            <div><span>Landforms</span>Mountains, valleys, plateaus, volcanoes, faults; from <b>tectonic processes</b> (earthquakes, eruptions, plate movement) + erosion and weathering.</div>
           </div>
           <h3>Geological processes</h3>
           <ol>
-            <li><b>Plate tectonics</b>: moving crustal plates cause earthquakes, volcanic eruptions and mountain building.</li>
-            <li><b>Weathering and erosion</b>: rocks are broken down and carried away by wind, water or ice.</li>
-            <li><b>Sedimentation</b>: sediments pile up in layers and harden into sedimentary rock.</li>
+            <li><b>Plate tectonics</b>: earthquakes, volcanic eruptions, mountain building.</li>
+            <li><b>Weathering and erosion</b>: rocks broken down, carried by wind, water, ice.</li>
+            <li><b>Sedimentation</b>: sediments layer and harden into sedimentary rock.</li>
           </ol>
         ` },
         { title: 'Importance and interactions', html: `
           <h3>Why the geosphere matters</h3>
           <ul>
-            <li><b>Supports ecosystems</b>: soil for plants, habitats for animals.</li>
-            <li><b>Source of natural resources</b>: minerals, metals, fossil fuels for energy, construction, manufacturing.</li>
-            <li><b>Affects climate</b>: volcanic gases and ash can cool or warm the atmosphere.</li>
-            <li><b>Determines physical geography</b>: landforms set elevation, terrain and where people settle.</li>
+            <li><b>Supports ecosystems</b>: soil for plants, habitats.</li>
+            <li><b>Natural resources</b>: minerals, metals, fossil fuels.</li>
+            <li><b>Affects climate</b>: volcanic gases and ash cool or warm the atmosphere.</li>
+            <li><b>Physical geography</b>: elevation, terrain, where people settle.</li>
           </ul>
           <h3>Interactions with other spheres</h3>
-          <p>The geosphere constantly interacts with the atmosphere, hydrosphere, biosphere and <b>cryosphere</b>, making Earth a dynamic system.</p>
+          <p>Interacts with atmosphere, hydrosphere, biosphere and <b>cryosphere</b>: a dynamic system.</p>
           <table class="tbl"><thead><tr><th>Sphere</th><th>Interaction</th></tr></thead><tbody>
-            <tr><td>Atmosphere</td><td>Volcanic eruptions release <b>CO<sub>2</sub> and ash</b>, affecting air quality and climate; wind and rain weather rocks in return.</td></tr>
-            <tr><td>Hydrosphere</td><td>Rivers <b>erode landforms</b> and carry sediment, shaping valleys and coasts; groundwater moving through rock affects erosion and mineral distribution.</td></tr>
-            <tr><td>Biosphere</td><td><b>Roots break rocks</b> and add organic matter to soil; burrowing animals change soil structure.</td></tr>
+            <tr><td>Atmosphere</td><td>Volcanoes release <b>CO<sub>2</sub> and ash</b> (air quality, climate); wind and rain weather rocks.</td></tr>
+            <tr><td>Hydrosphere</td><td>Rivers <b>erode landforms</b>, carry sediment (valleys, coasts); groundwater affects erosion, mineral distribution.</td></tr>
+            <tr><td>Biosphere</td><td><b>Roots break rocks</b>, add organic matter; burrowing animals change soil structure.</td></tr>
           </tbody></table>
-          <div class="note exam"><p>Long answer on the geosphere: (1) definition (solid Earth from inner core to crust) and its role in plate tectonics, mountain formation and erosion; (2) interior layers: inner core, outer core, mantle, crust, one line each; (3) rocks (three types), minerals (three properties), soil (how it forms, what it contains), landforms; (4) the three geological processes; (5) four points of importance; (6) interactions with atmosphere, hydrosphere and biosphere, one example each.</p></div>
         ` }
       ],
       flashcards: [
@@ -454,31 +448,28 @@ CHUNK({
       source: 'Lecture W1S3, pages 12–14',
       tabs: [
         { title: 'Components and ecosystems', html: `
-          <p class="lead">The biosphere is the <b>global sum of all ecosystems</b>: every living organism and the environments it interacts with, from soil bacteria to the largest whales, across land, water and air.</p>
+          <p class="lead">Biosphere = <b>global sum of all ecosystems</b>: all organisms and their environments, soil bacteria to the largest whales, across land, water and air.</p>
           <figure data-fig="m1-biosphere-diagram"></figure>
           <h3>Living organisms</h3>
           <div class="kv">
-            <div><span>Plants</span><b>Primary producers</b>: turn sunlight into energy by photosynthesis; the base of food chains</div>
-            <div><span>Animals</span><b>Consumers</b>: herbivores eat plants; carnivores and omnivores eat other animals</div>
-            <div><span>Microorganisms</span>Bacteria, fungi, algae and other microbes <b>decompose</b> dead matter, recycle nutrients, build soil fertility</div>
+            <div><span>Plants</span><b>Primary producers</b>: photosynthesis; base of food chains</div>
+            <div><span>Animals</span><b>Consumers</b>: herbivores eat plants; carnivores, omnivores eat animals</div>
+            <div><span>Microorganisms</span>Bacteria, fungi, algae <b>decompose</b> dead matter, recycle nutrients, build soil fertility</div>
           </div>
           <figure data-fig="m1-food-chain-cycle"></figure>
           <h3>Ecosystems</h3>
-          <p>An ecosystem is a community of living organisms (<b>biotic</b>) interacting with non-living parts (<b>abiotic</b>: sunlight, soil, air, water). Examples in the biosphere:</p>
+          <p>Community of organisms (<b>biotic</b>) interacting with non-living parts (<b>abiotic</b>: sunlight, soil, air, water). Examples:</p>
           <div class="chips"><span class="chip">Forests</span><span class="chip">Grasslands</span><span class="chip">Deserts</span><span class="chip">Freshwater (rivers, lakes)</span><span class="chip">Marine (oceans, coral reefs)</span></div>
-          <p>Each supports different forms and levels of biodiversity.</p>
         ` },
         { title: 'Functions and cycles', html: `
-          <p class="lead">Three functions: <b>supports life</b> (food, water, oxygen, habitat), <b>maintains biodiversity</b> (more species, more resilience to disruption), and <b>regulates biogeochemical cycles</b>.</p>
-          <p>Living things drive the flow of <b>carbon, nitrogen, oxygen and phosphorus</b>.</p>
+          <p class="lead">Three functions: <b>supports life</b> (food, water, oxygen, habitat), <b>maintains biodiversity</b> (more species, more resilience), <b>regulates biogeochemical cycles</b> (carbon, nitrogen, oxygen, phosphorus).</p>
           <figure data-fig="m1-biogeochemical-components"></figure>
           <table class="tbl"><thead><tr><th>Cycle</th><th>How the biosphere runs it</th></tr></thead><tbody>
-            <tr><td>Carbon</td><td>Plants take in <b>CO<sub>2</sub></b> in photosynthesis and store carbon; animals eat plants; breathing, decomposition and burning (fossil fuels) release it to air or soil.</td></tr>
-            <tr><td>Nitrogen</td><td>Bacteria in soil and roots convert <b>atmospheric nitrogen</b> into forms plants use; it moves up the food chain; other microbes return it to the air by <b>denitrification</b>.</td></tr>
-            <tr><td>Oxygen</td><td>Plants make O<sub>2</sub> in photosynthesis; animals use it and release CO<sub>2</sub>, which plants reuse. A balanced oxygen–carbon loop.</td></tr>
-            <tr><td>Phosphorus</td><td>Organisms take phosphorus from soil and use it in <b>DNA and energy transfer</b>; decomposers return it to the soil.</td></tr>
+            <tr><td>Carbon</td><td>Plants take in <b>CO<sub>2</sub></b> (photosynthesis), store carbon; animals eat plants; respiration, decomposition, burning fossil fuels release it.</td></tr>
+            <tr><td>Nitrogen</td><td>Soil/root bacteria convert <b>atmospheric nitrogen</b> into usable forms; moves up food chain; microbes return it by <b>denitrification</b>.</td></tr>
+            <tr><td>Oxygen</td><td>Plants make O<sub>2</sub>; animals use it, release CO<sub>2</sub> for plants: balanced oxygen–carbon loop.</td></tr>
+            <tr><td>Phosphorus</td><td>Taken from soil, used in <b>DNA and energy transfer</b>; decomposers return it to soil.</td></tr>
           </tbody></table>
-          <div class="note exam"><p>Long answer on the biosphere: (1) definition (global sum of all ecosystems, bacteria to whales, across land, water and air); (2) living components: plants as producers, animals as consumers, microorganisms as decomposers; (3) define an ecosystem and give the five examples; (4) the three functions; (5) how living things run the carbon, nitrogen, oxygen and phosphorus cycles, two lines each.</p></div>
         ` }
       ],
       flashcards: [

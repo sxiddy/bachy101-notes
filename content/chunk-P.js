@@ -10,12 +10,12 @@ CHUNK({
       source: 'Lecture W4 (Paris Agreement), pages 2–4, 8',
       tabs: [
         { title: 'Road to Paris', html: `
-          <p class="lead">The atmosphere is a <b>shared resource</b>: emissions anywhere affect the climate everywhere, so no country can solve it alone.</p>
+          <p class="lead">Atmosphere = <b>shared resource</b>; no country solves it alone.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>UNFCCC, 1992</b></td><td>Rio Earth Summit. Aim: stabilise GHG concentrations to prevent dangerous interference with the climate. Brought in CBDR. The <b>parent treaty</b>; Paris is one of its children</td></tr>
-              <tr><td><b>Kyoto, 1997</b></td><td>First binding targets, developed countries only. US never ratified, Canada withdrew, China and India had no binding targets; emissions kept rising</td></tr>
-              <tr><td><b>Copenhagen, 2009</b></td><td>Failed to give a binding treaty, but brought <b>voluntary national pledges</b>, which became NDCs</td></tr>
+              <tr><td><b>UNFCCC, 1992</b></td><td>Rio Earth Summit; stabilise GHG concentrations; CBDR; <b>parent treaty</b> of Paris</td></tr>
+              <tr><td><b>Kyoto, 1997</b></td><td>Binding targets, developed only; US never ratified, Canada withdrew, China/India exempt; emissions rose</td></tr>
+              <tr><td><b>Copenhagen, 2009</b></td><td>No binding treaty; <b>voluntary national pledges</b> (became NDCs)</td></tr>
               <tr><td><b>COP21 Paris, Dec 2015</b></td><td>Adopted by <b>196 parties</b>; in force <b>4 November 2016</b></td></tr>
             </tbody>
           </table>
@@ -23,8 +23,8 @@ CHUNK({
         { title: 'Temperature goal', html: `
           <p><b>Article 2</b>: hold warming to <b>well below 2°C</b> above pre-industrial levels, while pursuing efforts to limit it to <b>1.5°C</b>.</p>
           <ul>
-            <li>The 1.5°C target was added at the insistence of <b>Small Island Developing States (SIDS)</b>, threatened by sea-level rise.</li>
-            <li><b>IPCC Special Report 2018</b>: at 1.5°C coral reefs are under severe stress; at 2°C they are almost entirely lost. Hundreds of millions fewer people face water scarcity at 1.5°C.</li>
+            <li>1.5°C pushed by <b>Small Island Developing States (SIDS)</b> (sea-level rise).</li>
+            <li><b>IPCC Special Report 2018</b>: 1.5°C = reefs severely stressed; 2°C = almost all lost. Hundreds of millions fewer face water scarcity at 1.5°C.</li>
           </ul>
         ` },
         { title: 'NDCs', html: `
@@ -72,22 +72,22 @@ CHUNK({
         { title: 'Three pillars', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Article 4, Net zero</b></td><td>Peak emissions as soon as possible, then reach <b>net zero in the second half of this century</b>. Net zero = emissions released equal emissions removed (forests, oceans, technology). It means <b>balance, not zero</b>, like a bank account</td></tr>
-              <tr><td><b>Article 7, Adaptation</b></td><td>On <b>equal footing with mitigation</b>. Build adaptive capacity and resilience, cut vulnerability; countries prepare and report adaptation plans. India: flood-resistant infrastructure, drought-tolerant farming, coastal protection, urban heat</td></tr>
-              <tr><td><b>Article 9, Finance</b></td><td>Developed countries to mobilise <b>USD 100 billion a year</b>; <b>Green Climate Fund</b> is the main channel. Target repeatedly missed; real need is in trillions; a new higher goal was due before 2025</td></tr>
+              <tr><td><b>Article 4, Net zero</b></td><td>Peak ASAP; <b>net zero in the second half of this century</b>: released = removed (forests, oceans, tech); <b>balance, not zero</b></td></tr>
+              <tr><td><b>Article 7, Adaptation</b></td><td><b>Equal footing with mitigation</b>; resilience, adaptation plans. India: flood-resistant infrastructure, drought-tolerant farming, coastal protection, urban heat</td></tr>
+              <tr><td><b>Article 9, Finance</b></td><td>Developed: <b>USD 100 billion a year</b> via <b>Green Climate Fund</b>; often missed; need in trillions; new goal due before 2025</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Checking delivery', html: `
           <ul>
             <li><b>Enhanced Transparency Framework</b>: all parties report emissions, NDC progress and finance flows.</li>
-            <li><b>Global Stocktake</b>: collective review <b>every five years</b>. The first, at <b>COP28 Dubai, 2023</b>, found current NDCs far from enough for 1.5°C. That finding is expected to push countries to set <b>more ambitious NDCs</b> in the next round.</li>
+            <li><b>Global Stocktake</b>: collective review <b>every five years</b>. The first, at <b>COP28 Dubai, 2023</b>: NDCs far short of 1.5°C; should push <b>more ambitious NDCs</b>.</li>
           </ul>
           <h4>Is it binding?</h4>
           <ul>
             <li>The <b>Agreement is a binding treaty</b> (registered with the UN, in force 2016).</li>
             <li><b>NDC targets are not binding</b>. Binding duties: submit NDCs, report transparently, raise ambition.</li>
-            <li>No penalty for missing a target. Critics call it toothless; supporters say <b>transparency and reputational pressure</b> enforce it.</li>
+            <li>No penalty; critics: toothless; supporters: <b>transparency and reputational pressure</b>.</li>
             <li>US withdrew in <b>2020</b>, rejoined in <b>2021</b>.</li>
           </ul>
           <div class="note exam">A <b>legally binding process</b> with <b>nationally determined substance</b>.</div>
@@ -100,7 +100,7 @@ CHUNK({
               <tr><td><b>Loss and Damage</b></td><td>Fund set up at <b>COP27 (2022)</b>, operational at <b>COP28</b>; still badly underfunded</td></tr>
             </tbody>
           </table>
-          <p><b>For engineers</b>: every NDC sector is an engineering sector: energy, buildings, transport, industry, agriculture. Big projects must now show <b>climate risk analysis and NDC alignment</b> to get international finance.</p>
+          <p><b>For engineers</b>: NDC sectors (energy, buildings, transport, industry, agriculture); projects need <b>climate risk analysis and NDC alignment</b> for international finance.</p>
         ` }
       ],
       flashcards: [

@@ -10,46 +10,45 @@ CHUNK({
       source: 'Lecture W2S5 (Environmental hazards), pages 1–4',
       tabs: [
         { title: 'Why study hazards', html: `
-          <p class="lead">Industrialisation, urbanisation and technology have intensified the clash between human activity and the environment. Hazards are not new, but their <b>frequency, intensity and impact</b> have risen sharply.</p>
+          <p class="lead">Industrialisation, urbanisation and technology raised hazard <b>frequency, intensity and impact</b>.</p>
           <ul>
-            <li>Examples range from urban <b>air pollution</b> to climate-induced <b>floods, droughts and wildfires</b>.</li>
-            <li>Studying them helps us: (i) <b>identify risks</b> from natural and human activity, (ii) let policymakers, scientists and communities <b>mitigate and manage</b> them, (iii) adopt <b>sustainable practices</b>.</li>
-            <li>Hazards are <b>interconnected</b>: deforestation → soil erosion → more floods; industrial emissions → air pollution → respiratory disease and climate change.</li>
+            <li>Examples: urban <b>air pollution</b>; climate-induced <b>floods, droughts, wildfires</b>.</li>
+            <li>Study helps: <b>identify risks</b>, <b>mitigate and manage</b> them, adopt <b>sustainable practices</b>.</li>
+            <li><b>Interconnected</b>: deforestation → soil erosion → floods; emissions → air pollution → respiratory disease, climate change.</li>
           </ul>
-          <div class="note exam"><b>Risk</b> = the <b>probability of a hazard causing harm</b>. It depends on the <b>magnitude of the hazard</b> and the <b>vulnerability</b> of the people or ecosystem exposed.</div>
+          <div class="note exam"><b>Risk</b> = <b>probability of a hazard causing harm</b>; depends on hazard <b>magnitude</b> and <b>vulnerability</b> of those exposed.</div>
         ` },
         { title: 'Definition', html: `
-          <p class="lead"><b>Environmental hazards</b> are natural or human-made events or conditions that threaten the environment, human health or ecological systems: physical, chemical, biological or social conditions that can harm health, cause injury, damage property or degrade ecosystems.</p>
+          <p class="lead"><b>Environmental hazards</b>: natural or human-made events/conditions (physical, chemical, biological, social) that harm health, cause injury, damage property or degrade ecosystems.</p>
           <div class="vs">
-            <div class="side"><h4>Natural hazards</h4><p>From Earth's natural processes: earthquakes, volcanic eruptions, floods, hurricanes. Inevitable, but human activity can <b>amplify their impact</b>.</p></div>
-            <div class="side"><h4>Anthropogenic hazards</h4><p>From human actions: industrial pollution, deforestation, improper waste disposal, overuse of natural resources.</p></div>
+            <div class="side"><h4>Natural hazards</h4><p>Earth processes: earthquakes, volcanoes, floods, hurricanes. Inevitable; humans can <b>amplify impact</b>.</p></div>
+            <div class="side"><h4>Anthropogenic hazards</h4><p>Human actions: industrial pollution, deforestation, improper waste disposal, resource overuse.</p></div>
           </div>
-          <p>Forms of harm: physical damage to ecosystems, health problems in humans and animals, economic losses, long-term environmental degradation.</p>
+          <p>Harm: ecosystem damage, human/animal health problems, economic loss, long-term degradation.</p>
         ` },
         { title: 'Four major types', html: `
           <table class="tbl">
             <thead><tr><th>Type</th><th>Nature</th><th>Examples</th></tr></thead>
             <tbody>
-              <tr><td><b>Physical</b></td><td>Natural energy forces and radiation</td><td>Earthquakes, floods, hurricanes, landslides, volcanic eruptions, wildfires, UV radiation, extreme temperature, noise pollution</td></tr>
-              <tr><td><b>Chemical</b></td><td>Toxic substances in the environment</td><td>Industrial pollutants, pesticides, heavy metals, BPA, phthalates, synthetic dyes, pharmaceutical waste, solvents</td></tr>
-              <tr><td><b>Biological</b></td><td>Living organisms and biological agents</td><td>Bacteria (TB, cholera), viruses (COVID-19, dengue), parasites (malaria, filariasis), fungi, prions, biological toxins</td></tr>
-              <tr><td><b>Sociological</b></td><td>Social, economic and behavioural factors</td><td>Poverty, malnutrition, armed conflict, unsafe work conditions, lack of healthcare, substance abuse, social inequality</td></tr>
+              <tr><td><b>Physical</b></td><td>Natural forces, radiation</td><td>Earthquakes, floods, hurricanes, landslides, volcanoes, wildfires, UV, extreme temperature, noise</td></tr>
+              <tr><td><b>Chemical</b></td><td>Toxic substances</td><td>Industrial pollutants, pesticides, heavy metals, BPA, phthalates, synthetic dyes, pharmaceutical waste, solvents</td></tr>
+              <tr><td><b>Biological</b></td><td>Living organisms/agents</td><td>Bacteria (TB, cholera), viruses (COVID-19, dengue), parasites (malaria, filariasis), fungi, prions, toxins</td></tr>
+              <tr><td><b>Sociological</b></td><td>Social, economic, behavioural</td><td>Poverty, malnutrition, armed conflict, unsafe work, no healthcare, substance abuse, inequality</td></tr>
             </tbody>
           </table>
           <div class="mnemonic">P-C-B-S: Physical, Chemical, Biological, Sociological.</div>
         ` },
         { title: 'Physical hazards', html: `
-          <p>Natural processes or events that cause physical damage. Often called natural disasters; <b>climate change</b> is raising their frequency and intensity.</p>
+          <p>Natural disasters causing physical damage; <b>climate change</b> raises frequency and intensity.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Geological</b></td><td>Earthquakes, tsunamis, volcanic eruptions, landslides</td></tr>
+              <tr><td><b>Geological</b></td><td>Earthquakes, tsunamis, volcanoes, landslides</td></tr>
               <tr><td><b>Meteorological</b></td><td>Hurricanes/cyclones, tornadoes, blizzards, extreme heat/cold</td></tr>
               <tr><td><b>Hydrological</b></td><td>Floods, storm surges, droughts</td></tr>
-              <tr><td><b>Radiation</b></td><td>UV (skin cancer), ionising radiation (nuclear accidents), radon gas</td></tr>
-              <tr><td><b>Noise</b></td><td>Occupational hearing loss, cardiovascular disease from chronic noise</td></tr>
+              <tr><td><b>Radiation</b></td><td>UV (skin cancer), ionising (nuclear accidents), radon gas</td></tr>
+              <tr><td><b>Noise</b></td><td>Occupational hearing loss; cardiovascular disease (chronic noise)</td></tr>
             </tbody>
           </table>
-          <p>They are often unpredictable: floods can submerge large areas, destroying crops, homes and infrastructure.</p>
         ` }
       ],
       flashcards: [
@@ -76,22 +75,22 @@ CHUNK({
       source: 'Lecture W2S5 (Environmental hazards), pages 4–8, 14; Lecture W2 (Chemical hazards), page 1',
       tabs: [
         { title: 'What they are', html: `
-          <p class="lead">A <b>chemical hazard</b> is any <b>non-biological substance</b> that can harm life or health, from human activity or natural processes.</p>
+          <p class="lead"><b>Chemical hazard</b>: any <b>non-biological substance</b> harmful to life/health, human or natural origin.</p>
           <ul>
-            <li>Includes heavy metals, pesticides, toxic waste, industrial and home chemicals.</li>
-            <li>Health hazards: <b>irritation, sensitisation, carcinogenicity</b>. Physical hazards: <b>flammability, corrosion</b>.</li>
-            <li>Air pollutants: <b>CO, SO₂, NOx</b>. Water: heavy metals (<b>lead, mercury, arsenic</b>). Soil: pesticides and industrial waste.</li>
+            <li>Heavy metals, pesticides, toxic waste, industrial/home chemicals.</li>
+            <li>Health: <b>irritation, sensitisation, carcinogenicity</b>. Physical: <b>flammability, corrosion</b>.</li>
+            <li>Air: <b>CO, SO₂, NOx</b>. Water: <b>lead, mercury, arsenic</b>. Soil: pesticides, industrial waste.</li>
           </ul>
         ` },
         { title: 'Sources', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Industrial</td><td>Factory effluents, mining runoff, waste with solvents, acids, heavy metals</td></tr>
-              <tr><td>Agricultural</td><td>Pesticides (organochlorines, organophosphates), herbicides, synthetic fertilisers</td></tr>
+              <tr><td>Industrial</td><td>Effluents, mining runoff, solvents, acids, heavy metals</td></tr>
+              <tr><td>Agricultural</td><td>Pesticides (organochlorines, organophosphates), herbicides, fertilisers</td></tr>
               <tr><td>Consumer products</td><td>Plastics (<b>BPA</b>), personal care (<b>phthalates, parabens</b>), cosmetics</td></tr>
-              <tr><td>Food industry</td><td>Synthetic dyes (<b>tartrazine, sunset yellow</b>), preservatives, food-contact materials</td></tr>
-              <tr><td>Pharmaceuticals</td><td>Drug compounds in wastewater: <b>emerging contaminants</b></td></tr>
-              <tr><td>Fossil fuels</td><td>PAHs, benzene, toluene, lead from combustion</td></tr>
+              <tr><td>Food industry</td><td>Dyes (<b>tartrazine, sunset yellow</b>), preservatives, food-contact materials</td></tr>
+              <tr><td>Pharmaceuticals</td><td>Drugs in wastewater: <b>emerging contaminants</b></td></tr>
+              <tr><td>Fossil fuels</td><td>PAHs, benzene, toluene, lead</td></tr>
             </tbody>
           </table>
         ` },
@@ -99,56 +98,55 @@ CHUNK({
           <table class="tbl">
             <thead><tr><th>Route</th><th>How</th><th>Examples</th></tr></thead>
             <tbody>
-              <tr><td>Inhalation</td><td>Breathing contaminated air</td><td>Factory workers, air pollution, indoor combustion</td></tr>
-              <tr><td>Ingestion</td><td>Eating/drinking</td><td>Contaminated food/water, children swallowing by accident</td></tr>
-              <tr><td>Dermal</td><td>Skin contact</td><td>Pesticide spraying, solvents, cosmetics</td></tr>
-              <tr><td>Transplacental</td><td>Mother to foetus</td><td>EDCs cross the placenta in a critical developmental window</td></tr>
-              <tr><td>Ocular</td><td>Eye contact</td><td>Acid splashes, chemical aerosols</td></tr>
+              <tr><td>Inhalation</td><td>Air</td><td>Factory workers, air pollution, indoor combustion</td></tr>
+              <tr><td>Ingestion</td><td>Food/drink</td><td>Contaminated food/water, children swallowing</td></tr>
+              <tr><td>Dermal</td><td>Skin</td><td>Pesticide spraying, solvents, cosmetics</td></tr>
+              <tr><td>Transplacental</td><td>Mother to foetus</td><td>EDCs cross placenta in critical window</td></tr>
+              <tr><td>Ocular</td><td>Eye</td><td>Acid splashes, aerosols</td></tr>
             </tbody>
           </table>
           <h4>Mechanisms of harm</h4>
           <ol>
-            <li><b>Endocrine disruption</b>: mimic or block hormones.</li>
+            <li><b>Endocrine disruption</b>: mimic/block hormones.</li>
             <li><b>Carcinogenesis</b>: DNA damage, adducts, epigenetic changes.</li>
             <li><b>Neurotoxicity</b>: lead, methylmercury, organophosphates.</li>
             <li><b>Organ toxicity</b>: liver (hepatotoxins), kidneys (nephrotoxins), lungs.</li>
-            <li><b>Reproductive toxicity</b>: gametes, fertility, foetal development.</li>
-            <li><b>Immunotoxicity</b>: e.g. dioxins, PCBs.</li>
+            <li><b>Reproductive toxicity</b>: gametes, fertility, foetus.</li>
+            <li><b>Immunotoxicity</b>: dioxins, PCBs.</li>
           </ol>
         ` },
         { title: 'Phthalates', html: `
-          <p class="lead"><b>Phthalates</b> (phthalic acid esters) are <b>plasticisers</b> that make PVC soft: <b>25–50%</b> of flexible PVC by weight; production over <b>8 million tonnes</b> a year. Not chemically bonded, so they <b>leach continuously</b>.</p>
+          <p class="lead"><b>Phthalates</b> (phthalic acid esters): <b>plasticisers</b> softening PVC; <b>25–50%</b> of flexible PVC by weight; <b>8 million tonnes</b>+/year. Not bonded, so <b>leach continuously</b>.</p>
           <ul>
-            <li>Sources: vinyl flooring, shower curtains, hoses, artificial leather; medical IV bags and tubing (<b>DEHP</b>, most studied); perfumes, nail polish (<b>DBP</b>); soft toys and teethers; food wraps; wall coverings (inhaled as dust).</li>
-            <li><b>Anti-androgenic</b>: block testosterone receptors (unlike BPA, which is oestrogenic).</li>
-            <li>Male harm: lower testosterone and sperm quality; "<b>phthalate syndrome</b>" in animals (undescended testes, hypospadias, reduced anogenital distance).</li>
-            <li>Also: premature birth, endometriosis, thyroid disruption, ADHD, autism, lower IQ, childhood asthma and allergic rhinitis.</li>
+            <li>Sources: vinyl flooring, shower curtains, hoses, artificial leather; IV bags/tubing (<b>DEHP</b>, most studied); perfumes, nail polish (<b>DBP</b>); soft toys, teethers; food wraps; wall coverings (dust).</li>
+            <li><b>Anti-androgenic</b>: block testosterone receptors (BPA is oestrogenic).</li>
+            <li>Males: lower testosterone, sperm quality; "<b>phthalate syndrome</b>" in animals (undescended testes, hypospadias, reduced anogenital distance).</li>
+            <li>Also: premature birth, endometriosis, thyroid, ADHD, autism, lower IQ, asthma, allergic rhinitis.</li>
           </ul>
           <table class="tbl">
             <tbody>
-              <tr><td>EU</td><td>DEHP, DBP, BBP, DIBP banned (&gt;0.1%) in all articles; DINP, DIDP, DNOP restricted in childcare articles</td></tr>
-              <tr><td>USA (CPSIA)</td><td>8 phthalates banned (&gt;0.1%) in toys and childcare articles</td></tr>
-              <tr><td>India</td><td>Incomplete; draft notification for toys under consideration</td></tr>
-              <tr><td>Alternatives</td><td>DINCH (Hexamoll), citrates (tributyl citrate), adipates, bio-plasticisers from soybean, sunflower oil</td></tr>
+              <tr><td>EU</td><td>DEHP, DBP, BBP, DIBP banned (&gt;0.1%) in all articles; DINP, DIDP, DNOP restricted in childcare</td></tr>
+              <tr><td>USA (CPSIA)</td><td>8 phthalates banned (&gt;0.1%) in toys, childcare</td></tr>
+              <tr><td>India</td><td>Incomplete; draft toy notification</td></tr>
+              <tr><td>Alternatives</td><td>DINCH (Hexamoll), citrates (tributyl citrate), adipates, soybean/sunflower bio-plasticisers</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">The lecture numbers BPA as "Case Study 1" and phthalates as "Case Study 3"; there is no Case Study 2 section. Synthetic dyes appear only in the summary: azo dyes can release <b>carcinogenic aromatic amines</b>.</div>
+          <div class="note heads-up">Lecture: BPA = "Case Study 1", phthalates = "Case Study 3"; no Case Study 2. Synthetic dyes only in summary: azo dyes release <b>carcinogenic aromatic amines</b>.</div>
         ` },
         { title: 'Green chemistry and laws', html: `
           <ul>
-            <li><b>Green chemistry (12 principles)</b>: design chemicals and processes that cut hazardous substances from the start.</li>
+            <li><b>Green chemistry (12 principles)</b>: design out hazardous substances from the start.</li>
             <li>Substitutes: BPA-free glass, steel, Tritan; phthalate-free DINCH, citrates, soy/sunflower plasticisers.</li>
-            <li><b>Natural dyes</b>: indigo, henna, turmeric, madder, woad. <b>Safer food colours</b>: spirulina (blue), annatto (orange), turmeric (yellow), beetroot (red), approved by FSSAI and EU.</li>
+            <li><b>Natural dyes</b>: indigo, henna, turmeric, madder, woad. <b>Safer food colours</b> (FSSAI, EU approved): spirulina (blue), annatto (orange), turmeric (yellow), beetroot (red).</li>
           </ul>
           <table class="tbl">
             <tbody>
-              <tr><td><b>REACH</b> (EU)</td><td>Registration, Evaluation, Authorisation and Restriction of Chemicals: the world's most comprehensive chemical law</td></tr>
-              <tr><td><b>Precautionary Principle</b></td><td>Restrict chemicals <b>before definitive proof of harm</b>; burden of proof on industry</td></tr>
-              <tr><td><b>WHO IHR (2005)</b></td><td>Binding duty for member states to detect, report and respond to health emergencies</td></tr>
-              <tr><td>India</td><td>Environment Protection Act 1986, Drugs and Cosmetics Act, BIS standards for food-contact plastics, FSSAI for food additives</td></tr>
+              <tr><td><b>REACH</b> (EU)</td><td>Registration, Evaluation, Authorisation and Restriction of Chemicals; world's most comprehensive</td></tr>
+              <tr><td><b>Precautionary Principle</b></td><td>Restrict <b>before definitive proof of harm</b>; burden of proof on industry</td></tr>
+              <tr><td><b>WHO IHR (2005)</b></td><td>Binding: detect, report, respond to health emergencies</td></tr>
+              <tr><td>India</td><td>Environment Protection Act 1986, Drugs and Cosmetics Act, BIS (food-contact plastics), FSSAI (additives)</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Long answer on chemical hazards: (1) definition with examples in air, water and soil; (2) sources, one line each (industrial, agricultural, consumer, food, pharmaceutical, fossil fuel); (3) the five routes of exposure; (4) mechanisms of harm; (5) a case study (phthalates: uses, anti-androgenic action, health effects, EU/USA/India rules, alternatives); (6) solutions: green chemistry, safer substitutes, REACH, the Precautionary Principle and Indian laws.</div>
         ` }
       ],
       flashcards: [
@@ -176,72 +174,71 @@ CHUNK({
       source: 'Lecture W2S5 (Environmental hazards), pages 5–7; Lecture W2 (Chemical hazards: BPA, mercury), pages 1–4',
       tabs: [
         { title: 'What it is', html: `
-          <p class="lead"><b>Bisphenol A (BPA)</b> is a <b>synthetic oestrogen</b> and <b>endocrine-disrupting chemical (EDC)</b> used in polycarbonate plastics and epoxy resins since the <b>1960s</b>. Production exceeds <b>8 million tonnes</b> a year.</p>
+          <p class="lead"><b>BPA</b>: <b>synthetic oestrogen</b>, <b>EDC</b>; in polycarbonates and epoxy resins since the <b>1960s</b>; <b>8 million tonnes</b>+/year.</p>
           <ul>
-            <li>A <b>colourless solid</b>, soluble in most organic solvents, very poorly soluble in water.</li>
-            <li>Largest use: co-monomer for <b>polycarbonates</b>, <b>65–70%</b> of all BPA.</li>
-            <li><b>Epoxy and vinyl ester resins</b>: <b>25–30%</b>.</li>
-            <li>Polycarbonate: food and drink containers, water bottles. Epoxy: lining of food cans, bottle tops, water supply lines.</li>
+            <li><b>Colourless solid</b>; soluble in organic solvents, poorly in water.</li>
+            <li><b>Polycarbonates</b> (co-monomer): <b>65–70%</b>; <b>epoxy and vinyl ester resins</b>: <b>25–30%</b>.</li>
+            <li>Polycarbonate: food/drink containers, bottles. Epoxy: can linings, bottle tops, water lines.</li>
           </ul>
         ` },
         { title: 'Where we meet it', html: `
           <ul>
-            <li>Polycarbonate bottles (<b>plastic #7</b>): BPA <b>leaches when heated</b>.</li>
-            <li>Food and drink can linings (epoxy).</li>
-            <li><b>Thermal paper</b> (ATM receipts, boarding passes, airline tickets, carbonless copy paper): absorbed through skin.</li>
-            <li>Baby bottles (now banned in EU, US, Canada, India), dental sealants, CDs/DVDs, medical devices, food storage containers.</li>
-            <li>Also: toiletries, menstrual products, household electronics, eyeglass lenses, sports equipment, PCB laminates, paints, adhesives.</li>
+            <li>Polycarbonate bottles (<b>plastic #7</b>): <b>leaches when heated</b>.</li>
+            <li>Can linings (epoxy).</li>
+            <li><b>Thermal paper</b> (ATM receipts, boarding passes, tickets, carbonless copy paper): via skin.</li>
+            <li>Baby bottles (banned EU, US, Canada, India), dental sealants, CDs/DVDs, medical devices, storage containers.</li>
+            <li>Also: toiletries, menstrual products, electronics, eyeglass lenses, sports gear, PCB laminates, paints, adhesives.</li>
           </ul>
-          <p><b>Diet is the main route</b>. Plastics leach more with harsh detergents or acidic or hot liquids; old pipes with BPA resin coatings also leach. It bioaccumulates in water bodies and aquatic life.</p>
+          <p><b>Diet is the main route</b>; more leaching with harsh detergents, acidic/hot liquids, old resin-coated pipes. Bioaccumulates in water and aquatic life.</p>
         ` },
         { title: 'How it acts', html: `
           <ul>
-            <li>Binds both nuclear oestrogen receptors, <b>ERα and ERβ</b>, even at <b>picomolar</b> levels.</li>
-            <li>Can mimic and also block oestrogen: a <b>selective oestrogen receptor modulator (SERM)</b> or partial agonist.</li>
-            <li>At high concentrations it is an <b>antagonist of the androgen receptor</b>.</li>
+            <li>Binds oestrogen receptors <b>ERα and ERβ</b> at <b>picomolar</b> levels.</li>
+            <li>Mimics and blocks oestrogen: <b>SERM</b> (selective oestrogen receptor modulator), partial agonist.</li>
+            <li>High doses: <b>androgen receptor antagonist</b>.</li>
           </ul>
           <figure data-fig="m2-bpa-mechanism"></figure>
-          <div class="note exam"><b>Low-dose hypothesis</b>: BPA acts at concentrations far below what was considered "safe"; even nanomolar levels can switch on hormonal pathways in sensitive developmental windows.</div>
+          <div class="note exam"><b>Low-dose hypothesis</b>: acts far below "safe" levels; even nanomolar, in sensitive developmental windows.</div>
         ` },
         { title: 'Health effects', html: `
           <ul>
-            <li><b>Hormonal</b>: early puberty in girls, lower sperm count and quality, impotence, disrupted sex hormones.</li>
-            <li><b>Cancer</b>: breast (oestrogen-sensitive) and prostate.</li>
-            <li><b>Metabolic</b>: obesity, insulin resistance, <b>type 2 diabetes</b> (changes insulin sensitivity and release without changing weight).</li>
+            <li><b>Hormonal</b>: early puberty (girls), low sperm count/quality, impotence.</li>
+            <li><b>Cancer</b>: breast, prostate.</li>
+            <li><b>Metabolic</b>: obesity, insulin resistance, <b>type 2 diabetes</b> (without weight change).</li>
             <li><b>Cardiovascular</b>: hypertension, coronary artery disease.</li>
-            <li><b>Thyroid</b>: binds thyroid hormone receptor; linked to raised <b>TSH</b>.</li>
-            <li><b>Neurological</b>: anxiety, aggression, poor memory (animal models), depression, Alzheimer's.</li>
-            <li><b>Reproductive</b>: <b>PCOS</b>, endometriosis, infertility. In pregnancy and development: reduced lung capacity, wheezing and asthma after birth, which led to the ban in baby bottles.</li>
-            <li>Also: allergies, inflammation, childhood asthma, immunity problems.</li>
+            <li><b>Thyroid</b>: binds thyroid receptor; raised <b>TSH</b>.</li>
+            <li><b>Neurological</b>: anxiety, aggression, poor memory (animals), depression, Alzheimer's.</li>
+            <li><b>Reproductive</b>: <b>PCOS</b>, endometriosis, infertility. Prenatal: reduced lung capacity, wheezing, asthma → baby-bottle ban.</li>
+            <li>Also: allergies, inflammation, childhood asthma, immunity.</li>
           </ul>
           <figure data-fig="m2-bpa-health"></figure>
         ` },
         { title: 'Environment', html: `
           <ul>
-            <li>Short half-life: <b>4.5 days in soil and water, under 1 day in air</b>; but it is everywhere, so it remains an important pollutant.</li>
-            <li>Low evaporation from water and soil keeps it around despite being biodegradable.</li>
-            <li>Interferes with <b>nitrogen fixation</b> in roots of some legumes.</li>
-            <li>Harms growth, reproduction and development of aquatic life, especially <b>fish</b>; endocrine effects in invertebrates, amphibians, reptiles; genetic aberrations in terrestrial animals and insects.</li>
+            <li>Half-life <b>4.5 days soil/water, under 1 day air</b>; ubiquitous, so still important.</li>
+            <li>Low evaporation keeps it around despite biodegradability.</li>
+            <li>Interferes with <b>nitrogen fixation</b> in some legume roots.</li>
+            <li>Harms aquatic life, esp. <b>fish</b>; endocrine effects in invertebrates, amphibians, reptiles; genetic aberrations in land animals, insects.</li>
           </ul>
         ` },
         { title: 'Rules and limiting it', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>EU</td><td>Banned in baby bottles (<b>2011</b>); in all food-contact materials (<b>2022</b>)</td></tr>
-              <tr><td>USA (FDA)</td><td>Banned in baby bottles and sippy cups (<b>2012</b>); food contact under review</td></tr>
-              <tr><td>Canada</td><td>Declared "toxic" under CEPA 1999; banned in baby bottles (<b>2010</b>)</td></tr>
-              <tr><td>India</td><td><b>BIS</b> restricted it in infant feeding bottles; full regulation still developing</td></tr>
-              <tr><td>Alternatives</td><td>Tritan plastic (Eastman), glass, stainless steel, BPA-free epoxy linings (BPS/BPF, safety debated)</td></tr>
+              <tr><td>EU</td><td>Baby bottles (<b>2011</b>); all food-contact (<b>2022</b>)</td></tr>
+              <tr><td>USA (FDA)</td><td>Baby bottles, sippy cups (<b>2012</b>); food contact under review</td></tr>
+              <tr><td>Canada</td><td>"Toxic" under CEPA 1999; baby bottles (<b>2010</b>)</td></tr>
+              <tr><td>India</td><td><b>BIS</b> restricted in infant bottles; still developing</td></tr>
+              <tr><td>Alternatives</td><td>Tritan (Eastman), glass, stainless steel, BPA-free epoxy (BPS/BPF, debated)</td></tr>
             </tbody>
           </table>
           <h4>Steps to limit BPA</h4>
           <ul>
-            <li>Eat freshly cooked food; avoid food stored in plastic or metal cans.</li>
-            <li>Don't drink tea or coffee from plastic cups; use metal or ceramic.</li>
-            <li>Keep water in glass or stainless-steel bottles.</li>
-            <li>Don't microwave in plastic; use glass.</li>
-            <li>Eat from metal or ceramic plates, not plastic.</li>
-            <li>Avoid giving plastic toys to children (cotton toys instead).</li>
+            <li>Fresh food, not plastic- or can-stored.</li>
+            <li>Tea/coffee in metal or ceramic, not plastic.</li>
+            <li>Water in glass/steel bottles.</li>
+            <li>Microwave in glass, not plastic.</li>
+            <li>Metal/ceramic plates.</li>
+            <li>Cotton toys, not plastic.</li>
           </ul>
           <figure data-fig="m2-bpa-steps"></figure>
         ` }
@@ -271,25 +268,25 @@ CHUNK({
       source: 'Lecture W2 (Chemical hazards: BPA, mercury), pages 4–6',
       tabs: [
         { title: 'Heavy metals', html: `
-          <p class="lead"><b>Heavy metal poisoning</b>: excess exposure to a heavy metal that disturbs normal body function.</p>
+          <p class="lead"><b>Heavy metal poisoning</b>: excess heavy metal disturbing body function.</p>
           <ul>
-            <li>Examples: <b>lead, mercury, arsenic, cadmium, chromium</b>.</li>
-            <li>Exposure via diet, medicines, environment, work or play; enters through <b>skin, inhalation or ingestion</b>.</li>
-            <li>Toxicity can be <b>acute</b> (sudden, severe) or <b>chronic</b> (over time).</li>
+            <li><b>Lead, mercury, arsenic, cadmium, chromium</b>.</li>
+            <li>Via diet, medicines, environment, work, play; through <b>skin, inhalation, ingestion</b>.</li>
+            <li><b>Acute</b> (sudden, severe) or <b>chronic</b> (over time).</li>
           </ul>
         ` },
         { title: 'Mercury basics', html: `
           <ul>
-            <li>A heavy metal of the <b>transition series</b>; a <b>liquid at room temperature</b> with high vapour pressure, released as <b>vapour</b>.</li>
-            <li>Three forms: <b>elemental, organic, inorganic</b>, each with its own toxicity.</li>
-            <li>Common oxidation states: <b>+1 and +2</b>.</li>
-            <li><b>Methylmercury</b> is the commonest organic form, made when microbes in soil and water <b>methylate inorganic mercury</b>.</li>
-            <li>Ubiquitous, so plants, animals and humans can hardly avoid exposure.</li>
+            <li><b>Transition series</b> metal; <b>liquid at room temperature</b>, high vapour pressure, released as <b>vapour</b>.</li>
+            <li>Three forms: <b>elemental, organic, inorganic</b>; differing toxicity.</li>
+            <li>Oxidation states: <b>+1, +2</b>.</li>
+            <li><b>Methylmercury</b>: commonest organic form; microbes <b>methylate inorganic mercury</b>.</li>
+            <li>Ubiquitous; exposure hard to avoid.</li>
           </ul>
           <figure data-fig="m2-mercury-cycle"></figure>
         ` },
         { title: 'Uses and sources', html: `
-          <p><b>Uses</b>: electrical (switches, thermostats, batteries), dental fillings, caustic soda production, nuclear reactors, anti-fungal agents for wood, solvent for reactive and precious metals.</p>
+          <p><b>Uses</b>: switches, thermostats, batteries, dental fillings, caustic soda, nuclear reactors, wood anti-fungals, solvent for reactive/precious metals.</p>
           <table class="tbl">
             <thead><tr><th>Use (pie chart)</th><th>Share</th></tr></thead>
             <tbody>
@@ -303,37 +300,37 @@ CHUNK({
             </tbody>
           </table>
           <ul>
-            <li>Sources: accidents, pollution, food, dental care, industry and agriculture (non-ferrous metal and <b>cement</b> production).</li>
-            <li>Chronic low-level exposure: <b>dental amalgams (50% elemental mercury)</b> and <b>fish</b>.</li>
-            <li>Also: contaminated air, spills, broken <b>fluorescent lamps</b>.</li>
-            <li>Human releases: <b>burning coal (half of atmospheric mercury)</b> and <b>gold mining</b>.</li>
-            <li>In water, algae and bacteria methylate it; it <b>bioaccumulates in fish</b> and reaches humans.</li>
-            <li>Most absorbed species: <b>Hg(0)</b> and <b>methylmercury</b>.</li>
+            <li>Sources: accidents, pollution, food, dental care, industry, agriculture (non-ferrous metals, <b>cement</b>).</li>
+            <li>Chronic low-level: <b>dental amalgams (50% elemental mercury)</b>, <b>fish</b>.</li>
+            <li>Also: air, spills, broken <b>fluorescent lamps</b>.</li>
+            <li>Human releases: <b>coal burning (half of atmospheric mercury)</b>, <b>gold mining</b>.</li>
+            <li>Algae/bacteria methylate it; <b>bioaccumulates in fish</b>.</li>
+            <li>Most absorbed: <b>Hg(0)</b>, <b>methylmercury</b>.</li>
           </ul>
         ` },
         { title: 'In the body', html: `
           <ol>
-            <li>Elemental vapour is highly <b>lipophilic</b>: absorbed through the lungs and mouth lining.</li>
-            <li>In blood it crosses cell membranes, the <b>blood-brain barrier</b> and the <b>placental barrier</b>.</li>
-            <li>Inside cells it is oxidised to the reactive <b>+2 state</b>.</li>
-            <li>Methylmercury from fish is absorbed in the gut (lipid-soluble) and also crosses both barriers.</li>
-            <li>Very low excretion: it accumulates in <b>kidneys, nerve tissue and liver</b>: gut toxicity, neurotoxicity, nephrotoxicity.</li>
+            <li>Elemental vapour <b>lipophilic</b>: absorbed via lungs, mouth lining.</li>
+            <li>Crosses cell membranes, <b>blood-brain barrier</b>, <b>placental barrier</b>.</li>
+            <li>Oxidised in cells to reactive <b>+2</b>.</li>
+            <li>Methylmercury (fish): gut-absorbed, crosses both barriers.</li>
+            <li>Low excretion; accumulates in <b>kidneys, nerve tissue, liver</b>: gut toxicity, neurotoxicity, nephrotoxicity.</li>
           </ol>
-          <div class="note exam">Mechanism: mercury <b>binds free thiol (–SH) groups</b> of cysteine residues. Target organ: the <b>brain</b>.</div>
+          <div class="note exam">Binds <b>free thiol (–SH) groups</b> of cysteine. Target organ: <b>brain</b>.</div>
         ` },
         { title: 'Effects and treatment', html: `
           <ul>
-            <li>Damages nerves, kidneys and muscles; neurotoxic: microtubule destruction, mitochondrial damage, lipid peroxidation.</li>
-            <li>Symptoms depend on type, dose and duration: peripheral neuropathy, <b>pink skin</b>, swelling, desquamation (peeling).</li>
+            <li>Damages nerves, kidneys, muscles; microtubule destruction, mitochondrial damage, lipid peroxidation.</li>
+            <li>Symptoms (by type, dose, duration): peripheral neuropathy, <b>pink skin</b>, swelling, desquamation (peeling).</li>
             <li>High exposure: <b>Minamata disease</b>.</li>
-            <li><b>Acrodynia (pink disease)</b>: skin turns pink and peels; kidney problems; decreased intelligence.</li>
+            <li><b>Acrodynia (pink disease)</b>: pink peeling skin, kidney problems, decreased intelligence.</li>
           </ul>
           <h4>Prevention and treatment</h4>
           <ul>
-            <li>Remove or reduce exposure.</li>
-            <li>Spills: apply <b>powdered sulfur</b>, forming a solid that is easy to dispose of.</li>
-            <li>First: <b>decontaminate</b>: remove clothes, wash skin with soap and water, flush eyes with saline.</li>
-            <li><b>Chelation therapy</b> with <b>DMSA</b> and other sulfur-based compounds for inorganic and severe poisoning.</li>
+            <li>Remove/reduce exposure.</li>
+            <li>Spills: <b>powdered sulfur</b> → easy-to-dispose solid.</li>
+            <li><b>Decontaminate</b>: remove clothes, soap-wash skin, saline eye flush.</li>
+            <li><b>Chelation</b>: <b>DMSA</b>, other sulfur compounds (inorganic, severe).</li>
           </ul>
         ` }
       ],
@@ -363,72 +360,72 @@ CHUNK({
       source: 'Lecture W2S5 (Environmental hazards), pages 9–14',
       tabs: [
         { title: 'Types', html: `
-          <p class="lead"><b>Biological hazards</b> come from biological agents (microorganisms, toxins, allergens) that can infect, poison or sensitise living things.</p>
+          <p class="lead"><b>Biological hazards</b>: microorganisms, toxins, allergens that infect, poison or sensitise.</p>
           <table class="tbl">
             <thead><tr><th>Type</th><th>Examples</th><th>Spread</th></tr></thead>
             <tbody>
               <tr><td>Viral</td><td>COVID-19, dengue, Ebola, HIV, influenza, hepatitis</td><td>Airborne, droplets, blood, vectors</td></tr>
-              <tr><td>Bacterial</td><td>TB, cholera, typhoid, plague</td><td>Air, water, food, direct contact</td></tr>
+              <tr><td>Bacterial</td><td>TB, cholera, typhoid, plague</td><td>Air, water, food, contact</td></tr>
               <tr><td>Parasitic</td><td>Malaria, filariasis, toxoplasmosis, leishmaniasis</td><td>Vectors, water, food</td></tr>
-              <tr><td>Fungal</td><td>Candidiasis, aspergillosis, dermatophytosis</td><td>Airborne spores, contact, immunocompromised</td></tr>
-              <tr><td>Prion</td><td>CJD, BSE (mad cow)</td><td>Contaminated food, medical procedures</td></tr>
-              <tr><td>Biological toxins</td><td>Aflatoxin, botulinum, mycotoxins</td><td>Contaminated food, environment</td></tr>
+              <tr><td>Fungal</td><td>Candidiasis, aspergillosis, dermatophytosis</td><td>Spores, contact, immunocompromised</td></tr>
+              <tr><td>Prion</td><td>CJD, BSE (mad cow)</td><td>Food, medical procedures</td></tr>
+              <tr><td>Biological toxins</td><td>Aflatoxin, botulinum, mycotoxins</td><td>Food, environment</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Malaria', html: `
-          <p class="lead">Parasitic disease caused by <b><em>Plasmodium</em></b> protozoa, spread by bites of infected <b>female <em>Anopheles</em></b> mosquitoes. WHO 2022: <b>249 million cases, 608,000 deaths</b>, 76% of deaths in children under 5 in sub-Saharan Africa.</p>
+          <p class="lead"><b><em>Plasmodium</em></b> protozoa via infected <b>female <em>Anopheles</em></b>. WHO 2022: <b>249 million cases, 608,000 deaths</b>; 76% of deaths under-5s in sub-Saharan Africa.</p>
           <table class="tbl">
             <tbody>
               <tr><td><em>P. falciparum</em></td><td><b>Most lethal</b>: cerebral malaria, severe anaemia; <b>&gt;90% of deaths</b></td></tr>
-              <tr><td><em>P. vivax</em></td><td><b>Most widespread</b>; relapses years later (liver <b>hypnozoites</b>); South Asia, Latin America</td></tr>
+              <tr><td><em>P. vivax</em></td><td><b>Most widespread</b>; relapses (liver <b>hypnozoites</b>); South Asia, Latin America</td></tr>
               <tr><td><em>P. malariae</em></td><td>Chronic, rare; kidney damage</td></tr>
               <tr><td><em>P. ovale</em></td><td>West Africa; relapses like vivax</td></tr>
-              <tr><td><em>P. knowlesi</em></td><td>Zoonotic, from macaques in Southeast Asia; can be fatal</td></tr>
+              <tr><td><em>P. knowlesi</em></td><td>Zoonotic, macaques, Southeast Asia; can be fatal</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Malaria cycle', html: `
           <div class="steps">
-            <div><b>Liver stage (exo-erythrocytic)</b>: mosquito injects sporozoites → liver cells → multiply → release merozoites (<b>7–10 days</b>).</div>
-            <div><b>Blood stage (erythrocytic)</b>: merozoites infect RBCs → ring → trophozoite → schizont → RBCs burst; repeats every <b>48–72 h</b> (fever spikes).</div>
-            <div><b>Gametocytes</b>: taken up by a mosquito → fertilisation in its gut → oocyst → sporozoites in salivary glands → next human.</div>
+            <div><b>Liver stage (exo-erythrocytic)</b>: sporozoites → liver cells → merozoites (<b>7–10 days</b>).</div>
+            <div><b>Blood stage (erythrocytic)</b>: RBCs → ring → trophozoite → schizont → burst; every <b>48–72 h</b> (fever spikes).</div>
+            <div><b>Gametocytes</b>: mosquito gut fertilisation → oocyst → sporozoites in salivary glands → next human.</div>
           </div>
           <h4>Symptoms</h4>
           <ul>
-            <li>Fever <b>39–41°C</b> with chills in <b>48-h cycles</b>; haemolytic <b>anaemia</b> (RBCs destroyed, so weakness, pallor, fatigue); <b>splenomegaly</b>, an enlarged spleen from the extra RBC destruction and immune activation.</li>
-            <li>Severe (falciparum): cerebral malaria (coma, seizures), Hb &lt;7 g/dL, respiratory distress, hypoglycaemia, organ failure; fatal within <b>24 h</b> untreated.</li>
+            <li>Fever <b>39–41°C</b>, chills, <b>48-h cycles</b>; haemolytic <b>anaemia</b> (weakness, pallor); <b>splenomegaly</b> (enlarged spleen).</li>
+            <li>Severe (falciparum): cerebral malaria (coma, seizures), Hb &lt;7 g/dL, respiratory distress, hypoglycaemia, organ failure; fatal in <b>24 h</b> untreated.</li>
             <li>Pregnancy: placental malaria, maternal death, low birth weight, stillbirth.</li>
           </ul>
-          <div class="note heads-up">The lecture writes "oocyte" in the mosquito stage; the mosquito-gut stage is usually called an <b>oocyst</b>.</div>
+          <div class="note heads-up">Lecture writes "oocyte"; correct term is <b>oocyst</b>.</div>
         ` },
         { title: 'Malaria control', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>ITNs</b></td><td>Cut transmission by <b>50%</b>; LLINs last <b>3–5 years</b></td></tr>
-              <tr><td><b>IRS</b></td><td>Residual insecticide (DDT, pyrethroids) on indoor walls</td></tr>
+              <tr><td><b>ITNs</b></td><td>Cut transmission <b>50%</b>; LLINs last <b>3–5 years</b></td></tr>
+              <tr><td><b>IRS</b></td><td>Indoor residual insecticide (DDT, pyrethroids)</td></tr>
               <tr><td>Larval source management</td><td>Drain stagnant water; <em>Bacillus thuringiensis israelensis</em></td></tr>
-              <tr><td><b>ACTs</b></td><td>First-line WHO treatment: artesunate + amodiaquine/lumefantrine</td></tr>
-              <tr><td>Chemoprophylaxis</td><td>Chloroquine, doxycycline, Malarone for travellers</td></tr>
-              <tr><td><b>RTS,S/AS01 (Mosquirix)</b></td><td>First WHO-approved vaccine (<b>2021</b>); 30–40% efficacy vs severe malaria in children</td></tr>
-              <tr><td><b>R21/Matrix-M</b></td><td>Second vaccine (<b>2023</b>, Oxford-Serum Institute); 75%+ efficacy in trials</td></tr>
+              <tr><td><b>ACTs</b></td><td>WHO first-line: artesunate + amodiaquine/lumefantrine</td></tr>
+              <tr><td>Chemoprophylaxis</td><td>Chloroquine, doxycycline, Malarone (travellers)</td></tr>
+              <tr><td><b>RTS,S/AS01 (Mosquirix)</b></td><td>First WHO vaccine (<b>2021</b>); 30–40% vs severe malaria in children</td></tr>
+              <tr><td><b>R21/Matrix-M</b></td><td>Second (<b>2023</b>, Oxford-Serum Institute); 75%+ in trials</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'COVID-19', html: `
-          <p class="lead">Caused by <b>SARS-CoV-2</b>, a betacoronavirus first found in <b>Wuhan, December 2019</b>. WHO declared a pandemic on <b>11 March 2020</b>. By 2024: <b>700+ million cases</b>, ~<b>7 million</b> official deaths (true toll estimated 15–20 million).</p>
+          <p class="lead"><b>SARS-CoV-2</b> (betacoronavirus), <b>Wuhan, December 2019</b>; pandemic <b>11 March 2020</b>. By 2024: <b>700+ million cases</b>, ~<b>7 million</b> deaths (true 15–20 million).</p>
           <ul>
-            <li>Single-stranded <b>positive-sense RNA</b> virus, genome ~<b>30 kb</b>, enveloped, crown of <b>spike (S)</b> proteins.</li>
-            <li>Spike binds <b>ACE2</b> receptors (lung, heart, kidney, gut); S1 binds, S2 fuses membranes, <b>TMPRSS2</b> primes entry.</li>
-            <li>RNA-dependent RNA polymerase (<b>RdRp</b>) copies the genome; blocked by <b>Remdesivir</b>.</li>
-            <li>Spread: mainly <b>airborne aerosols</b> indoors; droplets within 1 m; surfaces (fomites) matter less.</li>
-            <li>Incubation 2–14 days (original), 1–3 days (Omicron). <b>R₀</b>: original ~2–3, Delta ~5–6, Omicron ~9–12.</li>
+            <li><b>Positive-sense ssRNA</b>, ~<b>30 kb</b>, enveloped, <b>spike (S)</b> crown.</li>
+            <li>Spike binds <b>ACE2</b> (lung, heart, kidney, gut); S1 binds, S2 fuses, <b>TMPRSS2</b> primes.</li>
+            <li><b>RdRp</b> copies genome; blocked by <b>Remdesivir</b>.</li>
+            <li>Spread: mainly indoor <b>aerosols</b>; droplets within 1 m; fomites minor.</li>
+            <li>Incubation 2–14 days (original), 1–3 (Omicron). <b>R₀</b>: original ~2–3, Delta ~5–6, Omicron ~9–12.</li>
           </ul>
           <table class="tbl">
             <thead><tr><th>Severity</th><th>Share</th><th>Features</th></tr></thead>
             <tbody>
-              <tr><td>Asymptomatic</td><td>~35–45%</td><td>No symptoms, can still transmit</td></tr>
-              <tr><td>Mild/moderate</td><td>~50–55%</td><td>Fever, cough, fatigue, loss of smell, muscle pain</td></tr>
+              <tr><td>Asymptomatic</td><td>~35–45%</td><td>Can still transmit</td></tr>
+              <tr><td>Mild/moderate</td><td>~50–55%</td><td>Fever, cough, fatigue, smell loss, muscle pain</td></tr>
               <tr><td>Severe</td><td>~5%</td><td>Pneumonia, O₂ &lt;94%, hospital</td></tr>
               <tr><td>Critical</td><td>~1–2%</td><td>ARDS, septic shock, organ failure, ventilation</td></tr>
               <tr><td>Long COVID</td><td>10–35% of recovered</td><td>Fatigue, brain fog, breathlessness, tachycardia</td></tr>
@@ -442,24 +439,23 @@ CHUNK({
               <tr><td>Alpha (B.1.1.7)</td><td>UK, Dec 2020</td><td>~70% more transmissible</td></tr>
               <tr><td>Beta (B.1.351)</td><td>South Africa, Dec</td><td>Lower vaccine effectiveness; not dominant</td></tr>
               <tr><td>Delta (B.1.617.2)</td><td>India, Oct 2020</td><td>Most severe wave; 50%+ more hospitalisation</td></tr>
-              <tr><td>Omicron (B.1.1.529)</td><td>South Africa, Nov</td><td>~10× more transmissible, immune evasion, milder; BA.4, BA.5, XBB</td></tr>
+              <tr><td>Omicron (B.1.1.529)</td><td>South Africa, Nov</td><td>~10× transmissible, immune evasion, milder; BA.4, BA.5, XBB</td></tr>
             </tbody>
           </table>
           <ul>
             <li><b>Vaccines</b>: mRNA (Pfizer-BioNTech, Moderna: 90%+ vs original), viral vector (AstraZeneca, J&amp;J), inactivated (Covaxin, Sinovac), protein subunit (Novavax).</li>
-            <li><b>NPIs</b>: masks (N95 cuts aerosol inhalation &gt;90%), distancing, HEPA filters, ventilation.</li>
-            <li><b>Antivirals</b>: Paxlovid (89% fewer hospitalisations), Remdesivir, Molnupiravir. <b>Monoclonal antibodies</b> (neutralising antibodies) were largely ineffective against Omicron subvariants.</li>
+            <li><b>NPIs</b>: masks (N95 cuts aerosol inhalation &gt;90%), distancing, HEPA, ventilation.</li>
+            <li><b>Antivirals</b>: Paxlovid (89% fewer hospitalisations), Remdesivir, Molnupiravir. <b>Monoclonal antibodies</b>: largely ineffective vs Omicron subvariants.</li>
             <li>Public health: contact tracing (<b>Aarogya Setu</b>), quarantine, border control, lab surveillance.</li>
           </ul>
           <h4>Controlling biological hazards</h4>
           <ul>
             <li><b>Integrated Vector Management</b> (ITNs + IRS + biological control).</li>
             <li>Vaccination: <b>Expanded Programme on Immunisation (EPI)</b>.</li>
-            <li><b>WASH</b> (water, sanitation, hygiene): the <b>single most effective</b> step against waterborne disease.</li>
+            <li><b>WASH</b> (water, sanitation, hygiene): <b>single most effective</b> vs waterborne disease.</li>
             <li>Surveillance: <b>IDSP, IHIP</b> (India), genomic sequencing, WHO <b>GOARN</b>.</li>
-            <li>Climate-smart health systems that plan for shifting disease geography.</li>
+            <li>Climate-smart health systems for shifting disease geography.</li>
           </ul>
-          <div class="note exam">Long answer on biological hazards: (1) definition and the six types with examples and mode of spread; (2) malaria: cause and vector, WHO 2022 numbers, the five <em>Plasmodium</em> species, life cycle, symptoms, control (ITNs, IRS, larval control, ACTs, vaccines); (3) COVID-19: virus and how it enters cells, spread, R₀, severity table, variants, vaccines, NPIs, antivirals, public health steps; (4) close with general control: IVM, EPI, WASH, surveillance.</div>
         ` }
       ],
       flashcards: [
@@ -491,53 +487,53 @@ CHUNK({
         { title: 'Other hazards', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Radiological</b></td><td>Nuclear accidents, poor disposal of radioactive waste, medical and industrial sources; cause cancer and genetic mutations</td></tr>
-              <tr><td><b>Climatic</b></td><td>Long-term climate change: global warming, heatwaves, sea-level rise, extreme weather</td></tr>
-              <tr><td><b>Technological</b></td><td>Oil spills, industrial accidents, chemical leaks, nuclear disasters; immediate and long-term effects</td></tr>
+              <tr><td><b>Radiological</b></td><td>Nuclear accidents, radioactive waste, medical/industrial sources; cancer, genetic mutations</td></tr>
+              <tr><td><b>Climatic</b></td><td>Long-term: global warming, heatwaves, sea-level rise, extreme weather</td></tr>
+              <tr><td><b>Technological</b></td><td>Oil spills, industrial accidents, chemical leaks, nuclear disasters; immediate + long-term</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">The lecture lists "Climatic hazards" twice (sections 5 and 7) and places the control strategies under the first one. It is one topic.</div>
+          <div class="note heads-up">Lecture lists "Climatic hazards" twice (sections 5, 7), control strategies under the first; one topic.</div>
         ` },
         { title: 'Causes', html: `
           <ol>
-            <li><b>Natural causes</b>: tectonic movement, volcanoes, climate variation; impact reduced by preparedness.</li>
-            <li><b>Industrialisation</b>: pollutants, toxic chemicals, heavy metals, greenhouse gases.</li>
-            <li><b>Urbanisation</b>: overcrowding, poor waste management, more pollution (vehicles, industry).</li>
-            <li><b>Deforestation</b>: lost biodiversity, climate change, erosion, floods, landslides.</li>
-            <li><b>Agriculture</b>: fertiliser and pesticide contamination; irrigation causes <b>salinisation and waterlogging</b>.</li>
-            <li><b>Climate change</b>: rising temperature, changing rainfall, more extreme weather.</li>
-            <li><b>Population growth</b>: overexploitation of resources.</li>
+            <li><b>Natural</b>: tectonics, volcanoes, climate variation; preparedness reduces impact.</li>
+            <li><b>Industrialisation</b>: pollutants, toxic chemicals, heavy metals, GHGs.</li>
+            <li><b>Urbanisation</b>: overcrowding, poor waste management, vehicle/industry pollution.</li>
+            <li><b>Deforestation</b>: biodiversity loss, climate change, erosion, floods, landslides.</li>
+            <li><b>Agriculture</b>: fertiliser/pesticide contamination; irrigation → <b>salinisation, waterlogging</b>.</li>
+            <li><b>Climate change</b>: rising temperature, changing rainfall, extreme weather.</li>
+            <li><b>Population growth</b>: resource overexploitation.</li>
           </ol>
         ` },
         { title: 'Effects', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Health</td><td>Respiratory disease (air), waterborne disease, cancer and neurological disorders (chemicals)</td></tr>
+              <tr><td>Health</td><td>Respiratory (air), waterborne disease, cancer, neurological (chemicals)</td></tr>
               <tr><td>Ecosystems</td><td>Habitat loss, lower biodiversity, altered food chains</td></tr>
-              <tr><td>Economic</td><td>Property and infrastructure loss, lower farm output, higher healthcare costs</td></tr>
-              <tr><td>Social</td><td>Displacement, lost livelihoods, more poverty and inequality</td></tr>
-              <tr><td>Global</td><td>Climate change and ozone depletion affect every country</td></tr>
+              <tr><td>Economic</td><td>Property/infrastructure loss, lower farm output, healthcare costs</td></tr>
+              <tr><td>Social</td><td>Displacement, lost livelihoods, poverty, inequality</td></tr>
+              <tr><td>Global</td><td>Climate change, ozone depletion</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Solutions', html: `
           <ul>
-            <li><b>Sustainable development</b>: efficient resource use, renewable energy, sustainable agriculture.</li>
-            <li><b>Pollution control</b>: emission control devices, treating industrial waste, clean technology.</li>
-            <li><b>Regulations</b>: enforce laws, set emission standards, monitor industry.</li>
-            <li><b>Disaster management</b>: early warning, preparedness, rehabilitation and recovery.</li>
-            <li><b>Public awareness</b>: reduce waste, save water and energy, buy eco-friendly products.</li>
-            <li><b>Technology</b>: AI monitoring, remote sensing and GIS, green chemistry.</li>
+            <li><b>Sustainable development</b>: efficient resources, renewables, sustainable agriculture.</li>
+            <li><b>Pollution control</b>: emission devices, industrial waste treatment, clean tech.</li>
+            <li><b>Regulations</b>: enforce laws, emission standards, monitor industry.</li>
+            <li><b>Disaster management</b>: early warning, preparedness, rehabilitation, recovery.</li>
+            <li><b>Public awareness</b>: less waste, save water/energy, eco-friendly products.</li>
+            <li><b>Technology</b>: AI monitoring, remote sensing, GIS, green chemistry.</li>
           </ul>
           <h4>Individual and community actions</h4>
           <ul>
-            <li>Don't heat food in plastic; use glass or steel.</li>
-            <li>Choose certified products: <b>Oeko-Tex</b> textiles, BPA-free labels, <b>EU Ecolabel</b>.</li>
-            <li>Regular <b>handwashing cuts infection spread by up to 50%</b>.</li>
-            <li>Educate on safe disposal of medicines, paints, solvents.</li>
-            <li>Support open-burning bans; never burn plastic or treated wood.</li>
+            <li>Heat food in glass/steel, not plastic.</li>
+            <li>Certified products: <b>Oeko-Tex</b> textiles, BPA-free, <b>EU Ecolabel</b>.</li>
+            <li><b>Handwashing cuts infection spread up to 50%</b>.</li>
+            <li>Safe disposal of medicines, paints, solvents.</li>
+            <li>Open-burning bans; never burn plastic or treated wood.</li>
           </ul>
-          <div class="note exam">Overall answer: <b>precautionary regulation + green chemistry substitution + international treaties + WASH + vaccination + individual choices</b>.</div>
+          <div class="note exam">Overall: <b>precautionary regulation + green chemistry substitution + international treaties + WASH + vaccination + individual choices</b>.</div>
         ` }
       ],
       flashcards: [

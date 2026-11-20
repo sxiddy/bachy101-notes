@@ -10,33 +10,33 @@ CHUNK({
       source: 'Lecture W4 (Forest and Wildlife Acts), pages 1–4',
       tabs: [
         { title: 'Background', html: `
-          <p class="lead">India holds nearly <b>8% of the world's species</b> on just <b>2.4% of the Earth's land</b>. By the 1960s and 70s that wealth was under threat. Two laws form a <b>two-shield system</b>: the Forest Act protects the <b>habitat</b>, the Wildlife Act protects the <b>inhabitants</b>.</p>
+          <p class="lead">India: <b>8% of world's species</b> on <b>2.4% of Earth's land</b>. <b>Two-shield system</b>: Forest Act = <b>habitat</b>, Wildlife Act = <b>inhabitants</b>.</p>
           <ul>
-            <li>Before 1980, <b>state governments</b> could divert forest land for any purpose: mining, farming, roads, industry.</li>
-            <li>Result: millions of hectares lost in two decades; soil erosion, floods, biodiversity collapse.</li>
-            <li><b>Himalayan deforestation</b> caused severe floods in Uttar Pradesh and Bihar.</li>
-            <li>Scientific outcry and public pressure pushed the Centre to act.</li>
+            <li>Before 1980, <b>state governments</b> could divert forest for mining, farming, roads, industry.</li>
+            <li>Millions of hectares lost in two decades; erosion, floods, biodiversity collapse.</li>
+            <li><b>Himalayan deforestation</b>: floods in Uttar Pradesh and Bihar.</li>
+            <li>Scientific outcry, public pressure.</li>
           </ul>
-          <div class="note example">The lecture's thought exercise: you are a state Chief Minister in 1975, and a mining company promises tax revenue and thousands of jobs if you clear a stretch of forest. No national law stopped you. That was the reality before 1980, and it is exactly the power the Act took away from the states.</div>
-          <div class="note exam">Central objective: the Act <b>took away the states' unilateral power</b> to divert forests and gave that authority to the <b>Central Government</b>.</div>
-          <p>Objectives: stop indiscriminate diversion; require prior Central approval; require compensatory plantation and a deposit when diversion is allowed; keep biodiversity, water catchments and forests as <b>carbon sinks</b>.</p>
+          <div class="note example">Thought exercise: a 1975 Chief Minister could clear forest for a mining company's revenue and jobs; no national law stopped it.</div>
+          <div class="note exam">Central objective: <b>took away states' unilateral power</b> to divert forests; gave it to the <b>Central Government</b>.</div>
+          <p>Objectives: stop diversion; prior Central approval; compensatory plantation and deposit; biodiversity, catchments, forests as <b>carbon sinks</b>.</p>
         ` },
         { title: 'Key provisions', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Section 2</b></td><td>The heart of the Act. No state or authority can allow <b>non-forest use</b> of forest land (mining, roads, dams, industry, agriculture) without <b>prior Central Government approval</b>. Like a mandatory NOC from New Delhi</td></tr>
-              <tr><td><b>Advisory Committee</b></td><td>Forestry and ecology experts advise the Centre, so decisions are science-driven</td></tr>
-              <tr><td><b>Compensatory afforestation</b></td><td>Plant trees on an <b>equal area of non-forest land</b>, or <b>twice the area of degraded forest</b>. Funds go to <b>CAMPA</b> (Compensatory Afforestation Fund)</td></tr>
+              <tr><td><b>Section 2</b></td><td>Heart of the Act: no <b>non-forest use</b> (mining, roads, dams, industry, agriculture) without <b>prior Central Government approval</b> (NOC from New Delhi)</td></tr>
+              <tr><td><b>Advisory Committee</b></td><td>Forestry/ecology experts advise the Centre</td></tr>
+              <tr><td><b>Compensatory afforestation</b></td><td><b>Equal area of non-forest land</b>, or <b>twice the area of degraded forest</b>; funds to <b>CAMPA</b> (Compensatory Afforestation Fund)</td></tr>
             </tbody>
           </table>
-          <p>Five provisions in short, all needing Central approval: diverting forest land; <b>de-reserving</b> reserved forests; leasing or assigning forest land to private bodies; clearing naturally grown trees; plus compensatory afforestation when diversion is approved.</p>
-          <div class="note heads-up">New plantations are <b>not a true substitute</b> for an ancient forest: the species, soil microbes and interactions built over centuries can't be replanted.</div>
+          <p>Need Central approval: diverting forest; <b>de-reserving</b> reserved forests; leasing to private bodies; clearing natural trees; plus compensatory afforestation.</p>
+          <div class="note heads-up">Plantations are <b>not a true substitute</b> for ancient forest.</div>
         ` },
         { title: 'Judgment and amendments', html: `
           <ul>
-            <li><b>Godavarman judgment, 1996</b>: the Supreme Court held the Act covers <b>all land that is forest in the dictionary sense</b>, including land never officially classified as forest. This blocked escape through technical classification.</li>
-            <li><b>1992 amendment</b>: allowed some activities (transmission lines, seismic surveys, exploration and drilling, hydroelectric projects) with <b>no or minimal tree felling</b>, still only with prior Central approval. It aimed to <b>balance development and conservation</b> by allowing only carefully scrutinised projects. States still could not approve on their own, and forest conservation stayed the primary objective.</li>
-            <li><b>2023 amendment</b>: renamed the Act; coverage starts from <b>October 1980</b>; faster approvals for <b>border infrastructure and linear projects</b>. Welcomed by developers, criticised by environmentalists.</li>
+            <li><b>Godavarman judgment, 1996</b>: SC: Act covers <b>all forest in the dictionary sense</b>, even if never officially classified.</li>
+            <li><b>1992 amendment</b>: transmission lines, seismic surveys, drilling, hydroelectric projects with <b>no or minimal felling</b>, with prior Central approval; <b>balance development and conservation</b>; states still cannot approve alone.</li>
+            <li><b>2023 amendment</b>: renamed; coverage from <b>October 1980</b>; faster <b>border infrastructure and linear projects</b>. Developers welcomed, environmentalists criticised.</li>
           </ul>
         ` }
       ],
@@ -63,7 +63,7 @@ CHUNK({
       source: 'Lecture W4 (Forest and Wildlife Acts), pages 4–6',
       tabs: [
         { title: 'Background', html: `
-          <p class="lead">By the early 1970s the Bengal tiger, Asiatic lion and Indian rhino were near extinction. Hunting was open, trade in ivory, tiger skins and rhino horn was profitable, and state laws were a weak patchwork. Tigers fell to <b>fewer than 2,000 by 1972</b>.</p>
+          <p class="lead">Early 1970s: Bengal tiger, Asiatic lion, Indian rhino near extinction; open hunting; ivory, tiger skin, rhino horn trade; weak state laws. Tigers <b>fewer than 2,000 by 1972</b>.</p>
           <p>Aims of the Act:</p>
           <ul>
             <li>One <b>uniform national law</b> in place of state laws.</li>
@@ -76,11 +76,11 @@ CHUNK({
         { title: 'Key provisions', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Schedules</b></td><td>The backbone. Higher schedule, stronger protection. <b>Four schedules after the 2022 amendment</b>. <b>Schedule I</b>: tiger, elephant, rhinoceros, snow leopard, great Indian bustard. Hunting, trading or even disturbing a Schedule I animal is a <b>serious criminal offence</b></td></tr>
-              <tr><td><b>Hunting ban</b></td><td>Near-total. Hunting includes capturing, trapping, snaring, poisoning, even disturbing habitat. Exception: an animal that is an immediate danger to human life, with official permission. Shift from <b>regulate</b> to <b>prohibit</b></td></tr>
-              <tr><td><b>Trade</b></td><td>Trade in scheduled animals, parts, trophies, derivatives banned without an ownership certificate. The Act is India's tool for <b>CITES</b></td></tr>
+              <tr><td><b>Schedules</b></td><td>Backbone; higher schedule = stronger protection. <b>Four after 2022 amendment</b>. <b>Schedule I</b>: tiger, elephant, rhinoceros, snow leopard, great Indian bustard; even disturbing = <b>serious criminal offence</b></td></tr>
+              <tr><td><b>Hunting ban</b></td><td>Near-total; includes capturing, trapping, snaring, poisoning, disturbing habitat. Exception: danger to human life, with permission. <b>Regulate</b> to <b>prohibit</b></td></tr>
+              <tr><td><b>Trade</b></td><td>Banned without ownership certificate (parts, trophies, derivatives); India's tool for <b>CITES</b></td></tr>
               <tr><td><b>Enforcement</b></td><td><b>Wildlife Crime Control Bureau</b>: anti-poaching, anti-trafficking</td></tr>
-              <tr><td><b>Penalties</b></td><td>Schedule I offences: <b>3 to 7 years</b> plus fine; repeat offenders get mandatory minimum sentences, with no judicial discretion to go lower</td></tr>
+              <tr><td><b>Penalties</b></td><td>Schedule I offences: <b>3 to 7 years</b> plus fine; mandatory minimum for repeat offenders</td></tr>
             </tbody>
           </table>
         ` },
@@ -92,13 +92,12 @@ CHUNK({
           <p><b>Conservation and Community Reserves</b> were added by the <b>2002 amendment</b>; local communities share management. India has <b>over 900 protected areas</b>, about <b>5%</b> of its land.</p>
         ` },
         { title: 'CITES', html: `
-          <p><b>Convention on International Trade in Endangered Species of Wild Fauna and Flora</b>: a global treaty that controls international trade in wild plants and animals so trade doesn't threaten their survival.</p>
+          <p><b>Convention on International Trade in Endangered Species of Wild Fauna and Flora</b>: global treaty so trade doesn't threaten species' survival.</p>
           <ul>
             <li>Signed <b>1973</b>, in force <b>1975</b>.</li>
             <li>Secretariat in <b>Geneva</b>.</li>
             <li>India became a Party in <b>1976</b>.</li>
           </ul>
-          <div class="note exam"><p>For "Explain the Wildlife (Protection) Act, 1972": (1) the crisis (tigers, lions, rhinos near extinction, open hunting and trade, tigers below 2,000 by 1972); (2) the five aims, including Project Tiger 1973; (3) the key provisions: schedules (four after 2022, Schedule I animals), the hunting ban and what "hunting" includes, protected areas (national park vs sanctuary, 2002 reserves, 900+ areas, about 5% of land), trade control and CITES, enforcement by the Wildlife Crime Control Bureau, penalties of 3 to 7 years; (4) how it works with the Forest Act (10 km rule).</p></div>
         ` }
       ],
       flashcards: [
@@ -126,8 +125,8 @@ CHUNK({
       tabs: [
         { title: 'Together', html: `
           <ul>
-            <li>Forests are wildlife's habitat: protect the forest and you protect the wildlife.</li>
-            <li>A project that diverts forest land near a protected area triggers <b>both Acts</b>.</li>
+            <li>Forest = wildlife habitat.</li>
+            <li>Forest diversion near a protected area triggers <b>both Acts</b>.</li>
             <li>Projects within <b>10 km</b> of a national park or sanctuary need clearance from the <b>National Board for Wildlife</b>, chaired by the <b>Prime Minister</b>.</li>
             <li>The Supreme Court and NGT read both Acts together for ecosystem-level protection.</li>
           </ul>
@@ -143,7 +142,7 @@ CHUNK({
         { title: 'For engineers', html: `
           <ul>
             <li>Roads, railways, power lines, dams and pipelines on forest land need <b>Forest Clearance</b>.</li>
-            <li>Projects near protected areas need <b>Wildlife Board approval</b>; skipping it delays projects by months or years.</li>
+            <li>Projects near protected areas need <b>Wildlife Board approval</b>.</li>
             <li>EIAs must analyse forest and wildlife impacts under both Acts.</li>
             <li>Violations carry <b>criminal imprisonment</b>, not just administrative action.</li>
           </ul>

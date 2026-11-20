@@ -10,21 +10,21 @@ CHUNK({
       source: 'Lecture W2 (GM crops), slides 2–5',
       tabs: [
         { title: 'What they are', html: `
-          <p class="lead"><b>Genetically Modified (GM) crops</b> are plants whose <b>DNA has been altered using genetic engineering</b> to add desirable traits that do not occur naturally in the species.</p>
+          <p class="lead"><b>Genetically Modified (GM) crops</b> : <b>DNA altered by genetic engineering</b> to add traits not natural to the species.</p>
           <ul>
-            <li>Genes can be moved <b>between unrelated species</b> with high precision.</li>
-            <li>Developed in response to rising <b>global food demand</b> and crop losses.</li>
-            <li>Motivations: higher <b>yield</b>, resistance to <b>pests and diseases</b>, tolerance to <b>harsh climates</b>.</li>
-            <li>Aim: efficient, sustainable agriculture that can feed a growing population.</li>
+            <li>Genes moved <b>between unrelated species</b>, precisely.</li>
+            <li>Response to rising <b>global food demand</b> and crop losses.</li>
+            <li>Aims: <b>yield</b>, <b>pest/disease</b> resistance, <b>harsh-climate</b> tolerance.</li>
+            <li>Goal: sustainable farming for a growing population.</li>
           </ul>
         ` },
         { title: 'Why agriculture needs them', html: `
           <ul>
-            <li>Global population is rising fast; food demand rises with it.</li>
-            <li>Traditional farming struggles to keep up, especially in <b>developing countries</b>.</li>
-            <li>Higher yields: better growth and fewer losses to pests and diseases.</li>
-            <li>Can withstand <b>drought, salinity and extreme temperatures</b>, which matters under climate change.</li>
-            <li>Supports sustainable agriculture: fewer chemical inputs, more productivity.</li>
+            <li>Rising population, rising food demand.</li>
+            <li>Traditional farming lags, esp. in <b>developing countries</b>.</li>
+            <li>Higher yields, fewer pest/disease losses.</li>
+            <li>Withstand <b>drought, salinity, extreme temperatures</b> (climate change).</li>
+            <li>Fewer chemical inputs, more productivity.</li>
           </ul>
         ` },
         { title: 'The science', html: `
@@ -33,17 +33,17 @@ CHUNK({
             <div><b>Insert it into the plant's genome</b> (DNA modified directly).</div>
             <div>The plant now shows a <b>targeted trait</b> it never had.</div>
           </div>
-          <p>Common traits: <b>pest resistance, herbicide tolerance, drought or disease resistance</b>. The method is precise: scientists control which gene goes in and where.</p>
-          <div class="note example"><b>Bt crops</b> carry a gene from a <b>soil bacterium</b> (<em>Bacillus thuringiensis</em>) whose protein kills specific insect pests but is safe for humans. Used in <b>cotton and corn</b>.</div>
+          <p>Common traits: <b>pest resistance, herbicide tolerance, drought or disease resistance</b>.</p>
+          <div class="note example"><b>Bt crops</b> : gene from <b>soil bacterium</b> <em>Bacillus thuringiensis</em>; protein kills specific pests, safe for humans. <b>Cotton and corn</b>.</div>
         ` },
         { title: 'GM vs conventional', html: `
           <table class="tbl">
             <thead><tr><th></th><th>Conventional breeding</th><th>GM technology</th></tr></thead>
             <tbody>
-              <tr><td>Method</td><td>Crossing plants over <b>many generations</b></td><td><b>Direct insertion</b> of specific genes into DNA</td></tr>
+              <tr><td>Method</td><td>Crossing, <b>many generations</b></td><td><b>Direct insertion</b> of genes</td></tr>
               <tr><td>Time</td><td>Slow</td><td><b>Much faster</b></td></tr>
-              <tr><td>Predictability</td><td>Less predictable outcomes</td><td>Targeted, consistent, often more effective in the field</td></tr>
-              <tr><td>Gene source</td><td>Same or related species only</td><td>Can use <b>unrelated species</b> (impossible by breeding)</td></tr>
+              <tr><td>Predictability</td><td>Less predictable</td><td>Targeted, consistent</td></tr>
+              <tr><td>Gene source</td><td>Same or related species only</td><td><b>Unrelated species</b> too</td></tr>
             </tbody>
           </table>
         ` }
@@ -72,44 +72,43 @@ CHUNK({
       tabs: [
         { title: 'Regulation', html: `
           <ul>
-            <li>GM crops are regulated by the <b>Ministry of Environment, Forest and Climate Change (MoEFCC)</b>.</li>
-            <li>The apex body is the <b>Genetic Engineering Appraisal Committee (GEAC)</b>, which evaluates GM crop safety.</li>
-            <li>Crops go through <b>multi-stage field trials</b> under strict monitoring.</li>
-            <li>Trials check <b>environmental impact, food safety and agronomic performance</b>.</li>
-            <li>Only after evaluation <b>and public consultation</b> can a crop be released commercially.</li>
+            <li>Regulator: <b>Ministry of Environment, Forest and Climate Change (MoEFCC)</b>.</li>
+            <li>Apex body: <b>Genetic Engineering Appraisal Committee (GEAC)</b>, evaluates safety.</li>
+            <li><b>Multi-stage field trials</b>, strict monitoring.</li>
+            <li>Check <b>environmental impact, food safety, agronomic performance</b>.</li>
+            <li>Release only after evaluation <b>+ public consultation</b>.</li>
           </ul>
         ` },
         { title: 'Status of crops', html: `
           <table class="tbl">
             <thead><tr><th>Crop</th><th>Status</th></tr></thead>
             <tbody>
-              <tr><td><b>Bt cotton</b></td><td>Introduced <b>2002</b>; the <b>only GM crop approved</b> for commercial cultivation in India</td></tr>
-              <tr><td><b>Bt brinjal</b></td><td>Cleared in <b>2009</b>, then put under a <b>moratorium</b> after public and scientific concerns</td></tr>
-              <tr><td><b>GM mustard</b></td><td>Still under regulatory review despite higher-yield potential</td></tr>
-              <tr><td>Rice, chickpea, maize</td><td>Research and testing phase</td></tr>
+              <tr><td><b>Bt cotton</b></td><td><b>2002</b>; <b>only GM crop approved</b> commercially</td></tr>
+              <tr><td><b>Bt brinjal</b></td><td>Cleared <b>2009</b>, then <b>moratorium</b> (public/scientific concerns)</td></tr>
+              <tr><td><b>GM mustard</b></td><td>Under review; higher-yield potential</td></tr>
+              <tr><td>Rice, chickpea, maize</td><td>Research/testing</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">The lecture says Bt brinjal and GM mustard are "not yet approved" and also that GM brinjal "was approved in 2009". Both fit: it was cleared in 2009 but never released, because of the moratorium.</div>
+          <div class="note heads-up">Bt brinjal: "approved 2009" and "not yet approved" both fit: cleared 2009, never released (moratorium).</div>
         ` },
         { title: 'How Bt crops work', html: `
           <ul>
-            <li>Contain a gene from <b><em>Bacillus thuringiensis</em></b> that makes a <b>protein toxic to specific insect pests</b>.</li>
-            <li>Targets <b>bollworms</b> and <b>corn borers</b>; harmless to humans and most beneficial insects.</li>
-            <li>Cuts <b>chemical insecticide</b> use: greener and cheaper farming.</li>
-            <li><b>Bt cotton</b> is the most grown Bt crop in India; <b>Bt maize</b> elsewhere.</li>
-            <li>Needs <b>continuous monitoring</b> to manage pest resistance.</li>
+            <li><b><em>Bacillus thuringiensis</em></b> gene makes a <b>protein toxic to specific pests</b>.</li>
+            <li>Targets <b>bollworms</b>, <b>corn borers</b>; harmless to humans, most beneficial insects.</li>
+            <li>Less <b>chemical insecticide</b>: greener, cheaper.</li>
+            <li>India: <b>Bt cotton</b>; elsewhere: <b>Bt maize</b>.</li>
+            <li><b>Continuous monitoring</b> for resistance.</li>
           </ul>
         ` },
         { title: 'Bt cotton impact', html: `
           <ul>
-            <li>Approved in <b>2002</b> to fight the <b>bollworm</b>, which caused severe losses.</li>
-            <li>Now covers <b>over 90%</b> of India's cotton-growing area.</li>
-            <li>Insecticide use against bollworm fell by <b>up to 50–60%</b>.</li>
-            <li>Higher yields and profits; India became the <b>largest cotton producer</b> in the world.</li>
-            <li>Later problems: <b>secondary pests</b> (whiteflies, aphids), <b>bollworm resistance</b> to the Bt toxin, regional yield stagnation.</li>
-            <li>Sustaining it needs monitoring, <b>integrated pest management</b>, crop rotation and <b>refuge planting</b>.</li>
+            <li>Approved <b>2002</b> against <b>bollworm</b>.</li>
+            <li><b>Over 90%</b> of India's cotton area.</li>
+            <li>Bollworm insecticide down <b>up to 50–60%</b>.</li>
+            <li>Higher yields/profits; India = world's <b>largest cotton producer</b>.</li>
+            <li>Problems: <b>secondary pests</b> (whiteflies, aphids), <b>bollworm resistance</b>, regional yield stagnation.</li>
+            <li>Fix: monitoring, <b>integrated pest management</b>, crop rotation, <b>refuge planting</b>.</li>
           </ul>
-          <div class="note exam">Long answer on GM crops in India: (1) regulation by MoEFCC through GEAC; (2) status: Bt cotton approved 2002, Bt brinjal cleared 2009 then put under moratorium, GM mustard under review; (3) how Bt crops work (<em>Bacillus thuringiensis</em> gene, toxin against bollworms and corn borers); (4) Bt cotton impact with numbers (over 90% of area, 50–60% less insecticide, largest producer); (5) later problems and how to sustain it.</div>
         ` }
       ],
       flashcards: [
@@ -137,42 +136,41 @@ CHUNK({
       tabs: [
         { title: 'Adoption', html: `
           <ul>
-            <li><b>Maharashtra</b> is a leading cotton state and among the <b>earliest large-scale adopters</b> after approval in <b>2002</b>.</li>
-            <li>By <b>2010, over 90%</b> of the state's cotton area was under Bt cotton.</li>
-            <li>Spread by <b>farmer-to-farmer communication</b> and visible early success.</li>
-            <li>Better yield and lower pesticide costs won over <b>small and marginal farmers</b>.</li>
-            <li><b>Private seed companies</b> promoted and distributed the seeds across villages.</li>
+            <li><b>Maharashtra</b> : leading cotton state, <b>earliest large-scale adopter</b> after <b>2002</b>.</li>
+            <li>By <b>2010, over 90%</b> of cotton area under Bt.</li>
+            <li>Spread by <b>farmer-to-farmer communication</b>, early success.</li>
+            <li>Won over <b>small and marginal farmers</b>.</li>
+            <li><b>Private seed companies</b> distributed seeds.</li>
             <li>Concerns: <b>seed pricing</b>, pest resistance, input dependency.</li>
           </ul>
         ` },
         { title: 'Income effects', html: `
           <ul>
-            <li>Early years: income rose through higher yields and lower pesticide spending.</li>
-            <li>Many farmers saved <b>25–50%</b> on pesticide costs.</li>
-            <li>Some small farmers moved from <b>subsistence to market-oriented</b> farming.</li>
-            <li>Gains went to living standards, <b>debt repayment</b> and farm equipment.</li>
-            <li>Later, rising seed prices and pest resistance cut profits; results varied with <b>region, rainfall and practices</b>.</li>
+            <li>Early: income up (yield, less pesticide).</li>
+            <li><b>25–50%</b> pesticide savings.</li>
+            <li>Shift <b>subsistence to market-oriented</b>.</li>
+            <li>Gains: living standards, <b>debt repayment</b>, equipment.</li>
+            <li>Later: seed prices, resistance cut profits; varied by <b>region, rainfall, practices</b>.</li>
           </ul>
         ` },
         { title: 'Problems', html: `
           <ol>
             <li><b>Bollworm resistance</b> to the Bt toxin.</li>
-            <li><b>Secondary pests</b> (whiteflies, aphids) needing extra pesticide.</li>
-            <li><b>Droughts and poor irrigation</b> in rainfed regions like <b>Vidarbha</b>.</li>
-            <li>High cost of <b>hybrid Bt seeds</b> squeezed small farmers.</li>
-            <li>Crop failures led to <b>rising debt</b>, especially in rainfed areas.</li>
+            <li><b>Secondary pests</b> (whiteflies, aphids).</li>
+            <li><b>Droughts, poor irrigation</b>: rainfed <b>Vidarbha</b>.</li>
+            <li>Costly <b>hybrid Bt seeds</b>.</li>
+            <li>Crop failures, <b>rising debt</b>.</li>
           </ol>
         ` },
         { title: 'Lessons', html: `
           <ul>
-            <li><b>GM technology alone</b> cannot solve complex farm problems.</li>
-            <li>It must be combined with <b>irrigation, soil care and pest management</b>.</li>
-            <li><b>Farmer education</b> matters: many did not know about refuge planting or preventing resistance.</li>
-            <li>Blanket, one-size-fits-all adoption gives uneven results and distress.</li>
-            <li>Needs <b>government support, crop insurance and fair seed pricing</b>.</li>
-            <li>Policy should be <b>balanced, science-based and farmer-centric</b>.</li>
+            <li><b>GM alone</b> is not enough.</li>
+            <li>Add <b>irrigation, soil care, pest management</b>.</li>
+            <li><b>Farmer education</b> (refuge planting, resistance).</li>
+            <li>One-size-fits-all adoption: uneven results.</li>
+            <li><b>Government support, crop insurance, fair seed pricing</b>.</li>
+            <li>Policy: <b>balanced, science-based, farmer-centric</b>.</li>
           </ul>
-          <div class="note exam">Long answer on the Maharashtra case study: (1) adoption: early adopter after 2002, over 90% of cotton area by 2010, how it spread; (2) income effects: 25–50% pesticide savings, shift to market farming; (3) problems: resistance, secondary pests, Vidarbha droughts, seed costs, debt; (4) lessons: GM alone is not enough, needs irrigation, pest management, farmer education, insurance and fair seed prices.</div>
         ` }
       ],
       flashcards: [
@@ -198,30 +196,29 @@ CHUNK({
       tabs: [
         { title: 'GM ornamentals', html: `
           <ul>
-            <li>GM is used in <b>ornamental plants</b> too, not just food and fibre crops.</li>
-            <li>Traits: better <b>colour, fragrance, shelf life</b> and <b>resistance to wilting</b>.</li>
-            <li>Famous examples: the <b>blue rose</b> (gene insertion) and <b>GM carnations</b> with longer vase life and new colours.</li>
-            <li><b>Japan, Australia and Colombia</b> have commercialised GM carnations and roses.</li>
+            <li>GM in <b>ornamental plants</b> too.</li>
+            <li>Traits: <b>colour, fragrance, shelf life</b>, <b>wilting resistance</b>.</li>
+            <li><b>Blue rose</b> (gene insertion); <b>GM carnations</b> (vase life, new colours).</li>
+            <li><b>Japan, Australia and Colombia</b> sell GM carnations/roses.</li>
           </ul>
-          <div class="note heads-up">One slide calls the <b>blue rose</b> the first commercially successful GM ornamental; another says <b>Japan introduced the first blue GM carnation</b>, followed by Australia's blue rose. Know both names: blue rose and blue carnation.</div>
+          <div class="note heads-up">Slides differ: <b>blue rose</b> = first commercial GM ornamental vs <b>Japan's blue GM carnation</b> first, then Australia's blue rose. Know both.</div>
         ` },
         { title: 'India', html: `
           <ul>
-            <li>Research is ongoing on GM <b>roses, marigolds and chrysanthemums</b>.</li>
-            <li>Approval rules for GM ornamentals are <b>more flexible</b> than for food crops.</li>
-            <li>With investment, India could become a key <b>GM floriculture exporter</b>.</li>
+            <li>Research: GM <b>roses, marigolds, chrysanthemums</b>.</li>
+            <li>Rules <b>more flexible</b> than for food crops.</li>
+            <li>Potential <b>GM floriculture exporter</b>.</li>
           </ul>
         ` },
         { title: 'Why florists gain', html: `
           <ul>
-            <li><b>Longer shelf life</b>: less waste in storage and transport, less restocking.</li>
-            <li>Novel colours and longer blooms attract buyers; exotic flowers sell at a <b>premium</b>.</li>
-            <li>Better fragrance and looks for standout, high-value arrangements that customers pay more for, especially at <b>weddings and events</b>.</li>
-            <li>Resistance to wilting and bruising: fewer losses, fewer replacements and complaints.</li>
-            <li><b>Year-round supply</b> helps meet seasonal, bulk and export orders.</li>
-            <li>Result: <b>better profit margins</b> and business sustainability.</li>
+            <li><b>Longer shelf life</b>: less waste, less restocking.</li>
+            <li>Novel colours sell at a <b>premium</b>.</li>
+            <li>Fragrance/looks: high-value arrangements, <b>weddings and events</b>.</li>
+            <li>Wilting/bruising resistance: fewer losses.</li>
+            <li><b>Year-round supply</b> for bulk/export orders.</li>
+            <li><b>Better profit margins</b>.</li>
           </ul>
-          <div class="note exam">Long answer on GM flowers: (1) GM is used in ornamentals as well as food crops, and the traits it adds; (2) examples: blue rose and GM carnations, and the countries selling them (Japan, Australia, Colombia); (3) India's research on roses, marigolds and chrysanthemums, flexible rules and export potential; (4) the benefits to florists, one line each.</div>
         ` }
       ],
       flashcards: [
@@ -248,15 +245,15 @@ CHUNK({
           <div class="vs">
             <div class="side"><h4>Economic</h4><ul>
               <li>More yield from the <b>same land</b>.</li>
-              <li>Lower pesticide and herbicide costs, higher net returns.</li>
-              <li>Small farmers move to market-oriented farming; more <b>stable income</b>.</li>
-              <li>Better quality and <b>shelf life</b>, fewer post-harvest losses.</li>
+              <li>Lower pesticide/herbicide costs.</li>
+              <li>Market-oriented farming; <b>stable income</b>.</li>
+              <li>Better <b>shelf life</b>, fewer post-harvest losses.</li>
               <li>Can carry <b>higher nutritional content</b>.</li>
             </ul></div>
             <div class="side"><h4>Environmental</h4><ul>
-              <li>Fewer chemicals: less <b>soil and water contamination</b>.</li>
-              <li>Less spraying: lower <b>greenhouse gas emissions</b> from machines and transport.</li>
-              <li>Higher productivity: <b>less pressure on forests</b> and habitats.</li>
+              <li>Less <b>soil/water contamination</b>.</li>
+              <li>Less spraying: lower <b>greenhouse gas emissions</b>.</li>
+              <li><b>Less pressure on forests</b>.</li>
               <li>Climate-resilient traits: drought and heat tolerance.</li>
               <li>Stable harvests: food security.</li>
             </ul></div>
@@ -265,30 +262,30 @@ CHUNK({
         { title: 'Risks', html: `
           <ul>
             <li><b>Cross-pollination</b> with non-GM or wild plants.</li>
-            <li>Overuse of herbicide-tolerant crops breeds <b>resistant weeds</b>, needing stronger chemicals.</li>
-            <li><b>Long-term health effects</b> still debated; no conclusive harm proven.</li>
-            <li><b>Patented seeds</b> must be bought every season, raising costs.</li>
+            <li>Herbicide-tolerant overuse: <b>resistant weeds</b>.</li>
+            <li><b>Long-term health effects</b> debated; no proven harm.</li>
+            <li><b>Patented seeds</b> bought every season.</li>
             <li><b>Loss of traditional crop diversity</b>.</li>
-            <li>Regulatory gaps and poor <b>labelling</b> cut consumer trust.</li>
+            <li>Regulatory gaps, poor <b>labelling</b>.</li>
           </ul>
         ` },
         { title: 'Social and ethical', html: `
           <ul>
-            <li><b>Corporate control</b> of seeds: monopoly and market exploitation.</li>
-            <li>Farmers dependent on patented seeds lose <b>autonomy</b>.</li>
-            <li>High seed costs widen the gap between smallholders and big farmers.</li>
-            <li><b>Cultural resistance</b> where traditional, organic or indigenous farming is valued.</li>
-            <li>Ethics of altering nature's genetic code <b>for profit</b>.</li>
-            <li><b>Public perception</b> is shaped by media, misinformation and low scientific literacy; fix with transparent labelling and education.</li>
+            <li><b>Corporate control</b> of seeds: monopoly.</li>
+            <li>Farmers lose <b>autonomy</b>.</li>
+            <li>Widens smallholder vs big farmer gap.</li>
+            <li><b>Cultural resistance</b> (organic/indigenous farming).</li>
+            <li>Ethics: altering genes <b>for profit</b>.</li>
+            <li><b>Public perception</b>: media, misinformation, low literacy; fix: labelling, education.</li>
           </ul>
         ` },
         { title: 'Global picture', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Wide adoption</td><td><b>USA, Brazil, Argentina</b>: strong regulation, high acceptance, food and export</td></tr>
-              <tr><td>Strict restrictions</td><td><b>European Union</b>: bans on most GM food crops (precautionary policy, public resistance)</td></tr>
-              <tr><td>Mixed</td><td>Developing nations, based on regulatory readiness, farmer needs and trade</td></tr>
-              <tr><td>India</td><td>At a <b>crossroads</b>; cautious yet progressive stance</td></tr>
+              <tr><td>Wide adoption</td><td><b>USA, Brazil, Argentina</b>: high acceptance, export</td></tr>
+              <tr><td>Strict restrictions</td><td><b>European Union</b>: bans most GM food (precautionary)</td></tr>
+              <tr><td>Mixed</td><td>Developing nations</td></tr>
+              <tr><td>India</td><td><b>Crossroads</b>; cautious yet progressive</td></tr>
             </tbody>
           </table>
         ` },
@@ -296,11 +293,10 @@ CHUNK({
           <ul>
             <li>New tools: <b>CRISPR and gene editing</b>.</li>
             <li>Traits in development: <b>drought tolerance, enhanced nutrition, nitrogen-use efficiency</b>.</li>
-            <li>Regulatory reforms to speed approval while keeping safety; <b>public-private partnerships</b>.</li>
-            <li>Possible upcoming approval: <b>GM mustard</b>.</li>
-            <li>Balance needs <b>strong regulation, transparent communication and education</b> to protect health, biodiversity and farmer welfare.</li>
+            <li>Faster approvals; <b>public-private partnerships</b>.</li>
+            <li>Possible next: <b>GM mustard</b>.</li>
+            <li>Balance: <b>strong regulation, transparent communication, education</b>.</li>
           </ul>
-          <div class="note exam">Long answer on GM crops, benefits vs risks: (1) economic benefits; (2) environmental benefits; (3) ecological and health risks; (4) social and ethical issues, including public perception; (5) the global picture (USA, Brazil, Argentina vs EU, India at a crossroads); (6) the future (CRISPR, new traits, GM mustard) and a balanced conclusion.</div>
         ` }
       ],
       flashcards: [

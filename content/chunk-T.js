@@ -10,18 +10,18 @@ CHUNK({
       source: 'Lecture W5 (Carbon Footprint), pages 1–4',
       tabs: [
         { title: 'Definition and scopes', html: `
-          <p class="lead">A <b>carbon footprint</b> is the total GHG emission caused <b>directly and indirectly</b> by a person, organisation, event, product or service, in <b>CO₂ equivalent (CO₂e)</b>. It grew out of the <b>ecological footprint</b> idea and became popular in the early 2000s.</p>
-          <p>It covers CO₂, methane (CH₄), nitrous oxide (N₂O) and fluorinated gases, all converted to CO₂e using their <b>Global Warming Potential</b>. Because CO₂e puts every gas on one scale, the footprint shows where emissions are largest and where cuts will help most.</p>
-          <p>Scopes come from the <b>Greenhouse Gas Protocol</b>, the most widely used international standard for measuring GHG emissions:</p>
+          <p class="lead"><b>Carbon footprint</b>: total GHG emission caused <b>directly and indirectly</b> by a person, organisation, event, product or service, in <b>CO₂ equivalent (CO₂e)</b>. Grew out of the <b>ecological footprint</b>; popular in the early 2000s.</p>
+          <p>Covers CO₂, CH₄, N₂O, fluorinated gases, converted to CO₂e by <b>Global Warming Potential</b>.</p>
+          <p>Scopes from the <b>Greenhouse Gas Protocol</b> (most widely used international standard):</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Scope 1</b></td><td><b>Direct emissions</b> from sources the organisation or person owns or controls, such as fuel burnt in a company's own boilers, furnaces and vehicles.</td></tr>
-              <tr><td><b>Scope 2</b></td><td><b>Indirect energy emissions</b> from making the electricity, heat or steam the organisation buys. The gas is released at the power plant, but it is counted to the consumer who used the energy.</td></tr>
-              <tr><td><b>Scope 3</b></td><td><b>Other indirect emissions</b> across the whole value chain: raw material extraction, manufacturing, transport, product use and end-of-life disposal. It is often the <b>largest share</b> of a product's footprint.</td></tr>
+              <tr><td><b>Scope 1</b></td><td><b>Direct emissions</b> from owned/controlled sources: own boilers, furnaces, vehicles.</td></tr>
+              <tr><td><b>Scope 2</b></td><td><b>Indirect energy emissions</b> from bought electricity, heat, steam; counted to the consumer, not the plant.</td></tr>
+              <tr><td><b>Scope 3</b></td><td><b>Other indirect emissions</b> across value chain: extraction, manufacturing, transport, use, disposal. Often the <b>largest share</b>.</td></tr>
             </tbody>
           </table>
           <div data-viz="carbon-scopes"></div>
-          <p>When you design a product, its footprint spans <b>all three scopes</b>: the materials you specify, the energy the product uses, and how it is thrown away at the end.</p>
+          <p>A product's footprint spans <b>all three scopes</b>.</p>
         ` },
         { title: 'GWP and footprints', html: `
           <p><b>GWP</b>: heat trapped by a gas relative to CO₂ over a time span, usually <b>100 years</b> (GWP100).</p>
@@ -31,7 +31,7 @@ CHUNK({
             <li>Some F-gases in the <b>thousands or tens of thousands</b>.</li>
           </ul>
           <p>Cutting methane gives fast near-term benefit.</p>
-          <p>Footprints can be worked out at <b>personal, national and global</b> scales. The global average hides huge gaps, which come from differences in energy sources, industry, consumption and lifestyle.</p>
+          <p>Scales: <b>personal, national, global</b>. Global average hides huge gaps (energy sources, industry, lifestyle).</p>
           <table class="tbl">
             <thead><tr><th>Who</th><th>t CO₂e per person per year</th></tr></thead>
             <tbody>
@@ -41,16 +41,15 @@ CHUNK({
               <tr><td>Many low-income countries</td><td>Under 1</td></tr>
             </tbody>
           </table>
-          <p>Largest absolute emitters: China, USA, India, EU, Russia. Per capita or by historical totals, the ranking shifts; India is one of the lowest per capita among major economies.</p>
+          <p>Largest absolute emitters: China, USA, India, EU, Russia. Per capita, India is among the lowest of major economies.</p>
         ` },
         { title: 'Measuring', html: `
           <ul>
-            <li><b>Life Cycle Assessment (LCA)</b>: the main engineering tool. Inventories all inputs and outputs from <b>cradle</b> (extraction) to <b>grave</b> (disposal), ideally <b>cradle to cradle</b> (reuse, recycling). Example: a smartphone's footprint covers mining, manufacture, shipping, charging and disposal.</li>
-            <li><b>Emission factors</b>: convert activity data (litres of fuel, kWh, tonne-km) into CO₂e. Published by IPCC, IEA and governments. India's electricity factor is high (coal) compared with France or Norway.</li>
-            <li><b>Standards</b>: GHG Protocol (corporations), <b>ISO 14064</b> (GHG inventories), <b>PAS 2050</b> (product footprint). Nations report to the UNFCCC using IPCC guidelines.</li>
+            <li><b>Life Cycle Assessment (LCA)</b>: main engineering tool; <b>cradle</b> (extraction) to <b>grave</b> (disposal), ideally <b>cradle to cradle</b> (reuse, recycling). Example: smartphone (mining, manufacture, shipping, charging, disposal).</li>
+            <li><b>Emission factors</b>: convert activity data (litres, kWh, tonne-km) to CO₂e; published by IPCC, IEA, governments. India's electricity factor high (coal) vs France, Norway.</li>
+            <li><b>Standards</b>: GHG Protocol (corporations), <b>ISO 14064</b> (GHG inventories), <b>PAS 2050</b> (product footprint). Nations report to UNFCCC using IPCC guidelines.</li>
           </ul>
-          <p>LCA lets engineers redesign a product to cut its footprint: lower-carbon materials, more efficient manufacturing, longer life, easier recycling. A calculator's answer is only as good as its <b>activity data</b> and how well the emission factors fit.</p>
-          <div class="note exam">For a long answer on carbon footprint: (1) the definition in CO₂e and which gases it covers; (2) GWP100 with the methane, N₂O and F-gas values; (3) Scopes 1, 2, 3 with one example each (GHG Protocol); (4) per-person figures (world 4, USA 14–16, India 2) and the top national emitters; (5) measuring: LCA cradle to grave (smartphone example), emission factors, and standards (GHG Protocol, ISO 14064, PAS 2050).</div>
+          <p>LCA guides redesign: lower-carbon materials, efficient manufacturing, longer life, easier recycling. Accuracy depends on <b>activity data</b> and fitting emission factors.</p>
         ` }
       ],
       flashcards: [
@@ -118,9 +117,9 @@ CHUNK({
       source: 'Lecture W5 (Carbon Footprint), pages 5–10',
       tabs: [
         { title: 'Energy and efficiency', html: `
-          <p class="lead">Mitigation strategies <b>cut emissions at source or enhance carbon sinks</b>. They fall into five areas: energy system change, energy efficiency, land use and natural sinks, industrial and technological fixes, and behaviour and policy.</p>
+          <p class="lead">Mitigation <b>cuts emissions at source or enhances carbon sinks</b>. Five areas: energy system, efficiency, land use and sinks, industrial/tech fixes, behaviour and policy.</p>
           <ul>
-            <li><b>Renewables</b>: the cornerstone. Solar PV levelised cost fell <b>over 90% since 2010</b>; now the cheapest new power in most places. Also hydro, geothermal, tidal. India: <b>500 GW</b> non-fossil by 2030. Building it needs civil engineers (sites, grid), electrical engineers (grid integration, storage) and mechanical engineers (turbines, panels).</li>
+            <li><b>Renewables</b>: cornerstone. Solar PV levelised cost fell <b>over 90% since 2010</b>; cheapest new power in most places. Also hydro, geothermal, tidal. India: <b>500 GW</b> non-fossil by 2030. Needs civil (sites, grid), electrical (integration, storage), mechanical (turbines, panels) engineers.</li>
             <li><b>Nuclear</b>: not renewable but low-carbon baseload; <b>small modular reactors</b> under development.</li>
             <li><b>Efficiency</b>: the IEA calls it the <b>"first fuel"</b>. Buildings: insulation, double or triple glazing, LEDs, smart thermostats, <b>heat pumps</b>. Industry: waste heat recovery, variable speed drives. Transport: fuel economy, aerodynamics, light materials.</li>
           </ul>
@@ -129,8 +128,8 @@ CHUNK({
           <table class="tbl">
             <tbody>
               <tr><td><b>CCS</b></td><td>Capture CO₂ at the source and store it in <b>depleted oil and gas reservoirs or saline aquifers</b>. Key for cement, steel, chemicals</td></tr>
-              <tr><td><b>CCU</b></td><td>Turn CO₂ into fuels, building materials, chemicals. Not permanent removal unless products lock it away</td></tr>
-              <tr><td><b>DAC</b></td><td><b>Direct Air Capture</b> from ambient air. Expensive and energy-hungry, but tackles residual or historical emissions</td></tr>
+              <tr><td><b>CCU</b></td><td>CO₂ into fuels, building materials, chemicals; not permanent unless locked away</td></tr>
+              <tr><td><b>DAC</b></td><td><b>Direct Air Capture</b> from ambient air; expensive, energy-hungry; for residual/historical emissions</td></tr>
             </tbody>
           </table>
           <ul>
@@ -141,16 +140,16 @@ CHUNK({
         ` },
         { title: 'Materials, transport, behaviour', html: `
           <ul>
-            <li><b>Circular economy</b> vs linear "take, make, dispose". Recycled aluminium needs about <b>95% less energy</b>. Design for disassembly, material substitution, buildings designed for deconstruction.</li>
-            <li><b>Transport</b>: EVs (zero tailpipe; low lifecycle emissions on a clean grid), <b>modal shift</b> (car to public transport, road freight to rail or coastal shipping), compact mixed-use cities. Fast EV growth is raising demand for charging points, battery factories and grid upgrades, all engineering work.</li>
-            <li><b>Demand side</b>: changing what people consume, often cheaper than supply-side fixes. Less ruminant meat (beef, lamb, dairy), since livestock are a big share of farm GHGs; cut food waste (about <b>one-third</b> of food is wasted); energy and carbon labels make the carbon cost of a choice visible.</li>
-            <li><b>Carbon pricing</b>: carbon taxes and emissions trading (<b>cap-and-trade</b>) are the main ways to put a price on carbon, which pushes businesses and people to shrink their footprints.</li>
+            <li><b>Circular economy</b> vs linear "take, make, dispose". Recycled aluminium needs about <b>95% less energy</b>. Design for disassembly, material substitution, deconstruction.</li>
+            <li><b>Transport</b>: EVs (zero tailpipe; low lifecycle emissions on clean grid), <b>modal shift</b> (car to public transport, road freight to rail/coastal shipping), compact mixed-use cities. EVs need charging points, battery factories, grid upgrades.</li>
+            <li><b>Demand side</b>: often cheaper than supply fixes. Less ruminant meat (beef, lamb, dairy); cut food waste (about <b>one-third</b> wasted); energy and carbon labels.</li>
+            <li><b>Carbon pricing</b>: carbon taxes and emissions trading (<b>cap-and-trade</b>).</li>
           </ul>
         ` },
         { title: 'Offsets and India', html: `
-          <p><b>Offsetting</b>: paying for equal reductions or removals elsewhere, such as renewables abroad, avoided deforestation under <b>REDD+</b>, cookstoves, DAC. Bought on voluntary markets or compliance schemes like the CDM.</p>
-          <div class="note exam">Credible offsets must be <b>additional, measurable, permanent and independently verified</b>. Offsets are a <b>complement, not a substitute</b>: cut emissions first, offset only unavoidable residuals.</div>
-          <p><b>India</b>: a fast-growing economy of over <b>1.4 billion</b> people that must balance growth, poverty reduction and energy access with cutting emissions. Low per capita but a top absolute emitter because of its population, not high-consumption lifestyles. Its plans sit in the <b>NAPCC</b> and its <b>NDC</b> under Paris. Commitments: cut GDP carbon intensity by 2030, <b>50%</b> non-fossil power capacity by 2030, <b>net zero by 2070</b>. Today's infrastructure choices lock in emissions for about <b>50 years</b>.</p>
+          <p><b>Offsetting</b>: paying for equal reductions elsewhere: renewables abroad, avoided deforestation (<b>REDD+</b>), cookstoves, DAC. Voluntary markets or compliance schemes (CDM).</p>
+          <div class="note exam">Credible offsets: <b>additional, measurable, permanent, independently verified</b>. A <b>complement, not a substitute</b>: offset only unavoidable residuals.</div>
+          <p><b>India</b>: over <b>1.4 billion</b> people; balances growth, poverty reduction, energy access with cuts. Low per capita, top absolute emitter (population, not lifestyle). Plans: <b>NAPCC</b> and <b>NDC</b> under Paris. Commitments: cut GDP carbon intensity by 2030, <b>50%</b> non-fossil capacity by 2030, <b>net zero by 2070</b>. Infrastructure locks in emissions for about <b>50 years</b>.</p>
         ` }
       ],
       flashcards: [

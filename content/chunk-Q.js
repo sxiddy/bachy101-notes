@@ -12,29 +12,29 @@ CHUNK({
         { title: 'Meaning', html: `
           <p class="lead"><b>Sustainable development</b> meets the needs of the present <b>without compromising the ability of future generations</b> to meet their own needs.</p>
           <ul>
-            <li><b>Limits</b>: not absolute, but set by today's technology and social organisation and by the biosphere's ability to absorb human impact. Both can be managed and improved.</li>
-            <li><b>Poverty</b>: widespread poverty is not inevitable. A world with endemic poverty is always prone to ecological and other disasters, so basic needs of all must be met.</li>
-            <li><b>Equity</b>: the poor must get a fair share of resources; helped by citizen participation and more democracy in international decisions.</li>
-            <li>The <b>affluent</b> must live within the planet's ecological means, for example in energy use.</li>
-            <li><b>Population</b> size and growth must match the ecosystem's changing productive potential.</li>
+            <li><b>Limits</b>: not absolute; set by technology, social organisation, biosphere's absorbing capacity; can be improved.</li>
+            <li><b>Poverty</b>: not inevitable; endemic poverty invites ecological disasters; meet basic needs.</li>
+            <li><b>Equity</b>: fair share for the poor; citizen participation, international democracy.</li>
+            <li>The <b>affluent</b> live within ecological means (e.g. energy).</li>
+            <li><b>Population</b> matched to ecosystem's productive potential.</li>
           </ul>
-          <div class="note exam">Sustainable development is <b>not a fixed state of harmony</b> but a <b>process of change</b>: resource use, investment, technology and institutions made consistent with future as well as present needs. Painful choices are needed.</div>
+          <div class="note exam"><b>Not a fixed state of harmony</b> but a <b>process of change</b> (resources, investment, technology, institutions); painful choices.</div>
         ` },
         { title: 'Genesis of SDGs', html: `
           <ol class="steps">
             <li><b>World Summit on Sustainable Development, Johannesburg</b>: renewed commitment through the <b>Johannesburg Plan of Implementation (JPOI)</b>.</li>
-            <li><b>2012</b>: outcome document <b>"The Future We Want"</b>. States reaffirmed all earlier commitments, agreed to build a set of SDGs on <b>Agenda 21</b> and the JPOI, and replaced the Commission for Sustainable Development with a <b>high-level political forum</b>.</li>
+            <li><b>2012</b>: outcome document <b>"The Future We Want"</b>: SDGs to build on <b>Agenda 21</b> and JPOI; Commission for Sustainable Development replaced by a <b>high-level political forum</b>.</li>
             <li><b>September 2015</b>: SDGs agreed at the <b>United Nations, New York</b>.</li>
           </ol>
         ` },
         { title: 'Environment and awareness', html: `
-          <p>Economic development and sound environmental management are <b>two sides of one agenda</b>: without environmental protection, development is undermined; without development, protection fails.</p>
-          <p><b>Awareness</b>: conservation and regeneration should not be seen as someone else's responsibility, because the results reach all of us across all age groups and social strata. India needs nationwide awareness and planned action.</p>
+          <p>Development and environmental management: <b>two sides of one agenda</b>.</p>
+          <p><b>Awareness</b>: conservation is everyone's responsibility; India needs nationwide awareness.</p>
           <ul>
-            <li>Causes of ignorance in India: large-scale <b>illiteracy</b>, poor orientation and training of officials and leaders, no organised effort by the education system.</li>
+            <li>Causes of ignorance: <b>illiteracy</b>, poorly trained officials/leaders, no organised education effort.</li>
             <li>Key areas: <b>agriculture, industry and health</b>.</li>
-            <li>Channels: formal education (school, college), non-formal adult education, training of officials and opinion leaders, and <b>mass media</b>.</li>
-            <li>People should <b>seek</b> this knowledge, not wait to be exposed to it.</li>
+            <li>Channels: formal education, non-formal adult education, training officials/opinion leaders, <b>mass media</b>.</li>
+            <li>People should <b>seek</b> knowledge.</li>
           </ul>
         ` }
       ],
@@ -100,7 +100,6 @@ CHUNK({
             </tbody>
           </table>
           <div class="note heads-up">Goal <b>6</b> is water and sanitation for people; Goal <b>14</b> is life in oceans and seas. Goal <b>13</b> is climate; Goal <b>15</b> covers forests and desertification.</div>
-          <div class="note exam"><p>For "Write about the SDGs": open with the definition of sustainable development, then the genesis (Johannesburg and the JPOI, "The Future We Want" in 2012, agreement at the UN in New York in September 2015). List all 17 goals with their number and full aim, using the people, prosperity, planet, peace and partnership grouping to recall them. Close with why environment and development are complementary and the role of awareness.</p></div>
         ` }
       ],
       flashcards: [
