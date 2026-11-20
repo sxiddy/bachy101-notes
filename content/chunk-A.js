@@ -76,7 +76,7 @@ CHUNK({
             <li><b>Policy formulation and implementation</b>: needs science, society, law, economics.</li>
             <li><b>Adaptability</b>: new threats like <b>microplastics</b>, pandemics from habitat loss.</li>
           </ol>
-          <div class="note exam"><p>Give the six headings; attach water scarcity to problem solving.</p></div>
+          <div class="note exam"><p>Long answer: write the six headings above, and use water scarcity as the example under problem solving.</p></div>
         ` }
       ],
       flashcards: [
@@ -113,6 +113,7 @@ CHUNK({
           <p class="lead">Write each issue as <b>cause → effects → example</b>.</p>
           <h3>1. Climate change</h3>
           <p><b>Cause:</b> <b>greenhouse gases</b> (CO<sub>2</sub>, CH<sub>4</sub>, N<sub>2</sub>O) from <b>fossil fuels, deforestation, industry</b> trap heat.</p>
+          <p><b>Effects:</b></p>
           <ul>
             <li><b>Rising global temperatures</b> (global warming).</li>
             <li><b>Melting ice caps, rising sea levels</b>.</li>
@@ -124,17 +125,19 @@ CHUNK({
         { title: 'Deforestation', html: `
           <h3>2. Deforestation</h3>
           <p><b>Cause:</b> <b>logging, agriculture, urban expansion, mining</b>.</p>
+          <p><b>Effects:</b></p>
           <ul>
             <li><b>Loss of biodiversity and habitats</b>.</li>
             <li><b>Disrupted water cycle</b>: less moisture, changed rainfall.</li>
             <li><b>More CO<sub>2</sub></b>: <b>carbon sinks</b> lost, stored carbon released.</li>
             <li><b>Soil erosion, desertification</b>.</li>
           </ul>
-          <div class="note example"><p><b>Amazon rainforest</b>: big share of global carbon emissions.</p></div>
+          <div class="note example"><p><b>Amazon rainforest</b> deforestation adds significantly to global carbon emissions.</p></div>
         ` },
         { title: 'Waste, air and water', html: `
           <h3>3. Waste management</h3>
           <p><b>Types:</b> municipal solid, plastic, organic, landfill overflow.</p>
+          <p><b>Problems:</b></p>
           <ul>
             <li><b>Overflowing landfills</b>.</li>
             <li><b>Methane</b> from decomposing organics.</li>
