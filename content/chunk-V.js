@@ -393,5 +393,73 @@ CHUNK({
       ],
       formulas: []
     },
+    {
+      id: 'm6-articles',
+      title: 'Articles: the Constitution and the Paris Agreement',
+      short: 'Articles',
+      blurb: 'Every Article number in the syllabus, how to remember it, and one table with all of them.',
+      source: 'Compiled from the Need for env laws, Water Act, Forest & Wildlife and Paris Agreement topics',
+      articles: [
+        ['Clean environment as a fundamental right (right to life)', '21', 'c'],
+        ['Parliament legislates on a state subject at states\' request (basis of the Water Act)', '252', 'c'],
+        ['The State\'s duty to protect the environment, forests and wildlife', '48A', 'c'],
+        ['Every citizen\'s fundamental duty to protect the environment', '51A(g)', 'c'],
+        ['Paris: hold warming well below 2°C, pursue 1.5°C', '2', 'p'],
+        ['Paris: peak emissions, then net zero in the second half of the century', '4', 'p'],
+        ['Paris: adaptation, on equal footing with mitigation', '7', 'p'],
+        ['Paris: finance, USD 100 billion a year', '9', 'p']
+      ],
+      tabs: [
+        { title: 'How to remember', html: `
+          <p class="lead">There are only <b>eight</b> Article numbers: four from India's <b>Constitution</b> and four from the <b>Paris Agreement</b>. First ask "India or Paris?", then use the hooks.</p>
+          <h3>1. Constitution: "Life, Law, State, Citizen"</h3>
+          <table class="tbl">
+            <thead><tr><th>Say</th><th>Article</th><th>What</th><th>Hook</th></tr></thead>
+            <tbody>
+              <tr><td><b>Life</b></td><td>21</td><td>Right to life includes a clean, healthy environment (Supreme Court)</td><td>"<b>21</b>, the age you start <b>living</b> your own life": the <b>right to life</b>.</td></tr>
+              <tr><td><b>Law</b></td><td>252</td><td>Parliament makes a law on a state subject (water) when states ask</td><td><b>2-5-2</b> reads the same both ways: <b>States</b> ask the <b>Centre</b>, the Centre makes the law <b>for the States</b>. The Water Act 1974 was made this way.</td></tr>
+              <tr><td><b>State</b></td><td>48A</td><td>Directive Principle: the State shall protect the environment, forests and wildlife</td><td><b>A</b> for <b>Administration</b> (the State). Comes <b>before</b> 51A: the State's duty first.</td></tr>
+              <tr><td><b>Citizen</b></td><td>51A(g)</td><td>Fundamental Duty of every citizen to protect nature and have compassion for living creatures</td><td><b>g</b> for <b>green</b>. 51A is the list of <b>citizens'</b> duties.</td></tr>
+            </tbody>
+          </table>
+          <div class="note exam">Trap: <b>Article 21</b> is the <b>right</b>, <b>48A</b> the <b>State's duty</b>, <b>51A(g)</b> the <b>citizen's duty</b>. Articles <b>14, 19, 32</b> are equality, freedoms and the right to move the Supreme Court; they appear only as wrong options.</div>
+          <h3>2. Paris Agreement: "2-4-7-9 = Goal, Zero, Adapt, Money"</h3>
+          <ul>
+            <li><b>Article 2, Goal</b>: <b>2</b>°C. The article number <b>is</b> the temperature.</li>
+            <li><b>Article 4, Zero</b>: "<b>four</b> → <b>for</b> net zero". Mitigation and NDCs live here.</li>
+            <li><b>Article 7, Adapt</b>: <b>seven</b> days a week you adapt to the weather.</li>
+            <li><b>Article 9, Money</b>: <b>9</b> looks like a money bag; USD <b>100 billion</b> via the Green Climate Fund.</li>
+          </ul>
+          <div class="note">Even numbers 2, 4 = <b>cutting warming</b> (goal and net zero). Odd numbers 7, 9 = <b>living with it and paying for it</b>.</div>
+          <div class="note">Then use the <b>Article drill</b> at the top of the Laws, Acts &amp; dates page until you can answer 20 in a row.</div>
+        ` },
+        { title: 'All articles', html: `
+          <table class="tbl">
+            <thead><tr><th>Article</th><th>Source</th><th>What</th><th>Where it comes up</th></tr></thead>
+            <tbody>
+              <tr><td><b>21</b></td><td>Constitution</td><td>Right to life; includes a clean, healthy environment</td><td>Need for environmental laws</td></tr>
+              <tr><td><b>48A</b></td><td>Constitution (Directive Principle)</td><td>State shall protect and improve the environment, forests and wildlife</td><td>Forest Act, Wildlife Act</td></tr>
+              <tr><td><b>51A(g)</b></td><td>Constitution (Fundamental Duty)</td><td>Every citizen shall protect the natural environment</td><td>Forest Act, Wildlife Act</td></tr>
+              <tr><td><b>252</b></td><td>Constitution</td><td>Parliament legislates on a state subject at states' request</td><td>Water Act 1974</td></tr>
+              <tr><td><b>2</b></td><td>Paris Agreement</td><td>Well below 2°C, pursuing 1.5°C</td><td>Paris basics</td></tr>
+              <tr><td><b>4</b></td><td>Paris Agreement</td><td>Peak emissions, net zero in the second half of the century; NDCs</td><td>Paris pillars</td></tr>
+              <tr><td><b>7</b></td><td>Paris Agreement</td><td>Adaptation, equal footing with mitigation</td><td>Paris pillars</td></tr>
+              <tr><td><b>9</b></td><td>Paris Agreement</td><td>Finance: USD 100 billion a year, Green Climate Fund</td><td>Paris pillars</td></tr>
+            </tbody>
+          </table>
+        ` },
+      ],
+      flashcards: [
+        { front: 'Article for the right to a clean environment?', back: '<b>Article 21</b> (right to life).' },
+        { front: 'State\'s duty vs citizen\'s duty?', back: 'State: <b>Article 48A</b>. Citizen: <b>Article 51A(g)</b>.' },
+        { front: 'Constitutional basis of the Water Act?', back: '<b>Article 252</b>.' },
+        { front: 'Paris Articles 2, 4, 7, 9?', back: 'Goal (2°C), net zero, adaptation, finance.' }
+      ],
+      oneLiners: [
+        'Article 21 is the right; 48A the State\'s duty; 51A(g) the citizen\'s duty.',
+        'Paris 2-4-7-9: goal, zero, adapt, money.'
+      ],
+      formulas: []
+    },
   ],
 });
