@@ -461,5 +461,372 @@ CHUNK({
       ],
       formulas: []
     },
+    {
+      id: 'm6-names',
+      title: 'Names, full forms, places and organisms',
+      short: 'Names & full forms',
+      blurb: 'Every person, abbreviation, place, model and organism the notes name, for "expand X", "who proposed Y" and "where is Z" questions.',
+      source: 'Compiled from all weeks of the notes',
+      tabs: [
+        { title: 'Exam summary', html: `
+          <p class="lead">The must-know names and full forms; the later tabs hold the full lists.</p>
+          <h3>Full forms</h3>
+          <table class="tbl">
+            <thead><tr><th>Short</th><th>Full form</th></tr></thead>
+            <tbody>
+              <tr><td><b>AQI</b></td><td>Air Quality Index (0–500)</td></tr>
+              <tr><td><b>BOD</b></td><td>Biochemical Oxygen Demand</td></tr>
+              <tr><td><b>CAMPA</b></td><td>Compensatory Afforestation Fund (Management and Planning Authority)</td></tr>
+              <tr><td><b>CBDR-RC</b></td><td>Common But Differentiated Responsibilities and Respective Capabilities</td></tr>
+              <tr><td><b>CDM</b></td><td>Clean Development Mechanism (Kyoto)</td></tr>
+              <tr><td><b>CITES</b></td><td>Convention on International Trade in Endangered Species of Wild Fauna and Flora</td></tr>
+              <tr><td><b>CPCB / SPCB</b></td><td>Central / State Pollution Control Board</td></tr>
+              <tr><td><b>EIA / EMP</b></td><td>Environmental Impact Assessment / Environmental Management Plan</td></tr>
+              <tr><td><b>EPR</b></td><td>Extended Producer Responsibility</td></tr>
+              <tr><td><b>GEAC</b></td><td>Genetic Engineering Appraisal Committee (GM crops)</td></tr>
+              <tr><td><b>GPP / NPP</b></td><td>Gross / Net Primary Productivity</td></tr>
+              <tr><td><b>GWP</b></td><td>Global Warming Potential</td></tr>
+              <tr><td><b>IPCC</b></td><td>Intergovernmental Panel on Climate Change</td></tr>
+              <tr><td><b>IWRM</b></td><td>Integrated Water Resources Management</td></tr>
+              <tr><td><b>LCA</b></td><td>Life Cycle Assessment</td></tr>
+              <tr><td><b>MoEFCC</b></td><td>Ministry of Environment, Forest and Climate Change</td></tr>
+              <tr><td><b>NAPCC</b></td><td>National Action Plan on Climate Change (2008)</td></tr>
+              <tr><td><b>NDC</b></td><td>Nationally Determined Contribution (Paris)</td></tr>
+              <tr><td><b>NGT</b></td><td>National Green Tribunal (2010)</td></tr>
+              <tr><td><b>SEIAA / SEAC</b></td><td>State Level EIA Authority / State Level Expert Appraisal Committee</td></tr>
+              <tr><td><b>UNFCCC</b></td><td>United Nations Framework Convention on Climate Change (1992)</td></tr>
+              <tr><td><b>ZLD</b></td><td>Zero Liquid Discharge</td></tr>
+            </tbody>
+          </table>
+          <h3>People</h3>
+          <table class="tbl">
+            <thead><tr><th>Name</th><th>Known for</th></tr></thead>
+            <tbody>
+              <tr><td><b>Charles Elton</b></td><td>Ecological pyramids (Eltonian pyramid), 1927</td></tr>
+              <tr><td><b>F.E. Clements</b> (notes: Clemens)</td><td>Monoclimax theory</td></tr>
+              <tr><td><b>Tansley</b></td><td>Polyclimax theory</td></tr>
+              <tr><td><b>Lindemann</b></td><td>10% law of energy transfer</td></tr>
+            </tbody>
+          </table>
+          <h3>Places, models and organisms</h3>
+          <table class="tbl">
+            <thead><tr><th>Name</th><th>Why it is asked</th></tr></thead>
+            <tbody>
+              <tr><td><b>Bhadla Solar Park</b></td><td>Largest solar park in the world (Rajasthan)</td></tr>
+              <tr><td><b>Chilika Lake, Keoladeo NP</b></td><td>Ramsar sites</td></tr>
+              <tr><td><b>Kaziranga NP</b> (Assam)</td><td>One-horned rhinoceros</td></tr>
+              <tr><td><b>Gir NP</b> (Gujarat)</td><td>Asiatic lions: under 20 once, over 600 now</td></tr>
+              <tr><td><b>Ranipet</b> (Tamil Nadu)</td><td>Chromium groundwater pollution from tannery waste</td></tr>
+              <tr><td><b>Kalundborg</b> (Denmark)</td><td>Industrial symbiosis</td></tr>
+              <tr><td><b>Yellowstone</b> (1995)</td><td>Wolves reintroduced: trophic cascade</td></tr>
+              <tr><td><b>Sardar Sarovar Dam</b></td><td>Displaced about 320,000 people</td></tr>
+              <tr><td><b>India's hotspots</b></td><td>Himalayas, Western Ghats, Indo-Burma, Sundaland (4 of 36)</td></tr>
+              <tr><td><b>Leopold matrix</b></td><td>EIA matrix method</td></tr>
+              <tr><td><b>AERMOD / QUAL2K, SWAT</b></td><td>Air dispersion model / water quality models in EIA</td></tr>
+              <tr><td><b>LSTM</b></td><td>Long Short-Term Memory AI model; forecasts air quality</td></tr>
+              <tr><td><b>Bacillus thuringiensis</b></td><td>Source of the Bt gene in Bt cotton</td></tr>
+              <tr><td><b>Rhizobium / Nitrosomonas, Nitrobacter</b></td><td>N fixation / nitrification</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'Full forms: organisations', html: `
+          <table class="tbl">
+            <thead><tr><th>Short</th><th>Full form</th><th>What it does</th></tr></thead>
+            <tbody>
+              <tr><td><b>BEE</b></td><td>Bureau of Energy Efficiency</td><td>Star labels for appliances</td></tr>
+              <tr><td><b>BIS</b></td><td>Bureau of Indian Standards</td><td>Standards for food-contact plastics</td></tr>
+              <tr><td><b>BMCs</b></td><td>Biodiversity Management Committees</td><td>Local bodies under the Biological Diversity Act; fight biopiracy</td></tr>
+              <tr><td><b>CAMPA</b></td><td>Compensatory Afforestation Fund (Management and Planning Authority)</td><td>Receives money for forest land diverted, funds afforestation</td></tr>
+              <tr><td><b>CBD</b></td><td>Convention on Biological Diversity</td><td>1992 treaty: conservation, sustainable use, fair benefit sharing</td></tr>
+              <tr><td><b>CITES</b></td><td>Convention on International Trade in Endangered Species of Wild Fauna and Flora</td><td>Controls wildlife trade; signed 1973, India joined 1976</td></tr>
+              <tr><td><b>CPCB</b></td><td>Central Pollution Control Board</td><td>Apex pollution authority; sets NAAQS</td></tr>
+              <tr><td><b>EAC</b></td><td>Expert Appraisal Committee</td><td>Appraises Category A projects (national)</td></tr>
+              <tr><td><b>ENVIS</b></td><td>Environmental Information System</td><td>Network of environmental databases across India</td></tr>
+              <tr><td><b>FEMA</b></td><td>Federal Emergency Management Agency (USA)</td><td>Immediate relief and long-term support</td></tr>
+              <tr><td><b>FSSAI</b></td><td>Food Safety and Standards Authority of India</td><td>Approves food additives and colours</td></tr>
+              <tr><td><b>GEAC</b></td><td>Genetic Engineering Appraisal Committee</td><td>Clears GM crops under MoEFCC</td></tr>
+              <tr><td><b>GOARN</b></td><td>Global Outbreak Alert and Response Network (WHO)</td><td>Outbreak surveillance</td></tr>
+              <tr><td><b>IAA</b></td><td>Impact Assessment Agency</td><td>Appraises Category A projects with EAC</td></tr>
+              <tr><td><b>IARC</b></td><td>International Agency for Research on Cancer</td><td>Classifies carcinogens (formaldehyde: Group 1)</td></tr>
+              <tr><td><b>IDSP</b></td><td>Integrated Disease Surveillance Programme (India)</td><td>Disease surveillance</td></tr>
+              <tr><td><b>IEA</b></td><td>International Energy Agency</td><td>Publishes emission factors</td></tr>
+              <tr><td><b>IPCC</b></td><td>Intergovernmental Panel on Climate Change</td><td>Reviews research, no original work; 1st report 1990, AR6 2021</td></tr>
+              <tr><td><b>ISA</b></td><td>International Solar Alliance</td><td>Co-founded by India and France; mobilise over $1 trillion</td></tr>
+              <tr><td><b>MNRE</b></td><td>Ministry of New and Renewable Energy</td><td>Nodal ministry for wind policy</td></tr>
+              <tr><td><b>MoEFCC</b></td><td>Ministry of Environment, Forest and Climate Change</td><td>Regulates environment, GM crops (via GEAC)</td></tr>
+              <tr><td><b>NASA / NOAA</b></td><td>National Aeronautics and Space Administration / National Oceanic and Atmospheric Administration</td><td>Confirm warming records</td></tr>
+              <tr><td><b>NBPGR</b></td><td>National Bureau of Plant Genetic Resources</td><td>New Delhi; conserves plant genetic resources</td></tr>
+              <tr><td><b>NDMA</b></td><td>National Disaster Management Authority</td><td>Disaster preparedness policy (India)</td></tr>
+              <tr><td><b>NGT</b></td><td>National Green Tribunal</td><td>Fast-track environmental court, 2010</td></tr>
+              <tr><td><b>NIWE</b></td><td>National Institute of Wind Energy</td><td>Chennai</td></tr>
+              <tr><td><b>NMCG</b></td><td>National Mission for Clean Ganga</td><td>Ganga clean-up, 2014 (Namami Gange)</td></tr>
+              <tr><td><b>SEAC</b></td><td>State Level Expert Appraisal Committee</td><td>Appraises Category B projects</td></tr>
+              <tr><td><b>SEIAA</b></td><td>State Level EIA Authority</td><td>Clears Category B projects</td></tr>
+              <tr><td><b>SPCB</b></td><td>State Pollution Control Board</td><td>Implements the law in each state</td></tr>
+              <tr><td><b>UNDRR</b></td><td>UN Office for Disaster Risk Reduction</td><td>Risk reduction</td></tr>
+              <tr><td><b>UNESCO</b></td><td>UN Educational, Scientific and Cultural Organization</td><td>MAB Programme, World Heritage Sites</td></tr>
+              <tr><td><b>UNFCCC</b></td><td>United Nations Framework Convention on Climate Change</td><td>1992 parent climate treaty; no binding targets</td></tr>
+              <tr><td><b>UNOCHA</b></td><td>UN Office for the Coordination of Humanitarian Affairs</td><td>Coordinates emergency response</td></tr>
+              <tr><td><b>WHO</b></td><td>World Health Organization</td><td>Health guidelines, IHR, malaria vaccines</td></tr>
+              <tr><td><b>WCCB</b></td><td>Wildlife Crime Control Bureau</td><td>Anti-poaching, anti-trafficking</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'Full forms: terms', html: `
+          <table class="tbl">
+            <thead><tr><th>Short</th><th>Full form</th><th>Meaning</th></tr></thead>
+            <tbody>
+              <tr><td><b>ACTs</b></td><td>Artemisinin-based Combination Therapies</td><td>First-line malaria treatment</td></tr>
+              <tr><td><b>AQI</b></td><td>Air Quality Index</td><td>0–500 scale from 5–8 pollutants</td></tr>
+              <tr><td><b>BOD</b></td><td>Biochemical Oxygen Demand</td><td>Organic load of water; secondary treatment removes 85–95%</td></tr>
+              <tr><td><b>BPA</b></td><td>Bisphenol A</td><td>Plastic chemical; endocrine disruptor</td></tr>
+              <tr><td><b>BS-VI</b></td><td>Bharat Stage VI</td><td>Vehicle emission norms</td></tr>
+              <tr><td><b>CBDR-RC</b></td><td>Common But Differentiated Responsibilities and Respective Capabilities</td><td>All share duty; rich nations lead</td></tr>
+              <tr><td><b>CCS / CCU</b></td><td>Carbon Capture and Storage / Utilisation</td><td>Trap CO₂ and store or use it</td></tr>
+              <tr><td><b>CDM</b></td><td>Clean Development Mechanism</td><td>Annex I invests in developing country, earns CERs</td></tr>
+              <tr><td><b>CERs</b></td><td>Certified Emission Reductions</td><td>Carbon credits from CDM</td></tr>
+              <tr><td><b>CETP / ETP / STP</b></td><td>Common Effluent / Effluent / Sewage Treatment Plant</td><td>Wastewater treatment</td></tr>
+              <tr><td><b>CFCs</b></td><td>Chlorofluorocarbons</td><td>Destroy ozone; phased out by Montreal Protocol</td></tr>
+              <tr><td><b>CFU</b></td><td>Colony Forming Units</td><td>E. coli limit: 0 CFU/100 mL</td></tr>
+              <tr><td><b>CSP</b></td><td>Concentrated Solar Power</td><td>Solar thermal power with mirrors</td></tr>
+              <tr><td><b>DAC</b></td><td>Direct Air Capture</td><td>Removes CO₂ from ambient air</td></tr>
+              <tr><td><b>DDT</b></td><td>Dichlorodiphenyltrichloroethane</td><td>POP pesticide; eggshell thinning</td></tr>
+              <tr><td><b>EDCs</b></td><td>Endocrine-Disrupting Chemicals</td><td>Mimic or block hormones (BPA, phthalates)</td></tr>
+              <tr><td><b>EGS</b></td><td>Enhanced Geothermal Systems</td><td>Fracking-based; can cause induced quakes (Basel)</td></tr>
+              <tr><td><b>EPI</b></td><td>Expanded Programme on Immunisation</td><td>Vaccination</td></tr>
+              <tr><td><b>EPR</b></td><td>Extended Producer Responsibility</td><td>Producer handles product after disposal</td></tr>
+              <tr><td><b>ESP</b></td><td>Electrostatic Precipitator</td><td>Charges particles onto electrodes; removes fine ash</td></tr>
+              <tr><td><b>FGD</b></td><td>Flue Gas Desulphurisation</td><td>Limestone scrubbers remove SO₂</td></tr>
+              <tr><td><b>GHG</b></td><td>Greenhouse Gas</td><td>CO₂, CH₄, N₂O, HFCs, PFCs, SF₆</td></tr>
+              <tr><td><b>GM</b></td><td>Genetically Modified</td><td>DNA altered by genetic engineering</td></tr>
+              <tr><td><b>GPP</b></td><td>Gross Primary Productivity</td><td>Total photosynthesis</td></tr>
+              <tr><td><b>GWP</b></td><td>Global Warming Potential</td><td>Warming relative to CO₂, usually over 100 years (GWP100)</td></tr>
+              <tr><td><b>HAWT / VAWT</b></td><td>Horizontal / Vertical Axis Wind Turbine</td><td>HAWT most common</td></tr>
+              <tr><td><b>HEPA</b></td><td>High-Efficiency Particulate Air (filter)</td><td>Pandemic control</td></tr>
+              <tr><td><b>HFCs / PFCs</b></td><td>Hydrofluorocarbons / Perfluorocarbons</td><td>Kyoto greenhouse gases</td></tr>
+              <tr><td><b>IHR</b></td><td>International Health Regulations (2005)</td><td>Binding duty to report health emergencies</td></tr>
+              <tr><td><b>IoT</b></td><td>Internet of Things</td><td>Connected sensors for real-time data</td></tr>
+              <tr><td><b>IPM</b></td><td>Integrated Pest Management</td><td>Minimises chemical pesticides</td></tr>
+              <tr><td><b>IRS</b></td><td>Indoor Residual Spraying</td><td>Insecticide on indoor walls</td></tr>
+              <tr><td><b>ISWM</b></td><td>Integrated Solid Waste Management</td><td>Combines all waste methods</td></tr>
+              <tr><td><b>ITNs / LLINs</b></td><td>Insecticide-Treated Nets / Long-Lasting Insecticidal Nets</td><td>Cut malaria transmission by 50%</td></tr>
+              <tr><td><b>IVM</b></td><td>Integrated Vector Management</td><td>ITNs + IRS + biological control</td></tr>
+              <tr><td><b>IWRM</b></td><td>Integrated Water Resources Management</td><td>Coordinates water, land and resources</td></tr>
+              <tr><td><b>JFM</b></td><td>Joint Forest Management</td><td>Community forest management</td></tr>
+              <tr><td><b>JI</b></td><td>Joint Implementation</td><td>Annex I to Annex I credits</td></tr>
+              <tr><td><b>JPOI</b></td><td>Johannesburg Plan of Implementation</td><td>2002 summit commitments</td></tr>
+              <tr><td><b>MAB</b></td><td>Man and the Biosphere (UNESCO)</td><td>Recognises biosphere reserves</td></tr>
+              <tr><td><b>MIC</b></td><td>Methyl Isocyanate</td><td>Bhopal gas</td></tr>
+              <tr><td><b>MINAS</b></td><td>Minimal National Standards</td><td>Effluent standards under the Water Act</td></tr>
+              <tr><td><b>MLD</b></td><td>Million Litres per Day</td><td>Treatment capacity unit</td></tr>
+              <tr><td><b>MMS</b></td><td>Moment Magnitude Scale</td><td>Earthquake size</td></tr>
+              <tr><td><b>MRV</b></td><td>Measuring, Reporting, Verifying</td><td>Emission accounting system from Kyoto</td></tr>
+              <tr><td><b>MSW</b></td><td>Municipal Solid Waste</td><td>Household garbage; India over 150,000 t/day</td></tr>
+              <tr><td><b>NAAQS</b></td><td>National Ambient Air Quality Standards</td><td>Set by CPCB</td></tr>
+              <tr><td><b>NDC</b></td><td>Nationally Determined Contribution</td><td>Each country's Paris pledge</td></tr>
+              <tr><td><b>NIHL</b></td><td>Noise-Induced Hearing Loss</td><td>Occupational noise damage</td></tr>
+              <tr><td><b>NPIs</b></td><td>Non-Pharmaceutical Interventions</td><td>Masks, distancing, ventilation</td></tr>
+              <tr><td><b>NPK</b></td><td>Nitrogen, Phosphorus, Potassium</td><td>Soil nutrients</td></tr>
+              <tr><td><b>NPP</b></td><td>Net Primary Productivity</td><td>GPP minus respiration; ~60 Pg C/yr</td></tr>
+              <tr><td><b>NTU</b></td><td>Nephelometric Turbidity Unit</td><td>Drinking water under 1 NTU</td></tr>
+              <tr><td><b>PAHs</b></td><td>Polycyclic Aromatic Hydrocarbons</td><td>Combustion pollutants</td></tr>
+              <tr><td><b>PAN</b></td><td>Peroxyacetyl Nitrates</td><td>Photochemical smog; eye irritation</td></tr>
+              <tr><td><b>PCBs</b></td><td>Polychlorinated Biphenyls</td><td>Persistent, biomagnify</td></tr>
+              <tr><td><b>PM2.5 / PM10</b></td><td>Particulate Matter under 2.5 / 10 µm</td><td>Key air pollutants</td></tr>
+              <tr><td><b>POPs</b></td><td>Persistent Organic Pollutants</td><td>DDT, Endosulfan</td></tr>
+              <tr><td><b>PV</b></td><td>Photovoltaic</td><td>Light to electricity directly</td></tr>
+              <tr><td><b>REDD+</b></td><td>Reducing Emissions from Deforestation and forest Degradation</td><td>Avoided-deforestation offsets</td></tr>
+              <tr><td><b>RPO</b></td><td>Renewable Purchase Obligation</td><td>Discoms must buy a share of renewables</td></tr>
+              <tr><td><b>SCR</b></td><td>Selective Catalytic Reduction</td><td>Ammonia + catalyst turn NOₓ into N₂</td></tr>
+              <tr><td><b>SDGs</b></td><td>Sustainable Development Goals</td><td>17 UN goals, 2015</td></tr>
+              <tr><td><b>SEA</b></td><td>Strategic Environmental Assessment</td><td>EIA for policies and plans</td></tr>
+              <tr><td><b>SERM</b></td><td>Selective Oestrogen Receptor Modulator</td><td>How BPA analogues act</td></tr>
+              <tr><td><b>SIDS</b></td><td>Small Island Developing States</td><td>Pushed for the 1.5°C target</td></tr>
+              <tr><td><b>SRI</b></td><td>System of Rice Intensification</td><td>Kerala; saves ~30% water</td></tr>
+              <tr><td><b>TDS</b></td><td>Total Dissolved Solids</td><td>Drinking water under 500 mg/L</td></tr>
+              <tr><td><b>ToR</b></td><td>Terms of Reference</td><td>Written at EIA scoping</td></tr>
+              <tr><td><b>VOCs</b></td><td>Volatile Organic Compounds</td><td>Ozone precursors (paints, solvents)</td></tr>
+              <tr><td><b>WASH</b></td><td>Water, Sanitation, Hygiene</td><td>Best step against waterborne disease</td></tr>
+              <tr><td><b>ZBNF</b></td><td>Zero Budget Natural Farming</td><td>Andhra Pradesh; mulching saves water</td></tr>
+              <tr><td><b>ZLD</b></td><td>Zero Liquid Discharge</td><td>Industry recycles all wastewater</td></tr>
+            </tbody>
+          </table>
+          <h3>Schemes and missions</h3>
+          <table class="tbl">
+            <thead><tr><th>Short</th><th>Full form</th><th>Meaning</th></tr></thead>
+            <tbody>
+              <tr><td><b>FAME II</b></td><td>Faster Adoption and Manufacturing of (Hybrid and) Electric Vehicles</td><td>EV subsidy</td></tr>
+              <tr><td><b>GEC</b></td><td>Green Energy Corridor</td><td>Links renewables to the grid</td></tr>
+              <tr><td><b>GRAP</b></td><td>Graded Response Action Plan</td><td>Delhi emergency controls at AQI above 200</td></tr>
+              <tr><td><b>MGNREGA</b></td><td>Mahatma Gandhi National Rural Employment Guarantee Act</td><td>Funds watershed work, check dams</td></tr>
+              <tr><td><b>NCAP</b></td><td>National Clean Air Programme</td><td>2019; 20–30% PM cut in 122 cities</td></tr>
+              <tr><td><b>NSM</b></td><td>National Solar Mission</td><td>Flagship solar scale-up</td></tr>
+              <tr><td><b>OSOWOG</b></td><td>One Sun, One World, One Grid</td><td>Interconnect grids across time zones</td></tr>
+              <tr><td><b>PLI</b></td><td>Production Linked Incentive</td><td>Battery manufacturing scheme</td></tr>
+              <tr><td><b>PM-KUSUM</b></td><td>Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan</td><td>Solar pumps, up to 60% subsidy</td></tr>
+              <tr><td><b>PMKSY</b></td><td>Pradhan Mantri Krishi Sinchayee Yojana</td><td>"Per Drop More Crop": drip, sprinkler</td></tr>
+              <tr><td><b>SAFAR</b></td><td>System of Air Quality and Weather Forecasting and Research</td><td>Real-time air quality forecasts</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'People', html: `
+          <table class="tbl">
+            <thead><tr><th>Name</th><th>Known for</th><th>Year</th></tr></thead>
+            <tbody>
+              <tr><td><b>Charles Elton</b></td><td>Proposed ecological pyramids (Eltonian pyramid)</td><td>1927</td></tr>
+              <tr><td><b>F.E. Clements</b> (notes spell it Clemens)</td><td>Monoclimax theory: one climax set by climate</td><td>–</td></tr>
+              <tr><td><b>Godavarman</b> (T.N. Godavarman case)</td><td>Supreme Court judgment: Forest Act covers all forest in the dictionary sense</td><td>1996</td></tr>
+              <tr><td><b>Lindemann</b></td><td>10% law of energy transfer between trophic levels</td><td>–</td></tr>
+              <tr><td><b>Tansley</b></td><td>Polyclimax theory: climax controlled by many factors</td><td>–</td></tr>
+            </tbody>
+          </table>
+          <div class="note exam">The notes name very few people. Companies to remember: <b>Union Carbide</b> (Bhopal, 1984) and <b>Chisso</b> (Minamata, 1956).</div>
+        ` },
+        { title: 'Places & case studies', html: `
+          <table class="tbl">
+            <thead><tr><th>Place</th><th>What / why</th><th>Year</th></tr></thead>
+            <tbody>
+              <tr><td><b>Amazon rainforest</b></td><td>Largest tropical forest; hotspot; deforestation emissions</td><td>–</td></tr>
+              <tr><td><b>Bhadla Solar Park</b></td><td>Largest solar park in the world</td><td>–</td></tr>
+              <tr><td><b>Bhakra Nangal, Hirakud</b></td><td>Major Indian hydro projects</td><td>–</td></tr>
+              <tr><td><b>Black Forest</b>, Germany</td><td>Acid rain damage</td><td>1970s–80s</td></tr>
+              <tr><td><b>Chilika Lake</b></td><td>Lake ecosystem; Ramsar site</td><td>–</td></tr>
+              <tr><td><b>Congo Basin</b></td><td>Second-largest tropical rainforest; hotspot</td><td>–</td></tr>
+              <tr><td><b>Coral Triangle</b></td><td>Highest marine biodiversity</td><td>–</td></tr>
+              <tr><td><b>Dal Lake</b></td><td>Freshwater lake ecosystem</td><td>–</td></tr>
+              <tr><td><b>Delhi</b></td><td>AQI "Severe" after Diwali; GRAP</td><td>–</td></tr>
+              <tr><td><b>Dodo</b>, Mauritius</td><td>Extinct: hunting, introduced rats, pigs, monkeys</td><td>late 1600s</td></tr>
+              <tr><td><b>Gir NP</b>, Gujarat</td><td>Asiatic lions from under 20 to over 600</td><td>–</td></tr>
+              <tr><td><b>Great Barrier Reef</b>, Australia</td><td>Largest reef; mass coral bleaching</td><td>–</td></tr>
+              <tr><td><b>Gulf of Mexico</b></td><td>Dead zone ~22,720 km²</td><td>–</td></tr>
+              <tr><td><b>Himalayas, Western Ghats, Indo-Burma, Sundaland</b></td><td>India's 4 of 36 hotspots</td><td>–</td></tr>
+              <tr><td><b>Iceland, Kenya</b></td><td>Geothermal: over 20% and ~47% of electricity</td><td>–</td></tr>
+              <tr><td><b>IIT Kharagpur</b></td><td>AI map of arsenic in Ganga delta groundwater</td><td>–</td></tr>
+              <tr><td><b>Indian Botanical Garden</b>, Kolkata</td><td>12,000+ species; Great Banyan Tree</td><td>1787</td></tr>
+              <tr><td><b>Kalundborg</b>, Denmark</td><td>Industrial symbiosis (steam, fly ash shared)</td><td>–</td></tr>
+              <tr><td><b>Kaziranga NP</b>, Assam</td><td>One-horned rhinoceros</td><td>–</td></tr>
+              <tr><td><b>Keoladeo NP</b></td><td>Ramsar site</td><td>–</td></tr>
+              <tr><td><b>Mawphlang</b>, Meghalaya</td><td>Sacred grove kept by Khasi tribes</td><td>–</td></tr>
+              <tr><td><b>Kavus</b>, Kerala</td><td>Temple sacred groves</td><td>–</td></tr>
+              <tr><td><b>Maldives, Tuvalu</b></td><td>Existential sea-level threat</td><td>–</td></tr>
+              <tr><td><b>Mumbai, Chennai, Kolkata, Kochi</b></td><td>Indian cities at sea-level risk</td><td>–</td></tr>
+              <tr><td><b>Nilgiri Biosphere Reserve</b></td><td>TN, Kerala, Karnataka; Mudumalai, Wayanad, Silent Valley</td><td>–</td></tr>
+              <tr><td><b>North Carolina</b>, USA</td><td>Abandoned farmland: secondary succession</td><td>–</td></tr>
+              <tr><td><b>Oso</b>, Washington, USA</td><td>Landslide, 43 deaths</td><td>2014</td></tr>
+              <tr><td><b>Periyar WLS</b>, Kerala</td><td>Elephants, tigers; tiger reserve</td><td>–</td></tr>
+              <tr><td><b>Puga Valley, Tattapani, Manikaran, Cambay Basin</b></td><td>India's four geothermal regions</td><td>–</td></tr>
+              <tr><td><b>Punjab</b></td><td>Endosulfan and DDT in groundwater</td><td>–</td></tr>
+              <tr><td><b>Ralegan Siddhi</b>, Maharashtra</td><td>Community water management</td><td>–</td></tr>
+              <tr><td><b>Ranipet</b>, Tamil Nadu</td><td>Chromium groundwater pollution from tanneries</td><td>–</td></tr>
+              <tr><td><b>Rajasthan; Israel</b></td><td>Drip irrigation saves ~50%; Israel up to 80%</td><td>–</td></tr>
+              <tr><td><b>Sardar Sarovar Dam</b></td><td>Displaced about 320,000 people</td><td>–</td></tr>
+              <tr><td><b>Srinagar Hydro</b>, Alaknanda</td><td>Run-of-the-river, 330 MW</td><td>–</td></tr>
+              <tr><td><b>Sundarbans</b></td><td>Mangrove forest ecosystem</td><td>–</td></tr>
+              <tr><td><b>Taj Mahal</b></td><td>Yellowed by acid rain</td><td>–</td></tr>
+              <tr><td><b>Tehri Dam</b>, Uttarakhand</td><td>Storage hydropower, 1,000 MW</td><td>–</td></tr>
+              <tr><td><b>Thar Desert</b></td><td>Desert ecosystem; PM10 dust storms</td><td>–</td></tr>
+              <tr><td><b>The Geysers</b>, California</td><td>Largest geothermal complex; dry steam</td><td>–</td></tr>
+              <tr><td><b>Thiruvananthapuram</b>, Kerala</td><td>Biogas from market waste</td><td>–</td></tr>
+              <tr><td><b>Tiruppur</b></td><td>Textile water recycling</td><td>–</td></tr>
+              <tr><td><b>Tōhoku</b>, Japan</td><td>Earthquake, tsunami, Fukushima meltdown</td><td>2011</td></tr>
+              <tr><td><b>Yellowstone</b>, USA</td><td>Wolves reintroduced: trophic cascade</td><td>1995</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'Models, software & frameworks', html: `
+          <table class="tbl">
+            <thead><tr><th>Name</th><th>What it does</th></tr></thead>
+            <tbody>
+              <tr><td><b>AERMOD</b></td><td>Gaussian plume air dispersion model (EIA)</td></tr>
+              <tr><td><b>AQI</b></td><td>0–500 index of air quality bands</td></tr>
+              <tr><td><b>Checklist method</b></td><td>EIA: simple, questionnaire, weighted; no cause and effect</td></tr>
+              <tr><td><b>Digital twin</b></td><td>Virtual replica of a real system for simulation</td></tr>
+              <tr><td><b>Doppler radar</b></td><td>Predicts cyclone paths</td></tr>
+              <tr><td><b>E-nose</b></td><td>AI identifies gases by chemical signature</td></tr>
+              <tr><td><b>EHS Insight, Envirosuite</b></td><td>Cloud EHS (environment, health, safety) platforms</td></tr>
+              <tr><td><b>Emission factors</b></td><td>Convert activity data to CO₂e</td></tr>
+              <tr><td><b>Enhanced Transparency Framework</b></td><td>Paris: all parties report emissions and progress</td></tr>
+              <tr><td><b>FlyPix AI</b></td><td>AI on satellite and drone images</td></tr>
+              <tr><td><b>Gaussian plume</b></td><td>Air model of pollutant dispersion</td></tr>
+              <tr><td><b>GHG Protocol</b></td><td>Corporate carbon accounting standard</td></tr>
+              <tr><td><b>GIS and remote sensing</b></td><td>Map ecosystems, detect deforestation without contact</td></tr>
+              <tr><td><b>ISO 14001</b></td><td>Environmental Management System standard</td></tr>
+              <tr><td><b>ISO 14064</b></td><td>GHG inventories</td></tr>
+              <tr><td><b>LCA</b></td><td>Footprint from raw material to disposal</td></tr>
+              <tr><td><b>Leopold matrix</b></td><td>EIA matrix of actions vs factors</td></tr>
+              <tr><td><b>LSTM</b></td><td>AI model that forecasts air quality from past data</td></tr>
+              <tr><td><b>Mitigation hierarchy</b></td><td>Avoid, minimise, restore, offset</td></tr>
+              <tr><td><b>Network analysis</b></td><td>EIA cause-effect chain of impacts</td></tr>
+              <tr><td><b>PAS 2050</b></td><td>Product carbon footprint standard</td></tr>
+              <tr><td><b>QUAL2K, SWAT</b></td><td>Water contamination models</td></tr>
+              <tr><td><b>Richter scale / MMS</b></td><td>Earthquake magnitude</td></tr>
+              <tr><td><b>Scopes 1–3</b></td><td>Direct, energy, value-chain emissions</td></tr>
+              <tr><td><b>Sendai Framework</b></td><td>UN disaster risk framework</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'Organisms & microbes', html: `
+          <table class="tbl">
+            <thead><tr><th>Organism</th><th>Role</th></tr></thead>
+            <tbody>
+              <tr><td><b>Anopheles</b> (female)</td><td>Malaria vector</td></tr>
+              <tr><td><b>Aspergillus, Rhizopus</b></td><td>Decomposer fungi</td></tr>
+              <tr><td><b>Azotobacter</b></td><td>Free-living nitrogen fixer</td></tr>
+              <tr><td><b>Bacillus, Pseudomonas</b></td><td>Decomposer bacteria</td></tr>
+              <tr><td><b>Bacillus thuringiensis</b></td><td>Bt gene; toxin against bollworms</td></tr>
+              <tr><td><b>Bald eagle, peregrine falcon, brown pelican</b></td><td>DDT eggshell thinning</td></tr>
+              <tr><td><b>Bengal tiger</b></td><td>Endangered; habitat loss, poaching</td></tr>
+              <tr><td><b>Black rhino</b></td><td>Critically endangered; horn poaching</td></tr>
+              <tr><td><b>Cyanobacteria, phytoplankton</b></td><td>Producers</td></tr>
+              <tr><td><b>Dodo, passenger pigeon, Indian cheetah</b></td><td>Extinct examples</td></tr>
+              <tr><td><b>E. coli</b></td><td>Faecal indicator; 0 CFU/100 mL allowed</td></tr>
+              <tr><td><b>Earthworms, millipedes, dung beetles</b></td><td>Detritivores</td></tr>
+              <tr><td><b>Ganges river dolphin</b></td><td>Endangered; pollution, dams</td></tr>
+              <tr><td><b>Giant panda, orangutan</b></td><td>Endangered (world examples)</td></tr>
+              <tr><td><b>Gooty tarantula, Himalayan quail, Malabar civet</b></td><td>Rare species</td></tr>
+              <tr><td><b>Indian vulture</b></td><td>Endangered by diclofenac</td></tr>
+              <tr><td><b>Lantana camara, water hyacinth</b></td><td>Invasive plants</td></tr>
+              <tr><td><b>Lichens and mosses</b></td><td>Pioneer species in succession</td></tr>
+              <tr><td><b>Lion-tailed macaque, Nilgiri tahr, Andaman teal</b></td><td>Indian endemics</td></tr>
+              <tr><td><b>Mayflies, trout, salmon</b></td><td>Pollution indicator species</td></tr>
+              <tr><td><b>Mycorrhizal fungi</b></td><td>Mutualism with roots</td></tr>
+              <tr><td><b>Nitrosomonas / Nitrobacter</b></td><td>Nitrification: NH₃→NO₂⁻ / NO₂⁻→NO₃⁻</td></tr>
+              <tr><td><b>Plasmodium</b></td><td>Malaria protozoan</td></tr>
+              <tr><td><b>Rhizobium</b></td><td>N fixation in legume root nodules</td></tr>
+              <tr><td><b>Salmonella typhi</b></td><td>Typhoid</td></tr>
+              <tr><td><b>SARS-CoV-2</b></td><td>COVID-19 virus</td></tr>
+              <tr><td><b>Sea otter, wolf</b></td><td>Keystone species</td></tr>
+              <tr><td><b>Snow leopard, red panda</b></td><td>Himalayan hotspot species</td></tr>
+              <tr><td><b>Vibrio cholerae</b></td><td>Cholera</td></tr>
+              <tr><td><b>Zebra mussel, lionfish, tilapia</b></td><td>Invasive aquatic species (warm water)</td></tr>
+              <tr><td><b>Zooxanthellae</b></td><td>Coral algae expelled in bleaching</td></tr>
+            </tbody>
+          </table>
+        ` },
+      ],
+      flashcards: [
+        { front: 'Who proposed ecological pyramids?', back: '<b>Charles Elton</b> (1927).' },
+        { front: 'Monoclimax vs polyclimax theory?', back: 'Monoclimax: <b>Clements</b>. Polyclimax: <b>Tansley</b>.' },
+        { front: 'Expand CBDR-RC.', back: '<b>Common But Differentiated Responsibilities and Respective Capabilities</b>.' },
+        { front: 'Expand CITES.', back: '<b>Convention on International Trade in Endangered Species of Wild Fauna and Flora</b>.' },
+        { front: 'Expand GEAC and its role.', back: '<b>Genetic Engineering Appraisal Committee</b>: clears GM crops.' },
+        { front: 'Expand SEIAA and SEAC.', back: '<b>State Level EIA Authority</b>; <b>State Level Expert Appraisal Committee</b>.' },
+        { front: 'Expand LSTM.', back: '<b>Long Short-Term Memory</b>: AI model forecasting air quality.' },
+        { front: 'Name the air and water models used in EIA.', back: 'Air: <b>Gaussian plume, AERMOD</b>. Water: <b>QUAL2K, SWAT</b>.' },
+        { front: 'Where is Ranipet and why is it known?', back: 'Tamil Nadu; <b>chromium</b> in groundwater from tannery waste.' },
+        { front: 'Kalundborg is an example of?', back: '<b>Industrial symbiosis</b> (Denmark).' },
+        { front: 'Source of the Bt gene?', back: '<b>Bacillus thuringiensis</b>.' },
+        { front: 'Bacteria of nitrification?', back: '<b>Nitrosomonas</b> then <b>Nitrobacter</b>.' }
+      ],
+      oneLiners: [
+        'Elton 1927: pyramids; Clements: monoclimax; Tansley: polyclimax; Lindemann: 10% law.',
+        'CPCB sets NAAQS; SPCBs implement; NGT (2010) hears appeals.',
+        'Category A: IAA + EAC; Category B: SEIAA + SEAC.',
+        'India hotspots: Himalayas, Western Ghats, Indo-Burma, Sundaland.',
+        'Bhadla: largest solar park; Kaziranga: rhino; Gir: Asiatic lion.',
+        'Keystone species: sea otter and wolf (Yellowstone 1995).'
+      ],
+      formulas: []
+    },
   ],
 });
