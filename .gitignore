@@ -15,3 +15,6 @@ site/
 
 # FreeLLMAPI key, pasted by the owner; never commit or print
 .freellm-key
+dist/
+.wrangler/
+.dev.vars

@@ -1,0 +1,34 @@
+{
+ "free.2ebcda8989.js": {
+  "free": true,
+  "module": null
+ },
+ "pro-m1.fcc378f45b.js": {
+  "free": false,
+  "module": "m1"
+ },
+ "pro-m2.4c0b919238.js": {
+  "free": false,
+  "module": "m2"
+ },
+ "pro-m3.3097566322.js": {
+  "free": false,
+  "module": "m3"
+ },
+ "pro-m4.09d1b067b7.js": {
+  "free": false,
+  "module": "m4"
+ },
+ "pro-m5.5a1a1a3e05.js": {
+  "free": false,
+  "module": "m5"
+ },
+ "pro-m7.582b77ac1e.js": {
+  "free": false,
+  "module": "m7"
+ },
+ "pro-m6.16a84305a7.js": {
+  "free": false,
+  "module": "m6"
+ }
+}
