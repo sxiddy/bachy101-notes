@@ -182,27 +182,51 @@ CHUNK({
     },
     {
       id: 'm6-timeline',
-      title: 'Master timeline: every date in one list',
+      title: 'Master timeline: the dates that matter',
       short: 'Master timeline',
-      blurb: 'All the syllabus dates in chronological order for last-minute revision.',
+      blurb: 'The dates worth learning, by topic and in order, with the low-yield ones cut.',
       source: 'Compiled from the other three topics of this section',
       dates: [
-        ['Wildlife (Protection) Act', 1972], ['Water (Prevention and Control of Pollution) Act', 1974], ['Forest (Conservation) Act', 1980],
-        ['Air (Prevention and Control of Pollution) Act', 1981], ['Environment (Protection) Act', 1986], ['Noise Pollution (Regulation and Control) Rules', 2000],
-        ['Biological Diversity Act', 2002], ['National Green Tribunal set up', 2010], ['Solid Waste Management Rules', 2016],
-        ['Air Act amended to add noise', 1987], ['Godavarman judgment', 1996], ['Forest (Conservation) Amendment Act', 2023],
-        ['Ramsar Convention (wetlands)', 1971], ['Stockholm Conference', 1972], ['CITES signed', 1973], ['Montreal Protocol', 1987],
-        ['Brundtland Report', 1987], ['Rio Earth Summit (UNFCCC, CBD)', 1992], ['Kyoto Protocol adopted', 1997], ['Kyoto Protocol entered into force', 2005],
-        ['Johannesburg summit (Rio+10)', 2002], ['Copenhagen COP15', 2009], ['Doha Amendment / Rio+20', 2012], ['Minamata Convention', 2013],
-        ['Paris Agreement adopted', 2015], ['SDGs adopted', 2015], ['Paris Agreement entered into force', 2016],
-        ['Bhopal Gas Tragedy', 1984], ['Minamata disease identified', 1956], ['London Great Smog', 1952], ['UK Clean Air Act', 1956],
-        ['Silent Valley project halted', 1983], ['Exxon Valdez oil spill', 1989], ['Deepwater Horizon oil spill', 2010], ['Kedarnath disaster', 2013],
-        ['Jim Corbett, first national park', 1936], ['Project Tiger', 1973], ['Project Elephant', 1992], ['NAPCC (8 missions)', 2008],
-        ['Namami Gange', 2015], ['NCAP', 2019], ['BS-VI norms', 2020], ['Bt cotton approved in India', 2002]
+        ['London Great Smog', 1952], ['Minamata disease identified', 1956], ['Ramsar Convention (wetlands)', 1971],
+        ['Stockholm Conference', 1972], ['Wildlife (Protection) Act', 1972], ['CITES signed', 1973], ['Project Tiger', 1973],
+        ['Water (Prevention and Control of Pollution) Act', 1974], ['Forest (Conservation) Act', 1980], ['Air (Prevention and Control of Pollution) Act', 1981],
+        ['Silent Valley project halted', 1983], ['Bhopal Gas Tragedy', 1984], ['Environment (Protection) Act', 1986],
+        ['Montreal Protocol', 1987], ['Brundtland Report', 1987], ['Air Act amended to add noise', 1987],
+        ['Rio Earth Summit (UNFCCC, CBD)', 1992], ['Project Elephant', 1992], ['Kyoto Protocol adopted', 1997],
+        ['Noise Pollution (Regulation and Control) Rules', 2000], ['Biological Diversity Act', 2002], ['Kyoto Protocol entered into force', 2005],
+        ['NAPCC (8 missions)', 2008], ['National Green Tribunal set up', 2010], ['Minamata Convention', 2013],
+        ['Paris Agreement adopted', 2015], ['SDGs adopted', 2015], ['Solid Waste Management Rules', 2016], ['NCAP', 2019]
       ],
       tabs: [
+        { title: 'Must know (in order)', html: `
+          <p class="lead">The <b>19 years to learn first</b>, oldest to newest. Short on time? Learn this tab. The topic tabs after it add the second-tier dates.</p>
+          <table class="tbl">
+            <thead><tr><th>Year</th><th>What</th><th>Topic</th></tr></thead>
+            <tbody>
+              <tr><td><b>1956</b></td><td>Minamata disease (mercury)</td><td>Disaster</td></tr>
+              <tr><td><b>1971</b></td><td>Ramsar Convention (wetlands)</td><td>Global</td></tr>
+              <tr><td><b>1972</b></td><td><b>Stockholm Conference</b> + <b>Wildlife (Protection) Act</b></td><td>Global / India law</td></tr>
+              <tr><td><b>1973</b></td><td>CITES (wildlife trade) + <b>Project Tiger</b></td><td>Global / Programme</td></tr>
+              <tr><td><b>1974</b></td><td><b>Water Act</b> &rarr; CPCB &amp; SPCBs</td><td>India law</td></tr>
+              <tr><td><b>1980</b></td><td><b>Forest (Conservation) Act</b></td><td>India law</td></tr>
+              <tr><td><b>1981</b></td><td><b>Air Act</b></td><td>India law</td></tr>
+              <tr><td><b>1984</b></td><td><b>Bhopal Gas Tragedy</b> (MIC)</td><td>Disaster</td></tr>
+              <tr><td><b>1986</b></td><td><b>Environment (Protection) Act</b>, the umbrella law</td><td>India law</td></tr>
+              <tr><td><b>1987</b></td><td><b>Montreal Protocol</b> (ozone) + Brundtland Report + noise added to Air Act</td><td>Global / India law</td></tr>
+              <tr><td><b>1992</b></td><td><b>Rio Earth Summit</b> (UNFCCC, CBD, Agenda 21) + Project Elephant</td><td>Global / Programme</td></tr>
+              <tr><td><b>1997</b></td><td><b>Kyoto Protocol</b> (COP3)</td><td>Climate</td></tr>
+              <tr><td><b>2002</b></td><td><b>Biological Diversity Act</b></td><td>India law</td></tr>
+              <tr><td><b>2008</b></td><td>NAPCC (8 missions)</td><td>Programme</td></tr>
+              <tr><td><b>2010</b></td><td><b>National Green Tribunal</b></td><td>India law</td></tr>
+              <tr><td><b>2013</b></td><td><b>Minamata Convention</b> (mercury)</td><td>Global</td></tr>
+              <tr><td><b>2015</b></td><td><b>Paris Agreement</b> (COP21) + <b>17 SDGs</b></td><td>Climate / Global</td></tr>
+              <tr><td><b>2016</b></td><td><b>SWM Rules</b> (segregation at source)</td><td>India law</td></tr>
+              <tr><td><b>2019</b></td><td><b>NCAP</b> (clean air)</td><td>Programme</td></tr>
+            </tbody>
+          </table>
+        ` },
         { title: 'How to remember', html: `
-          <p class="lead">Don't learn 40 years one by one. Learn a few <b>anchor years</b>, then hang everything else on them as "+2", "+10" or "same year".</p>
+          <p class="lead">Don't learn 30 years one by one. Learn a few <b>anchor years</b>, then hang everything else on them as "+2", "+10" or "same year".</p>
           <h3>1. The five Indian Acts: "Wild Water, Forest Air, Everything"</h3>
           <table class="tbl">
             <thead><tr><th>Say</th><th>Act</th><th>Year</th><th>Hook</th></tr></thead>
@@ -220,7 +244,6 @@ CHUNK({
             <li><b>Stockholm 1972 → Water Act 1974</b> (+2).</li>
             <li><b>Bhopal 1984 → EPA 1986</b> (+2) <b>→ noise added to Air Act 1987</b> (+1).</li>
             <li><b>Montreal 1987 → Kyoto 1997</b> (+10): ozone, then climate.</li>
-            <li><b>Rio 1992 → Johannesburg 2002 → Rio+20 2012</b>: one summit every 10 years.</li>
             <li><b>CBD 1992 → Biological Diversity Act 2002</b> (+10): India's law for the Rio treaty.</li>
             <li><b>Kyoto adopted 1997 → in force 2005</b> (8 years); <b>Paris adopted 2015 → in force 2016</b> (just 1 year).</li>
           </ul>
@@ -228,9 +251,8 @@ CHUNK({
           <ul>
             <li><b>1956</b>: Minamata disease <b>and</b> the UK Clean Air Act.</li>
             <li><b>1972</b>: Stockholm <b>and</b> the Wildlife Act.</li>
-            <li><b>1987</b>: Montreal Protocol, Brundtland Report, Air Act noise amendment, National Water Policy.</li>
+            <li><b>1987</b>: Montreal Protocol, Brundtland Report, Air Act noise amendment.</li>
             <li><b>1992</b>: Rio (UNFCCC + CBD + Agenda 21) <b>and</b> Project Elephant.</li>
-            <li><b>2002</b>: Biological Diversity Act, Johannesburg, Bt cotton approved, India ratifies Kyoto.</li>
             <li><b>2015</b>: Paris Agreement <b>and</b> the 17 SDGs.</li>
           </ul>
           <h3>4. Small hooks</h3>
@@ -243,56 +265,82 @@ CHUNK({
           </ul>
           <div class="note">Then use the <b>date drill</b> at the top of the Laws, Acts &amp; dates page until you can answer 20 in a row.</div>
         ` },
-        { title: '1936 – 1991', html: `
+        { title: 'Indian laws', html: `
+          <p class="lead">Oldest to newest. <b>&#9733; bold</b> = must know; plain = good to know.</p>
           <table class="tbl">
             <thead><tr><th>Year</th><th>What</th></tr></thead>
             <tbody>
-              <tr><td>1936</td><td>Jim Corbett, India's first national park</td></tr>
-              <tr><td>1952 / 1956</td><td>London Smog → UK Clean Air Act 1956; Minamata disease 1956</td></tr>
-              <tr><td>1971</td><td>Ramsar Convention (wetlands)</td></tr>
-              <tr><td>1972</td><td><b>Stockholm Conference</b>; <b>Wildlife (Protection) Act</b></td></tr>
-              <tr><td>1973</td><td>CITES signed; <b>Project Tiger</b></td></tr>
-              <tr><td>1974</td><td><b>Water Act</b> → CPCB &amp; SPCBs</td></tr>
-              <tr><td>1980</td><td><b>Forest (Conservation) Act</b></td></tr>
-              <tr><td>1981</td><td><b>Air Act</b></td></tr>
-              <tr><td>1983</td><td>Silent Valley project halted</td></tr>
-              <tr><td>1984</td><td><b>Bhopal Gas Tragedy</b> (MIC)</td></tr>
-              <tr><td>1986</td><td><b>Environment (Protection) Act</b>, the umbrella law</td></tr>
-              <tr><td>1987</td><td><b>Montreal Protocol</b>; Brundtland Report; Air Act amended (noise); National Water Policy</td></tr>
-              <tr><td>1988</td><td>Water Act &amp; Forest Act amended; IPCC formed</td></tr>
+              <tr><td><b>1972</b></td><td>&#9733; Wildlife (Protection) Act: Schedules, protects the <b>inhabitants</b></td></tr>
+              <tr><td><b>1974</b></td><td>&#9733; Water Act: created the <b>CPCB &amp; SPCBs</b></td></tr>
+              <tr><td><b>1980</b></td><td>&#9733; Forest (Conservation) Act: Centre approval, protects the <b>habitat</b></td></tr>
+              <tr><td><b>1981</b></td><td>&#9733; Air Act: same boards, now for air</td></tr>
+              <tr><td><b>1986</b></td><td>&#9733; Environment (Protection) Act: <b>umbrella law</b>, after Bhopal</td></tr>
+              <tr><td><b>1987</b></td><td>&#9733; Air Act amended: <b>noise</b> added</td></tr>
+              <tr><td>1996</td><td>Godavarman judgment: "forest" in the dictionary sense</td></tr>
+              <tr><td>2000</td><td>Noise Pollution Rules (made under the EPA)</td></tr>
+              <tr><td><b>2002</b></td><td>&#9733; Biological Diversity Act: India's law for the CBD</td></tr>
+              <tr><td><b>2010</b></td><td>&#9733; National Green Tribunal Act</td></tr>
+              <tr><td><b>2016</b></td><td>&#9733; Solid Waste Management Rules: segregation at source</td></tr>
+              <tr><td>2023</td><td>Forest (Conservation) Amendment Act</td></tr>
             </tbody>
           </table>
         ` },
-        { title: '1992 – today', html: `
+        { title: 'Global treaties', html: `
+          <p class="lead">Oldest to newest. <b>&#9733; bold</b> = must know; plain = good to know.</p>
           <table class="tbl">
             <thead><tr><th>Year</th><th>What</th></tr></thead>
             <tbody>
-              <tr><td>1992</td><td><b>Rio Earth Summit</b> (UNFCCC, CBD, Agenda 21); Project Elephant; Forest Act amendment</td></tr>
-              <tr><td>1996</td><td>Godavarman judgment</td></tr>
-              <tr><td>1997</td><td><b>Kyoto Protocol</b> (COP3)</td></tr>
-              <tr><td>2000</td><td>Noise Pollution Rules</td></tr>
-              <tr><td>2002</td><td><b>Biological Diversity Act</b>; Johannesburg summit; Bt cotton approved; India ratifies Kyoto</td></tr>
+              <tr><td><b>1971</b></td><td>&#9733; Ramsar Convention: wetlands</td></tr>
+              <tr><td><b>1972</b></td><td>&#9733; Stockholm Conference: first global summit, UNEP, 5 June</td></tr>
+              <tr><td><b>1973</b></td><td>&#9733; CITES: trade in endangered species</td></tr>
+              <tr><td><b>1987</b></td><td>&#9733; Montreal Protocol: ozone / CFCs</td></tr>
+              <tr><td><b>1987</b></td><td>&#9733; Brundtland Report: defined sustainable development</td></tr>
+              <tr><td><b>1992</b></td><td>&#9733; Rio Earth Summit: UNFCCC, CBD, Agenda 21</td></tr>
+              <tr><td><b>1997</b></td><td>&#9733; Kyoto Protocol adopted: binding cuts, developed countries only</td></tr>
               <tr><td>2005</td><td>Kyoto enters into force (16 Feb)</td></tr>
-              <tr><td>2008</td><td>NAPCC (8 missions); Kyoto period 1 begins (2008–12)</td></tr>
-              <tr><td>2009</td><td>Copenhagen COP15</td></tr>
-              <tr><td>2010</td><td><b>National Green Tribunal</b></td></tr>
-              <tr><td>2012</td><td>Doha Amendment; Rio+20; National Water Policy 2012</td></tr>
-              <tr><td>2013</td><td><b>Minamata Convention</b> (mercury)</td></tr>
-              <tr><td>2014–15</td><td>Namami Gange</td></tr>
-              <tr><td>2015</td><td><b>Paris Agreement</b> (COP21); <b>17 SDGs</b></td></tr>
-              <tr><td>2016</td><td>Paris in force (4 Nov); <b>SWM Rules</b></td></tr>
-              <tr><td>2019</td><td><b>NCAP</b></td></tr>
-              <tr><td>2020</td><td>BS-VI; COVID-19 pandemic declared</td></tr>
-              <tr><td>2022–23</td><td>COP27 loss &amp; damage fund; COP28 global stocktake; Forest Act 2023 amendment</td></tr>
+              <tr><td><b>2013</b></td><td>&#9733; Minamata Convention: mercury</td></tr>
+              <tr><td><b>2015</b></td><td>&#9733; Paris Agreement (COP21): 1.5 &deg;C, NDCs</td></tr>
+              <tr><td><b>2015</b></td><td>&#9733; 17 SDGs for 2030</td></tr>
+              <tr><td>2016</td><td>Paris enters into force (4 Nov)</td></tr>
             </tbody>
           </table>
+        ` },
+        { title: 'Disasters', html: `
+          <p class="lead">Oldest to newest. <b>&#9733; bold</b> = must know; plain = good to know.</p>
+          <table class="tbl">
+            <thead><tr><th>Year</th><th>What</th></tr></thead>
+            <tbody>
+              <tr><td>1952</td><td>London Great Smog &rarr; UK Clean Air Act 1956</td></tr>
+              <tr><td><b>1956</b></td><td>&#9733; Minamata disease: mercury in fish</td></tr>
+              <tr><td>1983</td><td>Silent Valley hydro project halted</td></tr>
+              <tr><td><b>1984</b></td><td>&#9733; Bhopal Gas Tragedy: MIC, Union Carbide &rarr; EPA 1986</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'Programmes &amp; days', html: `
+          <p class="lead">Oldest to newest. <b>&#9733; bold</b> = must know; plain = good to know.</p>
+          <table class="tbl">
+            <thead><tr><th>Year</th><th>What</th></tr></thead>
+            <tbody>
+              <tr><td><b>1936</b></td><td>&#9733; Jim Corbett: India's first national park</td></tr>
+              <tr><td><b>1973</b></td><td>&#9733; Project Tiger</td></tr>
+              <tr><td><b>1992</b></td><td>&#9733; Project Elephant</td></tr>
+              <tr><td><b>2008</b></td><td>&#9733; NAPCC: 8 national missions</td></tr>
+              <tr><td>2015</td><td>Namami Gange</td></tr>
+              <tr><td><b>2019</b></td><td>&#9733; NCAP: cut PM in non-attainment cities</td></tr>
+              <tr><td>2020</td><td>BS-VI norms (skipped BS-V)</td></tr>
+            </tbody>
+          </table>
+          <div class="note">Days, in calendar order: <b>22 Mar</b> Water &middot; <b>22 Apr</b> Earth &middot; <b>22 May</b> Biodiversity (three 22nds) &middot; <b>5 Jun</b> Environment &middot; <b>16 Sep</b> Ozone.</div>
+          <h3>Skipped on purpose</h3>
+          <p>These dates appear in the lectures but are rarely asked, so they are left off this timeline and the date drill: Koyna 1967, Exxon Valdez 1989, Katrina 2005, Deepwater Horizon and Pakistan floods 2010, Kedarnath 2013, Fani 2019, COVID-19 2020, IPCC 1988, Johannesburg 2002, Copenhagen 2009, Doha / Rio+20 2012, COP27&ndash;28, the 1988 and 1992 Act amendments, National Water Policy, Bt cotton. Know what the <b>event</b> was; don't learn its year.</p>
         ` },
       ],
       flashcards: [
         { front: 'Order the five big Indian Acts.', back: 'Wildlife 1972 → Water 1974 → Forest 1980 → Air 1981 → EPA 1986.' },
-        { front: 'Order the climate treaties.', back: 'UNFCCC 1992 → Kyoto 1997 → Copenhagen 2009 → Paris 2015.' },
+        { front: 'Order the climate treaties.', back: 'UNFCCC 1992 → Kyoto 1997 → Paris 2015.' },
         { front: 'Which happened in 1987?', back: 'Montreal Protocol, Brundtland Report, Air Act amendment (noise).' },
-        { front: 'Which happened in 2002?', back: 'Biological Diversity Act, Johannesburg summit, Bt cotton approval.' }
+        { front: 'Which happened in 2015?', back: 'Paris Agreement (COP21) and the 17 SDGs.' }
       ],
       oneLiners: [
         '1972 had both Stockholm and the Wildlife Act.',
