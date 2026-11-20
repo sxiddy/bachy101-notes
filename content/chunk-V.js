@@ -199,7 +199,7 @@ CHUNK({
       ],
       tabs: [
         { title: 'Must know (in order)', html: `
-          <p class="lead">The <b>19 years to learn first</b>, oldest to newest. Short on time? Learn this tab. The topic tabs after it add the second-tier dates.</p>
+          <p class="lead">The <b>19 years to learn first</b>, oldest to newest. Short on time? Learn this tab. The topic tabs after it add the second-tier dates, and the two <b>All years</b> tabs at the end list every date in one combined timeline.</p>
           <table class="tbl">
             <thead><tr><th>Year</th><th>What</th><th>Topic</th></tr></thead>
             <tbody>
@@ -334,6 +334,50 @@ CHUNK({
           <div class="note">Days, in calendar order: <b>22 Mar</b> Water &middot; <b>22 Apr</b> Earth &middot; <b>22 May</b> Biodiversity (three 22nds) &middot; <b>5 Jun</b> Environment &middot; <b>16 Sep</b> Ozone.</div>
           <h3>Skipped on purpose</h3>
           <p>These dates appear in the lectures but are rarely asked, so they are left off this timeline and the date drill: Koyna 1967, Exxon Valdez 1989, Katrina 2005, Deepwater Horizon and Pakistan floods 2010, Kedarnath 2013, Fani 2019, COVID-19 2020, IPCC 1988, Johannesburg 2002, Copenhagen 2009, Doha / Rio+20 2012, COP27&ndash;28, the 1988 and 1992 Act amendments, National Water Policy, Bt cotton. Know what the <b>event</b> was; don't learn its year.</p>
+        ` },
+        { title: 'All years: 1936 – 1991', html: `
+          <table class="tbl">
+            <thead><tr><th>Year</th><th>What</th></tr></thead>
+            <tbody>
+              <tr><td>1936</td><td>Jim Corbett, India's first national park</td></tr>
+              <tr><td>1952 / 1956</td><td>London Smog → UK Clean Air Act 1956; Minamata disease 1956</td></tr>
+              <tr><td>1971</td><td>Ramsar Convention (wetlands)</td></tr>
+              <tr><td>1972</td><td><b>Stockholm Conference</b>; <b>Wildlife (Protection) Act</b></td></tr>
+              <tr><td>1973</td><td>CITES signed; <b>Project Tiger</b></td></tr>
+              <tr><td>1974</td><td><b>Water Act</b> → CPCB &amp; SPCBs</td></tr>
+              <tr><td>1980</td><td><b>Forest (Conservation) Act</b></td></tr>
+              <tr><td>1981</td><td><b>Air Act</b></td></tr>
+              <tr><td>1983</td><td>Silent Valley project halted</td></tr>
+              <tr><td>1984</td><td><b>Bhopal Gas Tragedy</b> (MIC)</td></tr>
+              <tr><td>1986</td><td><b>Environment (Protection) Act</b>, the umbrella law</td></tr>
+              <tr><td>1987</td><td><b>Montreal Protocol</b>; Brundtland Report; Air Act amended (noise); National Water Policy</td></tr>
+              <tr><td>1988</td><td>Water Act &amp; Forest Act amended; IPCC formed</td></tr>
+            </tbody>
+          </table>
+        ` },
+        { title: 'All years: 1992 – today', html: `
+          <table class="tbl">
+            <thead><tr><th>Year</th><th>What</th></tr></thead>
+            <tbody>
+              <tr><td>1992</td><td><b>Rio Earth Summit</b> (UNFCCC, CBD, Agenda 21); Project Elephant; Forest Act amendment</td></tr>
+              <tr><td>1996</td><td>Godavarman judgment</td></tr>
+              <tr><td>1997</td><td><b>Kyoto Protocol</b> (COP3)</td></tr>
+              <tr><td>2000</td><td>Noise Pollution Rules</td></tr>
+              <tr><td>2002</td><td><b>Biological Diversity Act</b>; Johannesburg summit; Bt cotton approved; India ratifies Kyoto</td></tr>
+              <tr><td>2005</td><td>Kyoto enters into force (16 Feb)</td></tr>
+              <tr><td>2008</td><td>NAPCC (8 missions); Kyoto period 1 begins (2008–12)</td></tr>
+              <tr><td>2009</td><td>Copenhagen COP15</td></tr>
+              <tr><td>2010</td><td><b>National Green Tribunal</b></td></tr>
+              <tr><td>2012</td><td>Doha Amendment; Rio+20; National Water Policy 2012</td></tr>
+              <tr><td>2013</td><td><b>Minamata Convention</b> (mercury)</td></tr>
+              <tr><td>2014–15</td><td>Namami Gange</td></tr>
+              <tr><td>2015</td><td><b>Paris Agreement</b> (COP21); <b>17 SDGs</b></td></tr>
+              <tr><td>2016</td><td>Paris in force (4 Nov); <b>SWM Rules</b></td></tr>
+              <tr><td>2019</td><td><b>NCAP</b></td></tr>
+              <tr><td>2020</td><td>BS-VI; COVID-19 pandemic declared</td></tr>
+              <tr><td>2022–23</td><td>COP27 loss &amp; damage fund; COP28 global stocktake; Forest Act 2023 amendment</td></tr>
+            </tbody>
+          </table>
         ` },
       ],
       flashcards: [
