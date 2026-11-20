@@ -10,19 +10,18 @@ CHUNK({
       source: 'Lecture W1S1, pages 1–5',
       tabs: [
         { title: 'Three definitions', html: `
-          <p class="lead">Three names, three angles on the same problem: <b>science</b> studies it, <b>studies</b> adds society and policy, <b>engineering</b> builds the fix.</p>
-          <table class="tbl"><thead><tr><th>Field</th><th>What it is</th></tr></thead><tbody>
-            <tr><td><b>Environmental science</b></td><td>Study of the environment and the interactions between humans and natural systems, aiming to understand and solve environmental problems.</td></tr>
-            <tr><td><b>Environmental studies</b></td><td>Interdisciplinary field on how people and the environment interact, stressing the <b>ethical, social, political and economic</b> sides, to advance sustainable solutions.</td></tr>
-            <tr><td><b>Environmental engineering</b></td><td>Uses engineering and scientific principles to <b>preserve and enhance</b> environmental quality: waste management, pollution prevention, water and air purification, sustainable development.</td></tr>
+          <p class="lead"><b>Science</b> studies it, <b>studies</b> adds society and policy, <b>engineering</b> builds the fix.</p>
+          <table class="tbl"><thead><tr><th>Field</th><th>Key words</th></tr></thead><tbody>
+            <tr><td><b>Environmental science</b></td><td>Humans + natural systems; understand and solve problems.</td></tr>
+            <tr><td><b>Environmental studies</b></td><td>Interdisciplinary; <b>ethical, social, political, economic</b> sides; social + natural sciences, law, policy.</td></tr>
+            <tr><td><b>Environmental engineering</b></td><td><b>Preserve and enhance</b> quality: waste, pollution prevention, water/air purification.</td></tr>
           </tbody></table>
           <h3>Who said what</h3>
           <ul>
-            <li><b>Encyclopedia Britannica</b>: environmental science is an interdisciplinary field drawing on ecology, geology, meteorology, biology, chemistry, engineering and physics to study environmental problems and human impacts.</li>
-            <li><b>Spellman &amp; Stoudt</b>: the interdisciplinary study of <b>how the Earth works</b> and how we are affecting the Earth's life support systems.</li>
+            <li><b>Encyclopedia Britannica</b>: interdisciplinary field drawing on ecology, geology, meteorology, biology, chemistry, engineering, physics.</li>
+            <li><b>Spellman &amp; Stoudt</b>: study of <b>how the Earth works</b> and how we affect its life support systems.</li>
           </ul>
-          <p>Environmental studies takes the broader view: it covers both social and natural sciences, and shows how history, politics, public policy and law are tied to environmental issues. Environmental engineering, put simply, designs solutions for pollution, waste and climate change.</p>
-          <div class="note trap"><p>Studies = people, ethics, policy. Science = how nature works. Engineering = technology and systems. Match the keyword to the field.</p></div>
+          <div class="note trap"><p>Studies = people, ethics, policy. Science = how nature works. Engineering = technology.</p></div>
         ` },
         { title: 'Scope', html: `
           <p class="lead">The scope of EVS is ten areas. Each pairs a job with the subject that does it.</p>
@@ -40,46 +39,44 @@ CHUNK({
           </tbody></table>
         ` },
         { title: 'Importance', html: `
-          <p class="lead">Seven reasons EVS matters. Most quiz questions on this tab just swap one reason for a wrong one.</p>
+          <p class="lead">Seven reasons EVS matters.</p>
           <ol>
-            <li>Helps us understand urgent global issues: <b>pollution, deforestation, climate change, biodiversity loss</b>.</li>
-            <li>Directs the <b>sustainable use</b> of natural resources, meeting today's demands without endangering future generations.</li>
-            <li>Stresses conserving and using <b>soil, water, air and energy</b> efficiently.</li>
-            <li>Helps <b>identify pollution sources</b> and develop technology and policies to reduce contamination.</li>
-            <li>Reduces the risk pollutants and harmful substances pose to <b>human health</b> by addressing environmental hazards.</li>
-            <li>Encourages <b>responsible behaviour</b> and environmental knowledge in individuals and communities.</li>
-            <li>Helps <b>predict and manage natural disasters</b> (floods, droughts, earthquakes) through better planning and preparedness.</li>
+            <li>Understand global issues: <b>pollution, deforestation, climate change, biodiversity loss</b>.</li>
+            <li><b>Sustainable use</b> of resources (today's needs, without harming future generations).</li>
+            <li>Conserve <b>soil, water, air and energy</b>.</li>
+            <li><b>Identify pollution sources</b>; build tech and policy to cut them.</li>
+            <li>Protect <b>human health</b> from pollutants.</li>
+            <li>Encourage <b>responsible behaviour</b>.</li>
+            <li><b>Predict and manage natural disasters</b> (floods, droughts, earthquakes).</li>
           </ol>
         ` },
         { title: 'Multidisciplinary approach', html: `
-          <p class="lead">A <b>multidisciplinary approach</b> involves integrating knowledge and methods from different academic disciplines to understand and address environmental problems.</p>
-          <p>Environmental studies deals with the interaction between humans and the environment. Environmental issues are <b>complex and interconnected</b>, so they cannot be fully understood or solved using knowledge from just one discipline. That is why a multidisciplinary approach becomes essential.</p>
-          <p>Environmental studies deals with <b>every issue that affects an organism</b>. It is essentially a multidisciplinary approach that brings about an appreciation of our natural world and of human impacts on its integrity. It is an <b>applied science</b> because it seeks practical answers to making human civilisation sustainable on the Earth's <b>finite resources</b>.</p>
+          <p class="lead"><b>Multidisciplinary approach</b> = integrating knowledge and methods from many disciplines, because issues are <b>complex and interconnected</b>.</p>
+          <p>EVS deals with <b>every issue that affects an organism</b>. It is an <b>applied science</b>: it seeks practical answers for living sustainably on Earth's <b>finite resources</b>.</p>
           <h3>Disciplines involved</h3>
-          <table class="tbl"><thead><tr><th>Discipline</th><th>What it contributes</th></tr></thead><tbody>
-            <tr><td><b>Biology</b></td><td>Understanding ecosystems, biodiversity and species interactions, the living side of every problem.</td></tr>
-            <tr><td><b>Chemistry</b></td><td>Studying pollution, chemical cycles (carbon, nitrogen) and toxicity, since pollutants are chemicals.</td></tr>
-            <tr><td><b>Physics</b></td><td>Energy flow, climate modelling and solar radiation.</td></tr>
-            <tr><td><b>Geology</b></td><td>Understanding soil, minerals, natural disasters and landforms.</td></tr>
-            <tr><td><b>Geography</b></td><td>Mapping, spatial relationships and environmental planning, so we know where problems are.</td></tr>
-            <tr><td><b>Economics</b></td><td>Cost-benefit analysis, resource management and sustainable development.</td></tr>
-            <tr><td><b>Political science</b></td><td>Environmental laws, international treaties and policy-making.</td></tr>
-            <tr><td><b>Sociology</b></td><td>Human behaviour, cultural impact on the environment and public awareness.</td></tr>
-            <tr><td><b>Engineering</b></td><td>Designing pollution control technologies and renewable energy systems.</td></tr>
-            <tr><td><b>Ethics / philosophy</b></td><td>Moral responsibility and environmental justice.</td></tr>
+          <table class="tbl"><thead><tr><th>Discipline</th><th>Contributes</th></tr></thead><tbody>
+            <tr><td><b>Biology</b></td><td>Ecosystems, biodiversity, species interactions</td></tr>
+            <tr><td><b>Chemistry</b></td><td>Pollution, chemical cycles (C, N), toxicity</td></tr>
+            <tr><td><b>Physics</b></td><td>Energy flow, climate modelling, solar radiation</td></tr>
+            <tr><td><b>Geology</b></td><td>Soil, minerals, natural disasters, landforms</td></tr>
+            <tr><td><b>Geography</b></td><td>Mapping, spatial relationships, planning</td></tr>
+            <tr><td><b>Economics</b></td><td>Cost-benefit analysis, resource management</td></tr>
+            <tr><td><b>Political science</b></td><td>Laws, international treaties, policy</td></tr>
+            <tr><td><b>Sociology</b></td><td>Human behaviour, culture, public awareness</td></tr>
+            <tr><td><b>Engineering</b></td><td>Pollution control tech, renewable energy</td></tr>
+            <tr><td><b>Ethics / philosophy</b></td><td>Moral responsibility, environmental justice</td></tr>
           </tbody></table>
         ` },
         { title: 'Why many subjects', html: `
           <p class="lead">Six reasons the multidisciplinary approach is needed.</p>
           <ol>
-            <li><b>Holistic understanding</b>: issues are interconnected (climate change affects agriculture, health, water), so you need natural and social sciences together.</li>
-            <li><b>Effective problem solving</b>: combines scientific, economic and political tools. Water scarcity may need <b>hydrology</b> (science), <b>policy</b> (law) and <b>infrastructure</b> (engineering).</li>
-            <li><b>Sustainable development</b>: balances ecological preservation, economic development and social equity, which needs input from many fields for long-term impact.</li>
-            <li><b>Informed decision-making</b>: governments, industries and individuals need broad-based knowledge to decide responsibly.</li>
-            <li><b>Policy formulation and implementation</b>: sound policy needs science, society, law and economics.</li>
-            <li><b>Adaptability to emerging challenges</b>: new threats such as <b>microplastics</b> and global pandemics linked to habitat loss need updated knowledge across fields.</li>
+            <li><b>Holistic understanding</b>: climate change hits agriculture, health, water at once.</li>
+            <li><b>Effective problem solving</b>: water scarcity = <b>hydrology</b> (science) + <b>policy</b> (law) + <b>infrastructure</b> (engineering).</li>
+            <li><b>Sustainable development</b>: ecology + economy + social equity.</li>
+            <li><b>Informed decision-making</b> by governments, industries, individuals.</li>
+            <li><b>Policy formulation and implementation</b>: science + society + law + economics.</li>
+            <li><b>Adaptability to emerging challenges</b>: <b>microplastics</b>, pandemics linked to habitat loss.</li>
           </ol>
-          <div class="note exam"><p>For a "why multidisciplinary" answer, give the six headings and attach the water-scarcity example to problem solving.</p></div>
         ` }
       ],
       flashcards: [
