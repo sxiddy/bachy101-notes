@@ -317,7 +317,7 @@ CHUNK({
             </tbody>
           </table>
         ` },
-        { title: 'Programmes &amp; days', html: `
+        { title: 'Programmes & days', html: `
           <p class="lead">Oldest to newest. <b>&#9733; bold</b> = must know; plain = good to know.</p>
           <table class="tbl">
             <thead><tr><th>Year</th><th>What</th></tr></thead>
