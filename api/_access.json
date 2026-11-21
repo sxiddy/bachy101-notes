@@ -1,6 +1,8 @@
 {
  "freeFiles": [
   "figs.js",
+  "extra-simple.js",
+  "extra-mnemonics.js",
   "chunk-A.js",
   "chunk-B.js",
   "q-M1.js",

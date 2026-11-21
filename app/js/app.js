@@ -88,7 +88,7 @@ window.__startApp = function () {
 
   // ================================================================ store
   const KEY = 'bachy101-notes:v1';
-  function blank() { return { visited: {}, done: {}, tags: {}, notes: {}, hl: {}, q: {}, cards: {}, confusing: {}, study: {}, syl: {}, resets: {}, fast: {}, last: null, ui: { closed: {}, lastTab: {} } }; }
+  function blank() { return { visited: {}, done: {}, tags: {}, notes: {}, hl: {}, q: {}, cards: {}, confusing: {}, study: {}, syl: {}, resets: {}, fast: {}, mocks: [], last: null, ui: { closed: {}, lastTab: {} } }; }
   function normalize(s) {
     const b = blank();
     if (!s || typeof s !== 'object') return b;
@@ -404,6 +404,9 @@ window.__startApp = function () {
           </div></div>
         </div>
         ${Object.keys(FAST).length ? `<a class="sb-link" href="#fast" data-key="fast">${icon('target')}<span>Fast track</span><span class="count" data-fastpct>${fastTotal().pct}%</span></a>` : ''}
+        <a class="sb-link" href="#review" data-key="review">${icon('rotate')}<span>Review</span>${PRO ? '<span class="badge-new" data-duecount hidden></span>' : '<span class="pro-tag">Pro</span>'}</a>
+        <a class="sb-link" href="#mock" data-key="mock">${icon('timer')}<span>Mock test</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
+        <a class="sb-link" href="#mistakes" data-key="mistakes">${icon('flag')}<span>Mistake notebook</span>${PRO ? '<span class="count" data-mistakecount hidden></span>' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#quiz" data-key="quiz">${icon('quiz')}<span>Quiz</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#cards" data-key="cards">${icon('cards')}<span>Flashcards</span><span class="count">${CARDS.length}</span></a>
         <a class="sb-link" href="#formulas" data-key="formulas">${icon('sigma')}<span>Formula sheet</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
@@ -411,6 +414,8 @@ window.__startApp = function () {
         <a class="sb-link" href="#mine" data-key="mine">${icon('pen')}<span>Highlights & notes</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#battle" data-key="battle">${icon('swords')}<span>1v1 Quiz battle</span></a>
         ${LAWS ? `<a class="sb-link" href="#laws" data-key="laws">${icon('quiz')}<span>Laws, Acts & dates</span></a>` : ''}
+        <a class="sb-link" href="#drill" data-key="drill">${icon('sigma')}<span>Numbers drill</span></a>
+        ${(D.mnemonics || []).length ? `<a class="sb-link" href="#tricks" data-key="tricks">${icon('bulb')}<span>Memory tricks</span><span class="count">${D.mnemonics.length}</span></a>` : ''}
         <a class="sb-link" href="#revise" data-key="revise">${icon('fire')}<span>Revision pack</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         ${PRO && !window.FREE_SITE ? '' : `<a class="sb-link sb-pro" href="#pro" data-key="pro">${icon('trophy')}<span>${window.FREE_SITE ? 'Pro (free right now)' : 'Why go Pro'}</span></a>`}
         <div class="sb-label">Talk to us</div>
@@ -564,7 +569,7 @@ window.__startApp = function () {
     let m = raw.match(/^(m[0-9]+)-summary$/);
     if (m && MOD[m[1]] && MOD[m[1]].locked) return { view: 'unlock' };
     if (m && MOD[m[1]]) return { view: 'summary', mod: m[1] };
-    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock|laws|fast)(?:\.([a-z0-9-]+))?$/);
+    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock|laws|fast|review|mistakes|drill|tricks)(?:\.([a-z0-9-]+))?$/);
     if (m) return { view: m[1], arg: m[2] || null };
     m = raw.match(/^([a-z0-9-]+?)(?:\.(\d+))?$/);
     if (m && TOPIC[m[1]]) return { view: 'topic', id: m[1], tab: m[2] != null ? +m[2] : null };
@@ -621,7 +626,12 @@ window.__startApp = function () {
         case 'revise': view = PRO ? viewRevise(r) : viewProTeaser('revise'); break;
         case 'laws': view = LAWS ? viewLaws() : viewHome(); break;
         case 'fast': view = viewFast(r); break;
-        case 'mock': case 'syllabus': case 'papers': view = viewHome(); break; // EVS has no CAT/FAT: all exams are online (owner, 10-11-2026)
+        case 'mock': view = PRO ? viewMockTest(r) : viewProTeaser('mock'); break;
+        case 'review': view = PRO ? viewReview(r) : viewProTeaser('review'); break;
+        case 'mistakes': view = PRO ? viewMistakes(r) : viewProTeaser('mistakes'); break;
+        case 'drill': view = viewDrill(r); break;
+        case 'tricks': view = viewTricks(r); break;
+        case 'syllabus': case 'papers': view = viewHome(); break; // EVS has no CAT/FAT: all exams are online (owner, 10-11-2026)
         case 'pro': view = viewGoPro(r); break;
         case 'guide': view = viewGuide(r); break;
         case 'battle': view = viewBattle(r); break;
@@ -822,7 +832,9 @@ window.__startApp = function () {
     lab: ['Interactive models', 'Every "Try it" model from the notes in one place: Nernst, Beer–Lambert, Bragg, Scherrer and more.'],
     mine: ['Bookmarks and My notes', 'Your highlights and notes in one place, synced between your phone and laptop.'],
     revise: ['Night-before revision pack', 'The key numbers, one-liners and traps of every week, ready to read in 20 minutes or save as a PDF.'],
-    mock: ['Timed mock CAT', 'A real CAT paper with a 90-minute timer. When time is up you get the model answers.'],
+    mock: ['Timed mock test', '50 MCQs from every week with a 30-minute clock, marked at the end with a week-by-week breakdown.'],
+    review: ['Spaced review', 'Questions you missed or guessed come back the next day, then after 3, 7, 21 and 45 days, so they stick.'],
+    mistakes: ['Mistake notebook', 'Every question you got wrong in one place, with the answer and why each other option is wrong.'],
   };
   function viewProTeaser(key) {
     const [title, text] = PRO_FEATURES[key] || ['Pro feature', ''];
@@ -925,6 +937,249 @@ window.__startApp = function () {
   }
 
   // Night-before revision pack (Pro): the formulas, one-liners, numbers and traps of every module on one page; Print saves a PDF.
+  // ---------------------------------------------------------------- spaced review, confidence, mistakes, mock, readiness
+  // Every graded MCQ answer schedules the question again: wrong or a lucky guess -> tomorrow; right -> 3, then 7, 21, 45 days.
+  const DAY = 864e5, GAPS = [3, 7, 21, 45];
+  const MCQS = () => QS.filter((q) => q.options && q.correct != null);
+  function schedule(id, how) {
+    const st = qState(id), now = Date.now();
+    if (how === 'right') { st.box = Math.min((st.box || 0) + 1, GAPS.length); st.due = now + GAPS[st.box - 1] * DAY; st.last = 'right'; }
+    else { st.box = 0; st.due = now + DAY; if (how === 'wrong') st.last = 'wrong'; else st.guess = (st.guess || 0) + 1; }
+  }
+  const dueIds = () => MCQS().filter((q) => S.q[q.id] && S.q[q.id].due && S.q[q.id].due <= Date.now()).map((q) => q.id);
+  const mistakeIds = () => MCQS().filter((q) => S.q[q.id] && S.q[q.id].wrong).map((q) => q.id);
+  function readiness() {
+    const all = MCQS(), seen = all.filter((q) => S.q[q.id] && S.q[q.id].last);
+    const right = seen.filter((q) => S.q[q.id].last === 'right').length;
+    const acc = seen.length ? right / seen.length : 0, cov = all.length ? seen.length / all.length : 0;
+    const fast = Object.keys(FAST).length ? fastTotal().pct / 100 : cov;
+    // accuracy only counts once there is enough of it to trust
+    const trust = Math.min(1, seen.length / 40);
+    return { pct: Math.round(100 * (0.45 * acc * trust + 0.3 * cov + 0.25 * fast)), acc, cov, fast, seen: seen.length, total: all.length };
+  }
+  function studyNext() {
+    const due = dueIds().length;
+    if (due) return { href: '#review', title: `Review ${due} question${due === 1 ? '' : 's'} due today`, why: 'Spaced review: these are the ones you missed or guessed, coming back just before you would forget them.' };
+    const stats = {};
+    MCQS().forEach((q) => { const st = S.q[q.id]; if (!st || !st.last || !TOPIC[q.topic]) return; const s = stats[q.topic] || (stats[q.topic] = { r: 0, n: 0 }); s.n++; if (st.last === 'right') s.r++; });
+    const weak = Object.entries(stats).filter(([, s]) => s.n >= 2 && s.r / s.n < 0.7).sort((a, b) => a[1].r / a[1].n - b[1].r / b[1].n)[0];
+    if (weak) { const t = TOPIC[weak[0]]; return { href: '#' + t.id, title: `Re-read ${plain(t.short || t.title)}`, why: `You got ${weak[1].r} of ${weak[1].n} right here, your weakest topic so far. Read it again, then retry its questions.` }; }
+    const ft = Object.keys(FAST).length ? fastTotal().ids.find((id) => !fastProg(id).done) : null;
+    if (ft) return { href: '#fast.' + ft, title: `Fast track: Week ${+MOD[ft].num}`, why: 'The next week of the short path: must-know facts and 10 MCQs.' };
+    const hy = TOPICS.find((t) => HY.has(t.id) && !isDone(t.id));
+    if (hy) return { href: '#' + hy.id, title: `Read ${plain(hy.short || hy.title)} in full`, why: 'One of the topics quizzes keep coming back to that you have not finished yet.' };
+    return { href: '#mock', title: 'Take a timed mock test', why: 'You have covered the core. See how you do against the clock.' };
+  }
+  function readyCard() {
+    const r = readiness(), n = studyNext(), due = dueIds().length;
+    return `<section class="ready">
+      <div class="ready-ring"><div class="ring" style="--p:${r.pct}"><span>${r.pct}%</span></div><small>exam-ready</small></div>
+      <div class="ready-bars">
+        <div><span>Accuracy</span><div class="bar"><i style="width:${Math.round(r.acc * 100)}%"></i></div><b>${r.seen ? Math.round(r.acc * 100) + '%' : '–'}</b></div>
+        <div><span>Questions tried</span><div class="bar"><i style="width:${Math.round(r.cov * 100)}%"></i></div><b>${r.seen}/${r.total}</b></div>
+        ${Object.keys(FAST).length ? `<div><span>Fast track</span><div class="bar"><i style="width:${Math.round(r.fast * 100)}%"></i></div><b>${Math.round(r.fast * 100)}%</b></div>` : ''}
+      </div>
+      <a class="ready-next" href="${n.href}"><small>Do this next</small><strong>${esc(n.title)} ${icon('right')}</strong><span>${esc(n.why)}</span></a>
+      ${due ? '' : ''}
+    </section>`;
+  }
+
+  // ---- review: the questions that are due
+  function viewReview() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Review' }]); setActive('review'); document.title = 'Review · BACHY101 Notes';
+    const el = h('div', { class: 'view' });
+    const now = Date.now(), sched = MCQS().map((q) => S.q[q.id]).filter((st) => st && st.due);
+    const due = dueIds(), tomorrow = sched.filter((st) => st.due > now && st.due <= now + DAY).length, week = sched.filter((st) => st.due > now && st.due <= now + 7 * DAY).length;
+    el.innerHTML = `
+      <div class="eyebrow"><span class="code">Practice</span><span>Spaced review</span></div>
+      <h1 class="h-display">Review</h1>
+      <p class="blurb">Questions you missed or guessed come back the next day. Get one right and it waits longer each time: 3 days, then 7, 21 and 45. A few minutes a day here beats rereading everything the night before.</p>
+      <div class="rev-stats"><div><b>${due.length}</b><span>due now</span></div><div><b>${tomorrow}</b><span>tomorrow</span></div><div><b>${week}</b><span>this week</span></div><div><b>${sched.length}</b><span>in rotation</span></div></div>
+      ${due.length ? `<button class="btn primary" data-go>${icon('play')}Review ${due.length} now</button>` : `<div class="empty">${sched.length ? 'Nothing due right now. Come back tomorrow.' : 'Nothing in rotation yet. Answer some questions in the quiz or Fast track and they will show up here.'}</div>`}`;
+    const go = $('[data-go]', el);
+    if (go) go.addEventListener('click', () => { quizUI.preset = shuffle(due).slice(0, 30); navigate('#quiz'); });
+    return { el };
+  }
+
+  // ---- mistake notebook
+  const mistakeUI = { show: 'open' };
+  function viewMistakes() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Mistake notebook' }]); setActive('mistakes'); document.title = 'Mistake notebook · BACHY101 Notes';
+    const el = h('div', { class: 'view' });
+    const all = mistakeIds().map((id) => QID[id]);
+    const open = all.filter((q) => S.q[q.id].last !== 'right');
+    el.innerHTML = `
+      <div class="eyebrow"><span class="code">Practice</span><span>${all.length} missed · ${open.length} still wrong</span></div>
+      <h1 class="h-display">Mistake notebook</h1>
+      <p class="blurb">Every question you have got wrong, with the answer and why the other options don't fit. Answer one right later and it is marked fixed.</p>
+      <div class="filters"><div class="frow"><span class="flabel">Show</span><button class="fchip" data-show="open">Still wrong (${open.length})</button><button class="fchip" data-show="all">All mistakes (${all.length})</button>${open.length ? `<button class="btn small primary" data-retry style="margin-left:auto">${icon('rotate')}Retry the ${Math.min(open.length, 30)} still wrong</button>` : ''}</div></div>
+      <div data-list></div>`;
+    const list = $('[data-list]', el);
+    const paint = () => {
+      $$('[data-show]', el).forEach((b) => b.classList.toggle('on', b.dataset.show === mistakeUI.show));
+      const qs = mistakeUI.show === 'open' ? open : all;
+      list.innerHTML = '';
+      if (!qs.length) { list.appendChild(h('div', { class: 'empty', text: all.length ? 'All fixed. Nice.' : 'No mistakes yet. Wrong answers from the quiz, Fast track and mock tests collect here.' })); return; }
+      let lastM = null;
+      qs.forEach((q) => {
+        if (q.module !== lastM) { lastM = q.module; list.appendChild(h('h2', { class: 'h-sec', text: MOD[q.module] ? `Week ${+MOD[q.module].num} · ${MOD[q.module].title}` : 'Across weeks' })); }
+        const c = qCard(q, { open: true });
+        if (S.q[q.id].last === 'right') c.classList.add('fixed');
+        list.appendChild(c);
+      });
+    };
+    el.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-show]'); if (b) { mistakeUI.show = b.dataset.show; paint(); }
+      if (e.target.closest('[data-retry]')) { quizUI.preset = shuffle(open.map((q) => q.id)).slice(0, 30); navigate('#quiz'); }
+    });
+    paint();
+    return { el };
+  }
+
+  // ---- timed mock test: 50 MCQs from every week, 30 minutes, marked only at the end
+  function viewMockTest() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Mock test' }]); setActive('mock'); document.title = 'Mock test · BACHY101 Notes';
+    const el = h('div', { class: 'view mock' });
+    let timer = null;
+    const N = 50, MINS = 30;
+    function pickSet() {
+      const mods = MODULES.filter((m) => m.topics.length).map((m) => m.id);
+      const by = {}; MCQS().forEach((q) => { if (mods.includes(q.module)) (by[q.module] = by[q.module] || []).push(q); });
+      const total = Object.values(by).reduce((a, l) => a + l.length, 0), out = [];
+      mods.forEach((m) => { const l = by[m] || []; out.push(...shuffle(l).slice(0, Math.round((l.length / total) * N))); });
+      const used = new Set(out.map((q) => q.id));
+      out.push(...shuffle(Object.values(by).flat().filter((q) => !used.has(q.id))).slice(0, Math.max(0, N - out.length)));
+      return shuffle(out).slice(0, N);
+    }
+    function setup() {
+      const past = (S.mocks || []).slice(-5).reverse();
+      el.innerHTML = `
+        <div class="eyebrow"><span class="code">Practice</span><span>Timed mock test</span></div>
+        <h1 class="h-display">Mock test</h1>
+        <p class="blurb">${N} MCQs drawn from every week, ${MINS} minutes on the clock. No answers until you submit, like the real thing. Then you get your score, how each week went and every question you missed.</p>
+        <button class="btn primary" data-start>${icon('play')}Start the ${MINS}-minute test</button>
+        ${past.length ? `<section class="sum-sec"><h2 class="h-sec">Your last tests</h2><div class="mock-past">${past.map((p) => `<div><b>${Math.round((p.score / p.total) * 100)}%</b><span>${p.score}/${p.total} · ${new Date(p.at).toLocaleDateString()}</span></div>`).join('')}</div></section>` : ''}`;
+      $('[data-start]', el).addEventListener('click', () => run(pickSet()));
+    }
+    function run(list) {
+      const ans = {}, end = Date.now() + MINS * 60e3; let i = 0;
+      el.innerHTML = `<div class="mock-top"><span data-clock></span><span data-done></span><button class="btn small" data-submit>Submit</button></div><div data-q></div><div class="mock-nav"><button class="btn" data-prev>${icon('left')}Previous</button><button class="btn primary" data-next>Next ${icon('right')}</button></div><div class="mock-grid" data-grid></div>`;
+      const clock = $('[data-clock]', el);
+      const tick = () => { const left = Math.max(0, end - Date.now()), m = Math.floor(left / 60e3), s = Math.floor(left / 1000) % 60; clock.textContent = `${m}:${String(s).padStart(2, '0')} left`; clock.classList.toggle('low', left < 5 * 60e3); if (!left) finish(list, ans, true); };
+      const paint = () => {
+        const q = list[i];
+        $('[data-q]', el).innerHTML = `<article class="qcard"><div class="qmeta"><span>Question ${i + 1} of ${list.length}</span><span>${esc(topicName(q))}</span></div><div class="qtext prose">${q.q}</div><ol class="qopts">${q.options.map((o, k) => `<li><button class="qopt${ans[q.id] === k ? ' chosen' : ''}" data-k="${k}"><span class="k">${'ABCD'[k]}</span><span>${o}</span></button></li>`).join('')}</ol></article>`;
+        $('[data-done]', el).textContent = `${Object.keys(ans).length} of ${list.length} answered`;
+        $('[data-grid]', el).innerHTML = list.map((x, k) => `<button class="${ans[x.id] != null ? 'a' : ''}${k === i ? ' cur' : ''}" data-go="${k}">${k + 1}</button>`).join('');
+        $('[data-prev]', el).disabled = i === 0; $('[data-next]', el).textContent = i === list.length - 1 ? 'Review & submit' : 'Next';
+      };
+      el.onclick = (e) => {
+        const o = e.target.closest('.qopt'); if (o) { ans[list[i].id] = +o.dataset.k; paint(); return; }
+        const g = e.target.closest('[data-go]'); if (g) { i = +g.dataset.go; paint(); return; }
+        if (e.target.closest('[data-prev]') && i > 0) { i--; paint(); }
+        if (e.target.closest('[data-next]')) { if (i < list.length - 1) { i++; paint(); } else e.target.closest('[data-next]').blur(); }
+        if (e.target.closest('[data-submit]')) { const left = list.length - Object.keys(ans).length; if (!left || confirm(`${left} question${left === 1 ? ' is' : 's are'} unanswered. Submit anyway?`)) finish(list, ans, false); }
+      };
+      tick(); timer = setInterval(tick, 1000); paint();
+    }
+    function finish(list, ans, timeUp) {
+      if (timer) { clearInterval(timer); timer = null; }
+      el.onclick = null;
+      let score = 0; const per = {};
+      list.forEach((q) => {
+        const p = per[q.module] || (per[q.module] = { r: 0, n: 0 }); p.n++;
+        if (ans[q.id] == null) return;
+        const right = ans[q.id] === q.correct, st = qState(q.id);
+        st.seen++; if (right) { st.right++; score++; p.r++; } else { st.wrong++; st.status = 'revisit'; }
+        schedule(q.id, right ? 'right' : 'wrong');
+      });
+      S.mocks = (S.mocks || []).concat({ at: Date.now(), score, total: list.length, per }).slice(-20); save();
+      const pct = Math.round((score / list.length) * 100);
+      const missed = list.filter((q) => ans[q.id] !== q.correct);
+      el.innerHTML = `
+        <div class="eyebrow"><span class="code">Mock test</span><span>${timeUp ? 'Time up' : 'Submitted'}</span></div>
+        <h1 class="h-display">${pct >= 80 ? 'Exam-ready.' : pct >= 60 ? 'Close. Keep going.' : 'Good to know now, not later.'}</h1>
+        <div class="score"><div class="ring" style="--p:${pct}"><span>${pct}%</span></div><div><p class="blurb" style="margin:0">${score} of ${list.length} right${Object.keys(ans).length < list.length ? `, ${list.length - Object.keys(ans).length} left blank` : ''}.</p><p class="muted" style="margin:6px 0 0;font-size:14px">Missed questions are now in your Review and Mistake notebook.</p></div></div>
+        <section class="sum-sec"><h2 class="h-sec">By week</h2><div class="ready-bars wide">${Object.entries(per).map(([m, p]) => `<div><span>Week ${MOD[m] ? +MOD[m].num : '?'}</span><div class="bar"><i style="width:${Math.round((p.r / p.n) * 100)}%"></i></div><b>${p.r}/${p.n}</b></div>`).join('')}</div></section>
+        <div class="btn-row"><button class="btn primary" data-again>${icon('rotate')}New mock test</button><a class="btn" href="#mistakes">Mistake notebook</a></div>
+        ${missed.length ? `<section class="sum-sec"><h2 class="h-sec">The ${missed.length} you missed or skipped</h2><div data-missed></div></section>` : ''}`;
+      const mh = $('[data-missed]', el); if (mh) missed.forEach((q) => mh.appendChild(qCard(q, { open: true })));
+      $('[data-again]', el).addEventListener('click', setup);
+      refreshBadges();
+    }
+    setup();
+    return { el, cleanup() { if (timer) clearInterval(timer); } };
+  }
+
+  // ---- numbers drill: blank the key number in a must-know fact and pick it from four
+  function drillItems() {
+    const out = [];
+    Object.values(FAST).forEach((f) => (f.facts || []).forEach((x) => {
+      const bolds = [...String(x.html).matchAll(/<b>([^<]*\d[^<]*)<\/b>/g)].map((m) => m[1]);
+      if (bolds.length) out.push({ html: x.html, ans: bolds[0], t: x.t });
+    }));
+    return out;
+  }
+  function viewDrill() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Numbers drill' }]); setActive('drill'); document.title = 'Numbers drill · BACHY101 Notes';
+    const el = h('div', { class: 'view' });
+    const items = drillItems(), pool = [...new Set(items.map((x) => x.ans))];
+    const yearish = (s) => /^\(?\d{4}\)?$/.test(s.trim());
+    let round = shuffle(items).slice(0, 10), i = 0, right = 0;
+    function step() {
+      if (i >= round.length) {
+        el.innerHTML = `<div class="eyebrow"><span class="code">Drill</span><span>Done</span></div><h1 class="h-display">${right}/${round.length}</h1><p class="blurb">${right === round.length ? 'Every number right.' : 'The ones you missed are worth one more look.'}</p><div class="btn-row"><button class="btn primary" data-again>${icon('rotate')}Another 10</button>${LAWS ? '<a class="btn" href="#laws">Year and Article drills</a>' : ''}</div>`;
+        $('[data-again]', el).addEventListener('click', () => { round = shuffle(items).slice(0, 10); i = 0; right = 0; step(); });
+        return;
+      }
+      const it = round[i];
+      const same = pool.filter((p) => p !== it.ans && yearish(p) === yearish(it.ans));
+      const opts = shuffle([it.ans, ...shuffle(same).slice(0, 3)]);
+      const blanked = it.html.replace(`<b>${it.ans}</b>`, '<span class="blank">?</span>');
+      el.innerHTML = `
+        <div class="eyebrow"><span class="code">Drill</span><span>Numbers and years</span></div>
+        <div class="quiz-top"><span>${i + 1} / ${round.length}</span><div class="bar"><i style="width:${(i / round.length) * 100}%"></i></div><span>${right} right</span></div>
+        <article class="qcard"><div class="qtext prose drill-q">${blanked}</div><ol class="qopts">${opts.map((o, k) => `<li><button class="qopt" data-o="${esc(o)}"><span class="k">${'ABCD'[k]}</span><span>${o}</span></button></li>`).join('')}</ol>
+        <div class="drill-src" hidden>${it.html}${TOPIC[it.t] ? ` <a href="#${it.t}">${rt(TOPIC[it.t].short || TOPIC[it.t].title)} →</a>` : ''}</div></article>
+        <div class="btn-row" style="justify-content:flex-end;margin-top:14px"><button class="btn primary" data-next hidden>Next ${icon('right')}</button></div>`;
+      el.onclick = (e) => {
+        const b = e.target.closest('.qopt');
+        if (b && !b.disabled) {
+          const ok = b.dataset.o === it.ans; if (ok) right++;
+          $$('.qopt', el).forEach((x) => { x.disabled = true; if (x.dataset.o === it.ans) x.classList.add('right'); else if (x === b) x.classList.add('wrong'); else x.classList.add('dim'); });
+          $('.drill-src', el).hidden = false; $('[data-next]', el).hidden = false;
+        }
+        if (e.target.closest('[data-next]')) { i++; step(); }
+      };
+    }
+    if (!items.length) el.innerHTML = '<div class="empty">No drill items yet.</div>'; else step();
+    return { el };
+  }
+
+  // ---- memory tricks
+  function viewTricks() {
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Memory tricks' }]); setActive('tricks'); document.title = 'Memory tricks · BACHY101 Notes';
+    const el = h('div', { class: 'view' });
+    const list = D.mnemonics || [];
+    const mods = MODULES.filter((m) => list.some((x) => x.module === m.id));
+    el.innerHTML = `
+      <div class="eyebrow"><span class="code">Remember it</span><span>${list.length} tricks</span></div>
+      <h1 class="h-display">Memory tricks</h1>
+      <p class="blurb">Lists, orders and dates from the notes, each with a short hook that makes them stick. Say the hook out loud once, then try to rebuild the list from it.</p>
+      ${mods.map((m) => `<section class="sum-sec"><h2 class="h-sec">Week ${+m.num} · ${esc(m.title)}</h2><div class="tricks">${list.filter((x) => x.module === m.id).map(trickCard).join('')}</div></section>`).join('')}`;
+    el.addEventListener('click', (e) => { const c = e.target.closest('.trick'); if (c && !e.target.closest('a')) c.classList.toggle('open'); });
+    return { el };
+  }
+  function trickCard(x) {
+    return `<article class="trick"><div class="trick-h"><span class="trick-t">${esc(x.title)}</span>${TOPIC[x.topic] ? `<a href="#${x.topic}">${rt(TOPIC[x.topic].short || TOPIC[x.topic].title)} →</a>` : ''}</div>
+      <div class="trick-hook">${esc(x.trick)}</div><p class="trick-how">${esc(x.how || '')}</p>
+      <ol class="trick-items">${(x.items || []).map((i) => `<li>${esc(i)}</li>`).join('')}</ol><span class="trick-tap">Tap to check the list</span></article>`;
+  }
+  function refreshBadges() {
+    const d = document.querySelector('[data-duecount]'); if (d) { const n = dueIds().length; d.textContent = n; d.hidden = !n; }
+    const m = document.querySelector('[data-mistakecount]'); if (m) { const n = mistakeIds().filter((id) => S.q[id].last !== 'right').length; m.textContent = n; m.hidden = !n; }
+  }
+
   // ---------------------------------------------------------------- fast track
   const fmtMins = (m) => (m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? ' ' + (m % 60) + ' min' : ''}` : `${m} min`);
   function fastProg(mid) {
@@ -939,6 +1194,104 @@ window.__startApp = function () {
     const pct = ids.length ? Math.round(ids.reduce((a, id) => a + fastProg(id).pct, 0) / ids.length) : 0;
     return { pct, weeks: ids.length, mins: ids.reduce((a, id) => a + (FAST[id].minutes || 0), 0), ids };
   }
+  // ---- fast-track sheet (start) ----
+  // The printable Fast track sheet: a standalone light A4 document. weeks = [{ num, title, minutes, facts: [{ star, html }], read: [name] }].
+  function fastSheetHTML(weeks, opts) {
+    opts = opts || {};
+    const PAL = ['#2f7d5b', '#2a6a96', '#a8601f', '#8a3a62', '#4a56ad', '#2f7a76', '#6b5a2e'];
+    const e = (x) => String(x == null ? '' : x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const keep = (html) => String(html || '').replace(/<(?!\/?(b|strong|i|em|sub|sup)\b)[^>]*>/g, '');
+    const nFacts = weeks.reduce((a, w) => a + w.facts.length, 0), nOften = weeks.reduce((a, w) => a + w.facts.filter((f) => f.star).length, 0);
+    const mins = weeks.reduce((a, w) => a + (w.minutes || 0), 0);
+    const one = weeks.length === 1;
+    const SITE = 'https://bachy101.notix.in', SITE_TXT = 'bachy101.notix.in';
+    const title = one ? `Week ${weeks[0].num}` : 'Fast track';
+    const sub = one ? e(weeks[0].title) : 'Must-know facts for every week';
+    const block = (w, i) => {
+      const c = PAL[(w.num - 1) % PAL.length];
+      return `<section class="wk" style="--c:${c}">
+        <header class="wk-h"><span class="wk-n">${String(w.num).padStart(2, '0')}</span><div class="wk-t"><span class="wk-k">Week ${w.num}</span><h2>${e(w.title)}</h2></div><span class="wk-m">${w.facts.length} facts${w.minutes ? ` · ${w.minutes} min` : ''}</span></header>
+        <ol class="facts">${w.facts.map((f, k) => `<li class="${f.star ? 'oa' : ''}"><span class="no">${k + 1}</span><p>${keep(f.html)}</p></li>`).join('')}</ol>
+        ${w.read && w.read.length ? `<div class="read"><span>Read in full</span>${w.read.map((r) => `<i>${e(r)}</i>`).join('')}</div>` : ''}
+        ${w.id ? `<a class="wk-go" href="${SITE}/#fast.${w.id}">Test yourself: 10 MCQs with answers for Week ${w.num} at <b>${SITE_TXT}</b> →</a>` : ''}
+      </section>`;
+    };
+    return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${one ? `Week ${weeks[0].num} · ` : ''}Fast track · BACHY101</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>
+  @page { size: A4; margin: 13mm 13mm 15mm; @bottom-center { content: "bachy101.notix.in  ·  BACHY101 Fast track  ·  page " counter(page) " of " counter(pages); font: 500 7.5pt "Hanken Grotesk", Arial, sans-serif; color: #8a8f98; } }
+  :root { --ink: #16181d; --soft: #4a4f5a; --faint: #8a8f98; --rule: #e3e5e9; --paper: #fff; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; background: #e9eaed; color: var(--ink); font: 9.4pt/1.47 "Source Serif 4", Georgia, serif; }
+  .sheet { width: 210mm; min-height: 297mm; margin: 18px auto 40px; padding: 13mm 13mm 15mm; background: var(--paper); box-shadow: 0 4px 30px rgba(0,0,0,.12); }
+  .bar { position: sticky; top: 0; z-index: 2; display: flex; gap: 12px; align-items: center; justify-content: center; padding: 10px 16px; background: #16181d; color: #e8e9ec; font: 500 13px "Hanken Grotesk", Arial, sans-serif; }
+  .bar button { font: 600 13px "Hanken Grotesk", Arial, sans-serif; padding: 7px 14px; border: 0; border-radius: 8px; background: #fff; color: #16181d; cursor: pointer; }
+  /* title block */
+  .top { display: grid; grid-template-columns: 1fr auto; gap: 6mm; align-items: end; padding-bottom: 5mm; margin-bottom: 6mm; border-bottom: 1.4pt solid var(--ink); }
+  .eyebrow { font: 600 7.5pt/1 "Hanken Grotesk", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+  .top h1 { margin: 2.2mm 0 1.2mm; font: 700 30pt/1 "Source Serif 4", Georgia, serif; letter-spacing: -.02em; }
+  .top .sub { margin: 0; font: 500 10.5pt/1.3 "Hanken Grotesk", Arial, sans-serif; color: var(--soft); }
+  .stats { display: flex; gap: 6mm; text-align: right; }
+  .stat b { display: block; font: 700 17pt/1 "Hanken Grotesk", Arial, sans-serif; }
+  .stat span { font: 500 7pt/1.2 "Hanken Grotesk", Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+  .legend { display: flex; flex-wrap: wrap; gap: 2mm 6mm; margin: -2mm 0 6mm; font: 500 7.8pt "Hanken Grotesk", Arial, sans-serif; color: var(--soft); }
+  .legend span { display: inline-flex; align-items: center; gap: 1.8mm; }
+  .legend .k1 { width: 4.2mm; height: 4.2mm; border-radius: 50%; background: #16181d; color: #fff; display: inline-grid; place-items: center; font-size: 6.5pt; font-weight: 700; }
+  .legend .k2 { width: 4.2mm; height: 4.2mm; border-radius: 50%; border: .8pt solid #b9bdc4; color: #8a8f98; display: inline-grid; place-items: center; font-size: 6.5pt; font-weight: 700; }
+  /* a week */
+  .wk { margin: 0 0 7.5mm; }
+  .wk-h { break-after: avoid; break-inside: avoid; }
+  .read { break-inside: avoid; break-before: avoid; }
+  .wk-h { display: grid; grid-template-columns: auto 1fr auto; gap: 4mm; align-items: center; padding-bottom: 2.4mm; margin-bottom: 3mm; border-bottom: 1.6pt solid var(--c); }
+  .wk-n { font: 800 25pt/0.9 "Hanken Grotesk", Arial, sans-serif; color: var(--c); letter-spacing: -.03em; }
+  .wk-k { font: 700 7pt/1 "Hanken Grotesk", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--c); }
+  .wk-h h2 { margin: 1mm 0 0; font: 700 12.5pt/1.2 "Hanken Grotesk", Arial, sans-serif; }
+  .wk-m { align-self: end; font: 500 7.8pt "Hanken Grotesk", Arial, sans-serif; color: var(--faint); white-space: nowrap; }
+  .facts { list-style: none; margin: 0; padding: 0; column-count: ${one ? 1 : 2}; column-gap: 7mm; }
+  .facts li { break-inside: avoid; display: grid; grid-template-columns: 5.2mm 1fr; gap: 2mm; padding: 1.25mm 0; }
+  .facts .no { width: 4.4mm; height: 4.4mm; margin-top: .55mm; border-radius: 50%; border: .8pt solid #c4c8ce; color: var(--faint); display: grid; place-items: center; font: 700 6.4pt/1 "Hanken Grotesk", Arial, sans-serif; }
+  .facts li.oa .no { border-color: var(--c); background: var(--c); color: #fff; }
+  .facts p { margin: 0; }
+  .facts b, .facts strong { font-weight: 700; color: #000; }
+  .facts li.oa p { color: #000; }
+  .read { display: flex; flex-wrap: wrap; align-items: center; gap: 1.6mm; margin-top: 2.6mm; padding-top: 2.4mm; border-top: .6pt dashed var(--rule); }
+  .read span { margin-right: 1mm; font: 700 6.8pt "Hanken Grotesk", Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--c); }
+  .read i { font: 500 7.6pt/1 "Hanken Grotesk", Arial, sans-serif; font-style: normal; padding: 1.2mm 2.2mm; border-radius: 99px; color: var(--c); background: color-mix(in srgb, var(--c) 10%, #fff); }
+  .eyebrow a { color: inherit; text-decoration: none; border-bottom: .6pt solid #c4c8ce; }
+  .wk-go { display: block; margin-top: 2.4mm; font: 500 7.8pt "Hanken Grotesk", Arial, sans-serif; color: var(--c); text-decoration: none; break-before: avoid; }
+  .wk-go b { font-weight: 700; }
+  .cta { break-inside: avoid; display: grid; grid-template-columns: 1fr auto; gap: 6mm; align-items: center; margin-top: 6mm; padding: 4.5mm 5.5mm; border-radius: 3mm; background: #16181d; color: #e9eaee; text-decoration: none; font: 400 8.8pt/1.5 "Hanken Grotesk", Arial, sans-serif; }
+  .cta b { color: #fff; }
+  .cta .u { color: #fff; font-weight: 600; }
+  .cta-url { font: 800 13pt/1 "Hanken Grotesk", Arial, sans-serif; color: #fff; white-space: nowrap; padding: 3mm 4mm; border: 1pt solid rgba(255,255,255,.35); border-radius: 2mm; }
+  .end { margin-top: 4mm; padding-top: 3mm; border-top: .6pt solid var(--rule); font: 500 7.5pt "Hanken Grotesk", Arial, sans-serif; color: var(--faint); text-align: center; }
+  @media print { body { background: none; } .bar { display: none; } .sheet { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; } }
+  @media screen and (max-width: 820px) { .sheet { width: auto; margin: 0; padding: 18px; min-height: 0; } .facts { column-count: 1; } }
+</style></head><body>
+${opts.bar === false ? '' : `<div class="bar">Pick <b>Save as PDF</b> as the printer to keep a copy. <button onclick="print()">Print / Save as PDF</button></div>`}
+<div class="sheet">
+  <div class="top"><div><div class="eyebrow">BACHY101 · Environmental Sciences · <a href="${SITE}">${SITE_TXT}</a></div><h1>${title}</h1><p class="sub">${sub}</p></div>
+    <div class="stats"><div class="stat"><b>${nFacts}</b><span>facts</span></div><div class="stat"><b>${nOften}</b><span>often asked</span></div>${mins ? `<div class="stat"><b>${mins >= 60 ? Math.round(mins / 6) / 10 + 'h' : mins + 'm'}</b><span>to finish</span></div>` : ''}</div></div>
+  <div class="legend"><span><i class="k1">1</i> Often asked in quizzes: learn these first</span><span><i class="k2">2</i> Worth knowing</span><span>Bold = the word or number to remember</span></div>
+  ${weeks.map(block).join('')}
+  <a class="cta" href="${SITE}"><div><b>This is the short version.</b> The full BACHY101 notes are free at <span class="u">${SITE_TXT}</span>: every topic with diagrams, ${opts.mcqs ? opts.mcqs + ' ' : ''}MCQs that explain why each wrong option is wrong, flashcards, quizzes and 1v1 quiz battles.</div><span class="cta-url">${SITE_TXT}</span></a>
+</div>
+${opts.autoprint === false ? '' : `<script>(document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { setTimeout(function () { print(); }, 250); });<\/script>`}
+</body></html>`;
+  }
+  // ---- fast-track sheet (end) ----
+  // Printable Fast track: opens the sheet in its own window, which calls the browser's print dialog ("Save as PDF").
+  function printFast(ids) {
+    const w = window.open('', '_blank');
+    if (!w) { toast('Allow pop-ups for this site to save the PDF', 'warn'); return; }
+    const weeks = ids.map((id) => ({ id, num: +MOD[id].num, title: MOD[id].title, minutes: FAST[id].minutes || 0, facts: FAST[id].facts || [],
+      read: (FAST[id].hy || []).filter((t) => TOPIC[t]).map((t) => plain(TOPIC[t].short || TOPIC[t].title)) }));
+    w.document.write(fastSheetHTML(weeks, { mcqs: QS.filter((q) => q.options).length }));
+    w.document.close();
+  }
   function viewFast(r) {
     const el = h('div', { class: 'view fast' });
     const mid = r.arg && FAST[r.arg] && MOD[r.arg] && MOD[r.arg].topics.length ? r.arg : null;
@@ -949,8 +1302,9 @@ window.__startApp = function () {
         <div class="eyebrow"><span class="code">Fast track</span><span>${ft.weeks} weeks · about ${fmtMins(ft.mins)}</span></div>
         <h1 class="h-display">Fast track</h1>
         <p class="blurb">The short path through the course. For each week: the facts you must know, the topics quizzes keep coming back to, and 10 MCQs to lock it in. When every ring is full you've covered the core; the full notes are there whenever you want more depth.</p>
-        <div class="fast-total"><div class="ring" style="--p:${ft.pct}"><span>${ft.pct}%</span></div><p class="muted">${ft.ids.filter((id) => fastProg(id).done).length} of ${ft.weeks} weeks done</p></div>
+        <div class="fast-total"><div class="ring" style="--p:${ft.pct}"><span>${ft.pct}%</span></div><p class="muted">${ft.ids.filter((id) => fastProg(id).done).length} of ${ft.weeks} weeks done</p><button class="btn small" data-act="fastpdf" style="margin-left:auto">${icon('download')}Save all facts as PDF</button></div>
         <div class="fast-list">${ft.ids.map((id) => { const m = MOD[id], p = fastProg(id); return `<a class="fast-row${p.done ? ' done' : ''}" href="#fast.${id}"><div class="ring" style="--p:${p.pct}"><span>${p.pct}%</span></div><div><span class="mod-num">Week ${+m.num}</span><h3>${esc(m.title)}</h3><p>${(FAST[id].facts || []).length} facts · ${p.answered}/${p.total} MCQs · about ${fmtMins(FAST[id].minutes || 0)}</p></div><span class="arrow">${icon('right')}</span></a>`; }).join('')}</div>`;
+      $('[data-act="fastpdf"]', el).addEventListener('click', () => printFast(ft.ids));
       return { el };
     }
     const m = MOD[mid], f = FAST[mid];
@@ -963,7 +1317,7 @@ window.__startApp = function () {
     el.innerHTML = `
       <div class="eyebrow"><span class="code">Fast track</span><span>Week ${+m.num}</span><span class="dot">·</span><span>about ${fmtMins(f.minutes || 0)}</span></div>
       <h1 class="h-display">${esc(m.title)}</h1>
-      <div class="fast-prog"><div class="ring" data-ring><span></span></div><p class="muted">Read the facts, try the 10 MCQs, then tick the week off.</p></div>
+      <div class="fast-prog"><div class="ring" data-ring><span></span></div><p class="muted">Read the facts, try the 10 MCQs, then tick the week off.</p><button class="btn small" data-act="fastpdf" style="margin-left:auto">${icon('download')}Save as PDF</button></div>
       <section class="sum-sec"><h2 class="h-sec">Must-know facts</h2>
         <ol class="fast-facts">${(f.facts || []).map((x) => `<li class="${x.star ? 'star' : ''}"><span class="fnum" aria-hidden="true"></span><div class="prose">${x.star ? '<span class="hy-tag">Often asked</span> ' : ''}${x.html}${TOPIC[x.t] ? ` <a class="fsrc" href="#${x.t}">${rt(TOPIC[x.t].short || TOPIC[x.t].title)} →</a>` : ''}</div></li>`).join('')}</ol>
       </section>
@@ -979,6 +1333,7 @@ window.__startApp = function () {
       const sp = document.querySelector('[data-fastpct]'); if (sp) sp.textContent = fastTotal().pct + '%';
     };
     ids.forEach((id) => holder.appendChild(qCard(QID[id], { onAnswer: () => setTimeout(paint) })));
+    $('[data-act="fastpdf"]', el).addEventListener('click', () => printFast([mid]));
     doneBtn.addEventListener('click', () => { st.done = !st.done; save(); if (st.done) toast(`Week ${+m.num} fast track done`, 'check'); paint(); });
     paint();
     return { el };
@@ -1092,6 +1447,7 @@ window.__startApp = function () {
         ${last ? `<div class="continue"><a class="btn primary" href="${last.hash}">Continue: ${rt(last.title)} ${icon('right')}</a></div>` : (TOPICS[0] ? `<div class="continue"><a class="btn primary" href="#${TOPICS[0].id}">Start with ${rt(TOPICS[0].title)} ${icon('right')}</a></div>` : '')}
       </section>
       ${Object.keys(FAST).length ? (() => { const ft = fastTotal(); return `<a class="fast-hero" href="#fast"><div class="ring" style="--p:${ft.pct}"><span>${ft.pct}%</span></div><div><div class="eyebrow"><span class="code">Short on time?</span></div><h2 class="h-sec">Fast track · ${ft.weeks} weeks · about ${fmtMins(ft.mins)}</h2><p>The core of every week in one sitting: the facts you must know, the topics quizzes keep coming back to and 10 MCQs to lock it in. Finish it, then go deeper in the notes.</p></div><span class="arrow">${icon('right')}</span></a>`; })() : ''}
+      ${PRO ? readyCard() : ''}
       <section class="subjects">
         <div class="subj-head"><h2 class="h-sub">Subjects</h2><input class="subj-search" type="search" placeholder="Search subjects" aria-label="Search subjects" data-subjq></div>
         <div class="subj-list">${SUBJECTS.map(subjectCard).join('')}</div>
@@ -1190,6 +1546,7 @@ window.__startApp = function () {
       <div class="eyebrow"><span class="code">M${+m.num}</span><a href="#${m.id}" style="text-decoration:none">${esc(m.title)}</a></div>
       <h1 class="h-display">${rt(t.title)}</h1>
       <p class="blurb">${rt(t.blurb)}</p>
+      ${(D.simple || {})[t.id] || (D.mnemonics || []).some((x) => x.topic === t.id) ? `<div class="t-extras">${(D.simple || {})[t.id] ? `<details class="simple"><summary>${icon('bulb')}Explain it simply</summary><p>${esc(D.simple[t.id])}</p></details>` : ''}${(D.mnemonics || []).filter((x) => x.topic === t.id).map((x) => `<details class="simple"><summary>${icon('bulb')}Memory trick: ${esc(x.title)}</summary><p><b>${esc(x.trick)}</b>: ${esc(x.how || '')}</p><p class="muted">${(x.items || []).map(esc).join(' · ')}</p></details>`).join('')}</div>` : ''}
       ${askedBadge(t.id)}
       <div class="t-actions">
         <button class="btn" data-act="done"></button>
@@ -1433,7 +1790,14 @@ window.__startApp = function () {
       if (q.correct == null) { ans.classList.add('open'); paintRev(); return; } // free: no marking, the answer card says why
       const k = +b.dataset.k, right = k === q.correct;
       $$('.qopt', card).forEach((x) => { x.disabled = true; const kk = +x.dataset.k; if (kk === q.correct) x.classList.add('right'); else if (kk === k) x.classList.add('wrong'); else x.classList.add('dim'); });
-      const st = qState(q.id); st.seen++; if (right) st.right++; else { st.wrong++; st.status = 'revisit'; } save();
+      const st = qState(q.id); st.seen++; if (right) st.right++; else { st.wrong++; st.status = 'revisit'; }
+      schedule(q.id, right ? 'right' : 'wrong'); save(); refreshBadges();
+      if (right) {
+        const kept = { box: st.box, due: st.due };
+        const sure = h('div', { class: 'sure', html: '<span>How sure were you?</span><button class="fchip" data-sure="1">Knew it</button><button class="fchip" data-sure="0">Lucky guess</button>' });
+        sure.addEventListener('click', (ev) => { const b = ev.target.closest('[data-sure]'); if (!b) return; $$('[data-sure]', sure).forEach((x) => x.classList.toggle('on', x === b)); if (b.dataset.sure === '0') { schedule(q.id, 'guess'); toast('It will come back tomorrow', 'rotate'); } else { st.box = kept.box; st.due = kept.due; } save(); refreshBadges(); });
+        ans.prepend(sure);
+      }
       $('[data-st]', card).innerHTML = statusTag(q.id);
       const pick = $(`.whynot [data-wk="${k}"]`, card); if (pick) { pick.classList.add('picked'); pick.parentNode.prepend(pick); }
       ans.classList.add('open'); paintRev();
@@ -2034,7 +2398,7 @@ window.__startApp = function () {
     document.addEventListener('keydown', onKey, true);
     document.body.appendChild(lb);
   }
-  function refreshAll() { buildSidebar(); updateOverall(); if (current) render(parse(hashOf(current))); }
+  function refreshAll() { buildSidebar(); refreshBadges(); updateOverall(); if (current) render(parse(hashOf(current))); }
 
   // "Help?": a mistake in the notes, a suggestion, something not working, or anything else. Goes to the owner's page.
   function openHelp(tid, ti, idea, about) {
@@ -2860,7 +3224,7 @@ window.__startApp = function () {
 
   // ================================================================ boot
   autoTick();
-  buildSidebar();
+  buildSidebar(); refreshBadges();
   buildTopbar();
   let startHash = location.hash;
   if (!startHash || startHash === '#') startHash = '#home';

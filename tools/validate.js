@@ -39,6 +39,8 @@ function load(file) {
   global.PAPERS = (d) => { out.papers = d; };
   global.WHY = (d) => { out.why = d; };
   global.FAST = (d) => { out.fast = d; };
+  global.SIMPLE = (d) => { out.simple = d; };
+  global.MNEMONICS = (d) => { out.mnemonics = d; };
   delete require.cache[abs];
   try { require(abs); } catch (e) { err(file, `does not load: ${e.message}`); return null; }
   return out;
@@ -255,7 +257,7 @@ for (const f of files) {
     for (const r of ctx.figRefs) if (!g.figIds.has(r.id)) err(r.where, `figure "${r.id}" is not a notes figure`);
     if (ctx.vizRefs.length) err(base, 'no viz inside papers');
     console.log(`\n${base}: ${ps.length} papers, ${nq} questions${d.papers.index ? `, index of ${d.papers.index.length}` : ''}${d.papers.asked ? `, ${Object.keys(d.papers.asked).length} asked topics` : ''}`);
-  } else if (d.why || d.fast) { /* why-wrong reasons and fast-track files: checked by their own scripts */
+  } else if (d.why || d.fast || d.simple || d.mnemonics) { /* why-wrong reasons and fast-track files: checked by their own scripts */
   } else err(base, 'no CHUNK/QUESTIONS/SUMMARY/PAPERS call found');
 }
 console.log(`\n${errors} error(s), ${warnings} warning(s)`);

@@ -1225,3 +1225,57 @@ a.syl-name:hover { text-decoration: underline; }
 .qflag { margin-left: auto; background: none; border: 0; padding: 0; font: inherit; font-size: 12px; color: var(--faint, #888); cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px; }
 .qflag:hover { color: var(--white); }
 @media (max-width: 560px) { .fast-hero { grid-template-columns: 1fr; } .fast-hero .arrow { display: none; } }
+
+/* ---- readiness, review, mistakes, mock, drill, tricks, simple */
+.ready { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(0, 1.1fr); gap: 22px; align-items: center; margin: 12px 0 30px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--bg-2); }
+.ready-ring { display: grid; justify-items: center; gap: 6px; }
+.ready-ring small { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--text-dim); }
+.ready-bars { display: grid; gap: 9px; }
+.ready-bars > div { display: grid; grid-template-columns: 112px minmax(0, 1fr) 56px; gap: 10px; align-items: center; font-size: 13.5px; }
+.ready-bars b { text-align: right; font-family: var(--mono); font-size: 12.5px; color: var(--white); font-weight: 500; }
+.ready-bars.wide > div { grid-template-columns: 80px minmax(0, 1fr) 56px; }
+.ready-next { display: grid; gap: 4px; padding: 14px 16px; border-radius: 12px; border: 1px solid var(--line-2); text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
+.ready-next:hover { border-color: var(--white); transform: translateY(-1px); }
+.ready-next small { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--good); }
+.ready-next strong { display: flex; align-items: center; gap: 6px; color: var(--white); font-size: 15.5px; }
+.ready-next span { font-size: 13.5px; line-height: 1.5; color: var(--text-dim); }
+.rev-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 18px 0 22px; }
+.rev-stats div { padding: 14px; border: 1px solid var(--line); border-radius: 12px; text-align: center; }
+.rev-stats b { display: block; font-family: var(--serif); font-size: 30px; color: var(--white); line-height: 1.1; }
+.rev-stats span { font-size: 12.5px; color: var(--text-dim); }
+.sure { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; font-size: 13.5px; color: var(--text-dim); }
+.qcard.fixed { opacity: .62; }
+.qcard.fixed .qmeta::after { content: 'Fixed'; margin-left: 6px; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em; color: var(--good); }
+.mock-top { position: sticky; top: 56px; z-index: 3; display: flex; align-items: center; gap: 14px; justify-content: space-between; padding: 10px 14px; margin-bottom: 14px; border: 1px solid var(--line-2); border-radius: 12px; background: var(--bg); font-family: var(--mono); font-size: 13px; }
+.mock-top [data-clock] { font-size: 15px; color: var(--white); }
+.mock-top [data-clock].low { color: var(--warn); }
+.qopt.chosen { border-color: var(--white); background: var(--surface); }
+.mock-nav { display: flex; justify-content: space-between; margin-top: 14px; }
+.mock-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 6px; margin-top: 18px; }
+.mock-grid button { padding: 7px 0; border-radius: 8px; border: 1px solid var(--line); background: none; color: var(--text-dim); font-family: var(--mono); font-size: 12px; cursor: pointer; }
+.mock-grid button.a { background: var(--surface-2); color: var(--white); }
+.mock-grid button.cur { border-color: var(--white); }
+.mock-past { display: flex; flex-wrap: wrap; gap: 10px; }
+.mock-past div { padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; }
+.mock-past b { display: block; font-family: var(--serif); font-size: 24px; color: var(--white); }
+.mock-past span { font-size: 12.5px; color: var(--text-dim); }
+.drill-q .blank { display: inline-block; min-width: 56px; padding: 0 8px; border-bottom: 2px solid var(--warn); text-align: center; color: var(--warn); font-weight: 700; }
+.drill-src { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 14px; color: var(--text-dim); }
+.tricks { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.trick { padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg-2); cursor: pointer; transition: border-color .2s; }
+.trick:hover { border-color: var(--line-2); }
+.trick-h { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.trick-t { font-weight: 600; color: var(--white); font-size: 14.5px; }
+.trick-h a { font-size: 12.5px; white-space: nowrap; }
+.trick-hook { margin: 10px 0 4px; font-family: var(--serif); font-size: 19px; line-height: 1.3; color: var(--warn); }
+.trick-how { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--text-dim); }
+.trick-items { display: none; margin: 10px 0 0; padding-left: 20px; font-size: 14px; }
+.trick.open .trick-items { display: block; }
+.trick.open .trick-tap { display: none; }
+.trick-tap { display: block; margin-top: 10px; font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+.t-extras { display: grid; gap: 8px; margin: 4px 0 18px; }
+.simple { border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; background: var(--bg-2); }
+.simple summary { display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; font-size: 14px; color: var(--white); list-style: none; }
+.simple summary::-webkit-details-marker { display: none; }
+.simple p { margin: 8px 0 0; font-size: 15px; line-height: 1.6; }
+@media (max-width: 860px) { .ready { grid-template-columns: 1fr; } .ready-ring { justify-items: start; } .rev-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

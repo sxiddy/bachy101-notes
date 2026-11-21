@@ -62,6 +62,11 @@ for (const f of fs.readdirSync(SVGSRC).filter((f) => /^m\d+-[a-z0-9-]+\.svg$/.te
 write('figs.js', js('FIGDIMS', dims));
 freeFiles.push('figs.js');
 
+// ---- free extras for every module: "explain it simply" lines and memory tricks (content/simple.js, content/mnemonics.js)
+for (const [src, out, fn] of [['simple.js', 'extra-simple.js', 'SIMPLE'], ['mnemonics.js', 'extra-mnemonics.js', 'MNEMONICS']]) {
+  if (fs.existsSync(path.join(CONTENT, src))) { write(out, js(fn, read(src, fn))); freeFiles.push(out); }
+}
+
 // ---- notes, flashcards, formulas, questions, summaries
 const battle = { topics: {}, cards: {} }; // 1v1 battle questions come from every flashcard (api/battle.js marks on the server)
 for (const m of MODULES) {
