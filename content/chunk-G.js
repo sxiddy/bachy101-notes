@@ -6,45 +6,33 @@ CHUNK({
       id: 'm2-dm-basics',
       title: 'Disaster management: meaning, phases and types',
       short: 'Disaster management',
-      blurb: 'What disaster management is, why it matters, its phases and objectives, and the six types of natural disaster.',
+      blurb: 'Meaning, phases and objectives of disaster management, and the six types of natural disaster.',
       source: 'Lecture W2 (Disaster management), pages 1–2',
       tabs: [
-        { title: 'Definition and phases', html: `
-          <p class="lead"><b>Disaster management</b>: planning and responding to <b>minimise impact</b> of <b>natural and man-made</b> disasters.</p>
-          <p><b>Importance</b>: saves lives, cuts economic loss, speeds recovery.</p>
-          <div class="steps">
-            <div><b>Prevention and mitigation</b>: flood barriers, construction codes, trees against landslides.</div>
-            <div><b>Preparedness</b>: community awareness, disaster drills, early warning systems.</div>
-            <div><b>Response</b>: evacuation, medical aid, search and rescue.</div>
-            <div><b>Recovery and rehabilitation</b>: rebuilding homes, restoring services, psychological support.</div>
-          </div>
-        ` },
-        { title: 'Objectives', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Prevention</b></td><td>Earthquake-resistant buildings, tree planting against landslides, strict zoning in flood-prone areas</td></tr>
-              <tr><td><b>Preparedness</b></td><td>Early warning, drills, response training; fewer casualties</td></tr>
-              <tr><td><b>Response</b></td><td>Evacuation, first aid, firefighting, rescue during or after the disaster</td></tr>
-              <tr><td><b>Recovery</b></td><td>Rebuild infrastructure, restore services, counselling and financial support</td></tr>
-              <tr><td><b>Sustainability</b></td><td>Long-term resilience: sustainable development, environmental protection</td></tr>
-              <tr><td><b>Collaboration</b></td><td>Governments, NGOs, emergency services, international agencies</td></tr>
-            </tbody>
-          </table>
-          <div class="mnemonic">The four core objectives: <b>P-P-R-R</b>: Prevention, Preparedness, Response, Recovery.</div>
+        { title: 'Meaning and phases', html: `
+          <p class="lead"><b>Disaster management</b>: planning and responding to <b>minimise impact</b> of natural and man-made disasters.</p>
+          <p>Importance: saves lives, cuts economic loss, <b>speeds recovery</b>.</p>
+          <ol class="steps">
+            <li><b>Prevention and mitigation</b> flood barriers, building codes, trees against landslides</li>
+            <li><b>Preparedness</b> awareness, drills, early warning</li>
+            <li><b>Response</b> evacuation, medical aid, search and rescue</li>
+            <li><b>Recovery</b> rebuilding, restoring services, psychological support</li>
+          </ol>
+          <p>Objectives: <b>P-P-R-R</b> plus <b>sustainability</b> (long-term resilience) and <b>collaboration</b> (governments, NGOs, agencies).</p>
         ` },
         { title: 'Types of natural disaster', html: `
           <table class="tbl">
             <thead><tr><th>Type</th><th>Cause</th><th>Examples</th></tr></thead>
             <tbody>
-              <tr><td><b>Hydrological</b></td><td>Water-related: heavy rain, storm surges, dam failures</td><td>Floods, tsunamis, landslides</td></tr>
-              <tr><td><b>Meteorological</b></td><td>Atmospheric; worsening with climate change</td><td>Cyclones, hurricanes, tornadoes, severe storms</td></tr>
-              <tr><td><b>Geological</b></td><td>Tectonic/crust shifts; can trigger tsunamis</td><td>Earthquakes, volcanic eruptions, landslides</td></tr>
-              <tr><td><b>Biological</b></td><td>Living organisms that spread rapidly</td><td>Virus outbreaks (COVID-19), locust swarms, bacterial disease</td></tr>
-              <tr><td><b>Climatological</b></td><td>Long-term climate variation; warming, deforestation</td><td>Droughts, heatwaves, wildfires</td></tr>
-              <tr><td><b>Extraterrestrial</b></td><td>Rare events from space</td><td>Asteroid impacts, solar storms, cosmic radiation</td></tr>
+              <tr><td><b>Hydrological</b></td><td>Water: rain, surges, dam failure</td><td>Floods, tsunamis, landslides</td></tr>
+              <tr><td><b>Meteorological</b></td><td>Atmospheric</td><td>Cyclones, hurricanes, tornadoes</td></tr>
+              <tr><td><b>Geological</b></td><td>Tectonic; can trigger tsunamis</td><td>Earthquakes, volcanoes, landslides</td></tr>
+              <tr><td><b>Biological</b></td><td>Organisms spreading fast</td><td>COVID-19, <b>locust swarms</b></td></tr>
+              <tr><td><b>Climatological</b></td><td>Long-term climate variation</td><td><b>Droughts, heatwaves, wildfires</b></td></tr>
+              <tr><td><b>Extraterrestrial</b></td><td>Space (rare)</td><td>Asteroids, <b>solar storms</b>, cosmic radiation</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">Notes leave the water-related type unheaded (numbering starts "1. Meteorological"); it is <b>hydrological</b>, so <b>six types</b>. Landslides appear under both hydrological and geological.</div>
+          <div class="note trap">Landslides appear under both hydrological and geological. Notes leave hydrological unheaded, but there are <b>six types</b>.</div>
         ` }
       ],
       flashcards: [
@@ -66,71 +54,41 @@ CHUNK({
       id: 'm2-floods',
       title: 'Floods',
       short: 'Floods',
-      blurb: 'Types and causes of floods, their impacts, prevention, preparedness and response, and the 2010 Pakistan floods.',
+      blurb: 'Flood types, causes, impacts, prevention and response, and the 2010 Pakistan floods.',
       source: 'Lecture W2 (Disaster management), pages 2–5',
       tabs: [
-        { title: 'Types', html: `
-          <p class="lead"><b>Flood</b>: excess water <b>submerges land that is usually dry</b>; natural or human-made.</p>
+        { title: 'Types and causes', html: `
+          <p class="lead"><b>Flood</b>: water <b>submerges land that is usually dry</b>.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Riverine</b></td><td>Rivers overflow after prolonged rain or snowmelt; hit floodplains and low-lying areas</td></tr>
-              <tr><td><b>Flash</b></td><td><b>Sudden</b>, very dangerous; heavy local rain, dam breaks, rapid snowmelt</td></tr>
-              <tr><td><b>Coastal</b></td><td>High tides, storm surges, tsunamis in low-lying coasts</td></tr>
-              <tr><td><b>Urban</b></td><td>Drains overwhelmed; poor planning, concrete</td></tr>
+              <tr><td><b>Riverine</b></td><td>Rivers overflow (prolonged rain, snowmelt)</td></tr>
+              <tr><td><b>Flash</b></td><td><b>Sudden</b>, most dangerous; dam breaks</td></tr>
+              <tr><td><b>Coastal</b></td><td>High tides, storm surges, tsunamis</td></tr>
+              <tr><td><b>Urban</b></td><td>Drains overwhelmed; concrete</td></tr>
             </tbody>
           </table>
-        ` },
-        { title: 'Causes and impact', html: `
-          <h4>Causes</h4>
-          <ol>
-            <li><b>Heavy rainfall</b>: commonest; rivers overflow.</li>
-            <li><b>Dam failure</b>: sudden flooding downstream, often no warning.</li>
-            <li><b>Storm surge</b>: cyclones push seawater onto coasts.</li>
-            <li><b>Climate change</b>: more rain, stronger storms, melting glaciers, sea-level rise.</li>
-            <li><b>Deforestation</b>: no trees to absorb water; fast runoff.</li>
-            <li><b>Poor urban planning</b>: bad drainage, concrete, poor land use.</li>
-          </ol>
-          <h4>Impact</h4>
           <ul>
-            <li><b>Human casualties</b>: drowning, injury, disease.</li>
-            <li><b>Economic loss</b>: roads, homes, businesses, agriculture.</li>
-            <li><b>Displacement</b>: crowded shelters, homelessness.</li>
-            <li><b>Health</b>: stagnant water spreads <b>cholera, dengue, malaria</b>; psychological trauma.</li>
-            <li><b>Environment</b>: soil washed away, water polluted, habitats lost.</li>
-            <li><b>Disrupted services</b>: roads, bridges, power, telecom; slows rescue.</li>
+            <li>Causes: <b>heavy rainfall</b> (commonest), <b>dam failure</b> (often no warning), storm surge, climate change, deforestation (fast runoff), poor urban drainage.</li>
+            <li>Impact: drowning, economic loss, displacement, disrupted roads/power/telecom, soil washed away.</li>
+            <li>Stagnant water spreads <b>cholera, dengue, malaria</b>; also psychological trauma.</li>
           </ul>
         ` },
-        { title: 'Prevention and response', html: `
-          <div class="vs">
-            <div class="side"><h4>Prevention and mitigation</h4><ul>
-              <li>Stormwater <b>drainage planning</b>: drains and flood channels prevent urban flooding.</li>
-              <li><b>Embankments and levees</b>: barriers along rivers and coasts.</li>
-              <li><b>Afforestation</b>: cut runoff, landslides, erosion.</li>
-              <li><b>Dams and reservoirs</b> store excess rain, release slowly.</li>
-              <li><b>Early warning</b>: flood sensors, satellites; time to evacuate.</li>
-              <li><b>Sustainable urban planning</b>: green infrastructure: rain gardens, porous pavements, retention ponds.</li>
-            </ul></div>
-            <div class="side"><h4>Preparedness and response</h4><ul>
-              <li><b>Early warning alerts</b>: TV, radio, mobile apps, sirens.</li>
-              <li><b>Evacuation plans</b>: routes, assembly points, shelters.</li>
-              <li><b>Community awareness</b>: risks, evacuation, emergency numbers, drills.</li>
-              <li><b>Emergency supplies</b>: water, non-perishable food, torch, batteries, medical kit, documents.</li>
-              <li><b>Search and rescue</b>: boats, drones, helicopters; first aid.</li>
-              <li><b>Relief and rehabilitation</b>: food, water, medical care, then rebuild homes, roads, utilities.</li>
-            </ul></div>
+        { title: 'Control and Pakistan 2010', html: `
+          <ul>
+            <li><b>Levees/embankments</b>: barriers along rivers, coasts.</li>
+            <li><b>Dams</b> store excess rain, release slowly.</li>
+            <li>Green infrastructure: <b>rain gardens, porous pavements, retention ponds</b>.</li>
+            <li><b>Afforestation</b> cuts runoff and erosion; stormwater drainage planning.</li>
+            <li>Early warning (sensors, satellites), evacuation plans, emergency kits, rescue by boats/drones/helicopters.</li>
+          </ul>
+          <h4>Case: Pakistan 2010</h4>
+          <div class="kv">
+            <div><span>When</span><b>July 2010</b>, monsoon</div>
+            <div><span>Deaths</span><b>1,985+</b></div>
+            <div><span>Affected</span><b>~20 million</b></div>
+            <div><span>Provinces</span><b>Sindh, Punjab, KP, Balochistan</b></div>
           </div>
-        ` },
-        { title: 'Case: Pakistan 2010', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td>When and why</td><td><b>July 2010</b>, excessive <b>monsoon</b> rain; one of Pakistan's worst floods</td></tr>
-              <tr><td>Areas</td><td><b>Sindh, Punjab, Khyber Pakhtunkhwa, Balochistan</b>; millions displaced</td></tr>
-              <tr><td>Toll</td><td>More than <b>1,985 deaths</b>, about <b>20 million affected</b>, billions of dollars of damage</td></tr>
-              <tr><td>Causes</td><td>Heavy rain, river overflow, poor drainage, deforestation</td></tr>
-              <tr><td>Relief</td><td>Pakistani military, international organisations, NGOs</td></tr>
-              <tr><td>Lessons</td><td>Better flood forecasting, drainage, sustainable environmental policy</td></tr>
-            </tbody>
-          </table>
+          <p>Causes: heavy rain, river overflow, poor drainage, deforestation. Relief: <b>Pakistani military</b>, NGOs, international bodies.</p>
         ` }
       ],
       flashcards: [
@@ -151,72 +109,36 @@ CHUNK({
       id: 'm2-earthquakes',
       title: 'Earthquakes',
       short: 'Earthquakes',
-      blurb: 'How earthquakes happen, their causes and impacts, mitigation, preparedness, and the Tohoku 2011 case.',
+      blurb: 'How earthquakes happen, causes, impacts, mitigation and the Tohoku 2011 case.',
       source: 'Lecture W2 (Disaster management), pages 5–9',
       tabs: [
-        { title: 'Basics', html: `
+        { title: 'Basics and causes', html: `
           <ul>
-            <li><b>Tectonic plates</b>: quakes when plates <b>collide, pull apart or slide past</b> each other.</li>
-            <li><b>Fault lines</b>: plate fractures; best known <b>San Andreas Fault</b>, California.</li>
-            <li><b>Focus</b>: origin underground. <b>Epicentre</b>: surface point above; strongest shaking.</li>
-            <li><b>Types</b>: mostly tectonic; also volcanic and human (mining, reservoirs).</li>
-            <li><b>Seismology</b>: seismographs; measured on <b>Richter</b> or <b>Moment Magnitude Scale (MMS)</b>.</li>
+            <li><b>Tectonic plates</b> collide, pull apart or slide past; types: tectonic (most), volcanic, human-induced.</li>
+            <li><b>Focus</b>: underground origin. <b>Epicentre</b>: surface point above; strongest shaking.</li>
+            <li>Measured: <b>Richter</b> or <b>Moment Magnitude Scale</b>; seismographs.</li>
+            <li>Best-known fault: <b>San Andreas</b>, California.</li>
+            <li><b>Subduction zones</b>: Pacific <b>Ring of Fire</b> (2011 Japan).</li>
+            <li>Human-induced: mining, <b>fracking</b>.</li>
+            <li>Reservoir-induced: <b>1967 Koynanagar</b> quake, <b>Koyna Dam</b>.</li>
+            <li>Undersea quakes → tsunami (<b>2004 Indian Ocean</b>).</li>
+            <li>Volcanic quakes: magma movement; often precede eruptions.</li>
+            <li>Impact: ground shaking (primary), <b>surface rupture</b>, landslides, infrastructure damage.</li>
+            <li><b>Soil liquefaction</b>: soft ground turns liquid-like; structures sink.</li>
           </ul>
         ` },
-        { title: 'Causes and impact', html: `
-          <h4>Causes</h4>
-          <table class="tbl">
-            <tbody>
-              <tr><td>Tectonic movements</td><td>Lithospheric plates collide, pull apart, slide</td></tr>
-              <tr><td>Subduction zones</td><td>One plate dives under another (Pacific <b>Ring of Fire</b>), e.g. the 2011 Japan quake</td></tr>
-              <tr><td>Volcanic activity</td><td>Magma movement; often precedes eruptions</td></tr>
-              <tr><td>Fault slippage</td><td>Stress builds on a fault (San Andreas) and is released</td></tr>
-              <tr><td>Mining and drilling</td><td>Coal mining, oil drilling, <b>fracking</b>: artificial tremors</td></tr>
-              <tr><td>Reservoir-induced seismicity</td><td>Reservoir water loads faults: <b>1967 Koynanagar quake</b>, linked to <b>Koyna Dam</b></td></tr>
-            </tbody>
-          </table>
-          <h4>Impact</h4>
+        { title: 'Mitigation and Tohoku', html: `
           <ul>
-            <li><b>Ground shaking</b> (primary effect; depends on magnitude and depth).</li>
-            <li><b>Surface rupture</b>: visible cracks, shifted roads.</li>
-            <li><b>Tsunamis</b> from undersea quakes, e.g. the <b>2004 Indian Ocean tsunami</b>.</li>
-            <li><b>Infrastructure damage</b>: buildings, bridges, power lines.</li>
-            <li><b>Landslides</b> in hills; <b>soil liquefaction</b> turns soft ground liquid-like and sinks structures.</li>
-            <li>Human and economic losses.</li>
+            <li><b>Seismic zoning</b>: restrict building in high-risk zones.</li>
+            <li>Building codes: sway not collapse (reinforced concrete, steel frames).</li>
+            <li><b>Retrofitting</b>: support beams, flexible joints, shock absorbers.</li>
+            <li><b>Base isolators</b>: rubber/metal bearings absorb ground motion.</li>
+            <li>Early warning detects fast <b>P-waves</b> before damaging <b>S-waves</b>.</li>
+            <li>Drill: <b>"Drop, Cover, and Hold"</b>; rescue dogs.</li>
           </ul>
-        ` },
-        { title: 'Mitigation and response', html: `
-          <div class="vs">
-            <div class="side"><h4>Mitigation</h4><ul>
-              <li><b>Seismic zoning</b>: regions by risk; restrict building in high-risk zones.</li>
-              <li><b>Strict building codes</b>: sway not collapse; reinforced concrete, steel frames.</li>
-              <li><b>Retrofitting</b>: old buildings get support beams, flexible joints, shock absorbers.</li>
-              <li><b>Shock-absorbing foundations</b>: <b>base isolators</b>, rubber or metal bearings absorbing ground motion.</li>
-              <li><b>Public awareness and drills</b>: regular drills, safety programmes.</li>
-              <li><b>Early warning</b>: detect <b>P-waves</b> before damaging <b>S-waves</b>.</li>
-            </ul></div>
-            <div class="side"><h4>Preparedness and response</h4><ul>
-              <li><b>Early warning</b>: P-waves give a few seconds to take cover.</li>
-              <li><b>Emergency drills</b>: practise <b>"Drop, Cover, and Hold"</b>.</li>
-              <li><b>Evacuation plans</b>: escape routes, safe zones.</li>
-              <li><b>Search and rescue</b>: trained teams, <b>rescue dogs</b>.</li>
-              <li><b>Relief and medical aid</b>: shelter, food, water, medical help.</li>
-              <li><b>Recovery</b>: restore services, reinforce structures.</li>
-            </ul></div>
-          </div>
-        ` },
-        { title: 'Case: Tohoku 2011', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td>Event</td><td>Off the Pacific coast of <b>Tōhoku, Japan</b>; one of the strongest ever recorded</td></tr>
-              <tr><td>Tsunami</td><td>Swept inland; towns, ports, farmland destroyed</td></tr>
-              <tr><td>Toll</td><td>Thousands dead or missing, families displaced</td></tr>
-              <tr><td><b>Fukushima</b></td><td>Seawater disabled cooling: <b>nuclear meltdown</b> and mass evacuation</td></tr>
-              <tr><td>Economy</td><td>Industry, farming, transport hit for the long term</td></tr>
-              <tr><td>Lessons</td><td>Quake-resistant infrastructure, faster tsunami warning, stricter nuclear safety</td></tr>
-            </tbody>
-          </table>
-          <div class="note heads-up">Notes give no date/magnitude; year <b>2011</b> comes from the causes section.</div>
+          <h4>Case: Tohoku 2011</h4>
+          <p>Off <b>Tōhoku, Japan</b>; one of the strongest recorded. Tsunami → <b>Fukushima nuclear meltdown</b> (seawater disabled cooling). Lessons: faster tsunami warning, stricter nuclear safety.</p>
+          <div class="note heads-up">Notes give no date or magnitude; <b>2011</b> comes from the causes section.</div>
         ` }
       ],
       flashcards: [
@@ -240,70 +162,41 @@ CHUNK({
       id: 'm2-cyclones',
       title: 'Cyclones',
       short: 'Cyclones',
-      blurb: 'Types and causes of cyclones, their impacts, mitigation and response, and the Fani and Katrina case studies.',
+      blurb: 'Cyclone types, causes, impacts, mitigation, and the Fani and Katrina cases.',
       source: 'Lecture W2 (Disaster management), pages 9–12',
       tabs: [
-        { title: 'Types', html: `
-          <p class="lead"><b>Cyclone</b>: <b>rotating storm system</b> around a <b>low-pressure centre</b>.</p>
+        { title: 'Types and causes', html: `
+          <p class="lead"><b>Cyclone</b>: rotating storm around a <b>low-pressure centre</b>.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Tropical</b></td><td>Warm water, ocean heat. <b>Hurricanes</b> (Atlantic), <b>typhoons</b> (Pacific), <b>cyclones</b> (Indian Ocean)</td></tr>
-              <tr><td><b>Extratropical</b></td><td>Mid-latitudes, weather fronts; less intense</td></tr>
-              <tr><td><b>Tornadoes</b></td><td>Small, very violent vortex from thunderstorms</td></tr>
+              <tr><td><b>Tropical</b></td><td><b>Hurricane</b> (Atlantic), <b>typhoon</b> (Pacific), <b>cyclone</b> (Indian Ocean)</td></tr>
+              <tr><td><b>Extratropical</b></td><td>Mid-latitudes, fronts; less intense</td></tr>
+              <tr><td><b>Tornado</b></td><td>Small, very violent; from thunderstorms</td></tr>
             </tbody>
           </table>
-          <p>Features: winds, heavy rain, coastal flooding, storm surges.</p>
-        ` },
-        { title: 'Causes and impact', html: `
-          <h4>Causes</h4>
-          <ol>
-            <li><b>Warm ocean water</b>: evaporation feeds storm.</li>
-            <li><b>Low pressure</b>: rising air pulls in air in a spiral.</li>
-            <li><b>Coriolis effect</b>: spin <b>anticlockwise in the Northern</b> and <b>clockwise in the Southern</b> Hemisphere.</li>
-            <li><b>Wind and moisture</b>: converging trade winds lift moist air.</li>
-            <li><b>Latitude</b>: rarely within <b>0°–5°</b> of equator (little Coriolis); tropics, subtropics.</li>
-            <li><b>Climate change</b>: more intense, longer cyclones.</li>
-          </ol>
-          <h4>Impact</h4>
           <ul>
-            <li><b>Strong winds</b>: up to category 5; flatten buildings, power lines.</li>
-            <li><b>Storm surges</b>: wind + high tide push seawater inland.</li>
-            <li><b>Heavy rainfall</b>: flash floods, landslides.</li>
-            <li><b>Floods and waterlogging</b>: drains fail; hits transport, health.</li>
-            <li><b>Economic loss</b>: industry, farms, costly rebuilding.</li>
-            <li><b>Human casualties</b>: thousands displaced.</li>
+            <li>Fuel: <b>warm ocean water</b> (evaporation); low pressure spirals air in; converging trade winds lift moist air.</li>
+            <li><b>Coriolis</b>: <b>anticlockwise</b> in Northern, clockwise in Southern Hemisphere.</li>
+            <li>Rare within <b>0°–5°</b> of equator (little Coriolis).</li>
+            <li>Climate change: more intense, longer cyclones.</li>
+            <li>Impact: winds up to <b>category 5</b>; <b>storm surge</b> (wind + high tide push sea inland); flash floods, landslides.</li>
           </ul>
         ` },
-        { title: 'Mitigation and response', html: `
-          <div class="vs">
-            <div class="side"><h4>Mitigation</h4><ul>
-              <li><b>Coastal embankments</b>: <b>first line of defence</b> against storm surges.</li>
-              <li><b>Mangrove plantations</b>: absorb storm energy, cut erosion, windbreaks.</li>
-              <li><b>Early warning</b>: satellites, <b>Doppler radar</b>, models predict path.</li>
-              <li><b>Cyclone shelters</b>: multi-purpose safe space.</li>
-              <li><b>Improved drainage</b>: stops waterlogging.</li>
-              <li><b>Resilient infrastructure</b>: stronger buildings, roads, power lines.</li>
-            </ul></div>
-            <div class="side"><h4>Preparedness and response</h4><ul>
-              <li><b>Evacuation plans</b>: routes, transport, points fixed in advance.</li>
-              <li><b>Cyclone shelters</b>: strong, raised buildings.</li>
-              <li><b>Emergency communication</b>: weather apps, public alerts.</li>
-              <li><b>Relief</b>: the <b>Red Cross</b>, government: food, medicine.</li>
-              <li><b>Search and rescue</b>: military, response forces.</li>
-              <li><b>Community awareness</b>: emergency kits, first aid training.</li>
-            </ul></div>
-          </div>
-        ` },
-        { title: 'Case: Fani and Katrina', html: `
+        { title: 'Mitigation and cases', html: `
+          <ul>
+            <li><b>Coastal embankments</b>: <b>first line of defence</b> vs storm surges.</li>
+            <li><b>Mangroves</b>: absorb storm energy, windbreaks.</li>
+            <li><b>Doppler radar</b>, satellites predict path; raised cyclone shelters.</li>
+            <li>Response: evacuation plans, <b>Red Cross</b> relief, military search and rescue.</li>
+          </ul>
           <table class="tbl">
-            <thead><tr><th></th><th>Cyclone Fani (2019)</th><th>Hurricane Katrina (2005)</th></tr></thead>
+            <thead><tr><th></th><th>Fani (2019)</th><th>Katrina (2005)</th></tr></thead>
             <tbody>
-              <tr><td>Where</td><td><b>Odisha</b>, India, and parts of Bangladesh</td><td><b>New Orleans</b>, USA</td></tr>
-              <tr><td>Nature</td><td>Among strongest to hit subcontinent</td><td>Widespread flooding from <b>levee failures</b></td></tr>
-              <tr><td>Impact</td><td>Over <b>15 million</b> affected; power, homes and coasts damaged</td><td>Over <b>1,800 deaths</b>; among the costliest and deadliest in US history</td></tr>
+              <tr><td>Where</td><td><b>Odisha</b>, Bangladesh</td><td><b>New Orleans</b>, USA</td></tr>
+              <tr><td>Nature</td><td>Among strongest to hit subcontinent</td><td>Among costliest, deadliest in US history</td></tr>
+              <tr><td>Key fact</td><td><b>15 million</b>+ affected</td><td><b>Levee failures</b>; <b>1,800</b>+ deaths</td></tr>
             </tbody>
           </table>
-          <p><b>Similarities</b>: mass evacuations, big rebuilding. <b>Lessons</b>: early warning, better evacuation plans, resilient infrastructure.</p>
         ` }
       ],
       flashcards: [
@@ -325,69 +218,38 @@ CHUNK({
       id: 'm2-landslides',
       title: 'Landslides',
       short: 'Landslides',
-      blurb: 'Types and causes of landslides, their impacts, mitigation and response, and the Kedarnath and Oso cases.',
+      blurb: 'Landslide types, causes, mitigation, and the Kedarnath and Oso cases.',
       source: 'Lecture W2 (Disaster management), pages 12–15',
       tabs: [
-        { title: 'Types', html: `
-          <p class="lead"><b>Landslide</b>: <b>gravity overcomes the strength of soil and rock</b>; material slides downslope.</p>
+        { title: 'Types and causes', html: `
+          <p class="lead"><b>Landslide</b>: <b>gravity overcomes the strength</b> of soil and rock.</p>
           <table class="tbl">
             <tbody>
               <tr><td><b>Rockfall</b></td><td>Boulders tumble down steep slopes</td></tr>
               <tr><td><b>Debris flow</b></td><td>Fast soil + rock + water</td></tr>
               <tr><td><b>Mudslide</b></td><td>Saturated soil flows as mud</td></tr>
-              <tr><td><b>Slump</b></td><td>Block of land moves down in a <b>rotational</b> way</td></tr>
-              <tr><td><b>Creep</b></td><td><b>Slowest</b>; trees/structures tilt</td></tr>
+              <tr><td><b>Slump</b></td><td><b>Rotational</b> block movement</td></tr>
+              <tr><td><b>Creep</b></td><td><b>Slowest</b>; trees tilt</td></tr>
             </tbody>
           </table>
+          <p>Causes: <b>heavy rainfall</b> (most common), earthquakes, deforestation, mining, volcanic eruptions, slope cutting for roads.</p>
+          <p>Impact: among the <b>deadliest</b> disasters; infrastructure loss, displacement, soil erosion, <b>sedimentation</b> of rivers.</p>
         ` },
-        { title: 'Causes and impact', html: `
-          <div class="vs">
-            <div class="side"><h4>Causes</h4><ul>
-              <li><b>Heavy rainfall</b>: <b>most common</b> trigger; soil unstable.</li>
-              <li><b>Earthquakes</b>: shaking breaks rock.</li>
-              <li><b>Deforestation</b>: roots no longer bind soil.</li>
-              <li><b>Mining and excavation</b>: quarrying, road building.</li>
-              <li><b>Volcanic eruptions</b>: ash, pyroclastic flows, lava.</li>
-              <li><b>Construction</b>: cutting slopes for buildings, roads.</li>
-            </ul></div>
-            <div class="side"><h4>Impact</h4><ul>
-              <li><b>Infrastructure damage</b>: roads, power lines, buildings.</li>
-              <li><b>Loss of life</b>: among the <b>deadliest</b> disasters.</li>
-              <li><b>Environment</b>: forests, habitats, water sources.</li>
-              <li><b>Economic loss</b>: heavy recovery costs.</li>
-              <li><b>Displacement</b>: homes, livelihoods lost.</li>
-              <li><b>Soil erosion and sedimentation</b>: farmland lost; silt in rivers, lakes.</li>
-            </ul></div>
-          </div>
-        ` },
-        { title: 'Mitigation and response', html: `
-          <h4>Mitigation</h4>
+        { title: 'Mitigation and cases', html: `
           <ul>
-            <li><b>Slope stabilisation</b>: retaining walls, <b>gabions</b> and rock bolts strengthen unstable slopes.</li>
-            <li><b>Afforestation</b>: roots bind soil.</li>
-            <li><b>Drainage control</b>: channels, pipes divert water.</li>
-            <li><b>Land-use planning</b>: no building on unstable slopes.</li>
-            <li><b>Early warning</b>: sensors, satellites, local alerts.</li>
-            <li><b>Engineering</b>: <b>rock netting, check dams</b>, slope barriers.</li>
+            <li>Slope stabilisation: <b>retaining walls, gabions, rock bolts</b>.</li>
+            <li>Engineering: <b>rock netting, check dams</b>.</li>
+            <li>Afforestation, drainage, land-use planning, sensors.</li>
           </ul>
-          <h4>Preparedness and response</h4>
-          <ul>
-            <li>Monitoring with geotechnical sensors, drones, rainfall tracking.</li>
-            <li>Evacuation routes and drills; public training on warning signs.</li>
-            <li>Emergency teams for rescue, medical aid, debris clearing.</li>
-            <li>Temporary shelters, then rehabilitation and reconstruction.</li>
-          </ul>
-        ` },
-        { title: 'Case: Kedarnath and Oso', html: `
           <table class="tbl">
-            <thead><tr><th></th><th>Kedarnath (2013), India</th><th>Oso (2014), Washington, USA</th></tr></thead>
+            <thead><tr><th></th><th>Kedarnath</th><th>Oso</th></tr></thead>
             <tbody>
-              <tr><td>Trigger</td><td>Intense rain; poor land management, deforestation, drainage</td><td>Persistent rain, soil saturation, sudden slope failure</td></tr>
-              <tr><td>Toll</td><td><b>Thousands</b> dead; roads, temples, homes lost to debris flows</td><td><b>43 deaths</b>; an entire community buried</td></tr>
-              <tr><td>Response</td><td>Large-scale rescue by the <b>Indian military</b></td><td>Rapid response; land-use policy concern</td></tr>
+              <tr><td>Year, place</td><td><b>2013</b>, India</td><td><b>2014</b>, Washington, USA</td></tr>
+              <tr><td>Toll</td><td><b>Thousands</b> dead</td><td><b>43</b> deaths</td></tr>
+              <tr><td>Trigger</td><td>Intense rain, deforestation, poor drainage</td><td>Persistent rain, soil saturation</td></tr>
+              <tr><td>Note</td><td>Rescue by <b>Indian military</b></td><td>Community buried</td></tr>
             </tbody>
           </table>
-          <p><b>Lessons</b>: better land-use planning, early warning and preparedness.</p>
         ` }
       ],
       flashcards: [
@@ -409,74 +271,42 @@ CHUNK({
       id: 'm2-dm-strategies',
       title: 'Disaster management strategies',
       short: 'DM strategies',
-      blurb: 'The roles of government, communities and technology, recovery and rehabilitation, international cooperation, and future challenges.',
+      blurb: 'Government, community and technology roles, recovery, and international cooperation.',
       source: 'Lecture W2 (Disaster management), pages 15–19',
       tabs: [
-        { title: 'Government', html: `
+        { title: 'Government and technology', html: `
           <ul>
-            <li><b>NDMA</b> (India) ensures preparedness through policy; <b>FEMA</b> (USA) gives immediate relief and long-term support.</li>
-            <li><b>Local response teams</b>: paramedics, firefighters, police as first responders.</li>
-            <li><b>Legislative framework</b>: disaster acts define each agency's responsibilities.</li>
-            <li><b>Public awareness and training</b>: drills, first aid, evacuation education.</li>
-            <li><b>International collaboration</b>: the UN's <b>Sendai Framework</b>, Red Cross initiatives.</li>
-            <li>A <b>coordinated approach</b> across national, local and international levels.</li>
+            <li><b>NDMA</b> (India): preparedness via policy. <b>FEMA</b> (USA): relief and long-term support.</li>
+            <li>First responders: paramedics, firefighters, police; disaster acts set agency roles.</li>
+            <li>UN <b>Sendai Framework</b> for risk reduction.</li>
+            <li>Community: awareness campaigns, volunteer response teams, school drills, partnerships with Red Cross, <b>National Disaster Response Forces</b>.</li>
           </ul>
-        ` },
-        { title: 'Community', html: `
-          <ol>
-            <li><b>Awareness campaigns</b>: posters, radio, social media, meetings.</li>
-            <li><b>Training and drills</b>: quake/fire evacuation, first aid.</li>
-            <li><b>Community-based response teams</b>: volunteers act first.</li>
-            <li><b>Early warning familiarity</b>: sirens, weather warnings, mobile alerts.</li>
-            <li><b>School and workplace readiness</b>: protocols, routes, assembly points.</li>
-            <li><b>NGO and local government partnerships</b>: Red Cross, National Disaster Response Forces, grassroots NGOs.</li>
-          </ol>
-        ` },
-        { title: 'Technology', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>GIS mapping</b></td><td>Hazard maps for planning, evacuation</td></tr>
-              <tr><td><b>Satellite imagery</b></td><td>Track hurricanes, measure floods, assess damage</td></tr>
-              <tr><td><b>AI and machine learning</b></td><td>Process weather data for better prediction</td></tr>
-              <tr><td><b>Drones and UAVs</b></td><td>Rapid assessment, deliver medicine, locate survivors</td></tr>
-              <tr><td><b>Mobile alerts</b></td><td>FEMA app, <b>MyShake</b> (earthquakes), regional alert systems</td></tr>
-              <tr><td><b>Big data and IoT sensors</b></td><td>Dams, bridges: pressure, vibration, temperature</td></tr>
+              <tr><td><b>GIS</b></td><td>Hazard maps</td></tr>
+              <tr><td>Satellites</td><td>Track hurricanes, floods</td></tr>
+              <tr><td>AI/ML</td><td>Better weather prediction</td></tr>
+              <tr><td>Drones/UAVs</td><td>Locate survivors, deliver medicine</td></tr>
+              <tr><td>Mobile alerts</td><td>FEMA app, <b>MyShake</b> (earthquakes)</td></tr>
+              <tr><td><b>IoT sensors</b></td><td>Dams, bridges: pressure, vibration</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Recovery and global', html: `
-          <h4>Recovery and rehabilitation</h4>
           <ul>
-            <li>Immediate relief: food, water, medical care, shelter.</li>
-            <li>Infrastructure rebuilding: roads, power, water, public institutions.</li>
-            <li>Economic rehabilitation: <b>microloans</b>, government aid, skill workshops.</li>
-            <li>Psychological and social support: counselling, support groups.</li>
-            <li>Environmental restoration: afforestation, soil conservation.</li>
-            <li>Policy and future preparedness: stricter rules, warning systems, resistant infrastructure.</li>
+            <li>Economic rehabilitation: <b>microloans</b>, aid, skill workshops.</li>
+            <li>Also: immediate relief, rebuilding, counselling, afforestation, stricter building rules.</li>
+            <li>Future challenges: climate change, urbanisation; need AI warnings, resilient codes, community drills, more funding.</li>
           </ul>
-          <h4>International cooperation</h4>
           <table class="tbl">
             <tbody>
-              <tr><td>UN</td><td><b>UNDRR</b> (risk reduction), <b>UNOCHA</b> (coordinates emergency response)</td></tr>
-              <tr><td>Red Cross and Red Crescent</td><td>Aid, medical support, rehabilitation worldwide</td></tr>
-              <tr><td>Humanitarian aid</td><td>WHO, UNICEF, CARE: food, healthcare, logistics</td></tr>
+              <tr><td><b>UNDRR</b></td><td>Risk reduction</td></tr>
+              <tr><td><b>UNOCHA</b></td><td>Coordinates emergency response</td></tr>
               <tr><td>Cross-border</td><td><b>ASEAN Agreement on Disaster Management</b></td></tr>
-              <tr><td>Knowledge sharing</td><td>Satellite data, AI, warnings shared</td></tr>
-              <tr><td>Funding</td><td><b>World Bank</b> and <b>IMF</b> loans and grants</td></tr>
+              <tr><td>Funding</td><td><b>World Bank, IMF</b></td></tr>
+              <tr><td>Aid</td><td>Red Cross/Crescent, WHO, UNICEF, CARE</td></tr>
             </tbody>
           </table>
-        ` },
-        { title: 'Future and conclusion', html: `
-          <h4>Future challenges and recommendations</h4>
-          <ol>
-            <li>Climate change: more extreme weather.</li>
-            <li>Urbanisation: stricter land-use policy.</li>
-            <li>Stronger early warning with AI and satellites.</li>
-            <li>Building codes, resilient materials, drainage.</li>
-            <li>More community participation and drills.</li>
-            <li>Global policy and more funding for disaster-prone regions.</li>
-          </ol>
-          <div class="note exam">Preparedness + government + community + technology + global cooperation reduce risk.</div>
         ` }
       ],
       flashcards: [

@@ -10,26 +10,24 @@ CHUNK({
       source: 'Lecture W5 (Climate Change Science), pages 1–2',
       tabs: [
         { title: 'Greenhouse effect', html: `
-          <p class="lead">Greenhouse effect is <b>natural and essential</b>: sun warms surface, surface radiates heat, gases absorb and send some back. Without it Earth would average about <b>−18°C</b>.</p>
           <div class="vs">
-            <div class="side"><h4>Natural</h4><p><b>Beneficial, necessary for life</b>; keeps Earth from freezing at −18°C.</p></div>
-            <div class="side"><h4>Enhanced</h4><p>Caused by <b>human emissions</b>; the real problem. Extra gases trap more heat.</p></div>
+            <div class="side"><h4>Natural</h4><p><b>Essential</b> for life; without it Earth ≈ <b>−18°C</b>.</p></div>
+            <div class="side"><h4>Enhanced</h4><p><b>Human emissions</b>; the problem.</p></div>
           </div>
           <div data-viz="greenhouse-effect"></div>
-          <div class="mnemonic">One blanket keeps you warm; five blankets make you overheat. Human emissions are the extra blankets.</div>
-          <p><b>Key gases</b>: CO₂, methane, nitrous oxide, water vapour. CO₂ = headline gas (coal, oil, gas). Methane: shorter-lived but about <b>84 times</b> CO₂ over <b>20 years</b>.</p>
-          <div class="note heads-up">The Kyoto lecture gives methane as 28–36 times CO₂ over <b>100</b> years. Both are right; the time horizon differs.</div>
+          <p>Key gases: <b>CO₂</b> (headline; coal, oil, gas), methane, N₂O, water vapour.</p>
+          <p>Methane: shorter-lived, ≈ <b>84×</b> CO₂ over <b>20 yr</b>.</p>
+          <div class="note heads-up">Kyoto lecture: methane <b>28–36×</b> over <b>100 yr</b>. Both right; time horizon differs.</div>
         ` },
         { title: 'Four pillars of evidence', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Rising temperatures</b></td><td>About <b>1.1°C</b> above pre-industrial. <b>19 of the 20</b> hottest years since 2000. Confirmed separately by NASA, NOAA, UK Met Office, Japan Meteorological Agency</td></tr>
-              <tr><td><b>Rising CO₂</b></td><td><b>280 ppm</b> pre-industrial to over <b>420 ppm</b>, not seen for at least <b>3 million years</b>. Antarctic ice cores trap air going back <b>800,000 years</b></td></tr>
-              <tr><td><b>Melting ice, sea level</b></td><td>Arctic sea ice down about <b>13% per decade</b> since 1979 satellite records. Greenland and Antarctic sheets losing mass. Sea level up about <b>20 cm since 1900</b>, accelerating</td></tr>
-              <tr><td><b>Ocean warming, acidification</b></td><td>Oceans absorbed about <b>90%</b> of the excess heat and <b>25–30%</b> of human CO₂. CO₂ forms <b>carbonic acid</b>, lowering pH; harms shellfish and corals</td></tr>
+              <tr><td><b>Temperature</b></td><td><b>1.1°C</b> above pre-industrial; <b>19 of 20</b> hottest years since 2000 (NASA, NOAA, UK Met Office, JMA)</td></tr>
+              <tr><td><b>CO₂</b></td><td><b>280 → 420+ ppm</b>; highest in <b>3 million yr</b>; ice cores go back <b>800,000 yr</b></td></tr>
+              <tr><td><b>Ice, sea level</b></td><td>Arctic sea ice <b>−13%/decade</b> since 1979; sea level <b>+20 cm since 1900</b></td></tr>
+              <tr><td><b>Oceans</b></td><td>Absorb <b>90%</b> of excess heat, <b>25–30%</b> of CO₂; <b>carbonic acid</b> lowers pH</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Confidence is high because <b>four independent measurement systems</b> reach the same conclusion.</div>
         ` }
       ],
       flashcards: [
@@ -58,34 +56,28 @@ CHUNK({
       source: 'Lecture W5 (Climate Change Science), pages 3–4',
       tabs: [
         { title: 'Causes', html: `
-          <table class="tbl">
-            <thead><tr><th>Human cause</th><th>Detail</th><th>Share</th></tr></thead>
-            <tbody>
-              <tr><td><b>Fossil fuels</b></td><td>Coal, oil, gas for electricity, industry, transport; single biggest source.</td><td>About <b>75%</b></td></tr>
-              <tr><td><b>Deforestation</b></td><td>Releases stored carbon; fewer sinks to absorb CO₂ later.</td><td><b>10–15%</b></td></tr>
-              <tr><td><b>Agriculture</b></td><td>Livestock digestion and rice paddies (methane); nitrogen fertilisers (N₂O).</td><td>Not given</td></tr>
-              <tr><td><b>Industry</b></td><td>Cement and steel; cement alone about 8% of global emissions.</td><td>About <b>8%</b> (cement)</td></tr>
-            </tbody>
-          </table>
-          <p>Main driver: <b>human activity</b>.</p>
+          <div class="kv">
+            <div><span>Fossil fuels (biggest)</span><b>≈ 75%</b></div>
+            <div><span>Deforestation</span><b>10–15%</b></div>
+            <div><span>Cement</span><b>≈ 8%</b></div>
+          </div>
+          <p><b>Agriculture</b>: methane (livestock, rice paddies), N₂O (nitrogen fertilisers). Deforestation also removes future sinks.</p>
           <h4>Natural factors can't explain it</h4>
           <ul>
-            <li>Volcanoes, solar output, <b>Milankovitch</b> orbital cycles shaped climate over geological time.</li>
-            <li><b>Solar output slightly fallen since the 1980s</b> while temperatures rose.</li>
+            <li><b>Solar output fallen since 1980s</b> while temperatures rose.</li>
             <li>Volcanoes: only <b>short-term cooling</b>.</li>
-            <li>Natural factors can't explain the <b>rate and pattern</b> of warming.</li>
+            <li><b>Milankovitch</b> (orbital) cycles: geological timescales.</li>
           </ul>
         ` },
         { title: 'Consequences', html: `
           <ul>
-            <li><b>Weather extremes</b>: air holds about <b>7% more moisture per °C</b>; heavier floods, longer droughts, deadlier heatwaves, stronger cyclones.</li>
-            <li><b>Sea level</b>: Mumbai, Chennai, Bengal delta (storm surges); Pacific islands (existential threat).</li>
-            <li><b>Ecosystems</b>: reefs hold about <b>25% of marine species</b>; bleach at <b>1°C</b> above normal summer temps; at <b>2°C</b> over <b>99%</b> of tropical reefs badly degraded.</li>
-            <li><b>Food</b>: lower wheat, rice, maize yields in tropics; Sub-Saharan Africa, South Asia at risk.</li>
-            <li><b>Health</b>: heat illness, malaria and dengue spreading, worse air.</li>
-            <li><b>India</b>: heatwaves, <b>monsoon disruption</b> (over a billion depend on it), <b>Himalayan glacier melt</b>, coastal sea level rise.</li>
+            <li>Air holds <b>7% more moisture per °C</b>: floods, droughts, heatwaves, cyclones.</li>
+            <li>Reefs hold <b>25% of marine species</b>; bleach at <b>+1°C</b>; at <b>2°C</b> <b>99%</b> degraded.</li>
+            <li>Sea level: Mumbai, Chennai, <b>Bengal delta</b>; <b>Pacific islands</b> face existential threat.</li>
+            <li>Food: lower wheat, rice, maize yields; <b>Sub-Saharan Africa, South Asia</b> at risk.</li>
+            <li>Health: heat illness, <b>malaria, dengue</b> spread, worse air.</li>
+            <li>India: <b>monsoon disruption</b> (billion+ depend on it), <b>Himalayan glacier melt</b>, heatwaves.</li>
           </ul>
-          <p>Many effects <b>already visible</b>.</p>
         ` }
       ],
       flashcards: [
@@ -112,26 +104,18 @@ CHUNK({
       tabs: [
         { title: 'Two strategies', html: `
           <div class="vs">
-            <div class="side"><h4>Mitigation</h4><p><b>Reduces the emissions</b>.</p><ul><li><b>Energy transition</b> = centrepiece: solar, wind, hydro replace fossil power; India has some of the world's largest solar installations.</li><li><b>Energy efficiency</b>: better buildings, efficient motors, optimised transport cut demand.</li><li><b>Carbon capture</b>: from air or industrial sources; key for hard-to-decarbonise <b>cement and steel</b>.</li></ul></div>
-            <div class="side"><h4>Adaptation</h4><p><b>Designing systems that cope</b> with changes under way; mainly an engineering job.</p><ul><li><b>Flood defences</b> against heavy rain, storm surges.</li><li><b>Climate-resilient roads and bridges</b>.</li><li><b>Drought-resistant water supply</b>.</li><li><b>Heat-resilient cities</b>: green roofs, urban trees, cool pavements.</li></ul></div>
+            <div class="side"><h4>Mitigation</h4><p><b>Cuts emissions</b>.</p><ul><li><b>Energy transition</b> (centrepiece): solar, wind, hydro</li><li><b>Efficiency</b>: buildings, motors, transport</li><li><b>Carbon capture</b>: for <b>cement, steel</b></li></ul></div>
+            <div class="side"><h4>Adaptation</h4><p><b>Copes with impacts</b>; mainly engineering.</p><ul><li>Flood defences, resilient roads and bridges</li><li>Drought-resistant water supply</li><li>Heat: <b>green roofs, trees, cool pavements</b></li></ul></div>
           </div>
-          <p><b>Complementary</b>: need both. New projects must include climate risk; building codes, drainage standards, coastal zone planning being revised.</p>
+          <p>Both <b>complementary</b>.</p>
         ` },
-        { title: 'Policy and takeaways', html: `
+        { title: 'Policy', html: `
           <ul>
-            <li><b>Paris Agreement</b>: well below 2°C, ideally 1.5°C.</li>
-            <li><b>India: net zero by 2070</b>, with fast renewable growth and some of the world's largest solar parks.</li>
-            <li><b>IPCC</b> synthesises the underlying science and informs global climate policy.</li>
+            <li><b>Paris Agreement</b>: well below <b>2°C</b>, ideally <b>1.5°C</b>.</li>
+            <li>India: <b>net zero by 2070</b>; some of world's largest <b>solar parks</b>.</li>
+            <li><b>IPCC</b>: synthesises climate science for policy.</li>
+            <li>Building codes, drainage standards, <b>coastal zone planning</b> being revised for climate risk.</li>
           </ul>
-          <p>Key takeaways:</p>
-          <ol>
-            <li>The natural greenhouse effect is needed; its enhancement is the problem.</li>
-            <li>Evidence comes from temperature, CO₂, ice cores and oceans.</li>
-            <li>Fossil fuels, deforestation and agriculture drive it.</li>
-            <li>Effects are already here.</li>
-            <li>Solutions exist and engineers deliver them.</li>
-            <li>Treaties give the policy frame; engineering gives the technical fixes.</li>
-          </ol>
         ` }
       ],
       flashcards: [

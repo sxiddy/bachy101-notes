@@ -9,41 +9,32 @@ CHUNK({
       blurb: 'What air pollution is, how clean air is made up, the key global numbers, and the Air Quality Index bands.',
       source: 'Lecture W3S1 (Air pollution), pages 1–2',
       tabs: [
-        { title: 'Definition', html: `
-          <p class="lead"><b>Air pollution</b>: harmful substances in the atmosphere at concentrations high enough to <b>damage living organisms and the environment</b>.</p>
-          <ul>
-            <li><b>Pollutants</b>: gases, particles or biological materials (dust, smoke).</li>
-            <li>Clean air: <b>78% nitrogen, 21% oxygen</b>, argon &lt; 1%, CO₂, water vapour, traces of ozone, helium, ammonia; pollution disturbs this balance.</li>
-            <li><b>WHO</b>: contamination of <b>indoor or outdoor</b> air by any chemical, physical or biological agent that alters the atmosphere and risks health.</li>
-          </ul>
-        ` },
-        { title: 'Key numbers', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>7 million</b></td><td>Premature deaths a year from air pollution (WHO, 2023)</td></tr>
-              <tr><td><b>99%</b></td><td>Of the world's people breathe air above WHO guideline limits</td></tr>
-              <tr><td><b>Over 5 trillion</b></td><td>Yearly global welfare losses</td></tr>
-              <tr><td>AQI &gt; 300</td><td>Delhi, Lahore and Dhaka in winter, among the most polluted cities</td></tr>
-              <tr><td><b>3.8 million</b></td><td>Deaths a year from indoor air pollution (WHO)</td></tr>
-            </tbody>
-          </table>
-          <div class="note heads-up">The notes give the economic cost as "over 5 trillion" with no currency.</div>
+        { title: 'Definition and numbers', html: `
+          <p class="lead"><b>Air pollution</b>: harmful substances in air at levels that <b>damage living organisms and the environment</b>. WHO definition covers <b>indoor and outdoor</b> air.</p>
+          <p>Clean air: <b>78% nitrogen, 21% oxygen</b>, argon &lt; 1%.</p>
+          <div class="kv">
+            <div><span>Premature deaths/yr (WHO 2023)</span><b>7 million</b></div>
+            <div><span>Indoor air deaths/yr</span><b>3.8 million</b></div>
+            <div><span>People above WHO limits</span><b>99%</b></div>
+            <div><span>Welfare loss/yr</span><b>over 5 trillion</b></div>
+            <div><span>Winter AQI &gt; 300</span><b>Delhi, Lahore, Dhaka</b></div>
+          </div>
         ` },
         { title: 'Air Quality Index', html: `
-          <p><b>AQI</b>: daily report, <b>0–500</b> scale; <b>5–8 key pollutants</b> → one number, colour, health message.</p>
+          <p><b>AQI</b>: <b>0–500</b> scale; combines <b>5–8 key pollutants</b> into one number and colour.</p>
           <table class="tbl">
-            <thead><tr><th>AQI</th><th>Category</th><th>Colour</th><th>Advice</th></tr></thead>
+            <thead><tr><th>AQI</th><th>Category</th><th>Colour</th></tr></thead>
             <tbody>
-              <tr><td>0–50</td><td>Good</td><td>Green</td><td>Air quality satisfactory</td></tr>
-              <tr><td>51–100</td><td>Acceptable</td><td>Yellow</td><td>Some sensitive groups affected</td></tr>
-              <tr><td>101–200</td><td>Unhealthy (sensitive groups)</td><td>Orange</td><td>Sensitive groups limit outdoor activity</td></tr>
-              <tr><td>201–300</td><td>Unhealthy</td><td>Red</td><td>Everyone nearby affected</td></tr>
-              <tr><td>301–400</td><td>Very unhealthy</td><td>Purple</td><td>Health alert; avoid outdoor activity</td></tr>
-              <tr><td>401–500</td><td>Hazardous</td><td>Maroon</td><td>Emergency for the whole population</td></tr>
+              <tr><td>0–50</td><td>Good</td><td>Green</td></tr>
+              <tr><td>51–100</td><td>Acceptable</td><td>Yellow</td></tr>
+              <tr><td>101–200</td><td>Unhealthy (sensitive groups)</td><td>Orange</td></tr>
+              <tr><td>201–300</td><td>Unhealthy (everyone)</td><td>Red</td></tr>
+              <tr><td>301–400</td><td>Very unhealthy</td><td>Purple</td></tr>
+              <tr><td>401–500</td><td><b>Hazardous</b> (emergency)</td><td><b>Maroon</b></td></tr>
             </tbody>
           </table>
           <div data-viz="aqi-bands"></div>
-          <div class="note heads-up">101–200 and 201–300 are both "unhealthy": orange = sensitive groups, red = everyone.</div>
+          <div class="note trap">101–200 and 201–300 are both "unhealthy": <b>orange</b> = sensitive groups, <b>red</b> = everyone.</div>
         ` }
       ],
       flashcards: [
@@ -67,43 +58,37 @@ CHUNK({
       blurb: 'Primary and secondary pollutants, particulate vs gaseous, and indoor air pollutants.',
       source: 'Lecture W3S1 (Air pollution), pages 2–4',
       tabs: [
-        { title: 'Primary', html: `
-          <p class="lead"><b>Primary pollutants</b>: emitted <b>directly</b> from identifiable sources.</p>
+        { title: 'Primary and secondary', html: `
+          <p class="lead"><b>Primary</b>: emitted <b>directly</b>. <b>Secondary</b>: <b>formed by reactions</b> in air, often more harmful.</p>
           <table class="tbl">
+            <thead><tr><th>Primary</th><th>Key fact</th></tr></thead>
             <tbody>
-              <tr><td><b>CO</b></td><td>Colourless, odourless; incomplete combustion; binds haemoglobin <b>200×</b> more than O₂ → hypoxia</td></tr>
-              <tr><td><b>SO₂</b></td><td>Coal plants, volcanoes; acid rain, respiratory damage</td></tr>
-              <tr><td><b>NOₓ</b></td><td>High-temperature combustion; smog and acid rain precursor</td></tr>
-              <tr><td><b>PM2.5 / PM10</b></td><td>Dust, combustion, construction; PM2.5 → deep lungs, blood</td></tr>
-              <tr><td><b>VOCs</b></td><td>Paints, solvents, exhaust; ground-level ozone precursors</td></tr>
-              <tr><td><b>NH₃</b></td><td>Agriculture (fertiliser, livestock); forms PM2.5</td></tr>
-              <tr><td><b>Lead</b></td><td>Leaded fuel (largely phased out), industry; neurotoxin</td></tr>
+              <tr><td><b>CO</b></td><td>Incomplete combustion; binds haemoglobin <b>200×</b> more than O₂</td></tr>
+              <tr><td>SO₂</td><td>Coal plants, volcanoes; acid rain</td></tr>
+              <tr><td>NOₓ</td><td>High-temperature combustion; smog, acid rain</td></tr>
+              <tr><td>PM2.5 / PM10</td><td>PM2.5 reaches deep lungs, blood</td></tr>
+              <tr><td>VOCs</td><td>Paints, solvents; ozone precursor</td></tr>
+              <tr><td><b>NH₃</b></td><td>Agriculture; forms PM2.5</td></tr>
+              <tr><td>Lead</td><td>Leaded fuel; neurotoxin</td></tr>
             </tbody>
           </table>
-        ` },
-        { title: 'Secondary', html: `
-          <p class="lead"><b>Secondary pollutants</b>: <b>formed by reactions</b> in air; often <b>more harmful</b>.</p>
           <ul>
-            <li><b>Ground-level ozone</b>: NOₓ + VOCs + sunlight → O₃; main smog component; damages airways.</li>
-            <li><b>PAN</b> (peroxyacetyl nitrates): VOCs + NOₓ + sunlight; eye irritation; in photochemical smog.</li>
-            <li><b>H₂SO₄ / HNO₃</b>: SO₂/NOₓ + water vapour → acid rain.</li>
-            <li><b>Secondary PM</b>: sulphates, nitrates, organic carbon formed from gases.</li>
+            <li><b>Ground-level ozone</b>: NOₓ + VOCs + sunlight.</li>
+            <li><b>PAN</b> (peroxyacetyl nitrates): eye irritation in photochemical smog.</li>
+            <li>H₂SO₄, HNO₃ (acid rain); secondary PM (sulphates, nitrates).</li>
+            <li>Particulate (dust, smoke, soot) vs gaseous (CO₂, NO₂, SO₂).</li>
           </ul>
-          <div class="vs">
-            <div class="side"><h4>Particulate</h4><p>Dust, smoke, soot; PM2.5 is especially dangerous.</p></div>
-            <div class="side"><h4>Gaseous</h4><p>CO₂, NO₂, SO₂.</p></div>
-          </div>
         ` },
         { title: 'Indoor', html: `
-          <p>Outdoor: vehicles, industry, construction. Indoor: cooking fuels, poor ventilation (primary). WHO: <b>~3.8 million deaths/yr</b>, more than outdoor in many developing nations; <b>women on biomass stoves</b> worst hit.</p>
+          <p>WHO: <b>~3.8 million deaths/yr</b>; <b>women on biomass stoves</b> worst hit.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Radon</b></td><td>Radioactive, from soil/rock; <b>2nd leading cause of lung cancer</b> after smoking</td></tr>
-              <tr><td><b>Formaldehyde</b></td><td>Pressed wood, insulation, tobacco; <b>IARC Group 1</b> carcinogen</td></tr>
-              <tr><td>Tobacco smoke</td><td><b>70+ carcinogens</b>: benzene, arsenic, formaldehyde</td></tr>
+              <tr><td><b>Radon</b></td><td><b>2nd cause of lung cancer</b> after smoking</td></tr>
+              <tr><td><b>Formaldehyde</b></td><td>Pressed wood; <b>IARC Group 1</b> carcinogen</td></tr>
+              <tr><td>Tobacco smoke</td><td><b>70+ carcinogens</b></td></tr>
               <tr><td>Cooking smoke</td><td>Biomass, kerosene: CO, PM2.5, black carbon</td></tr>
-              <tr><td><b>Asbestos</b></td><td>Old insulation; <b>mesothelioma</b> (incurable)</td></tr>
-              <tr><td>Mould, allergens</td><td>Poor ventilation; spores → asthma</td></tr>
+              <tr><td><b>Asbestos</b></td><td><b>Mesothelioma</b></td></tr>
+              <tr><td>Mould</td><td>Asthma</td></tr>
             </tbody>
           </table>
         ` }
@@ -134,55 +119,31 @@ CHUNK({
       blurb: 'Natural and human causes of air pollution, its effects on health, the environment (warming, acid rain, ozone, smog) and the economy.',
       source: 'Lecture W3S1 (Air pollution), pages 4–8',
       tabs: [
-        { title: 'Natural causes', html: `
+        { title: 'Causes', html: `
+          <p><b>Natural</b>: volcanoes (<b>Mount Pinatubo, 1991</b>, SO₂), forest fires, dust storms (Sahara, Thar: PM10), biogenic VOCs (<b>isoprene</b>).</p>
+          <table class="tbl">
+            <tbody>
+              <tr><td>Industry</td><td>Coal plants: <b>largest SO₂, NOₓ, mercury</b>. Cement: <b>~8% of global CO₂</b>. Brick kilns: black carbon</td></tr>
+              <tr><td>Vehicles</td><td><b>Diesel</b>: most PM2.5. <b>~30%</b> of India's urban air pollution</td></tr>
+              <tr><td>Agriculture</td><td><b>Stubble burning</b> (Punjab, Haryana) → Delhi smog; NH₃; paddy methane</td></tr>
+            </tbody>
+          </table>
+          <p>Also construction dust, waste burning. <b>Human activity</b> = dominant cause.</p>
+        ` },
+        { title: 'Effects', html: `
           <ul>
-            <li><b>Volcanic eruptions</b>: huge SO₂ and particle emissions (Mount Pinatubo, 1991).</li>
-            <li><b>Forest fires</b>: CO, PM2.5, black carbon, ozone precursors.</li>
-            <li><b>Dust storms</b>: PM10 from deserts (Sahara, Thar) gives regional haze.</li>
-            <li><b>Biogenic VOCs</b>: isoprene from forests adds to natural ozone.</li>
+            <li><b>Respiratory</b>: asthma, <b>COPD</b>, lung cancer, pneumonia.</li>
+            <li><b>Cardiovascular</b>: ischaemic heart disease, stroke, hypertension.</li>
+            <li>Other: PM2.5 linked to <b>Alzheimer's</b>; low birth weight; insulin resistance.</li>
           </ul>
-        ` },
-        { title: 'Human causes', html: `
           <table class="tbl">
             <tbody>
-              <tr><td>Industry</td><td>Coal plants: <b>largest SO₂, NOₓ, mercury</b>. Cement: dust, <b>~8% of global CO₂</b>. Steel coke ovens: SO₂, PAHs, benzene. <b>Brick kilns</b>: PM, black carbon (South Asia). Refineries: SO₂, H₂S, VOCs, benzene</td></tr>
-              <tr><td>Vehicles</td><td>CO, NOₓ, HC, PM2.5. <b>Diesel</b>: most PM2.5, black carbon. Old two-wheelers: VOCs. Aviation: NOₓ, black carbon at altitude. <b>~30%</b> of India's urban air pollution</td></tr>
-              <tr><td>Fossil fuels</td><td>Coal, petroleum: CO₂, SO₂</td></tr>
-              <tr><td>Agriculture</td><td><b>Stubble burning</b> (Punjab, Haryana) → Delhi smog; NH₃ from fertiliser/manure; paddy <b>methane</b>; pesticide aerosols</td></tr>
-              <tr><td>Construction</td><td>Urban dust</td></tr>
-              <tr><td>Waste burning</td><td>Toxic substances</td></tr>
+              <tr><td><b>Global warming</b></td><td>IPCC AR6 (2021): <b>1.1°C</b> rise; sea level <b>+0.28–1.01 m by 2100</b></td></tr>
+              <tr><td><b>Acid rain</b></td><td><b>pH &lt; 5.6</b>; <b>Taj Mahal</b> yellowing; <b>Black Forest</b>, Germany</td></tr>
+              <tr><td><b>Ozone depletion</b></td><td>CFCs; Antarctic hole <b>1985</b>; <b>Montreal Protocol 1987</b></td></tr>
+              <tr><td><b>Photochemical smog</b></td><td>First in <b>Los Angeles, 1940s</b></td></tr>
             </tbody>
           </table>
-          <div class="note exam">Human activities = dominant cause.</div>
-        ` },
-        { title: 'Health effects', html: `
-          <div class="vs">
-            <div class="side"><h4>Respiratory</h4><ul>
-              <li><b>Asthma</b>: PM2.5 and O₃ cause bronchoconstriction</li>
-              <li><b>COPD</b>: long-term smoke and PM</li>
-              <li><b>Lung cancer</b>: PM2.5, PAHs, benzene (IARC Group 1)</li>
-              <li>Reduced lung function in children</li>
-              <li><b>Pneumonia</b>: leading infectious killer</li>
-            </ul></div>
-            <div class="side"><h4>Cardiovascular</h4><ul>
-              <li><b>Ischaemic heart disease</b>: PM2.5 inflammation, atherosclerosis</li>
-              <li><b>Stroke</b>: NO₂ and fine particles</li>
-              <li><b>Hypertension</b></li>
-              <li><b>Arrhythmias</b> from short PM spikes</li>
-            </ul></div>
-          </div>
-          <p><b>Other</b>: PM2.5 linked to cognitive decline and <b>Alzheimer's</b>; lead and mercury harm child development; pre-term birth and low birth weight; <b>insulin resistance</b>; eye and skin irritation.</p>
-        ` },
-        { title: 'Environment', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Global warming</b></td><td>CO₂, CH₄, N₂O trap infrared. IPCC AR6 (2021): <b>1.1°C</b> since pre-industrial; sea level <b>+0.28–1.01 m by 2100</b></td></tr>
-              <tr><td><b>Acid rain</b></td><td>SO₂, NOₓ → sulphuric, nitric acid; <b>pH &lt; 5.6</b>. Harms crops, soil, forests, limestone (<b>Taj Mahal yellowing</b>), fish. <b>Black Forest</b>, Germany, 1970s–80s</td></tr>
-              <tr><td><b>Ozone depletion</b></td><td>CFCs → Cl radicals destroy O₃; Antarctic hole <b>1985</b>; <b>Montreal Protocol 1987</b> phased out CFCs, most successful treaty</td></tr>
-              <tr><td><b>Photochemical smog</b></td><td>First in <b>Los Angeles, 1940s</b>. Delhi smog worsened by <b>temperature inversion</b>; visibility &lt; 500 m</td></tr>
-            </tbody>
-          </table>
-          <p><b>Economic</b>: healthcare costs, lower productivity, crop damage.</p>
         ` }
       ],
       flashcards: [
@@ -210,64 +171,44 @@ CHUNK({
       source: 'Lecture W3S1 (Air pollution), pages 8–11',
       tabs: [
         { title: 'Particulate control', html: `
-          <p class="lead">PM removed by <b>filtration, electrical charging, centrifugal force or scrubbing liquid</b>. ESPs, fabric filters: <b>&gt; 99% efficiency</b>.</p>
+          <p>ESPs and fabric filters: <b>&gt; 99% efficiency</b>.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Fabric filter / baghouse</b></td><td>Fabric bags + dust cake; <b>fine, sub-micron</b> particles</td></tr>
-              <tr><td><b>Electrostatic precipitator</b></td><td>Charged particles stick to electrodes; fine ash, soot</td></tr>
-              <tr><td><b>Wet scrubber</b></td><td>Liquid (water) traps particles; hot/moist gas; solids and gases</td></tr>
-              <tr><td><b>Cyclone separator</b></td><td>Centrifugal vortex; <b>larger</b> particles</td></tr>
-              <tr><td><b>Gravity settling chamber</b></td><td>Large particles settle; <b>pre-cleaner</b></td></tr>
+              <tr><td><b>Baghouse</b> (fabric filter)</td><td><b>Fine, sub-micron</b> particles</td></tr>
+              <tr><td><b>Electrostatic precipitator</b></td><td>Charged particles stick to electrodes</td></tr>
+              <tr><td>Wet scrubber</td><td>Water traps particles and gases</td></tr>
+              <tr><td><b>Cyclone separator</b></td><td>Vortex; <b>larger</b> particles</td></tr>
+              <tr><td>Gravity settling chamber</td><td><b>Pre-cleaner</b></td></tr>
             </tbody>
           </table>
-          <p>Also: cleaner fuels (LPG, CNG, renewables), EVs.</p>
-        ` },
-        { title: 'How a baghouse works', html: `
-          <div class="steps">
-            <div><b>Air intake</b>: dusty gas → dirty-air inlet → dirty-air chamber.</div>
-            <div><b>Filtration</b>: through woven/felted bags; <b>dust cake</b> forms outside, aids filtering.</div>
-            <div><b>Clean air discharge</b>: up to clean-air chamber → outlet.</div>
-            <div><b>Cleaning cycle</b>: pressure drop builds → <b>pulse-jet</b> of compressed air shakes cake loose.</div>
-            <div><b>Dust collection</b>: into <b>hopper</b>, out via <b>rotary airlock valve</b>.</div>
-          </div>
+          <p>Baghouse: dust cake on bags; <b>pulse-jet</b> cleaning; dust → <b>hopper</b> → <b>rotary airlock valve</b>.</p>
           <figure data-fig="m3-baghouse"></figure>
         ` },
-        { title: 'Gas control', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>FGD</b> (flue gas desulphurisation)</td><td>Limestone scrubbers remove SO₂; mandatory in Indian thermal plants</td></tr>
-              <tr><td><b>SCR</b> (selective catalytic reduction)</td><td>Ammonia + catalyst: NOₓ → N₂ + H₂O</td></tr>
-              <tr><td><b>Catalytic converter</b></td><td>Oxidises CO, HC; reduces NOₓ; BS-VI essential</td></tr>
-              <tr><td>Activated carbon</td><td>Adsorbs VOCs and organic pollutants</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'Government', html: `
+        { title: 'Gases and laws', html: `
           <ul>
-            <li><b>BS-VI</b> (2020): = Euro 6; NOₓ <b>−70%</b> vs BS-IV.</li>
-            <li><b>FAME II</b> for EVs; PLI for batteries.</li>
-            <li><b>GRAP</b> (Delhi): emergency at <b>AQI &gt; 200</b> (ban construction, brick kilns, diesel trucks).</li>
-            <li><b>NCAP (2019)</b>: PM2.5/PM10 <b>−20–30% by 2024</b>, <b>122</b> non-attainment cities.</li>
-            <li>Renewables <b>500 GW by 2030</b>; wind replacing coal; BEE star labels, LEDs, green building codes; <b>International Solar Alliance</b> (India-led).</li>
-            <li>Green infrastructure: urban trees, green roofs/walls (heat island), constructed wetlands, industry <b>downwind</b> of homes.</li>
+            <li><b>FGD</b>: limestone scrubbers remove <b>SO₂</b>.</li>
+            <li><b>SCR</b>: ammonia + catalyst, NOₓ → <b>N₂ + H₂O</b>.</li>
+            <li>Catalytic converter (CO, HC, NOₓ); activated carbon (VOCs).</li>
+            <li><b>BS-VI (2020)</b> = Euro 6; NOₓ <b>−70%</b> vs BS-IV.</li>
+            <li><b>NCAP (2019)</b>: PM <b>−20–30% by 2024</b>, <b>122</b> cities.</li>
+            <li><b>GRAP</b> (Delhi): triggers at <b>AQI &gt; 200</b>.</li>
+            <li>FAME II (EVs); renewables <b>500 GW by 2030</b>; International Solar Alliance.</li>
           </ul>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Air Act, 1981</b></td><td>Set up State Pollution Control Boards and emission standards</td></tr>
-              <tr><td><b>EPA, 1986</b></td><td>Umbrella law for central action</td></tr>
-              <tr><td><b>CPCB</b></td><td>Sets <b>NAAQS</b>, monitors compliance</td></tr>
-              <tr><td>NAAQS</td><td>PM2.5 <b>40 µg/m³</b>, PM10 <b>60 µg/m³</b> (annual); WHO stricter: 5 and 15</td></tr>
-              <tr><td><b>SAFAR</b></td><td>Real-time air quality monitoring and forecasting</td></tr>
+              <tr><td><b>Air Act, 1981</b></td><td>Set up State Pollution Control Boards</td></tr>
+              <tr><td>EPA, 1986</td><td>Umbrella law</td></tr>
+              <tr><td><b>CPCB</b></td><td>Sets <b>NAAQS</b>: PM2.5 <b>40</b>, PM10 <b>60 µg/m³</b> (WHO: 5, 15)</td></tr>
+              <tr><td><b>SAFAR</b></td><td>Real-time monitoring, forecasting</td></tr>
             </tbody>
           </table>
-          <p><b>Individuals</b>: public transport, no waste burning, save energy, plant trees.</p>
         ` },
         { title: 'Case studies', html: `
           <div class="vs">
-            <div class="side"><h4>London Great Smog, 1952</h4><p>Fog + coal smoke + <b>inversion</b>, <b>5 days</b> in December. ~<b>4,000</b> died at once, <b>12,000</b> long-run. → UK <b>Clean Air Act, 1956</b>, one of the first.</p></div>
-            <div class="side"><h4>Delhi winter smog</h4><p>Stubble burning, vehicles, dust, inversion. AQI often <b>&gt; 400</b>. GRAP: <b>odd-even</b>, school closures, diesel generator bans.</p></div>
+            <div class="side"><h4>London Great Smog, 1952</h4><p><b>5 days</b>; ~<b>4,000</b> died, <b>12,000</b> long-run → UK <b>Clean Air Act, 1956</b>.</p></div>
+            <div class="side"><h4>Delhi winter smog</h4><p>Stubble burning, vehicles; AQI <b>&gt; 400</b>; <b>odd-even</b>.</p></div>
           </div>
-          <p>Both: <b>temperature inversion</b>, a <b>warm layer over cold ground air</b> acts as a lid, trapping pollution; set up by cold winter nights.</p>
+          <p>Both: <b>temperature inversion</b>, warm layer over cold ground air traps pollution.</p>
           <div data-viz="temp-inversion"></div>
         ` }
       ],
@@ -296,41 +237,32 @@ CHUNK({
       source: 'Lecture W3S2 (Water pollution), pages 1–2',
       tabs: [
         { title: 'Definition and numbers', html: `
-          <p class="lead"><b>Water pollution</b>: contamination of rivers, lakes, oceans, groundwater by physical, chemical or biological substances, making water <b>unfit for its intended use</b>.</p>
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>2.2 billion</b></td><td>People lack safe drinking water (WHO, 2023)</td></tr>
-              <tr><td><b>1.8 million</b></td><td>Children die a year from preventable diarrhoeal disease</td></tr>
-              <tr><td><b>80%</b></td><td>Of wastewater discharged without adequate treatment</td></tr>
-              <tr><td><b>80%</b></td><td>Of illnesses in developing countries are water-related</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'WHO standards', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td>pH</td><td><b>6.5–8.5</b></td></tr>
-              <tr><td>Turbidity</td><td><b>&lt; 1 NTU</b> (Nephelometric Turbidity Unit)</td></tr>
-              <tr><td>TDS</td><td><b>&lt; 500 mg/L</b></td></tr>
-              <tr><td>Pathogens</td><td>E. coli <b>0 CFU/100 mL</b></td></tr>
-              <tr><td>Heavy metals</td><td>As &lt; 0.01 mg/L, Pb &lt; 0.01 mg/L</td></tr>
-            </tbody>
-          </table>
+          <p class="lead"><b>Water pollution</b>: contamination making water <b>unfit for its intended use</b>.</p>
+          <div class="kv">
+            <div><span>No safe drinking water (WHO 2023)</span><b>2.2 billion</b></div>
+            <div><span>Child diarrhoea deaths/yr</span><b>1.8 million</b></div>
+            <div><span>Wastewater untreated</span><b>80%</b></div>
+            <div><span>Illness water-related (developing)</span><b>80%</b></div>
+          </div>
+          <h4>WHO drinking standards</h4>
+          <div class="kv">
+            <div><span>pH</span><b>6.5–8.5</b></div>
+            <div><span>Turbidity</span><b>&lt; 1 NTU</b></div>
+            <div><span>TDS</span><b>&lt; 500 mg/L</b></div>
+            <div><span>E. coli</span><b>0 CFU/100 mL</b></div>
+            <div><span>As, Pb</span><b>&lt; 0.01 mg/L</b></div>
+          </div>
         ` },
         { title: 'Types', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Surface</b></td><td>Most visible (Yamuna foam, oil slicks)</td></tr>
-              <tr><td><b>Groundwater</b></td><td>Pesticides, metals seep into aquifers; wells drunk from</td></tr>
-              <tr><td><b>Marine</b></td><td>Oil, plastics, runoff; <b>Great Pacific Garbage Patch</b> (2× Texas)</td></tr>
-              <tr><td><b>Thermal</b></td><td>Hot plant water lowers dissolved oxygen</td></tr>
-            </tbody>
-          </table>
+          <ul>
+            <li><b>Surface</b> (Yamuna foam), <b>groundwater</b> (aquifers), <b>marine</b>, <b>thermal</b> (less dissolved O₂).</li>
+            <li><b>Great Pacific Garbage Patch</b>: <b>2× Texas</b>.</li>
+            <li><b>Transboundary</b>: crosses borders via rivers.</li>
+          </ul>
           <div class="vs">
-            <div class="side"><h4>Point source</h4><p>One outlet (factory pipe, sewage); <b>easier to regulate</b>.</p></div>
-            <div class="side"><h4>Non-point source</h4><p>Diffuse (farm runoff, stormwater); harder; <b>~50%</b> of water pollution.</p></div>
+            <div class="side"><h4>Point source</h4><p>One outlet (factory pipe); <b>easier to regulate</b>.</p></div>
+            <div class="side"><h4>Non-point source</h4><p>Diffuse (farm runoff); <b>~50%</b> of water pollution.</p></div>
           </div>
-          <p><b>Transboundary</b>: crosses national/state borders via rivers.</p>
         ` }
       ],
       flashcards: [
@@ -357,40 +289,32 @@ CHUNK({
         { title: 'Causes', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Industrial</b></td><td>Heavy metals (Hg, Pb, Cd, Cr): electroplating, mining; acids, solvents; textile <b>azo dyes, high BOD</b>; drug residues; <b>acid mine drainage</b> (pyrite → sulphuric acid)</td></tr>
-              <tr><td><b>Agricultural</b></td><td>Nitrates, phosphates (eutrophication); DDT, Endosulfan = <b>POPs</b>; feedlot pathogens, hormones, antibiotics; salty return flows; sediment</td></tr>
-              <tr><td><b>Domestic</b></td><td>India sewage <b>~72,368 MLD</b> vs capacity <b>~31,841 MLD</b>; detergents, medicines; dumping; landfill <b>leachate</b></td></tr>
-              <tr><td><b>Oil spills</b></td><td><b>Exxon Valdez</b> (1989) 41 million L; <b>Deepwater Horizon</b> (2010) 780 million L; bilge water; rigs</td></tr>
-              <tr><td><b>Radioactive</b></td><td>Cooling water, hospital/lab waste, uranium and thorium tailings</td></tr>
+              <tr><td><b>Industrial</b></td><td>Hg, Pb, Cd, Cr; textile <b>azo dyes</b>; <b>acid mine drainage</b> (pyrite → sulphuric acid)</td></tr>
+              <tr><td><b>Agricultural</b></td><td>Nitrates, phosphates; DDT, Endosulfan = <b>POPs</b></td></tr>
+              <tr><td><b>Domestic</b></td><td>India sewage <b>~72,368 MLD</b> vs capacity <b>~31,841 MLD</b>; landfill <b>leachate</b></td></tr>
+              <tr><td><b>Oil spills</b></td><td><b>Exxon Valdez</b> (1989) 41 million L; <b>Deepwater Horizon</b> (2010) 780 million L</td></tr>
+              <tr><td>Radioactive</td><td>Hospital waste, uranium and thorium tailings</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Ganga: <b>~1.4 billion L/day</b> sewage vs <b>~861 MLD</b> capacity. <b>NMCG</b> launched <b>2014</b>.</div>
+          <p>Ganga: <b>~1.4 billion L/day</b> sewage vs <b>~861 MLD</b> capacity; <b>NMCG 2014</b>.</p>
         ` },
-        { title: 'Health effects', html: `
+        { title: 'Effects', html: `
           <table class="tbl">
-            <thead><tr><th>Disease</th><th>Agent</th><th>Spread</th><th>Symptoms</th></tr></thead>
             <tbody>
-              <tr><td>Cholera</td><td><em>Vibrio cholerae</em></td><td>Water/food</td><td>Severe diarrhoea, dehydration</td></tr>
-              <tr><td>Typhoid</td><td><em>Salmonella typhi</em></td><td>Faecal-oral</td><td>High fever, abdominal pain</td></tr>
-              <tr><td>Dysentery</td><td><em>E. histolytica</em></td><td>Water</td><td>Bloody diarrhoea, cramps</td></tr>
-              <tr><td>Hepatitis A</td><td>Hepatitis A virus</td><td>Faecal-oral</td><td>Jaundice, liver inflammation</td></tr>
-              <tr><td>Arsenicosis</td><td>Arsenic</td><td>Arsenic-rich water</td><td>Skin lesions, cancer</td></tr>
+              <tr><td>Cholera</td><td><em>Vibrio cholerae</em></td></tr>
+              <tr><td>Typhoid</td><td><em>Salmonella typhi</em></td></tr>
+              <tr><td>Dysentery</td><td><em>E. histolytica</em></td></tr>
+              <tr><td>Hepatitis A</td><td>Virus; jaundice</td></tr>
+              <tr><td><b>Minamata disease</b></td><td>Mercury</td></tr>
+              <tr><td><b>Blue baby syndrome</b></td><td>Nitrates (methaemoglobinaemia)</td></tr>
+              <tr><td>Fluorosis</td><td>Excess fluoride</td></tr>
+              <tr><td>Arsenicosis</td><td>Arsenic: skin lesions, cancer</td></tr>
             </tbody>
           </table>
           <ul>
-            <li><b>Mercury</b>: Minamata disease (tremors, nerve damage, birth defects).</li>
-            <li><b>Lead</b>: cognitive impairment, especially under-5s.</li>
-            <li><b>Nitrates</b>: <b>methaemoglobinaemia (blue baby syndrome)</b>.</li>
-            <li><b>Fluoride excess</b>: dental and skeletal fluorosis.</li>
-            <li><b>Arsenic</b>: hyperkeratosis, skin, liver and bladder cancer.</li>
-          </ul>
-        ` },
-        { title: 'Ecosystem effects', html: `
-          <ul>
-            <li><b>Eutrophication</b>: excess N, P → algal bloom → algae die → bacteria use O₂ → <b>dead zones</b>. Gulf of Mexico <b>~22,720 km²</b>.</li>
-            <li><b>Biomagnification</b>: DDT, mercury concentrate up the chain; fish <b>10×</b> prey's mercury, bird <b>100×</b> baseline.</li>
-            <li><b>Biodiversity loss</b>: indicators (mayflies, trout, salmon) vanish first; keystone loss; coral bleaching; oil smothers eggs, birds.</li>
-            <li><b>Habitat destruction</b>: sediment smothers spawning grounds; plastic kills <b>marine mammals, seabirds</b>; wetlands lose filtering.</li>
+            <li><b>Eutrophication</b>: excess N, P → algal bloom → O₂ used up → <b>dead zones</b> (Gulf of Mexico <b>~22,720 km²</b>).</li>
+            <li><b>Biomagnification</b>: DDT, mercury rise up the food chain.</li>
+            <li>Indicator species lost first: <b>mayflies, trout, salmon</b>.</li>
           </ul>
         ` }
       ],
@@ -418,61 +342,40 @@ CHUNK({
       source: 'Lecture W3S2 (Water pollution), pages 5–8',
       tabs: [
         { title: 'Sewage treatment', html: `
-          <p class="lead">Wastewater treatment: <b>most important engineering intervention</b>.</p>
           <table class="tbl">
-            <thead><tr><th>Stage</th><th>Steps</th><th>Outcome</th></tr></thead>
+            <thead><tr><th>Stage</th><th>Steps</th><th>Removes</th></tr></thead>
             <tbody>
-              <tr><td><b>Primary</b> (physical)</td><td>Screening (rags, plastic), grit chamber (sand), primary clarifier (sludge)</td><td>~60% solids, ~30% BOD</td></tr>
-              <tr><td><b>Secondary</b> (biological)</td><td>Activated sludge, trickling filters (biofilm on rocks), rotating biological contactors (discs)</td><td><b>85–95% BOD</b>, most solids</td></tr>
-              <tr><td><b>Tertiary</b> (advanced)</td><td>N, P removal; UV/chlorination for pathogens; RO/membranes for dissolved chemicals</td><td>Near-drinking quality</td></tr>
+              <tr><td><b>Primary</b> (physical)</td><td>Screening, grit chamber (sand), primary clarifier (sludge)</td><td>~60% solids, ~30% BOD</td></tr>
+              <tr><td><b>Secondary</b> (biological)</td><td>Activated sludge, trickling filters (biofilm), rotating biological contactors</td><td><b>85–95% BOD</b></td></tr>
+              <tr><td><b>Tertiary</b> (advanced)</td><td>N, P removal; UV/chlorine; RO</td><td>Near-drinking quality</td></tr>
             </tbody>
           </table>
           <div data-viz="sewage-treatment"></div>
-          <div class="note exam">India's STP capacity must <b>triple</b>; 2022: only <b>28%</b> of Class-I/II sewage treated.</div>
+          <p>India 2022: only <b>28%</b> of Class-I/II sewage treated.</p>
         ` },
-        { title: 'Industry and farms', html: `
-          <div class="vs">
-            <div class="side"><h4>Industry</h4><ul>
-              <li><b>Zero Liquid Discharge (ZLD)</b>: recycle all wastewater, nothing discharged.</li>
-              <li><b>ETPs</b> (Effluent Treatment Plants): mandatory before discharge.</li>
-              <li><b>CETPs</b> (Common ETPs): shared by small industries.</li>
-              <li><b>Ion exchange, activated carbon</b>: remove heavy metals, organics.</li>
-              <li><b>CPCB</b> monitors compliance.</li>
-            </ul></div>
-            <div class="side"><h4>Agriculture</h4><ul>
-              <li><b>IPM</b> (Integrated Pest Management): minimal pesticide.</li>
-              <li><b>Precision farming</b>: fertiliser only where/when needed.</li>
-              <li><b>Buffer strips</b>: vegetation along waterways filters runoff.</li>
-              <li><b>Constructed wetlands</b>: plants treat farm runoff.</li>
-              <li><b>Organic farming</b>: no synthetic pesticide/fertiliser.</li>
-            </ul></div>
-          </div>
-          <h3>Nature-based solutions</h3>
+        { title: 'Other controls and laws', html: `
           <ul>
-            <li><b>Phytoremediation</b>: <b>water hyacinth</b>, <b>vetiver grass</b> absorb pollutants.</li>
-            <li><b>Bioremediation</b>: microbes break down organics.</li>
-            <li><b>Riparian buffers, wetland restoration</b>: cut non-point pollution.</li>
-            <li><b>Rainwater harvesting</b>: less runoff and groundwater depletion.</li>
+            <li><b>ZLD</b> (Zero Liquid Discharge): all wastewater recycled.</li>
+            <li><b>ETPs</b> mandatory; <b>CETPs</b> shared by small industries.</li>
+            <li>Farms: <b>IPM</b>, precision farming, buffer strips, constructed wetlands.</li>
+            <li><b>Phytoremediation</b>: <b>water hyacinth, vetiver grass</b>. Bioremediation: microbes.</li>
           </ul>
-        ` },
-        { title: 'Laws', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Water Act, 1974</b></td><td>Set up the Pollution Control Boards</td></tr>
-              <tr><td><b>EPA, 1986</b></td><td>Umbrella law</td></tr>
-              <tr><td><b>NMCG / Namami Gange</b></td><td>Clean Ganga mission</td></tr>
-              <tr><td><b>CRZ Notification</b></td><td>Protects coastal waters</td></tr>
+              <tr><td><b>Water Act, 1974</b></td><td>Set up Pollution Control Boards</td></tr>
+              <tr><td>EPA, 1986</td><td>Umbrella law</td></tr>
+              <tr><td><b>NMCG / Namami Gange</b></td><td>Clean Ganga</td></tr>
+              <tr><td>CRZ Notification</td><td>Coastal waters</td></tr>
               <tr><td><b>IS 10500:2012</b></td><td>BIS drinking water standard</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">Notes give NMCG as <b>2014</b> on one page, "NMCG / Namami Gange Programme" as <b>2015</b> on another. Learn NMCG 2014.</div>
         ` },
         { title: 'Case studies', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Minamata, Japan (1956)</b></td><td><b>Chisso</b> dumped methylmercury in Minamata Bay; bioaccumulated in fish; <b>2,000+ died</b>. → <b>Minamata Convention (2013)</b></td></tr>
-              <tr><td><b>Yamuna, India</b></td><td><b>58%</b> of Delhi's waste; foam at <b>Okhla</b> (phosphate detergents); <b>22+ drains</b>; BOD up to <b>50×</b> standard despite Yamuna Action Plans</td></tr>
-              <tr><td><b>Deepwater Horizon (2010)</b></td><td>~<b>4.9 million barrels</b> (780 million L), <b>87 days</b>, Gulf of Mexico; 400+ species; cleanup &gt; <b>$65 billion</b></td></tr>
+              <tr><td><b>Minamata, Japan (1956)</b></td><td><b>Chisso</b>, methylmercury; <b>2,000+</b> died → <b>Minamata Convention 2013</b></td></tr>
+              <tr><td><b>Yamuna</b></td><td><b>58%</b> of Delhi's waste; foam at <b>Okhla</b> (phosphate detergents); BOD up to <b>50×</b></td></tr>
+              <tr><td><b>Deepwater Horizon (2010)</b></td><td><b>4.9 million barrels</b>, <b>87 days</b>, Gulf of Mexico; &gt; <b>$65 billion</b></td></tr>
             </tbody>
           </table>
         ` }

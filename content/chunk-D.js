@@ -10,32 +10,20 @@ CHUNK({
       source: 'Lecture W2 (Conservation strategies), slides 1–4',
       tabs: [
         { title: 'Why conserve', html: `
-          <p class="lead"><b>Biodiversity</b>: variety of life: species, ecosystems, genetic differences.</p>
           <ul>
-            <li>Basis of <b>ecosystem services</b>: clean air, water, soil fertility, <b>pollination</b>, disease and <b>climate regulation</b>.</li>
-            <li>Raises <b>resilience</b> (ability to adapt to shocks).</li>
-            <li>Ensures <b>sustainable use</b> for future generations.</li>
-            <li>Loss hits <b>food security, health, livelihoods</b>.</li>
-            <li>Conservation is <b>not optional</b>: needed for human survival.</li>
+          <li>Biodiversity underpins <b>ecosystem services</b>: clean air, water, soil fertility, <b>pollination</b>, <b>climate regulation</b>.</li>
+          <li>Raises <b>resilience</b> (ability to adapt to shocks).</li>
+          <li>Loss hits <b>food security, health, livelihoods</b>.</li>
+          <li>Goals: protect <b>all forms of life</b>, keep <b>genetic variation within species</b>, keep ecosystem functioning, <b>sustainable future</b>.</li>
           </ul>
-        ` },
-        { title: 'Goals', html: `
-          <ol>
-            <li>Protect <b>all forms of life</b>: plants, animals, microorganisms.</li>
-            <li>Preserve <b>species diversity</b> and <b>genetic variation within species</b> (agriculture, medicine).</li>
-            <li>Maintain <b>ecosystem balance and functioning</b> (water cycles, carbon storage, pest control, pollination).</li>
-            <li>Clean air, water, fertile soil.</li>
-            <li>Support <b>human well-being and economic security</b>.</li>
-            <li>Ensure a <b>sustainable future</b>.</li>
-          </ol>
         ` },
         { title: 'Types of strategy', html: `
           <div class="vs">
-            <div class="side"><h4>In-situ</h4><p><b>In natural habitats</b>; natural evolution continues.</p><p><small>National parks, wildlife sanctuaries, biosphere reserves</small></p></div>
-            <div class="side"><h4>Ex-situ</h4><p><b>Outside natural environments</b>; for species under severe threat.</p><p><small>Zoos, botanical gardens, gene banks, seed banks</small></p></div>
+          <div class="side"><h4>In-situ</h4><p><b>In natural habitat</b>.</p><p><small>National parks, wildlife sanctuaries, biosphere reserves</small></p></div>
+          <div class="side"><h4>Ex-situ</h4><p><b>Outside natural habitat</b>.</p><p><small>Zoos, botanical gardens, gene banks, seed banks</small></p></div>
           </div>
-          <p><b>Complementary approach</b>: both together, for critically endangered species; ex-situ = <b>backup</b> + education, research, breeding.</p>
-          <div class="note heads-up">Slide: "broadly classified into in-situ and ex-situ"; speaker notes add complementary as a third. Two main types.</div>
+          <p><b>Complementary approach</b>: both together; ex-situ = <b>backup</b>.</p>
+          <div class="note heads-up">Slide gives two main types (in-situ, ex-situ); speaker notes add complementary as a third.</div>
         ` }
       ],
       flashcards: [
@@ -60,68 +48,43 @@ CHUNK({
       blurb: 'Conserving species where they live: national parks, wildlife sanctuaries, biosphere reserve zones, community reserves and sacred groves, with pros and cons.',
       source: 'Lecture W2 (Conservation strategies), slides 5–12',
       tabs: [
-        { title: 'What it is', html: `
-          <p class="lead"><b>In-situ conservation</b> protects species <b>within their natural habitats</b>.</p>
-          <ul>
-            <li>Natural interactions kept: hunting, reproducing, migrating, pollination.</li>
-            <li>Maintains <b>evolutionary processes</b>; species <b>adapt</b> to climate shifts.</li>
-            <li>Conserves species <b>and their ecosystems</b>.</li>
-            <li>Methods: <b>national parks, wildlife sanctuaries, biosphere reserves</b>.</li>
-            <li><b>Most effective and sustainable</b> strategy.</li>
-          </ul>
-          <p><b>Protected areas</b>: regions with <b>legal protection</b>; main in-situ tool, backbone of India's network (forests, grasslands, wetlands, mountains).</p>
-        ` },
         { title: 'Park vs sanctuary', html: `
+          <p class="lead"><b>In-situ</b>: species protected <b>within natural habitats</b>; <b>most effective and sustainable</b> strategy. Main tool: <b>protected areas</b>.</p>
           <table class="tbl">
-            <thead><tr><th></th><th>National Park</th><th>Wildlife Sanctuary</th></tr></thead>
-            <tbody>
-              <tr><td>Human activity</td><td><b>Strictly prohibited</b>: no hunting, grazing, logging, settlement</td><td><b>Limited, regulated</b>: grazing, minor forest produce, research, tourism</td></tr>
-              <tr><td>Managed by</td><td>Government (notified under law)</td><td>State or central wildlife authorities</td></tr>
-              <tr><td>Role</td><td>Ecological integrity, threatened species, ecotourism, research</td><td><b>Buffer</b> between protected areas and settlements</td></tr>
-              <tr><td>Examples</td><td><b>Jim Corbett NP</b> (1936, Uttarakhand, India's first NP, Bengal tigers); <b>Kaziranga NP</b> (Assam, one-horned rhinoceros)</td><td><b>Periyar WLS</b> (Kerala): elephants, tigers, tiger reserve, Periyar Lake</td></tr>
-            </tbody>
+          <thead><tr><th></th><th>National Park</th><th>Wildlife Sanctuary</th></tr></thead>
+          <tbody>
+          <tr><td>Human activity</td><td><b>Strictly prohibited</b></td><td><b>Limited, regulated</b> (grazing, tourism)</td></tr>
+          <tr><td>Role</td><td>Ecological integrity</td><td><b>Buffer</b> between protected areas and settlements</td></tr>
+          <tr><td>Examples</td><td><b>Jim Corbett</b> (<b>1936</b>, Uttarakhand, <b>India's first NP</b>, tigers); <b>Kaziranga</b> (Assam, <b>one-horned rhino</b>)</td><td><b>Periyar</b> (Kerala): elephants, tigers</td></tr>
+          </tbody>
           </table>
-          <div class="note heads-up">Slide 6 calls Kaziranga a "Sanctuary", slide 7 a "National Park". Use National Park.</div>
+          <div class="note heads-up">Slides call Kaziranga both "Sanctuary" and "National Park". Use National Park.</div>
         ` },
-        { title: 'Biosphere reserves', html: `
-          <p class="lead"><b>Biosphere reserves</b>: large areas, conservation + <b>sustainable development</b>; UNESCO <b>Man and the Biosphere (MAB) Programme</b>.</p>
-          <div class="steps">
-            <div><b>Core zone</b>: strictly protected, no human interference.</div>
-            <div><b>Buffer zone</b>: around core; limited <b>research, education, ecotourism</b>.</div>
-            <div><b>Transition zone</b>: outermost; <b>agriculture, forestry, settlements</b>.</div>
-          </div>
-          <p>Example: <b>Nilgiri BR</b> (<b>Tamil Nadu, Kerala, Karnataka</b>); includes <b>Mudumalai, Wayanad, Silent Valley</b>; tribal communities in outer zones.</p>
-          <div class="mnemonic">Core → Buffer → Transition: protection falls and human use rises as you move outwards.</div>
-        ` },
-        { title: 'Community and sacred', html: `
+        { title: 'Biosphere reserves and groves', html: `
+          <p class="lead"><b>Biosphere reserve</b>: conservation + <b>sustainable development</b>; UNESCO <b>Man and the Biosphere (MAB)</b> Programme.</p>
+          <table class="tbl"><thead><tr><th>Zone</th><th>Use</th></tr></thead><tbody>
+          <tr><td><b>Core</b></td><td>Strictly protected, no human interference</td></tr>
+          <tr><td><b>Buffer</b></td><td>Research, education, ecotourism</td></tr>
+          <tr><td><b>Transition</b></td><td>Outermost; agriculture, settlements</td></tr>
+          </tbody></table>
+          <p><b>Nilgiri BR</b>: <b>Tamil Nadu, Kerala, Karnataka</b>; includes <b>Mudumalai, Wayanad, Silent Valley</b>.</p>
           <ul>
-            <li><b>Community reserves</b>: legally recognised, managed with <b>local communities</b>; protect biodiversity outside formal zones.</li>
-            <li><b>Sacred groves</b>: kept by <b>religious/cultural beliefs</b>, often <b>no formal legal protection</b>; rare plants, medicinal herbs.</li>
+          <li><b>Community reserves</b>: legally recognised, run with <b>local communities</b>.</li>
+          <li><b>Sacred groves</b>: religious/cultural, often <b>no legal protection</b>. <b>Mawphlang</b> (Meghalaya, <b>Khasi tribes</b>); <b>Kavus</b> (Kerala, temples).</li>
           </ul>
-          <table class="tbl">
-            <tbody>
-              <tr><td>Meghalaya</td><td><b>Mawphlang</b>, kept by <b>Khasi tribes</b>; no tree cutting or hunting</td></tr>
-              <tr><td>Kerala</td><td><b>Kavus</b>, attached to temples</td></tr>
-            </tbody>
-          </table>
         ` },
         { title: 'Pros and cons', html: `
           <div class="vs">
-            <div class="side"><h4>Advantages</h4><ul>
-              <li>Protects <b>whole ecosystems</b>, not single species.</li>
-              <li>Species <b>keep evolving</b> (adaptation, gene flow).</li>
-              <li><b>Cost-effective</b>: no artificial habitats.</li>
-              <li><b>Less stress</b>: familiar surroundings.</li>
-              <li>Keeps services: pollination, water purification, climate regulation, carbon storage, nutrient cycling, soil formation.</li>
-            </ul></div>
-            <div class="side"><h4>Limitations</h4><ul>
-              <li>Needs <b>large land areas</b>.</li>
-              <li>Urbanisation, agriculture shrink habitat.</li>
-              <li><b>Weak enforcement</b>: underfunded staff, local resistance.</li>
-              <li><b>Poaching, illegal logging, encroachment</b>.</li>
-              <li><b>Human-wildlife conflict</b>.</li>
-              <li>Climate change, pollution, invasive species still reach them.</li>
-            </ul></div>
+          <div class="side"><h4>Advantages</h4><ul>
+          <li>Protects <b>whole ecosystems</b>.</li>
+          <li>Species <b>keep evolving</b>.</li>
+          <li><b>Cost-effective</b>; less stress.</li>
+          </ul></div>
+          <div class="side"><h4>Limitations</h4><ul>
+          <li>Needs <b>large land areas</b>.</li>
+          <li><b>Weak enforcement</b>, poaching, encroachment.</li>
+          <li><b>Human-wildlife conflict</b>.</li>
+          </ul></div>
           </div>
         ` }
       ],
@@ -151,64 +114,42 @@ CHUNK({
       blurb: 'Conserving species away from the wild: botanical gardens, zoos, gene and seed banks, cryopreservation, tissue culture and captive breeding, with benefits and limits.',
       source: 'Lecture W2 (Conservation strategies), slides 13–19',
       tabs: [
-        { title: 'What it is', html: `
-          <p class="lead"><b>Ex-situ</b>: <b>outside natural habitats</b>, controlled environments.</p>
+        { title: 'Sites', html: `
+          <p class="lead"><b>Ex-situ</b>: <b>outside natural habitat</b>, controlled conditions; a <b>backup</b> for species at high risk.</p>
           <ul>
-            <li>For species at <b>high risk in the wild</b> (habitat loss, poaching, low populations).</li>
-            <li>Sites: <b>zoos, botanical gardens, gene banks, aquariums</b>, seed banks, tissue culture labs.</li>
-            <li><b>Research, breeding, public education</b>.</li>
-            <li><b>Backup</b> (safety net) to restore wild populations.</li>
+          <li><b>Botanical gardens, zoos</b>: conservation + <b>public education</b>; breeding, reintroduction.</li>
+          <li><b>Gene banks</b>: seeds, embryos, pollen, DNA, tissue, sperm.</li>
+          <li><b>Seed banks</b>: <b>low temperature and humidity</b>; viable for decades.</li>
           </ul>
-        ` },
-        { title: 'Gardens and zoos', html: `
-          <p>Dual purpose: <b>conservation + public education</b>.</p>
-          <ul>
-            <li><b>Botanical gardens</b>: rare plants; breeding, research, restoration.</li>
-            <li><b>Zoological parks</b>: breed animals; reintroduction, international gene exchange.</li>
-            <li>Research in biology, ecology, veterinary science.</li>
-          </ul>
-          <div class="note example"><b>Indian Botanical Garden, Kolkata</b>: <b>1787</b>, one of the oldest, over <b>12,000 species</b>, <b>Great Banyan Tree</b>.</div>
-        ` },
-        { title: 'Gene and seed banks', html: `
-          <ul>
-            <li>Store <b>seeds, embryos, pollen, DNA, tissue samples</b>, sperm.</li>
-            <li><b>Seed banks</b>: <b>low temperature and humidity</b>; viable for decades.</li>
-            <li>Genetic diversity of <b>crops and medicinal plants</b>.</li>
-            <li>Restoration, breeding (drought-, pest-, disease-resistant crops), research; <b>food security</b>, climate adaptation.</li>
-          </ul>
-          <div class="note exam">India: <b>National Bureau of Plant Genetic Resources (NBPGR)</b>, New Delhi: main institute for plant genetic material.</div>
-        ` },
-        { title: 'Cryo and tissue culture', html: `
-          <div class="vs">
-            <div class="side"><h4>Cryopreservation</h4><p><b>Ultra-low temperature</b>: <b>liquid nitrogen, -196°C</b>; stops biological activity; cells, embryos, seeds, sperm keep for years.</p><p><small>Animal embryos: livestock, endangered-species breeding.</small></p></div>
-            <div class="side"><h4>Tissue culture</h4><p>Cells grown in <b>sterile, nutrient-rich media</b>; <b>rapid multiplication</b>: whole plant from small sample.</p><p><small>Regenerates orchids, medicinal plants.</small></p></div>
+          <div class="kv">
+          <div><span>Indian Botanical Garden, Kolkata</span><b>1787, over 12,000 species, Great Banyan Tree</b></div>
+          <div><span>India's plant gene bank</span><b>NBPGR, New Delhi</b></div>
           </div>
-          <p>Both help species hard to breed or with few seeds.</p>
         ` },
-        { title: 'Captive breeding', html: `
-          <p class="lead"><b>Captive breeding</b>: in zoos/centres to <b>increase numbers and keep genetic diversity</b> (avoid inbreeding); then <b>reintroduced</b>.</p>
+        { title: 'Techniques', html: `
+          <table class="tbl"><thead><tr><th>Method</th><th>Key facts</th></tr></thead><tbody>
+          <tr><td><b>Cryopreservation</b></td><td><b>Liquid nitrogen, -196°C</b>; stores cells, embryos, seeds, sperm</td></tr>
+          <tr><td><b>Tissue culture</b></td><td>Sterile nutrient media; <b>rapid multiplication</b>; orchids, medicinal plants</td></tr>
+          <tr><td><b>Captive breeding</b></td><td>Raise numbers, keep genetic diversity, then <b>reintroduce</b></td></tr>
+          </tbody></table>
           <ul>
-            <li><b>Project Tiger</b> (<b>1973</b>): reserves, captive support.</li>
-            <li><b>Asiatic Lion Breeding Programme</b>, Gujarat: once <b>below 20</b>; <b>Gir NP</b> now <b>over 600 lions</b>.</li>
+          <li><b>Project Tiger</b>: <b>1973</b>.</li>
+          <li><b>Asiatic lion</b>, Gujarat: once <b>below 20</b>; <b>Gir NP</b> now <b>over 600</b>.</li>
           </ul>
         ` },
         { title: 'Pros and cons', html: `
           <div class="vs">
-            <div class="side"><h4>Benefits</h4><ul>
-              <li>Safe <b>backup</b>.</li>
-              <li>Controlled temperature, humidity, disease, breeding; no predators.</li>
-              <li><b>Genetic repositories</b>.</li>
-              <li>Research, breeding, medical studies.</li>
-              <li>Public awareness.</li>
-              <li>Supports <b>reintroduction</b>, restoration.</li>
-            </ul></div>
-            <div class="side"><h4>Limitations</h4><ul>
-              <li><b>Expensive</b>: infrastructure, staff, energy, monitoring.</li>
-              <li><b>Loss of natural behaviour</b>: hunting, migration, reproduction.</li>
-              <li><b>Genetic bottleneck</b>/inbreeding (small groups).</li>
-              <li>Cannot copy natural ecosystem complexity.</li>
-              <li>A <b>complement, not a replacement</b>, for in-situ.</li>
-            </ul></div>
+          <div class="side"><h4>Benefits</h4><ul>
+          <li>Safe <b>backup</b>; <b>genetic repositories</b>.</li>
+          <li>Controlled conditions, no predators.</li>
+          <li>Supports <b>reintroduction</b>, research, awareness.</li>
+          </ul></div>
+          <div class="side"><h4>Limitations</h4><ul>
+          <li><b>Expensive</b>.</li>
+          <li><b>Loss of natural behaviour</b>.</li>
+          <li><b>Genetic bottleneck</b> / inbreeding.</li>
+          <li>A <b>complement, not a replacement</b>, for in-situ.</li>
+          </ul></div>
           </div>
         ` }
       ],
@@ -235,39 +176,23 @@ CHUNK({
       blurb: 'Integrating in-situ and ex-situ, then conservation at species (flagship and keystone), genetic (crop wild relatives) and ecosystem levels.',
       source: 'Lecture W2 (Conservation strategies), slides 20–23',
       tabs: [
-        { title: 'Combined approach', html: `
+        { title: 'Combined and species level', html: `
           <ul>
-            <li>Best when <b>in-situ and ex-situ are integrated</b>; ex-situ stock reintroduced once habitat restored.</li>
-            <li>Linked by <b>GIS, remote sensing</b> (satellite) and <b>genetic tools</b>.</li>
-            <li><b>Traditional ecological knowledge</b> (sacred groves, crop diversity).</li>
-            <li><b>Integrated ecosystem management</b>: biodiversity + people + sustainable use.</li>
-            <li>Result: resilience, long-term protection.</li>
+          <li>Best: <b>in-situ + ex-situ integrated</b>, linked by <b>GIS, remote sensing</b>, genetic tools and <b>traditional ecological knowledge</b>.</li>
           </ul>
-        ` },
-        { title: 'Species level', html: `
           <div class="vs">
-            <div class="side"><h4>Flagship species</h4><p><b>Charismatic</b> symbol; draws support and funding.</p><p>Example: <b>Tiger</b> (forests).</p></div>
-            <div class="side"><h4>Keystone species</h4><p><b>Disproportionately large ecological role</b>; loss can collapse ecosystem.</p><p>Example: <b>Asian Elephant</b>: seed dispersal, uprooting trees, clearings.</p></div>
+          <div class="side"><h4>Flagship</h4><p><b>Charismatic</b> symbol for support and funding: <b>Tiger</b>.</p></div>
+          <div class="side"><h4>Keystone</h4><p><b>Disproportionately large ecological role</b>: <b>Asian elephant</b> (seed dispersal, clearings).</p></div>
           </div>
-          <p>Protecting them conserves others in the habitat.</p>
           <div class="mnemonic">Flagship inspires people; keystone holds the ecosystem up.</div>
         ` },
-        { title: 'Genetic level', html: `
+        { title: 'Genetic and ecosystem level', html: `
           <ul>
-            <li><b>Genetic diversity within species</b>: disease resistance, climate adaptability, productivity.</li>
-            <li><b>Crop wild relatives</b>: wild species related to crops; drought tolerance, pest resistance, nutrition.</li>
-            <li>Example: <b>wild rice</b> → rice resisting <b>flooding and salinity</b> (Eastern India, Southeast Asia).</li>
-            <li>Tools: <b>gene banks, seed vaults, field gene reserves</b>.</li>
-            <li>Agricultural sustainability, <b>food security</b>.</li>
-          </ul>
-        ` },
-        { title: 'Ecosystem level', html: `
-          <ul>
-            <li>Protects <b>entire habitats and ecological processes</b>.</li>
-            <li>Key: <b>wetlands, coral reefs, forests, grasslands, mangroves</b>.</li>
-            <li>Services: water purification, carbon storage, flood control, climate regulation; wetlands host migratory birds; reefs buffer coasts; forests are carbon sinks.</li>
-            <li><b>Landscape-level planning</b>: protected zones + human land use over a wide area.</li>
-            <li><b>Connectivity</b>: species move and adapt (climate change).</li>
+          <li><b>Crop wild relatives</b>: wild species related to crops; drought tolerance, pest resistance.</li>
+          <li><b>Wild rice</b> → rice resisting <b>flooding and salinity</b>.</li>
+          <li>Genetic tools: <b>gene banks, seed vaults, field gene reserves</b>.</li>
+          <li>Ecosystem level: <b>wetlands, coral reefs, forests, grasslands, mangroves</b>.</li>
+          <li><b>Landscape-level planning</b> and <b>connectivity</b> let species move and adapt.</li>
           </ul>
         ` }
       ],
@@ -293,68 +218,44 @@ CHUNK({
       blurb: 'Indian conservation laws, CBD, Ramsar, Project Tiger and Elephant, conservation technology, the role of engineers and communities, and the main challenges.',
       source: 'Lecture W2 (Conservation strategies), slides 24–30',
       tabs: [
-        { title: 'Laws', html: `
+        { title: 'Laws and programmes', html: `
           <table class="tbl">
-            <thead><tr><th>Law</th><th>What it does</th></tr></thead>
-            <tbody>
-              <tr><td><b>Wildlife Protection Act, 1972</b></td><td>Protects wild animals, birds, plants; basis for parks, sanctuaries, conservation reserves; poaching/trade penalties</td></tr>
-              <tr><td><b>Forest Conservation Act</b></td><td><b>Diversion of forest land</b> needs <b>central government approval</b></td></tr>
-              <tr><td><b>Biological Diversity Act, 2002</b></td><td>Sustainable use, <b>equitable benefit sharing</b>; traditional knowledge; <b>Biodiversity Management Committees (BMCs)</b>; anti-biopiracy</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'Programmes', html: `
-          <table class="tbl">
-            <thead><tr><th>Initiative</th><th>Key facts</th></tr></thead>
-            <tbody>
-              <tr><td><b>Convention on Biological Diversity (CBD)</b></td><td>Global treaty, <b>1992</b>: conservation, sustainable use, fair sharing; India a signatory</td></tr>
-              <tr><td><b>Ramsar Convention</b></td><td><b>Wetlands</b> of international importance; India <b>over 75 sites</b>, e.g. <b>Chilika Lake</b>, <b>Keoladeo NP</b></td></tr>
-              <tr><td><b>Project Tiger</b></td><td><b>1973</b>: tiger reserves, anti-poaching</td></tr>
-              <tr><td><b>Project Elephant</b></td><td><b>1992</b>: habitats, human-elephant conflict</td></tr>
-            </tbody>
+          <thead><tr><th>Law / initiative</th><th>Key fact</th></tr></thead>
+          <tbody>
+          <tr><td><b>Wildlife Protection Act</b></td><td><b>1972</b>; basis for parks, sanctuaries; poaching penalties</td></tr>
+          <tr><td><b>Forest Conservation Act</b></td><td>Forest land diversion needs <b>central government approval</b></td></tr>
+          <tr><td><b>Biological Diversity Act</b></td><td><b>2002</b>; <b>benefit sharing</b>; <b>BMCs</b>; anti-biopiracy</td></tr>
+          <tr><td><b>CBD</b></td><td>Global treaty, <b>1992</b>; India signatory</td></tr>
+          <tr><td><b>Ramsar Convention</b></td><td><b>Wetlands</b>; India <b>over 75 sites</b> (<b>Chilika Lake</b>, <b>Keoladeo NP</b>)</td></tr>
+          <tr><td><b>Project Tiger</b></td><td><b>1973</b></td></tr>
+          <tr><td><b>Project Elephant</b></td><td><b>1992</b>; human-elephant conflict</td></tr>
+          </tbody>
           </table>
           <div class="mnemonic">1992 twice: CBD and Project Elephant. 1972 law, 1973 tiger.</div>
         ` },
-        { title: 'Technology', html: `
+        { title: 'Technology and engineers', html: `
+          <div class="kv">
+          <div><span>Map ecosystems, detect deforestation</span><b>GIS, remote sensing</b></div>
+          <div><span>Anti-poaching surveillance</span><b>Drones</b></div>
+          <div><span>Species from a short genetic sequence</span><b>DNA barcoding</b></div>
+          <div><span>Camera-trap images, sound recordings</span><b>AI</b></div>
+          </div>
           <ul>
-            <li><b>GIS and remote sensing</b>: map ecosystems; detect deforestation, encroachment, fires.</li>
-            <li><b>Drones</b>: surveillance, <b>anti-poaching</b>, tracking animals.</li>
-            <li><b>DNA barcoding</b>: species from a <b>short genetic sequence</b>, even degraded samples; detects illegal wildlife products, new species; soil/water samples.</li>
-            <li><b>Artificial Intelligence</b>: analyses <b>camera-trap images</b>, <b>sound recordings</b>.</li>
+          <li>Engineering fixes: <b>wildlife overpasses</b> (roadkill), <b>fish ladders</b> (dams), noise-reducing roads, <b>rainwater harvesting</b>.</li>
+          <li>Goal: <b>development without destruction</b>.</li>
           </ul>
         ` },
-        { title: 'Engineers', html: `
+        { title: 'Communities and challenges', html: `
           <ul>
-            <li><b>Sustainable infrastructure</b>; environmental assessments for roads, dams, buildings.</li>
-            <li>Eco-design: natural lighting, <b>rainwater harvesting</b>, energy-efficient materials.</li>
-            <li><b>Green buildings, wastewater treatment, renewable energy</b>.</li>
-            <li><b>Wildlife overpasses</b> (prevent roadkill), <b>fish ladders</b> (fish pass dams), <b>noise-reducing roads</b>.</li>
-            <li>Monitoring: sensors, drones, water-quality sensors, weather stations.</li>
+          <li><b>Ecotourism</b>, community forests, <b>Joint Forest Management (JFM)</b>.</li>
+          <li><b>Mawphlang</b>: Meghalaya, Khasi tribes. <b>Mendha Lekha</b>: <b>Maharashtra</b>, JFM.</li>
           </ul>
-          <p>Goal: <b>development without destruction</b>.</p>
-        ` },
-        { title: 'Communities', html: `
+          <h3>Challenges</h3>
           <ul>
-            <li><b>Local communities and NGOs</b>: ownership = better protection.</li>
-            <li><b>Ecotourism</b>: income (tours, homestays, handicrafts), low-impact travel.</li>
-            <li><b>Community forests</b>, <b>Joint Forest Management (JFM)</b>.</li>
+          <li><b>Habitat loss</b>: <b>leading cause</b> of decline.</li>
+          <li>Climate change: <b>coral reefs, glaciers, polar habitats</b> most at risk.</li>
+          <li>Weak enforcement; invasive <b>Lantana</b>; pollution, illegal trade.</li>
           </ul>
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Mawphlang Sacred Grove</b></td><td>Meghalaya; Khasi tribes' conservation rituals</td></tr>
-              <tr><td><b>Mendha Lekha</b></td><td>Maharashtra; tribal forest management under JFM</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'Challenges', html: `
-          <ol>
-            <li><b>Habitat loss</b> (deforestation, urbanisation, agriculture): <b>leading cause</b> of decline; fragmentation.</li>
-            <li><b>Climate change</b>: coral reefs, glaciers, polar habitats most at risk.</li>
-            <li><b>Policy gaps, weak enforcement</b>, poor coordination.</li>
-            <li><b>Invasive species</b>, e.g. <b>Lantana</b> in Indian forests.</li>
-            <li><b>Pollution, overexploitation, illegal trade</b>.</li>
-          </ol>
-          <p>Fix: <b>combine in-situ and ex-situ</b>; engineers, communities, policymakers, scientists together.</p>
         ` }
       ],
       flashcards: [

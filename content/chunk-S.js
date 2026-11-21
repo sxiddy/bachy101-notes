@@ -10,30 +10,27 @@ CHUNK({
       source: 'Lecture W5 (Global Warming), pages 1–2',
       tabs: [
         { title: 'Definition', html: `
-          <p class="lead"><b>Global warming</b>: long-term rise in Earth's average surface temperature, mainly from GHGs (industry, agriculture, land use). IPCC: about <b>1.1°C</b> above pre-industrial (<b>before 1850</b>), heading past <b>1.5°C</b>.</p>
+          <p class="lead"><b>Global warming</b>: long-term rise in Earth's average surface temperature from GHGs. IPCC: <b>1.1°C</b> above pre-industrial (<b>before 1850</b>), heading past <b>1.5°C</b>.</p>
           <ol class="steps">
-            <li>Sun sends <b>short-wave</b> radiation; warms the surface.</li>
-            <li>Surface re-emits <b>long-wave infrared</b> (heat).</li>
-            <li>GHGs absorb and re-emit in all directions, some back down.</li>
-            <li>Earth averages about <b>15°C</b> instead of <b>−18°C</b>.</li>
+            <li>Sun: <b>short-wave</b> in.</li>
+            <li>Surface: <b>long-wave infrared</b> out.</li>
+            <li>GHGs re-emit some back down.</li>
+            <li>Earth ≈ <b>15°C</b> instead of <b>−18°C</b>.</li>
           </ol>
-          <p>Natural effect = <b>life-sustaining mechanism</b>, not harmful.</p>
-          <p><b>Enhanced</b> effect = the problem: human activity pushes GHGs beyond natural levels; warming beyond natural variability.</p>
-          <p>Every engineering branch (<b>civil, mechanical, chemical, electrical, environmental</b>) contributes to warming and to solutions.</p>
+          <p>Natural = <b>life-sustaining</b>; <b>enhanced</b> (human) = the problem.</p>
         ` },
         { title: 'The gases', html: `
           <table class="tbl">
-            <thead><tr><th>Gas</th><th>Main sources</th><th>Key fact</th></tr></thead>
+            <thead><tr><th>Gas</th><th>Sources</th><th>Key fact</th></tr></thead>
             <tbody>
-              <tr><td><b>CO₂</b></td><td>Fossil fuels, deforestation, cement</td><td>Largest human contributor; lasts <b>hundreds to thousands of years</b></td></tr>
-              <tr><td><b>Methane (CH₄)</b></td><td>Livestock (<b>enteric fermentation</b>), rice paddies, landfills, gas extraction</td><td>About <b>80×</b> CO₂ over 20 years</td></tr>
-              <tr><td><b>Nitrous oxide (N₂O)</b></td><td>Nitrogen fertilisers, manure</td><td>About <b>265×</b> CO₂ over 100 years</td></tr>
-              <tr><td><b>Water vapour</b></td><td>Evaporation</td><td>Most abundant; a <b>feedback amplifier</b>, not a direct driver</td></tr>
-              <tr><td><b>Fluorinated gases</b></td><td>Refrigeration, AC, manufacturing</td><td><b>Thousands of times</b> CO₂; last centuries</td></tr>
+              <tr><td><b>CO₂</b></td><td>Fossil fuels, deforestation, cement</td><td>Largest; lasts <b>100s–1000s of yr</b></td></tr>
+              <tr><td><b>CH₄</b></td><td><b>Enteric fermentation</b>, rice, landfills, gas</td><td>≈ <b>80×</b> CO₂ (20 yr)</td></tr>
+              <tr><td><b>N₂O</b></td><td>Fertilisers, manure</td><td>≈ <b>265×</b> CO₂ (100 yr)</td></tr>
+              <tr><td><b>Water vapour</b></td><td>Evaporation</td><td>Most abundant; <b>positive feedback</b> amplifier</td></tr>
+              <tr><td><b>F-gases</b></td><td>Refrigeration, AC</td><td><b>Thousands ×</b> CO₂; centuries</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Water vapour feedback: warmer air → more evaporation → more heat trapped → more warming. A <b>positive feedback loop</b>.</div>
-          <div class="note heads-up">Methane: about 80× (this lecture) or 84× (climate science lecture) over 20 years; 28–36× over 100 years. CO₂ at 420 ppm: highest in at least <b>800,000 years</b> of ice cores (one lecture says 3 million years).</div>
+          <div class="note heads-up">Methane 80× here, 84× in climate science lecture (20 yr); 28–36× over 100 yr. CO₂ 420 ppm: highest in <b>800,000 yr</b> of ice cores (other lecture: 3 million).</div>
         ` }
       ],
       flashcards: [
@@ -61,24 +58,23 @@ CHUNK({
         { title: 'Five causes', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Fossil fuels</b></td><td>Largest source: electricity, heating, transport. Coal plants, petrol/diesel vehicles, furnaces emit <b>billions of tonnes</b> CO₂/year. Began with the <b>Industrial Revolution</b> (late 18th century, Britain).</td></tr>
-              <tr><td><b>Deforestation</b></td><td>Forests store CO₂ in biomass and soil; clearing (farms, cities, timber) releases it by burning or decay and cuts future absorption. Amazon, Congo, Southeast Asia matter most.</td></tr>
-              <tr><td><b>Industry</b></td><td>Process emissions: cement heats limestone to lime (CO₂); steel, aluminium smelting, chemicals. Grown with urbanisation, population growth in developing economies.</td></tr>
-              <tr><td><b>Agriculture</b></td><td>Cattle methane by <b>enteric fermentation</b>; flooded rice paddies (oxygen-free decay); nitrogen fertilisers (N₂O). About <b>10–12%</b> of emissions, growing.</td></tr>
-              <tr><td><b>Waste</b></td><td>Overlooked methane source: organic waste (food, paper, garden) decays without oxygen in landfills; wastewater gives methane and N₂O. Rising with urbanisation.</td></tr>
+              <tr><td><b>Fossil fuels</b></td><td>Largest source; since <b>Industrial Revolution</b> (late 18th c., Britain)</td></tr>
+              <tr><td><b>Deforestation</b></td><td>Releases stored carbon, cuts sinks; Amazon, Congo, SE Asia</td></tr>
+              <tr><td><b>Industry</b></td><td>Process emissions: cement (<b>limestone → lime</b>), steel, aluminium</td></tr>
+              <tr><td><b>Agriculture</b></td><td><b>Enteric fermentation</b>, flooded rice, N₂O; <b>10–12%</b></td></tr>
+              <tr><td><b>Waste</b></td><td>Overlooked: <b>landfill methane</b> (no-oxygen decay); wastewater CH₄, N₂O</td></tr>
             </tbody>
           </table>
         ` },
         { title: 'Consequences', html: `
           <ul>
-            <li><b>Heatwaves</b>: 1-in-50-year events now several times a decade; more frequent, intense, longer. India: 45–48°C+ in Rajasthan, Odisha, Andhra Pradesh; risk to <b>outdoor workers, the elderly, city dwellers</b>.</li>
-            <li><b>Sea level</b>: ice melt + <b>thermal expansion</b>. Up about 20 cm since 1900; IPCC <b>0.3–1 m</b> by 2100, more if <b>West Antarctic Ice Sheet</b> destabilises. At risk: Mumbai, Kolkata, Chennai, Kochi; Maldives, Tuvalu.</li>
-            <li><b>Rainfall</b>: disrupted <b>hydrological cycle</b>; heavier bursts and floods, longer droughts. Indian monsoon swings between floods and deficient years.</li>
-            <li><b>Ocean acidification</b>: oceans take about <b>a quarter</b> of human CO₂; pH down about <b>0.1</b> = <b>26% more acidic</b>. Shells, corals can't build calcium carbonate; mass bleaching.</li>
-            <li><b>Biodiversity</b>: zones shift <b>poleward and uphill</b>; slow species face local extinction; flowering/migration/breeding timing breaks. IPCC: higher extinction risk at <b>1.5°C</b>, much more at <b>2°C</b>. Himalayas, Western Ghats (hotspots) highly vulnerable.</li>
-            <li><b>Health and food</b>: heatwave deaths, malaria and dengue spreading, respiratory disease (pollution, wildfire smoke); lower yields, crop failures. WHO: about <b>250,000 extra deaths a year</b> in 2030–2050 (malnutrition, malaria, diarrhoea, heat stress).</li>
+            <li><b>Heatwaves</b>: 1-in-50-yr events several times a decade; India <b>45–48°C+</b> (Rajasthan, Odisha, Andhra).</li>
+            <li><b>Sea level</b>: ice melt + <b>thermal expansion</b>; <b>0.3–1 m</b> by 2100 (more if <b>West Antarctic</b> sheet fails). Mumbai, Kolkata, Chennai, Kochi; <b>Maldives, Tuvalu</b>.</li>
+            <li><b>Rainfall</b>: disrupted hydrological cycle; monsoon floods vs deficits.</li>
+            <li><b>Acidification</b>: oceans take <b>¼</b> of CO₂; pH <b>−0.1</b> = <b>26% more acidic</b> (log scale).</li>
+            <li><b>Biodiversity</b>: shift <b>poleward and uphill</b>; risk up at 1.5°C, much more at 2°C; Himalayas, <b>Western Ghats</b>.</li>
+            <li><b>Health, food</b>: WHO <b>250,000 extra deaths/yr</b> (2030–2050).</li>
           </ul>
-          <div class="note exam">A pH drop of only 0.1 means a <b>26%</b> rise in acidity because pH is logarithmic.</div>
         ` }
       ],
       flashcards: [
@@ -104,30 +100,26 @@ CHUNK({
       source: 'Lecture W5 (Global Warming), pages 6–9',
       tabs: [
         { title: 'Mitigation', html: `
-          <p class="lead"><b>Mitigation</b>: actions that reduce or prevent GHG emissions, across energy, transport, industry, land use, consumption.</p>
+          <p class="lead"><b>Mitigation</b>: reduce or prevent GHG emissions.</p>
           <ul>
-            <li><b>Renewables</b>: solar, wind, hydro, geothermal; most impactful single action. Solar PV and wind costs fell <b>over 80%</b> in a decade. India: <b>National Solar Mission</b>, <b>500 GW non-fossil capacity by 2030</b>.</li>
-            <li><b>Energy efficiency</b>: less energy for same service (insulation, efficient appliances and processes, fuel economy); cheap.</li>
-            <li><b>Reforestation and sequestration</b>: <b>Green India Mission</b> (under NAPCC) raises forest and tree cover. <b>Carbon capture and storage</b>: CO₂ from industry stored underground.</li>
-            <li><b>Sustainable agriculture and waste</b>: livestock management, precision fertilising, sustainable rice cut methane and N₂O; composting, waste-to-energy, landfill gas capture.</li>
-            <li><b>International agreements</b>: Paris 2015; India's NDC: <b>net zero by 2070</b>, <b>50%</b> non-fossil capacity by 2030.</li>
+            <li><b>Renewables</b>: most impactful; solar, wind costs <b>−80%+</b> in a decade. <b>National Solar Mission</b>; <b>500 GW</b> non-fossil by 2030.</li>
+            <li><b>Efficiency</b>: same service, less energy; cheap.</li>
+            <li><b>Green India Mission</b> (NAPCC): forest cover. <b>CCS</b>: CO₂ stored underground.</li>
+            <li>Agriculture, waste: composting, waste-to-energy, <b>landfill gas capture</b>.</li>
+            <li><b>Paris 2015</b>; India NDC: <b>net zero 2070</b>, <b>50%</b> non-fossil capacity by 2030.</li>
           </ul>
         ` },
-        { title: 'Adaptation', html: `
-          <p class="lead"><b>Adaptation</b>: adjusting human and natural systems to actual or expected warming. Locked-in warming continues for decades, so it is a <b>complement, not a substitute</b> for mitigation.</p>
+        { title: 'Adaptation and NAPCC', html: `
+          <p class="lead"><b>Adaptation</b>: adjusting to actual/expected warming; <b>complement, not substitute</b>.</p>
           <ul>
-            <li><b>Drought-resistant, heat-tolerant crops</b>.</li>
-            <li><b>Flood defences, sea walls, storm surge barriers</b> for coastal, low-lying areas.</li>
-            <li><b>Urban planning</b>: green spaces, reflective surfaces, efficient cooling reduce the <b>urban heat island</b>.</li>
-            <li><b>Integrated water management</b>: rainwater harvesting, groundwater recharge, efficient irrigation.</li>
+            <li>Drought-resistant, heat-tolerant crops.</li>
+            <li>Sea walls, storm surge barriers.</li>
+            <li>Green spaces, reflective surfaces vs <b>urban heat island</b>.</li>
+            <li>Rainwater harvesting, groundwater recharge.</li>
           </ul>
           <h4>NAPCC (2008): eight missions</h4>
-          <div class="mnemonic">Solar, Energy efficiency, Water, Himalayan ecosystem, Green India, Sustainable agriculture, Strategic knowledge, Sustainable habitat.</div>
-          <p>India: over <b>1.4 billion</b> people, many on rain-fed farming, exposed to floods, droughts, cyclones, heatwaves; adaptation urgent.</p>
-        ` },
-        { title: 'Engineers', html: `
-          <p>Engineers built emitting systems (coal plants, combustion engines, heavy industry) and build replacements: renewables, EVs, green buildings, carbon-neutral cement, smart grids, resilient infrastructure.</p>
-          <p>Environmental thinking = <b>core professional competency</b>; duty to public and future generations, not just clients. Applies across construction, manufacturing, energy, water, transport, IT.</p>
+          <div class="chips"><span class="chip">Solar</span><span class="chip">Energy efficiency</span><span class="chip">Water</span><span class="chip">Himalayan ecosystem</span><span class="chip">Green India</span><span class="chip">Sustainable agriculture</span><span class="chip">Strategic knowledge</span><span class="chip">Sustainable habitat</span></div>
+          <p>Engineers: environmental thinking = <b>core professional competency</b>.</p>
         ` }
       ],
       flashcards: [

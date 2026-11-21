@@ -10,52 +10,25 @@ CHUNK({
       source: 'Lecture W2 (Biodiversity), pages 1–6',
       tabs: [
         { title: 'What it is', html: `
-          <p class="lead"><b>Biodiversity</b> = <b>biological diversity</b>: all life forms, microbes to large mammals.</p>
+          <p class="lead"><b>Biodiversity</b> = <b>biological diversity</b>: all life, microbes to large mammals.</p>
           <ul>
-            <li>At every level: <b>genes, species, ecosystems</b>.</li>
-            <li>Keeps nature balanced, ecosystems working.</li>
-            <li>Supports <b>pollination, nutrient cycling, climate regulation</b>.</li>
-            <li>Without it, life (human included) is not sustainable.</li>
+          <li>Levels: <b>genes, species, ecosystems</b> (interconnected).</li>
+          <li>Supports <b>pollination, nutrient cycling, climate regulation</b>.</li>
+          <li>Engineering link: <b>sustainable development</b>, <b>bio-inspired design</b>.</li>
+          <li><b>Ecological impact assessment</b>: now <b>mandatory</b> for major projects.</li>
           </ul>
         ` },
-        { title: 'Why engineers study it', html: `
-          <p class="lead">Engineers: <b>sustainable development</b>, balancing progress with preservation.</p>
-          <ul>
-            <li><b>Resource management</b>: use resources efficiently, keep for future generations.</li>
-            <li><b>Green technologies</b>: <b>bio-inspired design</b>, sustainable materials.</li>
-            <li><b>Ecological impact assessments</b> now <b>mandatory</b> for major projects.</li>
-            <li>Infrastructure that is environmentally responsible, socially acceptable, ecologically stable.</li>
-          </ul>
-        ` },
-        { title: 'Genetic diversity', html: `
-          <p class="lead"><b>Genetic diversity</b>: variety of genes/traits <b>within one species</b> (size, colour, disease resistance).</p>
-          <ul>
-            <li>Lets species <b>adapt</b> to change.</li>
-            <li>Examples: <b>dog breeds</b> (one species); <b>rice varieties</b> for climates/soils; types of <b>wheat</b>.</li>
-          </ul>
-          <h3>Why it matters</h3>
-          <ul>
-            <li><b>Resistance to diseases and pests</b>.</li>
-            <li>Adapting to <b>climate change</b> (heat, irregular rain).</li>
-            <li>Better <b>crop yield and quality</b>; food security.</li>
-            <li>Low variation = <b>vulnerable to epidemics</b> and stress.</li>
-          </ul>
-        ` },
-        { title: 'Species and ecosystem diversity', html: `
-          <div class="vs">
-            <div class="side"><h4>Species diversity</h4>
-              <p><b>Number and types of species</b> in an area.</p>
-              <ul><li><b>Richness</b> = count of species.</li><li><b>Evenness</b> = how evenly individuals are spread.</li><li>High: <b>tropical rainforest</b>. Low: <b>monoculture</b> field.</li><li>Raises stability, productivity, resilience.</li></ul></div>
-            <div class="side"><h4>Ecosystem diversity</h4>
-              <p><b>Variety of ecosystems</b> in a region/planet.</p>
-              <ul><li>Forests, deserts, wetlands, grasslands, freshwater, marine.</li><li>More types = more services: <b>carbon storage, water filtration, climate regulation</b>.</li></ul></div>
-          </div>
-          <table class="tbl"><thead><tr><th>Level</th><th>Focus</th><th>Example</th></tr></thead><tbody>
-            <tr><td>Genetic</td><td>Variation within a species</td><td>Types of wheat</td></tr>
-            <tr><td>Species</td><td>Variety of species in a region</td><td>Tigers, elephants and others in one forest</td></tr>
-            <tr><td>Ecosystem</td><td>Range of habitats</td><td>Coral reefs, rainforests</td></tr>
+        { title: 'Three levels', html: `
+          <table class="tbl"><thead><tr><th>Level</th><th>Meaning</th><th>Example</th></tr></thead><tbody>
+          <tr><td><b>Genetic</b></td><td>Variation <b>within one species</b></td><td><b>Dog breeds</b>, rice varieties, wheat types</td></tr>
+          <tr><td><b>Species</b></td><td>Number and types of species in an area</td><td>High: <b>tropical rainforest</b>; low: <b>monoculture</b></td></tr>
+          <tr><td><b>Ecosystem</b></td><td>Variety of ecosystems in a region</td><td>Forests, wetlands, coral reefs, deserts</td></tr>
           </tbody></table>
-          <p>Levels are <b>interconnected</b>: loss at one weakens the others.</p>
+          <ul>
+          <li>Species diversity: <b>richness</b> = count; <b>evenness</b> = how evenly individuals are spread.</li>
+          <li>Genetic diversity gives disease/pest resistance, climate adaptation, crop yield; low variation = <b>vulnerable to epidemics</b>.</li>
+          <li>Ecosystem diversity gives <b>carbon storage, water filtration</b>, climate regulation.</li>
+          </ul>
         ` }
       ],
       flashcards: [
@@ -84,43 +57,21 @@ CHUNK({
       source: 'Lecture W2 (Biodiversity), pages 6–9',
       tabs: [
         { title: 'Ecological and economic', html: `
-          <h3>Ecological balance</h3>
-          <p>Natural equilibrium, kept by:</p>
-          <ul>
-            <li><b>Food chains and webs</b>: producers to consumers to decomposers.</li>
-            <li><b>Pollination</b> by bees and insects.</li>
-            <li><b>Decomposition</b> returns nutrients to soil.</li>
-            <li><b>Natural water purification</b> by wetlands and microbes.</li>
-          </ul>
-          <h3>Economic value</h3>
-          <ul>
-            <li><b>Agriculture and livestock</b>: crop variety, breeds, genetic resources.</li>
-            <li><b>Pharmaceuticals</b>: <b>life-saving drugs</b> from plants, fungi, marine organisms.</li>
-            <li><b>Bioproducts</b>: natural dyes, oils, enzymes, biodegradable materials.</li>
-            <li><b>Ecotourism</b>: growing industry relying on wildlife.</li>
-          </ul>
+          <table class="tbl"><thead><tr><th>Value</th><th>Key points</th></tr></thead><tbody>
+          <tr><td>Ecological</td><td>Food webs, <b>pollination</b>, decomposition; <b>wetlands and microbes</b> purify water</td></tr>
+          <tr><td>Economic</td><td>Agriculture; <b>pharmaceuticals</b> (drugs from plants, fungi, marine life); bioproducts; <b>ecotourism</b></td></tr>
+          </tbody></table>
         ` },
-        { title: 'Science, culture, ethics', html: `
-          <h3>Scientific and educational</h3>
-          <ul>
-            <li><b>Biotechnology</b> uses organisms to make <b>antibiotics, vaccines and enzymes</b>.</li>
-            <li><b>Genetic engineering</b>: better crops, disease-resistant plants, new medicines.</li>
-            <li>New genes, biochemical pathways, adaptive traits.</li>
-            <li>A <b>living laboratory</b> for teaching.</li>
-          </ul>
-          <h3>Cultural and ethical</h3>
-          <ul>
-            <li>Religions treat animals, plants, places as <b>sacred</b>.</li>
-            <li><b>Indigenous knowledge systems</b>: traditional practices and <b>taboos</b>.</li>
-            <li>Ethics: preserving biodiversity is a <b>moral act</b>; other species' right to exist.</li>
-          </ul>
-        ` },
-        { title: 'Climate regulation', html: `
-          <table class="tbl"><thead><tr><th>Part of nature</th><th>Climate role</th></tr></thead><tbody>
-            <tr><td>Forests</td><td><b>Carbon sinks</b>: absorb CO<sub>2</sub>, reduce global warming</td></tr>
-            <tr><td>Wetlands</td><td><b>Flood control</b>: absorb rain, release slowly</td></tr>
-            <tr><td>Oceans</td><td>Absorb CO<sub>2</sub>, store heat, balance gases</td></tr>
-            <tr><td>Phytoplankton</td><td><b>Oxygen production</b>, carbon cycling</td></tr>
+        { title: 'Science, culture, climate', html: `
+          <table class="tbl"><thead><tr><th>Value</th><th>Key points</th></tr></thead><tbody>
+          <tr><td>Scientific</td><td><b>Biotechnology</b>: antibiotics, vaccines, enzymes; genetic engineering; a <b>living laboratory</b></td></tr>
+          <tr><td>Cultural / ethical</td><td><b>Sacred</b> species; <b>indigenous knowledge</b> (practices, <b>taboos</b>); other species' <b>right to exist</b></td></tr>
+          </tbody></table>
+          <table class="tbl"><thead><tr><th>Climate role</th><th></th></tr></thead><tbody>
+          <tr><td>Forests</td><td><b>Carbon sinks</b></td></tr>
+          <tr><td>Wetlands</td><td><b>Flood control</b></td></tr>
+          <tr><td>Oceans</td><td>Absorb CO<sub>2</sub>, store heat</td></tr>
+          <tr><td>Phytoplankton</td><td><b>Oxygen production</b></td></tr>
           </tbody></table>
         ` }
       ],
@@ -148,31 +99,24 @@ CHUNK({
       source: 'Lecture W2 (Biodiversity), pages 9–11',
       tabs: [
         { title: 'Criteria and global', html: `
-          <p class="lead"><b>Hotspot</b>: very high biodiversity + <b>under serious threat</b>.</p>
-          <div class="kv">
-            <div><span>Criterion 1</span>High <b>species richness</b> (many species)</div>
-            <div><span>Criterion 2</span>High <b>endemism</b> (many species found nowhere else)</div>
-            <div><span>Plus</span>Significant threats: deforestation, pollution, habitat destruction, climate change</div>
-          </div>
-          <p>Focus: <b>irreplaceable</b> life at high risk.</p>
+          <p class="lead"><b>Hotspot</b>: high <b>species richness</b> + high <b>endemism</b> + <b>under serious threat</b>.</p>
           <figure data-fig="m2-hotspot-map"></figure>
           <table class="tbl"><thead><tr><th>Hotspot</th><th>Key fact</th></tr></thead><tbody>
-            <tr><td><b>Amazon Rainforest</b> (South America)</td><td>Largest tropical forest; most species of any land ecosystem</td></tr>
-            <tr><td><b>Congo Basin</b> (Central Africa)</td><td><b>Second-largest</b> rainforest; gorillas, forest elephants</td></tr>
-            <tr><td><b>Coral Triangle</b> (SE Asia, Pacific)</td><td><b>Highest marine biodiversity</b> (corals, fish)</td></tr>
+          <tr><td><b>Amazon</b> (S America)</td><td>Largest tropical forest</td></tr>
+          <tr><td><b>Congo Basin</b> (C Africa)</td><td><b>Second-largest</b> rainforest; gorillas</td></tr>
+          <tr><td><b>Coral Triangle</b> (SE Asia)</td><td><b>Highest marine biodiversity</b></td></tr>
           </tbody></table>
-          <p>Services: carbon storage, water regulation, food security. Threats: deforestation, mining, overfishing, climate change.</p>
         ` },
         { title: 'India\'s hotspots', html: `
-          <p class="lead">India has <b>four of the world's 36</b> biodiversity hotspots.</p>
+          <p class="lead">India: <b>4 of the world's 36</b> hotspots.</p>
           <table class="tbl"><thead><tr><th>Hotspot</th><th>Known for</th></tr></thead><tbody>
-            <tr><td><b>Himalayas</b></td><td>High altitude; <b>snow leopard, red panda</b>, endemic plants</td></tr>
-            <tr><td><b>Western Ghats</b></td><td>An <b>oldest mountain range</b>; endemic <b>amphibians, reptiles, flowering plants</b></td></tr>
-            <tr><td><b>Indo-Burma</b></td><td>NE India; <b>tribal knowledge systems</b></td></tr>
-            <tr><td><b>Sundaland</b></td><td>Includes the <b>Nicobar Islands</b>; rainforests and coral reefs</td></tr>
+          <tr><td><b>Himalayas</b></td><td><b>Snow leopard, red panda</b></td></tr>
+          <tr><td><b>Western Ghats</b></td><td>Endemic <b>amphibians, reptiles</b>, flowering plants</td></tr>
+          <tr><td><b>Indo-Burma</b></td><td>NE India; tribal knowledge</td></tr>
+          <tr><td><b>Sundaland</b></td><td>Includes <b>Nicobar Islands</b></td></tr>
           </tbody></table>
-          <p>Threats: deforestation, infrastructure development, climate change.</p>
-          <div class="mnemonic"><p>"<b>H</b>ot <b>W</b>ater <b>I</b>n <b>S</b>ummer": Himalayas, Western Ghats, Indo-Burma, Sundaland.</p></div>        ` }
+          <div class="mnemonic"><p>"<b>H</b>ot <b>W</b>ater <b>I</b>n <b>S</b>ummer": Himalayas, Western Ghats, Indo-Burma, Sundaland.</p></div>
+        ` }
       ],
       flashcards: [
         { front: 'Two criteria for a hotspot?', back: 'High <b>species richness</b> and high <b>endemism</b> (plus serious threat).' },
@@ -198,33 +142,31 @@ CHUNK({
       source: 'Lecture W2 (Biodiversity), pages 11–18',
       tabs: [
         { title: 'Six threats', html: `
-          <table class="tbl"><thead><tr><th>Threat</th><th>How it harms</th></tr></thead><tbody>
-            <tr><td><b>1. Habitat loss and fragmentation</b></td><td>One of the biggest. Urbanisation, farming; <b>highways, railways, dams</b> split ecosystems into patches; disrupts migration, breeding, food/water access.</td></tr>
-            <tr><td><b>2. Pollution</b></td><td>Air: <b>acid rain</b>; water: industry, sewage; soil: pesticides, heavy metals; <b>eutrophication</b> from fertilizer runoff (algal blooms, low oxygen).</td></tr>
-            <tr><td><b>3. Climate change</b></td><td>Heat shifts distribution; droughts, floods; <b>ocean acidification</b> (excess CO<sub>2</sub>) harms corals, shellfish.</td></tr>
-            <tr><td><b>4. Overexploitation</b></td><td>Faster than regeneration: <b>overfishing</b>, <b>logging</b>, <b>poaching</b> (ivory, fur, horns), farming, mining.</td></tr>
-            <tr><td><b>5. Invasive species</b></td><td>Non-natives outcompete natives. <b>Water hyacinth</b> clogs rivers/lakes; <b>Lantana camara</b> invades forests, grasslands.</td></tr>
-            <tr><td><b>6. Industrialisation and infrastructure</b></td><td>Dams, highways, ports clear and fragment habitat. Needs <b>EIA</b>.</td></tr>
+          <table class="tbl"><thead><tr><th>Threat</th><th>Key points</th></tr></thead><tbody>
+          <tr><td><b>Habitat loss / fragmentation</b></td><td>One of the biggest; <b>highways, railways, dams</b> split habitat</td></tr>
+          <tr><td><b>Pollution</b></td><td><b>Acid rain</b>; <b>eutrophication</b> from fertilizer runoff</td></tr>
+          <tr><td><b>Climate change</b></td><td><b>Ocean acidification</b> harms corals, shellfish</td></tr>
+          <tr><td><b>Overexploitation</b></td><td>Overfishing, logging, <b>poaching</b> (ivory, fur, horns)</td></tr>
+          <tr><td><b>Invasive species</b></td><td><b>Water hyacinth</b> (rivers), <b>Lantana camara</b> (forests)</td></tr>
+          <tr><td><b>Industrialisation</b></td><td>Dams, highways, ports; needs <b>EIA</b></td></tr>
           </tbody></table>
         ` },
         { title: 'Case studies', html: `
-          <div class="note example"><p><b>Silent Valley National Park, Kerala</b> (Western Ghats): <b>lion-tailed macaque</b>, <b>Malabar civet</b>, endemic orchids. 1970s–80s hydroelectric project would flood it; scientists, activists, locals stopped it in <b>1983</b>; became a <b>national park</b>.</p></div>
-          <div class="note example"><p><b>Great Barrier Reef, Australia</b>: <b>largest coral reef system</b>, UNESCO World Heritage Site. Warm oceans cause <b>coral bleaching</b>: corals expel algae (<b>zooxanthellae</b>) that give colour and nutrients; repeated bleaching kills reef.</p></div>
-          <div class="note example"><p><b>The Dodo</b>: flightless bird of <b>Mauritius</b>, extinct <b>late 1600s</b>, decades after humans arrived. Hunting, habitat loss, introduced <b>rats, pigs, monkeys</b> ate eggs. No predators before, so no instinct to flee.</p></div>
+          <div class="note example"><p><b>Silent Valley</b>, Kerala (Western Ghats): <b>lion-tailed macaque</b>, <b>Malabar civet</b>. Hydroelectric project stopped in <b>1983</b>; became a <b>national park</b>.</p></div>
+          <div class="note example"><p><b>Great Barrier Reef</b>, Australia: <b>largest coral reef system</b>, UNESCO site. <b>Coral bleaching</b>: corals expel algae (<b>zooxanthellae</b>).</p></div>
+          <div class="note example"><p><b>Dodo</b>: flightless bird of <b>Mauritius</b>, extinct <b>late 1600s</b>; hunting, introduced <b>rats, pigs, monkeys</b> ate eggs.</p></div>
         ` },
         { title: 'Engineers and technology', html: `
           <ul>
-            <li><b>Sustainable design and construction</b>: less waste, energy, land degradation.</li>
-            <li><b>Environmental Impact Assessment (EIA)</b>: biodiversity effect before construction; sensitive habitats, endangered species, mitigation.</li>
-            <li><b>Eco-engineering</b>: engineering + ecology: <b>green roofs, wildlife crossings, natural wastewater treatment</b>.</li>
+          <li><b>EIA</b>: biodiversity impact checked before construction.</li>
+          <li><b>Eco-engineering</b>: <b>green roofs, wildlife crossings, natural wastewater treatment</b>.</li>
           </ul>
-          <table class="tbl"><thead><tr><th>Tool</th><th>Use in monitoring</th></tr></thead><tbody>
-            <tr><td><b>GIS and remote sensing</b></td><td>Map ecosystems, monitor deforestation</td></tr>
-            <tr><td><b>Drones</b></td><td>Wildlife tracking in remote areas</td></tr>
-            <tr><td><b>AI</b></td><td>Identify species from images/movement, detect threats</td></tr>
-            <tr><td><b>Bioinformatics</b></td><td>Genetic and biodiversity datasets</td></tr>
-          </tbody></table>
-          <p>Engineers: sustainable practices, green tech innovation, support conservation policy.</p>
+          <div class="kv">
+          <div><span>Map ecosystems, deforestation</span><b>GIS and remote sensing</b></div>
+          <div><span>Wildlife tracking</span><b>Drones</b></div>
+          <div><span>Identify species from images</span><b>AI</b></div>
+          <div><span>Genetic datasets</span><b>Bioinformatics</b></div>
+          </div>
         ` }
       ],
       flashcards: [
@@ -252,44 +194,24 @@ CHUNK({
       blurb: 'What species interactions are, why engineers care, and the five types with their examples.',
       source: 'Lecture W2 (Species interaction), pages 1–6 and 14',
       tabs: [
-        { title: 'What and why', html: `
-          <p class="lead"><b>Species interaction</b>: effect organisms have on each other, <b>direct or indirect, short- or long-term</b>.</p>
-          <ul>
-            <li>Cooperation, competition, feeding, dependency.</li>
-            <li>Pollinators, herbivores, predators; fungi and bacteria recycle nutrients.</li>
-            <li>Losing one species can disrupt stability; biodiverse = more resilient.</li>
-          </ul>
-          <h3>Why engineers study it</h3>
-          <ul>
-            <li>Shows ecosystem health.</li>
-            <li><b>EIAs</b> need local species and relationships.</li>
-            <li><b>Conservation engineering</b> restores habitats.</li>
-            <li>Supports sustainable development goals.</li>
-          </ul>
-        ` },
         { title: 'Five types', html: `
+          <p class="lead"><b>Species interaction</b>: effect organisms have on each other, <b>direct or indirect</b>.</p>
           <div data-viz="species-interactions"></div>
           <table class="tbl"><thead><tr><th>Type</th><th>Effect</th><th>Examples</th></tr></thead><tbody>
-            <tr><td><b>Mutualism</b></td><td>Both <b>benefit</b> (+/+)</td><td>Bees and flowers; <b>mycorrhizal fungi</b> and roots (nutrients / carbohydrates)</td></tr>
-            <tr><td><b>Commensalism</b></td><td>One benefits, other <b>unaffected</b> (+/0)</td><td><b>Barnacles on whales</b>; <b>cattle egrets</b> eating insects stirred by cattle</td></tr>
-            <tr><td><b>Parasitism</b></td><td><b>Host harmed</b> (+/−)</td><td><b>Ticks</b> on mammals; <b>parasitic wasps</b> laying eggs in insects</td></tr>
-            <tr><td><b>Predation</b></td><td>Predator <b>kills and eats</b> prey</td><td>Tiger and deer; hawk and mouse</td></tr>
-            <tr><td><b>Competition</b></td><td>Same <b>limited resources</b></td><td>Plants competing for <b>sunlight</b></td></tr>
+          <tr><td><b>Mutualism</b></td><td>+/+</td><td>Bees and flowers; <b>mycorrhizal fungi</b> and roots</td></tr>
+          <tr><td><b>Commensalism</b></td><td>+/0</td><td><b>Barnacles on whales</b>; <b>cattle egrets</b> and cattle</td></tr>
+          <tr><td><b>Parasitism</b></td><td>+/−</td><td><b>Ticks</b>; <b>parasitic wasps</b></td></tr>
+          <tr><td><b>Predation</b></td><td>Kills and eats</td><td>Tiger and deer; hawk and mouse</td></tr>
+          <tr><td><b>Competition</b></td><td>Same limited resource</td><td>Plants for <b>sunlight</b></td></tr>
           </tbody></table>
-          <ul>
-            <li>Mutualism: nutrient cycling, pollination, productivity.</li>
-            <li>Commensalism: shelter, transport, feeding advantages.</li>
-            <li><b>Ectoparasites</b> (outside) vs <b>endoparasites</b> (inside).</li>
-            <li>Predation regulates population size.</li>
-            <li>Competition: <b>intraspecific</b> (same species) or <b>interspecific</b> (different); one often dominates.</li>
-          </ul>
         ` },
-        { title: 'How it links to extinction', html: `
-          <p class="lead">Interactions <b>shape ecosystem structure</b>.</p>
+        { title: 'Subtypes and links', html: `
           <ul>
-            <li>Broken: species lose food, pollination, shelter; decline to endangerment/extinction.</li>
-            <li>Losing <b>pollinators</b> threatens plants, cascades to herbivores, predators.</li>
-            <li><b>Feedback loops</b>: one decline unbalances others.</li>
+          <li><b>Ectoparasite</b> = outside host; <b>endoparasite</b> = inside.</li>
+          <li><b>Intraspecific</b> = same species; <b>interspecific</b> = different species.</li>
+          <li><b>Predation</b> regulates population size.</li>
+          <li>Commensalism gives shelter, <b>transport</b>, feeding advantage.</li>
+          <li>Losing <b>pollinators</b> cascades to herbivores and predators.</li>
           </ul>
         ` }
       ],
@@ -318,62 +240,41 @@ CHUNK({
       source: 'Lecture W2 (Species interaction), pages 6–14',
       tabs: [
         { title: 'Extinct', html: `
-          <p class="lead">Conservation status: <b>how likely a species survives in the wild</b> (population, habitat, risk). Four: <b>extinct, endangered, endemic, rare</b>.</p>
-          <p><b>Extinct</b>: <b>no living individuals</b>, wild or captive. Natural but <b>accelerated by humans</b>.</p>
+          <p class="lead">Four status categories: <b>extinct, endangered, endemic, rare</b>.</p>
+          <p><b>Extinct</b>: <b>no living individuals</b>, wild or captive.</p>
           <figure data-fig="m2-mass-extinction"></figure>
-          <p><b>Causes</b>: habitat loss (deforestation, urbanisation, agriculture), climate change, hunting/poaching, invasive species.</p>
-          <table class="tbl"><thead><tr><th>Species</th><th>Where and why</th></tr></thead><tbody>
-            <tr><td><b>Dodo</b></td><td>Mauritius, 1600s; hunting and invasive animals</td></tr>
-            <tr><td><b>Passenger pigeon</b></td><td>North America, by the <b>early 1900s</b>; mass hunting, habitat destruction</td></tr>
-            <tr><td><b>Indian cheetah</b></td><td>Extinct <b>locally</b> in India; overhunting, habitat loss</td></tr>
+          <table class="tbl"><thead><tr><th>Species</th><th>Fact</th></tr></thead><tbody>
+          <tr><td><b>Dodo</b></td><td>Mauritius, 1600s</td></tr>
+          <tr><td><b>Passenger pigeon</b></td><td>North America, <b>early 1900s</b></td></tr>
+          <tr><td><b>Indian cheetah</b></td><td>Extinct <b>locally</b> in India</td></tr>
           </tbody></table>
-          <p><b>Impact</b>: broken food chains, dependent species collapse, lost <b>pollination, seed dispersal, nutrient cycling</b>.</p>
         ` },
         { title: 'Endangered', html: `
-          <p class="lead"><b>Endangered</b>: <b>very high extinction risk</b> soon; populations critically low.</p>
-          <p>Causes: <b>human encroachment</b> (cities, farms, roads), <b>pollution</b>, <b>habitat fragmentation</b>.</p>
+          <p class="lead"><b>Endangered</b>: <b>very high extinction risk</b> soon.</p>
           <table class="tbl"><thead><tr><th>Species</th><th>Threat</th></tr></thead><tbody>
-            <tr><td><b>Bengal tiger</b> (India's national animal)</td><td>Habitat loss, poaching</td></tr>
-            <tr><td><b>Indian vulture</b></td><td><b>Diclofenac</b> poisoning from livestock carcasses</td></tr>
-            <tr><td><b>Ganges river dolphin</b></td><td>Water pollution, dams</td></tr>
-            <tr><td><b>Giant panda</b> (China)</td><td>Shrinking bamboo forests, low reproduction</td></tr>
-            <tr><td><b>Black rhino</b> (Africa)</td><td>Critically endangered; poaching for horn</td></tr>
-            <tr><td><b>Orangutan</b> (Southeast Asia)</td><td>Deforestation, illegal pet trade</td></tr>
+          <tr><td><b>Bengal tiger</b></td><td>Habitat loss, poaching</td></tr>
+          <tr><td><b>Indian vulture</b></td><td><b>Diclofenac</b> in livestock carcasses</td></tr>
+          <tr><td><b>Ganges river dolphin</b></td><td>Pollution, dams</td></tr>
+          <tr><td><b>Giant panda</b> (China)</td><td>Shrinking bamboo forests</td></tr>
+          <tr><td><b>Black rhino</b> (Africa)</td><td><b>Critically endangered</b>; horn poaching</td></tr>
+          <tr><td><b>Orangutan</b> (SE Asia)</td><td>Deforestation, pet trade</td></tr>
           </tbody></table>
-          <h3>Conservation strategies</h3>
-          <ul>
-            <li><b>Wildlife sanctuaries and national parks</b>: safe habitat.</li>
-            <li><b>Captive breeding</b>: raise numbers, reintroduce.</li>
-            <li><b>Legal protection</b>: India's <b>Wildlife Protection Act</b> bans hunting, trade.</li>
-            <li>Community education; anti-poaching laws.</li>
-          </ul>
+          <p>Protection: sanctuaries, national parks, <b>captive breeding</b>, India's <b>Wildlife Protection Act</b>.</p>
         ` },
-        { title: 'Endemic', html: `
-          <p class="lead"><b>Endemic</b>: <b>only one region</b> (island or continent).</p>
-          <ul>
-            <li>Evolved in isolation; <b>very vulnerable</b> to habitat change.</li>
-            <li>Irreplaceable; sensitive indicators of ecosystem health.</li>
-            <li><b>Indicators of regional biodiversity</b>; help identify <b>hotspots</b>.</li>
-          </ul>
-          <table class="tbl"><thead><tr><th>Indian endemic</th><th>Found only in</th></tr></thead><tbody>
-            <tr><td><b>Nilgiri tahr</b> (mountain goat)</td><td>Western Ghats</td></tr>
-            <tr><td><b>Lion-tailed macaque</b></td><td>Western Ghats rainforests</td></tr>
-            <tr><td><b>Andaman teal</b> (duck)</td><td>Andaman Islands freshwater wetlands</td></tr>
+        { title: 'Endemic and rare', html: `
+          <div class="vs">
+          <div class="side"><h4>Endemic</h4><p>Found <b>only in one region</b>; help identify <b>hotspots</b>.</p></div>
+          <div class="side"><h4>Rare</h4><p><b>Small population</b>, but <b>not at high extinction risk now</b>. Causes: <b>habitat specificity</b>, low reproduction.</p></div>
+          </div>
+          <table class="tbl"><thead><tr><th>Species</th><th>Type</th><th>Where</th></tr></thead><tbody>
+          <tr><td><b>Nilgiri tahr</b></td><td>Endemic</td><td>Western Ghats</td></tr>
+          <tr><td><b>Lion-tailed macaque</b></td><td>Endemic</td><td>Western Ghats</td></tr>
+          <tr><td><b>Andaman teal</b></td><td>Endemic</td><td>Andaman Islands</td></tr>
+          <tr><td><b>Himalayan quail</b></td><td>Rare</td><td>Last seen <b>19th century</b></td></tr>
+          <tr><td><b>Malabar civet</b></td><td>Rare</td><td>Once thought extinct</td></tr>
+          <tr><td><b>Gooty tarantula</b></td><td>Rare</td><td><b>Andhra Pradesh</b></td></tr>
           </tbody></table>
-          <p>Threats: habitat destruction, invasive species, <b>restricted range</b> (cannot migrate), disasters, climate shifts.</p>
-        ` },
-        { title: 'Rare', html: `
-          <p class="lead"><b>Rare</b>: <b>small population or limited range</b>, but <b>not currently at high extinction risk</b>.</p>
-          <p>Still vulnerable, so <b>monitored</b>.</p>
-          <p><b>Causes</b>: <b>habitat specificity</b>, <b>low reproductive rates</b>, human interference.</p>
-          <table class="tbl"><thead><tr><th>Species</th><th>Fact</th></tr></thead><tbody>
-            <tr><td><b>Himalayan quail</b></td><td>Last reliably seen <b>19th century</b>; maybe in remote Himalayas</td></tr>
-            <tr><td><b>Malabar civet</b></td><td>Once thought extinct; among India's rarest mammals</td></tr>
-            <tr><td><b>Gooty tarantula</b></td><td>Colourful spider, one forest patch in <b>Andhra Pradesh</b></td></tr>
-          </tbody></table>
-          <div class="note heads-up"><p>Malabar civet: listed as rare but also called critically endangered. Learn both.</p></div>
-          <h3>Engineers' role</h3>
-          <p><b>EIAs</b> before construction, eco-friendly design, <b>wildlife corridors</b>, green buildings, water-efficient systems.</p>
+          <div class="note heads-up"><p>Malabar civet: listed as rare but also called critically endangered.</p></div>
         ` }
       ],
       flashcards: [

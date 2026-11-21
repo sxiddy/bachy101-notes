@@ -9,60 +9,35 @@ CHUNK({
       blurb: 'Ecology and ecosystem defined, the common features, terrestrial and aquatic types, natural vs artificial, structural vs functional aspects, and the levels of ecological organisation.',
       source: 'Lectures W1S4 (pages 1–5) and W1S5 (pages 1–2)',
       tabs: [
-        { title: 'Definitions', html: `
-          <p class="lead"><b>Ecology</b>: study of organisms in their natural home interacting with surroundings: living (<b>biotic</b>) and physical (<b>abiotic</b>).</p>
-          <p><b>Ecosystem</b>: biotic communities interacting with each other and the non-living environment, <b>exchanging energy and matter</b>. Ecology is now often defined as the <b>study of ecosystems</b>.</p>
+        { title: 'Definitions and levels', html: `
+          <p class="lead"><b>Ecology</b>: organisms interacting with <b>biotic</b> and <b>abiotic</b> surroundings; now often the <b>study of ecosystems</b>.</p>
           <ul>
-            <li>A <b>dynamic complex</b> of organisms and surroundings, ensuring <b>flow of energy</b> and <b>cycling of nutrients</b>.</li>
-            <li>A <b>structural and functional unit of ecology</b>.</li>
-            <li>Any spatial or organisational unit of living and non-living parts exchanging materials.</li>
+            <li><b>Ecosystem</b>: biotic communities + non-living environment <b>exchanging energy and matter</b>; a <b>dynamic complex</b> ensuring energy flow and nutrient cycling.</li>
+            <li>A <b>structural and functional unit of ecology</b>; size from an <b>oasis</b> to an <b>ocean</b>.</li>
+            <li><b>Structural</b> aspects: species types, numbers, arrangement, physical features. <b>Functional</b>: <b>energy flow</b>, <b>nutrient cycling</b>.</li>
           </ul>
-          <p>Size varies: as small as an <b>oasis in a desert</b> or as big as an <b>ocean</b>.</p>
-        ` },
-        { title: 'Types', html: `
-          <p class="lead"><b>Natural</b> vs <b>artificial</b>; natural → <b>terrestrial</b> (land) and <b>aquatic</b> (water).</p>
-          <figure data-fig="m1-ecosystem-types-tree"></figure>
-          <p><b>Terrestrial</b>: forest, grassland, tundra, desert. <b>Aquatic</b>: freshwater, marine.</p>
-          <table class="tbl"><thead><tr><th>Type</th><th>Key points</th></tr></thead><tbody>
-            <tr><td>Forest</td><td>Plants, animals, microbes + abiotic factors; <b>maintain Earth's temperature</b>; <b>major carbon sink</b>.</td></tr>
-            <tr><td>Grassland</td><td><b>Grasses and herbs</b>; temperate grasslands, <b>savanna</b>.</td></tr>
-            <tr><td>Tundra</td><td><b>No trees</b>; cold, scarce rainfall; snow most of the year; Arctic, <b>mountain tops</b>.</td></tr>
-            <tr><td>Desert</td><td>Very little rain; <b>hot days, cold nights</b>.</td></tr>
-            <tr><td>Freshwater</td><td>Lakes, ponds, rivers, streams, wetlands; <b>no salt</b>.</td></tr>
-            <tr><td>Marine</td><td>Seas, oceans; <b>more salt</b>, <b>greater biodiversity</b>.</td></tr>
-          </tbody></table>
-          <div class="vs">
-            <div class="side"><h4>Natural</h4><p>Forests, rivers. <b>Self-sustaining</b>.</p></div>
-            <div class="side"><h4>Artificial</h4><p>Gardens, aquariums, crop fields. Need <b>human management</b>.</p></div>
-          </div>
-        ` },
-        { title: 'Examples by type', html: `
-          <table class="tbl"><thead><tr><th>Category</th><th>Type</th><th>Example</th></tr></thead><tbody>
-            <tr><td>Terrestrial</td><td>Forest</td><td><b>Amazon rainforest, Sundarbans mangroves</b></td></tr>
-            <tr><td>Terrestrial</td><td>Grassland</td><td><b>African savanna, Indian Deccan plateau</b></td></tr>
-            <tr><td>Terrestrial</td><td>Desert</td><td><b>Sahara, Thar Desert</b></td></tr>
-            <tr><td>Aquatic (fresh)</td><td>Lake / pond</td><td><b>Dal Lake, Chilika Lake</b></td></tr>
-            <tr><td>Aquatic (fresh)</td><td>River</td><td><b>Ganga, Brahmaputra</b></td></tr>
-            <tr><td>Aquatic (marine)</td><td>Ocean</td><td>Coral reefs, deep-sea ecosystems</td></tr>
-            <tr><td>Artificial</td><td>Crop field</td><td>Paddy fields, orchards</td></tr>
-          </tbody></table>
-        ` },
-        { title: 'Structure vs function', html: `
-          <div class="vs">
-            <div class="side"><h4>Structural</h4><p><b>Arrangement, types and number of species</b>, life histories, <b>physical features</b> of the environment.</p></div>
-            <div class="side"><h4>Functional</h4><p><b>Flow of energy</b> and <b>cycling of nutrients</b>.</p></div>
-          </div>
-        ` },
-        { title: 'Levels of organisation', html: `
           <ol class="steps">
-            <li><b>Organism</b> Smallest unit: one living being.</li>
-            <li><b>Population</b> <b>Same species</b> in one area; breeding, competition, cooperation.</li>
-            <li><b>Community</b> Several populations in the same area.</li>
-            <li><b>Ecosystem</b> Communities + <b>non-living environment</b>.</li>
-            <li><b>Biosphere</b> <b>Sum of all ecosystems</b> on Earth.</li>
+            <li><b>Organism</b> Smallest unit.</li>
+            <li><b>Population</b> <b>Same species</b>, one area.</li>
+            <li><b>Community</b> Several populations.</li>
+            <li><b>Ecosystem</b> Community + <b>abiotic</b> environment.</li>
+            <li><b>Biosphere</b> <b>Sum of all ecosystems</b>.</li>
           </ol>
           <figure data-fig="m1-levels-organisation"></figure>
-          <div class="note trap"><p>Population = one species. Community = many species. Ecosystem = community + abiotic environment.</p></div>
+          <div class="note trap"><p>Population = one species. Community = many species. Ecosystem = community + abiotic.</p></div>
+        ` },
+        { title: 'Types and examples', html: `
+          <p class="lead">Natural splits into <b>terrestrial</b> (forest, grassland, tundra, desert) and <b>aquatic</b> (freshwater, marine). <b>Natural</b> (<b>self-sustaining</b>) vs <b>artificial</b> (gardens, aquariums, crop fields; need <b>human management</b>).</p>
+          <figure data-fig="m1-ecosystem-types-tree"></figure>
+          <table class="tbl"><thead><tr><th>Type</th><th>Key fact</th><th>Example</th></tr></thead><tbody>
+            <tr><td>Forest</td><td><b>Major carbon sink</b>; maintains Earth's temperature</td><td><b>Amazon, Sundarbans</b></td></tr>
+            <tr><td>Grassland</td><td>Grasses, herbs; savanna</td><td><b>African savanna, Deccan plateau</b></td></tr>
+            <tr><td>Tundra</td><td><b>No trees</b>; cold, scarce rain, snow most of year</td><td>Arctic, <b>mountain tops</b></td></tr>
+            <tr><td>Desert</td><td>Very little rain; <b>hot days, cold nights</b></td><td><b>Sahara, Thar</b></td></tr>
+            <tr><td>Freshwater</td><td><b>No salt</b>; lakes, ponds, rivers, wetlands</td><td><b>Dal Lake, Chilika</b>; Ganga, Brahmaputra</td></tr>
+            <tr><td>Marine</td><td><b>More salt</b>, <b>greater biodiversity</b></td><td>Coral reefs, deep sea</td></tr>
+            <tr><td>Artificial</td><td>Human-managed</td><td>Paddy fields, orchards</td></tr>
+          </tbody></table>
         ` }
       ],
       flashcards: [
@@ -93,53 +68,32 @@ CHUNK({
       blurb: 'Abiotic factors with the numbers from the notes, and the biotic groups: producers, consumers, decomposers and detritivores, with examples.',
       source: 'Lectures W1S5 (pages 3–5) and energy flow (pages 1–2)',
       tabs: [
-        { title: 'Two components', html: `
-          <p class="lead"><b>Biotic</b> (living) and <b>abiotic</b> (non-living) components are <b>interdependent</b>.</p>
-          <ul>
-            <li>Biotic: plants, animals, bacteria, fungi at different <b>trophic levels</b> (producers, consumers, decomposers).</li>
-            <li>Abiotic: temperature, sunlight, water, air, soil; control growth and survival.</li>
-            <li>Example: plants need water, sunlight, minerals to grow and make oxygen.</li>
-            <li>Disrupt one component → whole system affected.</li>
-            <li>Uses: <b>habitat restoration, agriculture, conservation, urban planning</b>.</li>
-          </ul>
-        ` },
         { title: 'Abiotic factors', html: `
+          <p class="lead"><b>Biotic</b> and <b>abiotic</b> components are <b>interdependent</b>; disrupt one and the whole system is affected. Used in <b>habitat restoration, agriculture, conservation, urban planning</b>.</p>
           <figure data-fig="m1-abiotic-factors"></figure>
-          <table class="tbl"><thead><tr><th>Factor</th><th>What it does</th></tr></thead><tbody>
-            <tr><td>Light / solar radiation</td><td>Photosynthesis, plant distribution, animal migration. <b>Primary energy input</b>: Earth receives <b>~1.7 × 10<sup>17</sup> W</b>, only <b>~0.023%</b> captured by photosynthesis.</td></tr>
-            <tr><td>Temperature</td><td>Sets <b>metabolic rate</b>, growth, survival. <b>Q<sub>10</sub> rule</b>: rate doubles per 10 °C rise.</td></tr>
-            <tr><td>Water</td><td><b>Universal solvent</b>; photosynthesis, nutrient transport, waste removal; often limits where species live.</td></tr>
-            <tr><td>Soil</td><td>Anchorage, water, nutrients (<b>N, P, K</b>, micronutrients); decides vegetation, microbes.</td></tr>
-            <tr><td>Air / atmospheric gases</td><td><b>O<sub>2</sub></b> respiration, <b>CO<sub>2</sub></b> photosynthesis, <b>N<sub>2</sub></b> nitrogen fixation; regulate climate.</td></tr>
-            <tr><td>Minerals and nutrients</td><td>N, P, K support cells, plant productivity; cycled through food chains.</td></tr>
-            <tr><td>pH, salinity, wind, topography</td><td>Chemical/physical setting: which species thrive where.</td></tr>
+          <table class="tbl"><thead><tr><th>Factor</th><th>Key fact</th></tr></thead><tbody>
+            <tr><td>Light</td><td>Photosynthesis, plant distribution, migration. <b>Primary energy input</b>: Earth gets <b>~1.7 × 10<sup>17</sup> W</b>; only <b>~0.023%</b> captured</td></tr>
+            <tr><td>Temperature</td><td><b>Q<sub>10</sub> rule</b>: metabolic rate <b>doubles</b> per <b>10 °C</b></td></tr>
+            <tr><td>Water</td><td><b>Universal solvent</b>; nutrient transport, waste removal; often limits distribution</td></tr>
+            <tr><td>Soil</td><td>Anchorage, water, nutrients <b>N, P, K</b> + micronutrients</td></tr>
+            <tr><td>Air</td><td>O<sub>2</sub> respiration, CO<sub>2</sub> photosynthesis, N<sub>2</sub> fixation</td></tr>
+            <tr><td>Others</td><td>Minerals, pH, salinity, wind, topography</td></tr>
           </tbody></table>
         ` },
-        { title: 'Producers and consumers', html: `
+        { title: 'Biotic groups', html: `
           <figure data-fig="m1-biotic-factors"></figure>
-          <h3>Producers (autotrophs)</h3>
-          <p>Make own food from external energy; base of food chain.</p>
-          <div class="vs">
-            <div class="side"><h4>Photoautotrophs</h4><p><b>Sunlight</b>: grasses, trees, algae, <b>phytoplankton</b>, <b>cyanobacteria</b>.</p></div>
-            <div class="side"><h4>Chemoautotrophs</h4><p><b>Chemical energy</b>: deep-sea <b>hydrothermal vent bacteria</b>.</p></div>
-          </div>
-          <h3>Consumers (heterotrophs)</h3>
-          <p>Eat others; herbivores, carnivores, omnivores, parasites.</p>
-          <table class="tbl"><thead><tr><th>Group</th><th>Eats</th><th>Examples</th></tr></thead><tbody>
-            <tr><td>Primary (herbivores)</td><td>Producers</td><td>Deer, rabbit, grasshopper, <b>zooplankton</b>, cattle</td></tr>
-            <tr><td>Secondary (carnivores)</td><td>Herbivores</td><td>Frogs, foxes, small fish, spiders</td></tr>
-            <tr><td>Tertiary (top carnivores)</td><td>Secondary consumers</td><td>Eagles, tigers, sharks, orcas</td></tr>
-            <tr><td>Omnivores</td><td>Plants and animals</td><td>Humans, bears, crows, pigs</td></tr>
+          <table class="tbl"><thead><tr><th>Group</th><th>Examples</th></tr></thead><tbody>
+            <tr><td><b>Photoautotrophs</b> (sunlight)</td><td>Grasses, trees, algae, <b>phytoplankton</b>, <b>cyanobacteria</b></td></tr>
+            <tr><td><b>Chemoautotrophs</b> (chemical energy)</td><td>Deep-sea <b>hydrothermal vent bacteria</b></td></tr>
+            <tr><td>Primary consumers (herbivores)</td><td>Deer, rabbit, grasshopper, <b>zooplankton</b>, cattle</td></tr>
+            <tr><td>Secondary (carnivores)</td><td>Frogs, foxes, small fish, spiders</td></tr>
+            <tr><td>Tertiary (top carnivores)</td><td>Eagles, tigers, sharks, orcas</td></tr>
+            <tr><td>Omnivores</td><td><b>Humans, bears, crows, pigs</b></td></tr>
+            <tr><td><b>Decomposers</b> (saprotrophs)</td><td>Bacteria <b>Bacillus, Pseudomonas</b>; fungi <b>Aspergillus, Rhizopus</b></td></tr>
+            <tr><td><b>Detritivores</b></td><td><b>Earthworms, millipedes, woodlice, dung beetles</b></td></tr>
           </tbody></table>
-          <p>Consumers control populations by <b>predation and grazing</b>.</p>
-        ` },
-        { title: 'Decomposers, detritivores', html: `
-          <div class="vs">
-            <div class="side"><h4>Decomposers (saprotrophs)</h4><p>Break dead matter into <b>inorganic nutrients</b> via <b>extracellular enzymes</b>.</p><p>Bacteria: <b>Bacillus, Pseudomonas</b>. Fungi: <b>Aspergillus, Rhizopus</b>.</p></div>
-            <div class="side"><h4>Detritivores</h4><p><b>Ingest</b> fragments of dead matter.</p><p><b>Earthworms, millipedes, woodlice, dung beetles</b>.</p></div>
-          </div>
-          <p>Decomposers return nutrients to soil, complete the nutrient cycle, keep ecosystem <b>clean and fertile</b>. Losing any biotic group can destabilise the ecosystem.</p>
-          <div class="note trap"><p>Earthworms eat dead matter: detritivores. Bacteria and fungi digest it outside the body with enzymes: decomposers.</p></div>
+          <p>Producers = <b>autotrophs</b>; consumers = <b>heterotrophs</b> (control populations by <b>predation and grazing</b>). Decomposers return <b>inorganic nutrients</b> to soil.</p>
+          <div class="note trap"><p>Detritivores <b>ingest</b> fragments; decomposers digest outside the body with <b>extracellular enzymes</b>.</p></div>
         ` }
       ],
       flashcards: [
@@ -170,51 +124,33 @@ CHUNK({
       blurb: 'Trophic levels, grazing and detritus food chains, why chains stay short, food webs, keystone species and the Yellowstone wolves.',
       source: 'Lecture W1S5 (pages 5–7) and energy flow (pages 4–5)',
       tabs: [
-        { title: 'Trophic levels', html: `
-          <p class="lead"><b>Trophic level</b>: a step in a food chain, by how an organism gets energy.</p>
+        { title: 'Trophic levels and chains', html: `
+          <p class="lead"><b>Trophic level</b>: step in a food chain. Each step ~<b>90% lost as heat</b>, <b>10% passes on</b> → limits chain length.</p>
           <table class="tbl"><thead><tr><th>Level</th><th>Who</th><th>Examples</th></tr></thead><tbody>
-            <tr><td>T1</td><td>Producers (photosynthesis)</td><td>Green plants, algae</td></tr>
-            <tr><td>T2</td><td>Primary consumers (herbivores)</td><td>Deer, rabbits, grasshoppers</td></tr>
-            <tr><td>T3</td><td>Secondary consumers (carnivores or omnivores)</td><td>Frogs, foxes, small birds</td></tr>
-            <tr><td>T4</td><td>Tertiary consumers (top predators)</td><td>Hawks, lions</td></tr>
+            <tr><td>T1</td><td>Producers</td><td>Green plants, algae</td></tr>
+            <tr><td>T2</td><td>Herbivores</td><td>Deer, rabbits, grasshoppers</td></tr>
+            <tr><td>T3</td><td>Carnivores / omnivores</td><td>Frogs, foxes, small birds</td></tr>
+            <tr><td>T4</td><td>Top predators</td><td>Hawks, lions</td></tr>
           </tbody></table>
-          <p>Top predators keep lower levels in check. Each step: ~<b>90% lost as heat</b>, <b>10% passes on</b> → <b>limits chain length</b>.</p>
-        ` },
-        { title: 'Food chains', html: `
-          <p class="lead">Food chain: <b>linear</b> sequence of energy transfer, producer to top predator.</p>
           <div class="vs">
-            <div class="side"><h4>Grazing food chain</h4>
-              <p>Starts from <b>living green plants</b>.</p>
-              <div class="eq">Sun → Grass (T1) → Grasshopper (T2) → Frog (T3) → Snake (T4) → Eagle (T5)</div>
-              <ul><li>Most common in terrestrial and marine ecosystems.</li><li><b>Maximum 4–5 links</b> (10% rule).</li></ul></div>
-            <div class="side"><h4>Detritus food chain</h4>
-              <p>Starts from <b>dead organic matter</b>.</p>
-              <div class="eq">Dead matter → Detritivores → Decomposers → Inorganic nutrients → Soil → Producers</div>
-              <ul><li><b>Dominant</b> in forests and wetlands: <b>80–90%</b> of energy.</li><li>Decomposers return nutrients to soil.</li><li><b>No direct sunlight needed</b>; works in dark soil.</li></ul></div>
+            <div class="side"><h4>Grazing chain</h4>
+              <p>Starts with <b>living green plants</b>; most common; <b>max 4–5 links</b> (10% rule).</p>
+              <div class="eq">Grass → Grasshopper → Frog → Snake → Eagle</div></div>
+            <div class="side"><h4>Detritus chain</h4>
+              <p>Starts with <b>dead organic matter</b>; <b>80–90%</b> of energy in forests, wetlands; <b>no sunlight</b> needed.</p>
+              <div class="eq">Dead matter → Detritivores → Decomposers → Inorganic nutrients → Soil → Producers</div></div>
           </div>
         ` },
-        { title: 'Food webs', html: `
-          <p class="lead">Food web: interconnected <b>network of food chains</b>.</p>
+        { title: 'Food webs and cascades', html: `
+          <p class="lead">Food web: <b>network of food chains</b>; more realistic and <b>more stable</b> (predators switch prey).</p>
           <figure data-fig="m1-food-web"></figure>
           <ul>
-            <li><b>More realistic</b>: organisms eat several prey.</li>
-            <li>One organism at <b>more than one trophic level</b> (omnivore = primary and secondary consumer).</li>
-            <li><b>Stability</b>: predators switch to alternative prey.</li>
+            <li>An omnivore sits at <b>more than one trophic level</b>.</li>
             <li><b>Redundancy</b>: energy flows by several routes.</li>
-            <li>Losing a <b>keystone species</b> (<b>sea otter, wolf</b>) can collapse the web: <b>trophic cascades</b>, extinctions.</li>
-            <li>Shows <b>resilience and vulnerability</b>; guides conservation (coral reefs, forests, wetlands).</li>
+            <li>Losing a <b>keystone species</b> (<b>sea otter, wolf</b>) → <b>trophic cascade</b>.</li>
+            <li><b>Yellowstone, 1995</b>: wolves return → deer leave riverbanks → plants recover → banks stabilise, <b>rivers change course</b>.</li>
+            <li><b>Sharks</b> remove sick and weak fish, supporting reefs.</li>
           </ul>
-        ` },
-        { title: 'Yellowstone cascade', html: `
-          <p class="lead">Classic trophic cascade: <b>wolves reintroduced to Yellowstone in 1995</b>.</p>
-          <ol class="steps">
-            <li><b>Wolves return</b> Prey on deer.</li>
-            <li><b>Deer move</b> Leave riverbanks; grazing drops.</li>
-            <li><b>Vegetation recovers</b> Plants regrow on banks.</li>
-            <li><b>Rivers change</b> Banks stabilise, less erosion, rivers change course; biodiversity rises.</li>
-          </ol>
-          <p>Altered even the <b>physical geography</b>.</p>
-          <div class="note example"><p>Sharks: remove sick and weak fish, keeping fish populations healthy, supporting reefs.</p></div>
         ` }
       ],
       flashcards: [
@@ -244,45 +180,23 @@ CHUNK({
       blurb: 'Pyramids of numbers, biomass and energy: their shapes in different ecosystems, units, the reasons behind inverted pyramids, and their drawbacks.',
       source: 'Lecture W1S5 (pages 7–8) and energy flow (pages 5–7)',
       tabs: [
-        { title: 'What they are', html: `
-          <p class="lead">Ecological pyramid: trophic levels by <b>numbers, biomass or energy</b>. <b>Charles Elton (1927)</b>: <b>Eltonian pyramid</b>.</p>
+        { title: 'Types and numbers', html: `
+          <p class="lead"><b>Charles Elton (1927)</b>: <b>Eltonian pyramid</b>; numbers, biomass or energy.</p>
           <figure data-fig="m1-ecological-pyramid"></figure>
-          <p>Show energy efficiency, productivity, imbalances; predict population dynamics.</p>
-          <div class="vs">
-            <div class="side"><h4>Numbers</h4><p>Count of organisms. Usually upright, with exceptions.</p></div>
-            <div class="side"><h4>Biomass</h4><p>Total mass. Usually decreases upward.</p></div>
-            <div class="side"><h4>Energy</h4><p><b>Always upright</b>. Most accurate.</p></div>
-          </div>
-        ` },
-        { title: 'Pyramid of numbers', html: `
-          <p class="lead">Individuals per level; shape depends on producer size.</p>
-          <table class="tbl"><thead><tr><th>Shape</th><th>Ecosystem</th><th>Why</th></tr></thead><tbody>
-            <tr><td><b>Upright</b></td><td>Grassland / pond</td><td>Millions of grasses → thousands of insects → hundreds of frogs → tens of birds</td></tr>
-            <tr><td><b>Upright</b></td><td>Aquatic (pond)</td><td>Phytoplankton → zooplankton → small fish → large fish</td></tr>
-            <tr><td><b>Inverted</b></td><td>Tree ecosystem</td><td><b>One large tree</b> → many caterpillars → more parasites (wasps, mites)</td></tr>
-            <tr><td><b>Spindle-shaped</b></td><td>Forest</td><td>Few producers (large trees), many herbivores (insects), fewer carnivores</td></tr>
+          <table class="tbl"><thead><tr><th>Pyramid of numbers</th><th>Ecosystem</th></tr></thead><tbody>
+            <tr><td><b>Upright</b></td><td>Grassland (grass → insects → frogs → birds); pond (phytoplankton → zooplankton → fish)</td></tr>
+            <tr><td><b>Inverted</b></td><td><b>Single tree</b> → caterpillars → parasites</td></tr>
+            <tr><td><b>Spindle</b></td><td><b>Forest</b>: few big trees, many insects, fewer carnivores</td></tr>
           </tbody></table>
-          <div class="note trap"><p>Drawback: ignores size (one tree vs millions of bacteria).</p></div>
+          <div class="note trap"><p>Numbers pyramid ignores <b>size</b>; biomass pyramid ignores <b>rate</b>; all are <b>snapshots</b> and leave out <b>decomposers</b>.</p></div>
         ` },
-        { title: 'Pyramid of biomass', html: `
-          <p class="lead">Total <b>dry weight</b> per level, <b>g/m² or kg/m²</b>.</p>
-          <table class="tbl"><thead><tr><th>Shape</th><th>Ecosystem</th><th>Why</th></tr></thead><tbody>
-            <tr><td><b>Upright</b></td><td>Terrestrial (forest)</td><td>Large plant biomass → less herbivore → less carnivore</td></tr>
-            <tr><td><b>Inverted</b></td><td>Marine / ocean</td><td>Low phytoplankton biomass (rapid turnover) → higher zooplankton</td></tr>
+        { title: 'Biomass and energy', html: `
+          <table class="tbl"><thead><tr><th>Pyramid</th><th>Unit</th><th>Shape</th></tr></thead><tbody>
+            <tr><td>Biomass (dry weight)</td><td><b>g/m² or kg/m²</b></td><td>Upright on land; <b>inverted in oceans</b> (phytoplankton turn over in <b>hours</b>)</td></tr>
+            <tr><td>Energy</td><td><b>kJ/m²/yr or kcal/m²/yr</b></td><td><b>Always upright</b>, most accurate (<b>Lindemann's 10% law</b>)</td></tr>
           </tbody></table>
-          <div class="note why"><p>Phytoplankton reproduce in <b>hours</b>: small standing amount, high production; snapshot looks inverted.</p></div>
-          <div class="note trap"><p>Drawback: shows standing stock, not <b>rate</b> of production (productivity).</p></div>
-        ` },
-        { title: 'Pyramid of energy', html: `
-          <p class="lead">Energy per level, <b>kJ/m²/yr or kcal/m²/yr</b>. <b>Always upright, no exceptions</b>.</p>
-          <p><b>Most accurate</b>: energy flow over time, law of energy degradation. Based on <b>Lindemann's 10% law</b>.</p>
-          <table class="tbl"><thead><tr><th>Level</th><th>Energy</th><th>% of original</th></tr></thead><tbody>
-            <tr><td>Producers (T1)</td><td><b>10,000 kJ</b></td><td>100%: enters by photosynthesis</td></tr>
-            <tr><td>Primary consumers (T2)</td><td><b>1,000 kJ</b></td><td>10%</td></tr>
-            <tr><td>Secondary consumers (T3)</td><td><b>100 kJ</b></td><td>1%</td></tr>
-            <tr><td>Tertiary consumers (T4)</td><td><b>10 kJ</b></td><td>0.1%</td></tr>
-          </tbody></table>
-          <div class="note trap"><p>All pyramids: <b>snapshot in time</b> (ignore seasons); leave out <b>decomposers and detritivores</b>, though they process most energy.</p></div>
+          <div class="eq">10,000 kJ (T1) → 1,000 (T2) → 100 (T3) → 10 kJ (T4, 0.1%)</div>
+          <p>Energy pyramid follows the law of <b>energy degradation</b>; only it has <b>no exceptions</b>.</p>
         ` }
       ],
       flashcards: [
@@ -312,78 +226,37 @@ CHUNK({
       blurb: 'Photosynthesis as the energy gateway, GPP vs NPP, chemosynthesis, the two laws of thermodynamics in ecosystems, Lindemann\'s 10% law and where the other 90% goes.',
       source: 'Energy flow lecture, pages 2–9',
       tabs: [
-        { title: 'Photosynthesis', html: `
-          <p class="lead">All energy comes from the <b>Sun</b>, entering through <b>producers</b> by photosynthesis.</p>
+        { title: 'Photosynthesis and productivity', html: `
           <div class="eq" data-label="Photosynthesis">6CO<sub>2</sub> + 6H<sub>2</sub>O + light energy → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub></div>
-          <ul>
-            <li>CO<sub>2</sub> enters via <b>stomata</b>.</li>
-            <li>H<sub>2</sub>O from soil via roots and <b>xylem</b>.</li>
-            <li>Light absorbed by <b>chlorophyll</b> in chloroplasts.</li>
-            <li><b>Glucose</b> stores energy as chemical bonds.</li>
-            <li>O<sub>2</sub> by-product, used in consumers' aerobic respiration.</li>
-          </ul>
-        ` },
-        { title: 'GPP, NPP, chemosynthesis', html: `
-          <table class="tbl"><thead><tr><th>Term</th><th>Meaning</th><th>Global value</th></tr></thead><tbody>
-            <tr><td><b>GPP</b> (gross primary productivity)</td><td>Total photosynthesis: all energy fixed per area per time</td><td><b>~120 Pg C/year</b></td></tr>
-            <tr><td><b>R</b> (respiration)</td><td>Used by producer for own metabolism, growth</td><td>~60 Pg C/year</td></tr>
-            <tr><td><b>NPP</b> (net primary productivity)</td><td>Left for rest of food chain</td><td><b>~60 Pg C/year</b></td></tr>
+          <p>CO<sub>2</sub> via <b>stomata</b>; water via <b>xylem</b>; light by <b>chlorophyll</b>. Energy stored as <b>glucose</b>; O<sub>2</sub> by-product. Producers are the <b>only entry point</b> for energy.</p>
+          <table class="tbl"><thead><tr><th>Term</th><th>Global value</th></tr></thead><tbody>
+            <tr><td><b>GPP</b> (total fixed)</td><td><b>~120 Pg C/yr</b></td></tr>
+            <tr><td>R (respiration)</td><td>~60 Pg C/yr</td></tr>
+            <tr><td><b>NPP</b> (left for food chain)</td><td><b>~60 Pg C/yr</b></td></tr>
           </tbody></table>
-          <p>Pg = <b>petagram</b> of carbon.</p>
           <div class="eq">NPP = GPP − R</div>
-          <p>NPP sets <b>carrying capacity</b>. Highest: <b>tropical rainforests (~2,000 g/m²/yr)</b>. Lowest: <b>deserts (~100 g/m²/yr)</b>.</p>
-          <h3>Chemosynthesis</h3>
-          <p>At deep-sea <b>hydrothermal vents and cold seeps</b>, chemoautotrophs <b>oxidise inorganic compounds</b> (H<sub>2</sub>S, NH<sub>4</sub><sup>+</sup>, Fe<sup>2+</sup>) to fix CO<sub>2</sub>, without sunlight.</p>
+          <p>NPP sets <b>carrying capacity</b>. Highest: <b>tropical rainforest ~2,000 g/m²/yr</b>; lowest: <b>desert ~100</b>. Pg = petagram.</p>
+          <p><b>Chemosynthesis</b> (hydrothermal vents, cold seeps): oxidise <b>H<sub>2</sub>S, NH<sub>4</sub><sup>+</sup>, Fe<sup>2+</sup></b>, no sunlight.</p>
         ` },
-        { title: 'Laws of thermodynamics', html: `
+        { title: 'Thermodynamics and 10% law', html: `
           <div class="vs">
-            <div class="side"><h4>First law: conservation</h4>
-              <p>Energy can neither be <b>created nor destroyed</b>, only transformed.</p>
-              <ul><li>Solar → chemical (glucose).</li><li>Food → kinetic + thermal + chemical (growth).</li></ul></div>
-            <div class="side"><h4>Second law: entropy</h4>
-              <p>Every transformation <b>loses some energy as heat</b>, raising entropy.</p>
-              <ul><li>Energy flows <b>one way only</b>: sun → producers → consumers; not recycled.</li><li><b>Matter must be recycled</b> (biogeochemical cycles), energy cannot.</li><li>Needs <b>constant solar input</b>.</li></ul></div>
+            <div class="side"><h4>First law</h4><p>Energy <b>not created or destroyed</b>, only transformed (solar → chemical in glucose).</p></div>
+            <div class="side"><h4>Second law</h4><p>Each transfer <b>loses heat</b> (entropy) → flow is <b>one-way</b>, needs <b>constant solar input</b>; <b>matter cycles</b>, energy does not.</p></div>
           </div>
-          <div class="note exam"><p>Energy flow is unidirectional because of the second law: heat lost at each step can't be reused.</p></div>
-        ` },
-        { title: 'The 10% law', html: `
-          <p class="lead"><b>R.L. Lindemann (1942)</b>: only ~<b>10%</b> of energy passes to the next trophic level; <b>90% lost</b>.</p>
-          <table class="tbl"><thead><tr><th>Where it goes</th><th>Share of energy consumed</th><th>Why</th></tr></thead><tbody>
-            <tr><td><b>Respiration</b> (largest loss)</td><td><b>~60%</b></td><td>Movement, growth, reproduction, maintenance; metabolic heat</td></tr>
-            <tr><td>Heat from metabolic reactions</td><td>~15–20%</td><td>Unusable (second law)</td></tr>
-            <tr><td>Undigested matter</td><td>~10%</td><td>Bones, cellulose, chitin → faeces → decomposers</td></tr>
-            <tr><td>Inefficient assimilation</td><td>~5–10%</td><td>Not all food absorbed</td></tr>
-            <tr><td><b>Available to next level</b></td><td><b>~10%</b></td><td>Stored in body tissue</td></tr>
+          <p><b>R.L. Lindemann (1942)</b>: ~<b>10%</b> passes on, <b>90%</b> lost.</p>
+          <table class="tbl"><thead><tr><th>Where it goes</th><th>Share</th></tr></thead><tbody>
+            <tr><td><b>Respiration</b> (largest)</td><td><b>~60%</b></td></tr>
+            <tr><td>Metabolic heat</td><td>~15–20%</td></tr>
+            <tr><td>Undigested (bones, cellulose, chitin) → faeces</td><td>~10%</td></tr>
+            <tr><td>Poor assimilation</td><td>~5–10%</td></tr>
+            <tr><td><b>Next level</b></td><td><b>~10%</b></td></tr>
           </tbody></table>
           <div data-viz="energy-10pct"></div>
-          <div class="note heads-up"><p>Notes spell "Lindemann"; the 1942 paper (The Trophic-Dynamic Aspect of Ecology) is usually credited to Raymond Lindeman.</p></div>
-        ` },
-        { title: 'Why chains are short', html: `
           <ul>
-            <li><b>Short</b> chains are more energy-efficient.</li>
-            <li>T1 → T3: 10% of 10% = only <b>1%</b> reaches T3.</li>
-            <li>Few ecosystems exceed <b>4–5 trophic levels</b>.</li>
-            <li>Eating plants (T1) gives <b>10×</b> the energy of herbivores (T2), <b>100×</b> that of carnivores (T3).</li>
+            <li>Only <b>1%</b> reaches T3; few chains exceed <b>4–5 levels</b>.</li>
+            <li>Eating plants gives <b>10×</b> the energy of herbivores, <b>100×</b> of carnivores.</li>
           </ul>
-          <div class="worked">
-            <div class="given"><p>Producers fix 10,000 kJ. How much reaches a T4 predator?</p></div>
-            <div class="solve"><p>10,000 × 0.1 = 1,000 kJ (T2) → × 0.1 = 100 kJ (T3) → × 0.1 = 10 kJ (T4).</p></div>
-            <div class="result"><p><b>10 kJ</b>, 0.1% of the original.</p></div>
-          </div>
-        ` },
-        { title: 'Key takeaways', html: `
-          <p class="lead">Energy flows <b>one direction</b> (Sun → producers → consumers), <b>decreasing at each step</b>; matter <b>cycles continuously</b>, never lost.</p>
-          <p><b>Ecosystem</b>: structural and functional unit of biotic and abiotic components with <b>flow of energy and cycling of matter</b>.</p>
-          <ol>
-            <li><b>Components.</b> Biotic (producers, consumers, decomposers) + abiotic (light, water, temperature, soil).</li>
-            <li><b>Entry point.</b> Producers are the <b>only entry point</b> (photosynthesis or chemosynthesis); <b>NPP = GPP − respiration</b>.</li>
-            <li><b>Pathways.</b> Food chains (linear), food webs (networks); <b>detritus chains</b> carry <b>80–90%</b> of forest energy.</li>
-            <li><b>Pyramids.</b> Numbers, biomass, energy; <b>energy pyramid always upright</b>.</li>
-            <li><b>10% law.</b> ~10% passes on; <b>90%</b> lost as heat, respiration, undigested matter.</li>
-            <li><b>Thermodynamics.</b> First law: conserved. Second: degrades to heat → <b>one-directional flow</b>, <b>limits chain length</b>.</li>
-            <li><b>Cycles.</b> Carbon (photosynthesis, respiration, decomposition), nitrogen (fixation, nitrification, denitrification).</li>
-            <li><b>Applications.</b> Shorter chains more efficient; biomagnification concentrates toxins; keystone predators regulate trophic cascades.</li>
-          </ol>
+          <div class="note heads-up"><p>Usually credited to Raymond <b>Lindeman</b> (1942).</p></div>
         ` }
       ],
       flashcards: [
@@ -419,85 +292,40 @@ CHUNK({
       blurb: 'Why matter recycles, the water, carbon, nitrogen and phosphorus cycles with their steps, organisms and numbers, and how decomposition works.',
       source: 'Lecture W1S5 (pages 8–12) and energy flow (pages 9–11)',
       tabs: [
-        { title: 'Nutrient cycling', html: `
-          <p class="lead">Unlike energy, <b>matter is recycled</b>: <b>biogeochemical cycles</b>, driven by energy flow plus geological and biological processes.</p>
-          <ul>
-            <li>Major cycles: <b>carbon, nitrogen, phosphorus, water</b>.</li>
-            <li>Producers absorb nutrients → consumers → returned by <b>decomposers</b> (without them, nutrient-poor).</li>
-            <li>Deforestation, pollution disrupt cycles: <b>eutrophication, climate change, soil infertility</b>.</li>
-            <li>Knowing them helps agriculture, waste management, restoration.</li>
-          </ul>
-          <h3>Water cycle</h3>
-          <p>Water through atmosphere, surface, underground; <b>driven by solar energy and gravity</b>.</p>
-          <ol class="steps">
-            <li><b>Evaporation</b> From oceans, lakes, soil; plants add vapour by <b>transpiration</b>.</li>
-            <li><b>Condensation</b> Clouds form.</li>
-            <li><b>Precipitation</b> Rain, snow, hail.</li>
-            <li><b>Infiltration / runoff</b> Into soil, or rivers and lakes back to oceans.</li>
-          </ol>
+        { title: 'Water and carbon', html: `
+          <p class="lead"><b>Matter recycles</b> (biogeochemical cycles); energy does not. Major: <b>carbon, nitrogen, phosphorus, water</b>. Disruption → eutrophication, climate change, soil infertility.</p>
+          <p><b>Water cycle</b>: driven by <b>solar energy and gravity</b>; evaporation (+ <b>transpiration</b>) → condensation → precipitation → infiltration/runoff.</p>
           <figure data-fig="m1-water-cycle"></figure>
-          <p>Regulates climate, keeps soil moist. Disrupted by deforestation, urbanisation, pollution; climate change alters rainfall.</p>
-        ` },
-        { title: 'Carbon cycle', html: `
-          <p class="lead">Carbon: <b>backbone of all organic molecules</b>; moves between atmosphere, organisms, oceans, lithosphere.</p>
           <div data-viz="nutrient-cycles"></div>
-          <ol class="steps">
-            <li><b>Fixation</b> Plants take CO<sub>2</sub>, make organic carbon (glucose, cellulose, starch).</li>
-            <li><b>Consumption</b> Passes along the food chain.</li>
-            <li><b>Respiration</b> All organisms release CO<sub>2</sub>.</li>
-            <li><b>Decomposition</b> Bacteria, fungi release CO<sub>2</sub> and nutrients.</li>
-            <li><b>Combustion</b> Burning fossil fuels and forests: fast release; greenhouse effect, global warming.</li>
-            <li><b>Ocean absorption</b> Major <b>carbon sink</b>, ~<b>30%</b> of human CO<sub>2</sub>; excess → <b>ocean acidification</b>.</li>
-          </ol>
+          <p><b>Carbon</b> (backbone of organic molecules): fixation → consumption → respiration → decomposition → <b>combustion</b> → <b>ocean absorption</b>.</p>
           <div class="eq" data-label="Respiration">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6CO<sub>2</sub> + 6H<sub>2</sub>O + ATP</div>
           <div class="kv">
+            <div><span>Oceans absorb</span><b>~30%</b> of human CO<sub>2</sub> → <b>acidification</b></div>
             <div><span>Pre-industrial CO<sub>2</sub></span><b>~280 ppm</b></div>
-            <div><span>2024</span>Over <b>422 ppm</b>, highest in 3 million years</div>
-            <div><span>Fossil fuel CO<sub>2</sub></span><b>36 billion tonnes</b>/year, beyond natural recycling</div>
+            <div><span>2024</span>Over <b>422 ppm</b> (highest in 3 million years)</div>
+            <div><span>Fossil fuel CO<sub>2</sub></span><b>36 billion t</b>/yr</div>
           </div>
         ` },
         { title: 'Nitrogen cycle', html: `
-          <p class="lead">N<sub>2</sub> = <b>78%</b> of air, unusable by most organisms until converted. Builds <b>amino acids, nucleic acids (DNA, RNA), chlorophyll, ATP</b>.</p>
-          <table class="tbl"><thead><tr><th>Process</th><th>Change</th><th>Done by</th></tr></thead><tbody>
-            <tr><td><b>Fixation</b></td><td>N<sub>2</sub> → NH<sub>3</sub></td><td><b>Rhizobium</b> (legume root nodules), <b>Azotobacter</b> (free-living), lightning, <b>Haber-Bosch</b></td></tr>
-            <tr><td><b>Nitrification 1</b></td><td>NH<sub>3</sub> → NO<sub>2</sub><sup>−</sup></td><td><b>Nitrosomonas</b> (aerobic)</td></tr>
-            <tr><td><b>Nitrification 2</b></td><td>NO<sub>2</sub><sup>−</sup> → NO<sub>3</sub><sup>−</sup></td><td><b>Nitrobacter</b></td></tr>
-            <tr><td><b>Assimilation</b></td><td>NO<sub>3</sub><sup>−</sup> → organic N</td><td>Plant roots: amino acids, proteins, DNA</td></tr>
+          <p class="lead">N<sub>2</sub> = <b>78%</b> of air; needed for amino acids, DNA, RNA, chlorophyll, ATP.</p>
+          <table class="tbl"><thead><tr><th>Process</th><th>Change</th><th>By</th></tr></thead><tbody>
+            <tr><td><b>Fixation</b></td><td>N<sub>2</sub> → NH<sub>3</sub></td><td><b>Rhizobium</b> (legume nodules), <b>Azotobacter</b> (free-living), lightning, <b>Haber-Bosch</b></td></tr>
+            <tr><td><b>Nitrification</b></td><td>NH<sub>3</sub> → NO<sub>2</sub><sup>−</sup></td><td><b>Nitrosomonas</b> (aerobic)</td></tr>
+            <tr><td><b>Nitrification</b></td><td>NO<sub>2</sub><sup>−</sup> → NO<sub>3</sub><sup>−</sup></td><td><b>Nitrobacter</b></td></tr>
+            <tr><td>Assimilation</td><td>NO<sub>3</sub><sup>−</sup> → organic N</td><td>Plant roots</td></tr>
             <tr><td><b>Ammonification</b></td><td>Organic N → NH<sub>4</sub><sup>+</sup></td><td>Decomposers</td></tr>
             <tr><td><b>Denitrification</b></td><td>NO<sub>3</sub><sup>−</sup> → N<sub>2</sub></td><td><b>Pseudomonas</b> (anaerobic)</td></tr>
           </tbody></table>
           <figure data-fig="m1-nitrogen-cycle"></figure>
-          <ul>
-            <li>Rhizobium in legumes (peas, beans, lentils): <b>natural soil fertility</b>.</li>
-            <li>Haber-Bosch: <b>~120 million tonnes</b> N fertilizer/year, feeds <b>~50%</b> of the world.</li>
-            <li>Excess fertilizer N → <b>eutrophication</b>.</li>
-          </ul>
-          <div class="mnemonic"><p>Nitro<b>so</b>monas first (ammonia → nitrite, "so" before "b"), Nitro<b>b</b>acter second (nitrite → nitrate).</p></div>
+          <p>Rhizobium in legumes (peas, beans, lentils) = natural fertility. Haber-Bosch: <b>~120 million t</b>/yr, feeds <b>~50%</b> of the world; excess → <b>eutrophication</b>.</p>
+          <div class="mnemonic"><p>Nitro<b>so</b>monas before Nitro<b>b</b>acter.</p></div>
         ` },
-        { title: 'Phosphorus cycle', html: `
-          <p class="lead">Phosphorus: <b>no atmospheric phase</b>; lithosphere, hydrosphere, biosphere only.</p>
-          <ol class="steps">
-            <li><b>Weathering</b> Phosphate rocks release phosphate (H<sub>2</sub>PO<sub>4</sub><sup>−</sup>).</li>
-            <li><b>Uptake</b> Plants use it in <b>ATP, DNA, RNA, cell membranes</b> (phospholipids).</li>
-            <li><b>Food chain</b> Consumers eat producers.</li>
-            <li><b>Return</b> Decomposers return P; microbes mineralise organic P.</li>
-            <li><b>Sediment and uplift</b> P settles in sediments; geological uplift returns it to land.</li>
-          </ol>
-          <p>Often the <b>limiting nutrient</b> (esp. freshwater). Excess P from <b>detergents and fertilizers</b> → <b>algal blooms</b> (eutrophication).</p>
-        ` },
-        { title: 'Decomposition', html: `
-          <p class="lead">Breaks dead matter into simple <b>inorganic</b> compounds; recycles nutrients.</p>
+        { title: 'Phosphorus and decomposition', html: `
+          <p class="lead">Phosphorus: <b>no atmospheric phase</b>; often the <b>limiting nutrient</b> (freshwater).</p>
+          <p>Rock <b>weathering</b> (phosphate, H<sub>2</sub>PO<sub>4</sub><sup>−</sup>) → plants (<b>ATP, DNA, RNA, membranes</b>) → consumers → decomposers → <b>sediment</b> → uplift. Excess from <b>detergents, fertilizers</b> → algal blooms.</p>
+          <h3>Decomposition</h3>
           <figure data-fig="m1-decomposition-steps"></figure>
-          <ol class="steps">
-            <li><b>Fragmentation</b> Detritivores (<b>earthworms</b>) make small pieces; more surface area.</li>
-            <li><b>Leaching</b> Soluble nutrients washed into soil.</li>
-            <li><b>Catabolism</b> Microbial enzymes release C, N, P.</li>
-          </ol>
-          <p>Figure adds: <b>humification</b> and <b>mineralization</b>.</p>
-          <ul>
-            <li>Mainly <b>bacteria and fungi</b>.</li>
-            <li>Speed depends on <b>temperature, moisture, pH, oxygen</b>.</li>
-          </ul>
+          <p><b>Fragmentation</b> (earthworms) → <b>leaching</b> → <b>catabolism</b>; figure adds <b>humification, mineralization</b>. Mainly <b>bacteria and fungi</b>; rate depends on <b>temperature, moisture, pH, oxygen</b>.</p>
         ` }
       ],
       flashcards: [
@@ -537,68 +365,32 @@ CHUNK({
       blurb: 'Primary and secondary productivity, feedback loops, stability vs resilience, how components depend on each other, human impact and why ecosystem balance matters.',
       source: 'Lecture W1S5, pages 12–17',
       tabs: [
-        { title: 'Productivity', html: `
-          <p class="lead"><b>Productivity</b>: rate at which energy is produced and stored in an ecosystem.</p>
+        { title: 'Productivity and regulation', html: `
           <table class="tbl"><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody>
-            <tr><td>Primary productivity</td><td>Rate producers capture and store solar energy (photosynthesis)</td></tr>
-            <tr><td>GPP</td><td>Total energy captured, <b>not counting respiration</b></td></tr>
-            <tr><td>NPP</td><td>Energy <b>left after respiration</b>, available to herbivores</td></tr>
-            <tr><td>Secondary productivity</td><td>Energy stored by <b>consumers</b> as biomass</td></tr>
+            <tr><td><b>Productivity</b></td><td><b>Rate</b> energy is produced and stored</td></tr>
+            <tr><td>GPP</td><td>Total captured, <b>ignoring respiration</b></td></tr>
+            <tr><td>NPP</td><td><b>Left after respiration</b></td></tr>
+            <tr><td>Secondary productivity</td><td>Stored by <b>consumers</b></td></tr>
           </tbody></table>
-          <p><b>Tropical rainforests and coral reefs</b>: high productivity, more biodiversity. Productivity indicates health and <b>carrying capacity</b>.</p>
-        ` },
-        { title: 'Regulation', html: `
-          <p class="lead">Ecosystems keep <b>homeostasis</b> via feedback.</p>
+          <p>Highest: <b>tropical rainforests, coral reefs</b>. Productivity indicates health and <b>carrying capacity</b>. Ecosystems keep <b>homeostasis</b> via feedback; severe disturbance → <b>regime shifts</b>.</p>
           <div class="vs">
-            <div class="side"><h4>Negative feedback (stabilising)</h4><p>More prey → more predators → prey falls.</p></div>
-            <div class="side"><h4>Positive feedback (amplifying)</h4><p><b>Overgrazing</b> → vegetation loss → soil erosion → further decline.</p></div>
+            <div class="side"><h4>Negative feedback</h4><p><b>Stabilising</b>: predator–prey.</p></div>
+            <div class="side"><h4>Positive feedback</h4><p><b>Amplifying</b>: <b>overgrazing</b> → erosion → decline.</p></div>
           </div>
-          <p>Severe disturbance can cause <b>ecological collapse or regime shifts</b>.</p>
         ` },
-        { title: 'Stability and resilience', html: `
+        { title: 'Stability and human impact', html: `
           <div class="vs">
-            <div class="side"><h4>Stability</h4><p>Ability to <b>remain unchanged</b>; resists disturbance.</p></div>
-            <div class="side"><h4>Resilience</h4><p>Ability to <b>recover</b> after disturbance.</p></div>
+            <div class="side"><h4>Stability</h4><p><b>Resist</b> change.</p></div>
+            <div class="side"><h4>Resilience</h4><p><b>Recover</b> after disturbance.</p></div>
           </div>
           <ul>
-            <li>Both rise with <b>high biodiversity and functional diversity</b>.</li>
-            <li>Lost <b>pollinator</b> replaced by another species (<b>redundancy</b>).</li>
-            <li><b>Coral reefs</b>: productive but <b>less resilient</b>; <b>grasslands</b> recover easily after fires.</li>
-            <li>Fragmentation, pollution, climate change lower resilience.</li>
+            <li>Both rise with <b>biodiversity</b> (<b>redundancy</b>).</li>
+            <li><b>Coral reefs</b>: productive, <b>less resilient</b>. <b>Grasslands</b> recover after fire.</li>
+            <li>Interactions: <b>mutualism</b> (pollinators + flowers), predation, parasitism, competition.</li>
+            <li>Human impacts: <b>deforestation, pollution</b> (toxins accumulate in food chains), climate change, <b>urbanisation</b> (fragmentation), <b>overexploitation</b> (overfishing, mining).</li>
+            <li>Lost balance → <b>invasive species</b>, collapse, loss of <b>ecosystem services</b>.</li>
           </ul>
-          <h3>Interdependence</h3>
-          <ul>
-            <li>Biotic interactions: <b>mutualism, predation, parasitism, competition</b>; pollinators + flowering plants = mutualism.</li>
-            <li>Predator–prey control populations.</li>
-            <li>Abiotic factors (sunlight, temperature, rainfall) set distribution.</li>
-            <li>Plants rely on soil nutrients; microbes cycle them.</li>
-          </ul>
-        ` },
-        { title: 'Human impact and balance', html: `
-          <p class="lead">Human activities degrade ecosystems and <b>reduce biodiversity</b>.</p>
-          <table class="tbl"><thead><tr><th>Activity</th><th>What it does to the ecosystem</th></tr></thead><tbody>
-            <tr><td><b>Deforestation</b></td><td>Habitat loss, soil erosion, climate change; <b>extinction</b> of forest species.</td></tr>
-            <tr><td><b>Pollution</b></td><td>Toxins in air, water, soil <b>accumulate in food chains</b>; top consumers hit most.</td></tr>
-            <tr><td><b>Climate change</b></td><td>GHGs alter temperature, rainfall, sea level; shifts species ranges, productivity.</td></tr>
-            <tr><td><b>Urbanisation</b></td><td><b>Habitat fragmentation</b>, loss of green space; more pollution, consumption.</td></tr>
-            <tr><td><b>Overexploitation</b></td><td><b>Overfishing, mining</b>: lower resilience, network collapse.</td></tr>
-          </tbody></table>
-          <p>Remedies: <b>sustainable practices, conservation</b>, <b>environmental education, policy enforcement</b>.</p>
-          <h3>Ecosystem balance</h3>
-          <p>Stable functioning of all parts: stable food webs, biodiversity, carbon storage, nutrient cycling, <b>water filtration</b>. Loss → <b>invasive species outbreaks, collapse, loss of ecosystem services</b>.</p>
           <figure data-fig="m1-ecology-importance"></figure>
-          <p>Key functions: <b>energy flow, nutrient cycling, biodiversity maintenance, environmental regulation</b>. Threats may cause <b>irreversible damage</b>; protection is a <b>shared responsibility</b> of individuals, communities, governments.</p>
-        ` },
-        { title: 'Dynamics and succession', html: `
-          <p class="lead"><b>Ecosystem dynamics</b>: natural changes over time (species turnover, nutrient cycling, energy flow).</p>
-          <ul>
-            <li><b>Ecological succession</b>: gradual replacement of one community by another, after <b>disturbances</b> or on <b>new habitats</b>.</li>
-            <li><b>Primary</b>: no previous life (<b>lava flows, glacial retreats</b>); soil must form first.</li>
-            <li><b>Secondary</b>: after disturbance (<b>forest fires, floods</b>); soil present, so <b>faster</b>.</li>
-            <li>Ends in a <b>climax community</b>: stable, mature.</li>
-            <li><b>Increases biodiversity</b>, nutrients; aids recovery.</li>
-            <li>Informs <b>habitat restoration, land-use planning, climate resilience</b>.</li>
-          </ul>
         ` }
       ],
       flashcards: [
@@ -628,41 +420,27 @@ CHUNK({
       blurb: 'Diet efficiency, biomagnification of DDT with the numbers, why top predators matter, and farming that copies food webs.',
       source: 'Energy flow lecture, pages 11–13',
       tabs: [
-        { title: 'Diet efficiency', html: `
-          <p class="lead">10% law: eating lower on the food chain is far more efficient.</p>
+        { title: 'Diet and farming', html: `
           <ul>
-            <li>Plants (T1): 10,000 kJ → <b>10,000 kJ</b> to human.</li>
-            <li>Livestock (T2): 10,000 kJ → 1,000 kJ in animal → <b>~100 kJ</b> to human.</li>
-            <li><b>1 kg of beef</b>: <b>~8 kg grain, 15,000 litres of water</b>, <b>20× more land</b> than 1 kg plant food.</li>
-            <li>Plant-based diet: one of the strongest individual actions.</li>
-          </ul>
-          <h3>Sustainable farming</h3>
-          <ul>
-            <li><b>Polyculture</b> (several crops) mimics food webs: efficient, resilient.</li>
-            <li>Harvest <b>lower trophic levels</b> (sardines, anchovies, mussels).</li>
-            <li><b>Integrated farming</b> (fish + rice paddies): one species' waste is another's resource.</li>
+            <li>10,000 kJ of plants: <b>10,000 kJ</b> eaten directly vs <b>~100 kJ</b> via livestock.</li>
+            <li><b>1 kg beef</b> = <b>~8 kg grain</b>, <b>15,000 L water</b>, <b>20× the land</b> of plant food.</li>
+            <li><b>Polyculture</b> mimics food webs.</li>
+            <li>Harvest <b>lower trophic levels</b>: <b>sardines, anchovies, mussels</b>.</li>
+            <li><b>Integrated farming</b>: <b>fish + rice paddies</b>.</li>
+            <li>Losing top predators → <b>trophic cascade</b>.</li>
           </ul>
         ` },
         { title: 'Biomagnification', html: `
-          <p class="lead">Persistent pollutants (<b>DDT, PCBs, mercury, lead</b>) build up in fat, <b>more concentrated at each trophic level</b>.</p>
-          <table class="tbl"><thead><tr><th>Level</th><th>DDT</th><th>Concentration factor</th></tr></thead><tbody>
-            <tr><td>Water / soil</td><td><b>0.000003 ppm</b></td><td>Baseline</td></tr>
-            <tr><td>Phytoplankton (T1)</td><td>0.04 ppm</td><td>~13,000×</td></tr>
-            <tr><td>Small fish (T2)</td><td>0.5 ppm</td><td>~167,000×</td></tr>
-            <tr><td>Large fish (T3)</td><td>2.0 ppm</td><td>~667,000×</td></tr>
-            <tr><td>Fish-eating birds (T4)</td><td><b>25 ppm</b></td><td><b>~8 million×</b></td></tr>
+          <p class="lead">Persistent toxins (<b>DDT, PCBs, mercury, lead</b>) concentrate in fat <b>up each level</b>.</p>
+          <table class="tbl"><thead><tr><th>Level</th><th>DDT</th></tr></thead><tbody>
+            <tr><td>Water</td><td><b>0.000003 ppm</b></td></tr>
+            <tr><td>Phytoplankton</td><td>0.04 ppm</td></tr>
+            <tr><td>Small fish</td><td>0.5 ppm</td></tr>
+            <tr><td>Large fish</td><td>2.0 ppm</td></tr>
+            <tr><td>Fish-eating birds</td><td><b>25 ppm</b> (<b>~8 million×</b>)</td></tr>
           </tbody></table>
           <div data-viz="ddt-biomagnification"></div>
-          <p><b>Eggshell thinning</b> in bald eagles, peregrine falcons, brown pelicans; near extinction until DDT banned in the USA in <b>1972</b>.</p>
-          <div class="note heads-up"><p>Notes credit the Clean Water Act; it was actually an EPA order under federal pesticide law. Quote 1972, USA.</p></div>
-          <div class="note why"><p>Predators eat many prey and keep their fat-soluble toxin, so dose multiplies up the chain.</p></div>
-        ` },
-        { title: 'Top predators', html: `
-          <ul>
-            <li><b>Wolves in Yellowstone</b>: reintroduced 1995 → less deer grazing → vegetation recovered → riverbanks stabilised → biodiversity rose.</li>
-            <li><b>Sharks</b>: remove sick and weak fish → healthier populations → support reefs.</li>
-            <li>Losing top predators → <b>trophic cascade</b> down every level.</li>
-          </ul>
+          <p><b>Eggshell thinning</b>: bald eagles, peregrine falcons, brown pelicans. DDT banned in USA <b>1972</b>.</p>
         ` }
       ],
       flashcards: [
@@ -690,81 +468,44 @@ CHUNK({
       blurb: 'What succession is, primary vs secondary with examples, the stages from nudation to climax, seres, the climax theories, pioneer species and the full comparison table.',
       source: 'Lecture W1S7 (pages 1–4) and W1S5 (page 14)',
       tabs: [
-        { title: 'What it is', html: `
-          <p class="lead"><b>Ecological succession</b> (community development): <b>gradual change</b> in species composition <b>over time</b>; one community replaces another after disturbance or on a new habitat.</p>
-          <p>Important for <b>managing ecosystems</b>.</p>
-          <h3>Two ways to classify</h3>
-          <div class="vs">
-            <div class="side"><h4>By timescale</h4><ul><li><b>Geological</b> (millions of years): <b>paleo-ecological</b></li><li><b>Medium</b>: <b>1–1000 years</b></li></ul></div>
-            <div class="side"><h4>By starting point</h4><ul><li><b>Primary</b>: bare land, no life</li><li><b>Secondary</b>: earlier ecosystem partly/fully destroyed, naturally or by people</li></ul></div>
-          </div>
-          <p>Ends in a <b>climax community</b> (stable, mature); raises biodiversity and nutrients.</p>
-          <figure data-fig="m1-succession-time"></figure>
-        ` },
-        { title: 'Primary succession', html: `
-          <p class="lead">On <b>bare rock or barren land</b> (<b>lava flows, glacial retreats</b>).</p>
-          <ol class="steps">
-            <li><b>Pioneers arrive</b> <b>Pioneer (early successional) species</b>, <b>lichens and mosses</b>, attach to weathered rock.</li>
-            <li><b>Soil forms</b> Mild chemicals and acids slowly make fertile soil.</li>
-            <li><b>Mid-successional plants</b> Herbs, grasses, low shrubs.</li>
-            <li><b>Trees</b> Replace shrubs over a hundred to thousand years.</li>
-          </ol>
-          <figure data-fig="m1-primary-succession"></figure>
-          <div class="note example"><p>Figure: community on bare rock left by a receding glacier, <b>Isle Royale, Michigan, USA</b>, over ~1000 years.</p></div>
-        ` },
-        { title: 'Secondary succession', html: `
-          <p class="lead">Where life was destroyed by <b>wildfire, flood or human action</b>; <b>life remains in the soil</b>.</p>
-          <div class="note example"><p><b>North Carolina, USA</b>: oak and pine forests cleared by European settlers for farming; abandoned farmland returned to forest in ~150–200 years.</p></div>
-          <figure data-fig="m1-secondary-succession"></figure>
-          <p><b>5–10 times faster</b> than primary (soil nutrients remain). Final dominant species: <b>climax species</b>.</p>
-        ` },
-        { title: 'Stages and seres', html: `
-          <ol class="steps">
-            <li><b>Nudation</b> Bare area from volcanic eruption, landslide, flood, fire.</li>
-            <li><b>Invasion</b> Immigrants arrive: <b>pioneers</b>.</li>
-            <li><b>Competition</b> For space and nutrients, <b>intraspecific or interspecific</b>; community replaced by immigrants.</li>
-            <li><b>Climax</b> <b>Stabilization</b>; no further change except catastrophe or human intervention.</li>
-          </ol>
-          <div class="note heads-up"><p>Notes say "two steps" but list four: nudation, invasion, competition, climax.</p></div>
-          <table class="tbl"><thead><tr><th>Type (sere)</th><th>Where it starts</th></tr></thead><tbody>
-            <tr><td><b>Hydrosere</b></td><td><b>Water</b> (pond, lake)</td></tr>
-            <tr><td><b>Xerosere</b></td><td><b>Dry, waterless</b> environment</td></tr>
-            <tr><td><b>Lithosere</b></td><td><b>Rocks</b></td></tr>
-            <tr><td><b>Halosere</b></td><td><b>Saline</b> (salty) environment</td></tr>
-          </tbody></table>
-        ` },
-        { title: 'Climax theories and pioneers', html: `
-          <div class="vs">
-            <div class="side"><h4>Monoclimax theory</h4><p><b>F.E. Clemens</b>: region covered by a <b>single community type</b>, set by <b>climate</b>.</p></div>
-            <div class="side"><h4>Polyclimax theory</h4><p><b>Tansley</b>: climax controlled by <b>many factors</b>, not climate alone.</p></div>
-          </div>
-          <div class="note heads-up"><p>Notes' polyclimax sentence is garbled; standard idea: several climax communities controlled by many factors (soil, moisture, fire). Name usually spelled Clements.</p></div>
-          <h3>Features of pioneer species</h3>
+        { title: 'Types and stages', html: `
+          <p class="lead"><b>Succession</b> (<b>community development</b>): gradual change in species over time, ending in a <b>climax community</b>.</p>
           <ul>
-            <li><b>Explores new habitats</b>.</li>
-            <li><b>Agile</b>: spreads over new area.</li>
-            <li>Greater <b>ability to adapt</b>.</li>
-            <li><b>Wide choice of food</b>.</li>
-            <li><b>Good breeder</b>.</li>
-            <li><b>Tolerant</b> of heat, cold, drought, poor soil.</li>
+            <li>Timescale: <b>geological</b> (<b>paleo-ecological</b>) or medium (<b>1–1000 years</b>).</li>
+            <li>Stages: <b>nudation</b> (bare area: eruption, landslide, flood, fire) → <b>invasion</b> (pioneers) → <b>competition</b> (intra- or interspecific) → <b>climax</b> (stabilization).</li>
+            <li>Primary sequence: <b>lichens, mosses</b> → soil by mild acids → herbs, grasses, shrubs → <b>trees</b>.</li>
           </ul>
-          <h3>Conclusion from the notes</h3>
-          <p>Succession shows <b>how a new community is established</b>, reveals the <b>factors responsible for succession</b>, and aids <b>conservation of the climax community</b>.</p>
+          <figure data-fig="m1-succession-time"></figure>
+          <table class="tbl"><thead><tr><th>Sere</th><th>Starts in</th></tr></thead><tbody>
+            <tr><td><b>Hydrosere</b></td><td>Water</td></tr>
+            <tr><td><b>Xerosere</b></td><td>Dry</td></tr>
+            <tr><td><b>Lithosere</b></td><td>Rock</td></tr>
+            <tr><td><b>Halosere</b></td><td>Saline</td></tr>
+          </tbody></table>
         ` },
         { title: 'Primary vs secondary', html: `
           <div data-viz="succession"></div>
           <table class="tbl"><thead><tr><th></th><th>Primary</th><th>Secondary</th></tr></thead><tbody>
-            <tr><td>Meaning</td><td>Starts on <b>barren or uninhabited land</b>.</td><td>Habitat <b>where life existed previously</b>.</td></tr>
-            <tr><td>Occurs in</td><td>Lifeless, barren areas.</td><td>Recently denuded / previously inhabited areas.</td></tr>
-            <tr><td>Time to complete</td><td>~<b>1000 years</b> or more (soil built from rock).</td><td><b>50 to 200 years</b> (soil present).</td></tr>
-            <tr><td>Physical conditions</td><td>Least suitable; no soil or no nutrients.</td><td>Soil present, some nutrients.</td></tr>
-            <tr><td>Humus</td><td><b>Absent</b>.</td><td><b>Present</b> (previous inhabitants).</td></tr>
-            <tr><td>Seral communities</td><td><b>Several</b> intermediary.</td><td><b>Fewer</b>.</td></tr>
-            <tr><td>Environment</td><td><b>Unfavourable</b> at start.</td><td>More or less <b>favourable</b> from start.</td></tr>
-            <tr><td>Reproduction</td><td>Starts from first inhabiting species.</td><td>Seeds and roots of previous communities survive in soil.</td></tr>
-            <tr><td>Examples</td><td>Bare rock, ponds, desert, lava-filled lands.</td><td>Areas hit by natural calamities or deforestation.</td></tr>
+            <tr><td>Starts on</td><td><b>Bare rock</b>, lava, glacial retreat, ponds</td><td>Disturbed land: fire, flood, clearing</td></tr>
+            <tr><td>Time</td><td>~<b>1000 years</b></td><td><b>50–200 years</b> (<b>5–10× faster</b>)</td></tr>
+            <tr><td>Humus</td><td><b>Absent</b></td><td><b>Present</b></td></tr>
+            <tr><td>Seral stages</td><td><b>Many</b></td><td><b>Fewer</b></td></tr>
+            <tr><td>Start conditions</td><td><b>Unfavourable</b>, no soil</td><td><b>Favourable</b>, soil present</td></tr>
+            <tr><td>Pioneers</td><td><b>Lichens and mosses</b></td><td>Seeds, roots in soil</td></tr>
           </tbody></table>
-          <div class="note why"><p>Every row comes back to soil: secondary starts with soil, humus and seeds, so it is faster.</p></div>
+          <figure data-fig="m1-primary-succession"></figure>
+          <p>Primary example: <b>Isle Royale, Michigan</b> (glacier rock, ~1000 yr).</p>
+          <figure data-fig="m1-secondary-succession"></figure>
+          <p>Secondary example: <b>North Carolina</b> farmland back to forest in ~150–200 yr.</p>
+        ` },
+        { title: 'Climax theories and pioneers', html: `
+          <div class="vs">
+            <div class="side"><h4>Monoclimax</h4><p><b>F.E. Clemens</b>: one climax set by <b>climate</b>.</p></div>
+            <div class="side"><h4>Polyclimax</h4><p><b>Tansley</b>: <b>many factors</b>.</p></div>
+          </div>
+          <p>Pioneer traits: explores new habitats, agile, adaptable, <b>wide choice of food</b>, <b>good breeder</b>, <b>tolerant</b> of harsh conditions.</p>
+          <p>Final dominant species: <b>climax species</b>. Succession aids <b>conservation of the climax community</b>.</p>
+          <div class="note heads-up"><p>Usually spelled <b>Clements</b>; polyclimax = several climaxes set by soil, moisture, fire.</p></div>
         ` }
       ],
       flashcards: [

@@ -10,46 +10,21 @@ CHUNK({
       source: 'Lecture W3S3 (Soil pollution), pages 1–3',
       tabs: [
         { title: 'Definition', html: `
-          <p class="lead"><b>Soil pollution</b> (soil contamination, land pollution): part of <b>land degradation</b>, from <b>xenobiotic (human-made) chemicals</b> or other changes to soil.</p>
+          <p class="lead"><b>Soil pollution</b> (land pollution): part of <b>land degradation</b>, caused by <b>xenobiotic (human-made) chemicals</b>.</p>
           <ul>
-            <li>Causes: <b>industrial activity, agricultural chemicals, improper waste disposal</b>.</li>
             <li>Tracks <b>degree of industrialisation</b> and chemical use.</li>
-            <li>Health risk: <b>direct contact</b>, <b>vapour</b>, <b>secondary contamination of water</b> in/under soil.</li>
+            <li>Health risk via <b>direct contact</b>, <b>vapour</b>, contaminated groundwater.</li>
+            <li>Soils naturally hold metals, salts, organics (mainly from <b>microbial activity</b>); pollution = amounts <b>exceed natural levels</b>.</li>
           </ul>
-        ` },
-        { title: 'When it becomes pollution', html: `
-          <p>Soils naturally hold "contaminants": <b>metals</b>, salts (phosphates, carbonates, sulphates, nitrates), organics (lipids, proteins, DNA, fatty acids, hydrocarbons, PAHs, alcohols). Mainly from <b>microbial activity</b>/decomposition, plus rain, wind, disturbance, surface water, shallow groundwater.</p>
-          <div class="note exam">Pollution = amounts <b>exceed natural levels</b> (anthropogenic or natural).</div>
           <figure data-fig="m3-soil-types"></figure>
-          <div class="note heads-up">The figure's "Organic phosphate pollution" means <b>organophosphate</b> pesticides (chlorpyrifos, malathion).</div>
+          <div class="note heads-up">"Organic phosphate pollution" in the figure = <b>organophosphate</b> pesticides (chlorpyrifos, malathion).</div>
         ` },
-        { title: 'Man-made sources', html: `
+        { title: 'Sources', html: `
+          <div class="chips"><span class="chip">Fuel spills, leaks</span><span class="chip">Foundries</span><span class="chip">Mining (heavy metals)</span><span class="chip">Agrochemicals</span><span class="chip">Vehicle emissions</span><span class="chip">Chemical dumping</span><span class="chip">Landfills</span><span class="chip">Lead-based paint chips</span></div>
           <ul>
-            <li><b>Spills and leaks</b> (petrol, diesel at fuel stations).</li>
-            <li><b>Foundries</b>, furnace manufacturing.</li>
-            <li><b>Mining</b>: crushing raw materials (heavy metals).</li>
-            <li><b>Construction</b>.</li>
-            <li><b>Agriculture</b>: herbicides, pesticides, insecticides, fertilisers.</li>
-            <li><b>Transport</b>: vehicle emissions.</li>
-            <li><b>Chemical waste dumping</b>, accidental or illegal.</li>
-            <li><b>Landfills</b>: groundwater leaks, vapours.</li>
-            <li><b>Lead-based paint chips</b>.</li>
-          </ul>
-        ` },
-        { title: 'Construction sites', html: `
-          <p class="lead">Construction sites: <b>most important urban trigger of soil pollution</b> (everywhere).</p>
-          <ul>
-            <li>Highest risk: chemicals as <b>fine particulate matter</b>, resist degradation, bioaccumulate (<b>PAHs</b>).</li>
-            <li>Dust <b>&lt; 10 microns</b>: asthma, bronchitis, cancer.</li>
-            <li>Demolition releases <b>asbestos</b>, spread by wind.</li>
-          </ul>
-        ` },
-        { title: 'Natural processes', html: `
-          <p>Nature can raise or lower toxicity of man-made pollutants. Natural routes:</p>
-          <ul>
-            <li><b>Natural accumulation</b>: deposition exceeds rain leaching (<b>perchlorate</b> in arid soils).</li>
-            <li><b>Natural production</b>: perchlorate from chlorine + metal + <b>thunderstorm energy</b>.</li>
-            <li><b>Leaking sewer lines</b>: chlorine → <b>trihalomethanes</b> (chloroform).</li>
+            <li><b>Construction sites</b>: <b>most important urban trigger</b>; <b>PAHs</b> as fine particulates; dust <b>&lt; 10 microns</b>; demolition releases <b>asbestos</b>.</li>
+            <li>Natural: <b>perchlorate</b> accumulates in arid soils, also forms via <b>thunderstorm energy</b>.</li>
+            <li>Leaking sewers + chlorine → <b>trihalomethanes</b> (chloroform).</li>
           </ul>
         ` }
       ],
@@ -76,39 +51,32 @@ CHUNK({
       blurb: 'How soil pollution harms people, plants, fertility, soil structure and groundwater, the three routes into the body, and five solutions.',
       source: 'Lecture W3S3 (Soil pollution), pages 3–5',
       tabs: [
-        { title: 'Human health', html: `
-          <p>Crops pass pollutants on: <b>sudden surge of certain illnesses</b>. Long exposure alters genes: <b>congenital and chronic illness</b>; sick livestock, food poisoning, <b>famine</b> if plants fail.</p>
+        { title: 'Effects', html: `
           <table class="tbl">
-            <thead><tr><th>Route</th><th>Who and how</th></tr></thead>
+            <thead><tr><th>Route into body</th><th>Key fact</th></tr></thead>
             <tbody>
-              <tr><td><b>Inhalation</b></td><td>Soil workers, nearby residents breathe dust</td></tr>
-              <tr><td><b>Eating</b></td><td>Adults: soil on vegetables, cultural eating. <b>Children under 3</b> eat soil at play, absorb more</td></tr>
-              <tr><td><b>Skin contact</b></td><td>"Dermal"/"cutaneous"; mostly <b>VOCs</b>, some heavy metals</td></tr>
+              <tr><td><b>Inhalation</b></td><td>Soil workers, residents</td></tr>
+              <tr><td><b>Eating</b></td><td><b>Children under 3</b> most at risk</td></tr>
+              <tr><td><b>Skin contact</b> (dermal)</td><td>Mostly <b>VOCs</b></td></tr>
             </tbody>
           </table>
-        ` },
-        { title: 'Other effects', html: `
-          <ol>
-            <li><b>Plant growth</b>: plants can't adapt to rapid chemistry change; ecological balance upset. Soil-binding fungi and bacteria decline → <b>erosion</b>; land becomes <b>unsuitable for agriculture</b>, hazardous.</li>
-            <li><b>Lower fertility</b>: lower yield; produce lacks nutrients, may carry poisons.</li>
-            <li><b>Toxic dust</b>: toxic, foul landfill gases; bad smell for neighbours.</li>
-            <li><b>Soil structure changes</b>: <b>earthworms</b> die; animals migrate for food.</li>
-            <li><b>Groundwater poisoning</b>: toxins percolate to wells/tube wells → <b>arsenic poisoning</b>, food poisoning, can be fatal.</li>
-          </ol>
-          <div class="note why">Affects <b>food, water and air quality</b>, so all life.</div>
+          <ul>
+            <li>Long exposure: <b>congenital and chronic illness</b>.</li>
+            <li>Soil-binding fungi, bacteria decline → <b>erosion</b>; lower fertility.</li>
+            <li><b>Earthworms</b> die; toxic landfill dust.</li>
+            <li>Groundwater poisoning → <b>arsenic poisoning</b>.</li>
+          </ul>
         ` },
         { title: 'Solutions', html: `
-          <p>Population <b>&gt; 9 billion by 2050</b>: food security depends on existing soils. Individuals: sustainable food, <b>recycling batteries</b>, <b>home composting</b>, managing antibiotic waste.</p>
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Less chemical fertiliser</b></td><td>Excess upsets pH, kills good microbes, runoff pollutes water; double-edged sword</td></tr>
-              <tr><td><b>Reforestation and afforestation</b></td><td>Erosion after deforestation is a major cause; roots bind soil, hold microbes, keep water table</td></tr>
-              <tr><td><b>Recycle and reuse</b></td><td>Landfill plastic decomposes slowly, leaches toxins; less dumped</td></tr>
-              <tr><td><b>Involve locals</b></td><td>Everyone takes part; awareness programmes</td></tr>
-              <tr><td><b>Natural manure</b></td><td>Organic, harmless; restores soil health, no harmful by-products</td></tr>
-            </tbody>
-          </table>
-          <p>A main threat to soil functions worldwide; needs individuals to <b>government</b> plus sustainable farming.</p>
+          <p>Population <b>&gt; 9 billion by 2050</b>. Five solutions:</p>
+          <ul>
+            <li><b>Less chemical fertiliser</b> (excess alters pH, kills microbes).</li>
+            <li><b>Reforestation, afforestation</b> (roots bind soil).</li>
+            <li><b>Recycle and reuse</b> (landfill plastic leaches toxins).</li>
+            <li><b>Involve locals</b>.</li>
+            <li><b>Natural manure</b>.</li>
+          </ul>
+          <p>Individuals: recycle batteries, home composting.</p>
         ` }
       ],
       flashcards: [
@@ -134,31 +102,28 @@ CHUNK({
       source: 'Lecture W3S4 (Noise pollution), pages 1–4',
       tabs: [
         { title: 'Definition and dB', html: `
-          <p class="lead"><b>Noise pollution</b>: <b>undesired or unpleasant sound</b> interfering with daily life. WHO: sound levels <b>harmful to health and well-being</b>.</p>
-          <p><b>Frequently disregarded</b>, yet a top health risk with urbanisation. Noise is abrupt, harsh (unlike music); pollution at <b>intrusion, disturbance and harm</b>. Main cause: <b>human activity</b>. Measured in <b>decibels (dB)</b>.</p>
-          <table class="tbl">
-            <thead><tr><th>Sound</th><th>Level</th></tr></thead>
-            <tbody>
-              <tr><td>Whisper</td><td>~30 dB</td></tr>
-              <tr><td>Normal conversation</td><td>~50 dB</td></tr>
-              <tr><td>Traffic</td><td>85–90 dB</td></tr>
-              <tr><td>Rock concert, firecrackers</td><td>&gt; 120 dB</td></tr>
-            </tbody>
-          </table>
-          <div class="note exam">&gt; <b>120 dB</b>: <b>immediate</b> harm; <b>prolonged</b> &gt; <b>85 dB</b>: hearing damage. Noise doesn't build up in the environment, but effects last.</div>
+          <p class="lead"><b>Noise pollution</b>: <b>undesired or unpleasant sound</b>; WHO: levels <b>harmful to health</b>. Measured in <b>decibels (dB)</b>; main cause <b>human activity</b>.</p>
+          <div class="kv">
+            <div><span>Whisper</span><b>~30 dB</b></div>
+            <div><span>Conversation</span><b>~50 dB</b></div>
+            <div><span>Traffic</span><b>85–90 dB</b></div>
+            <div><span>Rock concert, firecrackers</span><b>&gt; 120 dB</b></div>
+          </div>
+          <p>Prolonged &gt; <b>85 dB</b>: hearing damage. &gt; <b>120 dB</b>: <b>immediate</b> harm. Noise does not accumulate in the environment.</p>
         ` },
-        { title: 'Six groups of sources', html: `
+        { title: 'Sources', html: `
+          <p>Six groups:</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>Industrial</b></td><td>Heavy machinery (compressors, drills, generators): constant high intensity, worst under weak regulation. Cutting, grinding, welding; in-plant transport; worn machinery louder; industries next to homes</td></tr>
-              <tr><td><b>Transport</b></td><td>Cars, horns, highways, railways, aircraft: long-term exposure. Honking, sirens; modified exhausts; trains (engines, whistles, track vibration) worst near stations; aircraft at take-off, landing, taxiing</td></tr>
-              <tr><td><b>Urbanisation and construction</b></td><td>Concrete mixers, bulldozers; blasting (roads, mining, demolition); apartments, malls, offices. <b>Late-night work</b>: stress, lost sleep</td></tr>
-              <tr><td><b>Social and community</b></td><td>Loudspeakers, firecrackers, music at weddings, festivals, rallies (holiday peaks); PA systems, chanting, bells, drums, devotional songs; protests; stadiums, fairs, concerts</td></tr>
-              <tr><td><b>Household</b></td><td>Pressure cookers, mixers, washing machines, vacuums, grinders; loud TVs, radios; ACs, coolers, exhaust fans, generators; fridges, dishwashers, chimneys (<b>low-frequency</b>); dogs, poultry, cattle</td></tr>
-              <tr><td><b>Occupational</b></td><td>Hearing loss risk: mine blasting; textile mills, steel plants, power stations, printing presses; bus/truck/train drivers (stress, fatigue); airport ground staff (jet engines); farm tractors, threshers, harvesters, pumps; soldiers (gunfire, explosions, aircraft)</td></tr>
+              <tr><td><b>Industrial</b></td><td>Compressors, drills, generators</td></tr>
+              <tr><td><b>Transport</b></td><td>Horns, railways, aircraft</td></tr>
+              <tr><td><b>Urbanisation, construction</b></td><td>Bulldozers, blasting, late-night work</td></tr>
+              <tr><td><b>Social</b></td><td>Loudspeakers, firecrackers, festivals</td></tr>
+              <tr><td><b>Household</b></td><td>Mixers, ACs; fridges (<b>low-frequency</b>)</td></tr>
+              <tr><td><b>Occupational</b></td><td>Mines, textile mills, airport ground staff</td></tr>
             </tbody>
           </table>
-          <div class="note exam">Long occupational exposure → <b>Noise-Induced Hearing Loss (NIHL)</b>, stress, lower productivity, accidents.</div>
+          <p>Occupational exposure → <b>NIHL</b> (Noise-Induced Hearing Loss).</p>
         ` }
       ],
       flashcards: [
@@ -183,47 +148,18 @@ CHUNK({
       source: 'Lecture W3S4 (Noise pollution), pages 4–7',
       tabs: [
         { title: 'Effects', html: `
-          <p class="lead">Three groups: <b>health</b>, <b>social</b>, <b>environmental</b>.</p>
-          <h3>Health impacts</h3>
           <ul>
-            <li><b>Hearing loss</b>, ringing in ears (<b>tinnitus</b>); isolation.</li>
-            <li><b>Stress</b> → anxiety, <b>sleepless nights</b>.</li>
-            <li><b>Cardiovascular</b>: <b>hypertension, heart attacks</b>.</li>
-            <li><b>Children</b>: poorer learning, memory, concentration.</li>
-          </ul>
-          <h3>Social impacts</h3>
-          <ul>
-            <li><b>Lower productivity</b>, more mistakes at work.</li>
-            <li>More <b>aggressive, irritable</b>; strained relationships.</li>
-            <li><b>Impatient, less tolerant</b>; conflicts.</li>
-            <li>Harder <b>communication</b>.</li>
-          </ul>
-          <h3>Environmental impacts</h3>
-          <ul>
-            <li>Disrupts <b>wildlife communication</b>, navigation, breeding.</li>
-            <li>Animals leave homes, change <b>migration routes</b>; population decline.</li>
-            <li>Underwater noise harms <b>whales and dolphins</b> (rely on sound for communication, food).</li>
+            <li><b>Health</b>: hearing loss, <b>tinnitus</b> (ringing), stress, sleeplessness, <b>hypertension, heart attacks</b>; poorer learning in children.</li>
+            <li><b>Social</b>: lower productivity, more mistakes, aggression, irritability, poor communication.</li>
+            <li><b>Environmental</b>: disrupts wildlife communication, navigation, breeding; animals change <b>migration routes</b>; underwater noise harms <b>whales and dolphins</b>.</li>
           </ul>
         ` },
         { title: 'Remedies', html: `
-          <p class="lead">Three groups: <b>technological</b>, <b>regulatory</b>, <b>behavioural</b>.</p>
-          <h3>Technological solutions</h3>
           <ul>
-            <li><b>Silencers, regular machine maintenance</b>: cut noise at source.</li>
-            <li><b>Sound enclosures, vibration dampers</b>: quieter industry.</li>
-            <li><b>Highway sound barriers</b>: reduce and redirect traffic noise.</li>
-            <li><b>Soundproofing in buildings</b>: keeps outside noise out.</li>
+            <li><b>Technological</b>: silencers, maintenance, sound enclosures, vibration dampers, highway sound barriers, soundproofing.</li>
+            <li><b>Regulatory</b>: <b>Noise Pollution (Regulation and Control) Rules, 2000</b>: <b>permissible noise levels</b>, time restrictions; rules on loudspeakers, construction hours, fireworks.</li>
+            <li><b>Behavioural</b>: honk less, <b>earplugs</b> at noisy workplaces, <b>planting trees</b> (absorb sound), awareness campaigns.</li>
           </ul>
-          <h3>Regulatory framework</h3>
-          <p>India's <b>Noise Pollution (Regulation and Control) Rules, 2000</b>: <b>permissible noise levels</b>, time restrictions. Rules on <b>loudspeakers</b>, <b>construction hours</b>, <b>fireworks</b>.</p>
-          <h3>Behavioural changes</h3>
-          <ul>
-            <li><b>Quiet practices</b>: honk less, softer music.</li>
-            <li><b>Earplugs in noisy workplaces</b>.</li>
-            <li><b>Planting trees</b>: absorb sound.</li>
-            <li><b>Awareness campaigns</b>: quieter technologies.</li>
-          </ul>
-          <div class="note why">Threatens <b>health, society, ecosystems</b>: needs <b>laws, technology and awareness</b> together. Silence = foundation for health and harmony.</div>
         ` }
       ],
       flashcards: [
@@ -246,55 +182,38 @@ CHUNK({
       blurb: 'What thermal pollution is, its causes, its nine consequences for water bodies, and the remedies from cooling towers to zoning.',
       source: 'Lecture W3S5 (Thermal pollution), pages 1–6',
       tabs: [
-        { title: 'Definition', html: `
-          <p class="lead"><b>Thermal pollution</b>: human-caused <b>sudden increase or decrease</b> in a natural water body's temperature, harming aquatic life.</p>
+        { title: 'Definition and causes', html: `
+          <p class="lead"><b>Thermal pollution</b>: human-caused <b>sudden increase or decrease</b> in a water body's temperature, harming aquatic life.</p>
           <ul>
-            <li>Power plant returns water at <b>40–50°C</b> to a river at <b>20–25°C</b>.</li>
-            <li>US EPA: human change of water temperature → ecological imbalance.</li>
+            <li>Plant water <b>40–50°C</b> into river at <b>20–25°C</b>.</li>
             <li>Even <b>1–1.5°C</b> rise cuts oxygen solubility.</li>
-            <li><b>Heat contamination</b> = <b>energy pollution</b>, not chemical; silent, invisible.</li>
+            <li><b>Energy pollution</b>, not chemical.</li>
           </ul>
-        ` },
-        { title: 'Causes', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Industrial discharge</b></td><td>Steel mills, refineries, paper, chemical plants</td></tr>
-              <tr><td><b>Power plants</b></td><td>Nuclear, coal: huge cooling volumes</td></tr>
-              <tr><td><b>Hydroelectric projects</b></td><td>Bottom releases cooler, surface warmer</td></tr>
-              <tr><td><b>Deforestation and erosion</b></td><td>Lost shade; turbid water absorbs heat</td></tr>
-              <tr><td><b>Sewage</b></td><td>Warmer than natural water</td></tr>
-              <tr><td><b>Global warming</b></td><td>Raises baseline water temperature</td></tr>
-              <tr><td><b>Natural</b></td><td>Volcanoes, geothermal activity, hot springs (local)</td></tr>
-            </tbody>
-          </table>
+          <p>Causes: <b>power plants</b> (nuclear, coal), industry, hydro dams (cold bottom releases), deforestation, sewage, global warming; natural: volcanoes, <b>hot springs</b>.</p>
         ` },
         { title: 'Consequences', html: `
-          <ol>
-            <li><b>Less dissolved oxygen</b>: suffocation risk.</li>
-            <li><b>Biodiversity loss</b>: corals, amphibians, some fish most vulnerable.</li>
-            <li><b>Thermal shock</b>: sudden hot or cold discharge kills fish and plants en masse.</li>
-            <li><b>Higher toxicity</b>: faster reactions make phenols and heavy metals more soluble and harmful.</li>
-            <li><b>Broken food chains</b>: plankton and invertebrates decline.</li>
-            <li><b>Invasive species</b>: <b>zebra mussels</b> (North America), <b>lionfish</b> (Atlantic, Caribbean), <b>tilapia</b>.</li>
-            <li><b>Fisheries and livelihoods</b> decline.</li>
-            <li><b>Eutrophication</b>: faster algal blooms; <b>water hyacinth</b> thrives.</li>
-            <li><b>Health risks</b>: more bacteria and parasites in water.</li>
-          </ol>
+          <ul>
+            <li><b>Less dissolved oxygen</b>.</li>
+            <li><b>Thermal shock</b>: sudden discharge kills fish en masse.</li>
+            <li><b>Higher toxicity</b> of phenols, heavy metals.</li>
+            <li>Biodiversity loss (corals, amphibians); broken food chains; fisheries decline.</li>
+            <li><b>Invasive species</b>: <b>zebra mussels</b>, <b>lionfish</b>, <b>tilapia</b>.</li>
+            <li>Eutrophication: <b>water hyacinth</b> thrives; more bacteria, parasites.</li>
+          </ul>
         ` },
         { title: 'Remedies', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Cooling ponds</b></td><td>Shallow; evaporation, convection, radiation</td></tr>
-              <tr><td><b>Cooling towers</b></td><td>Sprayed down, rising air cools. <b>Wet</b>: evaporation; <b>dry</b>: no water loss</td></tr>
-              <tr><td><b>Spray ponds</b></td><td>Nozzle droplets raise evaporation</td></tr>
-              <tr><td><b>Artificial lakes</b></td><td>Slow cooling; sometimes fish farming</td></tr>
-              <tr><td><b>Recycling heated water</b></td><td>Reuse for cleaning, heating, aquaculture</td></tr>
-              <tr><td><b>Regulation</b></td><td>Temperature limits on effluents; <b>closed-loop cooling</b></td></tr>
-              <tr><td><b>Afforestation</b></td><td>Shade riverbanks, reduce erosion</td></tr>
-              <tr><td><b>Zoning</b></td><td>Site plants away from sensitive waters; include heat in <b>EIA</b></td></tr>
-              <tr><td>Awareness and research</td><td>Educate; invest in new cooling technology</td></tr>
+              <tr><td><b>Cooling towers</b></td><td><b>Wet</b>: evaporation; <b>dry</b>: no water loss</td></tr>
+              <tr><td>Cooling ponds, spray ponds</td><td>Evaporation</td></tr>
+              <tr><td>Artificial lakes</td><td>Slow cooling, fish farming</td></tr>
+              <tr><td>Recycling heated water</td><td>Aquaculture, heating</td></tr>
+              <tr><td>Regulation</td><td><b>Closed-loop cooling</b>, effluent temperature limits</td></tr>
+              <tr><td>Zoning</td><td>Heat included in <b>EIA</b></td></tr>
             </tbody>
-          </table>        ` }
+          </table>
+          <p>Also afforestation of riverbanks.</p>
+        ` }
       ],
       flashcards: [
         { front: 'Define thermal pollution.', back: 'A <b>sudden rise or fall</b> in a natural water body\'s temperature from human activity that harms aquatic life.' },

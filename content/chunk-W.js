@@ -6,36 +6,27 @@ CHUNK({
       id: 'm7-green-energy',
       title: 'Green energy: why, what and India\'s targets',
       short: 'Green energy concepts',
-      blurb: 'A contemporary-issues week: why the world must move off fossil fuels, the IPCC and India targets, renewable vs green energy and the six characteristics of green energy.',
+      blurb: 'Why move off fossil fuels, IPCC and India targets, renewable vs green, six characteristics.',
       source: 'Lecture W6 Part 1 (Solar and Wind), pages 1–2',
       tabs: [
         { title: 'Why it matters now', html: `
-          <p class="lead">Week 6 = <b>contemporary environmental issues</b>: <b>green energy technologies</b>.</p>
-          <p>World depends on <b>fossil fuels</b> (coal, oil, natural gas) for <b>over 80%</b> of energy supply; main damage: <b>greenhouse gas emissions</b>.</p>
           <ul>
-            <li><b>IPCC</b> (Intergovernmental Panel on Climate Change): <b>net-zero emissions by 2050</b>.</li>
-            <li><b>India</b>: world's <b>third-largest emitter</b>.</li>
-            <li><b>Paris Agreement</b>: India to get <b>50%</b> of cumulative installed electricity capacity from <b>non-fossil sources by 2030</b>.</li>
-            <li>National target: <b>500 GW of renewable capacity by 2030</b>; <b>solar and wind</b> the two main pillars.</li>
+            <li><b>Fossil fuels</b> (coal, oil, gas): <b>over 80%</b> of world energy.</li>
+            <li><b>IPCC</b>: <b>net-zero by 2050</b>.</li>
+            <li>India: <b>third-largest emitter</b>.</li>
+            <li><b>Paris Agreement</b>: India <b>50%</b> installed capacity <b>non-fossil by 2030</b>.</li>
+            <li>Target <b>500 GW renewables by 2030</b>; pillars <b>solar and wind</b> (fastest-growing).</li>
+            <li><b>Hydro, geothermal</b>: continuous power.</li>
           </ul>
-          <p>Solar and wind: <b>fastest-growing</b> renewables. Hydro and geothermal (Lecture 33) give <b>continuous</b> power.</p>
-          <div class="note why">Fossil fuels are <b>finite</b> and <b>polluting</b>: the case for green energy.</div>
         ` },
         { title: 'Renewable vs green', html: `
-          <p class="lead"><b>Renewable energy</b>: from natural processes that <b>replenish faster than they are consumed</b>: sunlight, wind, flowing water, geothermal heat, biomass growth.</p>
-          <p><b>Green energy</b>: broader term; renewables with <b>minimal environmental impact across their entire lifecycle</b> (production, operation, disposal).</p>
-          <div class="note trap">Not all renewables are "green": <b>large hydro dams</b> (ecological effects), <b>biomass combustion</b> (emissions). Solar (PV, thermal) and wind (onshore, offshore) are genuinely green.</div>
-          <h3>Characteristics of green energy</h3>
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Renewable</b></td><td>Replenished by nature; doesn't run out.</td></tr>
-              <tr><td><b>Sustainable</b></td><td>Doesn't reduce future generations' use.</td></tr>
-              <tr><td><b>Clean and low-carbon</b></td><td>Little or no GHG or air pollution.</td></tr>
-              <tr><td><b>Environmentally friendly</b></td><td>Small lifecycle impact.</td></tr>
-              <tr><td><b>Locally available</b></td><td>Sun, wind, water local; fewer fuel imports.</td></tr>
-              <tr><td><b>Decentralised generation</b></td><td>Suits small plants (rooftop array, village micro-hydro) and large.</td></tr>
-            </tbody>
-          </table>
+          <ul>
+            <li><b>Renewable</b>: natural processes that <b>replenish faster than consumed</b>.</li>
+            <li><b>Green</b>: renewable with <b>minimal lifecycle impact</b> (production, operation, disposal).</li>
+          </ul>
+          <div class="note trap">Renewable but not green: <b>large hydro dams</b>, <b>biomass combustion</b>. Solar and wind are green.</div>
+          <h3>Six characteristics</h3>
+          <div class="chips"><span class="chip">Renewable</span><span class="chip">Sustainable</span><span class="chip">Clean, low-carbon</span><span class="chip">Environmentally friendly</span><span class="chip">Locally available</span><span class="chip">Decentralised generation</span></div>
         ` }
       ],
       flashcards: [
@@ -59,74 +50,45 @@ CHUNK({
       id: 'm7-solar-energy',
       title: 'Solar energy: PV, solar thermal and cell types',
       short: 'Solar energy',
-      blurb: 'Solar irradiance, system components, how a PV cell makes current, solar thermal and CSP, the four PV technologies, and the pros and cons of solar.',
+      blurb: 'Irradiance, components, PV vs CSP, four PV cell types, pros and cons.',
       source: 'Lecture W6 Part 1 (Solar and Wind), pages 2–5',
       tabs: [
         { title: 'Sunlight and components', html: `
-          <p class="lead"><b>Solar energy technology</b> converts the sun's electromagnetic radiation into usable energy, mostly <b>electricity</b>.</p>
-          <p>Irradiance about <b>1,000 W per square metre</b> at <b>solar noon on a clear day</b>: baseline for output calculations.</p>
-          <div class="eq">Electrical output = solar irradiance × panel area × efficiency</div>
-          <div class="worked"><div class="given"><p>A 2 m² panel, 20% efficient, at 1,000 W/m².</p></div><div class="solve"><div class="eq">1,000 × 2 × 0.20 = 400 W</div></div><div class="result">About 400 W at clear-sky noon</div></div>
-          <h3>Components of a solar power system</h3>
-          <ul>
-            <li><b>Solar panels</b>: sunlight → DC.</li>
-            <li><b>Inverter</b>: DC → AC for homes, grid.</li>
-            <li><b>Charge controller</b>: regulates battery current; prevents overcharging.</li>
-            <li><b>Battery</b> (optional): stores for night, cloud.</li>
-            <li><b>Mounting structures</b>: hold panels at right angle.</li>
-            <li><b>Electrical wiring</b>: connects parts.</li>
-            <li><b>Monitoring system</b>: tracks output, flags faults.</li>
-          </ul>
+          <p>Irradiance about <b>1,000 W/m²</b> at clear-sky solar noon.</p>
+          <div class="eq">Output = irradiance × area × efficiency</div>
+          <div class="worked"><div class="given"><p>2 m², 20%, 1,000 W/m²</p></div><div class="solve"><div class="eq">1,000 × 2 × 0.20</div></div><div class="result">400 W</div></div>
+          <div class="kv"><div><span>Panel</span><b>Sunlight → DC</b></div><div><span>Inverter</span><b>DC → AC</b></div><div><span>Charge controller</span><b>Prevents overcharging</b></div><div><span>Battery</span><b>Optional, night storage</b></div><div><span>Also</span><b>Mounting, wiring, monitoring</b></div></div>
         ` },
-        { title: 'Photovoltaic (PV)', html: `
-          <p class="lead"><b>Photovoltaic systems</b> convert sunlight <b>directly into electricity</b> using the <b>photovoltaic effect</b>.</p>
+        { title: 'PV vs solar thermal', html: `
           <ol class="steps">
-            <li><b>Photons strike</b> a semiconductor, usually <b>crystalline silicon</b>.</li>
-            <li><b>Electrons knocked loose</b> from atomic bonds.</li>
-            <li><b>p-n junction</b> (two differently doped silicon layers) sets up an <b>internal electric field</b>.</li>
-            <li><b>Field sweeps</b> electrons one way: <b>direct current</b> flows in external circuit.</li>
+            <li><b>Photons</b> hit semiconductor (<b>crystalline silicon</b>).</li>
+            <li><b>Electrons</b> knocked loose.</li>
+            <li><b>p-n junction</b> creates internal field.</li>
+            <li>Field sweeps electrons: <b>DC</b> flows.</li>
           </ol>
           <figure data-fig="m7-pv-cell"></figure>
-          <p><b>Solid-state energy conversion</b>: no moving parts, combustion or working fluid; low maintenance.</p>
-        ` },
-        { title: 'Solar thermal and CSP', html: `
-          <p class="lead"><b>Solar thermal systems</b> use <b>mirrors or lenses to concentrate sunlight</b> and make heat.</p>
-          <p>Heat drives a <b>steam turbine</b> or directly <b>heats water or buildings</b>.</p>
-          <p><b>Concentrated Solar Power (CSP)</b>: utility scale; paired with <b>thermal storage such as molten salt</b> to keep heat after sunset (solar's core weakness: no night power).</p>
           <div class="vs">
-            <div class="side"><h4>PV</h4><p>Light → electricity directly, by the photovoltaic effect in silicon. No moving parts.</p></div>
-            <div class="side"><h4>Solar thermal / CSP</h4><p>Light → concentrated heat → steam turbine, or direct heating. Can store heat in molten salt.</p></div>
+            <div class="side"><h4>PV</h4><p><b>Photovoltaic effect</b>, light → electricity directly. <b>Solid-state</b>: no moving parts.</p></div>
+            <div class="side"><h4>Solar thermal / CSP</h4><p><b>Mirrors/lenses</b> concentrate heat → steam turbine or direct water heating. <b>CSP</b> (utility scale) stores heat in <b>molten salt</b> for after sunset.</p></div>
           </div>
         ` },
         { title: 'Types of PV cells', html: `
           <table class="tbl">
-            <thead><tr><th>Type</th><th>Efficiency</th><th>What to know</th></tr></thead>
+            <thead><tr><th>Type</th><th>Efficiency</th><th>Key fact</th></tr></thead>
             <tbody>
-              <tr><td><b>Monocrystalline Si</b></td><td><b>20–22%</b></td><td><b>Single continuous crystal</b> by energy-intensive <b>Czochralski process</b>. Most efficient commercial, uniform dark, costlier per watt.</td></tr>
-              <tr><td><b>Polycrystalline Si</b></td><td><b>15–17%</b></td><td>Many fragments melted together. Cheaper; <b>grain boundaries</b> impede electron flow.</td></tr>
-              <tr><td><b>Thin film</b></td><td><b>10–13%</b></td><td><b>Cadmium telluride</b>, <b>amorphous silicon</b> in thin layers. Light, flexible, cheap; suits <b>building-integrated PV</b>.</td></tr>
-              <tr><td><b>Perovskite</b> (emerging)</td><td>Above <b>30%</b> in tandem</td><td>On silicon in a <b>tandem</b> cell passes 30%. Cheap but <b>degrade faster</b> in moisture and UV; not yet scale-ready.</td></tr>
+              <tr><td><b>Monocrystalline</b></td><td><b>20–22%</b></td><td>Single crystal, <b>Czochralski process</b>; costliest</td></tr>
+              <tr><td><b>Polycrystalline</b></td><td><b>15–17%</b></td><td>Cheaper; <b>grain boundaries</b></td></tr>
+              <tr><td><b>Thin film</b></td><td><b>10–13%</b></td><td><b>Cadmium telluride</b>, <b>amorphous Si</b>; light, flexible, cheap; <b>building-integrated PV</b></td></tr>
+              <tr><td><b>Perovskite</b></td><td>&gt;<b>30%</b> tandem</td><td>On silicon; <b>degrades</b> in moisture, UV</td></tr>
             </tbody>
           </table>
-          <div class="mnemonic">Efficiency order: Mono (20–22) > Poly (15–17) > Thin film (10–13). Perovskite tandem aims beyond 30.</div>
         ` },
-        { title: 'Advantages and challenges', html: `
-          <h3>Advantages</h3>
+        { title: 'Pros and cons', html: `
+          <p>Pros: <b>lower bills</b>, <b>grid independence</b> (batteries), <b>low maintenance</b>, rooftop to desert.</p>
           <ul>
-            <li><b>Lowers electricity bills</b>: sunlight free.</li>
-            <li><b>Grid independence</b> with batteries.</li>
-            <li><b>Low maintenance</b>: no moving parts.</li>
-            <li><b>Versatile deployment</b>: rooftop to desert plants.</li>
-          </ul>
-          <h3>Challenges</h3>
-          <ul>
-            <li><b>High upfront cost</b>: panels, inverters, installation.</li>
-            <li><b>Weather dependency, intermittency</b>: cloud, time of day, season.</li>
-            <li><b>Degradation</b>: about <b>0.5% output per year</b>; about <b>80–85%</b> left after <b>25 years</b>.</li>
-            <li><b>Orientation and tracking</b>: fixed-tilt cheaper; <b>single-/dual-axis tracking</b> raises yield <b>15–35%</b> but adds complexity.</li>
-            <li><b>Storage expense</b>: costly batteries for 24/7.</li>
-            <li><b>Space-intensive</b>: large land or roof area.</li>
-            <li><b>Materials, end-of-life</b>: energy-intensive cells, <b>hazardous by-products</b>; panel recycling an emerging problem.</li>
+            <li><b>Degradation</b>: <b>0.5%/year</b>; <b>80–85%</b> left after <b>25 years</b>.</li>
+            <li><b>Tracking</b> (single/dual-axis): <b>+15–35%</b> yield.</li>
+            <li>Also: <b>high upfront cost</b>, <b>intermittency</b>, costly storage, space, <b>panel recycling</b>.</li>
           </ul>
         ` }
       ],
@@ -158,29 +120,32 @@ CHUNK({
       id: 'm7-solar-india',
       title: 'Solar energy in India: schemes and missions',
       short: 'Solar in India',
-      blurb: 'Why India suits solar, and the ten Government of India solar initiatives from PM Surya Ghar to OSOWOG.',
+      blurb: 'India\'s ~300 sunny days and ten solar initiatives, PM Surya Ghar to OSOWOG.',
       source: 'Lecture W6 Part 1 (Solar and Wind), pages 5–6',
       tabs: [
-        { title: 'Why India', html: `
-          <p class="lead">India: about <b>300 sunny days a year</b>; highly suitable for solar.</p>
-          <p>Policies and incentives target <b>500 GW of renewable capacity by 2030</b>.</p>
-        ` },
-        { title: 'Government initiatives', html: `
+        { title: 'Schemes for homes and farms', html: `
+          <p>India: about <b>300 sunny days</b>/year; target <b>500 GW</b> renewables by 2030.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>PM Surya Ghar: Muft Bijli Yojana</b></td><td>Free electricity, <b>one crore households</b>, rooftop solar; subsidy up to <b>₹78,000</b>.</td></tr>
-              <tr><td><b>PM-KUSUM</b></td><td>Solarises <b>agriculture</b>, replaces diesel pumps; up to <b>60% subsidy</b> on solar pumps.</td></tr>
-              <tr><td><b>National Solar Mission (NSM)</b></td><td>India's <b>flagship</b>: scale commercial solar, long-term targets.</td></tr>
-              <tr><td><b>PLI Scheme</b></td><td>Production-Linked Incentive: <b>domestic manufacturing</b> of PV modules, GW-scale wafer and cell factories.</td></tr>
-              <tr><td><b>Solar Park Scheme</b></td><td><b>Ultra-Mega Solar Power Projects</b>: land and transmission. <b>Bhadla Solar Park</b>, world's largest.</td></tr>
-              <tr><td><b>Green Energy Corridor (GEC)</b></td><td>Dedicated high-capacity <b>transmission lines</b> to national grid.</td></tr>
-              <tr><td><b>Suryamitra</b></td><td>Skills youth to <b>install, maintain, repair</b> solar arrays.</td></tr>
-              <tr><td><b>International Solar Alliance (ISA)</b></td><td>Co-founded by <b>India and France</b>; mobilise over <b>$1 trillion</b> solar investment.</td></tr>
-              <tr><td><b>OSOWOG</b></td><td>One Sun, One World, One Grid: <b>interconnect regional grids</b> using <b>time-zone differences</b>.</td></tr>
-              <tr><td><b>100% FDI</b></td><td>Foreign investment via <b>automatic approval route</b>.</td></tr>
+              <tr><td><b>PM Surya Ghar: Muft Bijli Yojana</b></td><td>Rooftop solar, <b>1 crore homes</b>, subsidy up to <b>₹78,000</b></td></tr>
+              <tr><td><b>PM-KUSUM</b></td><td>Farm <b>solar pumps</b> replace diesel; up to <b>60% subsidy</b></td></tr>
+              <tr><td><b>National Solar Mission</b></td><td>India's <b>flagship</b>; scales commercial solar</td></tr>
+              <tr><td><b>Suryamitra</b></td><td>Skills youth to install, maintain, repair</td></tr>
             </tbody>
           </table>
-          <div class="note trap">PM Surya Ghar = <b>rooftop solar for homes</b>; PM-KUSUM = <b>solar pumps for farmers</b>. ISA with <b>France</b>, not the US.</div>
+          <div class="note trap">Surya Ghar = <b>rooftops</b>; KUSUM = <b>farm pumps</b>.</div>
+        ` },
+        { title: 'Industry, grid, global', html: `
+          <table class="tbl">
+            <tbody>
+              <tr><td><b>PLI Scheme</b></td><td>Domestic PV module, wafer, cell manufacturing</td></tr>
+              <tr><td><b>Solar Park Scheme</b></td><td>Ultra-Mega Solar Power Projects; <b>Bhadla</b>, world's largest</td></tr>
+              <tr><td><b>Green Energy Corridor</b></td><td>Dedicated transmission lines to national grid</td></tr>
+              <tr><td><b>ISA</b></td><td>Co-founded by <b>India + France</b>; mobilise <b>$1 trillion</b></td></tr>
+              <tr><td><b>OSOWOG</b></td><td>Interconnect regional grids via <b>time-zone differences</b></td></tr>
+              <tr><td><b>100% FDI</b></td><td><b>Automatic approval route</b></td></tr>
+            </tbody>
+          </table>
         ` }
       ],
       flashcards: [
@@ -204,71 +169,36 @@ CHUNK({
       id: 'm7-wind-energy',
       title: 'Wind energy: turbines, farms, pros and cons',
       short: 'Wind energy',
-      blurb: 'Where wind comes from, how a turbine works, its nine components, HAWT vs VAWT, onshore vs offshore farms, applications, advantages, challenges and capacity factor.',
+      blurb: 'Origin of wind, turbine parts, HAWT vs VAWT, onshore vs offshore, pros, cons, capacity factor.',
       source: 'Lecture W6 Part 1 (Solar and Wind), pages 6–8',
       tabs: [
         { title: 'Origin and working', html: `
-          <p class="lead">Wind uses <b>fluid dynamics</b>, not semiconductor physics.</p>
-          <p>Sun <b>heats Earth unevenly</b> → <b>air pressure differences</b> → air moves high to low. Its <b>kinetic energy</b> is converted by a turbine.</p>
+          <p>Wind uses <b>fluid dynamics</b>, not semiconductor physics. Sun <b>heats Earth unevenly</b> → <b>pressure differences</b> → air moves high to low; turbine converts its <b>kinetic energy</b>.</p>
           <ol class="steps">
-            <li><b>Wind strikes blades</b>; they rotate.</li>
-            <li><b>Rotor turns</b> main shaft.</li>
-            <li><b>Gearbox</b> raises speed for generator.</li>
-            <li><b>Generator</b> makes electricity.</li>
-            <li><b>Grid</b> receives it.</li>
+            <li><b>Blades</b> rotate.</li>
+            <li><b>Rotor</b> turns shaft.</li>
+            <li><b>Gearbox</b> raises speed.</li>
+            <li><b>Generator</b> → grid.</li>
           </ol>
           <figure data-fig="m7-wind-turbine"></figure>
         ` },
-        { title: 'Components and types', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Rotor blades</b></td><td>Wind's kinetic energy → rotation.</td></tr>
-              <tr><td><b>Hub</b></td><td>Holds blades, joins them to shaft.</td></tr>
-              <tr><td><b>Shaft</b></td><td>Carries rotation into nacelle.</td></tr>
-              <tr><td><b>Gearbox</b></td><td>Slow rotor speed → high generator speed.</td></tr>
-              <tr><td><b>Generator</b></td><td>Rotation → electricity.</td></tr>
-              <tr><td><b>Nacelle</b></td><td>Housing atop tower: gearbox, generator, shaft.</td></tr>
-              <tr><td><b>Tower</b></td><td>Lifts rotor to stronger, steadier winds.</td></tr>
-              <tr><td><b>Controller</b></td><td>Starts, stops, adjusts to wind.</td></tr>
-              <tr><td><b>Brake system</b></td><td>Stops rotor in high winds or maintenance.</td></tr>
-            </tbody>
-          </table>
+        { title: 'Components, types, farms', html: `
+          <div class="kv"><div><span>Rotor blades</span><b>Kinetic → rotation</b></div><div><span>Hub</span><b>Joins blades to shaft</b></div><div><span>Gearbox</span><b>Slow rotor → fast generator</b></div><div><span>Nacelle</span><b>Houses gearbox, generator, shaft</b></div><div><span>Tower</span><b>Reaches steadier wind</b></div><div><span>Controller</span><b>Start, stop, adjust</b></div><div><span>Brake</span><b>Stops in high wind</b></div></div>
           <div class="vs">
-            <div class="side"><h4>HAWT</h4><p><b>Horizontal axis</b>; most common, <b>high efficiency</b>.</p></div>
-            <div class="side"><h4>VAWT</h4><p><b>Vertical axis</b>; <b>urban areas</b>, wind from <b>any direction</b>.</p></div>
+            <div class="side"><h4>HAWT</h4><p><b>Horizontal axis</b>; <b>most common</b>, high efficiency.</p></div>
+            <div class="side"><h4>VAWT</h4><p><b>Vertical axis</b>; <b>urban</b>, wind from <b>any direction</b>.</p></div>
           </div>
-        ` },
-        { title: 'Wind farms', html: `
-          <p class="lead">Many turbines together = <b>wind farm</b>, onshore or offshore.</p>
           <div class="vs">
-            <div class="side"><h4>Onshore</h4><p>Cheaper to build and maintain; land-use conflicts, noise.</p></div>
-            <div class="side"><h4>Offshore</h4><p><b>Stronger, steadier winds</b>, fewer land/noise issues; <b>much higher installation and maintenance costs</b> (marine environment, foundations, undersea cabling).</p></div>
+            <div class="side"><h4>Onshore</h4><p><b>Cheaper</b>; land conflicts, noise.</p></div>
+            <div class="side"><h4>Offshore</h4><p><b>Stronger, steadier</b> wind; <b>much costlier</b> (foundations, undersea cables). <b>Floating</b> platforms for deep water.</p></div>
           </div>
-          <p><b>Floating offshore platforms</b>: for <b>deeper water</b>.</p>
-          <h3>Applications</h3>
-          <div class="chips"><span class="chip">Electricity generation</span><span class="chip">Water pumping</span><span class="chip">Agriculture</span><span class="chip">Rural electrification</span><span class="chip">Industrial use</span><span class="chip">Hybrid renewable systems</span></div>
+          <div class="chips"><span class="chip">Electricity</span><span class="chip">Water pumping</span><span class="chip">Agriculture</span><span class="chip">Rural electrification</span><span class="chip">Industry</span><span class="chip">Hybrid systems</span></div>
         ` },
-        { title: 'Advantages and challenges', html: `
-          <h3>Advantages</h3>
-          <ul>
-            <li><b>Zero fuel cost</b>.</li>
-            <li><b>No GHG emissions</b> in operation.</li>
-            <li><b>Low operating expenses</b>.</li>
-            <li><b>Large-scale</b> generation via farms.</li>
-            <li><b>Creates jobs</b>: manufacturing, installation, maintenance.</li>
-            <li><b>Reduces dependence</b> on fossil fuels.</li>
-          </ul>
-          <h3>Challenges</h3>
-          <ul>
-            <li><b>Variable wind speeds</b> make output unsteady.</li>
-            <li><b>Noise and visual impact</b> near homes.</li>
-            <li><b>Bird and bat collisions</b> with the blades.</li>
-            <li><b>Large land requirement</b> for spacing turbines.</li>
-            <li><b>High installation cost</b>.</li>
-            <li><b>Grid integration</b> problems from the variable supply.</li>
-          </ul>
-          <p>Wind <b>capacity factor</b> higher than solar: <b>35–50% onshore</b>, up to <b>50–60% offshore</b> (runs day and night). But <b>more moving parts</b>, more maintenance, harder siting and permitting.</p>
-          <div class="note heads-up">Lecture 33 gives wind <b>25–40%</b>, solar <b>20–25%</b>. Either way wind > solar; geothermal (80–95%) highest.</div>
+        { title: 'Pros and cons', html: `
+          <p>Pros: <b>zero fuel cost</b>, no operating GHG, low running cost, large-scale farms, jobs, less fossil dependence.</p>
+          <p>Cons: variable output, noise, visual impact, <b>bird and bat collisions</b>, land, high installation cost, grid integration.</p>
+          <p><b>Capacity factor</b>: <b>35–50% onshore</b>, <b>50–60% offshore</b>; more moving parts than solar.</p>
+          <div class="note heads-up">Lecture 33: wind <b>25–40%</b>, solar <b>20–25%</b>, geothermal <b>80–95%</b>.</div>
         ` }
       ],
       flashcards: [
@@ -292,56 +222,39 @@ CHUNK({
       id: 'm7-wind-india-compare',
       title: 'Wind in India, solar vs wind, and the bigger picture',
       short: 'Wind in India, compare',
-      blurb: 'India\'s wind potential and five wind initiatives, solar vs wind compared, environmental benefits of renewables, the engineer\'s role and future trends.',
+      blurb: 'India\'s wind potential and policies, solar vs wind, benefits and future trends.',
       source: 'Lecture W6 Part 1 (Solar and Wind), pages 8–11',
       tabs: [
         { title: 'Wind in India', html: `
-          <p class="lead"><b>Eastern coast cyclone-prone</b>, so <b>western coast</b> better for wind.</p>
-          <p>Coastline about <b>7,516.6 km</b> plus EEZs. <b>National Institute for Wind Energy (Chennai)</b>: top states <b>Gujarat, Maharashtra, Karnataka, Tamil Nadu, Andhra Pradesh</b> (stable, steady, speedy winds).</p>
-          <h3>Five wind initiatives</h3>
+          <p><b>Western coast</b> better (east is <b>cyclone-prone</b>). Coastline <b>7,516.6 km</b>. <b>NIWE, Chennai</b>.</p>
+          <p>Top states: <b>Gujarat, Maharashtra, Karnataka, Tamil Nadu, Andhra Pradesh</b>.</p>
           <table class="tbl">
             <tbody>
-              <tr><td><b>National Wind-Solar Hybrid Policy (2018)</b></td><td>Combined wind + solar; shared land, transmission; convert plants to hybrids.</td></tr>
-              <tr><td><b>National Offshore Wind Energy Policy (2015)</b></td><td>Offshore wind; <b>MNRE</b> nodal ministry; Gujarat, Tamil Nadu focus.</td></tr>
-              <tr><td><b>Renewable Purchase Obligation (RPO)</b></td><td>Discoms, large consumers must buy set share of renewables.</td></tr>
-              <tr><td><b>Green Energy Corridor Programme</b></td><td>Stronger transmission; fewer losses, less congestion.</td></tr>
-              <tr><td><b>PLI for RE manufacturing</b></td><td>Domestic RE equipment under <b>Make in India</b>.</td></tr>
+              <tr><td><b>Wind-Solar Hybrid Policy</b></td><td><b>2018</b>; shared land, transmission</td></tr>
+              <tr><td><b>Offshore Wind Policy</b></td><td><b>2015</b>; <b>MNRE</b> nodal; Gujarat, Tamil Nadu</td></tr>
+              <tr><td><b>RPO</b></td><td>Discoms, large consumers must buy set share of renewables</td></tr>
+              <tr><td><b>Green Energy Corridor</b></td><td>Stronger transmission, fewer losses</td></tr>
+              <tr><td><b>PLI</b></td><td>RE equipment, <b>Make in India</b></td></tr>
             </tbody>
           </table>
-          <div class="note trap">Offshore wind policy is <b>2015</b>; wind-solar hybrid policy is <b>2018</b>.</div>
+          <div class="note trap">Offshore <b>2015</b>, hybrid <b>2018</b>.</div>
         ` },
-        { title: 'Solar vs wind', html: `
+        { title: 'Solar vs wind, benefits', html: `
           <table class="tbl">
             <thead><tr><th></th><th>Solar</th><th>Wind</th></tr></thead>
             <tbody>
               <tr><td>Source</td><td>Sunlight</td><td>Moving air</td></tr>
-              <tr><td>When it works</td><td>Daylight hours only</td><td>Whenever wind speed is enough, day or night</td></tr>
-              <tr><td>Noise</td><td>Silent</td><td>Moderate noise</td></tr>
-              <tr><td>Installation</td><td>Rooftops possible</td><td>Needs open, windy areas</td></tr>
-              <tr><td>Maintenance</td><td>Lower (no moving parts)</td><td>Higher (more moving parts)</td></tr>
-              <tr><td>Ideal location</td><td>Sunny regions</td><td>Coastal and hilly regions</td></tr>
+              <tr><td>Works</td><td>Daylight</td><td>Day and night</td></tr>
+              <tr><td>Noise</td><td>Silent</td><td>Moderate</td></tr>
+              <tr><td>Maintenance</td><td>Lower</td><td>Higher</td></tr>
+              <tr><td>Location</td><td>Sunny, rooftops</td><td>Coastal, hilly</td></tr>
               <tr><td>Capacity factor</td><td>Lower</td><td>Higher</td></tr>
             </tbody>
           </table>
-          <p><b>Complementary in time</b>: solar peaks <b>midday</b>, wind often stronger <b>at night or in storms</b>; planners build <b>both together</b>. Transition = <b>systems-engineering</b> problem (materials, fluid dynamics, power electronics, structures, policy).</p>
-        ` },
-        { title: 'Benefits and engineers', html: `
-          <h3>Environmental benefits of renewable energy</h3>
-          <ul>
-            <li><b>Reduces CO₂ emissions</b>: no fuel burnt.</li>
-            <li><b>Improves air quality</b>.</li>
-            <li><b>Conserves fossil fuel reserves</b>.</li>
-            <li><b>Mitigates climate change</b>.</li>
-            <li><b>Protects ecosystems</b> from mining, pollution.</li>
-            <li><b>Promotes sustainable development</b>.</li>
-            <li><b>Supports energy security</b>: fewer imports.</li>
-          </ul>
-          <h3>Role of engineers</h3>
-          <p>Efficient panels, advanced turbines, energy storage, smart grids, efficient buildings, AI in renewables, affordable clean tech, sustainable practice.</p>
-        ` },
-        { title: 'Future trends', html: `
-          <div class="chips"><span class="chip">Floating solar farms</span><span class="chip">Building-integrated PV</span><span class="chip">Perovskite solar cells</span><span class="chip">Offshore floating wind</span><span class="chip">Green hydrogen</span><span class="chip">Smart grids</span><span class="chip">AI for energy management</span><span class="chip">Advanced batteries</span><span class="chip">Microgrids</span><span class="chip">Vehicle-to-grid</span></div>
-          <p>Closing point: future energy is about producing it <b>responsibly</b>, not just more.</p>
+          <p><b>Complementary in time</b>: solar midday, wind often night or storms; build <b>both together</b>.</p>
+          <p>Benefits: <b>less CO₂</b>, cleaner air, conserves fossil fuels, mitigates climate change, protects ecosystems, <b>energy security</b>.</p>
+          <p>Engineers: efficient panels, turbines, storage, <b>smart grids</b>, AI.</p>
+          <div class="chips"><span class="chip">Floating solar</span><span class="chip">BIPV</span><span class="chip">Perovskite</span><span class="chip">Floating offshore wind</span><span class="chip">Green hydrogen</span><span class="chip">Smart grids</span><span class="chip">Microgrids</span><span class="chip">Vehicle-to-grid</span></div>
         ` }
       ],
       flashcards: [
@@ -365,63 +278,35 @@ CHUNK({
       id: 'm7-hydro-energy',
       title: 'Hydroelectric energy: principle, plant and types',
       short: 'Hydropower basics',
-      blurb: 'Hydropower\'s share, the four-stage energy conversion, the seven plant components, the four plant types with Indian examples, and its advantages.',
+      blurb: 'Hydro share, energy chain, plant parts, four plant types with Indian examples, advantages.',
       source: 'Lecture W6 Part 2 (Hydro and Geothermal), pages 1–4',
       tabs: [
-        { title: 'Continuous renewables', html: `
-          <p class="lead"><b>Hydro and geothermal</b> give <b>continuous electricity</b>, unlike solar and wind.</p>
-          <ul>
-            <li><b>Hydropower</b>: world's <b>largest renewable electricity source</b>, about <b>15–16%</b> of global generation.</li>
-            <li><b>Geothermal</b>: less used, very reliable; <b>Iceland</b> over <b>20%</b>, <b>Kenya</b> about <b>47%</b> of electricity.</li>
-          </ul>
-        ` },
         { title: 'How hydropower works', html: `
-          <p class="lead"><b>Hydropower</b>: water at <b>height (potential)</b> or <b>speed (kinetic)</b> → electricity.</p>
-          <p>Ancient <b>water wheels</b> ground grain; same principle.</p>
-          <ol class="steps">
-            <li><b>Potential energy</b> in reservoir at height h released via <b>sluice gates</b>.</li>
-            <li><b>Kinetic energy</b>: water speeds down <b>penstocks</b> (large steel pipes/tunnels).</li>
-            <li><b>Mechanical energy</b>: jet spins hydraulic <b>turbine</b>.</li>
-            <li><b>Electrical energy</b>: shaft drives <b>generator</b>.</li>
-          </ol>
+          <ul>
+            <li><b>Hydro</b>: <b>largest renewable</b> electricity, <b>15–16%</b> of global.</li>
+            <li>Geothermal share: <b>Iceland</b> &gt;<b>20%</b>, <b>Kenya</b> ~<b>47%</b>.</li>
+          </ul>
           <div class="eq">Potential → Kinetic → Mechanical → Electrical</div>
+          <div class="kv"><div><span>Reservoir</span><b>Energy storage</b></div><div><span>Dam</span><b>Blocks river, keeps pressure</b></div><div><span>Sluice gate</span><b>Releases water</b></div><div><span>Penstock</span><b>Steel pipe to turbine</b></div><div><span>Turbine, generator</span><b>Mechanical → electrical</b></div><div><span>Transformer</span><b>Raises voltage</b></div></div>
           <figure data-fig="m7-hydro-plant"></figure>
         ` },
-        { title: 'Plant components', html: `
+        { title: 'Types and advantages', html: `
           <table class="tbl">
+            <thead><tr><th>Type</th><th>Key fact</th><th>Example</th></tr></thead>
             <tbody>
-              <tr><td><b>Reservoir</b></td><td>Stores water; <b>energy storage</b>.</td></tr>
-              <tr><td><b>Dam</b></td><td>Blocks river, creates reservoir, keeps pressure.</td></tr>
-              <tr><td><b>Penstock</b></td><td>Pipe carrying water to turbines.</td></tr>
-              <tr><td><b>Turbine</b></td><td>Water energy → mechanical.</td></tr>
-              <tr><td><b>Generator</b></td><td>Rotation → electricity.</td></tr>
-              <tr><td><b>Transformer</b></td><td><b>Raises voltage</b> for long-distance transmission.</td></tr>
-              <tr><td><b>Transmission lines</b></td><td>To homes, industries.</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'Types of plant', html: `
-          <table class="tbl">
-            <thead><tr><th>Type</th><th>How it works</th><th>Example</th></tr></thead>
-            <tbody>
-              <tr><td><b>Storage</b></td><td>Dam + reservoir; <b>most common</b>; reliable.</td><td><b>Tehri Dam</b>, Uttarakhand (1,000 MW)</td></tr>
-              <tr><td><b>Run-of-the-river</b></td><td>Natural flow, <b>no large reservoir</b>; less impact; output varies with discharge.</td><td><b>Srinagar Hydro</b>, Alaknanda River (330 MW)</td></tr>
-              <tr><td><b>Pumped storage</b></td><td><b>Giant rechargeable battery</b>: pump uphill at low demand, release at peak; stores surplus renewables.</td><td><b>Kadamparai</b>, Tamil Nadu (400 MW)</td></tr>
-              <tr><td><b>Micro and pico</b></td><td><b>Below 100 kW</b>; small streams, canals; off-grid.</td><td>Rural electrification in Himalayan villages</td></tr>
+              <tr><td><b>Storage</b></td><td><b>Most common</b></td><td><b>Tehri</b>, Uttarakhand, 1,000 MW</td></tr>
+              <tr><td><b>Run-of-river</b></td><td><b>No large reservoir</b></td><td><b>Srinagar</b>, Alaknanda, 330 MW</td></tr>
+              <tr><td><b>Pumped storage</b></td><td>Pump up at low demand; <b>battery</b></td><td><b>Kadamparai</b>, TN, 400 MW</td></tr>
+              <tr><td><b>Micro/pico</b></td><td><b>Below 100 kW</b></td><td>Himalayan villages</td></tr>
             </tbody>
           </table>
           <div data-viz="pumped-storage"></div>
-          <div class="note trap">Pumped storage <b>uses</b> more electricity than it returns; it shifts power to peak times.</div>
-        ` },
-        { title: 'Advantages', html: `
+          <div class="note trap">Pumped storage <b>uses</b> more electricity than it returns; it shifts power to peak.</div>
           <ul>
-            <li><b>Renewable</b>: water cycle refills rivers.</li>
-            <li><b>Long asset life</b>: <b>50–100+ years</b>; low cost per kWh.</li>
-            <li><b>Zero direct emissions</b>; but tropical reservoirs can release <b>methane</b>.</li>
-            <li><b>High efficiency</b>, often <b>above 90%</b>.</li>
-            <li><b>Dispatchable baseload</b>: <b>on demand</b> any hour; steadies grid.</li>
-            <li><b>Co-benefits</b>: irrigation, municipal water, flood control, navigation, fisheries, recreation.</li>
-            <li><b>Pumped storage</b>: world's <b>dominant grid-scale storage</b>.</li>
+            <li>Life <b>50–100+ years</b>; efficiency <b>&gt;90%</b>.</li>
+            <li><b>Dispatchable</b> baseload; zero direct emissions, but tropical reservoirs emit <b>methane</b>.</li>
+            <li>Co-benefits: irrigation, flood control, navigation, fisheries.</li>
+            <li>Pumped storage: world's <b>dominant grid-scale storage</b>.</li>
           </ul>
         ` }
       ],
@@ -451,26 +336,25 @@ CHUNK({
       id: 'm7-hydro-impacts-india',
       title: 'Hydropower: environmental problems and India',
       short: 'Hydro impacts, India',
-      blurb: 'The six environmental challenges of large dams, including Sardar Sarovar\'s displacement, and India\'s major hydro projects.',
+      blurb: 'Six problems of large dams, Sardar Sarovar displacement, India\'s major hydro projects.',
       source: 'Lecture W6 Part 2 (Hydro and Geothermal), pages 4–5',
       tabs: [
         { title: 'Environmental challenges', html: `
           <table class="tbl">
             <tbody>
-              <tr><td><b>Flooding of land</b></td><td>Floods forests, farmland; <b>reduces downstream fertility</b> (silt trapped).</td></tr>
-              <tr><td><b>Displacement</b></td><td><b>Sardar Sarovar Dam</b> displaced about <b>320,000 people</b>.</td></tr>
-              <tr><td><b>Ecosystem disruption</b></td><td><b>Blocks fish migration</b>; changes temperature, sediment; destroys riparian habitats.</td></tr>
-              <tr><td><b>Sedimentation</b></td><td><b>Silt</b> fills reservoir; less capacity, shorter life.</td></tr>
-              <tr><td><b>Seismic risk</b></td><td>Water pressure on faults can <b>induce earthquakes</b>.</td></tr>
-              <tr><td><b>Hydrology dependence</b></td><td><b>Drought</b>, changing rainfall cut generation.</td></tr>
+              <tr><td><b>Flooding of land</b></td><td>Forests, farmland lost; <b>silt trapped</b>, less downstream fertility</td></tr>
+              <tr><td><b>Displacement</b></td><td><b>Sardar Sarovar</b>: ~<b>320,000</b> people</td></tr>
+              <tr><td><b>Ecosystem disruption</b></td><td>Blocks <b>fish migration</b>; riparian habitat lost</td></tr>
+              <tr><td><b>Sedimentation</b></td><td>Silt fills reservoir, shortens life</td></tr>
+              <tr><td><b>Seismic risk</b></td><td>Water pressure on faults: <b>induced earthquakes</b></td></tr>
+              <tr><td><b>Hydrology dependence</b></td><td><b>Drought</b> cuts output</td></tr>
             </tbody>
           </table>
-          <p>Focus now: <b>environmentally sustainable dam designs</b>.</p>
         ` },
         { title: 'Hydropower in India', html: `
-          <p class="lead">India has huge hydro potential thanks to the <b>Himalayan rivers</b> and the <b>Western Ghats</b>.</p>
-          <div class="chips"><span class="chip">Bhakra Nangal Project</span><span class="chip">Hirakud Dam</span><span class="chip">Tehri Dam</span><span class="chip">Sardar Sarovar Project</span></div>
-          <p>Also support <b>irrigation and water management</b>. <b>Small hydropower</b> growing in mountains (less disturbance).</p>
+          <p>Potential from <b>Himalayan rivers</b> and <b>Western Ghats</b>.</p>
+          <div class="chips"><span class="chip">Bhakra Nangal</span><span class="chip">Hirakud</span><span class="chip">Tehri</span><span class="chip">Sardar Sarovar</span></div>
+          <p>Also irrigation, water management. <b>Small hydro</b> growing in mountains: less disturbance.</p>
         ` }
       ],
       flashcards: [
@@ -492,36 +376,30 @@ CHUNK({
       id: 'm7-geothermal',
       title: 'Geothermal energy: source and plant types',
       short: 'Geothermal basics',
-      blurb: 'What geothermal energy is, the geothermal gradient, how a plant recycles water, and dry steam, flash steam and binary cycle plants.',
+      blurb: 'Definition, geothermal gradient, re-injection, dry steam vs flash vs binary.',
       source: 'Lecture W6 Part 2 (Hydro and Geothermal), pages 5–6',
       tabs: [
-        { title: 'Definition and source', html: `
-          <p class="lead"><b>Geothermal</b>: Greek <b>geo</b> (Earth) + <b>therme</b> (heat); <b>heat stored beneath Earth's surface</b>.</p>
-          <p>From <b>planet's formation</b> and <b>radioactive decay</b>. Available <b>continuously, day and night</b>: <b>base-load</b> source.</p>
-          <p>Temperature <b>rises with depth</b> = <b>geothermal gradient</b>. Heats underground water into hot water/steam; <b>wells drilled</b>; steam drives turbines.</p>
-        ` },
-        { title: 'How a plant works', html: `
-          <ol class="steps">
-            <li><b>Production wells</b> bring hot water or steam to the surface.</li>
-            <li><b>Steam spins the turbine</b>.</li>
-            <li><b>The generator</b> makes electricity.</li>
-            <li><b>Injection wells</b> return the cooled water underground.</li>
-          </ol>
-          <p>Re-injection <b>maintains reservoir pressure</b>, long-term supply.</p>
+        { title: 'Source and plant', html: `
+          <ul>
+            <li><b>Geo</b> (Earth) + <b>therme</b> (heat).</li>
+            <li>Heat from <b>planet's formation</b> + <b>radioactive decay</b>; <b>base-load</b>.</li>
+            <li><b>Geothermal gradient</b>: temperature rises with depth.</li>
+            <li>Continuous, <b>day and night</b>.</li>
+            <li><b>Production wells</b> bring steam up → turbine → generator; <b>injection wells</b> return water, keep <b>reservoir pressure</b>.</li>
+          </ul>
           <figure data-fig="m7-geothermal-plants"></figure>
         ` },
         { title: 'Three plant types', html: `
           <table class="tbl">
-            <thead><tr><th>Type</th><th>How it works</th><th>Key facts</th></tr></thead>
+            <thead><tr><th>Type</th><th>Temp</th><th>Key fact</th></tr></thead>
             <tbody>
-              <tr><td><b>Dry steam</b></td><td>Natural <b>dry steam</b> piped <b>straight to turbine</b>.</td><td><b>Simplest and oldest</b>; rare. <b>The Geysers, California</b> (world's largest complex).</td></tr>
-              <tr><td><b>Flash steam</b></td><td>Water <b>above 180 °C</b> suddenly depressurised ("flashed") in tank; steam drives turbine; rest re-injected.</td><td><b>Most common</b> worldwide.</td></tr>
-              <tr><td><b>Binary cycle</b></td><td>Water at <b>100–180 °C</b> heats a low-boiling <b>secondary fluid</b> (<b>isobutane or pentane</b>) via heat exchanger; it drives turbine. Geothermal water never touches turbine, fully re-injected.</td><td><b>Most flexible</b>: lower temperatures; <b>almost zero emissions</b>.</td></tr>
+              <tr><td><b>Dry steam</b></td><td>Natural steam</td><td><b>Oldest, simplest</b>; <b>The Geysers</b>, California</td></tr>
+              <tr><td><b>Flash steam</b></td><td>&gt;<b>180 °C</b></td><td><b>Most common</b>; water suddenly depressurised</td></tr>
+              <tr><td><b>Binary cycle</b></td><td><b>100–180 °C</b></td><td>Heats <b>isobutane/pentane</b>; water never touches turbine; <b>most flexible</b>, near-zero emissions</td></tr>
             </tbody>
           </table>
           <div data-viz="geothermal-picker"></div>
-          <div class="mnemonic">Temperature ladder: binary 100–180 °C, flash above 180 °C, dry steam needs natural steam.</div>
-          <div class="note trap">"Most common" is <b>flash steam</b>; "oldest and simplest" is <b>dry steam</b>; "lowest temperature, near-zero emissions" is <b>binary</b>.</div>
+          <div class="note trap">Most common = <b>flash</b>; oldest = <b>dry steam</b>; lowest temperature = <b>binary</b>.</div>
         ` }
       ],
       flashcards: [
@@ -545,43 +423,22 @@ CHUNK({
       id: 'm7-geothermal-uses',
       title: 'Geothermal: uses, pros, limits and where',
       short: 'Geothermal uses',
-      blurb: 'Eight applications, the advantages (80–95% capacity factor), the limitations (Basel EGS, H₂S), world leaders and India\'s four geothermal regions.',
+      blurb: 'Uses, 80–95% capacity factor, Basel EGS and H₂S, world leaders, India\'s four regions.',
       source: 'Lecture W6 Part 2 (Hydro and Geothermal), pages 6–8',
       tabs: [
-        { title: 'Applications', html: `
-          <div class="chips"><span class="chip">Electricity generation</span><span class="chip">District heating</span><span class="chip">Greenhouse heating</span><span class="chip">Industrial drying</span><span class="chip">Aquaculture</span><span class="chip">Hot water supply</span><span class="chip">Spa tourism</span><span class="chip">Heat pumps for buildings</span></div>
-          <p>Also used <b>directly</b>: districts, greenhouses, fish farms, drying, hot water.</p>
-        ` },
-        { title: 'Advantages', html: `
+        { title: 'Uses, pros, limits', html: `
+          <div class="chips"><span class="chip">Electricity</span><span class="chip">District heating</span><span class="chip">Greenhouses</span><span class="chip">Aquaculture</span><span class="chip">Industrial drying</span><span class="chip">Hot water</span><span class="chip">Spa tourism</span><span class="chip">Heat pumps</span></div>
           <ul>
-            <li><b>Baseload</b>: capacity factor <b>80–95%</b> vs <b>solar (20–25%)</b>, <b>wind (25–40%)</b>. Iceland's plants run almost all year.</li>
-            <li><b>Tiny land footprint</b>.</li>
-            <li><b>Minimal emissions</b>: binary near zero; flash small natural gases.</li>
-            <li><b>Stable output</b>: no weather, season, time effects.</li>
-            <li><b>Long resource life</b>: decades if extraction balances recharge.</li>
-            <li><b>24 hours</b>; cuts fossil use; suits <b>sustainable cities</b>.</li>
-          </ul>
-        ` },
-        { title: 'Limitations', html: `
-          <ul>
-            <li><b>Geographic specificity</b>: <b>geologically active</b> regions; India has limited high-temperature resources.</li>
-            <li><b>High exploration cost</b>: deep drilling may find nothing.</li>
-            <li><b>EGS problems</b>: Enhanced Geothermal Systems use hydraulic fracturing → <b>induced earthquakes</b>; <b>Basel, Switzerland</b> project abandoned.</li>
-            <li><b>Hydrogen sulphide (H₂S)</b>: must be treated (air pollution, health).</li>
+            <li>Capacity factor <b>80–95%</b> (solar 20–25%, wind 25–40%); <b>tiny land footprint</b>; stable 24 h.</li>
+            <li>Limits: <b>geologically active</b> regions only; high <b>exploration cost</b>.</li>
+            <li><b>EGS</b> (Enhanced Geothermal Systems) fracking → earthquakes; <b>Basel, Switzerland</b> abandoned.</li>
+            <li><b>H₂S</b> (hydrogen sulphide) must be treated.</li>
           </ul>
         ` },
         { title: 'World and India', html: `
-          <p>Major: <b>Iceland, USA, Indonesia, Philippines, Kenya, New Zealand</b>. <b>Iceland</b>: nearly every building geothermally heated.</p>
-          <p>India: <b>moderate</b> potential. Key regions:</p>
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Puga Valley</b></td><td>Ladakh</td></tr>
-              <tr><td><b>Tattapani</b></td><td>Chhattisgarh</td></tr>
-              <tr><td><b>Manikaran</b></td><td>Himachal Pradesh</td></tr>
-              <tr><td><b>Cambay Basin</b></td><td>Gujarat</td></tr>
-            </tbody>
-          </table>
-          <p>Commercial geothermal power in India still <b>limited</b>.</p>
+          <p>Leaders: <b>Iceland</b> (almost all buildings heated), USA, Indonesia, Philippines, Kenya, New Zealand.</p>
+          <p>India: <b>moderate</b> potential, limited high-temperature resources; commercial power still limited.</p>
+          <div class="kv"><div><span>Ladakh</span><b>Puga Valley</b></div><div><span>Chhattisgarh</span><b>Tattapani</b></div><div><span>Himachal</span><b>Manikaran</b></div><div><span>Gujarat</span><b>Cambay Basin</b></div></div>
         ` }
       ],
       flashcards: [
@@ -603,48 +460,26 @@ CHUNK({
       id: 'm7-hydro-vs-geothermal',
       title: 'Hydro vs geothermal, engineers, SDGs and trends',
       short: 'Hydro vs geothermal',
-      blurb: 'The side-by-side comparison table, which engineers do what, the four linked SDGs and the future trends for hydro and geothermal.',
+      blurb: 'Hydro vs geothermal table, engineers\' roles, SDGs 7, 9, 11, 13, trends.',
       source: 'Lecture W6 Part 2 (Hydro and Geothermal), pages 8–9',
       tabs: [
         { title: 'Comparison', html: `
           <table class="tbl">
-            <thead><tr><th>Parameter</th><th>Hydroelectric</th><th>Geothermal</th></tr></thead>
+            <thead><tr><th></th><th>Hydro</th><th>Geothermal</th></tr></thead>
             <tbody>
-              <tr><td>Energy source</td><td>Flowing water</td><td>Earth's internal heat</td></tr>
-              <tr><td>Resource requirement</td><td>Rivers or reservoirs</td><td>Geothermal reservoirs</td></tr>
-              <tr><td>Land area</td><td><b>Large</b></td><td><b>Small</b></td></tr>
-              <tr><td>Technology maturity</td><td><b>Mature</b></td><td><b>Emerging</b></td></tr>
-              <tr><td>Availability</td><td><b>Seasonal</b>, depends on water</td><td><b>Continuous</b></td></tr>
-              <tr><td>Electricity output</td><td>High</td><td>Moderate</td></tr>
-              <tr><td>Environmental impact</td><td>Possible ecological disruption</td><td>Comparatively limited</td></tr>
+              <tr><td>Source</td><td>Flowing water</td><td>Earth's internal heat</td></tr>
+              <tr><td>Land</td><td><b>Large</b></td><td><b>Small</b></td></tr>
+              <tr><td>Maturity</td><td><b>Mature</b></td><td><b>Emerging</b></td></tr>
+              <tr><td>Availability</td><td><b>Seasonal</b></td><td><b>Continuous</b></td></tr>
+              <tr><td>Output</td><td>High</td><td>Moderate</td></tr>
+              <tr><td>Impact</td><td>Ecological disruption</td><td>Limited</td></tr>
             </tbody>
           </table>
-          <div class="note heads-up">PDF table rows are misaligned; this pairing matches the lecture text (hydro mature, water-dependent, high output, large area).</div>
+          <p>SDGs: <b>7</b> Affordable and Clean Energy, <b>9</b> Industry and Infrastructure, <b>11</b> Sustainable Cities, <b>13</b> Climate Action.</p>
         ` },
-        { title: 'Role of engineers', html: `
-          <table class="tbl">
-            <tbody>
-              <tr><td><b>Civil</b></td><td>Design dams and reservoirs.</td></tr>
-              <tr><td><b>Mechanical</b></td><td>Design turbines.</td></tr>
-              <tr><td><b>Electrical</b></td><td>Optimise power transmission.</td></tr>
-              <tr><td><b>Environmental</b></td><td>Assess ecological impacts.</td></tr>
-              <tr><td><b>Geological</b></td><td>Find geothermal reservoirs.</td></tr>
-              <tr><td><b>Chemical</b></td><td>Improve <b>corrosion-resistant materials</b> for geothermal plants.</td></tr>
-              <tr><td><b>Computer</b></td><td>Build smart monitoring systems for power plants.</td></tr>
-            </tbody>
-          </table>
-        ` },
-        { title: 'SDGs and trends', html: `
-          <h3>Linked Sustainable Development Goals</h3>
-          <ul>
-            <li><b>SDG 7</b>: Affordable and Clean Energy.</li>
-            <li><b>SDG 9</b>: Industry, Innovation and Infrastructure.</li>
-            <li><b>SDG 11</b>: Sustainable Cities and Communities.</li>
-            <li><b>SDG 13</b>: Climate Action.</li>
-          </ul>
-          <h3>Future trends</h3>
-          <div class="chips"><span class="chip">Small modular hydropower</span><span class="chip">Fish-friendly turbines</span><span class="chip">Floating hydropower</span><span class="chip">Enhanced geothermal systems</span><span class="chip">AI plant monitoring</span><span class="chip">Smart renewable grids</span><span class="chip">Hydro + solar + wind hybrids</span></div>
-          <p>With solar and wind, the <b>backbone</b> of sustainable energy; generate <b>responsibly, efficiently, sustainably</b>.</p>
+        { title: 'Engineers and trends', html: `
+          <div class="kv"><div><span>Civil</span><b>Dams</b></div><div><span>Mechanical</span><b>Turbines</b></div><div><span>Electrical</span><b>Transmission</b></div><div><span>Environmental</span><b>Ecological impact</b></div><div><span>Geological</span><b>Find reservoirs</b></div><div><span>Chemical</span><b>Corrosion-resistant materials</b></div><div><span>Computer</span><b>Smart monitoring</b></div></div>
+          <div class="chips"><span class="chip">Fish-friendly turbines</span><span class="chip">Floating hydropower</span><span class="chip">EGS</span><span class="chip">Small modular hydro</span><span class="chip">AI monitoring</span><span class="chip">Hydro + solar + wind hybrids</span></div>
         ` }
       ],
       flashcards: [
