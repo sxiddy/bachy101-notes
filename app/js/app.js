@@ -37,6 +37,7 @@ window.__startApp = function () {
   const P = {
     side: '<rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16"/>',
     search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+    target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
     home: '<path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10"/>',
     check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
     chev: '<path d="m6 9 6 6 6-6"/>',
@@ -87,7 +88,7 @@ window.__startApp = function () {
 
   // ================================================================ store
   const KEY = 'bachy101-notes:v1';
-  function blank() { return { visited: {}, done: {}, tags: {}, notes: {}, hl: {}, q: {}, cards: {}, confusing: {}, study: {}, syl: {}, resets: {}, last: null, ui: { closed: {}, lastTab: {} } }; }
+  function blank() { return { visited: {}, done: {}, tags: {}, notes: {}, hl: {}, q: {}, cards: {}, confusing: {}, study: {}, syl: {}, resets: {}, fast: {}, last: null, ui: { closed: {}, lastTab: {} } }; }
   function normalize(s) {
     const b = blank();
     if (!s || typeof s !== 'object') return b;
@@ -142,6 +143,10 @@ window.__startApp = function () {
     if (t.cardCount == null) t.cardCount = t.flashcards.length;
   });
   const SUM = D.summaries || {};
+  // Fast track (content/fast-mX.js): starred facts, high-yield topics and 10 must-do MCQs per week
+  const FAST = D.fast || {};
+  const HY = new Set([].concat(...Object.values(FAST).map((f) => f.hy || [])));
+  const hyTag = (tid) => (HY.has(tid) ? '<span class="hy-tag" title="Topics the quizzes keep coming back to">Often asked</span>' : '');
   // Modules whose files were not loaded (not paid, or not in a single-module grant) show as locked.
   MODULES.forEach((m) => { m.locked = !!window.APP_LOCKED && !m.free && !m.topics.length; });
 
@@ -398,6 +403,7 @@ window.__startApp = function () {
             ${(QBY.mixed || []).length ? `<a class="sb-topic" href="#questions.mixed" data-key="questions.mixed"><span class="lbl">Mixed: across weeks</span><span class="count">${QBY.mixed.length}</span></a>` : ''}
           </div></div>
         </div>
+        ${Object.keys(FAST).length ? `<a class="sb-link" href="#fast" data-key="fast">${icon('target')}<span>Fast track</span><span class="count" data-fastpct>${fastTotal().pct}%</span></a>` : ''}
         <a class="sb-link" href="#quiz" data-key="quiz">${icon('quiz')}<span>Quiz</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
         <a class="sb-link" href="#cards" data-key="cards">${icon('cards')}<span>Flashcards</span><span class="count">${CARDS.length}</span></a>
         <a class="sb-link" href="#formulas" data-key="formulas">${icon('sigma')}<span>Formula sheet</span>${PRO ? '' : '<span class="pro-tag">Pro</span>'}</a>
@@ -558,7 +564,7 @@ window.__startApp = function () {
     let m = raw.match(/^(m[0-9]+)-summary$/);
     if (m && MOD[m[1]] && MOD[m[1]].locked) return { view: 'unlock' };
     if (m && MOD[m[1]]) return { view: 'summary', mod: m[1] };
-    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock|laws)(?:\.([a-z0-9-]+))?$/);
+    m = raw.match(/^(questions|cards|quiz|formulas|lab|mine|guide|syllabus|battle|papers|revise|mock|laws|fast)(?:\.([a-z0-9-]+))?$/);
     if (m) return { view: m[1], arg: m[2] || null };
     m = raw.match(/^([a-z0-9-]+?)(?:\.(\d+))?$/);
     if (m && TOPIC[m[1]]) return { view: 'topic', id: m[1], tab: m[2] != null ? +m[2] : null };
@@ -614,6 +620,7 @@ window.__startApp = function () {
         case 'mine': view = PRO ? viewMine(r) : viewProTeaser('mine'); break;
         case 'revise': view = PRO ? viewRevise(r) : viewProTeaser('revise'); break;
         case 'laws': view = LAWS ? viewLaws() : viewHome(); break;
+        case 'fast': view = viewFast(r); break;
         case 'mock': case 'syllabus': case 'papers': view = viewHome(); break; // EVS has no CAT/FAT: all exams are online (owner, 10-11-2026)
         case 'pro': view = viewGoPro(r); break;
         case 'guide': view = viewGuide(r); break;
@@ -918,6 +925,65 @@ window.__startApp = function () {
   }
 
   // Night-before revision pack (Pro): the formulas, one-liners, numbers and traps of every module on one page; Print saves a PDF.
+  // ---------------------------------------------------------------- fast track
+  const fmtMins = (m) => (m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? ' ' + (m % 60) + ' min' : ''}` : `${m} min`);
+  function fastProg(mid) {
+    const f = FAST[mid]; if (!f) return { pct: 0, answered: 0, total: 0, done: false };
+    const st = S.fast[mid] || {}, ids = (f.mcqs || []).filter((id) => QID[id]);
+    const answered = ids.filter((id) => S.q[id] && S.q[id].seen).length;
+    const pct = st.done ? 100 : Math.min(90, Math.round((st.read ? 30 : 0) + (ids.length ? (answered / ids.length) * 60 : 0)));
+    return { pct, answered, total: ids.length, done: !!st.done };
+  }
+  function fastTotal() {
+    const ids = MODULES.filter((m) => FAST[m.id] && m.topics.length).map((m) => m.id);
+    const pct = ids.length ? Math.round(ids.reduce((a, id) => a + fastProg(id).pct, 0) / ids.length) : 0;
+    return { pct, weeks: ids.length, mins: ids.reduce((a, id) => a + (FAST[id].minutes || 0), 0), ids };
+  }
+  function viewFast(r) {
+    const el = h('div', { class: 'view fast' });
+    const mid = r.arg && FAST[r.arg] && MOD[r.arg] && MOD[r.arg].topics.length ? r.arg : null;
+    if (!mid) {
+      setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Fast track' }]); setActive('fast'); document.title = 'Fast track · BACHY101 Notes';
+      const ft = fastTotal();
+      el.innerHTML = `
+        <div class="eyebrow"><span class="code">Fast track</span><span>${ft.weeks} weeks · about ${fmtMins(ft.mins)}</span></div>
+        <h1 class="h-display">Fast track</h1>
+        <p class="blurb">The short path through the course. For each week: the facts you must know, the topics quizzes keep coming back to, and 10 MCQs to lock it in. When every ring is full you've covered the core; the full notes are there whenever you want more depth.</p>
+        <div class="fast-total"><div class="ring" style="--p:${ft.pct}"><span>${ft.pct}%</span></div><p class="muted">${ft.ids.filter((id) => fastProg(id).done).length} of ${ft.weeks} weeks done</p></div>
+        <div class="fast-list">${ft.ids.map((id) => { const m = MOD[id], p = fastProg(id); return `<a class="fast-row${p.done ? ' done' : ''}" href="#fast.${id}"><div class="ring" style="--p:${p.pct}"><span>${p.pct}%</span></div><div><span class="mod-num">Week ${+m.num}</span><h3>${esc(m.title)}</h3><p>${(FAST[id].facts || []).length} facts · ${p.answered}/${p.total} MCQs · about ${fmtMins(FAST[id].minutes || 0)}</p></div><span class="arrow">${icon('right')}</span></a>`; }).join('')}</div>`;
+      return { el };
+    }
+    const m = MOD[mid], f = FAST[mid];
+    setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Fast track', href: '#fast' }, { t: 'Week ' + (+m.num) }]); setActive('fast'); document.title = `Week ${+m.num} fast track · BACHY101 Notes`;
+    const st = S.fast[mid] || (S.fast[mid] = {});
+    if (!st.read) { st.read = Date.now(); save(); }
+    const ids = (f.mcqs || []).filter((id) => QID[id] && QID[id].options);
+    const hy = (f.hy || []).filter((t) => TOPIC[t]);
+    const ix = fastTotal().ids, nextId = ix[ix.indexOf(mid) + 1];
+    el.innerHTML = `
+      <div class="eyebrow"><span class="code">Fast track</span><span>Week ${+m.num}</span><span class="dot">·</span><span>about ${fmtMins(f.minutes || 0)}</span></div>
+      <h1 class="h-display">${esc(m.title)}</h1>
+      <div class="fast-prog"><div class="ring" data-ring><span></span></div><p class="muted">Read the facts, try the 10 MCQs, then tick the week off.</p></div>
+      <section class="sum-sec"><h2 class="h-sec">Must-know facts</h2>
+        <ol class="fast-facts">${(f.facts || []).map((x) => `<li class="${x.star ? 'star' : ''}"><span class="fnum" aria-hidden="true"></span><div class="prose">${x.star ? '<span class="hy-tag">Often asked</span> ' : ''}${x.html}${TOPIC[x.t] ? ` <a class="fsrc" href="#${x.t}">${rt(TOPIC[x.t].short || TOPIC[x.t].title)} →</a>` : ''}</div></li>`).join('')}</ol>
+      </section>
+      ${hy.length ? `<section class="sum-sec"><h2 class="h-sec">Read these in full</h2><p class="muted" style="margin-top:0">The topics quizzes keep coming back to. If you open only a few, open these.</p><div>${hy.map((t) => topicRow(TOPIC[t])).join('')}</div></section>` : ''}
+      <section class="sum-sec"><h2 class="h-sec">Lock it in: 10 MCQs</h2><p class="muted" style="margin-top:0" data-mcqcount></p><div data-mcqs></div></section>
+      <div class="btn-row fast-end"><button class="btn primary" data-done></button>${nextId ? `<a class="btn" href="#fast.${nextId}">Next: Week ${+MOD[nextId].num} ${icon('right')}</a>` : `<a class="btn" href="#fast">All weeks</a>`}</div>`;
+    const holder = $('[data-mcqs]', el), cnt = $('[data-mcqcount]', el), doneBtn = $('[data-done]', el);
+    const paint = () => {
+      const p = fastProg(mid);
+      cnt.textContent = `${p.answered} of ${p.total} answered`;
+      const rg = $('[data-ring]', el); rg.style.setProperty('--p', p.pct); rg.firstChild.textContent = p.pct + '%';
+      doneBtn.innerHTML = `${icon('check')}${st.done ? 'Week ticked off' : 'Tick this week off'}`;
+      const sp = document.querySelector('[data-fastpct]'); if (sp) sp.textContent = fastTotal().pct + '%';
+    };
+    ids.forEach((id) => holder.appendChild(qCard(QID[id], { onAnswer: () => setTimeout(paint) })));
+    doneBtn.addEventListener('click', () => { st.done = !st.done; save(); if (st.done) toast(`Week ${+m.num} fast track done`, 'check'); paint(); });
+    paint();
+    return { el };
+  }
+
   function viewRevise() {
     setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Revision pack' }]); setActive('revise'); document.title = 'Revision pack · BACHY101 Notes';
     const el = h('div', { class: 'view revise' });
@@ -977,7 +1043,7 @@ window.__startApp = function () {
     const f = frac(t);
     return `<a class="trow" href="#${t.id}">
       <span class="tick${isDone(t.id) ? ' done' : ''}" style="--p:${Math.round(f * 100)}%"></span>
-      <div><h3>${rt(t.title)}</h3><p>${rt(t.blurb)}</p></div>
+      <div><h3>${rt(t.title)}${hyTag(t.id)}</h3><p>${rt(t.blurb)}</p></div>
       <span class="meta">${t.tabs.length} tabs <span class="arrow">→</span></span>
     </a>`;
   }
@@ -1025,6 +1091,7 @@ window.__startApp = function () {
         <div class="study-line">${icon('fire')}<span><b>${streakDays()}</b> day${streakDays() === 1 ? '' : 's'} in a row</span><span class="dot">·</span><span><b data-today>${fmtDur(todaySecs())}</b> today</span><span class="dot">·</span><span><b data-total>${fmtDur(totalSecs())}</b> in total</span></div>
         ${last ? `<div class="continue"><a class="btn primary" href="${last.hash}">Continue: ${rt(last.title)} ${icon('right')}</a></div>` : (TOPICS[0] ? `<div class="continue"><a class="btn primary" href="#${TOPICS[0].id}">Start with ${rt(TOPICS[0].title)} ${icon('right')}</a></div>` : '')}
       </section>
+      ${Object.keys(FAST).length ? (() => { const ft = fastTotal(); return `<a class="fast-hero" href="#fast"><div class="ring" style="--p:${ft.pct}"><span>${ft.pct}%</span></div><div><div class="eyebrow"><span class="code">Short on time?</span></div><h2 class="h-sec">Fast track · ${ft.weeks} weeks · about ${fmtMins(ft.mins)}</h2><p>The core of every week in one sitting: the facts you must know, the topics quizzes keep coming back to and 10 MCQs to lock it in. Finish it, then go deeper in the notes.</p></div><span class="arrow">${icon('right')}</span></a>`; })() : ''}
       <section class="subjects">
         <div class="subj-head"><h2 class="h-sub">Subjects</h2><input class="subj-search" type="search" placeholder="Search subjects" aria-label="Search subjects" data-subjq></div>
         <div class="subj-list">${SUBJECTS.map(subjectCard).join('')}</div>
@@ -1342,7 +1409,7 @@ window.__startApp = function () {
     const card = h('article', { class: 'qcard', id: 'q-' + q.id });
     const letters = 'ABCD';
     card.innerHTML = `
-      <div class="qmeta"><span class="qtype">${TYPE_LABEL[q.type] || q.type}</span>${levelDots(q.level || 2)}<span>${esc(topicName(q))}</span><span data-st>${statusTag(q.id)}</span></div>
+      <div class="qmeta"><span class="qtype">${TYPE_LABEL[q.type] || q.type}</span>${levelDots(q.level || 2)}<span>${esc(topicName(q))}</span><span data-st>${statusTag(q.id)}</span><button class="qflag" data-act="flagq" title="Tell us if this question or its answer looks wrong">Spot a mistake?</button></div>
       <div class="qtext prose">${q.q}</div>
       ${q.options ? `<ol class="qopts">${q.options.map((o, k) => `<li><button class="qopt" data-k="${k}"><span class="k">${letters[k]}</span><span>${o}</span></button></li>`).join('')}</ol>` : ''}
       <div class="qactions">
@@ -1358,6 +1425,7 @@ window.__startApp = function () {
     const markSeen = () => { const st = qState(q.id); st.seen++; save(); };
     rev.addEventListener('click', () => { ans.classList.toggle('open'); if (ans.classList.contains('open')) markSeen(); paintRev(); });
     const setStatus = (v) => { const st = qState(q.id); st.status = st.status === v ? undefined : v; save(); $('[data-st]', card).innerHTML = statusTag(q.id); toast(st.status === 'got' ? 'Marked: got it' : st.status === 'revisit' ? 'Added to revisit' : 'Cleared', st.status === 'revisit' ? 'rotate' : 'check'); };
+    $('[data-act="flagq"]', card).addEventListener('click', () => openHelp(q.topic, -1, false, 'Question ' + q.id + ': ' + plain(q.q).slice(0, 80)));
     $('[data-act="got"]', card).addEventListener('click', () => setStatus('got'));
     $('[data-act="revisit"]', card).addEventListener('click', () => setStatus('revisit'));
     if (q.options) $('.qopts', card).addEventListener('click', (e) => {
@@ -1376,7 +1444,7 @@ window.__startApp = function () {
   }
 
   // ---------------------------------------------------------------- question bank
-  const bankUI = { mod: 'all', topic: 'all', type: 'all', level: 0, status: 'all', open: false };
+  const bankUI = { mod: 'all', topic: 'all', type: 'all', level: 0, status: 'all', hy: 'all', open: false };
   function viewBank(r) {
     if (r.arg) {
       if (MOD[r.arg]) { bankUI.mod = r.arg; bankUI.topic = 'all'; }
@@ -1399,6 +1467,7 @@ window.__startApp = function () {
         <div class="frow"><span class="flabel">Topic</span><select class="fselect" data-f="topic" aria-label="Topic"></select></div>
         <div class="frow"><span class="flabel">Type</span>${[['all', 'All'], ...types.map((t) => [t, TYPE_LABEL[t] || t])].map(([v, l]) => `<button class="fchip" data-f="type" data-v="${v}">${l}</button>`).join('')}</div>
         <div class="frow"><span class="flabel">Level</span>${[[0, 'Any'], [1, 'Warm-up'], [2, 'Solid'], [3, 'Stretch']].map(([v, l]) => `<button class="fchip" data-f="level" data-v="${v}">${l}</button>`).join('')}</div>
+        ${HY.size ? `<div class="frow"><span class="flabel">Focus</span>${[['all', 'Everything'], ['hy', 'Often asked only']].map(([v, l]) => `<button class="fchip" data-f="hy" data-v="${v}">${l}</button>`).join('')}</div>` : ''}
         <div class="frow"><span class="flabel">Status</span>${[['all', 'All'], ['unseen', 'Unseen'], ['revisit', 'Revisit'], ['got', 'Got it']].map(([v, l]) => `<button class="fchip" data-f="status" data-v="${v}">${l}</button>`).join('')}</div>
         <div class="frow" style="justify-content:space-between"><button class="pill" data-f="open"><span>Show all answers</span><span class="switch"></span></button><span class="muted" data-count style="font-size:13px"></span><button class="btn small" data-act="practice">${icon('play')}Practise these one by one</button></div>
       </div>
@@ -1417,6 +1486,7 @@ window.__startApp = function () {
         if (bankUI.topic !== 'all' && q.topic !== bankUI.topic) return false;
         if (bankUI.type !== 'all' && q.type !== bankUI.type) return false;
         if (bankUI.level && q.level !== bankUI.level) return false;
+        if (bankUI.hy === 'hy' && !HY.has(q.topic)) return false;
         const st = S.q[q.id];
         if (bankUI.status === 'unseen' && st && st.seen) return false;
         if (bankUI.status === 'revisit' && !(st && st.status === 'revisit')) return false;
@@ -1468,7 +1538,7 @@ window.__startApp = function () {
   }
 
   // ---------------------------------------------------------------- quiz
-  const quizUI = { mods: null, format: 'mcq', count: 10, smart: true, run: null, preset: null };
+  const quizUI = { mods: null, format: 'mcq', count: 10, smart: true, hy: false, run: null, preset: null };
   function viewQuiz(r) {
     setCrumbs([{ t: 'Home', href: '#home' }, { t: 'Quiz' }]); setActive('quiz'); document.title = 'Quiz · BACHY101 Notes';
     const el = h('div', { class: 'view' });
@@ -1477,7 +1547,7 @@ window.__startApp = function () {
     let keyHandler = null;
     function pool() {
       if (quizUI.preset) return quizUI.preset.map((id) => QID[id]).filter(Boolean);
-      return QS.filter((q) => (quizUI.mods.includes(q.module)) && (quizUI.format === 'mixed' || (quizUI.format === 'mcq' ? q.options : !q.options)));
+      return QS.filter((q) => (quizUI.mods.includes(q.module)) && (!quizUI.hy || HY.has(q.topic)) && (quizUI.format === 'mixed' || (quizUI.format === 'mcq' ? q.options : !q.options)));
     }
     function pick() {
       let p = pool();
@@ -1503,7 +1573,7 @@ window.__startApp = function () {
           <div class="frow"><span class="flabel">Weeks</span>${MODULES.filter((m) => m.topics.length).map((m) => `<button class="fchip" data-m="${m.id}">Week ${+m.num} · ${esc(m.title)}</button>`).join('')}</div>
           <div class="frow"><span class="flabel">Format</span>${[['mcq', 'Multiple choice'], ['open', 'Open (self-marked)'], ['mixed', 'Both']].map(([v, l]) => `<button class="fchip" data-fmt="${v}">${l}</button>`).join('')}</div>
           <div class="frow"><span class="flabel">Length</span>${[[10, '10'], [20, '20'], [30, '30'], [0, 'All']].map(([v, l]) => `<button class="fchip" data-n="${v}">${l}</button>`).join('')}</div>
-          <div class="frow"><span class="flabel">Order</span><button class="pill" data-smart><span>Weak spots, unseen and missed first</span><span class="switch"></span></button></div>
+          <div class="frow"><span class="flabel">Order</span><button class="pill" data-smart><span>Weak spots, unseen and missed first</span><span class="switch"></span></button>${HY.size ? `<button class="pill" data-hyq><span>Often-asked topics only</span><span class="switch"></span></button>` : ''}</div>
           <div class="frow"><button class="btn primary" data-start></button></div>
         </div>`;
       const paint = () => {
@@ -1511,6 +1581,7 @@ window.__startApp = function () {
         $$('[data-fmt]', el).forEach((b) => b.classList.toggle('on', b.dataset.fmt === quizUI.format));
         $$('[data-n]', el).forEach((b) => b.classList.toggle('on', +b.dataset.n === quizUI.count));
         $('[data-smart]', el).classList.toggle('on', quizUI.smart);
+        const hyb = $('[data-hyq]', el); if (hyb) hyb.classList.toggle('on', quizUI.hy);
         const n = pool().length, c = quizUI.count ? Math.min(quizUI.count, n) : n;
         const s = $('[data-start]', el); s.innerHTML = `${icon('play')}Start ${c} question${c === 1 ? '' : 's'}`; s.disabled = !c;
       };
@@ -1520,6 +1591,7 @@ window.__startApp = function () {
         if (f) quizUI.format = f.dataset.fmt;
         if (n) quizUI.count = +n.dataset.n;
         if (e.target.closest('[data-smart]')) quizUI.smart = !quizUI.smart;
+        if (e.target.closest('[data-hyq]')) quizUI.hy = !quizUI.hy;
         if (e.target.closest('[data-start]')) { start(pick()); return; }
         paint();
       };
@@ -1545,8 +1617,13 @@ window.__startApp = function () {
       const holder = $('[data-card]', el);
       const next = $('[data-next]', el);
       let answered = false;
+      const PACE = 45, t0 = Date.now();
+      const pace = h('div', { class: 'pace', html: '<div class="pace-bar"><i></i></div><span></span>' });
+      const tickPace = () => { const sec = Math.round((Date.now() - t0) / 1000); $('i', pace).style.width = Math.min(100, (sec / PACE) * 100) + '%'; pace.classList.toggle('over', sec > PACE); $('span', pace).textContent = `${sec}s · aim for ${PACE}s`; };
+      tickPace(); const paceT = q.options ? setInterval(tickPace, 1000) : null;
+      if (!q.options) pace.hidden = true;
       const card = qCard(q, {
-        onAnswer(right) { answered = true; if (right) run.right++; else { run.wrong++; run.missed.push(q.id); } next.hidden = false; next.focus({ preventScroll: true }); }
+        onAnswer(right) { if (paceT) clearInterval(paceT); pace.classList.add('stop'); answered = true; if (right) run.right++; else { run.wrong++; run.missed.push(q.id); } next.hidden = false; next.focus({ preventScroll: true }); }
       });
       card.classList.add('quiz-card');
       if (q.options) $('.qactions', card).remove();
@@ -1566,9 +1643,9 @@ window.__startApp = function () {
           });
         });
       }
-      holder.appendChild(card);
-      next.addEventListener('click', () => { run.i++; step(); pageScroller().scrollTo({ top: 0 }); });
-      $('[data-quit]', el).addEventListener('click', finish);
+      holder.appendChild(card); holder.appendChild(pace);
+      next.addEventListener('click', () => { if (paceT) clearInterval(paceT); run.i++; step(); pageScroller().scrollTo({ top: 0 }); });
+      $('[data-quit]', el).addEventListener('click', () => { if (paceT) clearInterval(paceT); finish(); });
       if (keyHandler) document.removeEventListener('keydown', keyHandler);
       keyHandler = (e) => {
         if (typing(e) || !current || current.view !== 'quiz') return;
@@ -1960,8 +2037,8 @@ window.__startApp = function () {
   function refreshAll() { buildSidebar(); updateOverall(); if (current) render(parse(hashOf(current))); }
 
   // "Help?": a mistake in the notes, a suggestion, something not working, or anything else. Goes to the owner's page.
-  function openHelp(tid, ti, idea) {
-    const t = TOPIC[tid], tabTitle = t && t.tabs[ti] ? t.tabs[ti].title : '';
+  function openHelp(tid, ti, idea, about) {
+    const t = TOPIC[tid], tabTitle = about || (t && t.tabs[ti] ? t.tabs[ti].title : '');
     const kinds = [['mistake', 'Mistake in the notes'], ['suggestion', 'Suggestion'], ['bug', "Something isn't working"], ['other', 'Other']];
     let kind = t ? 'mistake' : 'suggestion';
     overlay((close) => {

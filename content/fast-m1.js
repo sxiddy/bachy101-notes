@@ -1,0 +1,25 @@
+FAST({
+  module: 'm1',
+  minutes: 25,
+  hy: ['m1-evs-intro', 'm1-earth-spheres', 'm1-ecosystem-components', 'm1-ecological-pyramids', 'm1-energy-flow', 'm1-nutrient-cycles'],
+  facts: [
+    { t: 'm1-evs-intro', star: false, html: '<b>Environmental studies</b> adds ethics, society, politics and economics; environmental science studies how nature works, engineering builds the fix.' },
+    { t: 'm1-env-issues', star: false, html: 'IPCC: global temperature has risen about <b>1.1 °C</b> since pre-industrial times.' },
+    { t: 'm1-earth-spheres', star: true, html: 'Air is <b>78% N₂</b> and <b>21% O₂</b>; the ozone layer sits in the <b>stratosphere</b>.' },
+    { t: 'm1-earth-spheres', star: false, html: 'Meteors burn up in the <b>mesosphere</b>, the coldest layer (about −90 °C); auroras and the ISS are in the thermosphere.' },
+    { t: 'm1-earth-spheres', star: false, html: '<b>97%</b> of water is in oceans; only about <b>1%</b> is usable freshwater.' },
+    { t: 'm1-ecosystem-basics', star: false, html: 'A <b>population</b> is one species; a <b>community</b> is many species interacting in one place.' },
+    { t: 'm1-ecosystem-components', star: true, html: 'Earthworms are <b>detritivores</b>, not decomposers.' },
+    { t: 'm1-food-chains', star: false, html: 'In forests and wetlands, <b>80–90%</b> of energy flows through the <b>detritus food chain</b>.' },
+    { t: 'm1-ecological-pyramids', star: true, html: 'The <b>pyramid of energy</b> is always upright; a tree with caterpillars gives an inverted pyramid of number.' },
+    { t: 'm1-ecological-pyramids', star: false, html: 'The ocean pyramid of biomass is <b>inverted</b> because phytoplankton reproduce in hours, keeping standing crop low.' },
+    { t: 'm1-energy-flow', star: true, html: 'Only about <b>10%</b> of energy passes to the next trophic level (<b>Lindemann</b>, 1942): 10,000 kJ at T1 becomes 10 kJ at T4.' },
+    { t: 'm1-energy-flow', star: false, html: '<b>NPP = GPP − R</b>; respiration (about <b>60%</b>) is the largest energy loss between levels.' },
+    { t: 'm1-nutrient-cycles', star: true, html: '<b>Nitrosomonas</b>: ammonia → nitrite; <b>Nitrobacter</b>: nitrite → nitrate; Pseudomonas denitrifies.' },
+    { t: 'm1-nutrient-cycles', star: false, html: 'The <b>phosphorus</b> cycle has no atmospheric phase; oceans absorb about <b>30%</b> of human CO₂.' },
+    { t: 'm1-ecosystem-functions', star: false, html: 'Quick return to original state after a fire shows high <b>resilience</b>; the overgrazing spiral is <b>positive feedback</b>.' },
+    { t: 'm1-succession', star: true, html: '<b>Lichens and mosses</b> pioneer primary succession on bare rock; secondary succession is <b>5–10×</b> faster.' },
+    { t: 'm1-succession', star: false, html: 'Monoclimax theory is <b>F.E. Clemens</b>; polyclimax is Tansley; saline succession is a <b>halosere</b>.' }
+  ],
+  mcqs: ['m1-q-01', 'm1-q-02', 'm1-q-03', 'm1-q-10', 'm1-q-05', 'm1-q-06', 'm1-q-42', 'm1-q-07', 'm1-q-43', 'm1-q-08']
+});
