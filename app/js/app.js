@@ -902,6 +902,7 @@ window.__startApp = function () {
       <p class="no-print">${LAWS.topics.map((t) => `<a class="btn small ghost" href="#laws" data-jump="${t.id}">${esc(t.short || t.title)}</a>`).join(' ')}</p>
       <section class="law-drill no-print" data-drill><h2 class="h-sec">Date drill</h2><p class="blurb">Pick the year. Wrong answers come back sooner.</p><div data-dq></div></section>
       <section class="law-drill no-print" data-adrill><h2 class="h-sec">Article drill</h2><p class="blurb">Pick the Article. Wrong answers come back sooner.</p><div data-aq></div></section>
+      <section class="law-drill no-print" data-sdrill><h2 class="h-sec">Section drill</h2><p class="blurb">Pick the Section of that Act. Wrong answers come back sooner.</p><div data-sq></div></section>
       ${LAWS.topics.map((t) => `<section class="rv-mod" id="law-${t.id}"><h2 class="h-sec">${esc(t.title)}</h2>
         ${t.tabs.map((tb) => `<h3>${esc(tb.title)}</h3><div class="prose">${tb.html}</div>`).join('')}
       </section>`).join('')}`;
@@ -933,6 +934,9 @@ window.__startApp = function () {
     const ARTS = [].concat(...LAWS.topics.map((t) => t.articles || []));
     const OTHER = { c: ['14', '19', '32'], p: [] };
     drill($('[data-aq]', el), ARTS, (it) => ARTS.filter((x) => x[2] === it[2]).map((x) => x[1]).concat(OTHER[it[2]] || []), (y) => 'Article ' + y);
+    // Sections as [what, number, act] (e = EPA, a = Air, w = Water, f = Forest): options from the same Act, topped up from the rest.
+    const SECS = [].concat(...LAWS.topics.map((t) => t.sections || []));
+    drill($('[data-sq]', el), SECS, (it) => { const s = SECS.filter((x) => x[2] === it[2]).map((x) => x[1]); return s.length >= 4 ? s : s.concat(SECS.map((x) => x[1])); }, (y) => 'Section ' + y);
     return { el };
   }
 

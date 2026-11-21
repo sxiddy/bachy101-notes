@@ -462,6 +462,137 @@ CHUNK({
       formulas: []
     },
     {
+      id: 'm6-sections',
+      title: 'Sections: EPA, Air Act, Water Act and Forest Act',
+      short: 'Sections',
+      blurb: 'Every Section number in the syllabus, a hook for each Act, and one table with all of them.',
+      source: 'Compiled from the EPA 1986, Air Act, Water Act and Forest Act topics (Week 4, lectures 22-24)',
+      sections: [
+        ['EPA 1986: the Centre\'s powers, the "master power switch"', '3', 'e'],
+        ['EPA 1986: numerical standards', '6', 'e'],
+        ['EPA 1986: no discharge beyond the standards', '7', 'e'],
+        ['EPA 1986: hazardous substances (the Bhopal response)', '8', 'e'],
+        ['EPA 1986: entry, inspection and samples', '10', 'e'],
+        ['Air Act 1981: definition of "air pollutant"', '2(a)', 'a'],
+        ['Air Act 1981: Air Pollution Control Areas', '19', 'a'],
+        ['Air Act 1981: consent of the State Board', '21', 'a'],
+        ['Air Act 1981: entry, and samples from chimneys', '24', 'a'],
+        ['Air Act 1981: emergency closure without a court', '31A', 'a'],
+        ['Water Act 1974: sets up the CPCB', '3', 'w'],
+        ['Water Act 1974: sets up the SPCBs', '4', 'w'],
+        ['Water Act 1974: Joint Board for two or more states', '13', 'w'],
+        ['Water Act 1974: Boards give binding directions', '18', 'w'],
+        ['Water Act 1974: effluent samples', '21', 'w'],
+        ['Water Act 1974: entry and inspection', '23', 'w'],
+        ['Water Act 1974: absolute ban on polluting a stream or well', '24', 'w'],
+        ['Water Act 1974: consent for new outlets', '25', 'w'],
+        ['Water Act 1974: existing discharges must get consent by a deadline', '26', 'w'],
+        ['Water Act 1974: revocation of consent', '27', 'w'],
+        ['Water Act 1974: emergency measures', '32', 'w'],
+        ['Water Act 1974: Boards apply to courts to stop apprehended pollution', '33', 'w'],
+        ['Water Act 1974: appeal to the NGT', '33B', 'w'],
+        ['Water Act 1974: obstructing officers (3 months or ₹10,000)', '42', 'w'],
+        ['Water Act 1974: the most severe penalty, for breaking Section 24', '43', 'w'],
+        ['Water Act 1974: continuing violation, ₹5,000 per day', '45', 'w'],
+        ['Water Act 1974: companies (directors, managers, engineers liable)', '46', 'w'],
+        ['Water Act 1974: Government departments (Head of Department liable)', '47', 'w'],
+        ['Forest (Conservation) Act 1980: no non-forest use of forest land without prior Central approval', '2', 'f']
+      ],
+      tabs: [
+        { title: 'How to remember', html: `
+          <p class="lead">First ask <b>which Act</b>, then use that Act's hook. The same number means different things in different Acts (see the traps).</p>
+          <h3>1. EPA 1986: "The Centre Powers up, sets a Limit, draws the Line, bans the Gas, sends an Inspector"</h3>
+          <table class="tbl">
+            <thead><tr><th>Say</th><th>Section</th><th>What</th><th>Hook</th></tr></thead>
+            <tbody>
+              <tr><td><b>Power</b></td><td>3</td><td>Central powers (the "master power switch")</td><td>A <b>3</b>-pin plug: the master power switch.</td></tr>
+              <tr><td><b>Limit</b></td><td>6</td><td>Numerical standards</td><td><b>6</b> <b>s</b>ets the <b>s</b>tandards: the number limit.</td></tr>
+              <tr><td><b>Line</b></td><td>7</td><td>No discharge beyond standards</td><td>6 sets the limit, the <b>next</b> one (7) says don't cross it.</td></tr>
+              <tr><td><b>Gas</b></td><td>8</td><td>Hazardous substances (Bhopal response)</td><td><b>8</b> looks like two gas cylinders stacked: Bhopal gas.</td></tr>
+              <tr><td><b>Inspector</b></td><td>10</td><td>Entry, inspection, samples</td><td><b>1</b> inspector + <b>0</b> his magnifying glass.</td></tr>
+            </tbody>
+          </table>
+          <h3>2. Air Act 1981: "Define, Zone, Consent, Chimney, Close"</h3>
+          <ul>
+            <li><b>2(a), Define</b>: Section 2 is the definitions; <b>a</b> for <b>air</b> pollutant (solid, liquid or gas at injurious concentration).</li>
+            <li><b>19, Zone</b>: like <b>COVID-19</b> zones, the State marks out <b>Air Pollution Control Areas</b>.</li>
+            <li><b>21, Consent</b>: at <b>21</b> you are an adult who signs for yourself: get the <b>State Board's consent</b>.</li>
+            <li><b>24, Chimney</b>: <b>24</b>-hour smoke from a chimney: entry and <b>samples from chimneys</b>.</li>
+            <li><b>31A, Close</b>: <b>A</b> for <b>at once</b>: emergency closure <b>without a court</b>.</li>
+          </ul>
+          <h3>3. Water Act 1974: five groups</h3>
+          <table class="tbl">
+            <thead><tr><th>Group</th><th>Sections</th><th>Hook</th></tr></thead>
+            <tbody>
+              <tr><td><b>Boards</b></td><td>3 CPCB, 4 SPCB, 13 Joint Board, 18 directions</td><td>"<b>Centre 3, State 4</b>": the Centre comes first. 13 = <b>1</b> river, <b>3</b>+ states sharing it. 18 = adult: Boards give <b>orders</b>.</td></tr>
+              <tr><td><b>Checks</b></td><td>21 samples, 23 entry</td><td>"<b>21 Sip, 23 Step in</b>": take a sample, then walk in.</td></tr>
+              <tr><td><b>Discharge</b></td><td>24 ban, 25 new, 26 old, 27 gone</td><td>"<b>Ban, New, Old, Gone</b>": count up from 24.</td></tr>
+              <tr><td><b>Help</b></td><td>28/29 State Govt, 32 emergency, 33 courts, 33B NGT</td><td>"<b>State, Siren, Court, Green Bench</b>": 33<b>B</b> = <b>B</b>ench (the NGT, set up 2010).</td></tr>
+              <tr><td><b>Penalties</b></td><td>41-47</td><td>The <b>40s</b> punish. 42 blocked officer (3 months or ₹10,000); <b>43</b> the worst, for breaking 24; 4<b>5</b> = ₹<b>5</b>,000 a day; 46 <b>C</b>ompanies before 47 <b>G</b>overnment (C before G).</td></tr>
+            </tbody>
+          </table>
+          <h3>4. Forest Act 1980: "Section 2 = two keys"</h3>
+          <p>Forest land needs <b>two keys</b> before non-forest use: the State's and the <b>Centre's prior approval</b>. Section 2 is the heart of the Act.</p>
+          <h3>5. Wildlife Act 1972: Schedules, not Sections</h3>
+          <p>Four Schedules since 2022. <b>Schedule I</b> = highest protection, <b>3 to 7 years</b> plus fine. Its animals: "<b>The Elephant and Rhino Saw a Bustard</b>": tiger, elephant, rhino, snow leopard, great Indian bustard.</p>
+          <div class="note exam">Traps: <b>21</b> is <b>consent</b> in the Air Act but <b>samples</b> in the Water Act. <b>24</b> is <b>chimney samples</b> in the Air Act but the <b>absolute ban</b> in the Water Act. <b>3</b> is the Centre's powers in the EPA and the <b>CPCB</b> in the Water Act. Emergencies: Air <b>31A</b> closes at once, Water <b>32</b> takes emergency measures.</div>
+          <div class="note">Then use the <b>Section drill</b> at the top of the Laws, Acts &amp; dates page until you can answer 20 in a row.</div>
+        ` },
+        { title: 'All sections', html: `
+          <table class="tbl">
+            <thead><tr><th>Act</th><th>Section</th><th>What</th></tr></thead>
+            <tbody>
+              <tr><td>EPA 1986</td><td><b>3</b></td><td>Central powers ("master power switch")</td></tr>
+              <tr><td>EPA 1986</td><td><b>6</b></td><td>Numerical standards</td></tr>
+              <tr><td>EPA 1986</td><td><b>7</b></td><td>No discharge beyond standards</td></tr>
+              <tr><td>EPA 1986</td><td><b>8</b></td><td>Hazardous substances (Bhopal response)</td></tr>
+              <tr><td>EPA 1986</td><td><b>10</b></td><td>Entry, inspection, samples</td></tr>
+              <tr><td>Air Act 1981</td><td><b>2(a)</b></td><td>Air pollutant = solid, liquid or gaseous substance at injurious concentration</td></tr>
+              <tr><td>Air Act 1981</td><td><b>19</b></td><td>Air Pollution Control Areas</td></tr>
+              <tr><td>Air Act 1981</td><td><b>21</b></td><td>Consent of State Board</td></tr>
+              <tr><td>Air Act 1981</td><td><b>24</b></td><td>Entry; samples from chimneys</td></tr>
+              <tr><td>Air Act 1981</td><td><b>31A</b></td><td>Emergency closure without court</td></tr>
+              <tr><td>Water Act 1974</td><td><b>3</b></td><td>CPCB (national): advises Centre, coordinates SPCBs, national standards</td></tr>
+              <tr><td>Water Act 1974</td><td><b>4</b></td><td>SPCB (state): consent, monitoring, labs, prosecution</td></tr>
+              <tr><td>Water Act 1974</td><td><b>13</b></td><td>Joint Board: two or more states (inter-state rivers)</td></tr>
+              <tr><td>Water Act 1974</td><td><b>18</b></td><td>Boards give binding directions</td></tr>
+              <tr><td>Water Act 1974</td><td><b>21</b></td><td>Effluent samples</td></tr>
+              <tr><td>Water Act 1974</td><td><b>23</b></td><td>Entry and inspection</td></tr>
+              <tr><td>Water Act 1974</td><td><b>24</b></td><td>Absolute prohibition: no polluting matter into a stream or well</td></tr>
+              <tr><td>Water Act 1974</td><td><b>25</b></td><td>Consent for new outlets</td></tr>
+              <tr><td>Water Act 1974</td><td><b>26</b></td><td>Existing discharges: consent by deadline</td></tr>
+              <tr><td>Water Act 1974</td><td><b>27</b></td><td>Revocation of consent</td></tr>
+              <tr><td>Water Act 1974</td><td><b>28 / 29</b></td><td>Appeal to / revision by State Govt</td></tr>
+              <tr><td>Water Act 1974</td><td><b>32</b></td><td>Emergency measures</td></tr>
+              <tr><td>Water Act 1974</td><td><b>33</b></td><td>Boards apply to courts to stop apprehended pollution</td></tr>
+              <tr><td>Water Act 1974</td><td><b>33B</b></td><td>Appeal to NGT (set up 2010)</td></tr>
+              <tr><td>Water Act 1974</td><td><b>41, 41A, 44</b></td><td>Board directions, court orders, no consent: 1.5-6 years + fine</td></tr>
+              <tr><td>Water Act 1974</td><td><b>42</b></td><td>Obstructing officers: up to 3 months or ₹10,000</td></tr>
+              <tr><td>Water Act 1974</td><td><b>43</b></td><td>Breaking Section 24: 1.5-6 years (most severe)</td></tr>
+              <tr><td>Water Act 1974</td><td><b>45</b></td><td>Continuing violation: ₹5,000 per day</td></tr>
+              <tr><td>Water Act 1974</td><td><b>46</b></td><td>Companies: directors, managers, engineers liable</td></tr>
+              <tr><td>Water Act 1974</td><td><b>47</b></td><td>Govt departments: Head of Department liable</td></tr>
+              <tr><td>Forest (Conservation) Act 1980</td><td><b>2</b></td><td>No non-forest use or de-reserving without prior Central approval</td></tr>
+              <tr><td>Wildlife (Protection) Act 1972</td><td><b>Schedule I</b></td><td>Highest protection: tiger, elephant, rhino, snow leopard, great Indian bustard; 3 to 7 years + fine</td></tr>
+            </tbody>
+          </table>
+        ` },
+      ],
+      flashcards: [
+        { front: 'EPA Sections 3, 6, 7, 8, 10?', back: 'Powers, standards, no discharge beyond standards, hazardous substances, inspection.' },
+        { front: 'Air Act Sections 19, 21, 24, 31A?', back: 'Control areas, consent, chimney samples, emergency closure.' },
+        { front: 'Section 21 in the Air Act vs the Water Act?', back: 'Air: <b>consent</b>. Water: <b>effluent samples</b>.' },
+        { front: 'Section 24 in the Air Act vs the Water Act?', back: 'Air: <b>chimney samples</b>. Water: <b>absolute ban</b> on polluting streams and wells.' },
+        { front: 'Water Act penalty for a continuing violation?', back: '<b>Section 45</b>: ₹5,000 per day.' }
+      ],
+      oneLiners: [
+        'EPA 3-6-7-8-10: power, limit, line, gas, inspector.',
+        'Air Act 2(a)-19-21-24-31A: define, zone, consent, chimney, close.',
+        'Water Act 24-27: ban, new, old, gone; 33B goes to the NGT.'
+      ],
+      formulas: []
+    },
+    {
       id: 'm6-names',
       title: 'Names, full forms, places and organisms',
       short: 'Names & full forms',
